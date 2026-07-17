@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Génération procédurale dans Corsair Cove : Guide d'aménagement et d'exploration",
+  description: "Maîtrisez les îles générées de manière procédurale et les événements mondiaux de Corsair Cove. Apprenez les stratégies d'aménagement, les chaînes de production et la gestion de flotte pour le lancement de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Procedural+Generation+Guide",
+  date: "2026-07-17",
+  author: "Équipe Wiki de Corsair Cove",
+  keywords: "corsair cove, génération procédurale, aménagement, guide de survie, gestion de flotte"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mot-clé principal** : Maîtriser le paysage **généré de manière procédurale de Corsair Cove** est la clé d'une croissance efficace de la colonie et de la domination de la flotte.
+- **Construction verticale** : Utilisez des terrasses à flanc de falaise, des tyroliennes et des ponts pour surmonter les terrains escarpés et le manque de terres plates.
+- **Cœur logistique** : Gardez les routes de production courtes ; les lignes vertes indiquent une logistique saine, tandis que les lignes rouges signalent des goulots d'étranglement.
+- **Cohésion de l'équipage** : Équilibrez la croissance de la population avec les besoins en nourriture, boisson et logement pour éviter que les pirates n'abandonnent votre crique.
+- **Combat stratégique** : Adaptez les statistiques des navires et les traits des capitaines aux objectifs spécifiques des événements mondiaux plutôt que de vous fier uniquement au niveau brut.
+</Callout>
+
+<Section icon={Map} title="Naviguer sur la carte générée de manière procédurale de Corsair Cove">
+
+À l'approche de la date de sortie du 31 juillet 2026, maîtriser le monde **généré de manière procédurale de Corsair Cove** devient essentiel pour tout futur seigneur pirate. Contrairement aux jeux de construction de ville traditionnels avec des cartes statiques, Corsair Cove met les joueurs au défi avec des agencements d'îles dynamiques, des placements de nœuds de ressources variables et des événements de carte du monde changeants. Cette nature procédurale signifie qu'aucune partie n'est identique, nécessitant une compréhension approfondie des mécaniques de base plutôt que des schémas mémorisés.
+
+Le jeu propose une construction verticale sur les falaises et les îles, où chaque bâtiment doit être connecté au cœur de la colonie. Comme le terrain est généré de manière dynamique, les joueurs doivent adapter leur « Cœur de Port Connecté » à la géographie spécifique de leur île de départ. Que vous ayez affaire à un archipel étendu ou à une falaise massive unique, les principes de proximité et de logistique restent les principaux moteurs du succès.
+
+| Caractéristique | Description | Impact Stratégique |
+| :--- | :--- | :--- |
+| **Géométrie de l'île** | Falaises, collines et rivages procéduraux. | Force la pensée verticale et l'utilisation de ponts/tyroliennes. |
+| **Nœuds de ressources** | Placement aléatoire du fer, du cuivre et du bois. | Détermine l'emplacement des camps de pirates isolés. |
+| **Événements mondiaux** | Apparitions dynamiques de raids, forts et expéditions. | Nécessite une flotte polyvalente capable de diverses tâches. |
+| **Voies de la Boussole** | Quatre branches de progression (Notoriété, Empire, etc.). | Débloque des bâtiments spécialisés selon votre style de jeu. |
+| **Besoins de l'équipage** | Exigences échelonnées pour la nourriture, le luxe et l'équipement. | Évolue avec la population et la complexité de la colonie. |
+
+<Callout type="tip" title="Conseil d'exploration">
+Avant de vous étendre vers une nouvelle île ou un nœud de ressources lointain, vérifiez toujours la « Vue de l'île » pour identifier le chemin de connexion le plus efficace. La génération procédurale peut créer des raccourcis trompeurs qui sont en réalité bloqués par la hauteur du terrain.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Meilleurs modèles d'aménagement pour les îles dynamiques">
+
+La verticalité de *Corsair Cove* est sa caractéristique la plus marquante. Pour maximiser l'efficacité sur le terrain **généré de manière procédurale de Corsair Cove**, vous devez dépasser la planification horizontale. Le jeu permet la construction sur plusieurs niveaux, en utilisant des terrasses et des transports spécialisés pour déplacer les marchandises et les personnes.
+
+<CardGrid cols={3}>
+  <Card title="Cœur du Port">
+    - **Proximité** : Gardez les premiers logements près de la jetée.
+    - **Efficacité** : Routes courtes pour les biens de base.
+    - **Fondation** : La base de toute expansion future.
+  </Card>
+  <Card title="Terrasse de Production">
+    - **Verticalité** : Construisez la transformation sur les rebords de falaise.
+    - **Flux** : Descendez les matières premières vers le port.
+    - **Espace** : Préserve les terres plates pour les services essentiels.
+  </Card>
+  <Card title="Avant-postes Reculés">
+    - **Rayon** : Placez des camps près des nœuds de ressources éloignés.
+    - **Autonomie** : Doivent fournir nourriture et logement locaux.
+    - **Lien** : Connectez via une route à haute efficacité.
+  </Card>
+</CardGrid>
+
+Les aménagements efficaces ne sont pas seulement esthétiques ; ils visent à minimiser le temps de trajet. Le jeu utilise un système de lignes colorées pour visualiser la logistique : les routes vertes sont optimales, les jaunes sont sous-optimales, et les rouges indiquent des goulots d'étranglement sévères qui bloqueront la production.
+
+| Modèle d'Aménagement | Idéal pour | Exigence Clé |
+| :--- | :--- | :--- |
+| **Colonne Vertébrale** | Colonies de départ et hubs de services. | Accès de distribution centralisé. |
+| **Couches de Falaise** | Chaînes de production à plusieurs étapes. | Tyroliennes ou ascenseurs pour la vitesse verticale. |
+| **Hub de Carrefour** | Joindre plusieurs districts ou îles. | Ponts et hubs de jonction bien positionnés. |
+| **Boucle d'Importation** | Utiliser des biens pillés ou volés. | Connexion directe entre le quai et la production. |
+
+<Callout type="warning" title="Alerte Logistique">
+Une connexion visuellement courte peut toujours être « rouge » si le terrain oblige le chemin à serpenter excessivement. Surveillez toujours l'overlay logistique après avoir placé de nouveaux bâtiments.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chaînes de production et gestion des ressources">
+
+Avec plus de 50 marchandises différentes à gérer, l'économie de *Corsair Cove* est complexe. La production est divisée en extraction de ressources locales, raffinage et consommation finale. Comme le monde est **généré de manière procédurale**, vos ressources disponibles dicteront vos priorités de commerce et de raid en début de partie.
+
+<Steps>
+  <Step num="1" title="Sécuriser les matières premières">
+    Établissez l'extraction pour le fer, le cuivre, le bois et la pierre. Placez ces bâtiments aussi près que possible des nœuds pour réduire le temps de trajet initial.
+  </Step>
+  <Step num="2" title="Raffiner et transformer">
+    Convertissez les matières premières en blocs de pierre, planches de bois dur et charbon de bois. Assurez-vous que ces usines de transformation sont situées entre la source et le hub de distribution.
+  </Step>
+  <Step num="3" title="Stabiliser les provisions">
+    Construisez des chaînes pour le biscuit de mer, le ragoût et la bière. Ceux-ci sont essentiels pour maintenir la satisfaction de vos pirates de base et des travailleurs de la colonie.
+  </Step>
+  <Step num="4" title="Équipement avancé">
+    À mesure que vous recrutez des spécialistes, commencez à produire des longues-vues, des médicaments et des sabres. Ces produits nécessitent des chaînes plus complexes mais sont nécessaires pour les voyages de haut niveau.
+  </Step>
+</Steps>
+
+| Branche de Ressources | Biens Principaux | Priorité de Gestion |
+| :--- | :--- | :--- |
+| **Besoins de Base** | Biscuit de mer, Bière, Rhum, Ragoût | Haute - Empêche l'abandon de l'équipage. |
+| **Construction** | Pierre, Bois, Fer, Fibre | Haute - Essentiel pour toute expansion. |
+| **Militaire** | Canons, Poudre noire, Pistolets | Moyenne - Nécessaire pour la défense et les raids. |
+| **Luxe** | Bijoux, Tenues élégantes, Tabac | Basse - Requis pour les marins d'élite uniquement. |
+| **Expédition** | Pièces, Grain, Argent, Vin | Variable - Souvent obtenu via des événements mondiaux. |
+
+<Callout type="success" title="Conseil d'efficacité">
+Utilisez régulièrement la « Boucle de diagnostic des goulots d'étranglement ». Sélectionnez un bâtiment à l'arrêt pour voir exactement quelle ressource manque et où le retard se produit dans la chaîne logistique.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rôles de l'équipage et cohésion de la colonie">
+
+Gérer votre équipage est tout aussi important que de construire la ville. *Corsair Cove* distingue différents types de pirates, chacun ayant des exigences de logement et d'entretien uniques. Le compteur de « Cohésion » globale agit comme votre horloge de survie ; s'il atteint zéro, votre partie s'arrête.
+
+<Checklist
+  id="crew-stability"
+  title="Liste de contrôle anti-abandon :"
+  items={[
+    "Construisez des logements adéquats avant d'assigner de nouveaux travailleurs.",
+    "Maintenez une réserve de Vagabonds pour les tâches de construction.",
+    "Approvisionnez localement chaque camp de pirates en nourriture et boisson.",
+    "Surveillez le panneau des ressources pour détecter les déficits de production.",
+    "Mettez en pause les bâtiments non essentiels pendant les pénuries de main-d'œuvre."
+  ]}
+/>
+
+| Rôle de l'Équipage | Fonction Principale | Exigence de Logement |
+| :--- | :--- | :--- |
+| **Vagabonds** | Main-d'œuvre non assignée pour la construction. | Logement de base (Requis). |
+| **Transporteurs** | Déplacement des biens via la logistique. | Logement standard + Entretien. |
+| **Production** | Exploitation des lieux de travail et des nœuds. | Logement standard + Biens échelonnés. |
+| **Spécialistes** | Navigateurs, Maraudeurs, Vigies. | Équipement avancé + Biens de luxe. |
+| **Marins d'Élite** | Corsaires vétérans pour les événements risqués. | Luxe haut de gamme + Outils spécialisés. |
+
+<Callout type="info" title="Note de gestion">
+Les Vagabonds sont votre atout le plus flexible. Gardez toujours un petit groupe de pirates non assignés pour garantir que les nouveaux projets de construction ou les réparations ne stagnent pas parce que tout le monde est occupé dans un atelier.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Préparation de la flotte et combat naval">
+
+La carte du monde est remplie d'événements **générés de manière procédurale dans Corsair Cove** qui fournissent les ressources dont votre île pourrait manquer. Des transports de contrebandiers aux expéditions de temples anciens, votre flotte doit être prête pour des défis diversifiés.
+
+Le combat naval dans *Corsair Cove* se joue au tour par tour et repose sur une combinaison de statistiques de navires, de traits de capitaines et de réserves de dés. Le succès est déterminé par l'adéquation du bon navire à la bonne rencontre.
+
+| Classe de Navire | Santé | Équipage/Fournitures | Meilleure Utilisation |
+| :--- | :--- | :--- | :--- |
+| **Marin d'eau douce** | 24 | 15 / 20 | Reconnaissance et raids de base au début. |
+| **Lame d'Acier** | 88 | 15 / 22 | Combat de milieu de partie et cibles fortifiées. |
+| **Poing de Fer** | 65 | 12 / 18 | Escorte défensive à haute durabilité. |
+| **Ombre Agile** | 42 | 10 / 25 | Expéditions longue distance et contrebande. |
+
+**Étapes du flux de combat :**
+1. **Lire les objectifs** : Identifiez si le but est de détruire l'ennemi, de réduire la distance ou de piller des biens.
+2. **Vérifier les actions ennemies** : L'adversaire révèle son intention ; choisissez de contrer ou de pousser votre objectif.
+3. **Gérer les fournitures** : La plupart des cartes de bataille coûtent des fournitures ; utilisez les cartes de soutien pour les récupérer pendant le combat.
+4. **Lancer les dés** : Des résultats plus élevés améliorent les issues, mais les attaquants et les défenseurs peuvent résoudre leurs actions simultanément.
+
+<Callout type="tip" title="Stratégie de Capitaine">
+Des capitaines comme « Teach » offrent des bonus massifs à des styles de jeu spécifiques. La capacité « Facile comme un meurtre » de Teach vous permet d'enchaîner des dés supplémentaires tant que vous infligez des dégâts à la santé ennemie. Faites correspondre votre capitaine aux meilleures statistiques de votre navire.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="La Boussole : Progression et événements mondiaux">
+
+La Boussole est le cœur de votre progression à long terme. En accomplissant des Hauts Faits et des quêtes secondaires, vous gagnez des Points de Principe à dépenser à travers quatre voies distinctes. Ce système vous permet de spécialiser votre expérience **générée de manière procédurale**.
+
+| Voie de la Boussole | Focus | Déblocages Clés |
+| :--- | :--- | :--- |
+| **Notoriété** | Réputation pirate et peur. | Missions agressives et bonus de combat. |
+| **Empire** | Société et croissance de la colonie. | Logements avancés et bâtiments de service. |
+| **Navigation** | Navires et exploration. | Coques plus robustes et voyages plus rapides. |
+| **Richesse** | Économie et production. | Efficacité des ressources et commerce. |
+
+<Callout type="tip" title="Conseil de progression">
+Vous n'êtes pas obligé de vous en tenir à une seule voie. Bien que maîtriser un Principe débloque des constructions spécialisées puissantes, répartir les points sur les quatre offre une colonie plus équilibrée et résiliente pour les débutants.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Comment la génération procédurale affecte-t-elle mon aménagement ?",
+    answer: "Comme les îles sont générées de manière procédurale, les nœuds de ressources et la hauteur des falaises changent à chaque partie. Vous devez utiliser des outils flexibles comme les ponts, les tyroliennes et plusieurs camps de pirates pour vous adapter à la géographie spécifique de votre carte."
+  },
+  {
+    question: "Quelle est la cause la plus fréquente d'un Game Over ?",
+    answer: "L'échec le plus courant est le compteur de Cohésion atteignant zéro. Cela arrive généralement lorsque la population croît plus vite que votre capacité à fournir logement, nourriture et boisson, entraînant l'abandon des pirates et l'effondrement de la colonie."
+  },
+  {
+    question: "Puis-je changer de capitaine après la construction d'un navire ?",
+    answer: "Oui, vous pouvez changer de capitaine librement à la jetée avant qu'un navire ne prenne la mer. Il est fortement recommandé d'adapter les traits uniques de votre capitaine aux exigences spécifiques de l'événement mondial visé."
+  },
+  {
+    question: "Comment corriger une ligne logistique rouge ?",
+    answer: "Une ligne rouge signifie que la distance de trajet est trop longue. Vous pouvez corriger cela en déplaçant le bâtiment de production plus près du hub de distribution, en ajoutant une connexion plus directe (comme un pont), ou en plaçant un nouveau camp de pirates plus près du nœud de ressource."
+  }
+]} />
+
+</Section>

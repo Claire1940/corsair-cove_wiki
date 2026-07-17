@@ -1,0 +1,183 @@
+import { Map, Target, Users, Settings, Shield, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Corsair Cove : Comment déplacer les pirates vers différents camps et gérer les avant-postes",
+  description: "Apprenez à déplacer les pirates vers différents camps dans Corsair Cove, à gérer les rayons d'action et à optimiser l'affectation de l'équipage pour une efficacité maximale de la colonie.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Move+Pirates+Guide",
+  date: "2026-07-17",
+  author: "Équipe Wiki de Corsair Cove",
+  keywords: "corsair cove, déplacer pirates, gestion de camp, avant-postes, logistique"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mécanique de base** : Dans les opérations pour **déplacer les pirates vers différents camps dans Corsair Cove**, l'affectation se gère via l'interface des bâtiments et la proximité des logements.
+- **Rayon d'action** : Chaque camp de pirates possède un rayon de construction et de service spécifique ; les travailleurs doivent résider dans le camp desservant leur lieu de travail.
+- **Gestion des Vagabonds** : Gardez une réserve de Vagabonds (Drifters) sans emploi pour garantir que les nouveaux camps disposent d'une main-d'œuvre immédiate pour la construction.
+- **Connectivité logistique** : Assurez-vous que tous les camps sont reliés à la colonie principale via des routes logistiques codées en vert pour maintenir l'approvisionnement.
+- **Suivi de la satisfaction** : Surveillez la satisfaction locale par camp, car les pénuries dans un avant-poste peuvent amener les pirates à abandonner la colonie.
+</Callout>
+
+<Section icon={Map} title="Comprendre la mécanique des camps de pirates">
+
+Dans Corsair Cove, la colonie n'est pas une entité monolithique unique mais un réseau de **Camps de Pirates** interconnectés. Gérer votre équipage efficacement nécessite de comprendre que les pirates ne sont pas de simples chiffres globaux ; ce sont des entités physiques liées à des emplacements spécifiques. Lorsque les joueurs demandent **comment déplacer les pirates vers différents camps dans Corsair Cove**, ils font généralement face à l'expansion de leur territoire à travers les falaises verticales et les îles du jeu.
+
+Chaque camp de pirates sert de hub qui définit où vos pirates vivent, travaillent et consomment des ressources. Contrairement aux jeux de construction de ville traditionnels où les travailleurs peuvent traverser toute la carte, Corsair Cove utilise un système de **Rayon d'Action**. Si un nœud de ressources ou un bâtiment de production est placé trop loin d'un camp existant, il manquera de la main-d'œuvre et du soutien logistique nécessaires pour fonctionner.
+
+<Callout type="info" title="Rayon de construction vs Rayon d'action">
+Le rayon de construction vous permet de placer des structures, mais le rayon d'action détermine quel camp fournit les « Collecteurs » (Fetchers) et les « Bâtisseurs » pour ces structures. Déplacer les pirates efficacement signifie équilibrer la population entre ces hubs.
+</Callout>
+
+| Caractéristique du camp | Description | Impact sur l'équipage |
+| :--- | :--- | :--- |
+| **Rayon de construction** | La zone où de nouvelles structures peuvent être placées | Limite le potentiel d'expansion |
+| **Rayon d'action** | La zone où le camp fournit des services | Détermine l'affectation des travailleurs |
+| **Satisfaction locale** | Besoins satisfaits dans le rayon spécifique du camp | Empêche l'abandon de l'équipage |
+| **Capacité de logement** | Nombre total de lits disponibles dans la zone du camp | Limite la population locale |
+
+</Section>
+
+<Section icon={Target} title="Comment déplacer les pirates vers différents camps">
+
+Le processus de déplacement des pirates dans Corsair Cove est intégré aux systèmes de logement et d'affectation des tâches. Vous ne « faites pas glisser » manuellement un pirate d'un camp à un autre ; à la place, vous créez les conditions qui les attirent vers le nouvel emplacement. Ceci est crucial lorsque vous découvrez des gisements de ressources lointains comme le fer ou le cuivre qui nécessitent une main-d'œuvre dédiée.
+
+Pour réussir le transfert de votre population, vous devez suivre une séquence spécifique de construction et d'affectation. Ne pas répondre aux besoins de base dans un nouveau camp tout en déplaçant des pirates entraînera une chute rapide de la **Cohésion**, ce qui pourrait mettre fin à votre partie.
+
+<Steps>
+  <Step num="1" title="Établir un nouveau camp de pirates">
+    Placez un nouveau camp de pirates près du gisement de ressources ou de la terrasse verticale que vous souhaitez développer. Assurez-vous que ce camp a une connexion physique (pont, sentier ou tyrolienne) avec la colonie principale.
+  </Step>
+  <Step num="2" title="Construire des logements locaux">
+    Construisez des structures résidentielles dans le rayon d'action du nouveau camp. Les pirates occuperont automatiquement les logements proches de leur lieu de travail assigné ou là où des lits sont disponibles.
+  </Step>
+  <Step num="3" title="Assigner des rôles de travail">
+    Ouvrez l'interface du bâtiment de production (ex: une scierie). Assignez le nombre requis de pirates. Le jeu donnera la priorité aux « Vagabonds » (Drifters) provenant des logements disponibles les plus proches.
+  </Step>
+  <Step num="4" title="Vérifier les liens logistiques">
+    Vérifiez les lignes logistiques. Si la route entre le logement et le lieu de travail est jaune ou rouge, envisagez de rapprocher le logement ou d'ajouter un hub de connexion plus direct.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Conseil d'affectation">
+Gardez toujours une réserve de Vagabonds (pirates sans emploi). Lorsque vous construisez un nouveau camp, ce sont ces Vagabonds qui sont les premiers à « déménager » et à s'installer dans la nouvelle zone pour commencer la construction des installations permanentes.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Rôles de l'équipage et priorités d'affectation">
+
+Tous les pirates ne sont pas égaux lorsqu'il s'agit de se déplacer entre les camps. Corsair Cove distingue plusieurs niveaux d'équipage, chacun ayant des exigences croissantes. Déplacer un simple « Collecteur » est facile, mais déplacer des « Marins Spécialistes » ou des « Corsaires d'Élite » nécessite une chaîne d'approvisionnement de luxe préexistante dans le camp de destination.
+
+Lors de la planification de vos stratégies pour **déplacer les pirates vers différents camps dans Corsair Cove**, consultez la comparaison des rôles suivante pour vous assurer d'avoir l'infrastructure nécessaire pour soutenir le mouvement.
+
+| Rôle | Besoin de logement | Niveau d'entretien | Priorité de mouvement |
+| :--- | :--- | :--- | :--- |
+| **Vagabonds** | Obligatoire | Faible (Pas d'entretien lié au travail) | Haute (Construction) |
+| **Collecteurs** | Obligatoire | Modéré | Haute (Logistique) |
+| **Travailleurs de production** | Obligatoire | Modéré à Élevé | Moyenne (Ressource spécifique) |
+| **Spécialistes** | Obligatoire | Élevé (Équipement) | Basse (Rester près du quai/forts) |
+| **Marins d'Élite** | Obligatoire | Très élevé (Produits de luxe) | Basse (Rôles spécialisés) |
+
+<CardGrid cols={3}>
+  <Card title="Réserve de Vagabonds">
+    Maintenez au moins 10 à 15 % de votre population en tant que Vagabonds pour garantir que les nouveaux camps puissent être construits rapidement sans bloquer les chaînes existantes.
+  </Card>
+  <Card title="Proximité du logement">
+    Les pirates préfèrent un logement situé à une distance « Verte » de leur lieu de travail. Les longs trajets réduisent l'efficacité et la satisfaction.
+  </Card>
+  <Card title="Spécialisation des rôles">
+    N'assignez des spécialistes qu'aux camps ayant un accès direct à l'équipement dont ils ont besoin, comme les sabres ou les médicaments.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Gestion de la main-d'œuvre">
+Si une chaîne de production stagne dans un camp éloigné, vérifiez si vous avez assez de Vagabonds. Vous devrez peut-être mettre en pause un bâtiment non essentiel dans le port principal pour « libérer » des travailleurs pour le nouvel avant-poste.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Optimisation de la logistique et des routes d'approvisionnement">
+
+Déplacer des pirates vers un camp éloigné n'est que la moitié de la bataille ; les y maintenir nécessite un réseau logistique robuste. Dans Corsair Cove, les marchandises comme le **Biscuit de mer**, l'**Ale** et le **Rhum** doivent être transportées physiquement vers le hub de distribution de chaque camp. Si la route de transport est trop longue, vos pirates deviendront insatisfaits et finiront par partir.
+
+Le jeu fournit un retour visuel via des lignes de connexion colorées. Lorsque vous sélectionnez un bâtiment ou un camp de pirates, portez une attention particulière à ces indicateurs :
+
+- **Lignes Vertes** : Distance optimale. Les marchandises et les pirates se déplacent rapidement.
+- **Lignes Jaunes** : Sous-optimal. L'efficacité est réduite ; envisagez d'ajouter un hub de distribution.
+- **Lignes Rouges** : Goulot d'étranglement critique. Les pirates risquent d'abandonner le camp en raison de la lenteur de l'approvisionnement.
+
+<Callout type="warning" title="Le piège de la ligne rouge">
+Une ligne logistique rouge vers les logements d'un camp de pirates est la cause principale de la « disparition » des pirates. Même si vous avez beaucoup de nourriture dans le port principal, elle n'« atteint » pas les pirates du camp éloigné.
+</Callout>
+
+| Outil logistique | Meilleur cas d'utilisation | Avantage |
+| :--- | :--- | :--- |
+| **Ponts** | Traverser des gouffres entre les falaises | Raccourcit les déplacements horizontaux |
+| **Tyroliennes** | Déplacer des marchandises entre les niveaux hauts et bas | Réduit considérablement le temps de trajet vertical |
+| **Hubs de connexion** | Points de jonction pour plusieurs routes | Organise des chemins logistiques complexes |
+| **Hubs de distribution** | Stockage intermédiaire pour les marchandises | Temporise l'approvisionnement des camps éloignés |
+
+</Section>
+
+<Section icon={Shield} title="Aménagements stratégiques pour les colonies multi-camps">
+
+Une conception efficace de la colonie dans Corsair Cove repose sur la création de clusters autosuffisants ou bien approvisionnés. Une fois que vous comprenez les mécaniques pour **déplacer les pirates vers différents camps dans Corsair Cove**, vous pouvez commencer à utiliser des modèles d'aménagement avancés qui tirent parti du terrain vertical.
+
+<Checklist
+  id="layout-optimization"
+  title="Liste de vérification de l'état de préparation de l'avant-poste :"
+  items={[
+    "Confirmer que le nouveau camp possède un chemin valide vers le port principal.",
+    "S'assurer que suffisamment de logements sont construits pour la main-d'œuvre prévue.",
+    "Vérifier que le hub de distribution local reçoit de la nourriture et des boissons.",
+    "Vérifier que le rayon d'action couvre les nœuds de ressources prévus.",
+    "Surveiller la jauge de Cohésion pendant les 5 premières minutes d'expansion."
+  ]}
+/>
+
+### Le modèle de camp de ressources éloigné
+C'est la raison la plus courante de déplacer des pirates. Lorsqu'un gisement précieux de fer ou de pierre est trouvé sur un sommet lointain :
+1.  **Placer le camp** : Positionnez-le de manière à ce que le rayon d'action englobe les nœuds de ressources.
+2.  **Ajouter logements et services** : Construisez assez de logements pour les mineurs et au moins une taverne pour l'Ale/Rhum.
+3.  **Relier via tyrolienne** : Utilisez une tyrolienne pour connecter le sommet directement au quartier de production en contrebas. Cela garantit que les matières premières descendent et que les fournitures montent avec un délai minimal.
+
+<Callout type="info" title="La verticalité compte">
+Dans Corsair Cove, un bâtiment visuellement proche mais situé sur un niveau de falaise différent peut avoir une distance de connexion « Rouge ». Utilisez toujours des ponts et des ascenseurs pour créer des raccourcis.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dépannage et FAQ">
+
+Gérer une population de pirates sur plusieurs camps peut être difficile, surtout à mesure que la colonie grandit et que la pression de la Couronne augmente. Vous trouverez ci-dessous les problèmes les plus courants que les joueurs rencontrent en essayant de déplacer ou de réaffecter leur équipage.
+
+<Callout type="tip" title="Dernier conseil d'expert">
+Si vos pirates partent malgré le fait qu'ils aient un travail et une maison, vérifiez l'onglet **Satisfaction locale** dans l'interface du Camp de Pirates. Il vous indiquera exactement quelle marchandise (ex: Ragoût, Bottes ou Tabac) ne parvient pas à atteindre ce camp spécifique.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Comment forcer un pirate à emménager dans une maison spécifique ?",
+    answer: "Vous ne pouvez pas déplacer manuellement des pirates individuels. À la place, assurez-vous que la maison que vous souhaitez qu'ils occupent se trouve dans le rayon d'action de leur lieu de travail. Les pirates gravitent naturellement vers le logement disponible le plus proche de leur travail."
+  },
+  {
+    question: "Pourquoi mon nouveau camp de pirates affiche-t-il zéro travailleur alors que j'ai des Vagabonds ?",
+    answer: "Vérifiez la connexion logistique. Si le nouveau camp n'est pas physiquement relié au reste de la colonie par un sentier, un pont ou un hub, les Vagabonds ne peuvent pas s'y rendre pour commencer le travail. Assurez-vous également que le camp n'est pas en pause dans l'interface."
+  },
+  {
+    question: "Un camp de pirates peut-il partager ses ressources avec un autre automatiquement ?",
+    answer: "Les ressources sont partagées globalement dans l'interface, mais elles doivent être livrées physiquement aux hubs de distribution dans le rayon de chaque camp. Les Collecteurs s'occupent de ce transport, mais ils ont besoin de routes valides et efficaces pour le faire efficacement."
+  },
+  {
+    question: "Que se passe-t-il si la satisfaction d'un camp de pirates tombe à zéro ?",
+    answer: "Les pirates de ce camp spécifique commenceront à abandonner la colonie. Cela provoque une pénalité à votre Cohésion globale. Si la Cohésion tombe à zéro, votre partie se termine. Il vaut mieux mettre la production en pause dans un camp mécontent que de le laisser drainer votre Cohésion."
+  }
+]} />
+
+</Section>

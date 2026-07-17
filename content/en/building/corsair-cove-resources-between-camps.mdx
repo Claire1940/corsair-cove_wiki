@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Coins } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "corsair cove resources between camps: Efficiency & Farming Guide",
+  description: "Learn how to find and manage corsair cove resources between camps. Optimize your pirate colony with diamond events, ship upkeep, and satisfaction tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a2b3c/fff?text=Resources+Between+Camps",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Diamond Events**: Focus on the diamond icons on the campaign map to find **corsair cove resources between camps** for free.
+- **Immediate Setup**: Always use the **pause button** (Spacebar) when establishing new camps to build satisfaction structures instantly.
+- **Ship Progression**: Unlocking new ship classes like the Destroyer or Prowler is the primary way to unlock new **upkeep buildings**.
+- **Specialized Production**: Individual camps should focus on specific outputs (Rum, Gunpowder, Cassava) once 100% satisfaction is achieved.
+- **Crew Management**: Advanced crews require specific resources like **medication and boots** which are unlocked as you upgrade your fleet.
+</Callout>
+
+<Section icon={Map} title="Exploring for Resources Between Camps">
+
+The campaign map in Corsair Cove is more than just a navigation tool; it is a vital source of materials that can sustain your colony during early-game expansion. While individual pirate camps produce the bulk of your trade goods, the space between these hubs contains hidden treasures that are essential for maintaining a high-performance fleet.
+
+**Video Highlights:**
+- How to identify "Diamond" events on the campaign map.
+- The importance of sailing into the fog of war to find free upkeep resources.
+- Understanding the difficulty markers (1 and 2) on neighboring islands.
+- Utilizing different ship classes for events regardless of game recommendations.
+
+<YouTubeEmbed videoId="2SubmGonPKU" title="5 TOP TIPS FOR ASPIRING PIRATE LEADERS | Corsair Cove" />
+
+When you zoom out to the campaign map, your primary focus should be the diamond-shaped icons scattered across the ocean. These represent random events and salvage opportunities where you can pick up free **corsair cove resources between camps** without engaging in heavy production. These caches often contain upkeep items, gold, and even free pirate recruits to bolster your crew.
+
+| Event Type | Typical Rewards | Difficulty Level | Strategy |
+| :--- | :--- | :--- | :--- |
+| **Diamond Salvage** | Upkeep Resources, Raw Materials | Low (Level 1) | Send any available ship to collect free loot. |
+| **Island Events** | Rare Items, New Recruits | Medium (Level 2) | Use ships with high boarding strength or speed. |
+| **Fog Exploration** | Map Reveal, Hidden Caches | Variable | Always keep one Prowler exploring the edges. |
+| **Wreckage Sites** | Timber, Scraps, Basic Upkeep | Low | Great for early-game camp stabilization. |
+
+<Callout type="tip" title="Exploration Tip">
+Don't be strictly bound by the game's "Recommended Ship" for campaign events. If your current ship, such as a high-level Destroyer, has better armor and damage stats than the recommended Reaver, use it to ensure a 100% success rate on resource gathering.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimizing Camp Satisfaction and Stability">
+
+Maintaining 100% satisfaction is the prerequisite for efficient resource extraction. If your camp falls into turmoil, production halts, and your access to **corsair cove resources between camps** becomes irrelevant because your internal supply chain collapses. The secret to a stable camp lies in the "Pause" mechanic and a specific building layout.
+
+When establishing a new pirate camp, the very first action you must take is pressing the **Spacebar** to pause the game. This allows you to lay down the entire infrastructure before the first pirate even sets foot on the shore, preventing satisfaction from ever dropping below the threshold.
+
+| Building Name | Priority | Function | Placement Tip |
+| :--- | :--- | :--- | :--- |
+| **Moonshine Still** | Critical | Produces basic spirits for the Tavern | Place adjacent to the Tavern for fast transport. |
+| **Campfire** | Critical | Basic social gathering point | Centralize near the tents (minimum 6 tents). |
+| **Galley** | High | Processes raw food into meals | Place directly above or below the food source. |
+| **Tavern** | High | Distributes alcohol and boosts morale | Place directly above or below the Moonshine Still. |
+
+<Callout type="warning" title="Turmoil Prevention">
+Never let a camp run without at least six tents connected to a campfire. Without this basic housing and social structure, your pirates will quickly lose satisfaction, leading to a total production shutdown that can bankrupt your early-game economy.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="Ship Upkeep and Production Unlocks">
+
+In Corsair Cove, your naval progress is directly tied to your industrial capabilities. You cannot simply build advanced resource buildings from the start; you must unlock them by commissioning new ship classes. This creates a loop where finding **corsair cove resources between camps** helps you build ships, which then unlock the buildings needed to produce those resources permanently.
+
+<CardGrid cols={3}>
+  <Card title="Destroyer Class">
+    Unlocks the **Sugarcane Farm** and **Distillery**. Essential for producing Rum, which is the primary upkeep for Picaroons and high-tier crew members.
+  </Card>
+  <Card title="Prowler Class">
+    Unlocks specialized scouting tools and advanced **Outfitter** buildings. Needed for producing boots and specialized pirate gear.
+  </Card>
+  <Card title="Reaver/Hunter Class">
+    Focuses on combat efficiency. Unlocks the **Surgeon** and **Barber** buildings, which are required for medical upkeep and crew health.
+  </Card>
+</CardGrid>
+
+Different crew members provide specific stat bonuses but come with unique hiring and upkeep costs. For example, Scallywags require Cassava bread, while Crows Eyes might require specialized outfits. By checking the "On Hover" stats of your crew, you can plan which camp needs to specialize in which resource.
+
+| Crew Type | Bonus Stats | Upkeep Requirement | Associated Building |
+| :--- | :--- | :--- | :--- |
+| **Swabbies** | None (Default) | Basic Food | Galley |
+| **Scallywags** | +Boarding Strength | Cassava Bread | Cassava Farm |
+| **Picaroons** | +Gun Damage | Rum | Distillery & Cooper |
+| **Bombardiers** | +Splash Damage | Gunpowder | Char Burner & Guano Pit |
+| **Crows Eyes** | +Maneuverability | Specialized Outfits | Outfitter |
+
+<Callout type="success" title="Production Chain Tip">
+To produce Rum effectively, you need both a **Sugarcane Farm** and a **Cooper** (Barrel Maker). The Distillery combines Sugarcane and Barrels to export Rum. Ensure your transport routes between these three buildings are as short as possible.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step: Setting Up a Resource Hub">
+
+Once you have mastered finding **corsair cove resources between camps**, you need to funnel them into specialized hubs. You don't need every camp to produce everything. Instead, use the natural resources of an island to determine its specialization.
+
+<Steps>
+  <Step num="1" title="Island Selection">
+    Zoom out and press 'Alt' to see available extractable resources. Choose an island based on what you lack (e.g., an island with Guano is perfect for a Gunpowder hub).
+  </Step>
+  <Step num="2" title="The 'Pause' Foundation">
+    Immediately pause the game. Build the Pirate Camp, Moonshine Still, Campfire, Galley, and Tavern. Surround them with at least 6 tents.
+  </Step>
+  <Step num="3" title="Specialized Extraction">
+    Build your primary extraction buildings (e.g., Char Burners for wood, Guano Pits for nitrate). Connect these to your storage and export docks.
+  </Step>
+  <Step num="4" title="Upkeep Integration">
+    Assign a ship to the new camp. If the camp produces Cassava bread, use it to recruit Scallywags for your fleet, reducing your reliance on external resources.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Resource Logic">
+As long as the four core satisfaction buildings are operational and the pirates are 100% happy, it does not matter what the camp produces. You can have a camp dedicated entirely to Gunpowder or entirely to Food without any negative impact on morale.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="2026 Progression Milestones">
+
+To become a legendary pirate leader in Corsair Cove, you must hit specific industrial and naval milestones. Use this checklist to track your progress through the 2026 campaign.
+
+<Checklist
+  id="pirate-leader-goals"
+  title="Leadership Milestones:"
+  items={[
+    "Establish three specialized camps (Food, Rum, Gunpowder)",
+    "Achieve 100% satisfaction across all colonies using the Pause method",
+    "Unlock the Destroyer class ship to access the Rum production chain",
+    "Clear all Level 1 and Level 2 Diamond events on the local map",
+    "Equip a ship with a full crew of specialized Picaroons or Bombardiers",
+    "Discover the fog-covered islands beyond the starting archipelago"
+  ]}
+/>
+
+| Milestone | Reward | Impact on Gameplay |
+| :--- | :--- | :--- |
+| **First Rum Export** | Tier 2 Satisfaction | Unlocks high-tier pirate recruitment and better ship stats. |
+| **Gunpowder Mastery** | Advanced Weaponry | Increases gun damage by 25% for all assigned ships. |
+| **Medication Unlock** | Fleet Longevity | Allows ships to stay at sea longer without returning for repairs. |
+
+<Callout type="tip" title="Professional Advice">
+Always keep a "Prowler" class ship active on the map. Its high maneuverability and speed make it the perfect vessel for darting between camps to pick up the **corsair cove resources between camps** that spawn in the diamond events, saving your heavier Destroyers for combat duties.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I find the best corsair cove resources between camps?",
+    answer: "Zoom out to the campaign map and look for diamond-shaped icons in the open ocean. These are random events that provide free resources, upkeep items, and sometimes even new pirates."
+  },
+  {
+    question: "Why is my pirate camp satisfaction dropping even with food?",
+    answer: "Food is only one part of the equation. You must also provide a Moonshine Still, a Tavern, and a Campfire. Ensure you have at least 6 tents built and that all buildings are properly connected by paths."
+  },
+  {
+    question: "Do I need to build every resource building at every camp?",
+    answer: "No. It is better to specialize. One camp can focus on Rum production while another focuses on Gunpowder. As long as the basic satisfaction buildings are present, the camp will remain stable."
+  },
+  {
+    question: "How do I unlock the ability to make Rum or Medicine?",
+    answer: "These buildings are unlocked by building new ship classes. For example, building a Destroyer unlocks the Sugarcane Farm and Distillery, while other ships unlock Outfitters and Surgeons."
+  }
+]} />
+
+</Section>

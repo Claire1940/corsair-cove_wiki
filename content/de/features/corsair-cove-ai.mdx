@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Ship, Users, Construction } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove KI: Meistern Sie die Mechaniken des Piraten-Städtebauspiels",
+  description: "Erkunden Sie die Corsair Cove KI und die Städtebau-Mechaniken. Lernen Sie, wie Sie Pirateneinheiten verwalten, Produktionsketten optimieren und See-Expeditionen im Jahr 2026 überleben.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+AI+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki-Team",
+  keywords: "Corsair Cove, KI, Städtebau, Piraten, Strategie, Logistik, Expeditionen"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Corsair Cove KI**: Verwalten Sie das Verhalten von Fetchern und Hands effizient, um die Logistik Ihrer Pirateninsel zu automatisieren.
+- **Vertikaler Bau**: Konzentrieren Sie sich darauf, die Klippen hinaufzubauen, anstatt sich über Raster auszubreiten, um den begrenzten Platz auf der Insel optimal zu nutzen.
+- **Kohäsionsmanagement**: Halten Sie die Zufriedenheit der Piraten hoch, um zu verhindern, dass sich Ihre Crew auflöst und das Spiel verloren geht.
+- **See-Expeditionen**: Nutzen Sie einzigartige Kapitänsboni und Ressourcenmanagement bei Würfel-Events, um seltene Beute zu sichern.
+- **Produktions-Overdrive**: Nutzen Sie die Funktion „Alle Mann an Deck“, um den Ausstoß zu steigern, was jedoch die Arbeitsanforderungen verdoppelt.
+</Callout>
+
+<Section icon={Anchor} title="Einführung in die Corsair Cove KI und das Gameplay">
+
+**Corsair Cove KI** bringt eine erfrischende Wendung in das Genre der Städtebau-Simulationen, indem es Sie an die Spitze einer aufstrebenden Piratenzivilisation stellt. Entwickelt von Limbic Entertainment und veröffentlicht von Hooded Horse, konzentriert sich dieser Titel auf Vertikalität, Ressourcenmanagement und das einzigartige Verhalten Ihrer Pirateneinheiten. Im Gegensatz zu traditionellen rasterbasierten Aufbauspielen fordert Sie dieses Spiel heraus, tückische Klippen zu überwinden und die automatisierte Logik Ihrer Arbeiter zu optimieren, um in der rauen karibischen Umgebung zu überleben.
+
+**Video-Highlights:**
+- **Vertikalität**: Das Kern-Gameplay dreht sich um den Bau an Klippen mittels Brücken und Verbindungsstücken.
+- **Einheitentypen**: Verständnis des Unterschieds zwischen Hands (Arbeitern) und Fetchern (Logistikern).
+- **Früher Fortschritt**: Aufbau grundlegender Nahrungs- und Holzproduktionsketten zur Stabilisierung der Kolonie.
+- **Schiffbau**: Konstruktion Ihres ersten Schiffes, um die Abenteuer-Komponente des Spiels freizuschalten.
+
+<YouTubeEmbed videoId="AC_pY12kx7U" title="[First Look] Corsair Cove - Das Städtebauspiel über... Piraten?!?" />
+
+<Callout type="tip" title="Strategische Platzierung">
+Platzieren Sie Ihre Holzfäller und Sägewerke immer nah beieinander. Auch wenn die **Corsair Cove KI**-Fetcher effizient sind, erhöht die Minimierung der Laufwege die produzierten Planken pro Minute erheblich.
+</Callout>
+
+| Gebäudetyp | Primäre Funktion | Ressourcenkosten | Erforderliches Personal |
+| :--- | :--- | :--- | :--- |
+| **Piratenlager** | Zentraler Knotenpunkt / Lager | Keine (Start) | Keine |
+| **Zelte** | Wohnraum für 25 Piraten | Einfache Planken | Keine |
+| **Holzfäller** | Erzeugt Hartholz | Kostenlos | 1-2 Hands |
+| **Sägewerk** | Verarbeitet Planken | Hartholz | 2 Hands |
+| **Kombüse** | Serviert Essen für die Crew | Planken / Nahrung | 1 Hand |
+
+</Section>
+
+<Section icon={Construction} title="Vertikaler Städtebau und Infrastruktur">
+
+In Corsair Cove gehören die „Raster von gestern“ der Vergangenheit an. Die Karte wird durch Klippen, Wasserfälle und steile Höhenunterschiede definiert. Dies erfordert ein Umdenken: Sie bauen in die Höhe, nicht nur in die Breite. Die Infrastruktur wird über Brücken und spezialisierte Verbindungsstücke verknüpft, die es Ihren Piraten ermöglichen, verschiedene Ebenen der Insel zu durchqueren.
+
+<CardGrid cols={3}>
+  <Card title="Brückenmechanik">
+    - Verbindet Gebäude über Abgründe hinweg.
+    - Hat maximale Längenbegrenzungen.
+    - Essenziell, um höhere Klippenebenen zu erreichen.
+  </Card>
+  <Card title="Vertikale Verbindungen">
+    - Ermöglichen Bewegung zwischen verschiedenen Höhen.
+    - Sparen Bodenfläche für wichtige Industriezweige.
+    - Können später mit Seilrutschen aufgerüstet werden.
+  </Card>
+  <Card title="Platzoptimierung">
+    - Die Bodenebene ist für Schwerindustrie gedacht.
+    - Höhere Ebenen sind ideal für Wohnraum.
+    - Verhindert logistische Engpässe.
+  </Card>
+</CardGrid>
+
+Die **Corsair Cove KI** übernimmt die Pfadfindung für Ihre Piraten, aber schlecht konzipierte Brückennetzwerke können zu langen Reisezeiten führen. Wenn ein Fetcher drei verschiedene Klippen überqueren muss, um Moonshine zur Taverne zu bringen, wird Ihre Effizienz drastisch sinken.
+
+| Infrastruktur | Nutzen | Einschränkung |
+| :--- | :--- | :--- |
+| **Standardbrücke** | Einfache horizontale Verbindung | Begrenzte Reichweite / zerbrechlich |
+| **Vertikaler Mast** | Startpunkt für Seilrutschen | Erfordert große Höhe |
+| **Seilrutsche** | Schnellster Abwärtstransport | Funktioniert nur in eine Richtung |
+| **Steinpfad** | Erhöht die Gehgeschwindigkeit | Erfordert Freischaltung des Steinmetzes |
+
+<Callout type="warning" title="Logistik-Warnung">
+Überdehnen Sie Ihre Brücken zu Beginn nicht. Wenn ein Gebäude zu weit vom Piratenlager entfernt ist, könnten die Fetcher Schwierigkeiten haben, es zu versorgen, was zu Produktionsstopps führt.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Verwaltung von Pirateneinheiten und Produktionsketten">
+
+Ihre Bevölkerung besteht aus zwei Hauptrollen: **Hands** und **Fetchers**. Hands sind die Muskeln – sie arbeiten in Gebäuden wie dem Sägewerk oder der Moonshine-Brennerei. Fetchers sind das Gehirn der Operation; sie bewegen Ressourcen zwischen Produktionspunkten und dem Lager. Das Verständnis der **Corsair Cove KI**-Logik für diese Einheiten ist der Schlüssel zu einer blühenden Wirtschaft.
+
+<Steps>
+  <Step num="1" title="Holzproduktion etablieren">
+    Platzieren Sie einen Holzfäller, um Hartholz zu gewinnen. Bauen Sie danach ein Sägewerk, um das Hartholz in Planken zu verwandeln, die für fast jedes Gebäude im frühen Spiel benötigt werden.
+  </Step>
+  <Step num="2" title="Nahrungsversorgung sichern">
+    Bauen Sie eine Feuerstelle zur Verarbeitung von Rohzutaten und eine Kombüse, um das Essen zu servieren. Ohne eine stetige Nahrungsquelle sinkt die Zufriedenheit Ihrer Piraten, was ihre Arbeitseffizienz verringert.
+  </Step>
+  <Step num="3" title="Moonshine-Produktion starten">
+    Errichten Sie eine Moonshine-Brennerei. Moonshine ist die Hauptwährung für die Zufriedenheit der Piraten und unerlässlich für die Rekrutierung von Crewmitgliedern in der Taverne.
+  </Step>
+  <Step num="4" title="Overdrive aktivieren">
+    Nutzen Sie den Schalter „Alle Mann an Deck“ für kritische Gebäude. Dies bietet einen Produktionsschub von 50 %, verdoppelt jedoch die Anzahl der benötigten Hands, was Ihre Belegschaft belasten kann.
+  </Step>
+</Steps>
+
+| Ressource | Quelle | Anwendungsfall | KI-Priorität |
+| :--- | :--- | :--- | :--- |
+| **Hartholz** | Holzfäller | Rohmaterial für Planken | Mittel |
+| **Planken** | Sägewerk | Bauwesen / Schiffbau | Hoch |
+| **Nahrung** | Feuerstelle / Kombüse | Lebensunterhalt / Zufriedenheit | Kritisch |
+| **Moonshine** | Brennerei | Rekrutierung / Taverne | Hoch |
+| **Stein** | Steinbruch | Fortgeschrittenes Bauwesen | Niedrig (Frühphase) |
+
+<Callout type="success" title="Effizienz-Tipp">
+Klicken Sie mit der rechten Maustaste auf die Route eines Fetchers, um bestimmte Ressourcentransfers manuell zu priorisieren oder zu deaktivieren. So können Sie Ressourcen gezielt an ein Gebäude liefern, das im Rückstand ist.
+</Callout>
+
+</Section>
+
+<Section icon={Ship} title="See-Expeditionen und Kapitänswahl">
+
+Sobald Ihre Insel stabil ist, müssen Sie in See stechen. Der Schiffbau erfolgt am Seichten Anlegesteg. Dies eröffnet die „Abenteuer“-Phase des Spiels, in der Sie an Ereignissen wie Schmuggel-Runs, Überfällen auf Handelsschiffe und Seekämpfen teilnehmen. Der Erfolg dieser Missionen hängt von den Werten Ihres Schiffes und dem Kapitän ab, den Sie für die Leitung wählen.
+
+Das Expeditionssystem nutzt eine kartenbasierte Mechanik, die von Würfelwürfen beeinflusst wird. Sie müssen während jeder Reise drei lebenswichtige Ressourcen verwalten:
+1. **Crew**: Ihre tatsächliche Bevölkerung. Sie zu verlieren bedeutet weniger Arbeiter auf der Insel.
+2. **Gesundheit**: Die strukturelle Integrität Ihres Schiffes. Bei Null ist das Schiff verloren.
+3. **Vorräte**: Werden während Ereignissen verbraucht. Sie können Gesundheit oder Crew opfern, um im Notfall mehr Vorräte zu erhalten.
+
+| Kapitän | Primärer Bonus | Bestens geeignet für |
+| :--- | :--- | :--- |
+| **Blackbeard** | Erhöhte Berüchtigtkeit / Kampf | Überfälle auf Handelsschiffe |
+| **Kanja** | Geschwindigkeit / Wohlstand | Schmuggel & Handelsreisen |
+| **Edward Teach** | Synergien beim Imperiumsaufbau | Langfristige Inselexpansion |
+| **Generischer Kapitän** | Ausgewogene Werte | Frühe Erkundung |
+
+<Callout type="info" title="Expeditions-Logik">
+Bei Ereignissen wie einem Schmuggel-Run berechnet die **Corsair Cove KI** den Vorteil basierend auf Ihren Karten. Suchen Sie immer nach Karten, die den „Verlust von Vorteil verhindern“, um Ihre kostbaren Vorräte für die Endphase des Ereignisses aufzusparen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritt, Taten und Kohäsion">
+
+Fortschritt in Corsair Cove bedeutet nicht nur, mehr Häuser zu bauen; es geht darum, „Taten“ (Deeds) zu vollbringen. Taten gewähren Freischaltpunkte, die Sie im Technologiebaum ausgeben können, um bessere Schiffe, fortschrittliche Gebäude wie die Spielhöhle und Infrastruktur-Upgrades wie Seilrutschen freizuschalten.
+
+**Kohäsion** ist eine einzigartige Ressource, die das soziale Gefüge Ihrer Piratengemeinschaft darstellt.
+- **Hohe Kohäsion**: Bietet Spielraum bei Rückschlägen und Katastrophen.
+- **Null Kohäsion**: Ihre Piratengruppe löst sich auf, was zu einem sofortigen Game Over führt.
+- **Abwägungen**: Sie werden oft vor Entscheidungen stehen – eine Gruppe Piraten für Gold ausrauben (erhöht die Kohäsion) oder sie rekrutieren (verringert die Kohäsion, erhöht aber die Bevölkerung).
+
+<Checklist
+  id="early-game-milestones"
+  title="Ziele für den frühen Spielverlauf:"
+  items={[
+    "Bauen Sie Wohnraum für mindestens 50 Piraten, um die Belegschaft zu stabilisieren.",
+    "Etablieren Sie ein Verhältnis von 2:1 zwischen Holzfällern und Sägewerken für eine optimale Plankenproduktion.",
+    "Errichten Sie einen Seichten Anlegesteg und lassen Sie Ihr erstes Schiff der 'Land Lover'-Klasse vom Stapel.",
+    "Schließen Sie einen Schmuggel-Run ab, um die erste Stufe des Berüchtigtkeits-Baums freizuschalten.",
+    "Halten Sie die Kohäsion über 50 %, indem Sie Moonshine in der Taverne ausschenken."
+  ]}
+/>
+
+<Callout type="warning" title="Strategischer Fokus">
+Es ist besser, sich frühzeitig auf einen Technologiebaum (z. B. Berüchtigtkeit) zu konzentrieren, als seine Punkte zu breit zu streuen. Das Freischalten eines Stufe-2-Schiffes wie der 'Moonlight Prowler' verändert Ihre Machtdynamik auf dem Ozean erheblich.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Corsair Cove KI FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie handhabt die Corsair Cove KI die Zuweisung von Arbeitern?",
+    answer: "Die KI greift automatisch auf den Pool der 'Arbeitslosen' zu, um Rollen als 'Hands' oder 'Fetcher' zu besetzen. Wenn Ihnen die Piraten ausgehen, stockt die Produktion, bis Sie weitere vom Meer rekrutieren oder mehr Wohnraum bauen."
+  },
+  {
+    question: "Was ist der effizienteste Weg, 'Alle Mann an Deck' zu nutzen?",
+    answer: "Nutzen Sie es sparsam bei Engpass-Gebäuden wie dem Sägewerk oder der Moonshine-Brennerei. Da es die doppelte Arbeit für nur 50 % mehr Ertrag verbraucht, ist es mathematisch ineffizient, aber großartig für kurzfristige Ressourcen-Schübe."
+  },
+  {
+    question: "Kann ich die See-Expeditionen automatisieren?",
+    answer: "Während die Reise automatisiert ist, erfordern die Ereignisse (Schmuggel, Kampf) manuelles Kartenspielen und Ressourcenmanagement. Sie müssen entscheiden, wann Sie Vorräte ausgeben und wann Sie die Gesundheit des Schiffes riskieren."
+  },
+  {
+    question: "Was passiert, wenn meine Kohäsion auf Null sinkt?",
+    answer: "Das Spiel endet sofort. Kohäsion repräsentiert die Bereitschaft der Piraten, zusammenzubleiben. Sie können sie durch erfolgreiche Überfälle, Tavernen-Events und das Erfüllen der Bedürfnisse Ihrer Crew steigern."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,658 @@
-{}
+{
+  "de": {
+    "building": [
+      {
+        "slug": "corsair-cove-good-build",
+        "file": "corsair-cove-good-build"
+      },
+      {
+        "slug": "corsair-cove-pirate-city-builder",
+        "file": "corsair-cove-pirate-city-builder"
+      },
+      {
+        "slug": "corsair-cove-resources-between-camps",
+        "file": "corsair-cove-resources-between-camps"
+      },
+      {
+        "slug": "corsair-cove-where-are-the-attack-points",
+        "file": "corsair-cove-where-are-the-attack-points"
+      },
+      {
+        "slug": "corsair-cove-where-to-build-cannon-towers",
+        "file": "corsair-cove-where-to-build-cannon-towers"
+      }
+    ],
+    "crew": [
+      {
+        "slug": "corsair-cove-booze-to-fletcher",
+        "file": "corsair-cove-booze-to-fletcher"
+      },
+      {
+        "slug": "corsair-cove-cohesion-guide",
+        "file": "corsair-cove-cohesion-guide"
+      },
+      {
+        "slug": "corsair-cove-how-to-create-and-assign-fetchers",
+        "file": "corsair-cove-how-to-create-and-assign-fetchers"
+      },
+      {
+        "slug": "corsair-cove-how-to-get-more-drifters",
+        "file": "corsair-cove-how-to-get-more-drifters"
+      },
+      {
+        "slug": "corsair-cove-how-to-move-drifters-to-different-camp",
+        "file": "corsair-cove-how-to-move-drifters-to-different-camp"
+      },
+      {
+        "slug": "corsair-cove-how-to-move-pirates-to-different-camp",
+        "file": "corsair-cove-how-to-move-pirates-to-different-camp"
+      }
+    ],
+    "features": [
+      {
+        "slug": "corsair-cove-ai",
+        "file": "corsair-cove-ai"
+      },
+      {
+        "slug": "corsair-cove-controller-support",
+        "file": "corsair-cove-controller-support"
+      },
+      {
+        "slug": "corsair-cove-multiplayer",
+        "file": "corsair-cove-multiplayer"
+      },
+      {
+        "slug": "corsair-cove-procedurally-generated",
+        "file": "corsair-cove-procedurally-generated"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "corsair-cove-beginner-guide",
+        "file": "corsair-cove-beginner-guide"
+      },
+      {
+        "slug": "corsair-cove-how-to-play",
+        "file": "corsair-cove-how-to-play"
+      },
+      {
+        "slug": "corsair-cove-progression-guide",
+        "file": "corsair-cove-progression-guide"
+      },
+      {
+        "slug": "corsair-cove-tips-and-tricks",
+        "file": "corsair-cove-tips-and-tricks"
+      },
+      {
+        "slug": "corsair-cove-walkthrough",
+        "file": "corsair-cove-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "corsair-cove-ps5",
+        "file": "corsair-cove-ps5"
+      },
+      {
+        "slug": "corsair-cove-steam-deck",
+        "file": "corsair-cove-steam-deck"
+      },
+      {
+        "slug": "corsair-cove-steam",
+        "file": "corsair-cove-steam"
+      },
+      {
+        "slug": "corsair-cove-switch",
+        "file": "corsair-cove-switch"
+      },
+      {
+        "slug": "corsair-cove-system-requirements",
+        "file": "corsair-cove-system-requirements"
+      },
+      {
+        "slug": "corsair-cove-xbox-game-pass",
+        "file": "corsair-cove-xbox-game-pass"
+      },
+      {
+        "slug": "corsair-cove-xbox",
+        "file": "corsair-cove-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "corsair-cove-demo-length",
+        "file": "corsair-cove-demo-length"
+      },
+      {
+        "slug": "corsair-cove-demo",
+        "file": "corsair-cove-demo"
+      },
+      {
+        "slug": "corsair-cove-denuvo",
+        "file": "corsair-cove-denuvo"
+      },
+      {
+        "slug": "corsair-cove-price",
+        "file": "corsair-cove-price"
+      },
+      {
+        "slug": "corsair-cove-release-date",
+        "file": "corsair-cove-release-date"
+      }
+    ],
+    "ships": [
+      {
+        "slug": "corsair-cove-dice-explained",
+        "file": "corsair-cove-dice-explained"
+      },
+      {
+        "slug": "corsair-cove-how-to-change-ship",
+        "file": "corsair-cove-how-to-change-ship"
+      },
+      {
+        "slug": "corsair-cove-manowar",
+        "file": "corsair-cove-manowar"
+      },
+      {
+        "slug": "corsair-cove-ship-lost",
+        "file": "corsair-cove-ship-lost"
+      },
+      {
+        "slug": "corsair-cove-ship-upgrades",
+        "file": "corsair-cove-ship-upgrades"
+      }
+    ]
+  },
+  "en": {
+    "building": [
+      {
+        "slug": "corsair-cove-good-build",
+        "file": "corsair-cove-good-build"
+      },
+      {
+        "slug": "corsair-cove-pirate-city-builder",
+        "file": "corsair-cove-pirate-city-builder"
+      },
+      {
+        "slug": "corsair-cove-resources-between-camps",
+        "file": "corsair-cove-resources-between-camps"
+      },
+      {
+        "slug": "corsair-cove-where-are-the-attack-points",
+        "file": "corsair-cove-where-are-the-attack-points"
+      },
+      {
+        "slug": "corsair-cove-where-to-build-cannon-towers",
+        "file": "corsair-cove-where-to-build-cannon-towers"
+      }
+    ],
+    "crew": [
+      {
+        "slug": "corsair-cove-booze-to-fletcher",
+        "file": "corsair-cove-booze-to-fletcher"
+      },
+      {
+        "slug": "corsair-cove-cohesion-guide",
+        "file": "corsair-cove-cohesion-guide"
+      },
+      {
+        "slug": "corsair-cove-how-to-create-and-assign-fetchers",
+        "file": "corsair-cove-how-to-create-and-assign-fetchers"
+      },
+      {
+        "slug": "corsair-cove-how-to-get-more-drifters",
+        "file": "corsair-cove-how-to-get-more-drifters"
+      },
+      {
+        "slug": "corsair-cove-how-to-move-drifters-to-different-camp",
+        "file": "corsair-cove-how-to-move-drifters-to-different-camp"
+      },
+      {
+        "slug": "corsair-cove-how-to-move-pirates-to-different-camp",
+        "file": "corsair-cove-how-to-move-pirates-to-different-camp"
+      }
+    ],
+    "features": [
+      {
+        "slug": "corsair-cove-ai",
+        "file": "corsair-cove-ai"
+      },
+      {
+        "slug": "corsair-cove-controller-support",
+        "file": "corsair-cove-controller-support"
+      },
+      {
+        "slug": "corsair-cove-multiplayer",
+        "file": "corsair-cove-multiplayer"
+      },
+      {
+        "slug": "corsair-cove-procedurally-generated",
+        "file": "corsair-cove-procedurally-generated"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "corsair-cove-beginner-guide",
+        "file": "corsair-cove-beginner-guide"
+      },
+      {
+        "slug": "corsair-cove-how-to-play",
+        "file": "corsair-cove-how-to-play"
+      },
+      {
+        "slug": "corsair-cove-progression-guide",
+        "file": "corsair-cove-progression-guide"
+      },
+      {
+        "slug": "corsair-cove-tips-and-tricks",
+        "file": "corsair-cove-tips-and-tricks"
+      },
+      {
+        "slug": "corsair-cove-walkthrough",
+        "file": "corsair-cove-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "corsair-cove-ps5",
+        "file": "corsair-cove-ps5"
+      },
+      {
+        "slug": "corsair-cove-steam-deck",
+        "file": "corsair-cove-steam-deck"
+      },
+      {
+        "slug": "corsair-cove-steam",
+        "file": "corsair-cove-steam"
+      },
+      {
+        "slug": "corsair-cove-switch",
+        "file": "corsair-cove-switch"
+      },
+      {
+        "slug": "corsair-cove-system-requirements",
+        "file": "corsair-cove-system-requirements"
+      },
+      {
+        "slug": "corsair-cove-xbox-game-pass",
+        "file": "corsair-cove-xbox-game-pass"
+      },
+      {
+        "slug": "corsair-cove-xbox",
+        "file": "corsair-cove-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "corsair-cove-demo-length",
+        "file": "corsair-cove-demo-length"
+      },
+      {
+        "slug": "corsair-cove-demo",
+        "file": "corsair-cove-demo"
+      },
+      {
+        "slug": "corsair-cove-denuvo",
+        "file": "corsair-cove-denuvo"
+      },
+      {
+        "slug": "corsair-cove-price",
+        "file": "corsair-cove-price"
+      },
+      {
+        "slug": "corsair-cove-release-date",
+        "file": "corsair-cove-release-date"
+      }
+    ],
+    "ships": [
+      {
+        "slug": "corsair-cove-dice-explained",
+        "file": "corsair-cove-dice-explained"
+      },
+      {
+        "slug": "corsair-cove-how-to-change-ship",
+        "file": "corsair-cove-how-to-change-ship"
+      },
+      {
+        "slug": "corsair-cove-manowar",
+        "file": "corsair-cove-manowar"
+      },
+      {
+        "slug": "corsair-cove-ship-lost",
+        "file": "corsair-cove-ship-lost"
+      },
+      {
+        "slug": "corsair-cove-ship-upgrades",
+        "file": "corsair-cove-ship-upgrades"
+      }
+    ]
+  },
+  "fr": {
+    "building": [
+      {
+        "slug": "corsair-cove-good-build",
+        "file": "corsair-cove-good-build"
+      },
+      {
+        "slug": "corsair-cove-pirate-city-builder",
+        "file": "corsair-cove-pirate-city-builder"
+      },
+      {
+        "slug": "corsair-cove-resources-between-camps",
+        "file": "corsair-cove-resources-between-camps"
+      },
+      {
+        "slug": "corsair-cove-where-are-the-attack-points",
+        "file": "corsair-cove-where-are-the-attack-points"
+      },
+      {
+        "slug": "corsair-cove-where-to-build-cannon-towers",
+        "file": "corsair-cove-where-to-build-cannon-towers"
+      }
+    ],
+    "crew": [
+      {
+        "slug": "corsair-cove-booze-to-fletcher",
+        "file": "corsair-cove-booze-to-fletcher"
+      },
+      {
+        "slug": "corsair-cove-cohesion-guide",
+        "file": "corsair-cove-cohesion-guide"
+      },
+      {
+        "slug": "corsair-cove-how-to-create-and-assign-fetchers",
+        "file": "corsair-cove-how-to-create-and-assign-fetchers"
+      },
+      {
+        "slug": "corsair-cove-how-to-get-more-drifters",
+        "file": "corsair-cove-how-to-get-more-drifters"
+      },
+      {
+        "slug": "corsair-cove-how-to-move-drifters-to-different-camp",
+        "file": "corsair-cove-how-to-move-drifters-to-different-camp"
+      },
+      {
+        "slug": "corsair-cove-how-to-move-pirates-to-different-camp",
+        "file": "corsair-cove-how-to-move-pirates-to-different-camp"
+      }
+    ],
+    "features": [
+      {
+        "slug": "corsair-cove-ai",
+        "file": "corsair-cove-ai"
+      },
+      {
+        "slug": "corsair-cove-controller-support",
+        "file": "corsair-cove-controller-support"
+      },
+      {
+        "slug": "corsair-cove-multiplayer",
+        "file": "corsair-cove-multiplayer"
+      },
+      {
+        "slug": "corsair-cove-procedurally-generated",
+        "file": "corsair-cove-procedurally-generated"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "corsair-cove-beginner-guide",
+        "file": "corsair-cove-beginner-guide"
+      },
+      {
+        "slug": "corsair-cove-how-to-play",
+        "file": "corsair-cove-how-to-play"
+      },
+      {
+        "slug": "corsair-cove-progression-guide",
+        "file": "corsair-cove-progression-guide"
+      },
+      {
+        "slug": "corsair-cove-tips-and-tricks",
+        "file": "corsair-cove-tips-and-tricks"
+      },
+      {
+        "slug": "corsair-cove-walkthrough",
+        "file": "corsair-cove-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "corsair-cove-ps5",
+        "file": "corsair-cove-ps5"
+      },
+      {
+        "slug": "corsair-cove-steam-deck",
+        "file": "corsair-cove-steam-deck"
+      },
+      {
+        "slug": "corsair-cove-steam",
+        "file": "corsair-cove-steam"
+      },
+      {
+        "slug": "corsair-cove-switch",
+        "file": "corsair-cove-switch"
+      },
+      {
+        "slug": "corsair-cove-system-requirements",
+        "file": "corsair-cove-system-requirements"
+      },
+      {
+        "slug": "corsair-cove-xbox-game-pass",
+        "file": "corsair-cove-xbox-game-pass"
+      },
+      {
+        "slug": "corsair-cove-xbox",
+        "file": "corsair-cove-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "corsair-cove-demo-length",
+        "file": "corsair-cove-demo-length"
+      },
+      {
+        "slug": "corsair-cove-demo",
+        "file": "corsair-cove-demo"
+      },
+      {
+        "slug": "corsair-cove-denuvo",
+        "file": "corsair-cove-denuvo"
+      },
+      {
+        "slug": "corsair-cove-price",
+        "file": "corsair-cove-price"
+      },
+      {
+        "slug": "corsair-cove-release-date",
+        "file": "corsair-cove-release-date"
+      }
+    ],
+    "ships": [
+      {
+        "slug": "corsair-cove-dice-explained",
+        "file": "corsair-cove-dice-explained"
+      },
+      {
+        "slug": "corsair-cove-how-to-change-ship",
+        "file": "corsair-cove-how-to-change-ship"
+      },
+      {
+        "slug": "corsair-cove-manowar",
+        "file": "corsair-cove-manowar"
+      },
+      {
+        "slug": "corsair-cove-ship-lost",
+        "file": "corsair-cove-ship-lost"
+      },
+      {
+        "slug": "corsair-cove-ship-upgrades",
+        "file": "corsair-cove-ship-upgrades"
+      }
+    ]
+  },
+  "ja": {
+    "building": [
+      {
+        "slug": "corsair-cove-good-build",
+        "file": "corsair-cove-good-build"
+      },
+      {
+        "slug": "corsair-cove-pirate-city-builder",
+        "file": "corsair-cove-pirate-city-builder"
+      },
+      {
+        "slug": "corsair-cove-resources-between-camps",
+        "file": "corsair-cove-resources-between-camps"
+      },
+      {
+        "slug": "corsair-cove-where-are-the-attack-points",
+        "file": "corsair-cove-where-are-the-attack-points"
+      },
+      {
+        "slug": "corsair-cove-where-to-build-cannon-towers",
+        "file": "corsair-cove-where-to-build-cannon-towers"
+      }
+    ],
+    "crew": [
+      {
+        "slug": "corsair-cove-booze-to-fletcher",
+        "file": "corsair-cove-booze-to-fletcher"
+      },
+      {
+        "slug": "corsair-cove-cohesion-guide",
+        "file": "corsair-cove-cohesion-guide"
+      },
+      {
+        "slug": "corsair-cove-how-to-create-and-assign-fetchers",
+        "file": "corsair-cove-how-to-create-and-assign-fetchers"
+      },
+      {
+        "slug": "corsair-cove-how-to-get-more-drifters",
+        "file": "corsair-cove-how-to-get-more-drifters"
+      },
+      {
+        "slug": "corsair-cove-how-to-move-drifters-to-different-camp",
+        "file": "corsair-cove-how-to-move-drifters-to-different-camp"
+      },
+      {
+        "slug": "corsair-cove-how-to-move-pirates-to-different-camp",
+        "file": "corsair-cove-how-to-move-pirates-to-different-camp"
+      }
+    ],
+    "features": [
+      {
+        "slug": "corsair-cove-ai",
+        "file": "corsair-cove-ai"
+      },
+      {
+        "slug": "corsair-cove-controller-support",
+        "file": "corsair-cove-controller-support"
+      },
+      {
+        "slug": "corsair-cove-multiplayer",
+        "file": "corsair-cove-multiplayer"
+      },
+      {
+        "slug": "corsair-cove-procedurally-generated",
+        "file": "corsair-cove-procedurally-generated"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "corsair-cove-beginner-guide",
+        "file": "corsair-cove-beginner-guide"
+      },
+      {
+        "slug": "corsair-cove-how-to-play",
+        "file": "corsair-cove-how-to-play"
+      },
+      {
+        "slug": "corsair-cove-progression-guide",
+        "file": "corsair-cove-progression-guide"
+      },
+      {
+        "slug": "corsair-cove-tips-and-tricks",
+        "file": "corsair-cove-tips-and-tricks"
+      },
+      {
+        "slug": "corsair-cove-walkthrough",
+        "file": "corsair-cove-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "corsair-cove-ps5",
+        "file": "corsair-cove-ps5"
+      },
+      {
+        "slug": "corsair-cove-steam-deck",
+        "file": "corsair-cove-steam-deck"
+      },
+      {
+        "slug": "corsair-cove-steam",
+        "file": "corsair-cove-steam"
+      },
+      {
+        "slug": "corsair-cove-switch",
+        "file": "corsair-cove-switch"
+      },
+      {
+        "slug": "corsair-cove-system-requirements",
+        "file": "corsair-cove-system-requirements"
+      },
+      {
+        "slug": "corsair-cove-xbox-game-pass",
+        "file": "corsair-cove-xbox-game-pass"
+      },
+      {
+        "slug": "corsair-cove-xbox",
+        "file": "corsair-cove-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "corsair-cove-demo-length",
+        "file": "corsair-cove-demo-length"
+      },
+      {
+        "slug": "corsair-cove-demo",
+        "file": "corsair-cove-demo"
+      },
+      {
+        "slug": "corsair-cove-denuvo",
+        "file": "corsair-cove-denuvo"
+      },
+      {
+        "slug": "corsair-cove-price",
+        "file": "corsair-cove-price"
+      },
+      {
+        "slug": "corsair-cove-release-date",
+        "file": "corsair-cove-release-date"
+      }
+    ],
+    "ships": [
+      {
+        "slug": "corsair-cove-dice-explained",
+        "file": "corsair-cove-dice-explained"
+      },
+      {
+        "slug": "corsair-cove-how-to-change-ship",
+        "file": "corsair-cove-how-to-change-ship"
+      },
+      {
+        "slug": "corsair-cove-manowar",
+        "file": "corsair-cove-manowar"
+      },
+      {
+        "slug": "corsair-cove-ship-lost",
+        "file": "corsair-cove-ship-lost"
+      },
+      {
+        "slug": "corsair-cove-ship-upgrades",
+        "file": "corsair-cove-ship-upgrades"
+      }
+    ]
+  }
+}

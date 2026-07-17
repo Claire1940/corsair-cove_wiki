@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Cohesion Guide: Mastering Crew Unity for 2026",
+  description: "Learn how to maintain high cohesion in Corsair Cove, optimize your pirate empire, and master progression with our expert tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Corsair+Cove+Cohesion+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Corsair Cove cohesion** is the primary metric for crew unity and operational success.
+- **Low cohesion** leads to conflict and game-over scenarios, while **high cohesion** acts as a strategic resource.
+- **Vertical building** on rocks and cliffs optimizes space and reduces pirate travel time.
+- **Deeds and the Compass** are essential systems for unlocking new buildings and progression paths.
+- **Four paths to victory** include Notoriety, Empire, Seafaring, and Wealth.
+</Callout>
+
+<Section icon={Map} title="Understanding Cohesion and Empire Building">
+
+Building a pirate empire requires more than just construction; it demands careful management of your crew's morale. Cohesion represents the strength of your crew's unity. When this value drops to zero, your pirates cease cooperation, leading to the collapse of your island dream.
+
+**Video Highlights:**
+- Master the art of building on vertical terrain like cliffs and rocks.
+- Learn why cohesion functions as a critical currency for strategic moves.
+- Discover how to use the Journal to track your four main paths to victory.
+
+<YouTubeEmbed videoId="mSpVcDtCvFA" title="Corsair Cove Beginner's Guide EP1 – Cohesion, Progression, Unlocks & How to Win" />
+
+Maintaining high cohesion is vital for long-term survival. At times, you may face difficult decisions where sacrificing specific pirates becomes necessary to preserve the unity of the collective. Always prioritize the crew's strength over individual gains when stability is threatened.
+
+| Metric | Impact on Gameplay | Priority |
+| :--- | :--- | :--- |
+| High Cohesion | Enables advanced strategic actions | Critical |
+| Neutral Cohesion | Standard crew performance | Moderate |
+| Zero Cohesion | Triggers game-over event | Immediate |
+
+<Callout type="warning" title="Strategic Warning">
+Never let your crew's cohesion drop to zero. Once it hits the bottom, your pirates will abandon their posts, and your empire will be lost regardless of your building progress.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mastering Progression and The Compass">
+
+Progression in this game is managed through the Journal and the Compass system. By completing deeds—small tasks ranging from logistics management to naval combat—you earn points to spend on new upgrades.
+
+<Steps>
+  <Step num="1" title="Access the Journal">
+    Click the compass icon to open your primary progression menu.
+  </Step>
+  <Step num="2" title="Complete Deeds">
+    Perform daily tasks and maritime activities to accumulate points.
+  </Step>
+  <Step num="3" title="Invest in Upgrades">
+    Unlock new structures and ship types using your earned points.
+  </Step>
+  <Step num="4" title="Monitor Events">
+    Look for banners on the Seven Seas to earn bonus points.
+  </Step>
+</Steps>
+
+| Path to Victory | Primary Focus | Gameplay Style |
+| :--- | :--- | :--- |
+| Notoriety | Combat and fame | Aggressive |
+| Empire | Fortification and building | Defensive |
+| Seafaring | Exploration and trade | Economic |
+| Wealth | Resource accumulation | Efficiency |
+
+<Callout type="tip">
+You do not need to commit to one path immediately. You can pursue all four quest lines until the final stage of the game, giving you flexibility in your strategy.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Building Strategies for Efficiency">
+
+Effective island layout is a cornerstone of success. Because building space is limited on the beach, you must utilize the island's verticality. Constructing housing on cliffs and rock formations keeps your pirates close to their duties.
+
+<CardGrid cols={3}>
+  <Card title="Vertical Building">
+    - Saves valuable beach space.
+    - Reduces travel distance.
+    - Maximizes island capacity.
+  </Card>
+  <Card title="Resource Management">
+    - Prioritize logistics deeds.
+    - Balance expansion with cohesion.
+    - Keep housing accessible.
+  </Card>
+  <Card title="Naval Strategy">
+    - Build ships early.
+    - Hunt for event banners.
+    - Secure wealth paths.
+  </Card>
+</CardGrid>
+
+| Building Type | Best Placement | Benefit |
+| :--- | :--- | :--- |
+| Housing | Cliffs and Rocks | Reduced walking paths |
+| Shipyard | Deep Water | Fast construction |
+| Warehouse | Central Island | Efficient logistics |
+
+<Callout type="success" title="Pro Tip">
+Creative placement of housing is the secret to a thriving pirate empire. Don't be afraid to build in unconventional spots like the top of Skull Rock to save ground space.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Essential Milestones and Goals">
+
+Tracking your accomplishments is the best way to ensure you are on the right track for victory. Use the following checklist to maintain a healthy and productive pirate community.
+
+<Checklist
+  id="corsair-cove-goals"
+  title="Progression Milestones:"
+  items={[
+    "Establish your first base on the island",
+    "Complete 10 initial logistics deeds",
+    "Construct your first sea-worthy vessel",
+    "Maintain cohesion above 50% for 24 hours",
+    "Unlock all four paths in the Compass menu"
+  ]}
+/>
+
+| Milestone Category | Reward Type | Importance |
+| :--- | :--- | :--- |
+| Logistics | Efficiency Boost | High |
+| Combat | Notoriety Points | Medium |
+| Construction | Empire Expansion | High |
+| Exploration | Wealth & Events | High |
+
+<Callout type="info" title="Development Note">
+Always keep an eye on the colored banners during your events in the Seven Seas, as these provide unique opportunities for bonus points.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I increase my cohesion in Corsair Cove?",
+    answer: "You can maintain or boost cohesion by making strategic choices, completing deeds, and ensuring your pirates have adequate housing and resources."
+  },
+  {
+    question: "What happens if I lose my cohesion?",
+    answer: "If cohesion drops to zero, conflicts between pirates will escalate, and your crew will abandon the island, resulting in an immediate game over."
+  },
+  {
+    question: "Can I switch my victory path later in the game?",
+    answer: "Yes, you can explore all four paths—Notoriety, Empire, Seafaring, and Wealth—up until the final quest, where you must make your ultimate decision."
+  },
+  {
+    question: "Why should I build on cliffs and rocks?",
+    answer: "Building on vertical terrain allows you to save limited beach space and significantly reduces the walking time for your pirates, increasing overall efficiency."
+  }
+]} />
+
+</Section>

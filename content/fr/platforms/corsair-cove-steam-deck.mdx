@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Anchor, Ship, Gamepad2, Hammer, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Steam Deck : Guide d'optimisation et de performance",
+  description: "Maîtrisez Corsair Cove sur Steam Deck grâce à notre guide d'optimisation 2026. Découvrez les meilleurs paramètres graphiques, des configurations de commandes personnalisées et des conseils pour économiser la batterie.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Steam+Deck+Optimization",
+  date: "2026-07-17",
+  author: "L'équipe du Wiki Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les meilleures performances de **Corsair Cove Steam Deck** sont obtenues en ciblant un taux de rafraîchissement stable de 40 FPS/40 Hz pour équilibrer l'autonomie de la batterie et la fluidité de la simulation.
+- La **lisibilité du texte** est le principal défi ; veillez à utiliser la loupe intégrée du Steam Deck et à ajuster l'échelle de l'interface utilisateur dans le menu du jeu.
+- Des **configurations personnalisées des pavés tactiles** sont fortement recommandées pour gérer les chaînes de production de pirates complexes et la construction de colonies.
+- Limiter le **TDP** à 10W offre un gain d'autonomie significatif sans sacrifier la fidélité visuelle de votre repaire de pirates.
+- **Proton Experimental** est actuellement la couche de compatibilité la plus stable pour exécuter les dernières versions de 2026.
+</Callout>
+
+<Section icon={Anchor} title="Aperçu des performances sur console portable">
+
+Jouer à **Corsair Cove Steam Deck** transforme l'expérience de gestion de pirates en une aventure portable. Bien que le jeu propose des colonies denses et des chaînes de production complexes, le matériel du Steam Deck est étonnamment capable de gérer de grands repaires de pirates s'il est correctement configuré. La clé réside dans la gestion des éléments de simulation gourmands en processeur qui surviennent à mesure que votre équipage grandit et que votre colonie s'étend.
+
+**Points forts de la vidéo :**
+- **Croissance de la colonie** : Regardez comment une colonie modeste évolue en un repaire de pirates prospère.
+- **Chaînes de production** : Aperçu de la mise en place de chaînes de ressources efficaces pour la construction navale.
+- **Combat naval** : Bref aperçu de la façon dont les navires puissants gèrent l'exploration et les batailles maritimes.
+
+<YouTubeEmbed videoId="uBkyCoD7poo" title="Corsair Cove - Release Date Announcement Trailer" />
+
+<Callout type="success" title="Statut de compatibilité">
+Depuis juillet 2026, Corsair Cove est classé comme « Jouable » sur Steam Deck. Les principaux obstacles sont les textes de l'interface de petite taille et la nécessité d'une configuration de commandes de la communauté pour gérer les menus nécessitant l'utilisation de la souris.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Mode Performance">
+    - **Cible** : 60 FPS
+    - **Batterie** : ~90 minutes
+    - **Focus** : Fluidité des animations et réactivité des combats.
+  </Card>
+  <Card title="Mode Équilibré">
+    - **Cible** : 40 FPS / 40 Hz
+    - **Batterie** : ~150 minutes
+    - **Focus** : Le juste milieu pour la stabilité de la simulation.
+  </Card>
+  <Card title="Économiseur de batterie">
+    - **Cible** : 30 FPS
+    - **Batterie** : ~210+ minutes
+    - **Focus** : Autonomie maximale pour les longs voyages.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Settings} title="Meilleurs paramètres graphiques pour 2026">
+
+Pour obtenir la meilleure expérience sur **Corsair Cove Steam Deck**, vous devez équilibrer l'esthétique artistique des pirates avec les limites techniques de la console portable. Les paramètres suivants sont optimisés pour réduire la chaleur du GPU tout en gardant les « Sept Mers » dynamiques et détaillées.
+
+| Paramètre | Valeur recommandée | Impact |
+| :--- | :--- | :--- |
+| **Résolution** | 1280x800 (Native) | Élevé - Maintient le texte net |
+| **Qualité des textures** | Moyenne/Élevée | Moyen - Dépend de la VRAM |
+| **Qualité des ombres** | Basse | Élevé - Gain de FPS énorme |
+| **Reflets de l'eau** | Moyen | Moyen - Essentiel pour l'ambiance marine |
+| **Anti-crénelage** | FSR 2.0 (Qualité) | Élevé - Lisse les bords crénelés |
+| **Densité de la foule** | Moyenne | Élevé - Critique pour la charge du CPU |
+| **Post-traitement** | Bas | Faible - Réduit le temps de latence |
+
+<Callout type="tip" title="Utilisation du FSR">
+Activez toujours le FSR 2.0 en jeu (réglé sur Qualité) plutôt que le FSR au niveau du système. L'intégration en jeu gère beaucoup mieux la mise à l'échelle de l'interface utilisateur, évitant ainsi que les icônes de pirates ne deviennent floues.
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad2} title="Optimisation des commandes et de la navigation">
+
+Comme Corsair Cove a été conçu pour le clavier et la souris, naviguer dans votre repaire de pirates sur une console portable nécessite une configuration intelligente de la manette. Les pavés tactiles du Steam Deck sont votre meilleur atout ici, permettant un placement précis des bâtiments et la gestion du bonheur de l'équipage.
+
+**Configurations de manette recommandées :**
+
+| Bouton du Steam Deck | Action en jeu | Avantage |
+| :--- | :--- | :--- |
+| **Pavé tactile droit** | Mouvement de la souris | Placement précis des bâtiments |
+| **Pavé tactile gauche** | Menu radial (Raccourcis) | Accès rapide à la construction/carte/équipages |
+| **Boutons arrière L4 / R4** | Zoom avant / arrière | Meilleure vue des chaînes de production |
+| **Boutons arrière L5 / R5** | Faire défiler les unités | Gérer rapidement les membres d'équipage |
+| **Gâchette droite** | Clic gauche de la souris | Interaction principale |
+
+<Steps>
+  <Step num="1" title="Activer la souris sur pavé tactile">
+    Allez dans Paramètres du contrôleur > Modifier la disposition. Réglez le pavé tactile droit sur « Souris » avec une sensibilité moyenne pour une navigation fluide dans la colonie.
+  </Step>
+  <Step num="2" title="Configurer les menus radiaux">
+    Attribuez le pavé tactile gauche à un menu virtuel. Associez les chiffres 1 à 5 à ce menu pour basculer rapidement entre les catégories de construction et la carte d'exploration.
+  </Step>
+  <Step num="3" title="Ajuster les zones mortes">
+    Réglez les zones mortes de vos joysticks à 10 % pour éviter la dérive (« drift ») lorsque vous naviguez avec vos puissants navires à travers l'océan.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Dispositions d'experts">
+Recherchez dans l'onglet Dispositions de la communauté « Corsair Cove Optimized - 2026 Edition ». Cette disposition comprend des menus radiaux préconfigurés pour tous les écrans de production principaux.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Gestion de la colonie en déplacement">
+
+Bâtir votre empire de pirates dans **Corsair Cove Steam Deck** nécessite une attention constante à la production de ressources et au moral de l'équipage. Sur un écran plus petit, il est facile de manquer des notifications concernant des pénuries de ressources ou des pirates mécontents.
+
+| Type de ressource | Conseil de gestion | Priorité sur console portable |
+| :--- | :--- | :--- |
+| **Bois** | Garder les camps près des forêts | Élevée - Élément de construction de base |
+| **Rhum** | Automatiser la production tôt | Critique - Maintient l'équipage heureux |
+| **Fer** | Se concentrer sur les mines côtières | Moyenne - Nécessaire pour les navires |
+| **Or** | Établir des routes commerciales | Faible - Focus de fin de partie |
+
+**Efficacité de la chaîne de production :**
+- **Regroupement** : Placez vos distilleries de rhum à proximité de vos plantations de sucre pour minimiser la distance de marche de votre équipage.
+- **Stockage** : Assurez-vous que tous les 3 ou 4 bâtiments de production disposent d'un entrepôt dédié à proximité pour éviter les goulots d'étranglement.
+- **Améliorations** : Utilisez la loupe du Steam Deck (Steam + L1) pour lire les petits textes requis pour les améliorations sur les bâtiments spécialisés.
+
+<Callout type="warning" title="Avertissement sur la mise à l'échelle de l'UI">
+À une échelle d'interface utilisateur de 100 %, certains menus peuvent se chevaucher. Nous vous recommandons de régler l'échelle de l'interface à 90 % dans les paramètres de jeu pour une interface portable plus claire.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression et objectifs quotidiens">
+
+Maîtriser la vie de pirate implique plus que la simple survie ; il s'agit de régner sur les mers. Utilisez cette liste de contrôle pour suivre vos progrès alors que vous transformez votre colonie modeste en un repaire légendaire.
+
+<Checklist
+  id="corsair-cove-milestones"
+  title="Jalons du Seigneur Pirate :"
+  items={[
+    "Établir une chaîne de production de rhum stable",
+    "Construire votre premier sloop pour l'exploration côtière",
+    "Atteindre une population de 50 pirates heureux",
+    "Automatiser la collecte de bois et de pierre",
+    "Vaincre le premier chasseur de pirates régional",
+    "Découvrir trois îles cachées dans les Sept Mers"
+  ]}
+/>
+
+<Callout type="tip" title="Gestion de l'alimentation">
+Si vous jouez loin d'un chargeur, limitez le TDP (Thermal Design Power) à 9W ou 10W dans le menu d'accès rapide (QAM). Pour un jeu comme Corsair Cove, cela n'entraîne généralement aucune perte de performance tout en ajoutant 45 à 60 minutes d'autonomie.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Est-ce que Corsair Cove prend en charge les sauvegardes cloud sur Steam Deck ?",
+    answer: "Oui, Corsair Cove prend entièrement en charge Steam Cloud. Vous pouvez passer en toute transparence de votre PC à votre Steam Deck sans perdre votre progression dans votre colonie de pirates."
+  },
+  {
+    question: "Comment corriger la taille du texte trop petite dans les menus de production ?",
+    answer: "La meilleure façon de gérer le texte de petite taille est d'utiliser la loupe système du Steam Deck (Bouton Steam + LB) ou d'ajuster l'échelle de l'interface utilisateur en jeu à 90-95 %."
+  },
+  {
+    question: "Y a-t-il une version spécifique de Proton recommandée pour Corsair Cove sur Steam Deck ?",
+    answer: "En 2026, Proton Experimental ou le dernier GE-Proton sont recommandés. Si vous rencontrez des plantages pendant les combats navals, essayez de passer à Proton 9.0."
+  },
+  {
+    question: "Puis-je jouer à Corsair Cove hors ligne sur le Steam Deck ?",
+    answer: "Oui, une fois le jeu installé et lancé une première fois en étant connecté, vous pouvez jouer à l'intégralité de la campagne solo et au mode de gestion de colonie hors ligne."
+  }
+]} />
+
+</Section>

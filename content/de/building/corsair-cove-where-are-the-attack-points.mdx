@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Wo sind die Angriffspunkte: Kampf-Trainingsleitfaden 2026",
+  description: "Entdecke die besten Angriffspunkte in Corsair Cove für Sandkrabben und Ogerinnen. Lerne Reiserouten, optimale Trainingsorte und Ausrüstungs-Setups für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Attack+Points",
+  date: "2026-07-17",
+  author: "corsair cove Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Hauptangriffspunkte**: Der südliche Strand bietet eine hohe Dichte an **Sandkrabben**-Spawns, während der Dungeon Oger-Schamaninnen und -Kriegerinnen beherbergt.
+- **Zugangsvoraussetzung**: Du musst das Quest **The Corsair Curse** begonnen oder weit fortgeschritten haben, um Zugang zum Hauptgebiet der Bucht zu erhalten.
+- **Reiseroute**: Nutze den **Schiffsjungen** in Rimmington (neuer Standort) oder chartere ein Schiff direkt zur Bucht.
+- **Bestes Training**: Sandkrabben sind ideal für entspanntes **AFK-Training**, da sie viele Lebenspunkte und eine geringe Verteidigung haben.
+- **Ressourcenmanagement**: Bringe Runen für Hohe Alchemie für Dungeon-Drops und Ausdauertränke für effiziente Wege zwischen der Bank und den Trainingsorten mit.
+</Callout>
+
+<Section icon={Map} title="Zugang zu Corsair Cove und Navigation">
+
+Die Navigation zu den optimalen Trainingsgebieten erfordert das Verständnis der aktualisierten Reisemechaniken. Seit 2026 hat sich die Hauptmethode, um die Bucht zu erreichen, von Port Sarim nach Rimmington verlagert. Diese Änderung ist entscheidend für Rückkehrer, die die alten Docks von Port Sarim leer vorfinden könnten. Der Schiffsjunge, dein primärer NPC für den Transport, befindet sich jetzt direkt außerhalb des Bootes in Rimmington.
+
+**Video-Highlights:**
+- **Umzug nach Rimmington**: Der Schiffsjunge ist nicht mehr in Port Sarim, sondern in Rimmington stationiert.
+- **Sofortige Reise**: Wenn du mit dem Schiffsjungen sprichst, wirst du sofort zu den Docks von Corsair Cove teleportiert.
+- **Charter-Optionen**: Du kannst jetzt das Charterschiff-System von verschiedenen Häfen (wie Catherby oder Port Sarim) nutzen, um direkt zur Bucht zu reisen.
+- **Rückweg**: Die Rückreise ist ebenso einfach, indem du mit dem Schiffsjungen an den Docks der Bucht sprichst.
+
+<YouTubeEmbed videoId="UFPcdW9B7NM" title="How to Get back to Corsair Cove in OSRS" />
+
+| Methode | Ort | Kosten | Voraussetzung |
+| :--- | :--- | :--- | :--- |
+| **Schiffsjunge** | Rimmington | Kostenlos | The Corsair Curse (Gestartet) |
+| **Charterschiff** | Jeder große Hafen | 1.000 - 3.000 GM | Keine |
+| **Mythischer Umhang** | Gilde der Mythen | Kostenlos | Dragon Slayer II |
+| **Geistbaum** | Feldip-Hügel | Kostenlos | Tree Gnome Village |
+
+<Callout type="tip" title="Effizienz-Tipp">
+Wenn du ein Free-to-Play-Spieler (F2P) bist, ist der Schiffsjunge in Rimmington deine schnellste Route. Für Mitglieder ist die Nutzung eines Geistbaums zu den Feldip-Hügeln und der anschließende Fußweg nach Süden oft bequemer, wenn sich dein Spielerhaus in der Nähe eines Geistbaums befindet.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Corsair Cove: Wo sind die Angriffspunkte">
+
+Die häufigste Frage für Spieler ist die Identifizierung der genauen "Angriffspunkte", an denen die Kampfeffizienz maximiert wird. In Corsair Cove sind diese Punkte zwischen den sonnigen Stränden und den dunklen Tiefen des Dungeons aufgeteilt. Der Strand wird von Sandkrabben dominiert, die aufgrund ihrer hohen Lebenspunkte und nicht vorhandenen Verteidigungswerte der Goldstandard für das AFK-Training auf niedrigem Level sind.
+
+<CardGrid cols={3}>
+  <Card title="Südstrand (2 Krabben)">
+    - **Ort**: Direkt südlich der Docks.
+    - **Am besten für**: Niedrige Stufen (1-40).
+    - **Vorteile**: Geringe Konkurrenz, sehr sicher.
+  </Card>
+  <Card title="Westliche Halbinsel (3 Krabben)">
+    - **Ort**: Weit westlich entlang der Küstenlinie.
+    - **Am besten für**: Mittlere Stufen (40-70).
+    - **Vorteile**: Hohe EP/Stunde, konsistente Aggro.
+  </Card>
+  <Card title="Dungeon-Eingang (4 Krabben)">
+    - **Ort**: Nahe dem Höhleneingang.
+    - **Am besten für**: Hohe Stufen (70+).
+    - **Vorteile**: Maximale Effizienz, erfordert hohe Verteidigung.
+  </Card>
+</CardGrid>
+
+Wenn du deinen Charakter an diesen Angriffspunkten positionierst, solltest du auf den spezifischen Feldern stehen, die es mindestens zwei oder drei Krabben ermöglichen, dich gleichzeitig zu erreichen. Dies stellt sicher, dass, sobald eine Krabbe stirbt, bereits eine andere angreift, wodurch Ausfallzeiten vermieden werden.
+
+| Monster | Stufe | LP | Beachtenswerte Drops |
+| :--- | :--- | :--- | :--- |
+| **Sandkrabbe** | 15 | 60 | Essbarer Seetang, Auster |
+| **Oger-Kriegerin** | 82 | 85 | Runen-Medialhelm, Große Knochen |
+| **Oger-Schamanin** | 82 | 85 | Runen-Vollhelm, Schamanenmaske |
+| **Oger-Jägerin** | 82 | 85 | Gesetz-Runen, Mithril-Pfeile |
+
+<Callout type="warning" title="Aggro-Reset">
+Sandkrabben verlieren nach 10 Minuten das Interesse. Um die Angriffspunkte "zurückzusetzen", laufe nach Norden, bis du das Ressourcengebiet passiert hast, und kehre dann zu deinem ursprünglichen Feld zurück, um den aggressiven Status wiederzuerlangen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dungeon-Angriffspunkte und Mechaniken">
+
+Für Spieler, die neben Erfahrung auch Profit suchen, ist der Dungeon von Corsair Cove die bessere Wahl. Die "Angriffspunkte" werden hier eher durch Safe-Spots als durch Multi-Aggro-Felder definiert. Ogerinnen sind groß, langsam und lassen sich leicht hinter Steinen oder Säulen festsetzen, was sie perfekt für Fernkampf- oder Magietraining macht.
+
+<Steps>
+  <Step num="1" title="Betritt das Loch">
+    Suche den Dungeon-Eingang im nordwestlichen Teil der Bucht. Du musst das Quest "The Corsair Curse" abgeschlossen haben, um ihn zu betreten.
+  </Step>
+  <Step num="2" title="Safe-Spots identifizieren">
+    Suche in der Hauptkammer nach den Stalagmiten. Positioniere dich so, dass sich die Ogerin auf der gegenüberliegenden Seite befindet.
+  </Step>
+  <Step num="3" title="Ziel fokussieren">
+    Priorisiere Oger-Schamaninnen für das beste Beute-Aufwand-Verhältnis. Sie lassen häufig Gesetz- und Natur-Runen fallen.
+  </Step>
+  <Step num="4" title="Beute und Alchemie">
+    Verwende Hohe Alchemie auf Runen- und Adamant-Drops, um deinen Ausflug unbegrenzt zu verlängern, ohne eine Bank aufsuchen zu müssen.
+  </Step>
+</Steps>
+
+| Oger-Typ | Bester Angriffsstil | Safe-Spotting? | Empfohlene Stufe |
+| :--- | :--- | :--- | :--- |
+| **Kriegerin** | Nahkampf / Magie | Ja (Fernkampf/Magie) | Kampfstufe 60+ |
+| **Schamanin** | Fernkampf | Ja | Fernkampf 50+ |
+| **Jägerin** | Nahkampf | Ja | Stärke 60+ |
+
+<Callout type="success" title="Profitpotenzial">
+Der Dungeon ist einer der wenigen Orte im F2P-Modus, an dem man konstant über 100k GM pro Stunde verdienen kann. Bringe immer einen Feuer-Stab und Natur-Runen mit, um den Inventarplatz zu maximieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Empfohlene Ausrüstung und Inventar">
+
+Um das Beste aus den Angriffspunkten in Corsair Cove herauszuholen, muss deine Ausrüstung zu deinem Trainingsziel passen. Wenn du bei den Sandkrabben trainierst, konzentriere dich auf Boni für "Präzision" (Accuracy) und "Stärke" (Strength), da die Krabben keine Verteidigung besitzen. Wenn du dich im Dungeon befindest, sind Boni für "Gebet" (Prayer) oder "Fernkampf" (Ranged) wichtiger.
+
+**Wichtige Trainings-Checkliste:**
+<Checklist
+  id="corsair-prep"
+  title="Vorbereitungs-Checkliste:"
+  items={[
+    "Natur-Runen und Feuer-Stab für Hohe Alchemie",
+    "Best-in-Slot Fernkampfausrüstung (Grünes Drachenleder oder besser)",
+    "Energie- oder Ausdauertränke für Reset-Läufe",
+    "Essen (Thunfisch oder Hummer) für den Notfall",
+    "Teleport-Tabletten für einen schnellen Rückzug"
+  ]}
+/>
+
+| Slot | F2P Best-in-Slot | P2P Best-in-Slot |
+| :--- | :--- | :--- |
+| **Kopf** | Runen-Vollhelm | Slayer-Helm (i) |
+| **Oberkörper** | Runen-Brustpanzer | Bandos-Brustplatte |
+| **Beine** | Runen-Beinschutz | Bandos-Beinschutz |
+| **Waffe** | Runen-Krummsäbel | Abyssal-Peitsche / Ghrazi-Rapier |
+| **Schild** | Runen-Drachenschild | Avernic-Verteidiger |
+| **Amulett** | Amulett der Macht | Amulett der Folter |
+
+<Callout type="info" title="Hinweis für F2P">
+Für F2P-Spieler wird das **Amulett der Macht** beim Training an Sandkrabben im Allgemeinen dem Amulett der Stärke vorgezogen, da der leichte Präzisionsschub Charakteren auf niedrigerem Level hilft, konstanter zu treffen, auch wenn der Unterschied minimal ist.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wo sind die besten Angriffspunkte für das AFK-Training im Jahr 2026?",
+    answer: "Der südliche Strand von Corsair Cove ist nach wie vor der beste Ort. Insbesondere der westlichste Punkt ermöglicht es dir, zwischen drei Sandkrabben-Spawns zu stehen, um eine maximale AFK-Effizienz zu erzielen."
+  },
+  {
+    question: "Benötige ich eine Quest, um Zugang zu Corsair Cove zu erhalten?",
+    answer: "Ja, du musst das Quest 'The Corsair Curse' starten, um Zugang zum Gebiet zu erhalten. Um den Dungeon für die Ogerinnen zu betreten, musst du das Quest vollständig abgeschlossen haben."
+  },
+  {
+    question: "Wie setze ich die Aggressivität der Krabben zurück?",
+    answer: "Laufe weit genug weg, bis die Krabben von deiner Minikarte verschwinden (normalerweise in der Nähe des Ressourcengebiets im Norden), und kehre dann zurück. Dies setzt den 10-Minuten-Aggro-Timer zurück."
+  },
+  {
+    question: "Ist Corsair Cove besser als die Sandkrabben in Hosidius?",
+    answer: "Corsair Cove ist oft weniger überlaufen als der Strand von Hosidius, was es einfacher macht, einen Angriffspunkt mit 3 oder 4 Krabben ohne Konkurrenz zu finden."
+  }
+]} />
+
+</Section>

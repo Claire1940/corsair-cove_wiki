@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Hammer, Beer, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Demo: Grundlegender Leitfaden zu Basisbau & Kampf",
+  description: "Meistern Sie die Corsair Cove Demo mit unserem Guide zu Basisbau, Ressourcenmanagement und Seekampfstrategien in diesem Piraten-Strategiespiel von 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a2b3c/fff?text=Corsair+Cove+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki-Team",
+  keywords: "Corsair Cove, Demo, Guide, Basisbau, Piratenspiel, Seekampf"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptziel**: Errichten Sie einen autarken Piratenhafen, während Sie die spanische Krone abwehren.
+- **Kernmechanik**: Gebäude müssen über ein rasterbasiertes Pfadsystem mit dem zentralen **Piratenlager** verbunden sein.
+- **Ressourcenpriorität**: Konzentrieren Sie sich frühzeitig auf **Holz** und **Planken**, um Unterkünfte und die Nahrungsmittelproduktion freizuschalten.
+- **Kohäsionsmanagement**: Halten Sie die Piraten mit **Eintopf** satt und mit **Schwarzgebranntem** bei Laune, um Meutereien zu verhindern.
+- **Seekampf**: Nutzen Sie spezialisierte Kapitäne wie **Teach**, um die Würfelwürfe bei Seebegegnungen zu maximieren.
+</Callout>
+
+<Section icon={Map} title="Erste Schritte in der Corsair Cove Demo">
+
+Die **Corsair Cove Demo** führt Spieler in eine riskante Welt voller Piraterie, Basisbau und taktischem Überleben ein. Veröffentlicht von Hooded Horse, fordert dieser Titel Sie heraus, einen verödeten Felsen in ein beeindruckendes Piratennest zu verwandeln. Das Erlebnis beginnt mit einem Schiffbruch, bei dem Ihre Crew mit nichts als der Kleidung am Leib strandet. Ihre erste Aufgabe besteht darin, das Wrack zu plündern und ein einfaches Lager zu errichten, um Ihre müden Seeleute zu beherbergen.
+
+**Video-Highlights:**
+- **Erste Bergung**: Wie man Planken aus Schiffswracks sammelt, um den Bau zu starten.
+- **Pfadverbindungen**: Verständnis der „Stromleitungs-Logik“ für die Konnektivität von Gebäuden.
+- **Frühe Produktion**: Aufbau der Kette aus Holzfäller und Sägewerk.
+- **Einführung zur See**: Ein erster Blick auf den Bau der Sloop und den würfelbasierten Kampf.
+
+<YouTubeEmbed videoId="GYOs4piWC8c" title="A New Base Building Pillage & Plunder Strategy Game! - Corsair Cove" />
+
+Der Erfolg im frühen Spiel hängt von Ihrer Fähigkeit ab, begrenzten Platz und Ressourcen zu verwalten. Im Gegensatz zu traditionellen Städtebauspielen setzt dieses Spiel auf eine „überfüllte“ Ästhetik, bei der jedes Gebäude mit dem Hauptnetz verbunden sein muss. Wenn ein Gebäude seine Verbindung verliert, stoppt die Produktion sofort und Ihre Piraten werden schnell unruhig.
+
+<Callout type="tip" title="Verbindungslogik">
+Denken Sie bei Ihren Pfaden an Stromleitungen. Es ist nicht erforderlich, dass jedes Gebäude das Piratenlager direkt berührt; sie müssen lediglich Teil des verbundenen Netzwerks sein, um zu funktionieren.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Basisbau und Infrastruktur">
+
+Der Bau eines Piratenhafens erfordert ein Gleichgewicht zwischen industrieller Produktion und der Zufriedenheit der Crew. Die **Corsair Cove Demo** bietet eine tiefe Produktionshierarchie, in der Rohstoffe zu fortschrittlichen Komponenten veredelt werden. Zum Beispiel müssen Baumstämme vom Holzfäller in einem Sägewerk zu Planken verarbeitet werden, die die primäre Währung für Bauvorhaben darstellen.
+
+<CardGrid cols={3}>
+  <Card title="Unterkünfte (Zelte)">
+    - **Kapazität**: Niedrig
+    - **Anforderung**: Einfache Planken
+    - **Effekt**: Erhöht das Bevölkerungslimit und verringert die Empörung über Obdachlosigkeit.
+  </Card>
+  <Card title="Produktion (Sägewerk)">
+    - **Input**: Rohstämme
+    - **Output**: Planken
+    - **Gefahr**: Hohe Brandgefahr; möglichst fern von Wohngebieten halten.
+  </Card>
+  <Card title="Logistik (Lagerhaus)">
+    - **Funktion**: Massenlager
+    - **Effizienz**: Essenziell, um Produktionslinien ohne Staus am Laufen zu halten.
+    - **Tipp**: In der Nähe des Piers platzieren, um Schiffsreparaturen zu erleichtern.
+  </Card>
+</CardGrid>
+
+Mit wachsender Siedlung müssen Sie in spezialisiertere Strukturen expandieren. Die folgende Tabelle skizziert die wichtigsten Gebäude der frühen Spielphase.
+
+| Gebäude | Funktion | Primärer Input | Output |
+| :--- | :--- | :--- | :--- |
+| **Piratenlager** | Zentraler Knotenpunkt / Lager | N/V | Einfache Unterkünfte |
+| **Holzfäller** | Rohstoffgewinnung | Fruchtbares Land | Baumstämme |
+| **Sägewerk** | Materialveredelung | Baumstämme | Planken |
+| **Kombüse** | Lebensmittelverteilung | Rohkost | Eintopf |
+| **Schwarzbrennerei** | Alkoholproduktion | Wasser/Zucker | Grog |
+| **Steinbruch** | Steingewinnung | Felsvorsprünge | Rohstein |
+| **Steinmetz** | Mauerwerkveredelung | Rohstein | Steinblöcke |
+
+<Callout type="warning" title="Industrielle Gefahren">
+Sägewerke und Getreidemühlen stellen aufgrund von Staubansammlungen erhebliche Brandgefahren dar. Obwohl die Demo noch kein komplexes Feuersystem enthält, wird ein angemessener Abstand empfohlen, um Ihr Layout zukunftssicher zu machen.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Piratenkohäsion und Moral verwalten">
+
+In der **Corsair Cove Demo** ist Ihre Crew nicht nur eine Belegschaft; sie ist eine unberechenbare Gruppe von Kriminellen. Die **Kohäsions-Anzeige** verfolgt die allgemeine Stabilität Ihrer Gesellschaft. Wenn diese auf Null fällt, droht eine Meuterei. Um eine hohe Kohäsion aufrechtzuerhalten, müssen Grundbedürfnisse erfüllt werden: Unterkunft, Nahrung und Alkohol.
+
+Um Ihre Crew effektiv zu führen, müssen Sie die Bedürfnisse von „Driftern“ (nicht zugewiesene Arbeitskräfte) und „Piraten“ (spezialisierte Crew) ausbalancieren. Ereignisse werden Sie häufig dazu zwingen, harte Entscheidungen zu treffen, die Ihre Kohäsion beeinflussen.
+
+| Ereignistyp | Typische Wahl | Auswirkung auf Kohäsion | Ressourcenkosten |
+| :--- | :--- | :--- | :--- |
+| **Gestrandete Spione** | Hinrichten | Moderater Verlust | -2 Piraten |
+| **Gestrandete Spione** | Willkommen heißen | Hoher Verlust | Keine (Arbeiter gewinnen) |
+| **Krätze-Ausbruch** | Alkohol zur Schmerzlinderung | Neutral | Hoher Bierverbrauch |
+| **Neue Flüchtlinge** | Arbeitsfähige aufnehmen | Kleiner Gewinn | Lebensmittelunterhalt |
+| **Neue Flüchtlinge** | Ausrauben | Hoher Verlust | +100 Gold |
+
+<Checklist
+  id="cohesion-checklist"
+  title="Tägliche Moralpflege:"
+  items={[
+    "Stellen Sie sicher, dass die gesamte Wohnkapazität die aktuelle Bevölkerung um 10 % übersteigt",
+    "Überprüfen Sie, ob die Kombüse Eintopf mit einer Rate von +2 über dem Verbrauch produziert",
+    "Betreiben Sie eine Taverne mit aktivem Schwarzgebrannten-Vorrat für 'Ausschweifungs'-Buffs",
+    "Löschen Sie alle 'Empörung'-Icons sofort, indem Sie die Pfadverbindungen prüfen",
+    "Rüsten Sie auf ein zweites Piratenlager auf, sobald Ihre Hauptinsel voll ist"
+  ]}
+/>
+
+<Callout type="success" title="Die Tavernen-Strategie">
+Die Taverne ist der effektivste Weg, um verlorene Kohäsion zurückzugewinnen. Selbst wenn die Nahrung knapp ist, kann ein stetiger Vorrat an Grog eine Meuterei für mehrere Tage abwenden, während Sie Ihre Produktionsketten reparieren.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="Schiffbau und Seekampf">
+
+Sobald Ihre Basis stabil ist, verlagert die **Corsair Cove Demo** den Fokus auf die hohe See. Der Bau Ihres ersten Schiffes, der Land Lover (eine einfache Sloop), ist ein wichtiger Meilenstein. Dies erfordert einen Pier und eine engagierte Crew aus Deckschrubbern. Das Spiel bietet ein einzigartiges Kapitänssystem, bei dem verschiedene Anführer unterschiedliche Vorteile im Kampf bieten.
+
+<Steps>
+  <Step num="1" title="Den Pier errichten">
+    Platzieren Sie den Pier an einem dafür vorgesehenen Küstenplatz und verbinden Sie ihn über einen Klippenpfad mit Ihrem Hauptlagerhaus.
+  </Step>
+  <Step num="2" title="Die Crew zusammenstellen">
+    Wandeln Sie Drifter in Deckschrubber um. Dies erfordert Vorabkosten in Gold und eine stetige Versorgung mit Nahrung.
+  </Step>
+  <Step num="3" title="Einen Kapitän zuweisen">
+    Wählen Sie einen Kapitän wie **Teach** für aggressive Spielstile oder **Honorata** für Erkundung und Schatzsuche.
+  </Step>
+  <Step num="4" title="Missionen antreten">
+    Wählen Sie Ziele auf der Weltkarte aus, wie Skull Rock oder Barbos Bay, um Ressourcen wie Schwarzpulver und Gold zu plündern.
+  </Step>
+</Steps>
+
+Kämpfe werden über ein würfelbasiertes Kartensystem gelöst. Die Eigenschaften Ihres Kapitäns bestimmen Ihren Würfelpool, und das Ergebnis Ihrer Würfe diktiert die Wirksamkeit Ihrer Aktionen, wie „Zielen und Feuern“ oder „Verschwenderisches Sperrfeuer“.
+
+| Kampfaktion | Würfelanforderung | Effekt | Versorgungskosten |
+| :--- | :--- | :--- | :--- |
+| **Zielen und Feuern** | Einzelner Würfel | Verursacht 4-9 Schaden | Niedrig |
+| **Schweres Feuer** | Doppelwürfel | Doppelter Schaden an Gesundheit | Moderat |
+| **In Deckung gehen** | Verteidigungswurf | Verhindert 3-8 Schaden | Niedrig |
+| **Verschwenderisches Sperrfeuer** | Hoher Wurf | Massiver Flächenschaden | Sehr hoch |
+
+<Callout type="info" title="Kapitän Teach">
+Kapitän Teach ist die erste Wahl für die Kampfmissionen der Demo. Seine Eigenschaft „Einfach wie Mord“ gewährt einen zusätzlichen Würfelwurf in der nächsten Runde, wenn Sie Schaden verursachen, was verheerende Combos ermöglicht.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fortgeschrittene Verteidigung und Befestigung">
+
+Wenn Ihre Berüchtigtkeit wächst, wird die spanische Krone unter der Führung der Jägerin Amara Vergeltungsschläge gegen Ihre Bucht starten. Verteidigungsstrukturen sind erforderlich, um Ihre Infrastruktur zu schützen. Der **Kanonenturm** ist Ihre primäre Verteidigung, erfordert jedoch eine komplexe Lieferkette mit Steinblöcken und Schwarzpulver.
+
+<CardGrid cols={2}>
+  <Card title="Stein-Produktionskette">
+    1. **Steinbruch**: Rohstein aus Klippen gewinnen.
+    2. **Steinmetz**: Stein zu Blöcken veredeln.
+    3. **Transport**: Träger nutzen, um Blöcke zur Baustelle zu bringen.
+  </Card>
+  <Card title="Schwarzpulver-Logistik">
+    1. **Guano-Sammler**: Salpeter an Vogelbrutstätten sammeln.
+    2. **Hafenlager**: Pulver fern von Wohnzelten lagern, um Unfälle zu vermeiden.
+    3. **Kanonenturm**: Benötigt eine ständige Pulverzufuhr, um auf feindliche Schiffe zu schießen.
+  </Card>
+</CardGrid>
+
+Während eines Angriffs operiert der Kanonenturm automatisch, solange er versorgt wird. Sie müssen sicherstellen, dass Ihre Träger den Turm während eines Bombardements sicher erreichen können. Wenn einem Turm das Schwarzpulver ausgeht, wird er zu einem nutzlosen Steinhaufen, wodurch Ihre Taverne und Kombüse anfällig für Zerstörung werden.
+
+<Callout type="tip" title="Platzierung der Verteidigung">
+Platzieren Sie Ihre Kanonentürme auf vorspringenden Felsen. Dies maximiert ihren Feuerbereich und hält den Flächenschaden feindlicher Kanonen von Ihren lebenswichtigen Nahrungs- und Holzproduktionsgebäuden fern.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Corsair Cove Demo FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie behebe ich den Fehler 'Nicht verbunden' in der Corsair Cove Demo?",
+    answer: "Stellen Sie sicher, dass ein durchgehender Pfad (Leiter oder Straße) vom Gebäude zum Piratenlager besteht. Prüfen Sie auf Lücken in Klippenpfaden oder zerstörte Brücken, die während eines Überfalls beschädigt worden sein könnten."
+  },
+  {
+    question: "Was ist der schnellste Weg, mehr Piraten zu bekommen?",
+    answer: "Akzeptieren Sie Drifter aus Ereignissen oder 'fischen' Sie diese nach Seeschlachten aus dem Wasser. Beachten Sie, dass dies Ihren Nahrungs- und Alkoholkonsum erheblich steigert."
+  },
+  {
+    question: "Kann ich in der Demo mehr als ein Schiff bauen?",
+    answer: "Die Demo konzentriert sich primär auf eine Flotte aus einem Schiff (die Land-Lover-Sloop). Zukünftige Updates sollen Fregatten und Galeonen für größere Flottenmanöver enthalten."
+  },
+  {
+    question: "Was passiert, wenn meine Kohäsion auf Null sinkt?",
+    answer: "Eine Meuterei wird ausgelöst. Sie müssen diese durch ein spezielles Ereignis lösen, was oft zum Verlust von Crewmitgliedern oder zur Zerstörung von Gebäuden führt."
+  }
+]} />
+
+</Section>

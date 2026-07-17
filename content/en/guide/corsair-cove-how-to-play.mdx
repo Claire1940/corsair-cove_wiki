@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove: Beginner Strategy & Progression Walkthrough",
+  description: "Master Corsair Cove with our expert guide on base building, resource management, and pirate crew optimization for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Corsair Cove** requires balancing **crew morale (cohesion)** and **resource production** to survive.
+- **Efficient logistics** via warehouse placement is the foundation of a thriving pirate haven.
+- **Ship management** and naval combat are essential for expanding your influence and looting supplies.
+- **Strategic choices** in events impact your long-term legacy and available construction options.
+- **Prioritize food and shelter** early to prevent satisfaction drops and potential uprisings.
+</Callout>
+
+<Section icon={Map} title="Mastering the Basics of Corsair Cove">
+
+Starting your journey in Corsair Cove requires a sharp mind for logistics and resource management. As a captain, your primary goal is to turn a shipwreck-strewn shore into a prosperous pirate haven. The game emphasizes complex production chains, where every worker matters.
+
+**Video Highlights:**
+- Initial construction of the Pirate Camp and basic road layouts.
+- Managing drifters as builders, fetchers, and crew members.
+- The importance of food production chains for pirate satisfaction.
+
+<YouTubeEmbed videoId="k6CzPuh-zgY" title="Starting a PIRATE CITY in Corsair Cove FULL RELEASE" />
+
+Effective city-building relies on connecting production buildings to a central warehouse. Ensure your paths are clean and logical to minimize travel time for your fetchers.
+
+| Building | Function | Resource Input |
+| :--- | :--- | :--- |
+| Pirate Camp | Houses and assigns workers | None |
+| Sawmill | Processes logs into planks | Logs |
+| Campfire | Produces basic stew | Raw Food |
+| Galley | Distributes food/satisfaction | Stew |
+
+<Callout type="tip" title="Pro Tip">
+Always keep an eye on your **cohesion (morale)**. Losing too much can lead to an uprising, which can result in a game-over state if your morale reaches zero.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Resource Management and Production Chains">
+
+To build a massive city, you must scour the map for essential resources like salt, lead ore, and stone. As you progress, the complexity of your production chains will increase, requiring more specialized workers.
+
+<CardGrid cols={3}>
+  <Card title="Wood Production">
+    - Establish wood cutters early
+    - Process logs into planks
+    - Essential for all construction
+  </Card>
+  <Card title="Food Security">
+    - Build campfires near residents
+    - Use galleys to boost morale
+    - Maintain consistent supply
+  </Card>
+  <Card title="Advanced Materials">
+    - Quarry stone for defenses
+    - Weaver for canvas production
+    - Rope maker for ship upgrades
+  </Card>
+</CardGrid>
+
+| Resource | Primary Use | Best Source |
+| :--- | :--- | :--- |
+| Planks | Building construction | Sawmill |
+| Stone | Gun towers/Defenses | Quarry |
+| Fiber | Canvas/Sails | Leaf Cutter |
+| Stew | Crew satisfaction | Campfire |
+
+<Callout type="warning" title="Warning">
+Expanding too quickly without sufficient food production will lead to a rapid decline in satisfaction. Always ensure your galley capacity matches your population.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Naval Combat and Expedition Tactics">
+
+Once you have your first ship, the game truly opens up. Naval missions allow you to plunder resources, rescue survivors, and strike back against the Crown. Combat is turn-based, requiring you to manage dice pools and special abilities effectively.
+
+<Steps>
+  <Step num="1" title="Assign a Captain">
+    Select a captain with skills matching your objective (e.g., explorer for scouting, gunner for damage).
+  </Step>
+  <Step num="2" title="Equip and Crew">
+    Assign drifters as crew members to maximize success rates in boarding and combat missions.
+  </Step>
+  <Step num="3" title="Engage in Combat">
+    Use tactical actions like 'Prevent Damage' or 'Into the Breach' based on the enemy's predicted moves.
+  </Step>
+</Steps>
+
+| Ship Type | Role | Key Strength |
+| :--- | :--- | :--- |
+| Land Lover | Starter vessel | Low cost, decent crew |
+| Prowler | Mid-tier combat | High speed/boarding |
+| Destroyer | Heavy combat | Massive gun damage |
+
+<Callout type="success" title="Combat Strategy">
+Always try to close the distance during merchant ship encounters to maximize loot. If you are outnumbered, prioritize defense to keep your ship operational for the return trip.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expanding Your Pirate Legacy">
+
+As you unlock more buildings, you will face choices that define your pirate legacy. These are categorized into four winds: Fame, Empire, Seafaring, and Wealth. Investing in these trees provides passive bonuses and new construction options.
+
+<Checklist
+  id="progression-milestones"
+  title="Progression Milestones:"
+  items={[
+    "Construct a second pirate camp",
+    "Build a gun tower for defense",
+    "Establish a sustainable sail production chain",
+    "Complete five successful naval missions"
+  ]}
+/>
+
+| Legacy Path | Focus Area | Key Reward |
+| :--- | :--- | :--- |
+| Seafaring | Ship stats/Speed | Tide Runner ship |
+| Empire | Resource storage/Output | Area lift/Logistics |
+| Notoriety | Combat/Boarding | Advanced weaponry |
+| Wealth | Trade/Coin generation | Trading post |
+
+<Callout type="info" title="Important">
+Don't neglect your defensive infrastructure. As your city grows, the Crown will retaliate with larger ships. A well-placed gun tower can be the difference between a thriving haven and a pile of rubble.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I increase my pirate population in Corsair Cove?",
+    answer: "You can increase your population by rescuing survivors from shipwrecks and naval events. Ensure you have enough tents built to house them, or your satisfaction will drop."
+  },
+  {
+    question: "What is the most effective way to manage cohesion?",
+    answer: "Keep your pirates well-fed with stew and ensure they have adequate shelter. Making favorable choices during story events also helps maintain high cohesion."
+  },
+  {
+    question: "Can I build multiple pirate camps?",
+    answer: "Yes, building multiple camps is essential for expanding your territory and managing larger fleets, though each requires its own logistical support."
+  },
+  {
+    question: "When should I upgrade my ship?",
+    answer: "Upgrade your ship once you have established a steady production of ropes and canvas. Higher-tier ships are necessary for level two and three missions."
+  }
+]} />
+
+</Section>

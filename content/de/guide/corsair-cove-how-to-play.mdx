@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove: Einsteiger-Strategie & Fortschritts-Leitfaden",
+  description: "Meistere Corsair Cove mit unserem Experten-Leitfaden zu Basisbau, Ressourcenmanagement und Piratencrew-Optimierung für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Corsair Cove** erfordert ein ausgewogenes Verhältnis zwischen **Crew-Moral (Zusammenhalt)** und **Ressourcenproduktion**, um zu überleben.
+- **Effiziente Logistik** durch die strategische Platzierung von Lagern bildet das Fundament eines florierenden Piratenhafens.
+- **Schiffsmanagement** und Seekämpfe sind unerlässlich, um deinen Einfluss auszuweiten und Vorräte zu erbeuten.
+- **Strategische Entscheidungen** bei Ereignissen beeinflussen dein langfristiges Vermächtnis und die verfügbaren Bauoptionen.
+- **Priorisiere frühzeitig Nahrung und Unterkünfte**, um einen Abfall der Zufriedenheit und potenzielle Aufstände zu verhindern.
+</Callout>
+
+<Section icon={Map} title="Die Grundlagen von Corsair Cove meistern">
+
+Der Beginn deiner Reise in Corsair Cove erfordert einen scharfen Verstand für Logistik und Ressourcenmanagement. Als Kapitän ist es dein primäres Ziel, eine von Schiffswracks übersäte Küste in einen blühenden Piratenhafen zu verwandeln. Das Spiel legt großen Wert auf komplexe Produktionsketten, in denen jeder Arbeiter zählt.
+
+**Video-Highlights:**
+- Erstmaliger Bau des Piratenlagers und grundlegende Straßenlayouts.
+- Verwaltung von Treibgut-Überlebenden (Drifters) als Bauarbeiter, Sammler und Crewmitglieder.
+- Die Bedeutung von Nahrungsproduktionsketten für die Zufriedenheit der Piraten.
+
+<YouTubeEmbed videoId="k6CzPuh-zgY" title="Start einer PIRATENSTADT in Corsair Cove (Vollversion)" />
+
+Effektiver Städtebau basiert darauf, Produktionsgebäude mit einem zentralen Lager zu verbinden. Stelle sicher, dass deine Wege sauber und logisch angelegt sind, um die Laufwege deiner Sammler zu minimieren.
+
+| Gebäude | Funktion | Ressourcen-Eingang |
+| :--- | :--- | :--- |
+| Piratenlager | Beherbergt und weist Arbeiter zu | Keine |
+| Sägewerk | Verarbeitet Holzstämme zu Planken | Holzstämme |
+| Lagerfeuer | Produziert einfachen Eintopf | Rohe Nahrung |
+| Kombüse | Verteilt Nahrung/Zufriedenheit | Eintopf |
+
+<Callout type="tip" title="Profi-Tipp">
+Behalte deinen **Zusammenhalt (Moral)** immer im Auge. Ein zu starker Abfall kann zu einem Aufstand führen, was in einem Game-Over enden kann, wenn deine Moral Null erreicht.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ressourcenmanagement und Produktionsketten">
+
+Um eine gewaltige Stadt aufzubauen, musst du die Karte nach lebenswichtigen Ressourcen wie Salz, Bleierz und Stein absuchen. Mit fortschreitender Spieldauer steigt die Komplexität deiner Produktionsketten, was spezialisiertere Arbeiter erfordert.
+
+<CardGrid cols={3}>
+  <Card title="Holzproduktion">
+    - Richte frühzeitig Holzfäller ein
+    - Verarbeite Holzstämme zu Planken
+    - Unerlässlich für alle Bauten
+  </Card>
+  <Card title="Nahrungssicherheit">
+    - Baue Lagerfeuer in der Nähe von Bewohnern
+    - Nutze Kombüsen, um die Moral zu steigern
+    - Halte eine konstante Versorgung aufrecht
+  </Card>
+  <Card title="Fortgeschrittene Materialien">
+    - Baue Stein für die Verteidigung ab
+    - Weberei für die Segeltuchproduktion
+    - Seilerei für Schiffsupgrades
+  </Card>
+</CardGrid>
+
+| Ressource | Hauptsächliche Verwendung | Beste Quelle |
+| :--- | :--- | :--- |
+| Planken | Gebäudebau | Sägewerk |
+| Stein | Kanonentürme/Verteidigung | Steinbruch |
+| Fasern | Segeltuch/Segel | Blattschneider |
+| Eintopf | Crew-Zufriedenheit | Lagerfeuer |
+
+<Callout type="warning" title="Warnung">
+Eine zu schnelle Expansion ohne ausreichende Nahrungsproduktion führt zu einem raschen Rückgang der Zufriedenheit. Stelle stets sicher, dass deine Kombüsenkapazität deiner Bevölkerung entspricht.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Seekampf und Expeditionstaktiken">
+
+Sobald du dein erstes Schiff hast, entfaltet das Spiel sein volles Potenzial. See-Missionen ermöglichen es dir, Ressourcen zu plündern, Überlebende zu retten und gegen die Krone zurückzuschlagen. Der Kampf ist rundenbasiert und erfordert ein effektives Management von Würfelpools und Spezialfähigkeiten.
+
+<Steps>
+  <Step num="1" title="Kapitän zuweisen">
+    Wähle einen Kapitän mit Fähigkeiten, die zu deinem Ziel passen (z. B. Entdecker zum Ausspähen, Kanonier für Schaden).
+  </Step>
+  <Step num="2" title="Ausrüsten und Besatzung">
+    Weise Treibgut-Überlebende als Crewmitglieder zu, um die Erfolgschancen bei Kaper- und Kampfmissionen zu maximieren.
+  </Step>
+  <Step num="3" title="Kampf aufnehmen">
+    Nutze taktische Aktionen wie „Schaden verhindern“ oder „In die Bresche“ basierend auf den vorausgesagten Zügen des Gegners.
+  </Step>
+</Steps>
+
+| Schiffstyp | Rolle | Hauptstärke |
+| :--- | :--- | :--- |
+| Land Lover | Startschiff | Geringe Kosten, solide Crew |
+| Prowler | Mittlerer Kampf | Hohe Geschwindigkeit/Kapern |
+| Destroyer | Schwerer Kampf | Massiver Kanonenschaden |
+
+<Callout type="success" title="Kampfstrategie">
+Versuche bei Begegnungen mit Handelsschiffen immer, die Distanz zu verringern, um die Beute zu maximieren. Wenn du in der Unterzahl bist, priorisiere die Verteidigung, um dein Schiff für die Rückreise einsatzbereit zu halten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Erweitere dein Piratenvermächtnis">
+
+Mit dem Freischalten weiterer Gebäude stehst du vor Entscheidungen, die dein Piratenvermächtnis prägen. Diese sind in vier Winde unterteilt: Ruhm, Imperium, Seafahrt und Wohlstand. Investitionen in diese Talentbäume gewähren passive Boni und neue Bauoptionen.
+
+<Checklist
+  id="progression-milestones"
+  title="Fortschritts-Meilensteine:"
+  items={[
+    "Errichte ein zweites Piratenlager",
+    "Baue einen Kanonenturm zur Verteidigung",
+    "Etabliere eine nachhaltige Segelproduktionskette",
+    "Schließe fünf erfolgreiche See-Missionen ab"
+  ]}
+/>
+
+| Vermächtnispfad | Fokusbereich | Hauptbelohnung |
+| :--- | :--- | :--- |
+| Seafahrt | Schiffswerte/Geschwindigkeit | Gezeitenläufer-Schiff |
+| Imperium | Ressourcenlagerung/Ertrag | Bereichsaufzug/Logistik |
+| Berüchtigt | Kampf/Kaperung | Fortgeschrittene Waffen |
+| Wohlstand | Handel/Münzgenerierung | Handelsposten |
+
+<Callout type="info" title="Wichtig">
+Vernachlässige nicht deine Verteidigungsinfrastruktur. Wenn deine Stadt wächst, wird die Krone mit größeren Schiffen zurückschlagen. Ein gut platzierter Kanonenturm kann den Unterschied zwischen einem blühenden Hafen und einem Trümmerhaufen ausmachen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie erhöhe ich meine Piratenbevölkerung in Corsair Cove?",
+    answer: "Du kannst deine Bevölkerung vergrößern, indem du Überlebende aus Schiffswracks und See-Ereignissen rettest. Stelle sicher, dass du genügend Zelte gebaut hast, um sie unterzubringen, da sonst deine Zufriedenheit sinkt."
+  },
+  {
+    question: "Was ist der effektivste Weg, um den Zusammenhalt zu verwalten?",
+    answer: "Halte deine Piraten mit Eintopf gut genährt und sorge für angemessenen Unterschlupf. Das Treffen vorteilhafter Entscheidungen bei Story-Ereignissen hilft ebenfalls, einen hohen Zusammenhalt aufrechtzuerhalten."
+  },
+  {
+    question: "Kann ich mehrere Piratenlager bauen?",
+    answer: "Ja, der Bau mehrerer Lager ist unerlässlich, um dein Territorium zu erweitern und größere Flotten zu verwalten, obwohl jedes seine eigene logistische Unterstützung benötigt."
+  },
+  {
+    question: "Wann sollte ich mein Schiff aufwerten?",
+    answer: "Werte dein Schiff auf, sobald du eine stetige Produktion von Seilen und Segeltuch etabliert hast. Schiffe höherer Stufen sind für Missionen der Stufen zwei und drei erforderlich."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove: Wie man Schiffe wechselt – Schritt-für-Schritt-Fortschritt",
+  description: "Meistern Sie das Schiffsfortschrittssystem in Corsair Cove. Erfahren Sie, wie Sie Kompasspunkte sammeln, seltene Ressourcen finden und Ihr Schiff im Jahr 2026 wechseln.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Change+Ship+Guide",
+  date: "2026-07-17",
+  author: "Corsair Cove Wiki-Team",
+  keywords: "Corsair Cove, Schiff wechseln, Kompass-Fortschritt, Piratenspiel, Schiffs-Upgrades"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptziel**: Meistern Sie die Mechaniken zum **Schiffwechsel in Corsair Cove**, um von einfachen Landratten-Booten zu hochrangigen Kampfschiffen aufzusteigen.
+- **Kompass-Fortschritt**: Verdienen Sie Punkte in den Bäumen Berüchtigt, Reichtum, Seefahrt oder Imperium, um Baupläne für höherwertige Schiffe freizuschalten.
+- **Ressourcensammlung**: Sammeln Sie wichtige Materialien wie Planken und Seile, um neue Schiffe an Ihrem Kai zu bauen.
+- **Kapitän-Zuweisung**: Weisen Sie spezialisierte Kapitäne wie Scarlet oder Blackbeard zu, die zu Ihrem Schiffstyp passen, um die Kampfleistung zu steigern.
+</Callout>
+
+<Section icon={Map} title="Den Schiffsfortschritt in Corsair Cove verstehen">
+
+In den tückischen Gewässern von Corsair Cove hängen Ihr Überleben und Ihre Dominanz vollständig von der Stärke Ihrer Flotte ab. Wenn Sie das erste Mal auf der einsamen Insel Schiffbruch erleiden, sind Ihre maritimen Fähigkeiten begrenzt. Sie beginnen mit einfachen Überlebensaufgaben, sammeln rohe Stämme und bauen einfache Zelte für Ihre Crew. Doch während Ihre Piratensiedlung wächst, müssen Sie den Übergang von einer einfachen landgebundenen Kolonie zu einem weitläufigen Seefahrtsimperium vollziehen. Das Wechseln und Aufrüsten Ihres Schiffes ist die Kernmechanik, die diese beiden Gameplay-Loops verbindet und es Ihnen ermöglicht, Kron-Schiffe abzufangen, Schmuggelreisen zu unternehmen und unerforschte Gebiete zu entdecken.
+
+Das Schiffsfortschrittssystem ist keine einfache Kaufmechanik. Stattdessen ist es tief in die Effizienz Ihres Städtebaus und Ihre Leistungen auf hoher See integriert. Um Ihr Schiff erfolgreich zu wechseln, müssen Sie die Wirtschaft Ihrer Insel ausbalancieren, die Zufriedenheit Ihrer Piratenpopulation verwalten und strategisch Punkte in den Kompass-Technologiebaum investieren. Wenn dieses Gleichgewicht nicht gehalten wird, kann dies zu geringem Zusammenhalt führen, was Meutereien oder siedlungsweite Krisen auslöst, die Ihre maritimen Ambitionen stoppen.
+
+**Video-Highlights:**
+- **UI und Mechaniken**: Eine vollständige Aufschlüsselung der Benutzeroberfläche, der Ressourcenpools und der Optimierung im frühen Spiel.
+- **Kompass-Technologiebaum**: Wie man durch die vier einzigartigen Fortschrittspfade navigiert, um fortschrittliche Schiffs-Baupläne freizuschalten.
+- **Die erste Reise**: Schritt-für-Schritt-Demonstration des Baus des Kais, des Stapellaufs der Landratte und des Sammelns früher Ressourcen.
+- **Upgrade auf Level 2**: Wie man spezialisierte Materialien wie Seile und Planken sammelt, um auf das Mondlicht-Schiff umzusteigen.
+
+<YouTubeEmbed videoId="ONkPcr8fiWs" title="Ein Piratenimperium beginnt! - Let's Play Corsair Cove - Ep.1" />
+
+<Callout type="warning" title="Zusammenhalts-Warnung">
+Überwachen Sie immer die Zusammenhalts-Anzeige Ihrer Siedlung, bevor Sie zu langen Reisen aufbrechen. Wenn der Zusammenhalt aufgrund unzufriedener Piraten auf Null sinkt, endet Ihr Spiel sofort, unabhängig von der Stärke Ihres Schiffes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Corsair Cove: Wie man Schiffe wechselt – Der komplette Walkthrough">
+
+Um Ihre maritimen Fähigkeiten zu verbessern, müssen Sie einem strukturierten Fortschrittspfad folgen. Der Prozess des **Schiffwechsels in Corsair Cove** erfordert eine Kombination aus Technologiebaum-Forschung, Entwicklung der Küsteninfrastruktur und präzisem Ressourcenmanagement. Sie können Schiffe nicht einfach nach Belieben tauschen; jedes neue Schiff muss erforscht, finanziert und an einem speziellen Kai gebaut werden.
+
+Die folgende Tabelle skizziert die primären Schiffsränge, die im frühen bis mittleren Spiel verfügbar sind, zusammen mit ihren Kernanforderungen und Rollen.
+
+| Schiffsrang | Schiffsname | Technologiebaum-Anforderung | Erforderliche Kernmaterialien | Hauptrolle |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rang 1** | Landratte | Anfängliche Freischaltung | 15 Planken | Grundlegende Erkundung, Tutorial-Reisen |
+| **Rang 2** | Mondlicht | Kompass Level 2 | 30 Planken, 10 Seile | Schneller Schmuggel, leichte Scharmützel |
+| **Rang 3** | Seeschlange | Kompass Level 3 | 50 Planken, 25 Seile, 150 Münzen | Mittlerer Kampf, Flottenbegleitung |
+| **Rang 4** | Eiserner Schrecken | Kompass Level 4 | 100 Planken, 50 Seile, 500 Münzen | Schwere Belagerung, Kron-Abfangmissionen |
+
+Sobald Sie das Schiff identifiziert haben, das Sie anstreben, folgen Sie diesen präzisen Schritten, um Ihr aktives Schiff zu bauen und zu wechseln.
+
+<Steps>
+  <Step num="1" title="Kompasspunkte verdienen">
+    Schließen Sie Taten und Ereignisse auf der Weltkarte ab, um spezialisierte Fortschrittspunkte zu verdienen. Diese Punkte sind in die Kategorien Berüchtigt, Seafaring, Reichtum und Imperium unterteilt. Konzentrieren Sie sich frühzeitig auf einen einzigen Pfad, um Ihre Freischaltungen für hochrangige Schiffe zu beschleunigen.
+  </Step>
+  <Step num="2" title="Schiffs-Bauplan freischalten">
+    Öffnen Sie das Kompass-Menü und navigieren Sie zu Ihrem gewählten Pfad. Geben Sie Ihre verdienten Punkte aus, um den spezifischen Schiffsknoten freizuschalten. Beispielsweise erfordert das Freischalten des Rang-2-Schiffes Mondlicht das Investieren von Punkten in die frühen Knoten der Berüchtigt- oder Seafahrt-Bäume.
+  </Step>
+  <Step num="3" title="Einen Kai bauen">
+    Wählen Sie einen Küstenknoten auf Ihrer Insel und errichten Sie einen Kai. Stellen Sie sicher, dass der Kai eine direkte Straßen- oder Leiterverbindung zu Ihrem Lagerhaus und den Wohnvierteln hat, damit Ihre Piratenarbeiter Baumaterialien effizient transportieren können.
+  </Step>
+  <Step num="4" title="Baumaterialien liefern">
+    Wählen Sie den Kai aus und entscheiden Sie sich für den freigeschalteten Schiffs-Bauplan, den Sie bauen möchten. Ihre Sammler werden automatisch damit beginnen, Planken, Seile und Münzen von Ihren Lagerhäusern zum Kai zu transportieren. Stellen Sie sicher, dass Ihre Sägewerke während dieser Phase mit maximaler Kapazität laufen.
+  </Step>
+  <Step num="5" title="Kapitän und Crew zuweisen">
+    Sobald der Bau abgeschlossen ist, wählen Sie Ihr neues Schiff am Kai aus. Weisen Sie einen freigeschalteten Kapitän (wie Scarlet oder Blackbeard) zu und rekrutieren Sie die erforderliche Anzahl an Crewmitgliedern mit Bier aus Ihrer örtlichen Taverne, um das Schiff offiziell in See stechen zu lassen.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Baueffizienz">
+Um den Schiffsbau zu beschleunigen, pausieren Sie vorübergehend den Bau an nicht wesentlichen Inselgebäuden. Dies zwingt alle verfügbaren Drifter und Sammler dazu, sich ganz auf die Lieferung von Ressourcen zum Kai zu konzentrieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Kompass-Fortschrittspfade & Taten verdienen">
+
+Der Kompass ist das Herzstück Ihres Fortschritts in Corsair Cove. Er fungiert als mehrpfadiger Technologiebaum, der bestimmt, auf welche Gebäude, Ressourcen und Schiffe Sie zugreifen können. Um die Punkte zu verdienen, die zum Aufstieg in diesen Bäumen erforderlich sind, müssen Sie spezifische Meilensteine, bekannt als Taten, abschließen oder an dynamischen Ereignissen teilnehmen, die über die Weltkarte verteilt sind.
+
+Zu verstehen, welcher Pfad zu Ihrem gewünschten Spielstil passt, ist entscheidend für die Optimierung Ihres Schiffsfortschritts. Die folgende Tabelle detailliert die vier Kompass-Pfade, ihre zugehörigen Spielstile und die Arten von Taten, die erforderlich sind, um sie freizuschalten.
+
+| Kompass-Pfad | Zugehöriger Spielstil | Beispiel für eine Schlüsseltat | Hauptvorteil |
+| :--- | :--- | :--- | :--- |
+| **Berüchtigt** | Piratenpopulation & Ruhm | Erreichen Sie 500 Piraten insgesamt | Schaltet schnelle Enterschiffe mit hoher Kapazität frei |
+| **Seafaring** | Seekampf & Abfangen | Überfallen Sie 5 Kron-Handelsschiffe | Schaltet schwer gepanzerte Kampfschiffe frei |
+| **Reichtum** | Handel, Schmuggel & Wirtschaft | Sammeln Sie 1000 Goldmünzen an | Schaltet Fracht- und Handelsschiffe mit hoher Kapazität frei |
+| **Imperium** | Inselverteidigung & Ordnung | Bauen Sie 3 kleine Geschütztürme | Schaltet Verteidigungsstrukturen und Hybridschiffe frei |
+
+Um Ihr erstes großes Schiffs-Upgrade, das Rang-2-Mondlicht, freizuschalten, wird dringend empfohlen, sich auf den Pfad "Berüchtigt" zu konzentrieren. Das Erreichen einer hohen Piratenpopulation ist ein natürliches Nebenprodukt der Erweiterung Ihrer Siedlung, was Berüchtigt-Punkte im frühen Spiel am einfachsten zu sammeln macht.
+
+<Callout type="info" title="Ereignis-Anpassung">
+Wenn Sie Schiffe zu Ereignissen aussenden, passen Sie diese an die im Questlog aufgeführten empfohlenen Schiffswerte (wie Manövrierfähigkeit und Panzerung) an. Der Versuch, hochstufige Ereignisse mit einer Rang-1-Landratte zu bestreiten, führt zu massiven Verlusten in der Crew und verschwendeten Vorräten.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Wichtige Ressourcen für Schiffs-Upgrades">
+
+Der Wechsel Ihres Schiffes erfordert eine robuste Industrieökonomie auf Ihrer Heimatinsel. Höherrangige Schiffe benötigen fortschrittliche veredelte Ressourcen, die nicht an einfachen Oberflächenknoten gesammelt werden können. Sie müssen komplexe Produktionsketten aufbauen, um den Übergang von Rohstoffen zu fertigen Marinekomponenten zu bewältigen.
+
+Die folgende Tabelle skizziert die Kernressourcen, die für den Schiffsbau erforderlich sind, und wie man sie produziert.
+
+| Ressource | Rohstoffe | Produktionsgebäude | Hauptverwendung in der Marine |
+| :--- | :--- | :--- | :--- |
+| **Planken** | Rohstämme | Sägewerk / Sägegrube | Grundlegende Rumpfkonstruktion für alle Schiffsränge |
+| **Seile** | Fasern / Hanf | Weber / Seilerei | Takelage und Segel für Schiffe ab Rang 2 |
+| **Schwarzpulver** | Holzkohle & Guano | Pulvermühle | Munition für Schiffskanonen und Verteidigungstürme |
+| **Goldmünzen** | Überschüssige Ressourcen | Handelsposten / Schmuggel | Kauf von High-Tier-Bauplänen und Anheuern von Crew |
+
+Bevor Sie versuchen, ein Rang-2- oder Rang-3-Schiff zu bauen, nutzen Sie diese Checkliste, um sicherzustellen, dass die Infrastruktur Ihrer Insel vollständig auf die Ressourcenanforderungen vorbereitet ist.
+
+<Checklist
+  id="shipyard-prep"
+  title="Checkliste zur Vorbereitung der Werft:"
+  items={[
+    "Etablieren Sie mindestens zwei aktive Sägewerke mit dedizierten Sammlern, um eine stetige Versorgung mit Planken zu gewährleisten.",
+    "Bauen Sie ein Lagerhaus in Küstennähe, um die Transportzeiten zum Kai zu minimieren.",
+    "Schalten Sie eine Seilerei frei und bauen Sie diese, um Rohfasern zu Marinetakelage zu verarbeiten.",
+    "Sammeln Sie mindestens 200 Goldmünzen durch erfolgreiche Schmuggelreisen oder den Handel mit überschüssigen Planken.",
+    "Bauen Sie eine örtliche Taverne und bestücken Sie diese mit Bier, um einen stetigen Vorrat an rekrutierbarer Crew zu sichern."
+  ]}
+/>
+
+<Callout type="success" title="Lageroptimierung">
+Bauen Sie immer ein Lagerhaus in der Nähe Ihrer Sägewerke. Sägewerke haben eine maximale lokale Lagerkapazität von 20 Planken; wenn ein Sammler diese nicht abholt, stoppt die Produktion automatisch.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kapitän-Synergien & Schiffs-Builds">
+
+Sobald Sie Ihr Schiff erfolgreich gewechselt haben, müssen Sie es mit dem richtigen Kapitän kombinieren, um seine Effektivität auf der Weltkarte zu maximieren. Kapitäne in Corsair Cove sind nicht nur kosmetisch; sie bieten erhebliche passive Boni auf Kampfschaden, Schiffshaltbarkeit, Manövrierfähigkeit und Ressourcengenerierung.
+
+Abhängig von Ihrem aktuell aktiven Schiff und Ihren unmittelbaren Zielen sollten Sie Ihre Flotte um eine dieser spezialisierten Build-Strategien herum strukturieren.
+
+<CardGrid cols={3}>
+  <Card title="Der Schmuggler-Build">
+    - **Aktives Schiff**: Mondlicht (Rang 2)
+    - **Primärer Kapitän**: Scarlet
+    - **Fokus**: Hohe Manövrierfähigkeit, schnelle Reisezeiten und erhöhte Belohnungen aus Schmuggelereignissen.
+  </Card>
+  <Card title="Der Dreadnought-Build">
+    - **Aktives Schiff**: Eiserner Schrecken (Rang 4)
+    - **Primärer Kapitän**: Blackbeard
+    - **Fokus**: Maximale Panzerung, hoher Kanonenschaden und dominante Leistung im direkten Kampf.
+  </Card>
+  <Card title="Der Händler-Build">
+    - **Aktives Schiff**: Seeschlange (Rang 3)
+    - **Primärer Kapitän**: Kenja
+    - **Fokus**: Erhöhte Frachtkapazität, Bonusgold aus Handelsrouten und reduzierte Crew-Unterhaltskosten.
+  </Card>
+</CardGrid>
+
+Um Ihnen bei der Entscheidung zu helfen, welchen Kapitän Sie Ihrem neu gebauten Schiff zuweisen sollen, konsultieren Sie die untenstehende Synergietabelle.
+
+| Kapitän | Spezialisierungspfad | Passiver Schlüsselbonus | Empfohlenes Schiff |
+| :--- | :--- | :--- | :--- |
+| **Scarlet** | Berüchtigt / Geschwindigkeit | +15% Manövrierfähigkeit, +10% Schmuggelbeute | Mondlicht (Rang 2) |
+| **Blackbeard** | Seafaring / Kampf | +20% Kanonenschaden, +15% Schiffspanzerung | Eiserner Schrecken (Rang 4) |
+| **Kenja** | Reichtum / Handel | +25% Frachtkapazität, -10% Crew-Unterhalt | Seeschlange (Rang 3) |
+
+<Callout type="tip" title="Kapitänstausch">
+Sie können Kapitäne jederzeit tauschen, während Ihr Schiff am Kai angedockt ist. Wenn Sie von einer kampflastigen Mission zu einer passiven Handelsroute wechseln, tauschen Sie immer zu einem auf Reichtum fokussierten Kapitän, um Ihre Gewinnspannen zu maximieren.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie schalte ich die Fähigkeit frei, Schiffe in Corsair Cove zu wechseln?",
+    answer: "Sie müssen zuerst Kompasspunkte verdienen, indem Sie Taten oder Ereignisse abschließen, diese Punkte ausgeben, um einen Schiffs-Bauplan im Technologiebaum freizuschalten, einen Kai bauen und diesen mit den erforderlichen Baumaterialien wie Planken und Seilen versorgen."
+  },
+  {
+    question: "Kann ich mehrere Schiffe gleichzeitig aktiv haben?",
+    answer: "Ja. Sobald Sie höhere Ränge im Seafaring-Pfad des Kompasses freischalten, können Sie Taten freischalten, die es Ihnen ermöglichen, eine Flotte aus mehreren aktiven Schiffen gleichzeitig zu verwalten."
+  },
+  {
+    question: "Was passiert mit meinem alten Schiff, wenn ich ein neues baue?",
+    answer: "Ihr altes Schiff bleibt an Ihrem Kai angedockt. Sie können es als Teil Ihrer aktiven Flotte behalten, ihm einen anderen Kapitän zuweisen oder es zerlegen, um einen Teil der Konstruktionsressourcen zurückzugewinnen."
+  },
+  {
+    question: "Warum baut mein Kai das ausgewählte Schiff nicht?",
+    answer: "Stellen Sie sicher, dass Ihr Kai eine gültige Straßen- oder Leiterverbindung zu Ihren Lagerhäusern hat. Wenn die Verbindung zu lang oder durch Höhenunterschiede blockiert ist, können die Sammler die benötigten Planken und Seile nicht liefern."
+  }
+]} />
+
+<Callout type="info" title="Benötigen Sie weitere Hilfe?">
+Für detailliertere Aufschlüsselungen von Produktionsketten, Layout-Designs und fortgeschrittenen Seekampfstrategien schauen Sie sich unsere anderen Leitfäden im Verzeichnis des Corsair Cove Wikis an.
+</Callout>
+
+</Section>

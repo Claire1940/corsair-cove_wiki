@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove : Stratégie pour débutants et guide de progression",
+  description: "Maîtrisez Corsair Cove grâce à notre guide d'experts sur la construction de base, la gestion des ressources et l'optimisation de l'équipage pirate pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Guide",
+  date: "2026-07-17",
+  author: "Équipe du Wiki Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Corsair Cove** nécessite d'équilibrer le **moral de l'équipage (cohésion)** et la **production de ressources** pour survivre.
+- Une **logistique efficace** via le placement des entrepôts est la base d'un repaire de pirates prospère.
+- La **gestion des navires** et le combat naval sont essentiels pour étendre votre influence et piller des provisions.
+- Les **choix stratégiques** lors des événements influencent votre héritage à long terme et les options de construction disponibles.
+- **Priorisez la nourriture et le logement** dès le début pour éviter les baisses de satisfaction et les révoltes potentielles.
+</Callout>
+
+<Section icon={Map} title="Maîtriser les bases de Corsair Cove">
+
+Commencer votre voyage dans Corsair Cove demande un esprit vif pour la logistique et la gestion des ressources. En tant que capitaine, votre objectif principal est de transformer un rivage parsemé d'épaves en un repaire de pirates prospère. Le jeu met l'accent sur des chaînes de production complexes, où chaque travailleur compte.
+
+**Points forts de la vidéo :**
+- Construction initiale du camp de pirates et tracés de base des routes.
+- Gestion des dériveurs en tant que bâtisseurs, transporteurs et membres d'équipage.
+- L'importance des chaînes de production alimentaire pour la satisfaction des pirates.
+
+<YouTubeEmbed videoId="k6CzPuh-zgY" title="Starting a PIRATE CITY in Corsair Cove FULL RELEASE" />
+
+La construction efficace d'une ville repose sur le raccordement des bâtiments de production à un entrepôt central. Assurez-vous que vos chemins sont propres et logiques afin de minimiser le temps de trajet de vos transporteurs.
+
+| Bâtiment | Fonction | Entrée de ressources |
+| :--- | :--- | :--- |
+| Camp de pirates | Loge et affecte les travailleurs | Aucun |
+| Scierie | Transforme les bûches en planches | Bûches |
+| Feu de camp | Produit du ragoût de base | Nourriture crue |
+| Cambuse | Distribue la nourriture/satisfaction | Ragoût |
+
+<Callout type="tip" title="Conseil de pro">
+Gardez toujours un œil sur votre **cohésion (moral)**. En perdre trop peut mener à une révolte, ce qui peut entraîner une fin de partie si votre moral atteint zéro.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gestion des ressources et chaînes de production">
+
+Pour bâtir une ville immense, vous devez parcourir la carte à la recherche de ressources essentielles comme le sel, le minerai de plomb et la pierre. À mesure que vous progressez, la complexité de vos chaînes de production augmentera, nécessitant des travailleurs plus spécialisés.
+
+<CardGrid cols={3}>
+  <Card title="Production de bois">
+    - Établissez des bûcherons tôt
+    - Transformez les bûches en planches
+    - Essentiel pour toutes les constructions
+  </Card>
+  <Card title="Sécurité alimentaire">
+    - Construisez des feux de camp près des résidents
+    - Utilisez les cambuses pour booster le moral
+    - Maintenez un approvisionnement constant
+  </Card>
+  <Card title="Matériaux avancés">
+    - Extrayez de la pierre pour les défenses
+    - Tisserand pour la production de toile
+    - Cordier pour les améliorations de navires
+  </Card>
+</CardGrid>
+
+| Ressource | Utilisation principale | Meilleure source |
+| :--- | :--- | :--- |
+| Planches | Construction de bâtiments | Scierie |
+| Pierre | Tours à canons/Défenses | Carrière |
+| Fibre | Toile/Voiles | Coupeur de feuilles |
+| Ragoût | Satisfaction de l'équipage | Feu de camp |
+
+<Callout type="warning" title="Avertissement">
+Se développer trop rapidement sans une production alimentaire suffisante entraînera un déclin rapide de la satisfaction. Assurez-vous toujours que la capacité de votre cambuse correspond à votre population.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat naval et tactiques d'expédition">
+
+Une fois que vous possédez votre premier navire, le jeu s'ouvre véritablement. Les missions navales vous permettent de piller des ressources, de secourir des survivants et de riposter contre la Couronne. Le combat se déroule au tour par tour, vous obligeant à gérer efficacement vos réserves de dés et vos capacités spéciales.
+
+<Steps>
+  <Step num="1" title="Assigner un capitaine">
+    Sélectionnez un capitaine ayant des compétences correspondant à votre objectif (ex. explorateur pour la reconnaissance, canonnier pour les dégâts).
+  </Step>
+  <Step num="2" title="Équiper et recruter">
+    Affectez des dériveurs comme membres d'équipage pour maximiser les taux de réussite des missions d'abordage et de combat.
+  </Step>
+  <Step num="3" title="Engager le combat">
+    Utilisez des actions tactiques comme « Prévenir les dégâts » ou « Dans la brèche » en fonction des mouvements prévus de l'ennemi.
+  </Step>
+</Steps>
+
+| Type de navire | Rôle | Force clé |
+| :--- | :--- | :--- |
+| Terrien | Navire de départ | Faible coût, équipage correct |
+| Rôdeur | Combat de niveau moyen | Vitesse élevée/abordage |
+| Destructeur | Combat lourd | Dégâts de canon massifs |
+
+<Callout type="success" title="Stratégie de combat">
+Essayez toujours de réduire la distance lors des rencontres avec des navires marchands pour maximiser le butin. Si vous êtes en infériorité numérique, donnez la priorité à la défense pour maintenir votre navire opérationnel pour le voyage de retour.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Développer votre héritage de pirate">
+
+À mesure que vous débloquez d'autres bâtiments, vous ferez face à des choix que définiront votre héritage de pirate. Ceux-ci sont classés selon quatre orientations : Célébrité, Empire, Navigation et Richesse. Investir dans ces arbres confère des bonus passifs et de nouvelles options de construction.
+
+<Checklist
+  id="progression-milestones"
+  title="Jalons de progression :"
+  items={[
+    "Construire un deuxième camp de pirates",
+    "Construire une tour à canons pour la défense",
+    "Établir une chaîne de production de voiles durable",
+    "Terminer cinq missions navales avec succès"
+  ]}
+/>
+
+| Voie de l'héritage | Domaine d'intérêt | Récompense clé |
+| :--- | :--- | :--- |
+| Navigation | Stats de navire/Vitesse | Navire Coureur des marées |
+| Empire | Stockage/Rendement des ressources | Logistique de zone |
+| Notoriété | Combat/Abordage | Armement avancé |
+| Richesse | Commerce/Génération de pièces | Comptoir commercial |
+
+<Callout type="info" title="Important">
+Ne négligez pas votre infrastructure défensive. À mesure que votre ville grandit, la Couronne ripostera avec des navires plus grands. Une tour à canons bien placée peut faire la différence entre un repaire prospère et un tas de ruines.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment augmenter ma population de pirates dans Corsair Cove ?",
+    answer: "Vous pouvez augmenter votre population en secourant des survivants d'épaves et d'événements navals. Assurez-vous d'avoir construit suffisamment de tentes pour les loger, sous peine de voir votre satisfaction chuter."
+  },
+  {
+    question: "Quel est le moyen le plus efficace de gérer la cohésion ?",
+    answer: "Gardez vos pirates bien nourris avec du ragoût et assurez-vous qu'ils disposent d'un abri adéquat. Faire des choix favorables lors des événements de l'histoire aide également à maintenir une cohésion élevée."
+  },
+  {
+    question: "Puis-je construire plusieurs camps de pirates ?",
+    answer: "Oui, la construction de plusieurs camps est essentielle pour étendre votre territoire et gérer des flottes plus importantes, bien que chacun nécessite son propre soutien logistique."
+  },
+  {
+    question: "Quand dois-je améliorer mon navire ?",
+    answer: "Améliorez votre navire une fois que vous aurez établi une production régulière de cordages et de toiles. Des navires de niveau supérieur sont nécessaires pour les missions de niveau deux et trois."
+  }
+]} />
+
+</Section>

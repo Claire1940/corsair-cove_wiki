@@ -1,0 +1,173 @@
+import { Map, Shield, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Einsteiger-Guide: Setup & Tipps zum Fortschritt",
+  description: "Meistere die Grundlagen von Corsair Cove. Erfahre in diesem Einsteiger-Guide alles über vertikales Bauen, das Management des Crew-Zusammenhalts und die vier Pfade zum Sieg.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Beginner+Guide+Setup",
+  date: "2026-07-17",
+  author: "corsair cove Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Hauptziel des Guides**: Nutze diesen Corsair Cove Einsteiger-Guide, um eine florierende Piratensiedlung aufzubauen, deine Crew zu managen und die Meere zu erobern.
+- **Vertikales Bauen**: Baue auf Klippen, Hängen und Felsen, um den Platz optimal zu nutzen und die Laufwege deiner Piraten zu verkürzen.
+- **Zusammenhalts-Management**: Halte die Einigkeit der Crew über Null, um ein Game Over zu verhindern, und nutze bei Bedarf Opferungen, um die Stabilität zu erhöhen.
+- **Siegpfade**: Wähle in deinem Tagebuch zwischen Berüchtigtkeit, Imperium, Seefahrt oder Reichtum, um das Spiel zu gewinnen.
+- **Kompass-Upgrades**: Schließe Taten ab und nimm an Events mit farbigen Bannern teil, um Punkte für das Freischalten fortschrittlicher Gebäude zu verdienen.
+</Callout>
+
+<Section icon={Map} title="Vertikales Bauen und Platzoptimierung">
+
+Der Aufbau einer Piratensiedlung erfordert einen klugen Umgang mit dem verfügbaren Platz. Bei deiner Ankunft ist flaches Land extrem begrenzt. Die kleinen Strandbereiche bieten nur Platz für wenige grundlegende Gebäude, was dich dazu zwingt, bei deinen Layouts kreativ zu werden. Um eine erfolgreiche Siedlung aufzubauen, musst du die Vertikalität deiner Insel nutzen. Hänge, Klippen und Felsformationen sind keine Hindernisse, sondern wertvolle Bauzonen, die dir helfen, dein Territorium zu maximieren.
+
+**Video-Highlights:**
+- Flaches Land ist stark begrenzt, weshalb vertikales Bauen von Anfang an unerlässlich ist.
+- Das Bauen auf Klippen und Hängen verkürzt die Laufwege und Reisezeiten deiner Piraten.
+- Wohngebäude können in abgelegenen Gebieten wie dem Skull Rock platziert werden, ohne die Effizienz zu beeinträchtigen.
+
+<YouTubeEmbed videoId="mSpVcDtCvFA" title="Corsair Cove Einsteiger-Guide EP1 – Zusammenhalt, Fortschritt, Freischaltungen & Wie man gewinnt" />
+
+Indem du deine Siedlung vertikal aufbaust, verkürzt du die Laufwege deiner Piraten erheblich. Kürzere Wege bedeuten schnelleren Ressourcentransport und eine höhere Gesamtproduktivität. Zudem müssen Wohngebäude nicht in der Nähe von Produktionsgebäuden stehen. Deine Crewmitglieder benötigen lediglich ein Dach über dem Kopf. Das bedeutet, dass du Wohnquartiere auf abgelegenen Klippen oder direkt auf dem Skull Rock platzieren kannst, um wertvolles flaches Land für Logistik und Produktion zu sparen.
+
+| Zone | Platzverfügbarkeit | Bester Gebäudetyp | Wege-Effizienz |
+| :--- | :--- | :--- | :--- |
+| **Strand** | Sehr gering | Docks & Lagerhäuser | Hoch für Logistik |
+| **Klippen** | Moderat | Produktionsstätten | Hoch für kurze Wege |
+| **Skull Rock** | Hoch | Piratenunterkünfte | Hoch für Isolation |
+
+<Callout type="tip" title="Bau-Tipp">
+Priorisiere immer die Platzierung von Produktions- und Lagerstätten nah beieinander auf flachem Land, während du Wohngebäude auf die Klippen verlegst. Dies minimiert die Reisezeit der arbeitenden Piraten und sorgt für einen reibungslosen Ablauf deiner Wirtschaft.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Management von Crew-Zusammenhalt und Einigkeit">
+
+Der Zusammenhalt ist der zentrale Wert, der die Stabilität deiner Piratencrew bestimmt. Er misst die Stärke der Einigkeit deiner Crew und ihre Bereitschaft, gemeinsam an einem Ziel zu arbeiten. Sinkt der Zusammenhalt auf Null, eskalieren Konflikte, die Zusammenarbeit bricht zusammen und deine Piraten verlassen die Siedlung, was zu einem sofortigen Game Over führt. Diesen Wert stabil zu halten, hat in der Anfangsphase oberste Priorität.
+
+Umgekehrt bietet dir ein hoher Zusammenhalt eine wertvolle strategische Ressource. Du kannst Zusammenhalt ausgeben, um mächtige Aktionen durchzuführen, Krisen zu bewältigen oder dir einzigartige Vorteile zu sichern. Das Aufrechterhalten eines hohen Zusammenhalts erfordert jedoch oft schwierige ethische Entscheidungen. Als Anführer musst du unter Umständen einzelne Crewmitglieder opfern, um die Einigkeit der Gruppe zu bewahren. Zu verstehen, wann diese Opfer nötig sind, ist der Schlüssel, um deine Crew als eine geschlossene, vereinte Kraft zu führen.
+
+| Zusammenhalt | Status | Effekte | Management-Aktion |
+| :--- | :--- | :--- | :--- |
+| **Hoch (80-100)** | Exzellent | Verstärkt strategische Aktionen | Durch Siege aufrechterhalten |
+| **Mittel (30-79)** | Stabil | Normaler Betrieb | Taten-Abschluss überwachen |
+| **Niedrig (1-29)** | Kritisch | Erhöhte Konflikte | Crewmitglieder opfern |
+| **Null (0)** | Game Over | Siedlung löst sich auf | Unter allen Umständen vermeiden |
+
+<Callout type="warning" title="Kritische Warnung">
+Zögere nicht, einen problematischen Piraten zu opfern, wenn der Zusammenhalt deiner Crew auf ein kritisches Niveau sinkt. Den Verlust eines einzelnen Arbeiters zu verschmerzen, ist immer besser als der totale Zusammenbruch deiner Siedlung.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Die vier Pfade zum Sieg">
+
+In Corsair Cove wird dein ultimatives Ziel durch dein Fortschrittsmenü definiert, auf das du über den Reiter „Tagebuch“ im Kompassmenü zugreifen kannst. Es gibt vier verschiedene Pfade, denen du folgen kannst, um das Spiel abzuschließen und dein Erbe zu sichern. Jeder Pfad konzentriert sich auf einen anderen Aspekt des Piratenlebens, sodass du dein Spielerlebnis an deinen bevorzugten Stil anpassen kannst.
+
+<CardGrid cols={4}>
+  <Card title="Pfad der Berüchtigtkeit">
+    Konzentriert sich darauf, durch Kämpfe einen Ruf aufzubauen, Rivalen zu besiegen und Angst und Schrecken auf den sieben Weltmeeren zu verbreiten.
+  </Card>
+  <Card title="Pfad des Imperiums">
+    Konzentriert sich auf den Bau gewaltiger Befestigungen, die Sicherung von Land und die Verwandlung kahler Felsen in eine sichere Festung.
+  </Card>
+  <Card title="Pfad der Seefahrt">
+    Konzentriert sich auf die Erkundung, das Kartografieren unerforschter Gewässer und die Meisterung der Navigation und Schiffsführung.
+  </Card>
+  <Card title="Pfad des Reichtums">
+    Konzentriert sich auf das Anhäufen von Gold, den Aufbau von Handelsrouten und die Errichtung einer gewaltigen Schatzkammer für deine Crew.
+  </Card>
+</CardGrid>
+
+Du musst dich zu Beginn des Spiels nicht auf einen einzigen Pfad festlegen. Du kannst auf allen vier Questreihen gleichzeitig Fortschritte erzielen, Aufgaben abschließen und Belohnungen verdienen. Erst in der allerletzten Phase des Spiels musst du eine endgültige Entscheidung darüber treffen, wie du deinen Run abschließen möchtest. Diese Flexibilität ermöglicht es dir, mit verschiedenen Mechaniken zu experimentieren, bevor du dich für deine endgültige Siegbedingung entscheidest.
+
+| Pfad | Fokus | Wichtige Freischaltung | Spielstil |
+| :--- | :--- | :--- | :--- |
+| **Berüchtigtkeit** | Kampf & Berüchtigtkeit | Flaggschiffe | Aggressive Raubzüge |
+| **Imperium** | Befestigungen | Bastionen | Defensiver Aufbau |
+| **Seefahrt** | Erkundung | Seekarten | Aktives Segeln |
+| **Reichtum** | Handel & Gold | Schatzkammern | Wirtschaftlicher Fokus |
+
+<Callout type="info" title="Sieg-Info">
+Du kannst deinen Fortschritt auf allen vier Pfaden jederzeit einsehen, indem du dein Tagebuch öffnest. Nutze diesen Bildschirm, um zu verfolgen, welchen Meilensteinen du am nächsten bist.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Taten und Kompass-Fortschritt">
+
+Dein Fortschritt wird durch das Abschließen von Taten vorangetrieben. Das sind kleine Quests, die für fast jede Aktivität im Spiel vergeben werden. Egal, ob du dein Logistiknetzwerk optimierst, neue Schiffe baust oder feindliche Flotten überfällst – du verdienst kontinuierlich Punkte für das Abschließen dieser Aufgaben. Diese Punkte werden dann direkt in deinen Kompass investiert, um neue Inhalte freizuschalten.
+
+<Steps>
+  <Step num="1" title="Tagebuch prüfen">
+    Öffne dein Fortschrittstagebuch, indem du auf das Kompass-Symbol auf deinem Bildschirm klickst, um deine aktiven Hauptquests zu sehen.
+  </Step>
+  <Step num="2" title="Kleine Taten abschließen">
+    Konzentriere dich auf kleinere Aufgaben wie den Bau einfacher Unterkünfte und die Einrichtung der Logistik, um erste Kompasspunkte zu verdienen.
+  </Step>
+  <Step num="3" title="Neue Baupläne freischalten">
+    Gib deine verdienten Kompasspunkte im Fortschrittsbaum aus, um fortschrittliche Gebäude und Schiffsdesigns freizuschalten.
+  </Step>
+  <Step num="4" title="An Welt-Events teilnehmen">
+    Halte auf der Seekarte nach Events mit farbigen Bannern Ausschau, um Bonuspunkte zu verdienen und deinen Fortschritt zu beschleunigen.
+  </Step>
+</Steps>
+
+Zusätzlich zu den Standardtaten kannst du durch die Teilnahme an Welt-Events erhebliche Kompasspunkte verdienen. Halte bei der Erkundung der Weltkarte nach Ereignissen Ausschau, die mit farbigen Bannern markiert sind. Diese Events bieten einzigartige Herausforderungen und wertvolle Belohnungen, die deinen Fortschritt erheblich beschleunigen können, sodass du fortschrittliche Schiffs-Baupläne und mächtige Gebäudestrukturen viel schneller freischalten kannst.
+
+| Kategorie | Beispiel-Tat | Kompasspunkte | Hauptvorteil |
+| :--- | :--- | :--- | :--- |
+| **Logistik** | Straßen bauen | 15 Punkte | Schnellerer Ressourcentransport |
+| **Seefahrt** | Unbekannte Kacheln erkunden | 25 Punkte | Neue Schiffs-Baupläne |
+| **Schiffsbau** | Erste Schaluppe zu Wasser lassen | 30 Punkte | Flottenerweiterung |
+
+<Callout type="success" title="Fortschritts-Tipp">
+Priorisiere in der Anfangsphase Logistik-Taten. Die frühzeitige Verbesserung deines Ressourcentransports macht das Abschließen späterer, ressourcenintensiver Taten um ein Vielfaches einfacher.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Checkliste für die ersten Schritte & FAQ">
+
+Um einen erfolgreichen Start deiner Piratensiedlung zu gewährleisten, befolge diese kurze Checkliste der wichtigsten Meilensteine. Das frühzeitige Abschließen dieser Aufgaben legt ein solides Fundament für deine Wirtschaft und dein Crew-Management und schützt deine Siedlung vor dem Zusammenbruch.
+
+<Checklist
+  id="beginner-milestones"
+  title="Meilensteine der ersten Woche:"
+  items={[
+    "Baue einfache Unterkünfte auf dem Skull Rock",
+    "Richte einen kurzen Logistikweg zwischen den Produktionsgebäuden ein",
+    "Schließe deine ersten drei kleinen Taten ab",
+    "Schalte den ersten Schiffs-Bauplan über das Kompassmenü frei",
+    "Erreiche einen stabilen Zusammenhalt von über 50 %"
+  ]}
+/>
+
+<Callout type="tip" title="Letzter Tipp">
+Überprüfe regelmäßig deine Checkliste und dein Tagebuch, um dich auf deine unmittelbaren Ziele zu konzentrieren. Effiziente Planung ist der Schlüssel zur Eroberung des Archipels.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Was ist das Hauptziel dieses Corsair Cove Einsteiger-Guides?",
+    answer: "Dieser Guide hilft dir, vertikales Bauen zu verstehen, den Zusammenhalt der Crew zu managen und die vier Siegpfade zu beschreiten, um dich von gestrandeten Überlebenden zu einem mächtigen Piratenimperium zu entwickeln."
+  },
+  {
+    question: "Kann ich während eines Spieldurchgangs die Siegpfade wechseln?",
+    answer: "Ja, du kannst auf allen vier Questreihen gleichzeitig Fortschritte erzielen. Deine endgültige Entscheidung musst du erst beim allerletzten Questschritt treffen."
+  },
+  {
+    question: "Wie verhindere ich ein Game Over durch fehlenden Zusammenhalt?",
+    answer: "Du musst die Einigkeit deiner Crew überwachen. Wenn sie zu weit sinkt, treffe harte Entscheidungen, wie das Opfern von Crewmitgliedern, um den Zusammenhalt wieder auf ein sicheres Niveau zu heben."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Corsair Cove : Alcool pour Fletcher - Guide de la chaîne d'approvisionnement et de quête",
+  description: "Maîtrisez la quête de l'alcool pour Fletcher dans Corsair Cove. Apprenez à optimiser votre brasserie, assigner des Fetchers et livrer de l'alcool sur des falaises verticales.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Booze+To+Fletcher+Guide",
+  date: "2026-07-17",
+  author: "L'équipe Wiki de Corsair Cove",
+  keywords: "corsair cove, alcool, fletcher, quête, logistique, brasserie, rhum"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Objectif principal** : Livrer de **l'alcool à Fletcher dans Corsair Cove** débloque des plans de défense avancés et des unités de pirates à distance d'élite.
+- **Condition clé** : Établir une chaîne de production stable de bière ou de rhum et affecter des Fetchers dédiés pour gérer le transport vertical.
+- **Focus logistique** : Gardez les itinéraires de transport courts et "verts" pour éviter les retards de livraison sur les sentiers escarpés des falaises.
+- **Récompenses potentielles** : Débloque l'Atelier de Fletcher, des tours de garde spécialisées et de l'équipement de combat naval de haut niveau.
+</Callout>
+
+<Section icon={Target} title="La quête de l'alcool pour Fletcher dans Corsair Cove">
+
+Établir un repaire de pirates prospère à Corsair Cove demande plus que de simples constructions de maisons et le pillage de navires marchands. À mesure que votre colonie s'étend verticalement le long des falaises escarpées de l'île, la défense de vos richesses accumulées devient une priorité absolue. Les forces de la Couronne lanceront des raids périodiques pour récupérer leurs biens perdus, rendant les fortifications défensives essentielles à la survie. Pour construire les meilleures défenses, vous devez recruter Fletcher, un légendaire maître forgeron et stratège défensif qui réside dans un camp isolé sur les terrasses montagneuses supérieures.
+
+Fletcher est un pirate retraité têtu qui refuse d'aider votre colonie à moins que ses exigences personnelles ne soient satisfaites. Le cœur de son processus de recrutement consiste à terminer la quête de livraison **d'alcool pour Fletcher**. Il exige un approvisionnement régulier en alcool de haute qualité pour satisfaire son équipage avant de partager ses plans avancés pour les tours de tir, les canons et les munitions spécialisées. Ne pas l'approvisionner non seulement freine votre progression défensive, mais peut également entraîner une baisse de la Cohésion globale si votre colonie reste vulnérable aux attaques de la Couronne.
+
+| Étape de la quête | Objectif | Objets requis | Récompenses |
+| :--- | :--- | :--- | :--- |
+| Étape 1 | Localiser l'avant-poste de Fletcher | Aucun | Coordonnées de la carte débloquées |
+| Étape 2 | Établir une ligne d'approvisionnement locale | 10 Bières, 5 Galettes | Confiance de Fletcher (+5 Notoriété) |
+| Étape 3 | Sécuriser une livraison permanente | 20 Rhums, 10 Ragoûts | Plan de l'Atelier de Fletcher |
+
+<Callout type="info" title="Planification défensive">
+Les raids de la Couronne augmentent en difficulté en fonction de la richesse totale et de la population de votre colonie. Terminer la quête de Fletcher tôt vous assure d'avoir les capacités défensives requises pour survivre aux assauts navals de milieu de partie.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mise en place de la chaîne de production d'alcool">
+
+Pour satisfaire la soif exigeante de Fletcher, vous devez établir un réseau de production de boissons fiable. Dans Corsair Cove, l'alcool est divisé en différents niveaux, la Bière (Ale) servant d'option de base et le Rhum représentant le luxe de haut niveau préféré. La production de ces boissons nécessite un équilibre minutieux entre l'agriculture, la collecte d'eau et la transformation.
+
+La production de bière est le point de départ le plus simple. Elle nécessite du grain et de l'eau propre. Le grain doit être cultivé sur un sol plat et fertile, souvent rare près du rivage. Vous devrez construire des fermes céréalières sur les terrasses inférieures et les connecter à des collecteurs d'eau. Une fois récoltées, ces matières premières doivent être acheminées vers une brasserie, où les ouvriers de production les transformeront en bière.
+
+La production de rhum est plus complexe mais très appréciée par Fletcher. Elle nécessite du sucre et de l'eau propre. Comme la canne à sucre ne pousse pas naturellement sur l'île de départ, vous devez soit importer du sucre via votre quai, soit lancer des raids réussis sur les îles tropicales voisines avec votre flotte. Une fois le sucre sécurisé, acheminez-le vers une distillerie pour produire du rhum.
+
+| Boisson | Matières premières | Bâtiment de production | Taux de production | Satisfaction de l'équipage |
+| :--- | :--- | :--- | :--- | :--- |
+| Bière | Grain, Eau propre | Brasserie | Élevé | Équipage de base |
+| Rhum | Sucre, Eau propre | Distillerie | Moyen | Équipage spécialisé |
+| Vin | Raisins importés | Vignoble avancé | Faible | Équipage d'élite |
+
+<Callout type="tip" title="Conseil de production">
+Construisez toujours vos collecteurs d'eau sur les hauteurs. Les connexions alimentées par gravité ne nécessitent pas d'énergie supplémentaire, réduisant ainsi le coût opérationnel global de vos brasseries et distilleries.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Optimisation de la logistique : Fetchers et efficacité des itinéraires">
+
+Une fois vos brasseries et distilleries opérationnelles, le défi suivant consiste à transporter l'alcool jusqu'au camp reculé de Fletcher sur la falaise. C'est là que votre réseau logistique et vos Fetchers entrent en jeu. Les Fetchers sont des pirates assignés responsables du déplacement des marchandises entre les bâtiments de production, les centres de distribution et les camps résidentiels.
+
+Parce que Corsair Cove présente un terrain vertical extrême, la recherche de chemin peut rapidement devenir un goulot d'étranglement majeur. Si vos Fetchers doivent emprunter des sentiers de montagne sinueux pour livrer l'alcool, le temps de transit sera trop long, ce qui entraînera un itinéraire de "distance rouge". Les itinéraires rouges indiquent une grave inefficacité logistique, ce qui provoque des retards de livraison et peut entraîner une baisse de la satisfaction de Fletcher. Pour éviter cela, vous devez utiliser une infrastructure verticale avancée.
+
+<CardGrid cols={3}>
+  <Card title="Ponts">
+    - **Faible coût en ressources**
+    - Enjambent les gouffres étroits
+    - Idéal pour connecter des terrasses adjacentes
+  </Card>
+  <Card title="Ascenseurs de cargaison">
+    - **Grande capacité de vrac**
+    - Déplacent les marchandises verticalement
+    - Parfait pour monter les ressources lourdes du port vers les falaises
+  </Card>
+  <Card title="Tyroliennes">
+    - **Transit extrêmement rapide**
+    - Livraison rapide à sens unique
+    - Idéal pour envoyer des produits finis comme l'alcool directement aux camps
+  </Card>
+</CardGrid>
+
+| Type de connexion | Coût de construction | Limite de hauteur | Vitesse de transport | Meilleurs cas d'utilisation |
+| :--- | :--- | :--- | :--- | :--- |
+| Pont basique | 10 Bois d'œuvre, 5 Pierres | Basse | Modérée | Traverser des ravins étroits |
+| Ascenseur de cargaison | 20 Bois d'œuvre, 10 Fer | Haute | Lente | Marchandises lourdes en vrac |
+| Tyrolienne express | 15 Bois d'œuvre, 5 Fibres | Haute | Très rapide | Biens légers de grande valeur |
+
+<Callout type="warning" title="Avertissement logistique">
+Ne comptez jamais sur les simples sentiers pédestres pour les livraisons verticales longue distance. Les Fetchers perdront un temps précieux à marcher, ce qui encombrera les bâtiments de production et affamera les camps isolés en ressources.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guide de livraison étape par étape">
+
+Pour réussir la livraison et obtenir les services de Fletcher, suivez cet itinéraire de progression optimisé.
+
+<Steps>
+  <Step num="1" title="Localiser l'avant-poste de Fletcher">
+    Explorez la crête nord de votre île pour localiser le camp de Fletcher. Une fois découvert, construisez une route depuis votre colonie principale vers la base de sa falaise pour préparer la mise en place de l'infrastructure.
+  </Step>
+  <Step num="2" title="Construire le réseau d'eau et de grain">
+    Placez deux fermes céréalières sur une terrasse fertile et soutenez-les avec au moins trois collecteurs d'eau. Assurez-vous que ces bâtiments sont connectés à un entrepôt localisé pour stocker les matières premières.
+  </Step>
+  <Step num="3" title="Construire et approvisionner la brasserie">
+    Construisez une brasserie près de votre entrepôt. Assignez des ouvriers de production à la brasserie et surveillez le panneau de ressources pour vous assurer que l'apport de grain et d'eau correspond au taux de consommation de la brasserie.
+  </Step>
+  <Step num="4" title="Établir une connexion par tyrolienne verticale">
+    Débloquez les tyroliennes via votre menu Principes Pirates. Placez une station d'émission de tyrolienne à côté de votre brasserie et la station de réception directement dans le rayon d'action du camp de Fletcher.
+  </Step>
+  <Step num="5" title="Assigner des Fetchers dédiés">
+    Assignez au moins deux Fetchers à la station de tyrolienne. Ils chargeront automatiquement la bière ou le rhum produit sur la tyrolienne, livrant l'alcool directement à Fletcher en quelques secondes et terminant la quête.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Quête terminée">
+Une fois la soif de Fletcher satisfaite, le plan de son atelier sera débloqué. Placez l'Atelier de Fletcher près de votre port pour commencer à fabriquer des canons avancés et des munitions défensives.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Stabilité de la colonie et objectifs de cohésion">
+
+L'extension de votre territoire pour atteindre le camp de Fletcher mettra à rude épreuve l'économie globale de votre colonie. Chaque nouveau camp que vous établissez agrandit votre zone de construction, mais il introduit également de nouveaux résidents qui ont besoin de logement, de nourriture et de divertissement. Si ces besoins sont ignorés, votre jauge de Cohésion globale chutera, ce qui peut mener à l'échec de la partie. Utilisez cette liste de contrôle pour vous assurer que votre colonie reste stable pendant la quête.
+
+<Checklist
+  id="stability-goals"
+  title="Jalons essentiels de la colonie :"
+  items={[
+    "Construire suffisamment de logements pour tous les Drifters et travailleurs assignés avant d'étendre les camps",
+    "Maintenir un équilibre positif de production alimentaire à l'aide de cabanes de pêche et de champs de pommes de terre",
+    "Établir des centres de distribution localisés pour éviter les goulots d'étranglement d'approvisionnement",
+    "Maintenir la Cohésion globale au-dessus de cinquante pour cent en résolvant rapidement les besoins non satisfaits",
+    "Améliorer les tours de défense près du port pour protéger vos installations de stockage"
+  ]}
+/>
+
+<Callout type="tip" title="Conseil de cohésion">
+Évitez une croissance démographique trop rapide. Ne recrutez de nouveaux pirates que lorsque vos chaînes de production de nourriture et de boissons ont un surplus stable, car les ventres vides détruisent rapidement le moral des pirates.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Pourquoi mon itinéraire de livraison d'alcool affiche-t-il une ligne rouge ?",
+    answer: "Une ligne rouge indique que la distance physique entre votre brasserie et le camp de Fletcher est trop longue pour que les Fetchers puissent marcher efficacement. Pour corriger cela, construisez une tyrolienne ou un ascenseur de cargaison pour créer une connexion verticale directe."
+  },
+  {
+    question: "Puis-je terminer la quête en utilisant uniquement de la bière de base ?",
+    answer: "Oui, vous pouvez terminer les premières étapes de la quête de l'alcool pour Fletcher avec de la bière. Cependant, le déblocage de ses plans défensifs de plus haut niveau nécessitera éventuellement des livraisons de rhum premium."
+  },
+  {
+    question: "Que se passe-t-il si je ne fournis pas d'alcool à Fletcher ?",
+    answer: "Si l'approvisionnement en boissons de Fletcher s'épuise, sa satisfaction chutera, l'amenant à arrêter la production à l'Atelier de Fletcher. Cela stoppe votre progression défensive et laisse votre colonie vulnérable aux raids de la Couronne."
+  },
+  {
+    question: "Où puis-je obtenir le sucre nécessaire à la fabrication du rhum ?",
+    answer: "Le sucre ne peut pas être cultivé sur votre île de départ. Vous devez soit en échanger à votre quai, soit construire une flotte au ponton et lancer des raids sur les îles tropicales du sud pour piller leurs plantations de canne à sucre."
+  }
+]} />
+
+<Callout type="info" title="Dernier rappel">
+Gardez un œil attentif sur votre panneau de ressources. Une chute soudaine de l'approvisionnement en eau peut paralyser toute votre chaîne de boissons, entraînant des pénuries immédiates dans tous les camps de pirates.
+</Callout>
+
+</Section>

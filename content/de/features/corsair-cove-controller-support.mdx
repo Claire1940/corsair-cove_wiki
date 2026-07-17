@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Controller-Unterstützung: Einrichtungsleitfaden & Tastenbelegung",
+  description: "Meistere Corsair Cove mit einem Gamepad. Erfahre mehr über die native Controller-Unterstützung, die Steam Deck-Optimierung und benutzerdefinierte Tastenbelegungen für den Piraten-Städtebau.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Controller+Support+Guide",
+  date: "2026-07-17",
+  author: "Corsair Cove Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Corsair Cove Controller-Unterstützung**: Das Spiel bietet teilweise native Unterstützung mit vollständiger Optimierung über **Steam Input** für Xbox, PlayStation und generische Gamepads.
+- **Steam Deck-Kompatibilität**: Hervorragend auf Handhelds spielbar; benutzerdefinierte Community-Layouts werden für präzises Bauen an Klippen empfohlen.
+- **Kampfmechaniken**: Seeschlachten nutzen ein **rundenbasiertes System**, das sich hervorragend auf die Navigation mit dem Steuerkreuz und den Tasten übertragen lässt.
+- **UI-Navigation**: Nutze das Kreismenü oder Hotkeys, um Produktionsketten wie **Sägewerke** und **Tavernen** effizient zu verwalten.
+- **Optimales Setup**: Die Aktivierung von **Steam Input** gewährleistet die größte Bandbreite an Gerätekompatibilität und Anpassungsmöglichkeiten für Hardware im Jahr 2026.
+</Callout>
+
+<Section icon={Shield} title="Überblick über die Corsair Cove Controller-Unterstützung">
+
+Das Navigieren durch die tückischen Gewässer und vertikalen Klippen mit der **Corsair Cove Controller-Unterstützung** hat für Spieler Priorität, die den Komfort eines Gamepads der traditionellen Maus und Tastatur vorziehen. Als komplexes Aufbauspiel mit einer Tiefe ähnlich wie Anno erfordert das Spiel eine präzise Platzierung von Gebäuden und eine effiziente Verwaltung von Produktionsketten. Obwohl das Spiel in erster Linie für den PC entwickelt wurde, haben die Entwickler robuste Unterstützungssysteme integriert, damit Kapitäne ihre Zufluchtsorte bequem vom Sofa aus verwalten können.
+
+**Video-Highlights:**
+- **Bau an Klippen**: Erfahre, wie du Wege und Leitern zwischen verschiedenen Höhenstufen mit einem Gamepad verbindest.
+- **Ressourcenmanagement**: Ein Blick auf die anfängliche Einrichtung von Piratenlagern, Sägewerken und Lagern.
+- **Seekampf**: Demonstration des rundenbasierten Begegnungssystems gegen die Streitkräfte der Krone.
+- **Fortschrittsbäume**: Übersicht über die Vier Winde (Seefahrt, Imperium, Berüchtigtheit und Wohlstand).
+
+<YouTubeEmbed videoId="k6CzPuh-zgY" title="Eine PIRATENSTADT in Corsair Cove gründen - VOLLVERSION" />
+
+Der aktuelle Stand der **Corsair Cove Controller-Unterstützung** ermöglicht ein nahtloses Zoomen vom Mikromanagement einzelner Zelte bis zur Makroansicht der Weltkarte. Diese Flexibilität ist entscheidend, wenn du die Insel nach Ressourcen wie Salz, Bleierz und Stein absuchst.
+
+| Controller-Typ | Kompatibilitätsstufe | Verbindungsmethode | Empfohlen? |
+| :--- | :--- | :--- | :--- |
+| **Xbox Series X/S** | Nativ / Plug & Play | USB-C / Bluetooth | **Ja** |
+| **DualSense (PS5)** | Teilweise (Steam Input) | USB-C / Bluetooth | **Ja** |
+| **Steam Deck** | Vollständig optimiert | Handheld | **Hervorragend** |
+| **Nintendo Switch Pro** | Teilweise (Steam Input) | Bluetooth | **Gut** |
+
+<Callout type="tip" title="Expertenrat">
+Für das beste Spielerlebnis solltest du in den Spieleigenschaften immer **Steam Input** aktivieren. Dadurch kann das Spiel fast jedes Gamepad als Xbox 360-Controller erkennen, was der Goldstandard für die PC-Spielkompatibilität im Jahr 2026 ist.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung zur Gamepad-Einrichtung">
+
+Wenn dein Gamepad nicht sofort erkannt wird oder die Tastenbelegungen nicht mit deinem Gerät übereinstimmen, befolge diese Schritte, um deine Einstellungen für die **Corsair Cove Controller-Unterstützung** zu optimieren.
+
+<Steps>
+  <Step num="1" title="Steam Input aktivieren">
+    Klicke mit der rechten Maustaste auf das Spiel in deiner Steam-Bibliothek, wähle **Eigenschaften** und navigiere zum Reiter **Controller**. Stelle die Überschreibung auf **Steam Input aktivieren**. Dies stellt sicher, dass das Spiel deine Eingaben unabhängig von der Hardwaremarke korrekt übersetzt.
+  </Step>
+  <Step num="2" title="Community-Layout auswählen">
+    Navigiere im Steam-Overlay zum Bereich **Controller-Layout**. Suche nach „Corsair Cove Official“ oder den am besten bewerteten Community-Layouts, die spezielle Kreismenüs für Gebäudekategorien bieten.
+  </Step>
+  <Step num="3" title="Cursor-Empfindlichkeit anpassen">
+    Suche in den Spieleinstellungen nach dem Schieberegler für die **Controller-Empfindlichkeit**. Da das Bauen das Platzieren von Strukturen auf schmalen Klippen erfordert, hilft eine geringere Empfindlichkeit oft bei der präzisen Platzierung von Leitern und Straßensystemen.
+  </Step>
+  <Step num="4" title="Totzonen kalibrieren">
+    Um ein „Driften“ beim Erkunden der Weltkarte zu verhindern, kalibriere die Totzonen deiner Sticks in den Steam-Controller-Einstellungen. Dies ist besonders wichtig bei älteren Gamepads, die leichte mechanische Abnutzungserscheinungen aufweisen können.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Warnung beim Bauen">
+Das Platzieren von Gebäuden auf steilen Klippen kann mit einem Joystick knifflig sein. Verwende die Funktion **Am Raster ausrichten** (normalerweise auf den linken Trigger gelegt), um sicherzustellen, dass deine Sägewerke und Zelte perfekt am Straßensystem ausgerichtet sind.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Standard-Tastenbelegungen und Steuerung">
+
+Das Verständnis des Standard-Layouts ist für die Verwaltung deines Piratenhafens unerlässlich. Das Spiel unterteilt die Steuerung in den **Stadtbaumodus** und den **Seekampfmodus**.
+
+| Aktionskategorie | Xbox-Taste | PlayStation-Taste | Funktion |
+| :--- | :--- | :--- | :--- |
+| **Kamerabewegung** | Linker Stick | L3 | Über die Insel schwenken |
+| **Kameradrehung** | Rechter Stick | R3 | Drehen für bessere Klippenansichten |
+| **Heran-/Herauszoomen** | RT / LT | R2 / L2 | Nahtloser Weltkarten-Zoom |
+| **Baumenü** | X | Viereck | Bau-Kategorien öffnen |
+| **Geschwindigkeit wechseln** | Steuerkreuz Oben/Unten | Steuerkreuz Oben/Unten | Zeit beschleunigen oder pausieren |
+| **Aktion bestätigen** | A | Kreuz | Gebäude platzieren / Schiff auswählen |
+| **Abbrechen / Zurück** | B | Kreis | Menü schließen / Abwählen |
+
+<CardGrid cols={2}>
+  <Card title="Steuerung im Baumodus">
+    Konzentriert sich auf Präzision. Verwende die Schultertasten (LB/RB), um durch die Gebäudestufen wie die Anforderungen für **Arbeitende Hände** und **Grüne Hände** zu blättern.
+  </Card>
+  <Card title="Weltkarten-Navigation">
+    Konzentriert sich auf Erkundung. Nutze die Sticks, um nach **Schiffbrüchigen** und **Schiffswracks** zu suchen, um deine Crew aus Herumtreibern zu verstärken.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Logistik-Tipp">
+Verwende bei der Verwaltung von Lagern das Steuerkreuz, um schnell **Holer** zuzuweisen. Ein effizienter Transport ist das Rückgrat deiner Piratenwirtschaft, besonders beim Transport von Planken vom Sägewerk zur Werft.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampf- und Flottenoperationen verwalten">
+
+Der Seekampf im Spiel ist rundenbasiert, was ihn für Controller-Spieler sehr zugänglich macht. Im Gegensatz zu Echtzeit-Strategiespielen, die eine hohe Anzahl von Aktionen pro Minute (APM) erfordern, kannst du bei diesem System deine Manöver sorgfältig auswählen.
+
+| Schiffsklasse | Besatzung erf. | Hauptattribut | Bester Einsatzzweck |
+| :--- | :--- | :--- | :--- |
+| **Landratte** | 15 | Geschwindigkeit | Frühe Erkundung und Aufklärung |
+| **Moonlighter** | 20 | Entern | Kapern von Handelsschiffen |
+| **Azimut** | 25 | Versorgung | Langstrecken-Schmuggelrouten |
+| **Zerstörer** | 40 | Feuerkraft | Angriffe auf Kronhäfen |
+| **Gezeitenläufer** | 30 | Manövrierfähigkeit | Vorbeischleichen an Blockaden |
+
+Während einer Begegnung, wie beispielsweise einem Angriff von **Amara**, verwendest du den Controller, um zwischen Aktionen wie **Schweres Feuer**, **In die Bresche** oder **Sicherer Abstand** zu wählen. Die Würfelmechanik wird mit einem einzigen Tastendruck ausgelöst, sodass du dich auf das taktische Ergebnis statt auf komplexe Eingaben konzentrieren kannst.
+
+<Callout type="success" title="Kampferfolg">
+Wenn dein Schiff beschädigt ist, kehre zum **Flachen Steg** zurück. Ein kurzer Druck auf die Reparaturtaste (Y/Dreieck) verbraucht Planken, um dein Schiff wieder einsatzbereit zu machen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimierung und Piraten-Vermächtnis">
+
+Während du dich von einem kleinen Lager zu einer riesigen Piratenstadt ausdehnst, wird sich deine Controller-Nutzung hin zur Verwaltung des Fortschrittsbaums der **Vier Winde** verlagern. Dieser gewaltige Baum bietet Boni für Seefahrt, Imperium, Berüchtigtheit und Wohlstand.
+
+<Checklist
+  id="controller-goals"
+  title="Checkliste zur Controller-Meisterung:"
+  items={[
+    "Erfolgreich eine Straßenverbindung zwischen drei Klippenstufen bauen",
+    "Eine Seeschlacht gegen einen Jäger der Krone nur mit Gamepad-Eingaben gewinnen",
+    "Über das Verwaltungsmenü mehr als 50 Herumtreiber verschiedenen Produktionsrollen zuweisen",
+    "Das Upgrade „Aufzug“ freischalten, um die vertikale Logistik zu vereinfachen",
+    "Einen Schmuggelzug abschließen, ohne von der Krone entdeckt zu werden"
+  ]}
+/>
+
+<Callout type="tip" title="Profi-Verwaltungstipp">
+Nutze die Spezialaktion **Alle Mann an Deck**, um die Effizienz deiner Holer bei Ressourcenknappheit zu verdoppeln. Dies kann schnell über das Kreismenü deines Controllers umgeschaltet werden.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Bietet Corsair Cove eine vollständige native Controller-Unterstützung?",
+    answer: "Das Spiel bietet eine teilweise native Unterstützung. Während die meisten Gameplay-Funktionen perfekt mit einem Controller funktionieren, lässt sich eine komplexe Menünavigation am besten mit aktiviertem Steam Input für eine bessere Tastenbelegung bewältigen."
+  },
+  {
+    question: "Kann ich Corsair Cove auf dem Steam Deck spielen?",
+    answer: "Ja, das Spiel ist hervorragend mit dem Steam Deck kompatibel. Der rundenbasierte Kampf und das rasterbasierte Bausystem machen es zu einer exzellenten Wahl für das Gaming auf Handhelds im Jahr 2026."
+  },
+  {
+    question: "Wie behebe ich das Verschwinden des Cursors im Controller-Modus?",
+    answer: "Stelle sicher, dass deine Einstellungen für die „Corsair Cove Controller-Unterstützung“ im Optionsmenü auf „Gamepad“ statt auf „Automatische Erkennung“ eingestellt sind, um zu verhindern, dass die Benutzeroberfläche zwischen den Eingabetypen flackert."
+  },
+  {
+    question: "Gibt es eine Möglichkeit, benutzerdefinierte Hotkeys auf meinen Controller zu legen?",
+    answer: "Ja, mit dem Steam-Controller-Konfigurationstool kannst du bestimmte Tastaturtasten (wie „P“ für Pause oder „B“ für Bauen) auf jede Taste oder jedes Kreismenü deines Controllers legen."
+  }
+]} />
+
+</Section>

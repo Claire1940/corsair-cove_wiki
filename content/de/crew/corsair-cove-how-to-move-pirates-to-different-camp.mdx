@@ -1,0 +1,182 @@
+import { Map, Target, Users, Settings, Shield, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Corsair Cove: Wie man Piraten in andere Lager verlegt & Außenposten verwaltet",
+  description: "Erfahre, wie du Piraten in Corsair Cove in andere Lager verlegst, den Wirkungsradius verwaltest und die Zuweisung der Crew für maximale Effizienz optimierst.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Move+Pirates+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Kernmechanik**: Bei Aktionen bezüglich **corsair cove how to move pirates to different camp** erfolgt die Zuweisung über die Gebäudeschnittstelle und die Nähe zu Unterkünften.
+- **Wirkungsradius**: Jedes Piratenlager hat einen bestimmten Bau- und Dienstleistungsradius; Arbeiter müssen in dem Lager wohnen, das für ihren Arbeitsplatz zuständig ist.
+- **Verwaltung von Herumtreibern**: Halte eine Reserve an arbeitslosen Herumtreibern (Drifters) bereit, um sicherzustellen, dass neue Lager sofort über Arbeitskräfte für den Bau verfügen.
+- **Logistische Anbindung**: Stelle sicher, dass alle Lager über grün markierte Logistikrouten mit der Hauptsiedlung verbunden sind, um die Versorgung aufrechtzuerhalten.
+- **Zufriedenheits-Tracking**: Überwache die lokale Zufriedenheit pro Lager, da Engpässe in einem Außenposten dazu führen können, dass Piraten die Siedlung verlassen.
+</Callout>
+
+<Section icon={Map} title="Die Mechaniken der Piratenlager verstehen">
+
+In Corsair Cove ist die Siedlung kein einzelnes, monolithisches Gebilde, sondern ein Netzwerk aus miteinander verbundenen **Piratenlagern**. Um deine Crew effektiv zu verwalten, musst du verstehen, dass Piraten nicht nur globale Zahlen sind; sie sind physische Einheiten, die an bestimmte Orte gebunden sind. Wenn Spieler nach Möglichkeiten suchen, wie sie in **corsair cove how to move pirates to different camp** Piraten an andere Orte verlegen, geht es meist um die Erweiterung ihres Territoriums über die vertikalen Klippen und Inseln des Spiels.
+
+Jedes Piratenlager dient als Knotenpunkt, der bestimmt, wo deine Piraten leben, arbeiten und Ressourcen verbrauchen. Im Gegensatz zu traditionellen Aufbauspielen, bei denen Arbeiter über die gesamte Karte laufen können, nutzt Corsair Cove ein System des **Wirkungsradius**. Wenn ein Ressourcenknoten oder ein Produktionsgebäude zu weit von einem bestehenden Lager entfernt platziert wird, fehlen die nötigen Arbeitskräfte und die logistische Unterstützung, um zu funktionieren.
+
+<Callout type="info" title="Bauradius vs. Wirkungsradius">
+Der Bauradius ermöglicht es dir, Gebäude zu platzieren, aber der Wirkungsradius bestimmt, welches Lager die „Sammler“ (Fetchers) und „Erbauer“ (Builders) für diese Gebäude stellt. Piraten effektiv zu verlegen bedeutet, die Bevölkerung zwischen diesen Knotenpunkten auszubalancieren.
+</Callout>
+
+| Lager-Feature | Beschreibung | Auswirkung auf die Crew |
+| :--- | :--- | :--- |
+| **Bauradius** | Der Bereich, in dem neue Gebäude platziert werden können | Begrenzt das Expansionspotenzial |
+| **Wirkungsradius** | Der Bereich, in dem das Lager Dienstleistungen anbietet | Bestimmt die Zuweisung von Arbeitern |
+| **Lokale Zufriedenheit** | Erfüllte Bedürfnisse innerhalb des spezifischen Lagerradius | Verhindert, dass die Crew das Lager verlässt |
+| **Wohnkapazität** | Gesamtzahl der verfügbaren Betten im Bereich des Lagers | Begrenzt die lokale Bevölkerung |
+
+</Section>
+
+<Section icon={Target} title="Wie man Piraten in andere Lager verlegt">
+
+Der Prozess des Verlegens von Piraten in Corsair Cove ist in die Wohnungs- und Arbeitszuweisungssysteme integriert. Du ziehst einen Piraten nicht manuell von einem Lager in ein anderes; stattdessen schaffst du die Bedingungen, die sie an den neuen Ort locken. Dies ist entscheidend, wenn du weit entfernte Ressourcenorkommen wie Eisen oder Kupfer entdeckst, die eine eigene Belegschaft erfordern.
+
+Um deine Bevölkerung erfolgreich zu verlegen, musst du eine bestimmte Abfolge von Bau- und Zuweisungsschritten befolgen. Wenn du beim Verlegen von Piraten die Grundbedürfnisse in einem neuen Lager nicht erfüllst, führt dies zu einem schnellen Abfall des **Zusammenhalts** (Cohesion), was deine Spielrunde vorzeitig beenden kann.
+
+<Steps>
+  <Step num="1" title="Errichte ein neues Piratenlager">
+    Platziere ein neues Piratenlager in der Nähe des Ressourcenknotens oder der vertikalen Terrasse, die du erschließen möchtest. Stelle sicher, dass dieses Lager eine physische Verbindung (Brücke, Pfad oder Seilrutsche) zurück zur Hauptsiedlung hat.
+  </Step>
+  <Step num="2" title="Baue lokale Unterkünfte">
+    Errichte Wohngebäude innerhalb des Wirkungsradius des neuen Lagers. Piraten beziehen automatisch Unterkünfte in der Nähe ihres zugewiesenen Arbeitsplatzes oder dort, wo Betten frei sind.
+  </Step>
+  <Step num="3" title="Arbeitsplatzrollen zuweisen">
+    Öffne die Gebäudeschnittstelle für die Produktionsstätte (z. B. ein Sägewerk). Weise die erforderliche Anzahl an Piraten zu. Das Spiel priorisiert die Übernahme von „Herumtreibern“ (Drifters) aus den nächstgelegenen verfügbaren Unterkünften.
+  </Step>
+  <Step num="4" title="Logistikverbindungen überprüfen">
+    Überprüfe die Logistiklinien. Wenn die Route von der Unterkunft zum Arbeitsplatz gelb oder rot ist, solltest du die Unterkunft näher heranschieben oder einen direkteren Verbindungsknotenpunkt hinzufügen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Zuweisungs-Tipp">
+Halte immer eine Reserve an Herumtreibern (arbeitslosen Piraten) bereit. Wenn du ein neues Lager baust, sind diese Herumtreiber die ersten, die „umziehen“ und sich im neuen Gebiet niederlassen, um mit dem Bau dauerhafter Einrichtungen zu beginnen.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Crew-Rollen und Zuweisungsprioritäten">
+
+Nicht alle Piraten sind gleich, wenn es darum geht, zwischen Lagern umzuziehen. Corsair Cove unterscheidet zwischen mehreren Crew-Stufen, die jeweils steigende Anforderungen haben. Einen einfachen „Sammler“ (Fetcher) zu verlegen ist unkompliziert, aber das Verlegen von „Spezialisierten Seeleuten“ (Specialist Sailors) oder „Elite-Korsaren“ (Elite Corsairs) erfordert eine bereits vorhandene Luxus-Lieferkette im Ziellager.
+
+Bei der Planung von Strategien für **corsair cove how to move pirates to different camp** konsultiere den folgenden Rollenvergleich, um sicherzustellen, dass du über die nötige Infrastruktur verfügst, um den Umzug zu unterstützen.
+
+| Rolle | Wohnungsbedarf | Unterhaltsstufe | Umzugspriorität |
+| :--- | :--- | :--- | :--- |
+| **Herumtreiber** (Drifters) | Erforderlich | Niedrig (Kein Arbeitsunterhalt) | Hoch (Bauwesen) |
+| **Sammler** (Fetchers) | Erforderlich | Moderat | Hoch (Logistik) |
+| **Produktionsarbeiter** | Erforderlich | Moderat bis hoch | Mittel (Ressourcenspezifisch) |
+| **Spezialisten** | Erforderlich | Hoch (Ausrüstung) | Niedrig (Bleiben nahe Pier/Forts) |
+| **Elite-Seeleute** | Erforderlich | Sehr hoch (Luxusgüter) | Niedrig (Spezialisierte Rollen) |
+
+<CardGrid cols={3}>
+  <Card title="Herumtreiber-Reserve">
+    Halte mindestens 10-15 % deiner Bevölkerung als Herumtreiber, um sicherzustellen, dass neue Lager schnell gebaut werden können, ohne bestehende Produktionsketten zu blockieren.
+  </Card>
+  <Card title="Nähe zur Unterkunft">
+    Piraten bevorzugen Unterkünfte, die in einer „grünen“ Entfernung zu ihrem Arbeitsplatz liegen. Lange Arbeitswege verringern die Effizienz und Zufriedenheit.
+  </Card>
+  <Card title="Rollenspezialisierung">
+    Weise Spezialisten nur Lagern zu, die direkten Zugriff auf die benötigte Ausrüstung wie Säbel oder Medizin haben.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Arbeitskraftverwaltung">
+Wenn eine Produktionskette in einem abgelegenen Lager ins Stocken gerät, überprüfe, ob du genügend Herumtreiber hast. Möglicherweise musst du ein nicht lebensnotwendiges Gebäude im Haupthafen pausieren, um Arbeiter für den neuen Außenposten freizusetzen.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Optimierung von Logistik- und Versorgungsrouten">
+
+Piraten in ein abgelegenes Lager zu verlegen, ist nur die halbe Miete; sie dort zu halten, erfordert ein robustes Logistiknetzwerk. In Corsair Cove müssen Waren wie **Zwieback** (Hard Tack), **Bier** (Ale) und **Rum** physisch zum Verteilungszentrum jedes Lagers transportiert werden. Wenn die Transportroute zu lang ist, werden deine Piraten unzufrieden und reisen schließlich ab.
+
+Das Spiel bietet visuelles Feedback über farbige Verbindungslinien. Wenn du ein Gebäude oder ein Piratenlager auswählst, achte genau auf diese Indikatoren:
+
+- **Grüne Linien**: Optimale Entfernung. Waren und Piraten bewegen sich schnell.
+- **Gelbe Linien**: Suboptimal. Die Effizienz ist verringert; ziehe in Erwägung, ein Verteilungszentrum hinzuzufügen.
+- **Rote Linien**: Kritischer Engpass. Piraten werden das Lager aufgrund der langsamen Versorgung wahrscheinlich verlassen.
+
+<Callout type="warning" title="Die Falle der roten Linie">
+Eine rote Logistiklinie zu den Unterkünften eines Piratenlagers ist die Hauptursache für „verschwindende“ Piraten. Selbst wenn du im Haupthafen reichlich Nahrung hast, erreicht sie die Piraten im abgelegenen Lager nicht.
+</Callout>
+
+| Logistik-Werkzeug | Bester Anwendungsfall | Vorteil |
+| :--- | :--- | :--- |
+| **Brücken** | Überqueren von Abgründen zwischen Klippen | Verkürzt horizontale Wege |
+| **Seilrutschen** (Ziplines) | Transport von Waren zwischen hohen und niedrigen Ebenen | Reduziert die vertikale Reisezeit drastisch |
+| **Verbindungsknotenpunkte** | Verbindungspunkte für mehrere Routen | Organisiert komplexe Logistikpfade |
+| **Verteilungszentren** | Zwischenlagerung für Waren | Puffert die Versorgung für abgelegene Lager |
+
+</Section>
+
+<Section icon={Shield} title="Strategische Layouts für Siedlungen mit mehreren Lagern">
+
+Ein effektives Siedlungsdesign in Corsair Cove basiert auf der Schaffung von selbstversorgenden oder gut versorgten Clustern. Sobald du die Mechaniken hinter **corsair cove how to move pirates to different camp** verstanden hast, kannst du fortgeschrittene Layout-Muster nutzen, die das vertikale Terrain optimal ausnutzen.
+
+<Checklist
+  id="layout-optimization"
+  title="Checkliste für die Bereitschaft von Außenposten:"
+  items={[
+    "Bestätige, dass das neue Lager einen gültigen Pfad zum Haupthafen hat.",
+    "Stelle sicher, dass genügend Unterkünfte für die geplante Belegschaft gebaut wurden.",
+    "Überprüfe, ob das lokale Verteilungszentrum Nahrung und Getränke erhält.",
+    "Stelle sicher, dass der Wirkungsradius die gewünschten Ressourcenknoten abdeckt.",
+    "Überwache die Zusammenhaltsanzeige (Cohesion) während der ersten 5 Minuten der Expansion."
+  ]}
+/>
+
+### Das Muster für abgelegene Ressourcenlager
+Dies ist der häufigste Grund, Piraten zu verlegen. Wenn ein wertvolles Vorkommen von Eisen oder Stein auf einem fernen Gipfel gefunden wird:
+1.  **Platziere das Lager**: Positioniere es so, dass der Wirkungsradius die Ressourcenknoten umfasst.
+2.  **Unterkünfte und Dienste hinzufügen**: Baue genügend Unterkünfte für die Bergleute und mindestens eine Taverne für Bier/Rum.
+3.  **Über Seilrutsche verbinden**: Nutze eine Seilrutsche, um den Gipfel direkt mit dem darunter liegenden Produktionsviertel zu verbinden. Dies sorgt dafür, dass Rohstoffe nach unten und Vorräte mit minimaler Verzögerung nach oben transportiert werden.
+
+<Callout type="info" title="Vertikalität ist entscheidend">
+In Corsair Cove kann ein Gebäude, das optisch nah erscheint, aber auf einer anderen Klippenebene liegt, eine „rote“ Verbindungsdistanz aufweisen. Nutze immer Brücken und Aufzüge, um Abkürzungen zu schaffen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fehlerbehebung und FAQ">
+
+Die Verwaltung einer Piratenbevölkerung über mehrere Lager hinweg kann eine Herausforderung sein, insbesondere wenn die Siedlung wächst und der Druck der Krone zunimmt. Nachfolgend findest du die häufigsten Probleme, auf die Spieler stoßen, wenn sie versuchen, ihre Crew zu verlegen oder neu zuzuweisen.
+
+<Callout type="tip" title="Letzter Experten-Tipp">
+Wenn deine Piraten trotz Arbeit und Unterkünften abreisen, überprüfe den Reiter **Lokale Zufriedenheit** in der Benutzeroberfläche des Piratenlagers. Dort siehst du genau, welche Ware (z. B. Eintopf, Stiefel oder Tabak) dieses spezifische Lager nicht erreicht.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wie zwinge ich einen Piraten, in ein bestimmtes Haus zu ziehen?",
+    answer: "Du kannst einzelne Piraten nicht manuell verlegen. Stelle stattdessen sicher, dass das gewünschte Haus im Wirkungsradius ihres Arbeitsplatzes liegt. Piraten ziehen von Natur aus in die nächstgelegene verfügbare Unterkunft an ihrem Arbeitsort."
+  },
+  {
+    question: "Warum zeigt mein neues Piratenlager null Arbeiter an, obwohl ich Herumtreiber habe?",
+    answer: "Überprüfe die Logistikverbindung. Wenn das neue Lager nicht physisch über einen Pfad, eine Brücke oder einen Knotenpunkt mit dem Rest der Siedlung verbunden ist, können die Herumtreiber nicht dorthin reisen, um mit der Arbeit zu beginnen. Stelle außerdem sicher, dass das Lager in der Benutzeroberfläche nicht auf 'Pausiert' steht."
+  },
+  {
+    question: "Kann ein Piratenlager automatisch Ressourcen mit einem anderen teilen?",
+    answer: "Ressourcen werden in der Benutzeroberfläche global geteilt, müssen jedoch physisch an die Verteilungszentren im Radius des jeweiligen Lagers geliefert werden. Sammler (Fetchers) übernehmen diesen Transport, benötigen dafür jedoch gültige und effiziente Routen."
+  },
+  {
+    question: "Was passiert, wenn die Zufriedenheit eines Piratenlagers auf null sinkt?",
+    answer: "Piraten in diesem spezifischen Lager werden beginnen, die Siedlung zu verlassen. Dies führt zu einem Abzug bei deinem globalen Zusammenhalt (Cohesion). Wenn der Zusammenhalt auf null sinkt, ist das Spiel vorbei. Es ist besser, die Produktion in einem unzufriedenen Lager zu pausieren, als zuzulassen, dass sie deinen Zusammenhalt aufzehrt."
+  }
+]} />
+
+</Section>

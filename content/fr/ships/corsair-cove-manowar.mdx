@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Users, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Manowar : Guide des navires de haut rang et tactiques navales",
+  description: "Maîtrisez la classe Manowar de Corsair Cove avec notre guide sur les statistiques des navires de haut rang, les stratégies de combat naval et les chaînes de production pour la sortie du 31 juillet 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a365d/f8fafc?text=Manowar+Naval+Guide",
+  date: "2026-07-17",
+  author: "Équipe du Wiki Corsair Cove",
+  keywords: "corsair cove, manowar, combat naval, guide de navire, stratégie, production"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Corsair Cove Manowar** : L'objectif ultime pour les joueurs cherchant une dominance navale totale contre la Couronne.
+- **Combat Naval** : Un système au tour par tour utilisant des **réserves de dés**, des **Provisions** et des **cartes de Bataille** spécialisées.
+- **Progression des Navires** : Passez du navire de départ **Terrien** au destroyer haute résistance **Tranchant d'Acier**.
+- **Besoins de Production** : Les navires de guerre lourds nécessitent des chaînes complexes pour la **Poudre Noire**, les **Canons** et le **Fer**.
+- **Synergie des Capitaines** : Associez des capitaines légendaires comme **Teach** à des classes de navires spécifiques pour un maximum de dégâts.
+</Callout>
+
+<Section icon={Map} title="Sortie de Corsair Cove et Aperçu Naval">
+
+À l'approche de la date de sortie du 31 juillet 2026, les joueurs se préparent à passer de simples colonies à flanc de falaise au commandement d'une flotte de **manowars de Corsair Cove**. Développé par Limbic Entertainment, ce city-builder vertical intègre une logistique complexe avec une guerre navale à enjeux élevés. Votre voyage commence avec des survivants de naufrage, mais la fin de partie se concentre sur la levée d'une flotte capable de défier le blocus de la Couronne.
+
+Le système naval est profondément lié à l'économie de votre colonie. Vous ne pouvez pas simplement acheter un Manowar ; vous devez construire l'infrastructure pour le soutenir. Cela inclut des jetées spécialisées, des fonderies de fer et des moulins à poudre noire. Chaque navire de votre flotte a un but, du transport de ressources locales aux expéditions à longue portée et aux rencontres de combat lourd.
+
+| Caractéristique | Détail | Prérequis |
+| :--- | :--- | :--- |
+| **Date de Sortie** | 31 juillet 2026 | PC (Steam, Epic, Microsoft) |
+| **Construction Navale** | Construction de Jetée | Bois dur, Pièces, Fer |
+| **Style de Combat** | Stratégie au tour par tour | Réserves de dés / Provisions |
+| **Équipage Max** | Varie selon le rang | Logement / Nourriture / Boisson |
+
+<Callout type="tip" title="Conseil de Lancement">
+Ne vous précipitez pas immédiatement dans la construction de navires de haut rang. Assurez-vous que votre **Cohésion** est stable et que votre production de **Nourriture/Boisson** peut gérer les besoins accrus en équipage des plus gros vaisseaux.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="Classes de Navires et Statistiques du Manowar">
+
+Dans la version actuelle du jeu, la progression des navires est divisée en rangs. Alors que le **Terrien** sert de navire d'exploration initial, le **Tranchant d'Acier** représente la transition vers une véritable puissance navale, souvent désigné par la communauté comme le précurseur de la classe **manowar de Corsair Cove**. Ces navires disposent de réserves de santé plus élevées et de répartitions de statistiques plus diverses, leur permettant de s'attaquer aux événements mondiaux de difficulté "Difficile".
+
+Comprendre les mesures de votre vaisseau est critique. Chaque navire suit cinq statistiques primaires qui déterminent le succès lors des événements de la carte du monde. Si les statistiques de votre navire ne correspondent pas aux recommandations de l'événement, vos réserves de dés seront considérablement désavantagées, entraînant des pertes d'équipage plus élevées ou la destruction totale du navire.
+
+| Type de Navire | Rang | Santé | Capacité Équipage | Limite Provisions | Meilleur Usage |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Terrien** | 1 | 24 | 15 | 20 | Exploration Initiale |
+| **Poing de Fer** | 1+ | 45 | 15 | 20 | Raids de Ressources |
+| **Tranchant d'Acier** | 2 | 88 | 15 | 22 | Combat Lourd |
+| **Manowar** | 3 | 150+ | 25+ | 35+ | Forteresses de la Couronne |
+
+<Callout type="warning" title="Alerte Provisions">
+Les grands navires comme le Manowar consomment des Provisions rapidement pendant le combat. Remplissez toujours vos caisses de Provisions à la Jetée avant de vous engager dans des expéditions en plusieurs étapes.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Débutant : Terrien">
+    - **Coût** : Gratuit (Jetée de départ)
+    - **Avantages** : Faible entretien, construction rapide
+    - **Inconvénients** : Santé très faible, statistiques faibles
+  </Card>
+  <Card title="Élite : Tranchant d'Acier">
+    - **Coût** : 50 Bois dur / 50 Pièces
+    - **Avantages** : Haute durabilité, idéal pour les raids
+    - **Inconvénients** : Nécessite une production de Fer
+  </Card>
+  <Card title="Objectif : Manowar">
+    - **Coût** : Matériaux Avancés
+    - **Avantages** : Domine le combat naval
+    - **Inconvénients** : Besoins massifs de satisfaction d'équipage
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Combat Naval et Mécaniques de Dés">
+
+Engager la Couronne nécessite une maîtrise du système de combat au tour par tour. Lorsqu'un **manowar de Corsair Cove** entre dans une rencontre, le jeu passe à une interface stratégique où des cartes représentent vos options tactiques. À chaque tour, l'ennemi révèle son intention, vous donnant une chance de contrer ou de pousser pour vos propres objectifs.
+
+Le flux du combat est régi par des réserves de dés. Les statistiques de votre navire fournissent le nombre de dés de base, tandis que les capacités de votre Capitaine et les cartes de Bataille actives peuvent ajouter des "dés bonus" au jet. Le succès n'est pas seulement une question de scores élevés ; il s'agit de gérer vos **Provisions** pour ne pas manquer d'actions pendant la phase finale d'une bataille.
+
+<Steps>
+  <Step num="1" title="Analyser les Objectifs de l'Événement">
+    Vérifiez si l'objectif est de couler l'ennemi, de réduire la distance ou d'extraire des ressources. Faites correspondre les statistiques de votre navire aux recommandations de l'icône.
+  </Step>
+  <Step num="2" title="Sélectionner les Cartes de Bataille">
+    Utilisez des **cartes de Bataille** comme "Feu Nourri" (coûte 2 Provisions) pour infliger des dégâts à la Santé ennemie ou "Dans la Brèche" pour cibler l'Équipage ennemi.
+  </Step>
+  <Step num="3" title="Exécuter des Contre-actions">
+    Si l'ennemi utilise un "Barrage Total", utilisez des cartes défensives comme "Repli" pour annuler les dégâts et gagner des dés bonus pour le tour suivant.
+  </Step>
+  <Step num="4" title="Gérer la Récupération des Provisions">
+    Lorsque les Provisions tombent en dessous de 5, passez aux **cartes de Soutien**. Celles-ci ne fournissent souvent aucun dégât mais permettent à votre équipage de reconstituer les munitions essentielles.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Succès au Combat">
+Gagner une bataille rapporte un butin de grande valeur comme de l'**Argent**, du **Vin** et de la **Graisse de Baleine**, qui sont essentiels pour satisfaire les rangs de pirates d'élite de votre colonie.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Traits de Capitaine et Gestion de l'Équipage">
+
+Aucun **manowar de Corsair Cove** n'est complet sans un capitaine légendaire. Les capitaines ne sont pas seulement là pour l'immersion ; ils fournissent des bonus passifs et des cartes uniques qui peuvent renverser le cours d'une bataille perdue. Par exemple, **Teach (Barbe Noire)** se spécialise dans les manœuvres agressives, accordant des dés supplémentaires chaque fois qu'il inflige des dégâts à la Santé ennemie.
+
+La gestion de l'équipage sur ces vaisseaux massifs nécessite également une colonie stable. Les plus gros navires nécessitent des **Marins Spécialisés** comme des Bombardiers et des Navigateurs. Ces spécialistes ont des besoins plus élevés que vos Vagabonds de base, exigeant des biens comme des **Longues-vues**, des **Médicaments** et des **Tenues Élégantes**.
+
+| Capitaine | Spécialité | Atout Unique | Stratégie de Combat |
+| :--- | :--- | :--- | :--- |
+| **Teach** | Agression | +20% Dégâts de canon | Enchaîner les attaques ciblant la Santé |
+| **Honorata** | Exploration | Meilleur succès d'événement | Se concentrer sur les expéditions de Temples |
+| **Scarlet** | Vitesse | Bonus d'Esquive | Utiliser les contres pour accumuler des dés |
+| **Kanja** | Richesse | +15% Gain de butin | Idéal pour les raids riches en ressources |
+
+<Callout type="info" title="Conseil Équipage">
+Utilisez les événements de **Navire de Prisonniers** pour recruter de nouveaux membres d'équipage rapidement. C'est souvent plus efficace que d'attendre la croissance naturelle de la population lors de l'expansion de votre flotte.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chaînes de Production pour les Navires de Guerre Lourds">
+
+Construire et entretenir un **manowar de Corsair Cove** nécessite les chaînes de production les plus complexes du jeu. Contrairement aux bâtiments de début de partie qui n'ont besoin que de bois et de pierre, les navires de guerre nécessitent un approvisionnement constant en métaux raffinés et en explosifs de qualité militaire. Si votre réseau logistique présente un goulot d'étranglement de distance "Rouge", votre chantier naval stagnera, laissant votre crique vulnérable.
+
+Le tableau suivant présente les ressources primaires nécessaires pour maintenir votre flotte opérationnelle et votre colonie protégée par des tours défensives.
+
+| Ressource | Bâtiment Source | Matériaux d'Entrée | Utilisation Finale |
+| :--- | :--- | :--- | :--- |
+| **Plaques de Fer** | Fonderie de Fer | Minerai de fer + Charbon de bois | Renforcement de la coque |
+| **Canons** | Forge de Canons | Fer + Cuivre | Armement des navires et des tours |
+| **Poudre Noire** | Moulin à Poudre | Soufre + Charbon de bois | Munitions pour les canons |
+| **Planches de Bois Dur** | Scierie | Bois ancien | Cadres de navires de Rang 2+ |
+| **Vêtements et Bottes** | Tailleur / Cordonnier | Fibre + Cuir | Entretien de base de l'équipage |
+
+<Callout type="warning" title="Alerte Logistique">
+Placez toujours votre **Forge de Canons** et votre **Moulin à Poudre** près d'un **Centre de Distribution**. Ces marchandises sont lourdes et de longs trajets de transport ralentiront considérablement la vitesse de réparation de vos navires.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Principes de la Boussole et Progression">
+
+Pour débloquer le Manowar et d'autres technologies navales avancées, vous devez investir des Points de Principe dans la **Boussole**. La Boussole est divisée en quatre voies : **Notoriété**, **Empire**, **Navigation** et **Richesse**. Bien qu'une approche équilibrée soit possible, les joueurs se concentrant sur le **manowar de Corsair Cove** devraient prioriser les branches **Navigation** et **Notoriété**.
+
+<Checklist
+  id="naval-progression"
+  title="Objectifs de Dominance Navale :"
+  items={[
+    "Débloquer la construction navale de Rang 2 dans la branche Navigation",
+    "Établir une fonderie de fer avec un approvisionnement stable en charbon de bois",
+    "Recruter un capitaine axé sur le combat comme Teach ou Scarlet",
+    "Terminer la quête principale 'L'Ombre de la Couronne'",
+    "Améliorer la Jetée pour supporter les vaisseaux de classe Lourde"
+  ]}
+/>
+
+<Callout type="success" title="Conseil d'Expert">
+Investir tôt dans le principe de **Richesse** peut aider à financer votre expansion navale. Les navires de haut rang sont coûteux à entretenir, et une économie forte empêche la perte de **Cohésion** lors des longs voyages.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Comment débloquer le navire Manowar dans Corsair Cove ?",
+    answer: "Vous devez progresser dans la branche Navigation de la Boussole et accumuler suffisamment de Points de Principe via les Faits d'armes et les Quêtes secondaires. Vous avez également besoin d'une Jetée de Rang 3 et de ressources avancées comme des Plaques de Fer et des Canons."
+  },
+  {
+    question: "Que se passe-t-il si mon navire coule pendant un événement ?",
+    answer: "Si la Santé ou l'Équipage de votre navire tombe à zéro, le vaisseau est perdu. Vous perdrez le navire, sa cargaison actuelle et potentiellement le Capitaine assigné pendant une durée déterminée. Battez toujours en retraite si vos Provisions sont trop faibles pour terminer le combat."
+  },
+  {
+    question: "Puis-je utiliser plusieurs navires dans une seule rencontre de combat ?",
+    answer: "Actuellement, Corsair Cove se concentre sur des rencontres navales en 1v1 pour les événements mondiaux. Cependant, vous pouvez maintenir une flotte de plusieurs navires pour mener plusieurs expéditions simultanément sur la carte du monde."
+  },
+  {
+    question: "Pourquoi la vitesse de réparation de mon navire est-elle si lente ?",
+    answer: "Vérifiez vos lignes logistiques. Si le trajet entre votre entrepôt (stockant le Fer/Bois) et la Jetée est 'Rouge', vos ouvriers passent trop de temps à marcher. Utilisez des Tyroliennes ou des Ponts pour raccourcir le chemin."
+  }
+]} />
+
+</Section>

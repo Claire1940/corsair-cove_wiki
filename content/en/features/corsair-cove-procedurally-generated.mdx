@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Corsair Cove Procedurally Generated: Layout & Exploration Guide",
+  description: "Master Corsair Cove procedurally generated islands and world events. Learn layout strategies, production chains, and fleet management for the 2026 launch.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Procedural+Generation+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Keyword**: Mastering the **corsair cove procedurally generated** landscape is the key to efficient settlement growth and fleet dominance.
+- **Vertical Building**: Utilize cliffside terraces, ziplines, and bridges to overcome steep terrain and limited flat land.
+- **Logistics Core**: Keep production routes short; green lines indicate healthy logistics, while red lines signal bottlenecks.
+- **Crew Cohesion**: Balance population growth with food, drink, and housing needs to prevent pirates from abandoning your cove.
+- **Strategic Combat**: Match ship ratings and captain traits to specific world event objectives rather than relying on raw level.
+</Callout>
+
+<Section icon={Map} title="Navigating the Corsair Cove Procedurally Generated Map">
+
+As the July 31, 2026, release date approaches, mastering the **corsair cove procedurally generated** world becomes essential for every aspiring pirate lord. Unlike traditional city builders with static maps, Corsair Cove challenges players with dynamic island layouts, varying resource node placements, and shifting world map events. This procedural nature means that no two playthroughs are identical, requiring a deep understanding of core mechanics rather than memorized layouts.
+
+The game features vertical construction across cliffs and islands, where every building must be connected to the central settlement. Because the terrain is generated dynamically, players must adapt their "Connected Harbor Core" to fit the specific geography of their starting island. Whether you are dealing with a sprawling archipelago or a singular massive cliff, the principles of proximity and logistics remain the primary drivers of success.
+
+| Feature | Description | Strategic Impact |
+| :--- | :--- | :--- |
+| **Island Geometry** | Procedural cliffs, hills, and shorelines. | Forces vertical thinking and use of bridges/ziplines. |
+| **Resource Nodes** | Randomized placement of Iron, Copper, and Lumber. | Determines the location of remote Pirate Camps. |
+| **World Events** | Dynamic spawns of Raids, Forts, and Expeditions. | Requires a versatile fleet capable of various tasks. |
+| **Compass Paths** | Four progression branches (Notoriety, Empire, etc.). | Unlocks specialized buildings based on your playstyle. |
+| **Crew Needs** | Tiered requirements for food, luxury, and gear. | Scales with population and settlement complexity. |
+
+<Callout type="tip" title="Exploration Tip">
+Before expanding to a new island or distant resource node, always check the "Island View" to identify the most efficient connection path. Procedural generation can create deceptive shortcuts that are actually blocked by terrain height.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Best Layout Patterns for Dynamic Islands">
+
+The verticality of *Corsair Cove* is its most defining feature. To maximize efficiency on **corsair cove procedurally generated** terrain, you must move beyond horizontal planning. The game allows for construction on multiple levels, using terraces and specialized transport to move goods and people.
+
+<CardGrid cols={3}>
+  <Card title="Harbor Core">
+    - **Proximity**: Keep early housing near the Pier.
+    - **Efficiency**: Short routes for basic goods.
+    - **Foundation**: The base for all future expansion.
+  </Card>
+  <Card title="Production Terrace">
+    - **Verticality**: Build processing on cliff ledges.
+    - **Flow**: Move raw materials down to the harbor.
+    - **Space**: Saves flat land for essential services.
+  </Card>
+  <Card title="Remote Outposts">
+    - **Radius**: Place camps near distant resource nodes.
+    - **Autonomy**: Must provide local food and housing.
+    - **Link**: Connect via one high-efficiency route.
+  </Card>
+</CardGrid>
+
+Efficient layouts are not just about aesthetics; they are about minimizing travel time. The game uses a colored line system to visualize logistics: green routes are optimal, yellow are suboptimal, and red indicate severe bottlenecks that will stall production.
+
+| Layout Pattern | Best For | Key Requirement |
+| :--- | :--- | :--- |
+| **Connected Spine** | Opening settlements and service hubs. | Centralized distribution access. |
+| **Cliffside Layering** | Multi-stage production chains. | Ziplines or elevators for vertical speed. |
+| **Crossroads Hub** | Joining multiple districts or islands. | Bridges and well-positioned junction hubs. |
+| **Import Loop** | Utilizing raided or looted goods. | Direct connection between Dock and Production. |
+
+<Callout type="warning" title="Logistics Warning">
+A visually short connection can still be "red" if the terrain requires the path to wind excessively. Always monitor the logistics overlay after placing new buildings.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Production Chains and Resource Management">
+
+With over 50 different goods to manage, the economy of *Corsair Cove* is complex. Production is divided into local resource extraction, refining, and final consumption. Because the world is **corsair cove procedurally generated**, your available resources will dictate your early-game trade and raid priorities.
+
+<Steps>
+  <Step num="1" title="Secure Raw Materials">
+    Establish extraction for Iron, Copper, Lumber, and Stone. Place these buildings as close to the nodes as possible to reduce initial travel time.
+  </Step>
+  <Step num="2" title="Refine and Process">
+    Convert raw materials into Stone Blocks, Hardwood Planks, and Charcoal. Ensure these processing plants are located between the source and the distribution hub.
+  </Step>
+  <Step num="3" title="Stabilize Provisions">
+    Build chains for Hard Tack, Stew, and Ale. These are essential for maintaining the satisfaction of your Basic Ship Pirates and settlement workers.
+  </Step>
+  <Step num="4" title="Advanced Equipment">
+    As you recruit Specialists, begin producing Spyglasses, Medicine, and Sabers. These require more complex chains but are necessary for high-tier voyages.
+  </Step>
+</Steps>
+
+| Resource Branch | Primary Goods | Management Priority |
+| :--- | :--- | :--- |
+| **Basic Needs** | Hard Tack, Ale, Rum, Stew | High - Prevents crew abandonment. |
+| **Construction** | Stone, Lumber, Iron, Fiber | High - Essential for all expansion. |
+| **Military** | Cannons, Black Powder, Pistols | Medium - Needed for defense and raids. |
+| **Luxury** | Jewelry, Fancy Attire, Tobacco | Low - Required for Elite Sailors only. |
+| **Expedition** | Coin, Grain, Silver, Wine | Variable - Often obtained via world events. |
+
+<Callout type="success" title="Efficiency Tip">
+Use the "Bottleneck Diagnostic Loop" regularly. Select a stalled building to see exactly which resource is missing and where the delay is occurring in the logistics chain.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Crew Roles and Settlement Cohesion">
+
+Managing your crew is just as important as building the city. *Corsair Cove* distinguishes between different types of pirates, each with unique housing and upkeep requirements. The global "Cohesion" meter acts as your survival clock; if it hits zero, your run ends.
+
+<Checklist
+  id="crew-stability"
+  title="Anti-Abandonment Checklist:"
+  items={[
+    "Build adequate Housing before assigning new workers.",
+    "Maintain a reserve of Drifters for construction tasks.",
+    "Supply every Pirate Camp locally with food and drink.",
+    "Monitor the Resources panel for production deficits.",
+    "Pause non-essential buildings during labor shortages."
+  ]}
+/>
+
+| Crew Role | Primary Function | Housing Requirement |
+| :--- | :--- | :--- |
+| **Drifters** | Unemployed labor for construction. | Basic Housing (Required). |
+| **Fetchers** | Moving goods through logistics. | Standard Housing + Upkeep. |
+| **Production** | Operating workplaces and nodes. | Standard Housing + Tiered Goods. |
+| **Specialists** | Navigators, Marauders, Navigators. | Advanced Gear + Luxury Goods. |
+| **Elite Sailors** | Veteran Corsairs for high-risk events. | High-end Luxury + Specialist Tools. |
+
+<Callout type="info" title="Management Note">
+Drifters are your most flexible asset. Always keep a small pool of unassigned pirates to ensure that new construction projects or repairs don't stall because everyone is busy in a workshop.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fleet Preparation and Naval Combat">
+
+The world map is filled with **corsair cove procedurally generated** events that provide the resources your island might lack. From Smuggler Transports to Ancient Temple Expeditions, your fleet must be prepared for diverse challenges.
+
+Naval combat in *Corsair Cove* is turn-based and relies on a combination of ship ratings, captain traits, and dice pools. Success is determined by matching the right ship to the right encounter.
+
+| Ship Class | Health | Crew/Supplies | Best Use |
+| :--- | :--- | :--- | :--- |
+| **Landlubber** | 24 | 15 / 20 | Early-game scouting and basic raids. |
+| **Steel Edge** | 88 | 15 / 22 | Mid-game combat and fortified targets. |
+| **Iron Fist** | 65 | 12 / 18 | High-durability defensive escort. |
+| **Swift Shadow** | 42 | 10 / 25 | Long-distance expeditions and smuggling. |
+
+**Combat Flow Steps:**
+1. **Read Objectives**: Identify if the goal is to destroy the enemy, close distance, or loot goods.
+2. **Check Enemy Actions**: The opponent reveals its intent; choose to counter or push your objective.
+3. **Manage Supplies**: Most Battle cards cost Supplies; use Support cards to recover them during the fight.
+4. **Roll Dice Pools**: Higher results improve outcomes, but attackers and defenders can both resolve actions simultaneously.
+
+<Callout type="tip" title="Captain Strategy">
+Captains like "Teach" provide massive bonuses to specific playstyles. Teach's "Easy as Murder" ability allows you to chain extra dice as long as you keep dealing damage to enemy health. Match your captain to your ship's strongest ratings.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="The Compass: Progression and World Events">
+
+The Compass is the heart of your long-term progression. By completing Deeds and Side Quests, you earn Principle Points to spend across four distinct paths. This system allows you to specialize your **corsair cove procedurally generated** experience.
+
+| Compass Path | Focus | Key Unlocks |
+| :--- | :--- | :--- |
+| **Notoriety** | Pirate reputation and fear. | Aggressive missions and combat bonuses. |
+| **Empire** | Society and settlement growth. | Advanced housing and service buildings. |
+| **Seafaring** | Ships and exploration. | Stronger hulls and faster voyage speeds. |
+| **Wealth** | Economy and production. | Resource efficiency and trade improvements. |
+
+<Callout type="tip" title="Progression Tip">
+You don't have to stick to one path. While mastering one Principle unlocks powerful specialized builds, spreading points across all four provides a more balanced and resilient settlement for beginners.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How does procedural generation affect my layout?",
+    answer: "Because islands are procedurally generated, resource nodes and cliff heights change every game. You must use flexible tools like bridges, ziplines, and multiple Pirate Camps to adapt to the specific geography of your map."
+  },
+  {
+    question: "What is the most common cause of a game over?",
+    answer: "The most common failure is the Cohesion meter hitting zero. This usually happens when population grows faster than your ability to provide housing, food, and drink, leading to pirate abandonment and settlement collapse."
+  },
+  {
+    question: "Can I change my captain after a ship is built?",
+    answer: "Yes, you can switch captains freely at the Pier before a ship sets sail. It is highly recommended to match your captain's unique traits to the specific requirements of the world event you are targeting."
+  },
+  {
+    question: "How do I fix a red logistics line?",
+    answer: "A red line means the travel distance is too long. You can fix this by moving the production building closer to the distribution hub, adding a more direct connection (like a bridge), or placing a new Pirate Camp closer to the resource node."
+  }
+]} />
+
+</Section>

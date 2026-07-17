@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Steam: Step-by-Step Starter Guide & Progression Tips",
+  description: "Master Corsair Cove on Steam with our expert starter guide. Learn production chains, naval combat, cohesion management, and ship upgrades.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Steam+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Corsair Cove Steam** features a deep, Anno-like pirate city-builder experience with intricate production chains and real-time logistics.
+- **Cohesion management** is your primary survival metric, as letting this morale system hit zero results in an immediate game over.
+- **Naval combat** combines strategic navigation on the world map with tactical, turn-based card and dice-rolling mechanics.
+- **Logistics optimization** relies heavily on compact road networks, dedicated warehouses, and specialized workforce allocation.
+</Callout>
+
+<Section icon={Map} title="Starting Your Haven: Corsair Cove Steam Gameplay Basics">
+
+Sailing into the dangerous waters of **corsair cove steam** brings a fresh, pirate-themed twist to the classic city-builder genre. Published by Hooded Horse, this game challenges you to build a thriving pirate haven from nothing but a shipwreck. You play as a crew of escaped convicts fleeing the wrath of the Spanish hunter, Amara. To survive, you must establish immediate shelter, manage resources, and construct a fleet capable of defending your newfound home.
+
+**Video Highlights:**
+- Establish road networks immediately from the shipwreck to salvage starting planks.
+- Maintain population satisfaction by building tents along cliff paths.
+- Transition basic drifter units into specialized builders, fetchers, and working hands.
+- Unlock the world map to search for castaways, plunder merchant ships, and raid crown ports.
+
+<YouTubeEmbed videoId="k6CzPuh-zgY" title="Starting a PIRATE CITY in Corsair Cove FULL RELEASE - NEW Citybuilder Anno-Like Lets Play" />
+
+When you first land on Skull Rock, your immediate priority is salvage. The shipwreck contains the vital planks needed to kickstart your economy. Using the flexible road-building tool, you can draw pathways up steep cliffs and automate the placement of wooden ladders. This verticality is a core mechanic of the game, allowing you to utilize every level of your island's geography.
+
+Your population consists initially of drifters. Drifters are general laborers who can be assigned to specialized roles. These include builders, working hands, fetchers, and crew members. Managing this workforce dynamically is key to keeping your economy balanced as you expand from a tiny camp into a massive pirate city.
+
+<Callout type="tip" title="Strategic Road Placement">
+Always draw your road connections directly to resource nodes early on. This ensures your fetchers can transport salvaged planks and logs to the warehouse without unnecessary travel delays.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Production Chains and Resource Management">
+
+To sustain a growing pirate population, you must establish efficient production chains. The economy is split into basic survival goods and advanced industrial materials. Basic goods keep your pirates fed and happy, while advanced materials are required for shipbuilding and coastal defense.
+
+Your first major production chain is wood processing. You will need a Woodcutter to harvest logs, which are then processed by a Sawmill into planks. Planks are the primary building material for almost every structure in your haven. Following wood, food production must be established. This requires a Campfire to cook raw ingredients into stew, and a Galley to distribute the food to your crew.
+
+| Output | Input | Key Building | Worker Tier |
+|---|---|---|---|
+| **Planks** | Logs | Sawmill | Working Hands |
+| **Stew** | Raw Food | Campfire | Fetchers |
+| **Beer** | Yeast, Water | Brewery | Working Hands |
+| **Canvas** | Fiber, Wooden Nails | Weaver | Working Hands |
+| **Sails** | Canvas | Sailmaker | Working Hands |
+
+As your city grows, your pirates will demand entertainment. This introduces the alcohol production chain. You must construct a Brewery to produce beer and a Tavern to serve it. Keeping your pirates well-fed and sufficiently drunk is the only way to maintain high satisfaction levels. 
+
+Advanced production chains involve crafting sails and ropes for your fleet. This requires a Leaf Cutter to gather fiber, a Wood Workshop to craft wooden nails, a Weaver to turn fiber and nails into canvas, and finally a Sailmaker to produce sails. 
+
+| Advanced Resource | Required Inputs | Processing Chain | Primary Purpose |
+|---|---|---|---|
+| **Sails** | Canvas | Leaf Cutter to Weaver to Sailmaker | Upgrading and building ships |
+| **Ropes** | Fiber | Rope Maker | Naval progression and rigging |
+| **Stone Blocks** | Raw Stone | Quarry to Stone Cutter | Constructing defensive towers |
+
+<Callout type="warning" title="Watch Your Food Supply">
+Do not expand your workforce too quickly. A sudden influx of drifters will deplete your stew reserves rapidly, causing satisfaction to plummet and triggering an early uprising.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cohesion, Housing, and Defense Strategies">
+
+Your pirate haven is constantly under threat from within and without. Cohesion represents the collective morale of your crew. If cohesion drops to zero, your crew will mutiny, resulting in an immediate game over. Random narrative events will test your leadership. For example, capturing enemy soldiers forces you to decide between executing them for a minor cohesion loss or recruiting them, which gains you workers but severely damages overall trust.
+
+Housing is directly tied to satisfaction. Pirates demand proper shelter, which you provide by building tents. Tents can be clustered together along the cliffs to save space. 
+
+Additionally, you must prepare for external threats. The Spanish hunter Amara will periodically locate your island and launch devastating naval bombardments. To survive these attacks, you must transition from a pure economy to a militarized state by building Gun Towers.
+
+<CardGrid cols={3}>
+  <Card title="Cohesion First">
+    Prioritize narrative choices that maintain high morale. Recruit new crew members only when you have surplus food and entertainment to keep them happy.
+  </Card>
+  <Card title="Compact Housing">
+    Cluster tents near Galleys and Taverns. This reduces the time pirates spend walking to satisfy their needs, maximizing their working hours.
+  </Card>
+  <Card title="Defensive Setup">
+    Stockpile raw stone and process it into stone blocks early. Build your first Gun Tower near the harbor entrance before Amara's second scheduled raid.
+  </Card>
+</CardGrid>
+
+| Building | Construction Cost | Operational Input | Core Benefit |
+|---|---|---|---|
+| **Pirate Camp** | **20 Planks** | None | Expands building area and workforce |
+| **Tents** | **5 Planks** | None | Increases maximum population capacity |
+| **Galley** | **15 Planks** | Stew | Distributes food to maintain satisfaction |
+| **Gun Tower** | **50 Stone Blocks** | Gunpowder | Automatically defends harbor from raids |
+
+<Callout type="success" title="Defensive Victory Bonus">
+Successfully repelling a naval raid with a fully-supplied Gun Tower awards a massive boost to cohesion and leaves behind valuable shipwreck wreckage for salvage.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Shipbuilding, Captains, and Naval Combat Walkthrough">
+
+To truly master the seas, you must construct a fleet. Shipbuilding requires a Shallow Pier, which can only be placed in predefined coastal locations. Once your pier is built, you can establish a shipyard to construct your first vessel, the humble Land Lover.
+
+As you progress through the tech trees, you will unlock advanced ship blueprints. These ships vary in speed, crew capacity, and combat capabilities.
+
+| Ship Blueprint | Crew Capacity | Boarding Damage | Speed Rating | Special Attributes |
+|---|---|---|---|---|
+| **Land Lover** | 15 | Low | Slow | Basic starter vessel |
+| **Moonlighter** | 20 | Medium | Moderate | Enhanced cargo capacity |
+| **Tide Runner** | 25 | Medium | Fast | High evasion and speed |
+| **Destroyer** | 40 | High | Moderate | Heavy hull plating |
+
+Every ship requires a captain and a crew. You can choose from several unique captains, such as Teach (Blackbeard), who specializes in exploration and gun damage. Assigning a full crew of drifters to your ship increases your chances of success during world map voyages.
+
+Naval combat in the game is a tactical, turn-based card and dice-rolling affair. When you engage an enemy ship or raid a port, you must manage your crew, supplies, and hull health.
+
+| Combat Action Card | Dice Requirement | Core Effect | Tactical Strategy |
+|---|---|---|---|---|
+| **Safe Distance** | High Roll | Prevents incoming damage | Use when enemy prepares a heavy barrage |
+| **Into the Breach** | Balanced Roll | Deals high crew damage | Perfect for preparing to board the enemy |
+| **Heavy Fire** | High Roll | Deals massive hull damage | Best used against armored merchant escorts |
+| **Windfall** | Any Roll | Generates extra loot and supplies | Play when the enemy is in a defensive stance |
+
+<Steps>
+  <Step num="1" title="Construct a Shallow Pier">
+    Locate a predefined coastal slot and spend 30 planks to build your first pier and shipyard.
+  </Step>
+  <Step num="2" title="Appoint a Captain and Crew">
+    Select a captain that matches your voyage goals and assign up to 15 drifters as active crew members.
+  </Step>
+  <Step num="3" title="Navigate the World Map">
+    Send your vessel to explore the fog of war, rescue castaways, or intercept vulnerable merchant ships.
+  </Step>
+  <Step num="4" title="Engage in Tactical Combat">
+    Roll your dice pool to match combat cards, balancing defensive maneuvers with aggressive boarding actions.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Raid Rewards">
+Successfully plundering merchant ships or raiding Crown Ports yields highly valuable advanced resources, including black powder, coin, and raw stone blocks.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Four Winds: Progression Trees and Deeds">
+
+Progression is governed by "The Four Winds" system. This massive progression tree is split into four distinct paths: Seafaring, Empire, Notoriety, and Wealth. You earn progression points by completing specific achievements known as Deeds.
+
+Deeds range from simple tasks like gathering 100 total pirates to complex challenges like maintaining three efficient transport routes simultaneously.
+
+| Progression Path | Key Unlocks | Playstyle Focus |
+|---|---|---|
+| **Seafaring** | Tide Runner ship, Sailmaker efficiency | Exploration, speed, and naval dominance |
+| **Empire** | Ziplines, stone quarries, larger camps | Rapid expansion, infrastructure, and logistics |
+| **Notoriety** | Gun towers, advanced cannons, combat cards | Defensive power, raiding, and combat prowess |
+| **Wealth** | Trading posts, gambling dens, coin generation | Passive income, market trading, and luxury goods |
+
+By carefully choosing which deeds to pursue, you can customize your pirate haven to match your preferred playstyle. For example, focusing on the Empire path allows you to unlock advanced transportation systems like ziplines and cliffside elevators, which drastically reduce the time your fetchers spend moving resources up and down the island's steep cliffs.
+
+<Checklist
+  id="early-game-milestones"
+  title="Essential Early-Game Milestones:"
+  items={[
+    "Automate a basic plank and wood production line",
+    "Construct a second Pirate Camp to expand your territory",
+    "Establish a quarry and stone cutter to produce stone blocks",
+    "Build a Gun Tower to successfully defend against Amara's second raid",
+    "Upgrade your shipyard to construct a Tide Runner vessel"
+  ]}
+/>
+
+<Callout type="tip" title="Zipline Optimization">
+Unlock the Zipline technology in the Empire tree as early as possible. Placing ziplines between high cliffside resource nodes and your central warehouse will double your logistics efficiency.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Corsair Cove Steam Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I increase and maintain cohesion in Corsair Cove?",
+    answer: "Cohesion is maintained by keeping your pirates satisfied with adequate housing, food, and alcohol. Additionally, during narrative events, avoid making highly unpopular decisions, such as executing crew members, unless absolutely necessary."
+  },
+  {
+    question: "What is the best way to optimize resource transportation?",
+    answer: "Keep your production buildings close to their respective resource nodes and build warehouses nearby. Assign plenty of fetchers, and upgrade your infrastructure with cliffside elevators and ziplines as soon as they are unlocked in the progression tree."
+  },
+  {
+    question: "How do I defend my haven against Amara's naval raids?",
+    answer: "You must build a Gun Tower near your harbor entrance. Gun Towers require stone blocks to construct and a steady supply of gunpowder to fire. Ensure your warehouse is actively delivering gunpowder to the tower before the raid begins."
+  },
+  {
+    question: "Where should I build my second pirate camp?",
+    answer: "Look for resource-rich areas on the world map that feature key deposits like iron ore, copper ore, or fresh water. Building your second camp near these nodes allows you to claim the land and start extracting advanced materials."
+  }
+]} />
+
+</Section>

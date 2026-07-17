@@ -10,7 +10,15 @@
       "twitterDescription": "Corsair Cove Wiki covers the July 31 release, free demo, buildings, production chains, crew, ships, naval combat, and updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "features": "Features",
+    "guide": "Guide",
+    "building": "Building",
+    "crew": "Crew",
+    "ships": "Ships"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -337,7 +345,7 @@
           "name": "Steel Edge",
           "class": "Destroyer",
           "ratings": "Health 88, Crew 15, Supplies 22",
-          "use": "An improved design with a larger frame, more durability, and stronger ratings for tougher encounters in Corsair Cove."
+          "use": "An improved design with a larger frame, more durability, and stronger ratings for endgame encounters in Corsair Cove."
         }
       ],
       "combatSteps": [
@@ -605,145 +613,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Corsair Cove Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced production and combat strategies for Corsair Cove.",
-      "metaTitle": "Corsair Cove Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Corsair Cove guides covering beginner tips, buildings, production chains, crew, ships, naval combat, and exploration for the vertical pirate city builder.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive Corsair Cove guides covering gameplay mechanics, settlement building, production chains, and the Compass progression system.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Corsair Cove Release",
+      "description": "Corsair Cove release date, launch price, Denuvo status, and the free demo — everything about the July 31, 2026 PC launch and how long the demo lasts.",
+      "metaTitle": "Corsair Cove Release Date, Price & Demo",
+      "metaDescription": "Corsair Cove launches July 31, 2026. Find the official price, Denuvo status, free playable demo, and demo length for the pirate city builder.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Corsair Cove release?",
+      "whatIsDescription": "Details on Corsair Cove's July 31, 2026 release date, launch price across stores, Denuvo DRM, and the playable free demo available now.",
+      "why": "Why check the release info?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand connections, production chains, and crew needs in Corsair Cove",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to build a stable pirate haven",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for fleet combat and exploration"
+        "step1Title": "Lock the Launch Date",
+        "step1Description": "The full Corsair Cove version arrives July 31, 2026 on PC",
+        "step2Title": "Try the Free Demo",
+        "step2Description": "Play the demo now to test the pirate city builder before buying",
+        "step3Title": "Know the Price",
+        "step3Description": "Compare launch cost, Game Pass availability, and Denuvo status"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Guides"
+    },
+    "platforms": {
+      "title": "Corsair Cove Platforms",
+      "description": "Every Corsair Cove platform — Steam, Xbox, PS5, Switch, PC Game Pass, Steam Deck compatibility, and official PC system requirements.",
+      "metaTitle": "Corsair Cove Platforms & System Requirements",
+      "metaDescription": "Find Corsair Cove on Steam, Xbox, PS5, Switch, and PC Game Pass. Check Steam Deck compatibility and official PC system requirements.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What platforms is Corsair Cove on?",
+      "whatIsDescription": "Corsair Cove's available platforms including Steam, Xbox, PS5, Switch, and PC Game Pass, plus Steam Deck support and PC hardware requirements.",
+      "why": "Why check platform support?",
+      "whySteps": {
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare PC, console, and handheld options for Corsair Cove",
+        "step2Title": "Verify System Requirements",
+        "step2Description": "Confirm your PC or Steam Deck meets the official specs",
+        "step3Title": "Use Game Pass",
+        "step3Description": "Play through PC Game Pass on launch day without buying"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Guides"
+    },
+    "features": {
+      "title": "Corsair Cove Features",
+      "description": "Corsair Cove core features — multiplayer support, controller compatibility, AI-driven systems, and procedurally generated island maps.",
+      "metaTitle": "Corsair Cove Features - Multiplayer, Controller & AI",
+      "metaDescription": "Explore Corsair Cove features including multiplayer, controller support, AI systems, and procedural generation in the pirate city builder.",
+      "categoryLabel": "GAME FEATURES",
+      "whatIs": "What are Corsair Cove's features?",
+      "whatIsDescription": "Corsair Cove's headline features including multiplayer modes, controller support, AI-driven gameplay, and procedurally generated island maps.",
+      "why": "Why learn the features?",
+      "whySteps": {
+        "step1Title": "Play With Friends",
+        "step1Description": "Check multiplayer support before coordinating a crew",
+        "step2Title": "Use a Controller",
+        "step2Description": "Confirm controller compatibility for couch or handheld play",
+        "step3Title": "Read Procedural Maps",
+        "step3Description": "Understand how generated islands shape every playthrough"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Feature Guides"
+    },
+    "guide": {
+      "title": "Corsair Cove Guide",
+      "description": "Corsair Cove beginner guide, tips and tricks, full walkthrough, how to play basics, and progression guide for new pirate captains.",
+      "metaTitle": "Corsair Cove Guide - Beginner Tips & Walkthrough",
+      "metaDescription": "Complete Corsair Cove guide with beginner tips, walkthrough, how to play basics, and progression paths for the vertical pirate city builder.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "What is in the Corsair Cove guide?",
+      "whatIsDescription": "Corsair Cove guides covering beginner basics, tips and tricks, the main walkthrough, how to play, and long-term progression strategies.",
+      "why": "Why read the guide?",
+      "whySteps": {
+        "step1Title": "Learn the Basics",
+        "step1Description": "Master connections, resources, and crew needs early",
+        "step2Title": "Follow the Walkthrough",
+        "step2Description": "Step through the opening hours without getting stuck",
+        "step3Title": "Plan Progression",
+        "step3Description": "Choose the right Compass paths for your playstyle"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "buildings": {
-      "title": "Corsair Cove Buildings",
-      "description": "Master vertical building, connections, bridges, ziplines, and layout patterns for cliffs and limited land in Corsair Cove.",
-      "metaTitle": "Corsair Cove Buildings - Layout & Vertical Building Guide",
-      "metaDescription": "Master Corsair Cove buildings with layout patterns, cliffside terraces, bridges, ziplines, and distribution hubs for efficient vertical construction.",
-      "categoryLabel": "BUILDINGS & LAYOUT",
-      "whatIs": "What are Buildings?",
-      "whatIsDescription": "Guides to Corsair Cove housing, services, production buildings, defenses, and vertical construction across cliffs and islands.",
-      "why": "Why plan layouts?",
+    "building": {
+      "title": "Corsair Cove Building",
+      "description": "Corsair Cove building guide — pirate city layouts, where to build cannon towers, attack points, strong builds, and moving resources between camps.",
+      "metaTitle": "Corsair Cove Building - Layouts & Defense Guide",
+      "metaDescription": "Master Corsair Cove building with pirate city layouts, cannon tower placement, attack points, strong builds, and camp-to-camp resource routing.",
+      "categoryLabel": "BUILDING",
+      "whatIs": "What is Corsair Cove building?",
+      "whatIsDescription": "Corsair Cove building guides covering pirate city construction, cannon tower and attack point defense, strong layouts, and resource logistics between camps.",
+      "why": "Why plan your build?",
       "whySteps": {
-        "step1Title": "Reduce Travel",
-        "step1Description": "Keep frequently exchanged goods on short, healthy routes",
-        "step2Title": "Use Vertical Terrain",
-        "step2Description": "Build on cliff faces and hilltops with bridges and ziplines",
-        "step3Title": "Connect Everything",
-        "step3Description": "Ensure every building stays linked to the settlement"
+        "step1Title": "Place Defenses Smartly",
+        "step1Description": "Build cannon towers at the right attack points to repel raids",
+        "step2Title": "Design Strong Layouts",
+        "step2Description": "Use vertical cliffs and efficient routing for a good build",
+        "step3Title": "Route Resources",
+        "step3Description": "Move goods between camps without long, fragile supply lines"
       },
       "featured": "Featured & Essential",
       "all": "All Building Guides"
     },
-    "production": {
-      "title": "Corsair Cove Production",
-      "description": "Master production chains, logistics, distribution hubs, and bottleneck fixes across more than 50 goods in Corsair Cove.",
-      "metaTitle": "Corsair Cove Production - Chains, Goods & Logistics",
-      "metaDescription": "Master Corsair Cove production chains with raw resources, processing, distribution hubs, route diagnostics, and bottleneck fixes across 50+ goods.",
-      "categoryLabel": "PRODUCTION & ECONOMY",
-      "whatIs": "What is Production?",
-      "whatIsDescription": "Guides to Corsair Cove resource nodes, production buildings, finished goods, distribution routes, and off-island supply chains.",
-      "why": "Why manage chains?",
-      "whySteps": {
-        "step1Title": "Balance Supply",
-        "step1Description": "Match production against consumption in real time",
-        "step2Title": "Fix Bottlenecks",
-        "step2Description": "Read green, yellow, and red route lines to shorten paths",
-        "step3Title": "Expand Steadily",
-        "step3Description": "Grow chains only after basics and Cohesion are stable"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Production Guides"
-    },
     "crew": {
       "title": "Corsair Cove Crew",
-      "description": "Manage pirate jobs, needs, Pirate Camps, satisfaction, and Cohesion to keep your Corsair Cove haven thriving.",
-      "metaTitle": "Corsair Cove Crew - Jobs, Needs & Cohesion Guide",
-      "metaDescription": "Manage Corsair Cove crew roles, needs, Pirate Camps, and Cohesion. Learn how to house, supply, and satisfy every pirate tier.",
-      "categoryLabel": "CREW & COHESION",
-      "whatIs": "What is Crew?",
-      "whatIsDescription": "Guides to Corsair Cove Drifters, Builders, Fetchers, production workers, and specialist and elite sailors plus their needs and camps.",
-      "why": "Why manage crew?",
+      "description": "Corsair Cove crew guide — how to get more drifters, move drifters and pirates between camps, create and assign fetchers, cohesion, and booze delivery.",
+      "metaTitle": "Corsair Cove Crew - Drifters, Fetchers & Cohesion",
+      "metaDescription": "Manage Corsair Cove crew: get more drifters, move pirates between camps, assign fetchers, raise cohesion, and deliver booze to Fletcher.",
+      "categoryLabel": "CREW",
+      "whatIs": "What is the Corsair Cove crew?",
+      "whatIsDescription": "Corsair Cove crew guides on drifters, fetchers, builders, and workers — how to recruit them, move them between camps, and keep cohesion high.",
+      "why": "Why manage the crew?",
       "whySteps": {
-        "step1Title": "House Everyone",
-        "step1Description": "Build Housing before assigning new workers",
-        "step2Title": "Supply Camps Locally",
-        "step2Description": "Deliver food and drink inside each camp radius",
+        "step1Title": "Recruit Drifters",
+        "step1Description": "Grow your population to unlock more jobs and output",
+        "step2Title": "Assign Fetchers",
+        "step2Description": "Create and place fetchers to keep production chains flowing",
         "step3Title": "Protect Cohesion",
-        "step3Description": "Keep the global survival meter above zero"
+        "step3Description": "Balance needs, booze, and camp placement to hold cohesion"
       },
       "featured": "Featured & Essential",
       "all": "All Crew Guides"
     },
-    "fleet": {
-      "title": "Corsair Cove Fleet",
-      "description": "Compare ships, captains, supplies, and fleet preparation for Corsair Cove voyages and naval combat.",
-      "metaTitle": "Corsair Cove Fleet - Ships, Captains & Naval Combat",
-      "metaDescription": "Compare Corsair Cove ships, captain traits, combat actions, and fleet preparation for raids, forts, fleets, and legendary encounters.",
-      "categoryLabel": "FLEET & COMBAT",
-      "whatIs": "What is the Fleet?",
-      "whatIsDescription": "Guides to Corsair Cove ship types, construction costs, captains, turn-based naval combat, dice pools, and event preparation.",
-      "why": "Why build a fleet?",
+    "ships": {
+      "title": "Corsair Cove Ships",
+      "description": "Corsair Cove ships guide — the manowar, how to change ships, recover a lost ship, ship upgrades, and the naval dice combat system explained.",
+      "metaTitle": "Corsair Cove Ships - Manowar, Upgrades & Dice",
+      "metaDescription": "Master Corsair Cove ships: unlock the manowar, change ships, recover lost ships, plan upgrades, and understand the naval dice system.",
+      "categoryLabel": "SHIPS",
+      "whatIs": "What are Corsair Cove ships?",
+      "whatIsDescription": "Corsair Cove ship guides covering the manowar, changing and recovering ships, upgrade paths, and how the dice-based naval combat resolves.",
+      "why": "Why upgrade your fleet?",
       "whySteps": {
-        "step1Title": "Match the Event",
-        "step1Description": "Compare ship ratings with each event recommendation",
-        "step2Title": "Pick the Captain",
-        "step2Description": "Choose traits and abilities that fit the objective",
-        "step3Title": "Win Naval Combat",
-        "step3Description": "Counter enemy actions and protect Health and Crew"
+        "step1Title": "Unlock the Manowar",
+        "step1Description": "Work toward the strongest hull for late-game naval fights",
+        "step2Title": "Change & Recover Ships",
+        "step2Description": "Swap vessels and rescue a lost ship without losing progress",
+        "step3Title": "Master the Dice",
+        "step3Description": "Understand dice pools to win turn-based naval combat"
       },
       "featured": "Featured & Essential",
-      "all": "All Fleet Guides"
-    },
-    "combat": {
-      "title": "Corsair Cove Combat",
-      "description": "Master turn-based naval combat, Battle and Support cards, dice pools, and island defense in Corsair Cove.",
-      "metaTitle": "Corsair Cove Combat - Naval Battles & Island Defense",
-      "metaDescription": "Master Corsair Cove turn-based naval combat with Battle and Support cards, dice pools, exact-area counters, and island fortifications.",
-      "categoryLabel": "NAVAL COMBAT",
-      "whatIs": "What is Combat?",
-      "whatIsDescription": "Guides to Corsair Cove combat objectives, enemy actions, Supply costs, dice resolution, and defensive tower and fortress setups.",
-      "why": "Why study combat?",
-      "whySteps": {
-        "step1Title": "Read Objectives",
-        "step1Description": "Understand whether to damage, close distance, or collect",
-        "step2Title": "Manage Supplies",
-        "step2Description": "Balance Battle cards with Support recovery",
-        "step3Title": "Defend the Island",
-        "step3Description": "Keep forts and gun towers supplied with ammunition"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Combat Guides"
-    },
-    "exploration": {
-      "title": "Corsair Cove Exploration",
-      "description": "Explore the World Map, raids, treasure expeditions, ancient temples, enemy forts, and legendary creatures in Corsair Cove.",
-      "metaTitle": "Corsair Cove Exploration - World Map & World Events",
-      "metaDescription": "Explore Corsair Cove World Map events including raids, smugglers, temples, forts, fleets, prisoner ships, and legendary creatures.",
-      "categoryLabel": "EXPLORATION",
-      "whatIs": "What is Exploration?",
-      "whatIsDescription": "Guides to Corsair Cove World Map events, expedition preparation, rewards, and the Compass progression paths that unlock new content.",
-      "why": "Why explore?",
-      "whySteps": {
-        "step1Title": "Earn Rewards",
-        "step1Description": "Collect captains, crew, Cohesion, resources, and loot",
-        "step2Title": "Prepare Ships",
-        "step2Description": "Fill Health, Crew, and Supplies before departure",
-        "step3Title": "Advance the Story",
-        "step3Description": "Push the Crown conflict and Principle questlines forward"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Exploration Guides"
+      "all": "All Ship Guides"
     }
   }
 }

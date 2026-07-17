@@ -1,0 +1,154 @@
+import { Shield, Zap, History, Map, Trophy, Target, Cpu } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Corsair Cove Denuvo: DRM-Status & Leitfaden zu den Auswirkungen auf die Leistung",
+  description: "Nutzt Corsair Cove Denuvo Anti-Tamper? Erfahren Sie mehr über den offiziellen DRM-Status, Performance-Benchmarks und Systemanforderungen für das Piraten-Aufbauspiel von 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Denuvo+Status",
+  date: "2026-07-17",
+  author: "Corsair Cove Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **DRM-Status**: Stand Juli 2026 ist eine Integration von **Corsair Cove Denuvo** nicht auf den offiziellen Seiten von Steam oder dem Epic Games Store aufgeführt.
+- **Haltung des Publishers**: Hooded Horse vermeidet im Allgemeinen DRM-Drittanbieter-Software und priorisiert Leistung sowie Spielerzugänglichkeit.
+- **Fokus auf Leistung**: Das Spiel bietet komplexes vertikales Bauen und über 50 Produktionsketten, was eine CPU-Optimierung entscheidend macht.
+- **Veröffentlichungsdatum**: Die Vollversion erscheint am **31. Juli 2026** für PC und den PC Game Pass.
+- **Empfehlung**: Laden Sie die kostenlose Demo herunter, um die lokale Leistung vor dem offiziellen Start zu testen.
+</Callout>
+
+<Section icon={Shield} title="Offizieller Corsair Cove Denuvo- und DRM-Status">
+
+Die Frage nach einer Implementierung von **Corsair Cove Denuvo** ist ein zentrales Anliegen für Spieler, die Wert auf Systemleistung und den langfristigen Erhalt von Spielen legen. Denuvo Anti-Tamper is eine Digital-Rights-Management-Lösung (DRM) von Drittanbietern, die häufig für ihre potenziellen Auswirkungen auf CPU-Frametimes und Ladezeiten kritisiert wird. Für einen simulationslastigen Titel wie Corsair Cove, der Tausende von individuellen Piraten-Wegfindungsroutinen und komplexe Logistik verwaltet, zählt jeder CPU-Takt.
+
+Die aktuellen Store-Einträge auf Steam, im Epic Games Store und im Microsoft Store enthalten nicht den Standard-Hinweis „Enthält DRM-Drittanbietersoftware: Denuvo Anti-Tamper“. In der Spielebranche, insbesondere bei Titeln, die von Hooded Horse veröffentlicht werden, gibt es einen starken historischen Trend, auf aufdringliche DRM-Schutzmaßnahmen zu verzichten. Dieser Ansatz stellt sicher, dass das Spiel mit verschiedenen Hardwarekonfigurationen kompatibel bleibt, einschließlich des Steam Decks und älterer Prozessoren.
+
+| Plattform | DRM-Typ | Denuvo bestätigt | Offline-Spiel |
+| :--- | :--- | :--- | :--- |
+| **Steam** | Steamworks-Standard | Nein | Unterstützt |
+| **Epic Games Store** | Epic Online Services | Nein | Unterstützt |
+| **Microsoft Store** | Xbox Live | Nein | Unterstützt |
+| **PC Game Pass** | Xbox-Lizenzierung | Nein | Erfordert Check-in |
+
+<Callout type="success" title="Leistungsvorteil">
+Das Fehlen von Denuvo führt in der Regel zu schnelleren anfänglichen Ladezeiten und konsistenteren 1%-Low-Frameraten, was entscheidend ist, wenn Ihr Piratenhafen zu einer riesigen vertikalen Klippenstadt heranwächst.
+</Callout>
+
+</Section>
+
+<Section icon={History} title="Technische Historie von Publisher und Entwickler">
+
+Um die Wahrscheinlichkeit eines zukünftigen **Corsair Cove Denuvo**-Updates einzuschätzen, müssen wir uns die Erfolgsbilanz des Entwicklers Limbic Entertainment und des Publishers Hooded Horse ansehen. Limbic Entertainment ist bekannt für die Optimierung komplexer Strategiespiele, während sich Hooded Horse einen Ruf als spielerfreundlicher Publisher erarbeitet hat, der sich auf tiefgründige Simulationsspiele wie *Manor Lords* und *Against the Storm* konzentriert – von denen keines Denuvo nutzte.
+
+Die frühere Arbeit von Limbic Entertainment an großen Strategie-Franchises beinhaltete je nach Publisher verschiedene DRM-Implementierungen. Im Rahmen der Partnerschaft mit Hooded Horse für Corsair Cove hat sich der technische Fokus jedoch auf leistungsstarke Vertikalität und komplexe Produktionsketten mit über 50 verschiedenen Waren verlagert. Das Hinzufügen einer DRM-Schicht, die CPU-Aufrufe abfängt, würde wahrscheinlich die Logiksysteme „Fetcher“ und „Drifter“ des Spiels beeinträchtigen.
+
+<CardGrid cols={2}>
+  <Card title="Limbic Entertainment">
+    - **Fokus auf Optimierung**: Fachwissen in der Darstellung von vertikalem Terrain und komplexer Benutzeroberflächenverwaltung.
+    - **Bisherige Technik**: Bekannt für stabile Veröffentlichungen in den Genres Städtebau und Strategie.
+  </Card>
+  <Card title="Hooded Horse">
+    - **DRM-Philosophie**: Vermeidet im Allgemeinen aufdringliche Drittanbieter-Software, um das Modding-Potenzial zu maximieren.
+    - **Vertrauen der Community**: Priorisiert die Langlebigkeit des Spiels und die Hardwarekompatibilität.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Zukünftige Updates">
+Obwohl zum Start kein Denuvo vorhanden ist, sollten Sie nach dem 31. Juli 2026 immer die offiziellen Patchnotizen prüfen, da sich die technischen Anforderungen während des Supports nach der Veröffentlichung gelegentlich ändern können.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Systemanforderungen und Auswirkungen auf die Simulation">
+
+Die technischen Anforderungen von Corsair Cove konzentrieren sich eher auf die Simulationstiefe als nur auf die grafische Qualität. Das Spiel erfordert eine DirectX 12-kompatible Umgebung, um die gleichzeitige Berechnung von Piratenbedürfnissen, Zusammenhalt (Cohesion) und Würfelpools für Seeschlachten zu bewältigen. Da der Status von **Corsair Cove Denuvo** weiterhin negativ ist, können Spieler erwarten, dass das Spiel ihre Hardware effizienter nutzt, insbesondere die Multi-Core-Fähigkeiten der CPU.
+
+| Anforderung | Mindestanforderung | Empfohlene Spezifikation |
+| :--- | :--- | :--- |
+| **Betriebssystem** | Windows 10 64-Bit | Windows 10/11 64-Bit |
+| **CPU** | Intel i7-7700 / Ryzen 5 1600 | Intel i5-9600K / Ryzen 5 3600 |
+| **Arbeitsspeicher (RAM)** | 8 GB | 16 GB |
+| **Grafikkarte (GPU)** | GTX 1660 Super / RX 5600 XT | RTX 2070 / RX 6600 XT |
+| **Speicherplatz** | 30 GB (SSD empfohlen) | 30 GB (SSD empfohlen) |
+
+<Callout type="tip" title="Bedeutung einer SSD">
+Auch ohne Denuvo wird aufgrund der Komplexität der vertikalen Stadtlayouts eine SSD dringend empfohlen, um Ruckler beim Bewegen der Kamera zwischen dem Hafen und den hoch gelegenen Klippenbehausungen zu vermeiden.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="So überprüfen Sie den DRM-Status zum Launch">
+
+Wenn Sie sich am Veröffentlichungstag Sorgen um den Status von **Corsair Cove Denuvo** machen, können Sie verschiedene Schritte unternehmen, um den technischen Zustand des Spiels zu überprüfen. Da das Spiel am 31. Juli 2026 erscheint, finden Sie die genauesten Informationen direkt in den Metadaten des Steam-Stores und in von der Community gepflegten technischen Datenbanken.
+
+<Steps>
+  <Step num="1" title="Steam-Shopseite prüfen">
+    Navigieren Sie zur Steam-Seite von Corsair Cove. Sehen Sie in der rechten Seitenleiste nach, wo Funktionen wie „Einzelspieler“ und „Steam Cloud“ aufgelistet sind. Wenn Denuvo vorhanden ist, muss dies hier rechtlich offengelegt werden.
+  </Step>
+  <Step num="2" title="PCGamingWiki prüfen">
+    Das PCGamingWiki ist eine von der Community betriebene Datenbank, die DRM, Ultrawide-Unterstützung und Performance-Fixes verfolgt. Suchen Sie nach Corsair Cove, um den verifizierten DRM-Bericht zu sehen.
+  </Step>
+  <Step num="3" title="Größe der ausführbaren Datei analysieren">
+    Durch Denuvo geschützte ausführbare Dateien (.exe) sind aufgrund der Verschlüsselungsebenen in der Regel deutlich größer (oft 300 MB bis 500 MB größer) als ungeschützte Dateien.
+  </Step>
+  <Step num="4" title="CPU-Auslastung überwachen">
+    Verwenden Sie einen Systemmonitor, um während des Spielens im Leerlauf nach ungewöhnlichen CPU-Spitzen zu suchen. Eine hohe Hintergrundauslastung kann manchmal auf störende Anti-Tamper-Aktivitäten hinweisen.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Demo-Testen">
+Die derzeit auf Steam verfügbare kostenlose Demo ist nachweislich DRM-frei. Dies dient als perfekter Benchmark dafür, wie die Vollversion auf Ihrer spezifischen Hardware laufen wird.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste zur Startbereitschaft">
+
+Um das beste Erlebnis zu gewährleisten, wenn Corsair Cove am 31. Juli 2026 erscheint, befolgen Sie diese Checkliste, um Ihren PC und Ihr Siedlungsmanagement zu optimieren.
+
+<Checklist
+  id="launch-prep"
+  title="Optimierung vor dem Start:"
+  items={[
+    "Grafikkartentreiber auf die neueste Version vom Juli 2026 aktualisieren",
+    "30 GB freien Speicherplatz auf der primären SSD überprüfen",
+    "Die kostenlose Demo testen, um eine Ausgangsleistung zu ermitteln",
+    "Windows-„Spielmodus“ so konfigurieren, dass Simulations-Threads priorisiert werden",
+    "Dem offiziellen Discord beitreten, um Hotfixes vom ersten Tag zu verfolgen"
+  ]}
+/>
+
+<Callout type="success" title="Modding-Potenzial">
+Das Fehlen von Denuvo senkt die Hürde für Modder erheblich, benutzerdefinierte Gebäude, neue Produktionsketten und spezialisierte Schiffstypen zu erstellen, was die Lebensdauer des Spiels verlängert.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="FAQ: Technische und DRM-Details zu Corsair Cove">
+
+<FAQ items={[
+  {
+    question: "Hat Corsair Cove zum Launch Denuvo?",
+    answer: "Keine offizielle Ankündigung oder Store-Eintrag deutet darauf hin, dass Corsair Cove Denuvo Anti-Tamper für die Veröffentlichung am 31. Juli 2026 nutzen wird."
+  },
+  {
+    question: "Wird das Fehlen von Denuvo meine Framerate verbessern?",
+    answer: "Im Allgemeinen ja. Ohne die zusätzlichen Entschlüsselungsebenen von Denuvo erzielen CPU-gebundene Spiele wie Städtebauer oft bessere 1%-Low-Frameraten und schnellere Ladezeiten."
+  },
+  {
+    question: "Kann ich Corsair Cove offline spielen?",
+    answer: "Ja, die Versionen für Steam und den Epic Games Store unterstützen das Offline-Spielen, da sie keine ständige Verbindung zu einem DRM-Server eines Drittanbieters erfordern."
+  },
+  {
+    question: "Ist die Demo von Corsair Cove repräsentativ für die Leistung des fertigen Spiels?",
+    answer: "Die Demo bietet eine solide Grundlage, obwohl das fertige Spiel komplexere Systeme wie über 50 Waren und eine Vertikalität im späten Spielverlauf enthalten wird, die anspruchsvoller sein können."
+  }
+]} />
+
+</Section>

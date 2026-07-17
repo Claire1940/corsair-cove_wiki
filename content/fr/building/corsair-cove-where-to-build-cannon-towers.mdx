@@ -1,0 +1,164 @@
+import { Map, Swords, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove : Où construire les tours à canons - Guide d'aménagement défensif",
+  description: "Maîtrisez l'art de la défense de base dans Corsair Cove. Découvrez les emplacements optimaux pour construire des tours à canons et protéger votre colonie pirate des envahisseurs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Corsair+Cove+Defense",
+  date: "2026-07-17",
+  author: "L'équipe du Wiki de Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- L'emplacement **où construire les tours à canons dans Corsair Cove** dépend de votre accès au littoral et aux points d'observation en hauteur.
+- Un **placement stratégique** est essentiel pour couvrir les quais et les zones de stockage vulnérables contre les attaques navales ennemies.
+- La **gestion des ressources** doit être équilibrée avec les infrastructures défensives pour maintenir le bonheur et la productivité des pirates.
+- La **défense en début de partie** doit donner la priorité à la protection de votre camp principal et des chaînes de production de ressources essentielles.
+- Les tactiques de **défense active**, telles que « Branle-bas de combat » (All Hands on Deck), peuvent atténuer les dégâts pendant la construction des tours.
+</Callout>
+
+<Section icon={Map} title="Stratégie d'emplacement optimal des tours">
+
+Établir une défense robuste dans Corsair Cove nécessite une bonne compréhension de la géographie de votre île. Construire des tours à canons ne dépend pas seulement de la puissance de feu ; il s'agit de maximiser la portée de votre couverture côtière.
+
+**Points clés de la vidéo :**
+- Comprendre le lien entre les camps de pirates et les chaînes de ressources.
+- Gérer la verticalité lors de la construction de structures sur des falaises abruptes.
+- L'importance du placement stratégique des jetées pour la sécurité des navires.
+
+<YouTubeEmbed videoId="ah4FKq7Nicg" title="Ce n'est sûrement pas une façon sûre de construire une ville | Corsair Cove (Démo)" />
+
+Pour une défense efficace, concentrez votre construction sur les zones suivantes :
+
+| Type de zone | Priorité défensive | Structure recommandée |
+| :--- | :--- | :--- |
+| Quais côtiers | Élevée | Tour à canons |
+| Entrepôt de ressources | Moyenne | Tour de guet |
+| Falaises résidentielles | Faible | Barricade de base |
+| Camp pirate principal | Critique | Batterie multi-canons |
+
+<Callout type="tip" title="Conseil de pro">
+Assurez-vous toujours que vos tours à canons sont connectées à votre réseau d'entrepôts de ressources principal. Si les chemins d'accès sont coupés, vos pirates ne pourront pas fournir les munitions nécessaires à une défense active.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comparaison des aménagements défensifs">
+
+Le choix du bon aménagement dépend de votre progression actuelle dans le jeu. Utilisez ce guide pour comparer les stratégies défensives en fonction de vos ressources disponibles.
+
+<CardGrid cols={3}>
+  <Card title="Périmètre côtier">
+    - **Idéal pour le début de partie**
+    - Protège le rivage
+    - Faible coût en ressources
+  </Card>
+  <Card title="Batterie de falaise">
+    - **Avantage de la hauteur**
+    - Portée étendue
+    - Nécessite des chemins complexes
+  </Card>
+  <Card title="Centre d'entrepôt">
+    - **Protège les stocks**
+    - Grande durabilité
+    - Défense centralisée
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Avertissement critique">
+Évitez de surcharger les surfaces abruptes de constructions sans liaisons par échelles appropriées. Si vos pirates ne peuvent pas naviguer sur le terrain, vos tours à canons resteront sans équipage lors d'un raid.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guide de construction étape par étape">
+
+Suivez ces étapes pour configurer efficacement vos systèmes de défense sans perturber votre économie.
+
+<Steps>
+  <Step num="1" title="Nettoyer le rivage">
+    Retirez les débris et les épaves inutilisées pour créer un espace plat pour vos fondations et la construction de la jetée.
+  </Step>
+  <Step num="2" title="Connecter le réseau">
+    Assurez-vous que vos bâtisseurs disposent d'un chemin dégagé depuis le camp principal jusqu'au site de construction en utilisant des échelles ou des sentiers de falaise.
+  </Step>
+  <Step num="3" title="Installer les tours à canons">
+    Placez des tours à la limite de votre zone d'influence côtière pour maximiser la couverture contre les navires ennemis.
+  </Step>
+  <Step num="4" title="Établir des chaînes d'approvisionnement">
+    Reliez les tours à votre scierie et à votre entrepôt pour garantir un approvisionnement régulier en ressources pour les réparations.
+  </Step>
+</Steps>
+
+| Étape | Condition requise | Résultat attendu |
+| :--- | :--- | :--- |
+| Préparation du site | 20 Planches | Zone de construction dégagée |
+| Fondations | 40 Planches | Base structurelle |
+| Armement | 10 Fer/Acier | Défense active |
+| Entretien | 5 Bois/Tick | Statut opérationnel |
+
+</Section>
+
+<Section icon={Sparkles} title="Maintenance et entretien">
+
+Entretenir vos tours défensives est aussi important que de les construire. Une tour négligée est un fardeau plutôt qu'un atout.
+
+<Callout type="success" title="Boost d'efficacité">
+Maintenez un niveau de « Bonheur » supérieur à 50 % pour garantir que vos pirates travaillent efficacement à la réparation des défenses endommagées après une attaque.
+</Callout>
+
+Utilisez le tableau suivant pour suivre les coûts d'entretien de vos structures défensives :
+
+| Structure | Coût d'entretien | Priorité |
+| :--- | :--- | :--- |
+| Tour à canons | 2 Bois/Cycle | Élevée |
+| Tour de guet | 1 Bois/Cycle | Faible |
+| Mur défensif | 3 Pierres/Cycle | Moyenne |
+| Balise de jetée | 1 Bois/Cycle | Élevée |
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Où exactement dois-je construire des tours à canons dans Corsair Cove ?",
+    answer: "Vous devez construire des tours à canons le long du périmètre côtier, en particulier près de vos jetées et de vos entrepôts de ressources principaux, afin d'intercepter les navires ennemis avant qu'ils n'atteignent votre camp principal."
+  },
+  {
+    question: "Puis-je construire des structures défensives sur les falaises ?",
+    answer: "Oui, la construction sur les falaises est possible et offre un avantage de portée, mais elle nécessite une planification minutieuse des connexions par échelles pour garantir que vos pirates puissent les atteindre."
+  },
+  {
+    question: "Que dois-je faire si mes tours ne tirent pas ?",
+    answer: "Vérifiez vos connexions de cheminement. Si vos tours ne sont pas reliées à votre entrepôt ou à votre camp, vos pirates ne pourront pas livrer les munitions nécessaires pour les maintenir opérationnelles."
+  },
+  {
+    question: "Comment me défendre contre une attaque de l'île ?",
+    answer: "Utilisez la commande « Branle-bas de combat » (All Hands on Deck) pour mobiliser rapidement vos pirates et prioriser les réparations de vos tours à canons pendant que l'ennemi attaque."
+  }
+]} />
+
+</Section>
+
+<Section icon={Target} title="Liste de contrôle défensive finale">
+
+<Checklist
+  id="defense-checklist"
+  title="Liste de contrôle de la défense de l'île :"
+  items={[
+    "Vérifier que toutes les tours sont connectées à l'entrepôt",
+    "S'assurer qu'au moins deux chemins mènent à chaque structure défensive",
+    "Garder un stock de bois pour les réparations immédiates",
+    "Maintenir un niveau de bonheur élevé pour garantir des temps de réponse rapides"
+  ]}
+/>
+
+</Section>

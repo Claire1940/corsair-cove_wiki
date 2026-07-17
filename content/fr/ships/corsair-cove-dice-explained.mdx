@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Explication des dés de Corsair Cove : Mécaniques de combat et guide stratégique du RNG",
+  description: "Maîtrisez le système de dés et de cartes de Corsair Cove. Découvrez comment le RNG affecte les dégâts de combat, comment gérer les fournitures et les stratégies pour minimiser les risques en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dice+and+Combat+Guide",
+  date: "2026-07-17",
+  author: "Équipe du Wiki de Corsair Cove",
+  keywords: "corsair cove, dés, combat, RNG, stratégie, logistique verticale"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Explication des dés de Corsair Cove** : Les lancers de dés déterminent la valeur finale dans la plage de dégâts d'une carte, mélangeant stratégie et RNG.
+- **Logistique Verticale** : Construire vers le haut sur les falaises est obligatoire en raison du terrain plat limité ; utilisez des treuils et des monte-charges pour plus d'efficacité.
+- **Cohésion de l'Équipage** : Gérer le bonheur des pirates (nourriture, grog) est vital, car une cohésion nulle mène à une fin de partie immédiate.
+- **Ressources de Combat** : Chaque carte jouée coûte des fournitures ; équilibrer les actions à fort impact avec la conservation des ressources est la clé de la victoire.
+- **Retours sur l'Efficacité** : Utilisez le système de chemins codés par couleur (Vert/Jaune/Rouge) pour identifier et corriger les goulots d'étranglement de l'île.
+</Callout>
+
+<Section icon={Map} title="Logistique de Colonie Verticale dans Corsair Cove">
+
+Dans le paysage des jeux de gestion de ville de 2026, Corsair Cove se distingue en forçant les joueurs à abandonner l'expansion horizontale traditionnelle. Contrairement aux titres standards où vous vous étendez sur une carte plate, vous devez ici maîtriser la verticalité des falaises imposantes. Ce défi architectural est le fondement de votre repaire de pirates, nécessitant un réseau complexe de sentiers de terre, de passerelles de falaise et de machines avancées pour maintenir le flux de ressources entre le rivage et les sommets.
+
+**Points Forts de la Vidéo :**
+- **Focus sur la Verticalité** : Découvrez pourquoi construire sur les falaises est plus important que l'expansion vers l'extérieur.
+- **Réseau Logistique** : Aperçu des cordes, échelles et treuils utilisés pour connecter le hub central des pirates.
+- **Aperçus Dynamiques** : Comment le jeu aide les joueurs à visualiser les connexions des bâtiments en temps réel.
+- **Chaînes de Production** : Informations sur l'extraction des ressources et la nécessité de connecter chaque structure.
+
+<YouTubeEmbed videoId="cvDMCebZxvU" title="Corsair Cove n'est PAS un city builder normal, voici pourquoi..." />
+
+Le succès sur votre île dépend fortement de la façon dont vous gérez la hauteur. Parce que le terrain plat est rare, votre colonie finira par ressembler à une toile complexe de couches interconnectées. Le jeu fournit un retour visuel en temps réel pour vous aider à naviguer dans cette complexité, garantissant que vos travailleurs pirates peuvent réellement atteindre les bâtiments que vous placez.
+
+| Outil Logistique | Fonction Principale | Portée Verticale | Phase de Déblocage |
+| :--- | :--- | :--- | :--- |
+| **Sentiers de terre** | Mouvement de base au niveau du sol | Aucune | Début |
+| **Passerelles de falaise** | Mouvement horizontal le long des parois | Faible | Début de partie |
+| **Cordes & Échelles** | Ascension verticale de base pour les ouvriers | Moyenne | Début de partie |
+| **Treuils** | Levage manuel des ressources | Moyenne | Milieu de partie |
+| **Monte-charges** | Transport vertical à haute vitesse | Haute | Fin de partie |
+
+<Callout type="tip" title="Astuce d'Efficacité">
+Groupez toujours les bâtiments d'une même chaîne de production à proximité les uns des autres. La verticalité ajoute de la distance, donc un bâtiment situé directement au-dessus d'un autre pourrait être plus « proche » en termes logistiques s'il est relié par un monte-charge efficace.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Explication des Dés de Corsair Cove : Maîtriser le RNG de Combat">
+
+La question la plus fréquente des nouveaux capitaines concerne l'**explication des dés de Corsair Cove** au sein du système de rencontre. Le combat n'est pas une escarmouche en temps réel, mais un jeu de cartes calculé où chaque action est influencée par un lancer de dés. Lorsque vous engagez une bataille navale en plusieurs étapes, votre succès dépend de votre capacité à gérer votre stock de ressources tout en jouant les bonnes cartes au bon moment.
+
+Chaque carte de votre main possède une plage de dégâts ou de défense désignée. Lorsqu'une carte est jouée, le jeu déclenche un lancer de dés pour déterminer où le résultat réel se situe dans cette plage. Un lancer « Élevé » atteint la limite supérieure du potentiel de la carte, tandis qu'un lancer « Faible » entraîne un impact minimal. Cela crée un environnement à enjeux élevés où même les plans les mieux conçus nécessitent un peu de chance.
+
+| Type de Carte | Effet Principal | Coût en Fournitures | Impact du RNG |
+| :--- | :--- | :--- | :--- |
+| **Attaque** | Inflige des dégâts au navire ou à l'équipage | Moyen à Élevé | Élevé (Large plage de dégâts) |
+| **Défense** | Atténue les dégâts ennemis entrants | Faible à Moyen | Modéré (Blocage fixe + lancer) |
+| **Sacrifice** | Échange la santé du navire contre des fournitures | Zéro | Faible (Gain fixe de fournitures) |
+| **Tactique** | Boost le prochain lancer ou affaiblit l'ennemi | Moyen | N/A (Axé sur l'utilité) |
+
+<Steps>
+  <Step num="1" title="Analyser l'Intention de l'Ennemi">
+    L'adversaire IA révèle son mouvement prévu au début du tour. Vérifiez s'il attaque la santé de votre navire ou votre équipage.
+  </Step>
+  <Step num="2" title="Gérer les Fournitures">
+    Évaluez votre nombre actuel de fournitures. Jouer des cartes de haut niveau trop tôt peut vous laisser sans défense lors des étapes ultérieures de la bataille.
+  </Step>
+  <Step num="3" title="Exécuter le Lancer">
+    Sélectionnez votre carte et regardez le dé rouler. N'oubliez pas que la plage de dégâts est clairement affichée, vous connaissez donc toujours le « pire des cas ».
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestion des Risques">
+Ne comptez pas sur l'obtention de la valeur maximale d'une plage de dégâts si un lancer minimum entraîne la destruction de votre navire. Jouez toujours défensivement si votre santé est basse.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gestion de l'Équipage Pirate et Cohésion">
+
+Votre main-d'œuvre dans Corsair Cove n'est pas un groupe de citoyens disciplinés ; ce sont des égorgeurs imprévisibles. Gérer votre équipage est un équilibre constant entre la cupidité et la survie. Si vos pirates deviennent mécontents ou si vous prenez trop de décisions favorisant l'or au détriment de leur bien-être, votre jauge de **Cohésion** chutera. Si cette jauge atteint zéro, votre équipage se mutinera, entraînant une fin de partie immédiate.
+
+Les pirates ont des besoins variés selon leur spécialisation. Alors que les ouvriers de base ne demandent que de la nourriture et du grog, les spécialistes de haut niveau qui améliorent vos navires exigent des produits de luxe beaucoup plus coûteux.
+
+<CardGrid cols={3}>
+  <Card title="Ouvriers de Base">
+    - **Besoins** : Nourriture, Grog, Logement de base
+    - **Rôle** : Extraction de ressources et logistique simple
+    - **Volatilité** : Faible
+  </Card>
+  <Card title="Flibustiers">
+    - **Besoins** : Grog de haute qualité, Divertissement
+    - **Rôle** : Défense du navire et abordages
+    - **Volatilité** : Moyenne
+  </Card>
+  <Card title="Maîtres Canonniers">
+    - **Besoins** : Produits de luxe, Quartiers privés
+    - **Rôle** : Boost significatif des plages de dégâts du navire
+    - **Volatilité** : Élevée
+  </Card>
+</CardGrid>
+
+| Métrique | Impact des Niveaux Bas | Méthode de Récupération |
+| :--- | :--- | :--- |
+| **Bonheur** | Vitesse de travail réduite, perte de Cohésion | Fournir du grog et de la nourriture variée |
+| **Cohésion** | Risque accru de mutinerie, Game Over | Accomplir des exploits, gagner des batailles |
+| **Fournitures** | Incapacité de jouer des cartes en combat | Raffinage de ressources, exploration |
+
+<Callout type="success" title="Conseil Stratégique">
+Au début du jeu, concentrez-vous sur un petit équipage heureux plutôt que de vous étendre trop rapidement. Un grand équipage mécontent est le moyen le plus rapide de déclencher une spirale de mort économique.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Stabilité Économique et Chaînes de Ressources">
+
+L'économie de Corsair Cove repose sur des chaînes de production qui doivent être parfaitement équilibrées. Comme les bâtiments de production ont un stockage interne très limité, tout goulot d'étranglement dans votre réseau logistique peut paralyser toute la chaîne. Vous êtes responsable de diriger le flux de marchandises, en décidant quels entrepôts reçoivent des produits finis spécifiques et d'où proviennent les matières premières.
+
+Le jeu utilise un système d'efficacité codé par couleur pour vous aider à visualiser ces flux. En surveillant vos chemins et vos bâtiments, vous pouvez rapidement identifier où vos pirates ont du mal à déplacer les marchandises efficacement.
+
+**Indicateurs d'Efficacité :**
+- **Vert** : Flux optimal ; les ressources circulent sans délai.
+- **Jaune** : Goulots d'étranglement mineurs ; envisagez d'améliorer les chemins ou d'ajouter des treuils.
+- **Rouge** : Échec critique ; la production s'est arrêtée en raison d'un stockage plein ou d'un manque d'intrants.
+
+<Checklist
+  id="economy-checklist"
+  title="Objectifs d'Efficacité de l'Île :"
+  items={[
+    "Connecter tous les bâtiments de production au hub central",
+    "Améliorer tous les sentiers de terre à fort trafic en passerelles de falaise",
+    "S'assurer que chaque entrepôt dispose d'un filtre de ressources dédié",
+    "Maintenir un surplus de 20 % de grog pour les boosts de bonheur d'urgence",
+    "Installer des treuils à chaque point de transition verticale majeur"
+  ]}
+/>
+
+<Callout type="info" title="Avertissement de Stockage">
+Si un entrepôt devient plein, les ouvriers cesseront de livrer les matières premières. Vérifiez régulièrement vos paramètres d'exportation pour vous assurer que les marchandises excédentaires sont déplacées ou vendues.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Exploration et Personnalisation des Navires">
+
+Une fois votre île stable, vous devez prendre la mer. L'exploration est le moyen d'acquérir des ressources rares, de recruter des pirates spécialisés et de progresser dans l'histoire. L'efficacité de votre navire est déterminée par sa santé, sa capacité d'équipage et le capitaine spécifique que vous assignez pour le diriger.
+
+Différents navires et capitaines sont mieux adaptés à certains types de rencontres. Certains excellent dans le transport de grandes quantités de butin, tandis que d'autres sont conçus spécifiquement pour survivre aux combats lourds en RNG où les mécaniques d'**explication des dés de Corsair Cove** sont les plus présentes.
+
+| Type de Navire | Meilleur Cas d'Utilisation | Point Fort | Faiblesse |
+| :--- | :--- | :--- | :--- |
+| **Sloop** | Exploration précoce | Grande mobilité, faible coût en fournitures | Santé faible |
+| **Brigantin** | Transport de ressources | Grande cale à marchandises | Lent en combat |
+| **Galion** | Combat lourd | Santé élevée, emplacements de cartes multiples | Coûteux à entretenir |
+
+<Steps>
+  <Step num="1" title="Sélectionner Votre Capitaine">
+    Choisissez un chef dont les bonus correspondent à votre objectif (ex: boosts de combat ou réductions commerciales).
+  </Step>
+  <Step num="2" title="Assigner l'Équipage">
+    Équilibrez votre équipage avec un mélange d'ouvriers de base et de spécialistes pour maximiser les statistiques du navire.
+  </Step>
+  <Step num="3" title="Approvisionner le Voyage">
+    Chargez suffisamment de fournitures pour jouer vos meilleures cartes lors des rencontres. Tomber à court de fournitures en plein voyage est souvent fatal.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Conseil d'Exploration Pro">
+Scoutez toujours une rencontre avant de vous engager. Certains gains de ressources « simples » peuvent se transformer en batailles en plusieurs étapes pour lesquelles vous n'êtes peut-être pas préparé.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Comment le système d'explication des dés de Corsair Cove affecte-t-il ma stratégie ?",
+    answer: "Le système de dés signifie que vous ne pouvez pas compter sur une seule carte 'parfaite'. Vous devez construire un deck qui offre une valeur constante sur toute sa plage de dégâts et toujours garder assez de fournitures pour jouer une carte de secours si votre premier lancer est faible."
+  },
+  {
+    question: "Que se passe-t-il si ma Cohésion tombe à zéro ?",
+    answer: "La partie se termine immédiatement. Votre équipage se mutine, prend le contrôle de l'île et vous êtes forcé de recommencer ou de charger une sauvegarde précédente. Gérer la cohésion est aussi important que gérer votre or."
+  },
+  {
+    question: "Puis-je construire uniquement sur terrain plat ?",
+    answer: "Non. Le terrain plat est extrêmement limité dans Corsair Cove. Pour progresser, vous êtes obligé de construire verticalement sur les falaises. Si vous ne maîtrisez pas les treuils et les monte-charges, votre économie finira par péricliter."
+  },
+  {
+    question: "Comment corriger un chemin d'efficacité rouge ?",
+    answer: "Les chemins rouges indiquent un goulot d'étranglement majeur. Généralement, cela signifie que la distance est trop grande pour les ouvriers ou qu'il y a un manque de transport vertical. Essayez d'ajouter un treuil ou un monte-charge pour combler l'écart entre les niveaux."
+  }
+]} />
+
+</Section>

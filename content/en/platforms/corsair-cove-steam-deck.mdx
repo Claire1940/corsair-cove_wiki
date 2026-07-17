@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Anchor, Ship, Gamepad2, Hammer, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Steam Deck: Optimized Settings & Performance Guide",
+  description: "Master Corsair Cove on Steam Deck with our 2026 optimization guide. Discover best graphics settings, custom controller layouts, and battery saving tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Steam+Deck+Optimization",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Corsair Cove Steam Deck** performance is best achieved by targeting a stable 40FPS/40Hz refresh rate to balance battery life and smooth simulation.
+- **Text Readability** is the primary challenge; ensure you utilize the Steam Deck's built-in magnifier and adjust UI scaling in the game menu.
+- **Custom Trackpad Layouts** are highly recommended for managing complex pirate production lines and settlement building.
+- **TDP Limiting** to 10W provides a significant boost to playtime without sacrificing the visual fidelity of your pirate haven.
+- **Proton Experimental** is currently the most stable compatibility layer for running the latest 2026 builds.
+</Callout>
+
+<Section icon={Anchor} title="Handheld Performance Overview">
+
+Playing **Corsair Cove Steam Deck** transforms the pirate management experience into a portable adventure. While the game features dense settlements and complex production lines, the Steam Deck's hardware is surprisingly capable of handling large pirate havens if configured correctly. The key is managing the CPU-heavy simulation elements that occur as your crew grows and your settlement expands.
+
+**Video Highlights:**
+- **Settlement Growth**: Watch how a shabby settlement evolves into a thriving pirate hideout.
+- **Production Lines**: Overview of setting up efficient resource chains for ship building.
+- **Naval Combat**: Brief look at how mighty ships handle exploration and sea battles.
+
+<YouTubeEmbed videoId="uBkyCoD7poo" title="Corsair Cove - Release Date Announcement Trailer" />
+
+<Callout type="success" title="Compatibility Status">
+As of July 2026, Corsair Cove is rated as "Playable" on Steam Deck. The main hurdles are small UI text and the need for a community controller layout to handle mouse-heavy menus.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Performance Mode">
+    - **Target**: 60 FPS
+    - **Battery**: ~90 Minutes
+    - **Focus**: Fluid animations and combat responsiveness.
+  </Card>
+  <Card title="Balanced Mode">
+    - **Target**: 40 FPS / 40 Hz
+    - **Battery**: ~150 Minutes
+    - **Focus**: The "Sweet Spot" for simulation stability.
+  </Card>
+  <Card title="Battery Saver">
+    - **Target**: 30 FPS
+    - **Battery**: ~210+ Minutes
+    - **Focus**: Maximum playtime for long voyages.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Settings} title="Best Graphics Settings for 2026">
+
+To achieve the best **Corsair Cove Steam Deck** experience, you must balance the artistic pirate aesthetic with the technical limitations of the handheld. The following settings are optimized to reduce GPU heat while keeping the "Seven Seas" looking vibrant and detailed.
+
+| Setting | Recommended Value | Impact |
+| :--- | :--- | :--- |
+| **Resolution** | 1280x800 (Native) | High - Keeps text sharp |
+| **Texture Quality** | Medium/High | Medium - VRAM dependent |
+| **Shadow Quality** | Low | High - Huge FPS gain |
+| **Water Reflections** | Medium | Medium - Essential for sea vibe |
+| **Anti-Aliasing** | FSR 2.0 (Quality) | High - Smooths jagged edges |
+| **Crowd Density** | Medium | High - Critical for CPU load |
+| **Post-Processing** | Low | Low - Reduces input lag |
+
+<Callout type="tip" title="FSR Usage">
+Always enable the in-game FSR 2.0 (set to Quality) rather than the system-level FSR. The in-game implementation handles the UI scaling much better, preventing the pirate icons from becoming blurry.
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad2} title="Optimizing Controls and Navigation">
+
+Since Corsair Cove was designed with a mouse and keyboard in mind, navigating your pirate haven on a handheld requires a smart controller setup. The Steam Deck's trackpads are your greatest asset here, allowing for precise placement of buildings and management of crew happiness.
+
+**Recommended Controller Mappings:**
+
+| Steam Deck Button | Game Action | Benefit |
+| :--- | :--- | :--- |
+| **Right Trackpad** | Mouse Movement | Precise building placement |
+| **Left Trackpad** | Radial Menu (Hotkeys) | Quick access to Build/Map/Crews |
+| **L4 / R4 Grip** | Zoom In / Out | Better view of production lines |
+| **L5 / R5 Grip** | Cycle Units | Manage crew members quickly |
+| **Right Trigger** | Left Mouse Click | Primary interaction |
+
+<Steps>
+  <Step num="1" title="Enable Trackpad Mouse">
+    Go to Controller Settings > Edit Layout. Set the Right Trackpad to "Mouse" with a medium sensitivity for smooth settlement navigation.
+  </Step>
+  <Step num="2" title="Configure Radial Menus">
+    Assign the Left Trackpad to a Virtual Menu. Map the numbers 1-5 to this menu to quickly swap between building categories and the exploration map.
+  </Step>
+  <Step num="3" title="Adjust Deadzones">
+    Set your joystick deadzones to 10% to prevent "drift" when sailing your mighty ships across the ocean.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Expert Layouts">
+Search the Community Layouts tab for "Corsair Cove Optimized - 2026 Edition." This layout includes pre-configured radial menus for all major production screens.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Settlement Management on the Go">
+
+Building your pirate empire in **Corsair Cove Steam Deck** requires constant attention to resource production and crew morale. On a smaller screen, it is easy to miss notifications regarding resource shortages or unhappy pirates.
+
+| Resource Type | Management Tip | Handheld Priority |
+| :--- | :--- | :--- |
+| **Timber** | Keep camps near forests | High - Core building block |
+| **Rum** | Automate production early | Critical - Keeps crew happy |
+| **Iron** | Focus on coastal mines | Medium - Needed for ships |
+| **Gold** | Set up trade routes | Low - Late game focus |
+
+**Production Line Efficiency:**
+- **Grouping**: Place your Rum distilleries near your Sugar plantations to minimize walking distance for your crew.
+- **Storage**: Ensure every 3-4 production buildings have a dedicated warehouse nearby to prevent bottlenecks.
+- **Upgrades**: Use the Steam Deck's "Steam + L1" magnifier to read the small upgrade requirement text on specialized buildings.
+
+<Callout type="warning" title="UI Scaling Warning">
+At 100% UI scale, some menus may overlap. We recommend setting the UI Scale to 90% in the Gameplay settings for a cleaner handheld interface.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression and Daily Goals">
+
+Mastering the pirate's way of life involves more than just surviving; it's about ruling the seas. Use this checklist to track your progress as you turn your shabby settlement into a legendary hideout.
+
+<Checklist
+  id="corsair-cove-milestones"
+  title="Pirate Lord Milestones:"
+  items={[
+    "Establish a stable Rum production line",
+    "Build your first Sloop for coastal exploration",
+    "Reach a crew population of 50 happy pirates",
+    "Automate timber and stone gathering",
+    "Defeat the first regional pirate hunter",
+    "Discover three hidden islands in the Seven Seas"
+  ]}
+/>
+
+<Callout type="tip" title="Power Management">
+If you are playing away from a charger, limit the TDP (Thermal Design Power) to 9W or 10W in the Quick Access Menu (QAM). For a game like Corsair Cove, this usually results in zero performance loss while adding 45-60 minutes of battery life.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Does Corsair Cove support cloud saves on Steam Deck?",
+    answer: "Yes, Corsair Cove fully supports Steam Cloud. You can seamlessly switch between your PC and Steam Deck without losing progress in your pirate settlement."
+  },
+  {
+    question: "How do I fix the small text in the production menus?",
+    answer: "The best way to handle small text is to use the Steam Deck's system-level magnifier (Steam Button + LB) or adjust the in-game UI scaling to 90-95%."
+  },
+  {
+    question: "Is there a specific Proton version for Corsair Cove Steam Deck?",
+    answer: "As of 2026, Proton Experimental or the latest GE-Proton are recommended. If you experience crashes during naval combat, try switching to Proton 9.0."
+  },
+  {
+    question: "Can I play Corsair Cove offline on the Steam Deck?",
+    answer: "Yes, once the game is installed and launched once while online, you can play the entire single-player campaign and settlement management mode offline."
+  }
+]} />
+
+</Section>

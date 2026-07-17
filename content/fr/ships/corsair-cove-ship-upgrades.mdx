@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Améliorations des navires dans Corsair Cove : Meilleurs builds de flotte et guide de configuration",
+  description: "Maîtrisez les améliorations des navires dans Corsair Cove. Apprenez à débloquer des vaisseaux puissants, à améliorer les statistiques des navires, à configurer les atouts des capitaines et à dominer le combat naval.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1b365d/fff?text=Ship+Upgrades+Guide",
+  date: "2026-07-17",
+  author: "Équipe du Wiki Corsair Cove",
+  keywords: "corsair cove, améliorations de navire, combat naval, guide de flotte, navigation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Les améliorations de navires dans Corsair Cove** nécessitent l'investissement de Points de Principe dans la branche de progression Navigation pour débloquer des plans avancés.
+- **Améliorez les statistiques du navire** comme la Santé, la capacité d'Équipage et les Provisions pour survivre aux événements de combat naval au tour par tour à haut risque.
+- **Équipez du matériel spécialisé** tel que des Longues-vues, des Canons et de la Poudre noire pour booster les évaluations tactiques de votre flotte.
+- **Assignez des capitaines correspondants** comme Teach pour créer une synergie entre ses capacités de combat uniques et les mesures améliorées de votre navire.
+</Callout>
+
+<Section icon={Map} title="Débloquer les améliorations de navires via le Principe de Navigation">
+
+Dans le jeu de construction de ville pirate verticale Corsair Cove, étendre votre territoire et sécuriser des ressources n'est que la moitié de la bataille. Pour établir une véritable domination sur les Sept Mers et résister à l'oppression de la Couronne, vous devez transformer votre simple colonie portuaire en un empire doté d'une flotte redoutable. Cette progression est régie par le système de Boussole, qui divise vos voies de progression en quatre philosophies distinctes : Notoriété, Empire, Navigation et Richesse.
+
+Pour accéder aux **améliorations de navires Corsair Cove** les plus puissantes, vous devez concentrer vos efforts sur le principe de Navigation. Gagner des Points de Principe via les Exploits et les Quêtes secondaires vous permet de grimper dans l'arbre de progression de la Navigation, débloquant des plans de navires spécialisés, des options de construction et des améliorations directes de performance à la Jetée.
+
+| Principe | Focus | Impact sur la flotte | Déblocage clé |
+|---|---|---|---|
+| Notoriété | Réputation pirate et peur | Débloque des quêtes agressives | Tactiques de terreur et bonus de combat |
+| Empire | Croissance de la colonie et société | Augmente le plafond de population | Logements avancés et bâtiments utilitaires |
+| Navigation | Navires, voyages et exploration | Débloque des coques avancées et améliorations | Plan du Steel Edge et boosts d'évaluation |
+| Richesse | Production, commerce et économie | Finance la construction navale | Multiplicateurs de production de ressources |
+
+Investir massivement dans la Navigation est la route la plus directe pour transformer vos vaisseaux de départ en navires de guerre de haut niveau. Bien qu'une approche équilibrée entre les quatre voies de la Boussole offre une colonie polyvalente, se spécialiser tôt dans la Navigation garantit que votre flotte pourra affronter sereinement les événements mondiaux de haut niveau et défendre votre port d'attache contre les attaques de représailles de la Couronne.
+
+<Callout type="tip" title="Conseil de Pro">
+Ne négligez pas les Exploits dans votre journal de quêtes. De nombreux Exploits de milieu de jeu octroient des Points de Principe de Navigation concentrés, ce qui permet de contourner le grind de progression standard et de débloquer les coques de navires de niveau 2 beaucoup plus rapidement.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Statistiques des navires et comparaisons d'améliorations">
+
+Chaque navire de votre flotte est défini par ses mesures de survie de base et cinq évaluations tactiques d'événements. Avant d'envoyer un équipage en expédition sur la carte du monde, vous devez comparer les évaluations améliorées de votre navire aux mesures recommandées affichées sur l'icône de l'événement. Les vaisseaux standards peuvent être améliorés à la Jetée, passant de fragiles bateaux utilitaires à des destroyers lourdement blindés.
+
+Le navire de départ, le Landlubber, sert de vaisseau de référence. Il est peu coûteux à entretenir mais manque de durabilité et de capacité d'évaluation pour survivre au-delà des rencontres de début de jeu. Passer à un vaisseau de niveau 2 comme le Steel Edge nécessite un investissement en matériaux avancés mais augmente considérablement le taux de survie de votre flotte dans les combats au tour par tour.
+
+| Navire | Niveau | Classe | Santé | Équipage Max | Provisions | Coût de construction | Utilisation principale |
+|---|---|---|---|---|---|---|---|
+| Landlubber | Niveau 1 | Navire de départ | 24 | 15 | 20 | Navire de jetée initial | Exploration précoce et cargaison de base |
+| Steel Edge | Niveau 2 | Destroyer+ | 88 | 15 | 22 | 50 Planches de bois dur, 50 Pièces | Combat naval lourd et raids de forts |
+
+Lors de la planification de vos **améliorations de navires Corsair Cove**, concentrez-vous sur trois domaines primaires pour maximiser l'efficacité de votre flotte :
+
+<CardGrid cols={3}>
+  <Card title="Intégrité de la coque">
+    - **Augmente la Santé maximale**
+    - Absorbe de lourds dégâts en combat
+    - Crucial pour défier les forts de la Couronne
+  </Card>
+  <Card title="Cales de ravitaillement">
+    - **Élargit la capacité de Provisions**
+    - Soutient les équipages lors de voyages multi-étapes
+    - Permet plus d'utilisations de cartes de Bataille
+  </Card>
+  <Card title="Évaluations tactiques">
+    - **Booste cinq évaluations d'événements**
+    - Correspond aux exigences des événements à haut risque
+    - Augmente les taux de réussite des lancers de dés
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Avertissement">
+Passer à une classe de coque plus grande comme le Steel Edge augmente la consommation de Provisions pendant les voyages. Assurez-vous que vos chaînes de production locales de nourriture et de boissons peuvent supporter la demande accrue avant de commissionner plusieurs navires de guerre.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Processus d'amélioration des navires étape par étape">
+
+L'amélioration de votre flotte nécessite une infrastructure portuaire fonctionnelle et un flux régulier de matériaux raffinés. Suivez cette route de progression étape par étape pour commissionner et améliorer avec succès vos vaisseaux à la Jetée.
+
+<Steps>
+  <Step num="1" title="Gagner et investir des Points de Principe">
+    Terminez des Quêtes secondaires et des Exploits ciblés pour accumuler des Points de Principe. Ouvrez le menu de la Boussole et investissez ces points dans la branche Navigation jusqu'à débloquer le plan du Steel Edge et les améliorations d'évaluation de navire associées.
+  </Step>
+  <Step num="2" title="Établir des chaînes de matériaux raffinés">
+    Construisez une Scierie pour transformer le bois brut en Planches de bois dur. Assurez-vous que votre Trésorerie contient au moins 50 Pièces, acquises par le commerce, la taxation locale ou des raids réussis sur la carte du monde.
+  </Step>
+  <Step num="3" title="Construire et accéder à la Jetée">
+    Placez votre Jetée le long d'un rivage plat et connecté. Assurez-vous que la Jetée est reliée directement à l'épine logistique principale de votre colonie via une route courte, classée verte, pour minimiser les délais de construction.
+  </Step>
+  <Step num="4" title="Commissionner l'amélioration">
+    Sélectionnez la Jetée, ouvrez le menu de construction navale, et sélectionnez le Steel Edge ou l'amélioration d'évaluation souhaitée. Assignez une équipe de Bâtisseurs pour terminer la construction. Gardez suffisamment de Vagabonds libres pour éviter de bloquer d'autres tâches de la colonie.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Succès">
+Une fois la construction terminée, votre nouveau vaisseau accostera à la Jetée, prêt à accueillir un capitaine, un équipage et des provisions de voyage.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Chaînes de production d'équipement et logistique">
+
+Maintenir une flotte améliorée nécessite plus que du bois et des pièces. Les navires de guerre avancés et les marins spécialisés exigent des biens militaires et de luxe spécifiques pour fonctionner à une efficacité maximale. Si ces biens ne sont pas fournis de manière constante à votre Jetée et à vos Camps de pirates, la satisfaction de l'équipage chutera et la Cohésion — votre indicateur de survie global — commencera à décliner.
+
+Pour éviter les goulots d'étranglement dans l'approvisionnement, vous devez construire des chaînes de production dédiées qui alimentent directement la logistique de votre port. La distance entre vos bâtiments de production, vos centres de distribution et la Jetée est représentée par des lignes de route colorées : les routes vertes sont très efficaces, les routes jaunes sont sous-optimales et les routes rouges indiquent de graves retards de transport qui peuvent paralyser vos efforts de construction navale.
+
+| Marchandise | Matières premières | Bâtiment de production | Rôle cible dans la flotte |
+|---|---|---|---|
+| Planches de bois dur | Bois brut | Scierie | Construction de coque de base et réparations |
+| Canons | Minerai de fer, Charbon | Fonderie | Améliorations d'armes et évaluations de combat lourd |
+| Poudre noire | Soufre, Charbon de bois | Moulin à poudre | Ravitaillement en munitions pour les cartes de bataille |
+| Longues-vues | Verre, Cuivre | Atelier | Entretien des marins spécialisés et reconnaissance |
+| Médicaments | Herbes, Eau propre | Apothicaire | Soins de l'équipage et survie aux expéditions risquées |
+
+Gérer ces ressources efficacement garantit que vos navires améliorés ne restent jamais inactifs à quai par manque de munitions ou de provisions. Gardez vos centres de production militaire regroupés près de la côte et utilisez des hubs de distribution pour acheminer les produits finis directement vers la Jetée.
+
+<Callout type="info" title="Conseil Logistique">
+Si un avertissement de route rouge apparaît sur votre Jetée, ne construisez pas d'usines en double. À la place, construisez un Pont ou placez une Tyrolienne pour franchir les écarts de falaises verticales, raccourcissant ainsi le chemin physique que vos Transporteurs doivent parcourir.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Synergies de capitaines et configuration du combat naval">
+
+Un navire de guerre amélioré n'est efficace que si le capitaine qui le dirige l'est aussi. Chaque voyage sur la carte du monde nécessite d'assigner un capitaine à votre navire. Les capitaines possèdent des traits uniques, des capacités d'événement et des cartes de combat exclusives qui peuvent inverser le cours des batailles navales au tour par tour.
+
+Par exemple, le Capitaine Teach est un choix exceptionnel pour les vaisseaux axés sur le combat comme le Steel Edge. Son atout passif, La haine est une force, accorde un boost massif de +20% à la Santé du navire et aux Dégâts des canons, s'adaptant directement aux améliorations de statistiques de base que vous appliquez à la Jetée.
+
+| Capitaine | Capacité unique | Atout passif | Synergie de navire recommandée |
+|---|---|---|---|
+| Teach | Aussi simple qu'un meurtre : Gagnez +1 dé au prochain tour ; si des dégâts sont infligés à la santé ennemie, l'effet continue. | La haine est une force : +20% de santé, +20% de dégâts par canon. | Steel Edge équipé de canons améliorés et de hautes évaluations de combat. |
+
+Avant de vous lancer dans un voyage dangereux ou d'attaquer une forteresse de la Couronne, passez en revue cette liste de contrôle avant le départ pour vous assurer que votre flotte est pleinement préparée :
+
+<Checklist
+  id="combat-prep-checklist"
+  title="Liste de contrôle avant le départ de la flotte :"
+  items={[
+    "Comparez les évaluations du navire directement avec les mesures d'événement recommandées sur la carte du monde.",
+    "Restaurez complètement la Santé du navire et complétez les effectifs de l'équipage à la Jetée.",
+    "Stockez le maximum de Provisions et de Poudre noire pour alimenter vos puissantes cartes de Bataille.",
+    "Assignez un capitaine dont les capacités complètent directement le chemin d'amélioration de votre navire.",
+    "Confirmez que les tours de défense de votre île sont bien approvisionnées en boulets de canon."
+  ]}
+/>
+
+<Callout type="tip" title="Conseil Tactique">
+Pendant le combat au tour par tour, donnez la priorité au contre de l'action prévue par l'ennemi si elle cible l'évaluation la plus faible de votre navire. Les navires améliorés ont des réserves de dés plus importantes, ce qui rend les contres réussis beaucoup plus faciles à réaliser.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions">
+
+Pour vous aider à maîtriser la haute mer, nous avons compilé les questions les plus courantes concernant la gestion de la flotte, la progression et les améliorations de navires.
+
+<FAQ items={[
+  {
+    question: "Comment débloquer l'amélioration du navire Steel Edge dans Corsair Cove ?",
+    answer: "Vous devez gagner des Points de Principe en terminant des Exploits et des Quêtes secondaires, puis investir ces points dans la branche Navigation du menu de la Boussole pour débloquer le plan du Steel Edge."
+  },
+  {
+    question: "Quelles ressources sont nécessaires pour améliorer un navire à la Jetée ?",
+    answer: "Améliorer un Landlubber de départ en un Steel Edge de niveau 2 nécessite 50 Planches de bois dur et 50 Pièces, ainsi qu'une Jetée entièrement connectée et des Bâtisseurs libres."
+  },
+  {
+    question: "Comment les améliorations de navires affectent-elles le combat naval au tour par tour ?",
+    answer: "Les améliorations augmentent la Santé maximale de votre navire, sa capacité d'Équipage et ses limites de Provisions, tout en boostant les cinq évaluations tactiques utilisées pour lancer les dés pendant les événements de combat."
+  },
+  {
+    question: "Puis-je changer de capitaine entre des navires améliorés ?",
+    answer: "Oui. Les capitaines peuvent être échangés librement à la Jetée avant qu'un navire ne parte en voyage. Faites toujours correspondre les atouts de votre capitaine aux objectifs spécifiques de l'événement à venir."
+  }
+]} />
+
+<Callout type="info" title="Informations sur la sortie">
+Corsair Cove est développé par Limbic Entertainment et édité par Hooded Horse. Ce jeu de construction de ville pirate verticale est prévu sur Windows PC via Steam, Epic Games Store et Microsoft Store le 31 juillet 2026. Une démo gratuite est actuellement disponible sur Steam.
+</Callout>
+
+</Section>

@@ -1,0 +1,164 @@
+import { Map, Swords, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove: Wo man Kanonentürme baut - Leitfaden für die Verteidigung",
+  description: "Meistere die Kunst der Basisverteidigung in Corsair Cove. Lerne die optimalen Standorte für den Bau von Kanonentürmen kennen und schütze deine Piratensiedlung vor Eindringlingen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Corsair+Cove+Defense",
+  date: "2026-07-17",
+  author: "Corsair Cove Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Wo man in Corsair Cove Kanonentürme baut**, hängt von deinem Zugang zur Küstenlinie und erhöhten Aussichtspunkten ab.
+- **Strategische Platzierung** ist unerlässlich, um gefährdete Docks und Lagerbereiche vor feindlichen Angriffen von See aus zu schützen.
+- Das **Ressourcenmanagement** muss mit der Verteidigungsinfrastruktur ausbalanciert werden, um die Zufriedenheit und Produktivität der Piraten aufrechtzuerhalten.
+- Die **Verteidigung im frühen Spiel** sollte den Schutz deines Hauptlagers und der wichtigsten Ressourcen-Produktionsketten priorisieren.
+- **Aktive Verteidigungstaktiken** wie „Alle Mann an Deck“ können den Schaden minimieren, während Türme gebaut werden.
+</Callout>
+
+<Section icon={Map} title="Optimale Strategie zur Turmplatzierung">
+
+Der Aufbau einer robusten Verteidigung in Corsair Cove erfordert ein klares Verständnis der Geografie deiner Insel. Der Bau von Kanonentürmen ist nicht nur eine Frage der Feuerkraft; es geht darum, die Reichweite deiner Küstenabdeckung zu maximieren.
+
+**Video-Highlights:**
+- Die Verbindung zwischen Piratenlagern und Ressourcenketten verstehen.
+- Verwaltung der Vertikalität beim Bau von Strukturen auf steilen Klippen.
+- Die Bedeutung der strategischen Platzierung von Anlegestellen für die Schiffssicherheit.
+
+<YouTubeEmbed videoId="ah4FKq7Nicg" title="Das kann unmöglich ein sicherer Weg sein, eine Stadt zu bauen | Corsair Cove (Demo)" />
+
+Konzentriere dich beim Bau deiner Verteidigung auf die folgenden Zonen:
+
+| Zonentyp | Verteidigungspriorität | Empfohlene Struktur |
+| :--- | :--- | :--- |
+| Küstendocks | Hoch | Kanonenturm |
+| Ressourcenlager | Mittel | Wachturm |
+| Wohnklippen | Niedrig | Einfache Barrikade |
+| Hauptpiratenlager | Kritisch | Mehrfach-Kanonenbatterie |
+
+<Callout type="tip" title="Profi-Tipp">
+Stelle immer sicher, dass deine Kanonentürme mit deinem Haupt-Ressourcenlagernetzwerk verbunden sind. Wenn die Pfadfindung unterbrochen ist, können deine Piraten nicht die für die aktive Verteidigung erforderliche Munition liefern.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Vergleich der Verteidigungslayouts">
+
+Die Wahl des richtigen Layouts hängt von deiner aktuellen Phase im Spiel ab. Nutze diesen Leitfaden, um Verteidigungsstrategien basierend auf deinen verfügbaren Ressourcen zu vergleichen.
+
+<CardGrid cols={3}>
+  <Card title="Küstenperimeter">
+    - **Am besten für das frühe Spiel**
+    - Schützt die Küstenlinie
+    - Geringe Ressourcenkosten
+  </Card>
+  <Card title="Klippenbatterie">
+    - **Vorteil durch erhöhte Position**
+    - Erweiterte Reichweite
+    - Erfordert komplexe Pfade
+  </Card>
+  <Card title="Lagerhaus-Knotenpunkt">
+    - **Schützt die Vorräte**
+    - Hohe Haltbarkeit
+    - Zentralisierte Verteidigung
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Kritische Warnung">
+Vermeide es, auf steilen Hängen ohne angemessene Leiterverbindungen zu bauen. Wenn deine Piraten das Gelände nicht begehen können, bleiben deine Kanonentürme während eines Angriffs unbemannt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Schritt-für-Schritt-Bauanleitung">
+
+Befolge diese Schritte, um deine Verteidigungssysteme effektiv einzurichten, ohne deine Wirtschaft zu stören.
+
+<Steps>
+  <Step num="1" title="Küste räumen">
+    Entferne Trümmer und ungenutzte Schiffswracks, um flachen Raum für dein Fundament und den Bau der Anlegestelle zu schaffen.
+  </Step>
+  <Step num="2" title="Netzwerk verbinden">
+    Stelle sicher, dass deine Bauarbeiter einen freien Weg vom Hauptlager zur Baustelle haben, indem du Leitern oder Klippenpfade nutzt.
+  </Step>
+  <Step num="3" title="Kanonentürme installieren">
+    Platziere Türme am Rand deines Küsteneinflussbereichs, um die Abdeckung gegen ankommende Schiffe zu maximieren.
+  </Step>
+  <Step num="4" title="Lieferketten einrichten">
+    Verbinde die Türme mit deinem Sägewerk und Lagerhaus, um eine stetige Versorgung mit Ressourcen für Reparaturen zu gewährleisten.
+  </Step>
+</Steps>
+
+| Schritt-Phase | Schlüsselanforderung | Erwartetes Ergebnis |
+| :--- | :--- | :--- |
+| Standortvorbereitung | 20 Bretter | Freie Bauzone |
+| Fundament | 40 Bretter | Strukturelle Basis |
+| Bewaffnung | 10 Eisen/Stahl | Aktive Verteidigung |
+| Wartung | 5 Holz/Tick | Betriebsbereit |
+
+</Section>
+
+<Section icon={Sparkles} title="Wartung und Instandhaltung">
+
+Die Instandhaltung deiner Verteidigungstürme ist ebenso wichtig wie ihr Bau. Ein vernachlässigter Turm ist eher eine Belastung als ein Gewinn.
+
+<Callout type="success" title="Effizienzschub">
+Halte die Zufriedenheit über 50 % aufrecht, um sicherzustellen, dass deine Piraten nach einem Angriff effizient an der Reparatur beschädigter Verteidigungsanlagen arbeiten.
+</Callout>
+
+Verwende die folgende Tabelle, um die Unterhaltskosten deiner Verteidigungsstrukturen zu verfolgen:
+
+| Struktur | Unterhaltskosten | Priorität |
+| :--- | :--- | :--- |
+| Kanonenturm | 2 Holz/Zyklus | Hoch |
+| Wachturm | 1 Holz/Zyklus | Niedrig |
+| Verteidigungsmauer | 3 Stein/Zyklus | Mittel |
+| Anlegestellen-Leuchtfeuer | 1 Holz/Zyklus | Hoch |
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wo genau sollte ich in Corsair Cove Kanonentürme bauen?",
+    answer: "Du solltest Kanonentürme entlang der Küstenlinie bauen, insbesondere in der Nähe deiner Anlegestellen und primären Ressourcenlager, um feindliche Schiffe abzufangen, bevor sie dein Hauptlager erreichen."
+  },
+  {
+    question: "Kann ich Verteidigungsstrukturen auf den Klippen bauen?",
+    answer: "Ja, der Bau an Klippen ist möglich und bietet einen Reichweitenvorteil, erfordert jedoch eine sorgfältige Planung der Leiterverbindungen, damit deine Piraten sie erreichen können."
+  },
+  {
+    question: "Was soll ich tun, wenn meine Türme nicht feuern?",
+    answer: "Überprüfe deine Wegverbindungen. Wenn deine Türme nicht mit deinem Lagerhaus oder Lager verbunden sind, können deine Piraten nicht die notwendige Munition liefern, um sie betriebsbereit zu halten."
+  },
+  {
+    question: "Wie verteidige ich mich gegen einen Inselangriff?",
+    answer: "Nutze den Befehl „Alle Mann an Deck“, um deine Piraten schnell zu mobilisieren und Reparaturen an deinen Kanonentürmen zu priorisieren, während der Feind angreift."
+  }
+]} />
+
+</Section>
+
+<Section icon={Target} title="Letzte Checkliste zur Verteidigung">
+
+<Checklist
+  id="defense-checklist"
+  title="Insel-Verteidigungs-Checkliste:"
+  items={[
+    "Überprüfe, ob alle Türme mit dem Lagerhaus verbunden sind",
+    "Stelle sicher, dass mindestens zwei Wege zu jeder Verteidigungsstruktur führen",
+    "Halte einen Holzvorrat für sofortige Reparaturen bereit",
+    "Halte eine hohe Zufriedenheit aufrecht, um schnelle Reaktionszeiten zu gewährleisten"
+  ]}
+/>
+
+</Section>

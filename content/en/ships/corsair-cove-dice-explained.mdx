@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Dice Explained: Combat Mechanics & RNG Strategy Guide",
+  description: "Master the Corsair Cove dice and card system. Learn how RNG affects combat damage, how to manage supplies, and strategies to minimize risk in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dice+and+Combat+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Corsair Cove dice explained**: Dice rolls determine the final value within a card's damage range, blending strategy with RNG.
+- **Vertical Logistics**: Building upward on cliffs is mandatory due to limited flat land; use winches and lifts for efficiency.
+- **Crew Cohesion**: Managing pirate happiness (food, grog) is vital, as zero cohesion leads to an immediate game over.
+- **Combat Resources**: Every card played costs supplies; balancing high-impact plays with resource conservation is the key to victory.
+- **Efficiency Feedback**: Use the color-coded path system (Green/Yellow/Red) to identify and fix island bottlenecks.
+</Callout>
+
+<Section icon={Map} title="Vertical Settlement Logistics in Corsair Cove">
+
+In the 2026 landscape of city builders, Corsair Cove stands out by forcing players to abandon traditional horizontal expansion. Unlike standard titles where you expand across a flat map, here you must master the verticality of towering cliffs. This architectural challenge is the foundation of your pirate haven, requiring a complex network of dirt paths, cliff walkways, and advanced machinery to keep resources flowing between the shore and the peaks.
+
+**Video Highlights:**
+- **Verticality Focus**: Learn why building up and down cliffs is more important than outward expansion.
+- **Logistics Network**: Overview of ropes, ladders, and winches used to connect the central pirate hub.
+- **Dynamic Previews**: How the game assists players in visualizing building connections in real-time.
+- **Production Chains**: Insights into resource extraction and the necessity of connecting every structure.
+
+<YouTubeEmbed videoId="cvDMCebZxvU" title="Corsair Cove is NOT a normal city builder, here's why..." />
+
+Success on your island depends heavily on how you manage height. Because flat land comes at a premium, your settlement will eventually resemble a complex web of interconnected layers. The game provides real-time visual feedback to help you navigate this complexity, ensuring that your pirate workers can actually reach the buildings you place.
+
+| Logistics Tool | Primary Function | Vertical Reach | Unlock Phase |
+| :--- | :--- | :--- | :--- |
+| **Dirt Paths** | Basic ground-level movement | None | Starting |
+| **Cliff Walkways** | Horizontal movement along cliff faces | Low | Early Game |
+| **Ropes & Ladders** | Basic vertical climbing for workers | Medium | Early Game |
+| **Winches** | Manual resource hoisting | Medium | Mid Game |
+| **Rope Lifts** | High-speed vertical transport | High | Late Game |
+
+<Callout type="tip" title="Efficiency Tip">
+Always group buildings within the same production chain close together. Verticality adds distance, so a building directly above another might actually be "closer" in logistics terms if connected by an efficient lift.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Corsair Cove Dice Explained: Mastering Combat RNG">
+
+The most frequent question for new captains involves the **corsair cove dice explained** mechanics within the encounter system. Combat is not a real-time skirmish but a calculated card-battler where every action is influenced by a roll of the dice. When you engage in a multi-stage battle at sea, your success depends on your ability to manage your supply of resources while playing the right cards at the right time.
+
+Every card in your hand has a designated damage or defense range. When a card is played, the game triggers a dice roll to determine where the actual result falls within that range. A "High" roll hits the upper limit of the card's potential, while a "Low" roll results in minimum impact. This creates a high-stakes environment where even the best-laid plans require a bit of luck.
+
+| Card Type | Primary Effect | Supply Cost | RNG Impact |
+| :--- | :--- | :--- | :--- |
+| **Attack** | Deals damage to ship or crew | Medium to High | High (Wide damage range) |
+| **Defense** | Mitigates incoming enemy damage | Low to Medium | Moderate (Fixed block + roll) |
+| **Sacrifice** | Trade ship health for supplies | Zero | Low (Fixed supply gain) |
+| **Tactical** | Buffs next roll or debuffs enemy | Medium | N/A (Utility focused) |
+
+<Steps>
+  <Step num="1" title="Analyze Enemy Intent">
+    The AI opponent reveals its intended move at the start of the turn. Check if they are attacking your ship's health or your crew.
+  </Step>
+  <Step num="2" title="Manage Supplies">
+    Evaluate your current supply count. Playing high-tier cards early can leave you defenseless in later stages of the battle.
+  </Step>
+  <Step num="3" title="Execute the Roll">
+    Select your card and watch the dice roll. Remember that the damage range is clearly displayed, so you always know the "worst-case" scenario.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Risk Management">
+Do not rely on hitting the maximum value of a damage range if a minimum roll will result in your ship's destruction. Always play defensively if your health is low.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pirate Crew Management and Cohesion">
+
+Your workforce in Corsair Cove is not a group of disciplined citizens; they are unpredictable cutthroats. Managing your crew is a constant balancing act between greed and survival. If your pirates become unhappy or if you make too many decisions that favor gold over their well-being, your **Cohesion** meter will drop. If this meter hits zero, your crew will mutiny, resulting in an immediate game over.
+
+Pirates have varying needs based on their specialization. While basic workers only require food and grog, high-tier specialists who buff your ships demand much more expensive luxuries.
+
+<CardGrid cols={3}>
+  <Card title="Basic Workers">
+    - **Needs**: Food, Grog, Basic Housing
+    - **Role**: Resource extraction and simple logistics
+    - **Volatility**: Low
+  </Card>
+  <Card title="Swashbucklers">
+    - **Needs**: High-quality Grog, Entertainment
+    - **Role**: Ship defense and boarding actions
+    - **Volatility**: Medium
+  </Card>
+  <Card title="Master Gunners">
+    - **Needs**: Luxury Goods, Private Quarters
+    - **Role**: Significant boost to ship damage ranges
+    - **Volatility**: High
+  </Card>
+</CardGrid>
+
+| Metric | Impact of Low Levels | Recovery Method |
+| :--- | :--- | :--- |
+| **Happiness** | Reduced work speed, Cohesion loss | Provide Grog and varied food |
+| **Cohesion** | Increased mutiny risk, Game Over | Complete deeds, win battles |
+| **Supplies** | Inability to play cards in combat | Resource refining, exploration |
+
+<Callout type="success" title="Strategic Advice">
+Early in the game, focus on a small, happy crew rather than expanding too quickly. A large, unhappy crew is the fastest way to trigger an economic death spiral.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Economic Stability and Resource Chains">
+
+The economy in Corsair Cove is built on production chains that must be perfectly balanced. Because production buildings have very limited internal storage, any bottleneck in your logistics network can cause the entire chain to grind to a halt. You are responsible for directing the flow of goods, deciding which warehouses receive specific finished products and where raw materials are sourced.
+
+The game uses a color-coded efficiency system to help you visualize these flows. By monitoring your paths and buildings, you can quickly identify where your pirates are struggling to move goods effectively.
+
+**Efficiency Indicators:**
+- **Green**: Optimal flow; resources are moving without delay.
+- **Yellow**: Minor bottlenecks; consider upgrading paths or adding winches.
+- **Red**: Critical failure; production has stopped due to full storage or lack of inputs.
+
+<Checklist
+  id="economy-checklist"
+  title="Island Efficiency Goals:"
+  items={[
+    "Connect all production buildings to the central hub",
+    "Upgrade all high-traffic dirt paths to cliff walkways",
+    "Ensure every warehouse has a dedicated resource filter",
+    "Maintain a 20% surplus of grog for emergency happiness boosts",
+    "Install winches at every major vertical transition point"
+  ]}
+/>
+
+<Callout type="info" title="Storage Warning">
+If a warehouse becomes full, workers will stop delivering raw materials. Regularly check your export settings to ensure surplus goods are being moved or sold.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Exploration and Ship Customization">
+
+Once your island is stable, you must take to the high seas. Exploration is how you acquire rare resources, recruit specialized pirates, and progress the story. Your ship's effectiveness is determined by its health, its crew capacity, and the specific captain you assign to lead it.
+
+Different ships and captains are better suited for different encounter types. Some excel at hauling large amounts of loot, while others are built specifically to survive the RNG-heavy combat encounters where the **corsair cove dice explained** mechanics are most prevalent.
+
+| Ship Type | Best Use Case | Key Strength | Weakness |
+| :--- | :--- | :--- | :--- |
+| **Sloop** | Early exploration | High mobility, Low supply cost | Low health |
+| **Brigantine** | Resource hauling | Large cargo hold | Slow in combat |
+| **Galleon** | Heavy combat | High health, Multiple card slots | Expensive to maintain |
+
+<Steps>
+  <Step num="1" title="Select Your Captain">
+    Choose a leader whose bonuses match your objective (e.g., combat buffs or trading discounts).
+  </Step>
+  <Step num="2" title="Assign the Crew">
+    Balance your crew with a mix of basic workers and high-tier specialists to maximize ship stats.
+  </Step>
+  <Step num="3" title="Provision the Voyage">
+    Load enough supplies to play your best cards during encounters. Running out of supplies mid-voyage is often fatal.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pro Exploration Tip">
+Always scout an encounter before committing. Some "simple" resource grabs can turn into multi-stage battles that you might not be prepared for.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How does the corsair cove dice explained system affect my strategy?",
+    answer: "The dice system means you cannot rely on a single 'perfect' card. You must build a deck that offers consistent value across its damage range and always keep enough supplies to play a backup card if your first roll is low."
+  },
+  {
+    question: "What happens if my Cohesion reaches zero?",
+    answer: "The game ends immediately. Your crew mutinies, takes control of the island, and you are forced to restart or load a previous save. Managing cohesion is as important as managing your gold."
+  },
+  {
+    question: "Can I build on flat ground only?",
+    answer: "No. Flat land is extremely limited in Corsair Cove. To progress, you are forced to build vertically on cliffs. If you don't master winches and lifts, your economy will eventually fail."
+  },
+  {
+    question: "How do I fix a red efficiency path?",
+    answer: "Red paths indicate a major bottleneck. Usually, this means the distance is too great for workers, or there is a lack of vertical transport. Try adding a winch or a lift to bridge the gap between layers."
+  }
+]} />
+
+</Section>

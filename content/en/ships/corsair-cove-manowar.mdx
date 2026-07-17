@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Users, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Manowar: High-Tier Ship Guide & Naval Tactics",
+  description: "Master the Corsair Cove Manowar class with our guide on high-tier ship stats, naval combat strategies, and production chains for the July 31, 2026 release.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a365d/f8fafc?text=Manowar+Naval+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Corsair Cove Manowar**: The ultimate goal for players seeking total naval dominance against the Crown.
+- **Naval Combat**: A turn-based system utilizing **dice pools**, **Supplies**, and specialized **Battle cards**.
+- **Ship Progression**: Upgrade from the starter **Landlubber** to the high-durability **Steel Edge** destroyer.
+- **Production Needs**: Heavy warships require complex chains for **Black Powder**, **Cannons**, and **Iron**.
+- **Captain Synergy**: Match legendary captains like **Teach** to specific ship classes for maximum damage.
+</Callout>
+
+<Section icon={Map} title="Corsair Cove Release and Naval Overview">
+
+As the July 31, 2026, release date approaches, players are preparing to transition from simple cliffside settlements to commanding a **corsair cove manowar** fleet. Developed by Limbic Entertainment, this vertical city builder integrates complex logistics with high-stakes naval warfare. Your journey begins with shipwreck survivors, but the endgame focuses on raising a fleet capable of challenging the Crown’s blockade.
+
+The naval system is deeply intertwined with your settlement's economy. You cannot simply buy a Manowar; you must build the infrastructure to support it. This includes specialized piers, iron foundries, and black powder mills. Every ship in your fleet serves a purpose, from local resource transport to long-range expeditions and heavy combat encounters.
+
+| Feature | Detail | Requirement |
+| :--- | :--- | :--- |
+| **Release Date** | July 31, 2026 | PC (Steam, Epic, Microsoft) |
+| **Shipbuilding** | Pier Construction | Hardwood, Coin, Iron |
+| **Combat Style** | Turn-Based Strategy | Dice Pools / Supplies |
+| **Max Crew** | Varies by Ship Tier | Housing / Food / Drink |
+
+<Callout type="tip" title="Launch Tip">
+Don't rush into building high-tier ships immediately. Ensure your **Cohesion** is stable and your **Food/Drink** production can handle the increased crew requirements of larger vessels.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="Ship Classes and Manowar Statistics">
+
+In the current version of the game, ship progression is divided into tiers. While the **Landlubber** serves as your initial exploration vessel, the **Steel Edge** represents the transition into true naval power, often referred to by the community as the precursor to the **corsair cove manowar** class. These ships feature higher health pools and more diverse rating distributions, allowing them to tackle "Hard" difficulty world events.
+
+Understanding the metrics of your vessel is critical. Each ship tracks five primary ratings that determine success in world map events. If your ship's ratings do not match the event's recommendations, your dice pools will be significantly disadvantaged, leading to higher crew losses or total ship destruction.
+
+| Ship Type | Tier | Health | Crew Capacity | Supply Limit | Best Use |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Landlubber** | 1 | 24 | 15 | 20 | Early Exploration |
+| **Iron Fist** | 1+ | 45 | 15 | 20 | Resource Raids |
+| **Steel Edge** | 2 | 88 | 15 | 22 | Heavy Combat |
+| **Manowar** | 3 | 150+ | 25+ | 35+ | Crown Fortresses |
+
+<Callout type="warning" title="Supply Warning">
+Large ships like the Manowar consume Supplies rapidly during combat. Always refill your Supply crates at the Pier before engaging in multi-stage expeditions.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Starter: Landlubber">
+    - **Cost**: Free (Starting Pier)
+    - **Pros**: Low upkeep, fast build
+    - **Cons**: Very low health, weak ratings
+  </Card>
+  <Card title="Elite: Steel Edge">
+    - **Cost**: 50 Hardwood / 50 Coin
+    - **Pros**: High durability, great for raids
+    - **Cons**: Requires Iron production
+  </Card>
+  <Card title="Goal: Manowar">
+    - **Cost**: Advanced Materials
+    - **Pros**: Dominates naval combat
+    - **Cons**: Massive crew satisfaction needs
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Naval Combat and Dice Mechanics">
+
+Engaging the Crown requires a mastery of the turn-based combat system. When a **corsair cove manowar** enters an encounter, the game shifts to a strategic interface where cards represent your tactical options. Each turn, the enemy reveals their intent, giving you a chance to counter or push for your own objectives.
+
+The flow of combat is governed by dice pools. Your ship's ratings provide the base number of dice, while your Captain's abilities and active Battle cards can add "bonus dice" to the roll. Success is not just about rolling high; it is about managing your **Supplies** so you don't run out of actions during the final phase of a battle.
+
+<Steps>
+  <Step num="1" title="Analyze Event Objectives">
+    Check if the goal is to sink the enemy, close the distance, or extract resources. Match your ship's ratings to the icon's recommendations.
+  </Step>
+  <Step num="2" title="Select Battle Cards">
+    Use **Battle cards** like "Heavy Fire" (costs 2 Supplies) to deal damage to enemy Health or "Into the Breach" to target the enemy Crew.
+  </Step>
+  <Step num="3" title="Execute Counter Actions">
+    If the enemy is using an "All-out Barrage," use defensive cards like "Fall Back" to negate damage and gain bonus dice for the next turn.
+  </Step>
+  <Step num="4" title="Manage Supply Recovery">
+    When Supplies drop below 5, switch to **Support cards**. These often provide no damage but allow your crew to restock essential munitions.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Combat Success">
+Winning a battle yields high-value loot like **Silver**, **Wine**, and **Whale Blubber**, which are essential for satisfying elite pirate tiers in your settlement.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Captain Traits and Crew Management">
+
+No **corsair cove manowar** is complete without a legendary captain. Captains are not just flavor; they provide passive perks and unique cards that can turn the tide of a losing battle. For example, **Teach (Blackbeard)** specializes in aggressive maneuvers, granting extra dice whenever he deals damage to enemy Health.
+
+Managing the crew on these massive vessels also requires a stable settlement. Larger ships require **Specialist Sailors** like Bombardiers and Navigators. These specialists have higher needs than your basic Drifters, demanding goods like **Spyglasses**, **Medicine**, and **Fancy Attire**.
+
+| Captain | Specialty | Unique Perk | Combat Strategy |
+| :--- | :--- | :--- | :--- |
+| **Teach** | Aggression | +20% Gun Damage | Chain Health-targeting attacks |
+| **Honorata** | Exploration | Higher Event Success | Focus on Temple Expeditions |
+| **Scarlet** | Speed | Dodge Bonus | Use counters to build dice pools |
+| **Kanja** | Wealth | +15% Loot Gain | Best for resource-heavy raids |
+
+<Callout type="info" title="Crew Tip">
+Use **Prisoner Ship** events to recruit new crew members quickly. This is often more efficient than waiting for natural population growth when expanding your fleet.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Production Chains for Heavy Warships">
+
+Building and maintaining a **corsair cove manowar** requires the most complex production chains in the game. Unlike early-game buildings that only need Wood and Stone, warships require a steady supply of refined metals and military-grade explosives. If your logistics network has a "Red" distance bottleneck, your shipyard will stall, leaving your cove vulnerable.
+
+The following table outlines the primary resources needed to keep your fleet operational and your settlement protected by defensive towers.
+
+| Resource | Source Building | Input Materials | Final Use |
+| :--- | :--- | :--- | :--- |
+| **Iron Plating** | Iron Foundry | Iron Ore + Charcoal | Hull Reinforcement |
+| **Cannons** | Cannon Smithy | Iron + Copper | Ship & Tower Armament |
+| **Black Powder** | Powder Mill | Sulfur + Charcoal | Ammunition for Guns |
+| **Hardwood Planks** | Sawmill | Ancient Timber | Tier 2+ Ship Frames |
+| **Slops & Boots** | Tailor / Cobbler | Fiber + Leather | Basic Crew Upkeep |
+
+<Callout type="warning" title="Logistics Warning">
+Always place your **Cannon Smithy** and **Powder Mill** near a **Distribution Hub**. These goods are heavy, and long transport routes will significantly slow down your ship repair speeds.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Compass Principles and Progression">
+
+To unlock the Manowar and other advanced naval technologies, you must invest Principle Points into the **Compass**. The Compass is divided into four paths: **Notoriety**, **Empire**, **Seafaring**, and **Wealth**. While a balanced approach is possible, players focusing on the **corsair cove manowar** should prioritize the **Seafaring** and **Notoriety** branches.
+
+<Checklist
+  id="naval-progression"
+  title="Naval Dominance Goals:"
+  items={[
+    "Unlock Tier 2 Shipbuilding in the Seafaring branch",
+    "Establish an Iron Foundry with a stable Charcoal supply",
+    "Recruit a Combat-focused Captain like Teach or Scarlet",
+    "Complete the 'Crown's Shadow' main questline",
+    "Upgrade the Pier to support Heavy Class vessels"
+  ]}
+/>
+
+<Callout type="success" title="Expert Advice">
+Investing in the **Wealth** principle early can help fund your naval expansion. High-tier ships are expensive to maintain, and a strong economy prevents **Cohesion** loss during long voyages.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I unlock the Corsair Cove Manowar ship?",
+    answer: "You must progress through the Seafaring branch of the Compass and accumulate enough Principle Points from Deeds and Side Quests. You also need a Tier 3 Pier and advanced resources like Iron Plating and Cannons."
+  },
+  {
+    question: "What happens if my ship sinks during an event?",
+    answer: "If your ship's Health or Crew reaches zero, the vessel is lost. You will lose the ship, its current cargo, and potentially the assigned Captain for a set duration. Always retreat if your Supplies are too low to finish the fight."
+  },
+  {
+    question: "Can I use multiple ships in one combat encounter?",
+    answer: "Currently, Corsair Cove focuses on 1v1 naval encounters for world events. However, you can maintain a fleet of multiple ships to run several expeditions simultaneously across the world map."
+  },
+  {
+    question: "Why is my ship repair speed so slow?",
+    answer: "Check your logistics lines. If the route between your warehouse (storing Iron/Wood) and the Pier is 'Red,' your workers are spending too much time walking. Use Ziplines or Bridges to shorten the path."
+  }
+]} />
+
+</Section>

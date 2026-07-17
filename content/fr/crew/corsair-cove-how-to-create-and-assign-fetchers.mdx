@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove : Comment créer et assigner des transporteurs étape par étape",
+  description: "Apprenez à optimiser votre colonie de pirates dans Corsair Cove en maîtrisant l'assignation des transporteurs, les chaînes de production et la satisfaction du camp pour une efficacité maximale.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Fetcher+Assignment+Guide",
+  date: "2026-07-17",
+  author: "Équipe du Wiki Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Mécanique principale** : Maîtrisez **comment créer et assigner des transporteurs dans Corsair Cove** pour automatiser le flux de ressources entre les bâtiments de production et le stockage.
+- **Priorité logistique** : Placez toujours les bâtiments de production comme l'Alambic à tord-boyaux (Moonshine Still) et le Feu de camp (Campfire) adjacents à la Taverne (Tavern) et à la Cambuse (Galley).
+- **Efficacité des travailleurs** : Utilisez le bouton Pause (Barre d'espace) lors de la configuration initiale du camp pour vous assurer que les trajets des transporteurs sont optimisés avant le début de la simulation.
+- **Objectif de satisfaction** : Maintenez une satisfaction de 100 % pour éviter l'agitation dans le camp et garantir que les transporteurs travaillent à leur plein potentiel.
+- **Focus sur les ressources** : Adaptez chaque camp à une ressource spécifique (Rhum, Pain, Poudre à canon) pour simplifier la logistique et les routes de transport.
+</Callout>
+
+<Section icon={Map} title="Maîtriser la logistique des transporteurs dans Corsair Cove">
+
+Dans le monde complexe de la gestion de pirates, comprendre **comment créer et assigner des transporteurs dans Corsair Cove** fait toute la différence entre un empire prospère et un équipage affamé. Les transporteurs constituent l'épine dorsale logistique de votre colonie, acheminant les matières premières vers les usines de transformation et les produits finis vers vos camps de pirates. Sans un système de transport correctement assigné et optimisé, vos chaînes de production stagneront, entraînant une faible satisfaction et une mutinerie inévitable.
+
+**Points clés de la vidéo :**
+- **Configuration initiale** : Pourquoi mettre le jeu en pause est crucial pour le placement des bâtiments.
+- **Boucle de satisfaction** : Comment la Taverne et la Cambuse interagissent avec les bâtiments de production.
+- **Entretien de l'équipage** : La relation entre la production de ressources et les besoins en équipage des navires.
+- **Camps spécialisés** : Stratégies pour isoler les chaînes de production sur différentes îles.
+
+<YouTubeEmbed videoId="2SubmGonPKU" title="5 TOP TIPS FOR ASPIRING PIRATE LEADERS | Corsair Cove" />
+
+L'efficacité dans Corsair Cove ne dépend pas seulement du nombre de travailleurs disponibles, mais aussi de la distance qu'ils parcourent. Lorsque vous construisez un nouveau camp de pirates, le jeu attribue automatiquement la main-d'œuvre disponible aux rôles de transporteurs en fonction de la proximité et des besoins des bâtiments. En regroupant votre Alambic à tord-boyaux à côté de votre Taverne, vous minimisez le « temps de trajet » des transporteurs, garantissant ainsi que la soif de vos pirates soit étanchée sans délai.
+
+<Callout type="tip" title="Conseil logistique">
+Construisez toujours au moins six tentes immédiatement lors de l'établissement d'un nouveau camp. Cela fournit le bassin de main-d'œuvre nécessaire pour les rôles de production et de transporteur, garantissant qu'aucun bâtiment ne reste inactif.
+</Callout>
+
+| Type de bâtiment | Priorité du transporteur | Ressource principale | Destination |
+| :--- | :--- | :--- | :--- |
+| **Alambic à tord-boyaux (Moonshine Still)** | Haute | Canne à sucre / Barils | Taverne |
+| **Feu de camp (Campfire)** | Moyenne | Nourriture crue | Cambuse |
+| **Ferme de canne à sucre** | Haute | Canne à sucre | Distillerie |
+| **Mine de guano** | Moyenne | Guano brut | Moulin à poudre |
+| **Taverne (Tavern)** | Critique | Rhum | Satisfaction des pirates |
+
+</Section>
+
+<Section icon={Target} title="Étape par étape : Comment créer et assigner des transporteurs">
+
+Créer une main-d'œuvre efficace nécessite une approche systématique de l'expansion du camp. Bien que le jeu gère une grande partie de la micro-assignation, votre agencement dicte le comportement de ces transporteurs. Suivez ces étapes pour vous assurer que votre logistique est impeccable dès que vous jetez votre première ancre en 2026.
+
+<Steps>
+  <Step num="1" title="Faire une pause et planifier">
+    Avant de placer la moindre structure, appuyez sur la **Barre d'espace** pour mettre le jeu en pause. Cela vous permet de placer le camp de pirates, l'Alambic à tord-boyaux et le Feu de camp simultanément. En planifiant l'agencement pendant la pause, vous vous assurez que les transporteurs ne commencent pas des trajets inefficaces avant que la chaîne de production complète ne soit prête.
+  </Step>
+  <Step num="2" title="Établir les quatre piliers">
+    Placez la **Taverne** et la **Cambuse** dans un endroit central. Directement au-dessus ou en dessous de celles-ci, placez l'**Alambic à tord-boyaux** et le **Feu de camp**. Cet alignement « vertical » ou « horizontal » crée le chemin le plus court possible pour que les transporteurs livrent les marchandises essentielles.
+  </Step>
+  <Step num="3" title="Agrandir la réserve de main-d'œuvre">
+    Construisez un minimum de six tentes reliées à votre camp principal. Le jeu puisera automatiquement dans cette population pour créer des transporteurs. Si vous remarquez que des bâtiments sont « En attente de ressources », cela signifie généralement que votre réserve de main-d'œuvre est trop petite ou que la distance est trop grande.
+  </Step>
+  <Step num="4" title="Assigner des spécialisations de production">
+    Au lieu de faire en sorte que chaque camp produise tout, attribuez des rôles spécifiques à des camps précis. Par exemple, désignez une île pour le **Pain de manioc** et une autre pour la **Poudre à canon**. Cela simplifie les itinéraires des transporteurs, car ils n'ont qu'à acheminer un seul type de ressource vers le quai d'exportation local.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Pénurie de travailleurs">
+Si votre satisfaction tombe en dessous de 50 %, les transporteurs peuvent cesser de travailler ou se déplacer plus lentement. Donnez toujours la priorité aux quatre bâtiments piliers pour garder la main-d'œuvre motivée.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Optimiser l'entretien des navires et la production d'équipage">
+
+La logistique et les transporteurs ne servent pas qu'à la vie de camp ; ils sont essentiels pour votre flotte. À mesure que vous débloquez des navires avancés comme le **Destroyer** ou le **Prowler**, vous aurez besoin de membres d'équipage spécialisés tels que les **Scallywags** ou les **Picaroons**. Ces unités nécessitent des ressources d'entretien spécifiques qui doivent être produites et déplacées par votre réseau de transporteurs.
+
+<CardGrid cols={3}>
+  <Card title="Entretien des Scallywags">
+    - **Requis** : Pain de manioc
+    - **Production** : Ferme + Boulangerie
+    - **Rôle du transporteur** : Transporter la farine vers les fours
+  </Card>
+  <Card title="Entretien des Picaroons">
+    - **Requis** : Rhum
+    - **Production** : Canne à sucre + Barils
+    - **Rôle du transporteur** : Livrer à la distillerie
+  </Card>
+  <Card title="Équipage avancé">
+    - **Requis** : Médicaments & Bottes
+    - **Production** : Chirurgien + Tailleur (Outfitter)
+    - **Rôle du transporteur** : Logistique de haut niveau
+  </Card>
+</CardGrid>
+
+Pour maintenir une flotte puissante, vos transporteurs doivent être affectés à des lignes de production qui correspondent aux besoins de votre navire. Par exemple, si vous vous concentrez sur une flotte de classe **Destroyer**, vous devez donner la priorité à la chaîne de production Canne à sucre vers Rhum. Le tableau suivant illustre les besoins en ressources pour différents types d'équipages de la méta 2026.
+
+| Type d'équipage | Ressource requise | Chaîne de bâtiments | Complexité du transport |
+| :--- | :--- | :--- | :--- |
+| **Swabbies** | Aucune (Par défaut) | N/A | Faible |
+| **Scallywags** | Pain de manioc | Ferme > Boulangerie | Moyenne |
+| **Crows Eyes** | Équipement spécialisé | Tailleur (Outfitter) | Haute |
+| **Picaroons** | Rhum | Ferme > Tonnellerie (Cooper) > Distillerie | Haute |
+| **Bombardiers** | Poudre à canon | Guano > Charbonnière > Moulin | Très haute |
+
+<Callout type="success" title="Synergie de flotte">
+Utiliser un **Destroyer** avec un équipage spécialisé augmente votre force d'abordage et votre armure. Assurez-vous que vos transporteurs se concentrent sur les éléments d'entretien spécifiques à ces navires pour maintenir leurs bonus de combat.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Extraction des ressources et stabilité du camp">
+
+Un aspect essentiel de l'apprentissage de **comment créer et assigner des transporteurs dans Corsair Cove** consiste à savoir où extraire les ressources. Utilisez la fonction « Tout afficher » (Appuyez sur **All**) pour voir les gisements disponibles sur votre île. Les transporteurs se déplaceront automatiquement vers le point d'extraction le plus proche, il est donc vital de placer vos bâtiments de transformation à proximité de ces gisements.
+
+| Ressource | Bâtiment d'extraction | Transformé en | Cas d'utilisation |
+| :--- | :--- | :--- | :--- |
+| **Canne à sucre** | Ferme de canne à sucre | Rhum | Satisfaction / Équipage |
+| **Guano** | Mine de guano | Poudre à canon | Combat / Défense |
+| **Bois** | Bûcheron | Pierre taillée / Charbon de bois | Construction |
+| **Manioc** | Ferme de manioc | Pain de manioc | Entretien de l'équipage |
+
+La gestion de ces ressources nécessite un équilibre entre extraction et consommation. Si vos transporteurs passent trop de temps à déplacer du bois, ils n'auront pas le temps d'acheminer la nourriture vers la cambuse.
+
+<Callout type="info" title="Événements de l'île">
+Gardez un œil sur la carte de la campagne pour repérer les icônes de diamant. Ces événements fournissent souvent des ressources d'entretien gratuites ou des pirates supplémentaires, ce qui peut soulager temporairement la pression sur votre réseau de transporteurs.
+</Callout>
+
+<Checklist
+  id="logistics-audit"
+  title="Aide-mémoire d'efficacité des transporteurs :"
+  items={[
+    "Assurez-vous que tous les bâtiments de production se trouvent à moins de 5 tuiles d'un point de stockage ou de consommation.",
+    "Vérifiez que chaque camp a au moins 100 % de satisfaction pour maximiser la vitesse des travailleurs.",
+    "Vérifiez que les membres d'équipage spécialisés disposent d'une ligne de production dédiée.",
+    "Utilisez la carte de la campagne pour trouver des ressources « gratuites » afin de compléter la production des transporteurs.",
+    "Confirmez que la tonnellerie (Cooper) est approvisionnée en bois suffisant pour soutenir la production de rhum."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Stratégies de transport avancées">
+
+À mesure que votre empire grandit, vous devrez gérer plusieurs îles. L'IA du jeu est généralement intelligente pour attribuer les transporteurs, mais vous pouvez « forcer » un meilleur comportement grâce à un placement astucieux des routes et au regroupement des bâtiments. Dans la version 2026 de Corsair Cove, la recherche de chemin privilégie les lignes droites par rapport aux diagonales.
+
+**Stratégies clés pour les grandes colonies :**
+- **Hub et rayons (Hub and Spoke)** : Créez un centre de stockage central où tous les transporteurs livrent les matières brutes, avec des transporteurs secondaires qui les acheminent vers la transformation.
+- **La méthode de la « Pause »** : Chaque fois que vous ajoutez un nouveau maillon à une chaîne de production, mettez le jeu en pause. Cela réinitialise la logique de « tâche la plus proche » de l'IA et permet souvent d'obtenir des affectations de transporteurs plus efficaces.
+- **Recommandations de navires** : Ne suivez pas toujours le « Navire recommandé » par le jeu pour les événements. Si votre flotte actuelle possède de meilleures statistiques (comme l'armure ou la force d'abordage), utilisez-la même si le jeu suggère une classe différente. Cela permet d'économiser des ressources que les transporteurs devraient autrement consacrer à la réparation ou à la construction de nouveaux navires.
+
+<Callout type="tip" title="Stratégie de pro">
+Si un camp est en difficulté, vérifiez la statistique « Temps de trajet » sur vos bâtiments de production. S'il dépasse 20 secondes, vous devez rapprocher vos tentes ou vos zones de stockage de votre lieu de travail.
+</Callout>
+
+| Stratégie | Difficulté | Bénéfice | Coût en ressources |
+| :--- | :--- | :--- | :--- |
+| **Production regroupée** | Facile | Satisfaction élevée | Faible |
+| **Îles spécialisées** | Moyenne | Transport efficace | Modéré |
+| **Tracé manuel des chemins** | Difficile | Rendement maximal | Élevé (Temps) |
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment puis-je assigner manuellement un transporteur à un bâtiment spécifique ?",
+    answer: "Dans Corsair Cove, vous ne cliquez pas et ne glissez pas manuellement les travailleurs. À la place, vous assignez des transporteurs en plaçant des tentes fournissant de la main-d'œuvre à proximité des bâtiments de production. L'IA attribue automatiquement le travailleur disponible le plus proche à la tâche."
+  },
+  {
+    question: "Pourquoi mes transporteurs ne livrent-ils pas de rhum à la taverne ?",
+    answer: "Cela se produit généralement si vous manquez de barils. Assurez-vous d'avoir une tonnellerie (Cooper) et un approvisionnement régulier en bois et en canne à sucre. Les transporteurs ne peuvent pas déplacer de rhum si la distillerie ne dispose pas de barils pour le conditionner."
+  },
+  {
+    question: "Puis-je augmenter la vitesse de mes transporteurs ?",
+    answer: "Oui. Maintenir une satisfaction de 100 % grâce à l'installation de la Taverne et de la Cambuse est le meilleur moyen de s'assurer que vos transporteurs se déplacent à vitesse maximale. Certaines améliorations de navires et événements d'île peuvent également fournir des bonus de vitesse globaux temporaires."
+  },
+  {
+    question: "Y a-t-il une limite au nombre de transporteurs que je peux avoir ?",
+    answer: "Le nombre de transporteurs n'est limité que par votre population totale (tentes). Si vous avez des pirates non assignés, ils occuperont automatiquement des rôles de transporteurs à mesure que de nouveaux bâtiments sont construits ou que la demande de ressources augmente."
+  }
+]} />
+
+</Section>

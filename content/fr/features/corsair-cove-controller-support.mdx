@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Support manette dans Corsair Cove : Guide de configuration et touches",
+  description: "Maîtrisez Corsair Cove avec une manette. Découvrez le support manette natif, l'optimisation pour Steam Deck et les configurations de touches personnalisées pour ce jeu de construction de ville pirate.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Controller+Support+Guide",
+  date: "2026-07-17",
+  author: "L'équipe du Wiki de Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Support manette dans Corsair Cove** : Le jeu propose un support natif partiel avec une optimisation complète via **Steam Input** pour les manettes Xbox, PlayStation et génériques.
+- **Compatibilité Steam Deck** : Très jouable sur console portable ; des configurations communautaires personnalisées sont recommandées pour la construction précise sur les falaises.
+- **Mécaniques de combat** : Les batailles navales utilisent un **système au tour par tour** qui s'adapte exceptionnellement bien à la navigation avec la croix directionnelle et les boutons.
+- **Navigation dans l'interface** : Utilisez le menu radial ou les raccourcis pour gérer efficacement les chaînes de production comme les **scieries** et les **tavernes**.
+- **Configuration optimale** : L'activation de **Steam Input** garantit la plus large compatibilité de périphériques et de personnalisation pour le matériel de 2026.
+</Callout>
+
+<Section icon={Shield} title="Présentation du support manette dans Corsair Cove">
+
+Naviguer dans les eaux traîtresses et sur les falaises verticales avec le **support manette de Corsair Cove** est une priorité pour les joueurs qui préfèrent le confort d'une manette au traditionnel clavier/souris. En tant que jeu de construction de ville complexe avec une profondeur similaire à Anno, le jeu nécessite un placement précis des bâtiments et une gestion efficace des chaînes de production. Bien que le jeu soit principalement conçu pour PC, les développeurs ont intégré des systèmes de support robustes pour s'assurer que les capitaines puissent gérer leurs havres depuis le confort de leur canapé.
+
+**Points forts de la vidéo :**
+- **Construction à flanc de falaise** : Apprenez à connecter les chemins et les échelles entre différentes altitudes à l'aide d'une manette.
+- **Gestion des ressources** : Un aperçu de la configuration initiale des camps de pirates, des scieries et des entrepôts.
+- **Combat naval** : Démonstration du système de rencontre au tour par tour contre les forces de la Couronne.
+- **Arbres de progression** : Aperçu des Quatre Vents (Navigation, Empire, Notoriété et Richesse).
+
+<YouTubeEmbed videoId="k6CzPuh-zgY" title="Démarrer une VILLE PIRATE dans Corsair Cove VERSION FINALE" />
+
+L'état actuel du **support manette de Corsair Cove** permet un zoom fluide, de la microgestion des tentes individuelles à la vue macro de la carte du monde. Cette flexibilité est cruciale lorsque vous recherchez des ressources comme le sel, le minerai de plomb et la pierre à travers l'île.
+
+| Type de manette | Niveau de compatibilité | Méthode de connexion | Recommandé ? |
+| :--- | :--- | :--- | :--- |
+| **Xbox Series X/S** | Natif / Plug & Play | USB-C / Bluetooth | **Oui** |
+| **DualSense (PS5)** | Partiel (Steam Input) | USB-C / Bluetooth | **Oui** |
+| **Steam Deck** | Entièrement optimisé | Console portable | **Excellent** |
+| **Nintendo Switch Pro** | Partiel (Steam Input) | Bluetooth | **Bon** |
+
+<Callout type="tip" title="Conseil d'expert">
+Pour une expérience optimale, activez toujours **Steam Input** dans le menu des propriétés du jeu. Cela permet au jeu de reconnaître presque n'importe quelle manette comme une manette Xbox 360, qui est la référence absolue pour la compatibilité des jeux PC en 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide de configuration étape par étape de la manette">
+
+Si vous constatez que votre manette n'est pas reconnue immédiatement, ou si les touches affichées ne correspondent pas à votre appareil, suivez ces étapes pour optimiser vos paramètres de **support manette de Corsair Cove**.
+
+<Steps>
+  <Step num="1" title="Activer Steam Input">
+    Faites un clic droit sur le jeu dans votre bibliothèque Steam, sélectionnez **Propriétés**, puis accédez à l'onglet **Contrôleur**. Définissez le remplacement sur **Activer Steam Input**. Cela garantit que le jeu traduit correctement vos commandes, quelle que soit la marque du matériel.
+  </Step>
+  <Step num="2" title="Sélectionner une configuration de la communauté">
+    Accédez à la section **Configuration du contrôleur** dans l'overlay Steam. Recherchez la configuration officielle « Corsair Cove Official » ou les configurations communautaires les mieux notées qui proposent des menus radiaux spécialisés pour les catégories de construction.
+  </Step>
+  <Step num="3" title="Ajuster la sensibilité du curseur">
+    Dans les paramètres du jeu, recherchez le curseur **Sensibilité de la manette**. Comme la construction nécessite de placer des structures sur des falaises étroites, une sensibilité plus faible aide souvent à positionner précisément les échelles et les réseaux routiers.
+  </Step>
+  <Step num="4" title="Calibrer les zones mortes">
+    Pour éviter la dérive (« drift ») lors de l'exploration de la carte du monde, calibrez les zones mortes de vos joysticks dans les paramètres de la manette Steam. Ceci est particulièrement important pour les manettes plus anciennes qui peuvent présenter une légère usure mécanique.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avertissement de construction">
+Placer des bâtiments sur des falaises abruptes peut être délicat avec un joystick. Utilisez l'option d'alignement sur la grille (généralement assignée à la gâchette gauche LT) pour vous assurer que vos scieries et vos tentes s'alignent parfaitement avec le réseau routier.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Touches et commandes par défaut">
+
+Comprendre la configuration par défaut est essentiel pour gérer votre havre pirate. Le jeu sépare les commandes entre le **Mode Construction de Ville** et le **Mode Combat Naval**.
+
+| Catégorie d'action | Bouton Xbox | Bouton PlayStation | Fonction |
+| :--- | :--- | :--- | :--- |
+| **Mouvement de caméra** | Stick gauche | L3 | Faire défiler la caméra sur l'île |
+| **Rotation de caméra** | Stick droit | R3 | Pivoter pour de meilleures vues des falaises |
+| **Zoom avant/arrière** | RT / LT | R2 / L2 | Zoom fluide sur la carte du monde |
+| **Menu de construction** | X | Carré | Ouvrir les catégories de construction |
+| **Vitesse du jeu** | Croix haut/bas | Croix haut/bas | Accélérer ou mettre le temps en pause |
+| **Confirmer l'action** | A | Croix | Placer un bâtiment / Sélectionner un navire |
+| **Annuler / Retour** | B | Rond | Fermer le menu / Désélectionner |
+
+<CardGrid cols={2}>
+  <Card title="Commandes du mode construction">
+    Axé sur la précision. Utilisez les boutons de tranche (LB/RB) pour faire défiler les niveaux de construction tels que les exigences de **Bras actifs** (Working Hands) et de **Moussaillons** (Green Hands).
+  </Card>
+  <Card title="Navigation sur la carte du monde">
+    Axé sur l'exploration. Utilisez les sticks pour rechercher des **Naufragés** et des **Épaves** afin de renforcer votre équipage de vagabonds.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Conseil logistique">
+Lors de la gestion des entrepôts, utilisez la croix directionnelle pour assigner rapidement des **Transporteurs** (Fetchers). Un transport efficace est l'épine dorsale de votre économie pirate, en particulier pour acheminer les planches de la scierie vers le chantier naval.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gestion des combats et des opérations de flotte">
+
+Le combat naval dans le jeu se déroule au tour par tour, ce qui le rend très accessible pour les utilisateurs de manette. Contrairement aux jeux de stratégie en temps réel qui nécessitent un nombre élevé d'actions par minute (APM), ce système vous permet de sélectionner soigneusement vos manœuvres.
+
+| Classe de navire | Équip. requis | Statistique principale | Meilleur cas d'utilisation |
+| :--- | :--- | :--- | :--- |
+| **Land Lover** | 15 | Vitesse | Exploration précoce et reconnaissance |
+| **Moonlighter** | 20 | Abordage | Capture de navires marchands |
+| **Azimuth** | 25 | Ravitaillement | Opérations de contrebande à longue distance |
+| **Destroyer** | 40 | Puissance de feu | Attaque des ports de la Couronne |
+| **Tide Runner** | 30 | Manœuvrabilité | Infiltration à travers les blocus |
+
+Lors d'un affrontement, comme une attaque d'**Amara**, vous utiliserez la manette pour choisir entre des actions telles que **Feu nourri** (Heavy Fire), **À l'abordage** (Into the Breach) ou **Distance de sécurité** (Safe Distance). La mécanique de lancer de dés est déclenchée par une simple pression sur un bouton, vous permettant de vous concentrer sur le résultat tactique plutôt que sur des manipulations complexes.
+
+<Callout type="success" title="Victoire au combat">
+Lorsque votre navire est endommagé, retournez au **Ponton peu profond** (Shallow Pier). Une pression rapide sur le bouton de réparation (Y/Triangle) consommera des planches pour remettre votre navire en état de combattre.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimisation et héritage pirate">
+
+À mesure que vous passez d'un petit camp à une immense ville pirate, votre utilisation de la manette s'orientera vers la gestion de l'arbre de progression des **Quatre Vents**. Cet arbre massif offre des bonus pour la Navigation, l'Empire, la Notoriété et la Richesse.
+
+<Checklist
+  id="controller-goals"
+  title="Liste de contrôle de maîtrise de la manette :"
+  items={[
+    "Construire avec succès une connexion routière entre trois niveaux de falaise",
+    "Gagner une bataille navale contre un Chasseur de la Couronne en utilisant uniquement une manette",
+    "Assigner plus de 50 vagabonds à divers rôles de production via le menu de gestion",
+    "Débloquer l'amélioration « Ascenseur » pour simplifier la logistique verticale",
+    "Terminer une mission de contrebande sans être détecté par la Couronne"
+  ]}
+/>
+
+<Callout type="tip" title="Conseil de gestion pro">
+Utilisez la capacité spéciale **Branle-bas de combat** (All Hands on Deck) pour doubler l'efficacité de vos transporteurs en cas de pénurie de ressources. Cette option peut être activée rapidement via le menu radial de votre manette.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Est-ce que Corsair Cove dispose d'un support manette natif complet ?",
+    answer: "Le jeu propose un support natif partiel. Bien que la plupart des fonctions de jeu fonctionnent parfaitement avec une manette, certaines navigations complexes dans les menus sont plus faciles à gérer en activant Steam Input pour une meilleure configuration des touches."
+  },
+  {
+    question: "Puis-je jouer à Corsair Cove sur le Steam Deck ?",
+    answer: "Oui, le jeu est hautement compatible avec le Steam Deck. Le combat au tour par tour et le système de construction sur grille en font un excellent choix pour le jeu sur console portable en 2026."
+  },
+  {
+    question: "Comment résoudre le problème de disparition du curseur en mode manette ?",
+    answer: "Assurez-vous que vos paramètres de « support manette de Corsair Cove » sont réglés sur « Manette » plutôt que sur « Détection automatique » dans le menu des options pour éviter que l'interface ne clignote entre différents types de saisie."
+  },
+  {
+    question: "Est-il possible d'assigner des raccourcis personnalisés à ma manette ?",
+    answer: "Oui, en utilisant l'outil de configuration de la manette de Steam, vous pouvez associer des touches spécifiques du clavier (comme « P » pour Pause ou « B » pour Construire) à n'importe quel bouton ou menu radial de votre manette."
+  }
+]} />
+
+</Section>

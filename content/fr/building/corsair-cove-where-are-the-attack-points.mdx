@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Où se trouvent les zones d'attaque à Corsair Cove : Guide d'entraînement au combat 2026",
+  description: "Découvrez les meilleures zones d'attaque à Corsair Cove pour les Crabes de sable et les Ogresses. Apprenez les itinéraires de voyage, les zones d'entraînement optimales et les configurations d'équipement pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Attack+Points",
+  date: "2026-07-17",
+  author: "L'équipe du Wiki de Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Zones d'attaque principales** : La plage sud présente des apparitions à haute densité de **Crabes de sable** (Sand Crabs), tandis que le donjon abrite des Chamans et des Guerriers Ogresses (Ogress Shamans & Warriors).
+- **Condition d'accès** : Vous devez commencer ou progresser de manière significative dans la quête **The Corsair Curse** pour accéder à la zone principale de la crique.
+- **Itinéraire de voyage** : Utilisez le **Mousse** (Cabin Boy) situé à Rimmington (nouvel emplacement) ou affrétez directement un navire vers la crique.
+- **Meilleur entraînement** : Les Crabes de sable sont idéaux pour un **entraînement AFK** à faible intensité, offrant des PV élevés et une défense inexistante.
+- **Gestion des ressources** : Apportez des runes de Haute Alchimie (High-Alch) pour les butins du donjon et des potions d'énergie (stamina) pour voyager efficacement entre la banque et les zones d'entraînement.
+</Callout>
+
+<Section icon={Map} title="Accès à Corsair Cove et navigation">
+
+Naviguer vers les zones d'entraînement optimales nécessite de comprendre les mécanismes de voyage mis à jour. Depuis 2026, la méthode principale pour atteindre la crique est passée de Port Sarim à Rimmington. Ce changement est crucial pour les joueurs qui reviennent sur le jeu et qui pourraient trouver les anciens quais de Port Sarim vides. Le Mousse (Cabin Boy), votre PNJ principal pour le transport, réside désormais juste à côté du bateau à Rimmington.
+
+**Points clés de la vidéo :**
+- **Déménagement à Rimmington** : Le Mousse n'est plus à Port Sarim ; il est désormais stationné à Rimmington.
+- **Voyage instantané** : Parler au Mousse permet de se téléporter immédiatement aux quais de Corsair Cove.
+- **Options d'affrètement** : Vous pouvez désormais utiliser le système de navires d'affrètement (Charter Ship) depuis différents ports (comme Catherby ou Port Sarim) pour vous rendre directement à la crique.
+- **Chemin de retour** : Le voyage de retour est tout aussi simple en parlant au Mousse sur les quais de la crique.
+
+<YouTubeEmbed videoId="UFPcdW9B7NM" title="Comment retourner à Corsair Cove dans OSRS" />
+
+| Méthode | Emplacement | Coût | Condition |
+| :--- | :--- | :--- | :--- |
+| **Mousse (Cabin Boy)** | Rimmington | Gratuit | The Corsair Curse (Commencée) |
+| **Navire d'affrètement** | N'importe quel grand port | 1 000 - 3 000 PO | Aucune |
+| **Cape mythique** | Guilde des Mythes | Gratuit | Dragon Slayer II |
+| **Arbre esprit** | Collines de Feldip | Gratuit | Tree Gnome Village |
+
+<Callout type="tip" title="Conseil d'efficacité">
+Si vous êtes un joueur Free-to-Play (F2P), le Mousse de Rimmington est votre itinéraire le plus rapide. Pour les membres (P2P), utiliser un Arbre esprit vers les collines de Feldip et marcher vers le sud est souvent plus pratique si votre maison est proche d'un Arbre esprit.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Où se trouvent les zones d'attaque à Corsair Cove">
+
+La question la plus fréquente des joueurs est d'identifier les « zones d'attaque » exactes où l'efficacité du combat est maximisée. À Corsair Cove, ces zones sont réparties entre les plages ensoleillées et les profondeurs sombres du donjon. La plage est dominée par les Crabes de sable (Sand Crabs), qui sont la référence absolue pour l'entraînement AFK à bas niveau en raison de leurs PV élevés et de leurs statistiques défensives inexistantes.
+
+<CardGrid cols={3}>
+  <Card title="Plage Sud (2 Crabes)">
+    - **Emplacement** : Directement au sud des quais.
+    - **Idéal pour** : Bas niveaux (1-40).
+    - **Avantages** : Faible concurrence, très sûr.
+  </Card>
+  <Card title="Péninsule Ouest (3 Crabes)">
+    - **Emplacement** : Tout à l'ouest le long du rivage.
+    - **Idéal pour** : Niveaux moyens (40-70).
+    - **Avantages** : Exp/heure élevée, agressivité constante.
+  </Card>
+  <Card title="Entrée du donjon (4 Crabes)">
+    - **Emplacement** : Près de l'entrée de la grotte.
+    - **Idéal pour** : Hauts niveaux (70+).
+    - **Avantages** : Efficacité maximale, nécessite une défense élevée.
+  </Card>
+</CardGrid>
+
+Lorsque vous positionnez votre personnage sur ces zones d'attaque, vous devez vous tenir sur les cases spécifiques qui permettent à au moins deux ou trois crabes de vous atteindre simultanément. Cela garantit que dès qu'un crabe meurt, un autre est déjà engagé, éliminant ainsi les temps morts.
+
+| Monstre | Niveau | PV | Butins notables |
+| :--- | :--- | :--- | :--- |
+| **Crabe de sable** | 15 | 60 | Algue comestible, Huître |
+| **Guerrière Ogresse** | 82 | 85 | Rune med helm, Grands os |
+| **Chaman Ogresse** | 82 | 85 | Rune full helm, Masque de chaman |
+| **Chasseuse Ogresse** | 82 | 85 | Runes de loi (Law), Flèches en mithril |
+
+<Callout type="warning" title="Réinitialisation de l'agressivité">
+Les Crabes de sable se désintéresseront de vous après 10 minutes. Pour « réinitialiser » les zones d'attaque, courez vers le nord jusqu'à dépasser la zone de ressources, puis revenez sur votre case d'origine pour qu'ils redeviennent agressifs.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Zones d'attaque et mécanismes du donjon">
+
+Pour les joueurs à la recherche de profit en plus de l'expérience, le donjon de Corsair Cove est le choix supérieur. Les « zones d'attaque » ici sont définies par des emplacements de sécurité (safe-spots) plutôt que par des cases d'agressivité multiple. Les Ogresses sont grandes, lentes et faciles à piéger derrière des rochers ou des piliers, ce qui les rend parfaites pour l'entraînement à distance (Ranged) ou magique.
+
+<Steps>
+  <Step num="1" title="Entrez dans le trou">
+    Localisez l'entrée du donjon dans la section nord-ouest de la crique. Vous devez avoir terminé la quête « The Corsair Curse » pour entrer.
+  </Step>
+  <Step num="2" title="Identifiez les zones de sécurité">
+    Dans la salle principale, cherchez les stalagmites. Positionnez-vous de manière à ce que l'Ogresse se trouve du côté opposé.
+  </Step>
+  <Step num="3" title="Cible prioritaire">
+    Donnez la priorité aux Chamans Ogresses pour le meilleur rapport butin/effort. Elles lâchent fréquemment des runes de loi (Law) et de nature (Nature).
+  </Step>
+  <Step num="4" title="Butin et Alchimie">
+    Utilisez la Haute Alchimie (High Level Alchemy) sur les butins en rune et en adamantite pour prolonger votre voyage indéfiniment sans avoir besoin d'aller à la banque.
+  </Step>
+</Steps>
+
+| Type d'Ogresse | Meilleur style d'attaque | Zone de sécurité ? | Niveau recommandé |
+| :--- | :--- | :--- | :--- |
+| **Guerrière** | Mêlée / Magie | Oui (Distance/Magie) | Combat 60+ |
+| **Chaman** | Distance | Oui | Distance 50+ |
+| **Chasseuse** | Mêlée | Oui | Force 60+ |
+
+<Callout type="success" title="Potentiel de profit">
+Le donjon est l'un des rares endroits en F2P où vous pouvez gagner régulièrement plus de 100k PO par heure. Apportez toujours un bâton de feu (Fire Staff) et des runes de nature (Nature Runes) pour maximiser l'espace dans votre inventaire.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Équipement et inventaire recommandés">
+
+Pour tirer le meilleur parti des zones d'attaque de Corsair Cove, votre équipement doit correspondre à votre objectif d'entraînement. Si vous vous entraînez sur les Crabes de sable, concentrez-vous sur les bonus de « Précision » et de « Force », car les crabes ont une défense nulle. Si vous êtes dans le donjon, les bonus de « Prière » ou de « Distance » sont plus vitaux.
+
+**Liste de préparation :**
+<Checklist
+  id="corsair-prep"
+  title="Liste de préparation :"
+  items={[
+    "Runes de nature et bâton de feu (Fire Staff) pour la Haute Alchimie",
+    "Meilleur équipement à distance disponible (Green D'hide ou mieux)",
+    "Potions d'énergie ou d'endurance (Stamina) pour les courses de réinitialisation",
+    "Nourriture (thon ou homards) en cas d'urgence",
+    "Tablettes de téléportation pour une sortie rapide"
+  ]}
+/>
+
+| Emplacement | Meilleur F2P (BiS) | Meilleur P2P (BiS) |
+| :--- | :--- | :--- |
+| **Tête** | Rune Full Helm | Slayer Helmet (i) |
+| **Torse** | Rune Platebody | Bandos Chestplate |
+| **Jambes** | Rune Platelegs | Bandos Tassets |
+| **Arme** | Rune Scimitar | Abyssal Whip / Ghrazi Rapier |
+| **Bouclier** | Rune Kite Shield | Avernic Defender |
+| **Amulette** | Amulet of Power | Amulet of Torture |
+
+<Callout type="info" title="Note sur le F2P">
+Pour les joueurs F2P, l'**Amulet of Power** est généralement préférée à l'Amulet of Strength pour les Crabes de sable, car le léger bonus de précision aide les comptes de bas niveau à toucher plus régulièrement, bien que la différence soit marginale.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Où se trouvent les meilleures zones d'attaque pour l'entraînement AFK en 2026 ?",
+    answer: "La plage sud de Corsair Cove reste le meilleur endroit. Plus précisément, le point le plus à l'ouest vous permet de vous tenir entre trois apparitions de Crabes de sable pour une efficacité AFK maximale."
+  },
+  {
+    question: "Ai-je besoin d'une quête pour accéder à Corsair Cove ?",
+    answer: "Oui, vous devez commencer la quête 'The Corsair Curse' pour accéder à la zone. Pour entrer dans le donjon des Ogresses, vous devez terminer entièrement la quête."
+  },
+  {
+    question: "Comment réinitialiser l'agressivité des crabes ?",
+    answer: "Courez assez loin pour que les crabes disparaissent de votre mini-carte (généralement près de la zone de ressources au nord), puis revenez. Cela réinitialise le minuteur d'agressivité de 10 minutes."
+  },
+  {
+    question: "Corsair Cove est-il meilleur que les Crabes de sable d'Hosidius ?",
+    answer: "Corsair Cove est souvent moins fréquenté que la plage d'Hosidius, ce qui permet de trouver plus facilement une zone d'attaque à 3 ou 4 crabes sans concurrence."
+  }
+]} />
+
+</Section>

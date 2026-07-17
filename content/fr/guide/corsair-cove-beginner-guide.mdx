@@ -1,0 +1,173 @@
+import { Map, Shield, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide du débutant Corsair Cove : Configuration et conseils de progression",
+  description: "Maîtrisez les bases de Corsair Cove. Apprenez-en plus sur la construction verticale, la gestion de la cohésion de l'équipage et les quatre voies vers la victoire dans ce guide pour débutants.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Beginner+Guide+Setup",
+  date: "2026-07-17",
+  author: "L'équipe du Wiki de Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Objectif principal du guide** : Utilisez ce guide du débutant de Corsair Cove pour établir une colonie de pirates prospère, gérer votre équipage et conquérir les mers.
+- **Construction verticale** : Bâtissez sur les falaises, les pentes et les rochers pour optimiser l'espace et réduire les trajets des pirates.
+- **Gestion de la cohésion** : Maintenez l'unité de l'équipage au-dessus de zéro pour éviter le game over, en utilisant des sacrifices si nécessaire pour renforcer la stabilité.
+- **Voies vers la victoire** : Choisissez entre la Notoriété, l'Empire, la Navigation ou la Richesse dans votre journal pour remporter la partie.
+- **Améliorations de la boussole** : Accomplissez des exploits et participez aux événements à bannières colorées pour gagner des points et débloquer des structures avancées.
+</Callout>
+
+<Section icon={Map} title="Construction verticale et optimisation spatiale">
+
+Bâtir une colonie de pirates nécessite une approche intelligente de la gestion de l'espace. À votre arrivée, le terrain plat est extrêmement limité. Les petites zones de plage ne peuvent accueillir que quelques structures de base, vous obligeant à faire preuve de créativité dans vos aménagements. Pour construire une colonie prospère, vous devez exploiter la verticalité de votre île. Les pentes, les falaises et les formations rocheuses ne sont pas des obstacles ; ce sont de précieuses zones de construction qui vous aident à maximiser votre territoire.
+
+**Points clés de la vidéo :**
+- Le terrain plat est très limité, ce qui rend la construction verticale essentielle dès le départ.
+- Bâtir sur les falaises et les pentes réduit les distances de marche et les temps de trajet de vos pirates.
+- Les logements peuvent être placés dans des zones isolées comme le Rocher du Crâne sans affecter l'efficacité.
+
+<YouTubeEmbed videoId="mSpVcDtCvFA" title="Guide du débutant Corsair Cove EP1 – Cohésion, progression, déblocages et comment gagner" />
+
+En construisant votre colonie verticalement, vous réduisez considérablement les trajets de vos pirates. Des trajets plus courts signifient un transport de ressources plus rapide et une productivité globale accrue. De plus, il n'est pas nécessaire de placer les habitations à proximité des bâtiments de production. Les membres de votre équipage ont seulement besoin d'un toit au-dessus de leur tête, ce qui signifie que vous pouvez placer les quartiers résidentiels sur des falaises isolées ou directement au sommet du Rocher du Crâne, préservant ainsi le précieux terrain plat pour la logistique et la production.
+
+| Zone | Espace disponible | Meilleur type de bâtiment | Efficacité des trajets |
+| :--- | :--- | :--- | :--- |
+| **Plage** | Très faible | Quais et entrepôts | Élevée pour la logistique |
+| **Falaises** | Modérée | Installations de production | Élevée pour les trajets courts |
+| **Rocher du Crâne** | Élevée | Logements de pirates | Élevée pour l'isolement |
+
+<Callout type="tip" title="Conseil de construction">
+Donnez toujours la priorité au placement des installations de production et de stockage à proximité les unes des autres sur un terrain plat, tout en envoyant les bâtiments résidentiels sur les falaises. Cela minimise le temps de trajet des pirates au travail et assure le bon fonctionnement de votre économie.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestion de la cohésion et de l'unité de l'équipage">
+
+La cohésion est la mesure essentielle qui détermine la stabilité de votre équipage de pirates. Elle évalue la force de l'unité de votre équipage et sa volonté de travailler ensemble vers un but commun. Si la cohésion tombe à zéro, les conflits s'intensifient, la coopération s'effondre et vos pirates abandonneront la colonie, entraînant un game over immédiat. Maintenir cette mesure stable est votre priorité absolue en début de partie.
+
+À l'inverse, maintenir une cohésion élevée vous offre une ressource stratégique précieuse. Vous pouvez dépenser de la cohésion pour entreprendre des actions puissantes, résoudre des crises ou obtenir des avantages uniques. Cependant, garder une cohésion élevée exige souvent de faire des choix éthiques difficiles. En tant que chef, vous devrez peut-être sacrifier certains membres de l'équipage pour préserver l'unité du groupe. Comprendre quand faire ces sacrifices est essentiel pour que votre équipage continue de fonctionner comme une force unique et unie.
+
+| Niveau de cohésion | Statut | Effets | Action de gestion |
+| :--- | :--- | :--- | :--- |
+| **Élevé (80-100)** | Excellent | Booste les actions stratégiques | Maintenir via les victoires |
+| **Moyen (30-79)** | Stable | Fonctionnement standard | Surveiller l'accomplissement des exploits |
+| **Faible (1-29)** | Critique | Conflits accrus | Sacrifier des membres d'équipage |
+| **Zéro (0)** | Game Over | Dissolution de la colonie | À éviter à tout prix |
+
+<Callout type="warning" title="Avertissement critique">
+N'hésitez pas à sacrifier un pirate gênant si la cohésion de votre équipage descend à un niveau critique. Perdre un seul travailleur est toujours préférable à l'effondrement total de votre colonie.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Les quatre voies vers la victoire">
+
+Dans Corsair Cove, votre objectif ultime est défini par votre menu de progression, accessible via l'onglet journal dans le menu de la boussole. Il existe quatre voies distinctes que vous pouvez suivre pour terminer le jeu et assurer votre héritage. Chaque voie se concentre sur un aspect différent de la vie de pirate, vous permettant d'adapter votre expérience de jeu à votre style préféré.
+
+<CardGrid cols={4}>
+  <Card title="Voie de la Notoriété">
+    Se concentre sur la construction d'une réputation par le combat, la défaite des rivaux et la propagation de la terreur sur les sept mers.
+  </Card>
+  <Card title="Voie de l'Empire">
+    Se concentre sur la construction de fortifications massives, la sécurisation des terres et la transformation de rochers stériles en un bastion sûr.
+  </Card>
+  <Card title="Voie de la Navigation">
+    Se concentre sur l'exploration, la cartographie d'eaux inconnues et la maîtrise de l'art de la navigation et de la manœuvre des navires.
+  </Card>
+  <Card title="Voie de la Richesse">
+    Se concentre sur l'accumulation d'or, l'établissement de routes commerciales et la constitution d'un trésor massif pour votre équipage.
+  </Card>
+</CardGrid>
+
+Vous n'êtes pas obligé de vous engager dans une seule voie dès le début du jeu. Vous pouvez progresser simultanément dans les quatre quêtes, en accomplissant les objectifs et en obtenant les récompenses de chacune. Ce n'est qu'à l'étape finale du jeu que vous devrez faire un choix définitif sur la manière de terminer votre partie. Cette flexibilité vous permet d'expérimenter différentes mécaniques avant de vous décider pour votre condition de victoire ultime.
+
+| Voie | Focus | Déblocage clé | Style de jeu |
+| :--- | :--- | :--- | :--- |
+| **Notoriété** | Combat et infamie | Navires amiraux | Raids agressifs |
+| **Empire** | Fortifications | Bastions | Construction défensive |
+| **Navigation** | Exploration | Cartes de navigation | Navigation active |
+| **Richesse** | Commerce et or | Salles du trésor | Focus économique |
+
+<Callout type="info" title="Infos de victoire">
+Vous pouvez consulter votre progression sur les quatre voies à tout moment en ouvrant votre journal. Utilisez cet écran pour suivre les étapes clés que vous êtes sur le point d'atteindre.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Exploits et progression de la boussole">
+
+Votre progression est rythmée par l'accomplissement d'exploits, qui sont de petites quêtes attribuées pour presque toutes les activités que vous réalisez en jeu. Que vous optimisiez votre réseau logistique, construisiez de nouveaux navires ou attaquiez des flottes ennemies, vous gagnerez constamment des points en accomplissant ces tâches. Ces points sont ensuite investis directement dans votre boussole pour débloquer du nouveau contenu.
+
+<Steps>
+  <Step num="1" title="Consulter le journal">
+    Ouvrez votre journal de progression en cliquant sur l'icône de la boussole sur votre écran pour afficher vos quêtes principales actives.
+  </Step>
+  <Step num="2" title="Accomplir des exploits mineurs">
+    Concentrez-vous sur des tâches mineures comme la construction d'abris de base et la mise en place de la logistique pour gagner vos premiers points de boussole.
+  </Step>
+  <Step num="3" title="Débloquer de nouveaux plans">
+    Dépensez vos points de boussole acquis dans l'arbre de progression pour débloquer des bâtiments avancés et des modèles de navires.
+  </Step>
+  <Step num="4" title="Participer aux événements mondiaux">
+    Recherchez des événements avec des bannières colorées sur la carte maritime pour gagner des points bonus et accélérer votre progression.
+  </Step>
+</Steps>
+
+En plus des exploits standards, vous pouvez gagner d'importants points de boussole en participant à des événements mondiaux. Lorsque vous explorez la carte du monde, recherchez les événements signalés par des bannières colorées. Ces événements proposent des défis uniques et des récompenses de grande valeur qui peuvent accélérer considérablement votre progression, vous permettant de débloquer des plans de navires avancés et des structures de bâtiments puissantes beaucoup plus rapidement.
+
+| Catégorie | Exemple d'exploit | Points de boussole | Bénéfice principal |
+| :--- | :--- | :--- | :--- |
+| **Logistique** | Construire des routes | 15 Points | Transport de ressources plus rapide |
+| **Navigation** | Explorer des tuiles inconnues | 25 Points | Nouveaux plans de navires |
+| **Construction navale** | Lancer le premier sloop | 30 Points | Expansion de la flotte |
+
+<Callout type="success" title="Conseil de progression">
+Donnez la priorité aux exploits logistiques en début de partie. Améliorer votre transport de ressources dès le départ facilite grandement l'accomplissement des exploits ultérieurs, plus gourmands en ressources.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Aide-mémoire des premières étapes et FAQ">
+
+Pour vous assurer que votre colonie de pirates démarre sur des bases solides, suivez cet aide-mémoire rapide des étapes essentielles. Accomplir ces tâches rapidement établira des fondations solides pour votre économie et la gestion de votre équipage, évitant ainsi l'effondrement de votre colonie.
+
+<Checklist
+  id="beginner-milestones"
+  title="Objectifs de la première semaine :"
+  items={[
+    "Construire des logements de base sur le Rocher du Crâne",
+    "Établir un trajet logistique court entre les bâtiments de production",
+    "Accomplir vos trois premiers exploits mineurs",
+    "Débloquer le premier plan de navire via le menu de la boussole",
+    "Atteindre une cohésion stable supérieure à 50 %"
+  ]}
+/>
+
+<Callout type="tip" title="Dernier conseil">
+Consultez régulièrement votre aide-mémoire et votre journal pour rester concentré sur vos objectifs immédiats. Une planification efficace est la clé pour conquérir l'archipel.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quel est l'objectif principal de ce guide du débutant de Corsair Cove ?",
+    answer: "Ce guide vous aide à comprendre la construction verticale, à gérer la cohésion de l'équipage et à naviguer à travers les quatre voies vers la victoire pour passer de survivants naufragés à un puissant empire pirate."
+  },
+  {
+    question: "Puis-je changer de voie vers la victoire en cours de partie ?",
+    answer: "Oui, vous pouvez progresser simultanément dans les quatre quêtes. Vous n'aurez à prendre votre décision finale qu'à la toute dernière étape de quête."
+  },
+  {
+    question: "Comment éviter un game over dû à une cohésion nulle ?",
+    answer: "Vous devez surveiller l'unité de votre équipage. Si elle baisse trop, prenez des décisions difficiles, comme sacrifier des membres d'équipage, pour faire remonter la cohésion à des niveaux sûrs."
+  }
+]} />
+
+</Section>

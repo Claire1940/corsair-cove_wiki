@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Compass } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Astuces et conseils pour Corsair Cove : Guide stratégique 2026 pour les chefs pirates",
+  description: "Maîtrisez Corsair Cove grâce à nos astuces d'experts. Découvrez la gestion de camp, l'entretien des navires et les stratégies d'exploration pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Tips+and+Tricks",
+  date: "2026-07-17",
+  author: "L'équipe du Wiki Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Astuces et conseils pour Corsair Cove** : Utilisez toujours le **bouton de pause (Barre d'espace)** lors de la planification des nouveaux agencements de camp pour garantir une satisfaction à 100 %.
+- **Satisfaction du camp** : Construisez immédiatement l'alambic à alcool de contrebande et le feu de camp aux côtés de la cuisine et de la taverne pour une efficacité maximale.
+- **Entretien des navires** : Les nouveaux membres d'équipage comme les gredins (Scallywags) et les vigies (Crow's Eyes) nécessitent des ressources spécifiques comme du **rhum et du pain de manioc**.
+- **Exploration** : Donnez la priorité aux **icônes de diamant** sur la carte pour obtenir des ressources gratuites et recruter des pirates supplémentaires.
+- **Statistiques de combat** : Ne suivez pas aveuglément les recommandations du jeu ; si votre navire possède une **armure ou des dégâts** plus élevés, utilisez-le quel que soit son niveau.
+</Callout>
+
+<Section icon={Map} title="Maîtriser la gestion de camp de départ">
+
+Établir une colonie de pirates prospère dans Corsair Cove nécessite un équilibre délicat entre expansion rapide et moral de l'équipage. La fondation de votre empire repose sur la satisfaction de vos pirates. Si les niveaux de satisfaction chutent, vos camps sombreront dans le chaos, arrêtant la production et pouvant mener à la mutinerie. Le moyen le plus efficace de gérer cela est de placer et de planifier précisément vos bâtiments.
+
+**Points clés de la vidéo :**
+- Utilisez la barre d'espace pour mettre le temps en pause lors de la construction initiale du camp.
+- Construisez les bâtiments d'approvisionnement (alambic/feu de camp) à proximité immédiate des bâtiments de service (taverne/cuisine).
+- Assurez-vous qu'au moins six tentes soient connectées au centre principal pour obtenir 100 % de satisfaction initiale.
+- Surveillez les itinéraires les plus rapides entre les points de production et de consommation.
+
+<YouTubeEmbed videoId="2SubmGonPKU" title="5 CONSEILS CLÉS POUR LES FUTURS CHEFS PIRATES | Corsair Cove" />
+
+Lorsque vous commencez un nouveau camp, la « stratégie de pause » est votre meilleure alliée. En mettant le jeu en pause, vous pouvez concevoir toute l'infrastructure sans consommer de ressources ni de temps alors que la jauge de satisfaction est encore neutre. Cela empêche l'état de « chaos » de se déclencher.
+
+| Type de bâtiment | Objectif | Conseil de placement |
+| :--- | :--- | :--- |
+| **Camp de pirates** | Centre principal | Au cœur des gisements de ressources |
+| **Alambic à alcool** | Approvisionne la taverne | Directement au-dessus ou en dessous de la taverne |
+| **Feu de camp** | Approvisionne la cuisine | Directement au-dessus ou en dessous de la cuisine |
+| **Tentes** | Logement | Connectées par des routes, minimum 6 |
+| **Cuisine** | Service de restauration | Près du feu de camp pour un transport rapide |
+| **Taverne** | Service de boissons | Près de l'alambic pour un transport rapide |
+
+<Callout type="tip" title="Secret d'efficacité">
+Placer des bâtiments d'approvisionnement comme l'alambic directement au-dessus ou en dessous de la taverne crée le trajet le plus court possible pour les travailleurs. Cela maximise le temps de fonctionnement de vos bâtiments de service et maintient la satisfaction à un niveau constant de 100 %.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Construction navale et entretien de l'équipage">
+
+À mesure que vous progressez et débloquez des classes de navires avancées comme le **Destroyer, le Hunter (Chasseur), le Prowler (Rôdeur) ou le Reaver (Pilleur)**, vos exigences logistiques augmenteront de manière exponentielle. Contrairement aux navires de base, les navires avancés utilisent des membres d'équipage spécialisés qui offrent d'importants bonus de statistiques mais exigent des ressources d'entretien spécifiques. Ignorer ces besoins rendra vos navires les plus puissants inutiles dans les campagnes à long terme.
+
+<CardGrid cols={2}>
+  <Card title="Gredins & Vigies (Scallywags & Crow's Eyes)">
+    - **Exigences** : Pain de manioc et tenues spécialisées.
+    - **Avantages** : Grande force d'abordage et portée de vision améliorée.
+    - **Entretien** : Nécessite un approvisionnement régulier en médicaments et en bottes.
+  </Card>
+  <Card title="Pirates & Bombardiers (Picaroons & Bombardiers)">
+    - **Exigences** : Rhum de haute qualité et poudre à canon.
+    - **Avantages** : Dégâts de canon massifs et protection de la coque.
+    - **Entretien** : Nécessite un accès constant à un barbier et à un chirurgien.
+  </Card>
+</CardGrid>
+
+Le recrutement de ces spécialistes est lié aux bâtiments que vous débloquez. Par exemple, la construction d'un navire de classe Destroyer débloque la plantation de canne à sucre et le tonnelier (Cooper). Sans eux, vous ne pouvez pas produire le rhum nécessaire pour satisfaire votre équipage d'élite.
+
+| Classe de navire | Membre d'équipage clé | Entretien requis | Bonus fourni |
+| :--- | :--- | :--- | :--- |
+| **Destroyer** | Bombardier | Rhum, Poudre à canon | +15 % de dégâts de canon |
+| **Prowler** (Rôdeur) | Vigie (Crow's Eyes) | Pain, Bottes | +20 % de manœuvrabilité |
+| **Reaver** (Pilleur) | Gredin (Scallywags) | Médicaments, Rhum | +10 % de force d'abordage |
+| **Swabbie** (Mousse) | Équipage par défaut | Aucun | Performance de base |
+
+<Callout type="warning" title="Alerte logistique">
+Avant d'améliorer votre flotte, vérifiez le « Coût d'embauche » et l'« Entretien » dans le menu contextuel de l'équipage. Si vos lignes de production de rhum ou de médicaments ne sont pas prêtes, votre nouveau navire subira immédiatement des pénalités de moral bas dès son lancement.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Chaînes de production et spécialisation">
+
+L'une des erreurs les plus courantes pour les nouveaux joueurs est de vouloir rendre chaque camp de pirates autosuffisant. Dans Corsair Cove, la spécialisation est la clé d'une économie prospère. Tant qu'un camp maintient une satisfaction de 100 % grâce aux bâtiments de service de base, il peut se concentrer entièrement sur l'extraction et la transformation d'un seul type de ressource.
+
+<Steps>
+  <Step num="1" title="Évaluer les ressources locales">
+    Dézoomez sur la carte et appuyez sur « Tout » pour voir les points d'extraction disponibles. Identifiez les îles riches en guano, en canne à sucre ou en bois.
+  </Step>
+  <Step num="2" title="Établir l'infrastructure">
+    Construisez le « Noyau de satisfaction » standard (taverne, cuisine, alambic, feu de camp) pour garantir la stabilité de la main-d'œuvre.
+  </Step>
+  <Step num="3" title="Spécialiser la production">
+    Consacrez l'espace restant à une chaîne spécifique. Par exemple, une « Île à poudre » devrait abriter des carbonisateurs et des extracteurs de guano.
+  </Step>
+  <Step num="4" title="Connecter le réseau">
+    Utilisez votre flotte pour transporter des marchandises spécialisées (comme le rhum ou le pain) des centres de production vers les camps qui en ont besoin pour le recrutement de l'équipage.
+  </Step>
+</Steps>
+
+| Chaîne de ressources | Bâtiments requis | Produit final | Cas d'utilisation |
+| :--- | :--- | :--- | :--- |
+| **Alcool** | Plantation de canne à sucre, Tonnelier, Distillerie | Rhum | Approvisionnement de la taverne, entretien de l'équipage |
+| **Armement** | Gisement de guano, Carbonisateur, Moulin à poudre | Poudre à canon | Combat, améliorations de navires |
+| **Textiles** | Ferme de chanvre, Corderie, Tailleur | Cordages, Bottes | Construction de navires, tenues d'équipage |
+| **Médical** | Jardin d'herbes aromatiques, Laboratoire, Chirurgien | Médicaments | Entretien d'équipage avancé |
+
+<Callout type="success" title="Conseil d'optimisation">
+Un camp produisant uniquement du pain de manioc a tout autant de valeur qu'un camp produisant de la poudre à canon. Ne vous sentez pas obligé de diversifier chaque île. Une « Île à pain » dédiée peut nourrir tout votre empire si la logistique est correctement gérée.
+</Callout>
+
+</Section>
+
+<Section icon={Compass} title="Exploration et événements de carte">
+
+Le monde de Corsair Cove regorge d'opportunités au-delà des côtes de vos colonies. En naviguant sur la carte de campagne, vous rencontrerez diverses icônes représentant des défis et des récompenses. Comprendre ces marqueurs est essentiel pour maintenir vos stocks de ressources sans trop dépendre de la production.
+
+**Marqueurs d'exploration clés :**
+- **Îles numérotées (1, 2, 3)** : Elles indiquent les niveaux de difficulté pour les combats ou les événements narratifs.
+- **Icônes de diamant** : Elles représentent des « points d'intérêt » en pleine mer.
+- **Brouillard de guerre** : Zones qui doivent être dissipées en faisant naviguer vos navires à proximité pour révéler de nouvelles îles.
+
+| Type d'événement | Icône | Récompenses potentielles | Niveau de risque |
+| :--- | :--- | :--- | :--- |
+| **Cargaison à la dérive** | Diamant | Rhum, bois ou cordages gratuits | Nul |
+| **Épave** | Diamant | Pirates, or, matériaux gratuits | Faible |
+| **Événement d'île** | Numéroté | Importantes réserves de ressources, nouvelles technologies | Variable |
+| **Patrouille ennemie** | Icône de navire | Expérience de combat, butin | Élevé |
+
+<Callout type="info" title="Conseil d'expert">
+Gardez toujours un navire rapide comme un Prowler dédié à la « reconnaissance ». Utilisez-le pour visiter autant d'icônes de diamant que possible. Ces ressources gratuites peuvent souvent combler le manque lors d'une pénurie de production ou fournir les pirates supplémentaires nécessaires pour un nouveau camp.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Stratégie de combat et statistiques de navire">
+
+Bien que le jeu propose souvent des « navires recommandés » pour des événements de campagne spécifiques, ces recommandations ne sont pas absolues. Votre succès dans les combats navals dépend davantage des attributs réels de votre navire — dégâts de canon, force d'abordage, vitesse, manœuvrabilité et armure — que de son niveau ou du nom de sa classe.
+
+**Attributs de combat essentiels :**
+- **Dégâts de canon** : Détermine la vitesse à laquelle vous pouvez couler un ennemi à distance.
+- **Force d'abordage** : Cruciale pour capturer des navires et récupérer un maximum de butin.
+- **Manœuvrabilité** : Affecte la rapidité avec laquelle vous pouvez tourner pour orienter vos flancs.
+- **Armure** : Votre principale défense contre les tirs ennemis.
+
+| Statistique de navire | Importance | Idéal pour |
+| :--- | :--- | :--- |
+| **Armure** | Élevée | Encaisser les coups lors des abordages à courte portée |
+| **Vitesse** | Moyenne | Poursuivre les navires marchands en fuite |
+| **Manœuvrabilité** | Élevée | Éviter les tirs nourris et se positionner |
+| **Abordage** | Variable | Maximiser le gain de ressources lors des combats |
+
+<Callout type="tip" title="Comparaison des statistiques">
+Si une mission recommande un Reaver de niveau 2 avec 10 d'armure, mais que votre Destroyer de niveau 1 a 16 d'armure et des dégâts de canon plus élevés, choisissez le Destroyer. Les statistiques brutes l'emportent toujours sur les étiquettes « Recommandé » dans la méta actuelle.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle de maîtrise">
+
+Utilisez cette liste de contrôle pour vous assurer que votre empire pirate fonctionne à son efficacité maximale à mesure que vous vous étendez dans la crique.
+
+<Checklist
+  id="corsair-cove-mastery"
+  title="Objectifs du chef pirate :"
+  items={[
+    "Maintenir 100 % de satisfaction dans tous les camps en utilisant la stratégie de pause",
+    "Établir une chaîne de production de rhum dédiée (canne à sucre + tonneaux)",
+    "Débloquer et équiper un équipage spécialisé pour au moins deux classes de navires",
+    "Visiter toutes les icônes de diamant dans votre brouillard de guerre actuel",
+    "Réussir une mission en utilisant un navire non recommandé",
+    "Créer une « Île alimentaire » spécialisée pour soutenir la colonie principale"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment empêcher mon camp de pirates de sombrer dans le chaos ?",
+    answer: "Le meilleur moyen est d'utiliser le bouton de pause (Barre d'espace) lors de la construction. Assurez-vous d'avoir immédiatement une taverne et une cuisine approvisionnées par un alambic et un feu de camp. Avoir au moins six tentes aide également à stabiliser les niveaux de satisfaction."
+  },
+  {
+    question: "Dois-je obligatoirement utiliser le navire recommandé pour les missions ?",
+    answer: "Non. Vous devez comparer les statistiques réelles de votre navire (armure, dégâts, vitesse) aux exigences de la mission. Souvent, un navire d'une autre classe bien amélioré sera plus performant qu'une version de base du navire recommandé."
+  },
+  {
+    question: "Où puis-je trouver des pirates et des ressources gratuits ?",
+    answer: "Recherchez les icônes de diamant sur la carte de campagne. Ce sont des événements qui vous permettent de récupérer des cargaisons à la dérive ou de secourir des pirates échoués sans engager de combats difficiles."
+  },
+  {
+    question: "Quelle est la chaîne de production la plus importante dans Corsair Cove ?",
+    answer: "La chaîne de production de rhum est vitale. Elle nécessite de la canne à sucre et des tonneaux (du tonnelier), et est indispensable tant pour maintenir la satisfaction du camp que pour assurer l'entretien des membres d'équipage d'élite comme les bombardiers."
+  }
+]} />
+
+</Section>

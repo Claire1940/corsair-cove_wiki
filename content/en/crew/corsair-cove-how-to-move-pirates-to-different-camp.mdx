@@ -1,0 +1,182 @@
+import { Map, Target, Users, Settings, Shield, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Corsair Cove: How to Move Pirates to Different Camps & Manage Outposts",
+  description: "Learn how to move pirates to different camps in Corsair Cove, manage operating radii, and optimize crew assignments for maximum settlement efficiency.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Move+Pirates+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Mechanic**: In **corsair cove how to move pirates to different camp** operations, assignment is handled via the building interface and housing proximity.
+- **Operating Radius**: Each Pirate Camp has a specific build and service radius; workers must live within the camp serving their workplace.
+- **Drifter Management**: Keep a reserve of unemployed Drifters to ensure new camps have an immediate workforce for construction.
+- **Logistics Connectivity**: Ensure all camps are linked to the main settlement via green-coded logistics routes to maintain supply.
+- **Satisfaction Tracking**: Monitor Local Satisfaction per camp, as shortages in one outpost can lead to pirates abandoning the settlement.
+</Callout>
+
+<Section icon={Map} title="Understanding Pirate Camp Mechanics">
+
+In Corsair Cove, the settlement is not a single monolithic entity but a network of interconnected **Pirate Camps**. Managing your crew effectively requires understanding that pirates are not just global numbers; they are physical entities tied to specific locations. When players ask about **corsair cove how to move pirates to different camp** locations, they are usually dealing with the expansion of their territory across the game's vertical cliffs and islands.
+
+Each Pirate Camp serves as a hub that defines where your pirates live, work, and consume resources. Unlike traditional city builders where workers might walk across the entire map, Corsair Cove uses an **Operating Radius** system. If a resource node or production building is placed too far from an existing camp, it will lack the necessary labor and logistics support to function.
+
+<Callout type="info" title="The Build vs. Operating Radius">
+The Build Radius allows you to place structures, but the Operating Radius determines which camp provides the "Fetchers" and "Builders" for those structures. Moving pirates effectively means balancing the population between these hubs.
+</Callout>
+
+| Camp Feature | Description | Impact on Crew |
+| :--- | :--- | :--- |
+| **Build Radius** | The area where new structures can be placed | Limits expansion potential |
+| **Operating Radius** | The area where the camp provides services | Determines worker assignment |
+| **Local Satisfaction** | Needs met within the specific camp radius | Prevents crew abandonment |
+| **Housing Capacity** | Total beds available in the camp's area | Caps the local population |
+
+</Section>
+
+<Section icon={Target} title="How to Move Pirates to Different Camps">
+
+The process of moving pirates in Corsair Cove is integrated into the housing and job assignment systems. You do not manually "drag" a pirate from one camp to another; instead, you create the conditions that draw them to the new location. This is critical when you discover distant resource clusters like iron or copper that require a dedicated workforce.
+
+To successfully shift your population, you must follow a specific sequence of construction and assignment. Failure to provide basic needs at a new camp while moving pirates will result in a rapid drop in **Cohesion**, potentially ending your run.
+
+<Steps>
+  <Step num="1" title="Establish a New Pirate Camp">
+    Place a new Pirate Camp near the resource cluster or vertical terrace you wish to develop. Ensure this camp has a physical connection (bridge, path, or zipline) back to the main settlement.
+  </Step>
+  <Step num="2" title="Construct Local Housing">
+    Build residential structures within the new camp's Operating Radius. Pirates will automatically occupy housing near their assigned workplace or where beds are available.
+  </Step>
+  <Step num="3" title="Assign Workplace Roles">
+    Open the building interface for the production site (e.g., a Lumber Mill). Assign the required number of pirates. The game will prioritize taking "Drifters" from the nearest available housing.
+  </Step>
+  <Step num="4" title="Verify Logistics Links">
+    Check the logistics lines. If the route from the housing to the workplace is yellow or red, consider moving the housing closer or adding a more direct connection hub.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Assignment Tip">
+Always keep a reserve of Drifters (unemployed pirates). When you build a new camp, these Drifters are the first to "move" and take up residence in the new area to begin construction of permanent facilities.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Crew Roles and Assignment Priorities">
+
+Not all pirates are equal when it comes to moving between camps. Corsair Cove distinguishes between several tiers of crew, each with increasing demands. Moving a basic "Fetcher" is simple, but moving "Specialist Sailors" or "Elite Corsairs" requires a pre-existing luxury supply chain at the destination camp.
+
+When planning **corsair cove how to move pirates to different camp** strategies, consult the following role comparison to ensure you have the infrastructure to support the move.
+
+| Role | Housing Need | Upkeep Level | Movement Priority |
+| :--- | :--- | :--- | :--- |
+| **Drifters** | Mandatory | Low (No job upkeep) | High (Construction) |
+| **Fetchers** | Mandatory | Moderate | High (Logistics) |
+| **Production Workers** | Mandatory | Moderate to High | Medium (Resource specific) |
+| **Specialists** | Mandatory | High (Equipment) | Low (Stay near Pier/Forts) |
+| **Elite Sailors** | Mandatory | Very High (Luxuries) | Low (Specialized roles) |
+
+<CardGrid cols={3}>
+  <Card title="Drifter Reserve">
+    Keep at least 10-15% of your population as Drifters to ensure new camps can be built quickly without stalling existing chains.
+  </Card>
+  <Card title="Housing Proximity">
+    Pirates prefer housing within a "Green" distance of their workplace. Long commutes reduce efficiency and satisfaction.
+  </Card>
+  <Card title="Role Specialization">
+    Assign specialists only to camps that have direct access to the equipment they need, such as Sabers or Medicine.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Labor Management">
+If a production chain stalls in a remote camp, check if you have enough Drifters. You may need to pause a non-essential building in the main harbor to "free up" workers for the new outpost.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Optimizing Logistics and Supply Routes">
+
+Moving pirates to a remote camp is only half the battle; keeping them there requires a robust logistics network. In Corsair Cove, goods like **Hard Tack**, **Ale**, and **Rum** must be physically transported to each camp's distribution hub. If the transport route is too long, your pirates will become dissatisfied and eventually leave.
+
+The game provides visual feedback via colored connection lines. When you select a building or a Pirate Camp, pay close attention to these indicators:
+
+- **Green Lines**: Optimal distance. Goods and pirates move quickly.
+- **Yellow Lines**: Suboptimal. Efficiency is reduced; consider adding a distribution hub.
+- **Red Lines**: Critical bottleneck. Pirates will likely abandon the camp due to slow supply.
+
+<Callout type="warning" title="The Red Line Trap">
+A red logistics line to a Pirate Camp's housing is the primary cause of "disappearing" pirates. Even if you have plenty of food in the main harbor, it isn't "reaching" the pirates in the remote camp.
+</Callout>
+
+| Logistics Tool | Best Use Case | Benefit |
+| :--- | :--- | :--- |
+| **Bridges** | Crossing chasms between cliffs | Shortens horizontal travel |
+| **Ziplines** | Moving goods between high and low tiers | drastically reduces vertical travel time |
+| **Connection Hubs** | Junction points for multiple routes | Organizes complex logistics paths |
+| **Distribution Hubs** | Intermediate storage for goods | Buffers supply for remote camps |
+
+</Section>
+
+<Section icon={Shield} title="Strategic Layouts for Multi-Camp Settlements">
+
+Effective settlement design in Corsair Cove relies on creating self-sustaining or well-supplied clusters. When you understand **corsair cove how to move pirates to different camp** mechanics, you can begin utilizing advanced layout patterns that take advantage of the vertical terrain.
+
+<Checklist
+  id="layout-optimization"
+  title="Outpost Readiness Checklist:"
+  items={[
+    "Confirm the new camp has a valid path to the main harbor.",
+    "Ensure enough housing is built for the intended workforce.",
+    "Verify that the local distribution hub is receiving Food and Drink.",
+    "Check that the operating radius covers the intended resource nodes.",
+    "Monitor the Cohesion meter during the first 5 minutes of expansion."
+  ]}
+/>
+
+### The Remote Resource Camp Pattern
+This is the most common reason to move pirates. When a valuable deposit of Iron or Stone is found on a distant peak:
+1.  **Place the Camp**: Position it so the Operating Radius encompasses the resource nodes.
+2.  **Add Housing and Services**: Build enough housing for the miners and at least one tavern for Ale/Rum.
+3.  **Link via Zipline**: Use a Zipline to connect the peak directly to the production district below. This ensures raw materials flow down and supplies flow up with minimal delay.
+
+<Callout type="info" title="Verticality Matters">
+In Corsair Cove, a building that is visually close but on a different cliff level might have a "Red" connection distance. Always use bridges and elevators to create shortcuts.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Troubleshooting and FAQ">
+
+Managing a pirate population across multiple camps can be challenging, especially as the settlement grows and the Crown's pressure increases. Below are the most common issues players face when trying to move or reassign their crew.
+
+<Callout type="tip" title="Final Expert Advice">
+If your pirates are leaving despite having jobs and houses, check the **Local Satisfaction** tab in the Pirate Camp interface. It will tell you exactly which good (e.g., Stew, Boots, or Tobacco) is failing to reach that specific camp.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I force a pirate to move to a specific house?",
+    answer: "You cannot manually move individual pirates. Instead, ensure the house you want them to occupy is within the Operating Radius of their workplace. Pirates naturally gravitate toward the closest available housing to their job."
+  },
+  {
+    question: "Why is my new Pirate Camp showing zero workers even though I have Drifters?",
+    answer: "Check the logistics connection. If the new camp is not physically connected to the rest of the settlement via a path, bridge, or hub, the Drifters cannot travel there to begin work. Also, ensure the camp is not 'Paused' in the UI."
+  },
+  {
+    question: "Can one Pirate Camp share resources with another automatically?",
+    answer: "Resources are shared globally in the UI, but they must be physically delivered to the distribution hubs within each camp's radius. Fetchers handle this transport, but they require valid, efficient routes to do so effectively."
+  },
+  {
+    question: "What happens if a Pirate Camp's satisfaction reaches zero?",
+    answer: "Pirates in that specific camp will begin to abandon the settlement. This causes a penalty to your global Cohesion. If Cohesion hits zero, your game ends. It is better to pause production in an unhappy camp than to let it drain your Cohesion."
+  }
+]} />
+
+</Section>

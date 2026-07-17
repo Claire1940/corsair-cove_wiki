@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Ship, Users, Construction } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove AI: Master the Pirate City Builder Mechanics",
+  description: "Explore the Corsair Cove AI and city-building mechanics. Learn how to manage pirate units, optimize production chains, and survive naval expeditions in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+AI+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Corsair Cove AI**: Efficiently manage the behavior of Fetchers and Hands to automate your pirate island logistics.
+- **Vertical Building**: Focus on building up cliffs rather than expanding across grids to maximize limited island space.
+- **Cohesion Management**: Keep pirate satisfaction high to prevent your crew from dissolving and losing the game.
+- **Naval Expeditions**: Use unique Captain bonuses and resource management during dice-roll events to secure rare loot.
+- **Production Overdrive**: Use the 'All Hands on Deck' feature to boost output at the cost of doubling labor requirements.
+</Callout>
+
+<Section icon={Anchor} title="Introduction to Corsair Cove AI and Gameplay">
+
+**Corsair Cove AI** introduces a refreshing twist to the city-building genre by placing you in charge of a burgeoning pirate civilization. Developed by Limbic Entertainment and published by Hooded Horse, this title focuses on verticality, resource management, and the unique behaviors of your pirate units. Unlike traditional grid-based builders, this game challenges you to navigate treacherous cliffs and optimize the automated logic of your workers to survive the harsh Caribbean environment.
+
+**Video Highlights:**
+- **Verticality**: The core gameplay revolves around building up cliffs using bridges and connectors.
+- **Unit Types**: Understanding the difference between Hands (laborers) and Fetchers (logistics).
+- **Early Progression**: Setting up basic food and wood production chains to stabilize the colony.
+- **Shipbuilding**: Constructing your first vessel to unlock the adventure component of the game.
+
+<YouTubeEmbed videoId="AC_pY12kx7U" title="[First Look] Corsair Cove - The City Builder About... Pirates?!?" />
+
+<Callout type="tip" title="Strategic Placement">
+Always place your Woodcutters and Sawmills close to each other. Even though the **Corsair Cove AI** fetchers are efficient, minimizing travel distance significantly increases your Planks per minute.
+</Callout>
+
+| Building Type | Primary Function | Resource Cost | Staffing Required |
+| :--- | :--- | :--- | :--- |
+| **Pirate Camp** | Central Hub / Storage | None (Starting) | None |
+| **Tents** | Housing for 25 Pirates | Basic Planks | None |
+| **Woodcutter** | Generates Hardwood | Free | 1-2 Hands |
+| **Sawmill** | Processes Planks | Hardwood | 2 Hands |
+| **Galley** | Serves Food to Crew | Planks / Food | 1 Hand |
+
+</Section>
+
+<Section icon={Construction} title="Vertical City Building and Infrastructure">
+
+In Corsair Cove, the "grids of yesterday" are gone. The map is defined by cliffs, waterfalls, and steep elevation changes. This requires a shift in mindset: you are building up, not just out. Infrastructure is connected via bridges and specialized connectors that allow your pirates to traverse different levels of the island.
+
+<CardGrid cols={3}>
+  <Card title="Bridge Mechanics">
+    - Connects buildings across gaps.
+    - Has maximum length limitations.
+    - Essential for reaching higher cliff tiers.
+  </Card>
+  <Card title="Vertical Connectors">
+    - Allows movement between elevations.
+    - Saves ground space for vital industry.
+    - Can be upgraded with zip lines later.
+  </Card>
+  <Card title="Space Optimization">
+    - Ground level is for heavy industry.
+    - Higher tiers are ideal for housing.
+    - Prevents logistical bottlenecks.
+  </Card>
+</CardGrid>
+
+The **Corsair Cove AI** handles the pathfinding for your pirates, but poorly designed bridge networks can lead to long travel times. If a fetcher has to cross three different cliffs to deliver moonshine to the tavern, your efficiency will plummet.
+
+| Infrastructure | Benefit | Limitation |
+| :--- | :--- | :--- |
+| **Standard Bridge** | Basic horizontal connection | Limited range / fragile |
+| **Vertical Mast** | Starting point for zip lines | Requires high elevation |
+| **Zip Line** | Fastest downhill transport | Only works in one direction |
+| **Stone Path** | Increases walking speed | Requires Stone Cutter unlock |
+
+<Callout type="warning" title="Logistics Warning">
+Do not over-extend your bridges early on. If a building is too far from the Pirate Camp, the fetchers might struggle to supply it, leading to production halts.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Managing Pirate Units and Production Chains">
+
+Your population consists of two primary roles: **Hands** and **Fetchers**. Hands are the muscle—they work inside buildings like the Sawmill or the Moonshine Still. Fetchers are the brains of the operation, moving resources between production points and storage. Understanding the **Corsair Cove AI** logic for these units is the key to a thriving economy.
+
+<Steps>
+  <Step num="1" title="Establish Wood Production">
+    Place a Woodcutter to generate hardwood. Follow this with a Sawmill to turn that hardwood into Planks, which are required for almost every early-game building.
+  </Step>
+  <Step num="2" title="Secure the Food Supply">
+    Build a Campfire to process raw ingredients and a Galley to serve the food. Without a steady food source, your pirates' happiness will drop, reducing their work efficiency.
+  </Step>
+  <Step num="3" title="Initiate Moonshine Production">
+    Construct a Moonshine Still. Moonshine is the primary currency for pirate happiness and is essential for recruiting crew members at the Tavern.
+  </Step>
+  <Step num="4" title="Activate Overdrive">
+    Use the 'All Hands on Deck' toggle for critical buildings. This provides a 50% production boost but doubles the number of Hands required, which can strain your workforce.
+  </Step>
+</Steps>
+
+| Resource | Source | Use Case | AI Priority |
+| :--- | :--- | :--- | :--- |
+| **Hardwood** | Woodcutter | Raw material for Planks | Medium |
+| **Planks** | Sawmill | Construction / Shipbuilding | High |
+| **Food** | Campfire / Galley | Sustenance / Happiness | Critical |
+| **Moonshine** | Moonshine Still | Recruitment / Tavern | High |
+| **Stone** | Quarry | Advanced Construction | Low (Early) |
+
+<Callout type="success" title="Efficiency Tip">
+Right-click on a fetcher's route to manually prioritize or disable specific resource transfers. This allows you to force-feed resources to a building that is lagging behind.
+</Callout>
+
+</Section>
+
+<Section icon={Ship} title="Naval Expeditions and Captain Selection">
+
+Once your island is stable, you must take to the seas. Shipbuilding is done at the Shallow Pier. This opens up the "Adventure" phase of the game, where you engage in events like smuggling runs, merchant raids, and naval combat. The success of these missions depends on your ship's stats and the Captain you choose to lead them.
+
+The expedition system uses a card-based mechanic influenced by dice rolls. You must manage three vital resources during any voyage:
+1. **Crew**: Your actual population. Losing them means fewer workers back on the island.
+2. **Health**: The structural integrity of your ship. At zero, the ship is lost.
+3. **Supplies**: Consumed during events. You can trade Health or Crew to gain more Supplies in an emergency.
+
+| Captain | Primary Bonus | Best For |
+| :--- | :--- | :--- |
+| **Blackbeard** | Increased Notoriety / Combat | Raiding Merchant Vessels |
+| **Kanja** | Speed / Wealth Generation | Smuggling & Trade Runs |
+| **Edward Teach** | Empire Building Synergies | Long-term Island Expansion |
+| **Generic Captain** | Balanced Stats | Early Exploration |
+
+<Callout type="info" title="Expedition Logic">
+During events like a Smuggling Run, the **Corsair Cove AI** calculates advantage based on your cards. Always look for cards that "Prevent Loss of Advantage" to save your precious supplies for the final stage of the event.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression, Deeds, and Cohesion">
+
+Progress in Corsair Cove is not just about building more houses; it is about completing "Deeds." Deeds provide unlock points that you can spend in the tech tree to access better ships, advanced buildings like the Gambling Den, and infrastructure upgrades like Zip Lines.
+
+**Cohesion** is a unique resource that represents the social fabric of your pirate community.
+- **High Cohesion**: Provides leeway during setbacks and disasters.
+- **Zero Cohesion**: Your pirate group dissolves, resulting in an immediate Game Over.
+- **Trade-offs**: You will often face choices—rob a group of pirates for gold (increases cohesion) or recruit them (decreases cohesion but increases population).
+
+<Checklist
+  id="early-game-milestones"
+  title="Early Game Progression Goals:"
+  items={[
+    "Build housing for at least 50 pirates to stabilize the workforce.",
+    "Establish a 2:1 ratio of Woodcutters to Sawmills for optimal Plank production.",
+    "Construct a Shallow Pier and launch your first 'Land Lover' class vessel.",
+    "Complete one Smuggling Run to unlock the first tier of the Notoriety tree.",
+    "Maintain Cohesion above 50% by serving Moonshine at the Tavern."
+  ]}
+/>
+
+<Callout type="warning" title="Strategic Focus">
+It is better to go deep into one tech tree (e.g., Notoriety) early on than to spread your points thin. Unlocking a Level 2 ship like the 'Moonlight Prowler' significantly changes your power dynamic on the ocean.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Corsair Cove AI FAQ">
+
+<FAQ items={[
+  {
+    question: "How does the Corsair Cove AI handle worker assignments?",
+    answer: "The AI automatically pulls from the 'Unemployed' pool to fill roles as 'Hands' or 'Fetchers.' If you run out of pirates, production will stall until you recruit more from the sea or build more housing."
+  },
+  {
+    question: "What is the most efficient way to use 'All Hands on Deck'?",
+    answer: "Use it sparingly on bottleneck buildings like the Sawmill or Moonshine Still. Since it uses twice the labor for only a 50% boost, it is mathematically inefficient but great for short-term resource bursts."
+  },
+  {
+    question: "Can I automate the naval expeditions?",
+    answer: "While the travel is automated, the events (smuggling, combat) require manual card play and resource management. You must decide when to spend supplies and when to risk the ship's health."
+  },
+  {
+    question: "What happens if my Cohesion hits zero?",
+    answer: "The game ends immediately. Cohesion represents the pirates' willingness to stay together. You can boost it through successful raids, tavern events, and fulfilling the needs of your crew."
+  }
+]} />
+
+</Section>

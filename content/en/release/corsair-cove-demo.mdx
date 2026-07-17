@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Hammer, Beer, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Demo: Essential Base Building & Combat Guide",
+  description: "Master the corsair cove demo with our guide on base building, resource management, and naval combat strategies in this 2026 pirate strategy game.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a2b3c/fff?text=Corsair+Cove+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Establish a self-sustaining pirate haven while fending off the Spanish Crown.
+- **Core Mechanic**: Buildings must be connected to the central **Pirate Camp** via a grid-based path system.
+- **Resource Priority**: Focus on **Wood** and **Planks** early to unlock housing and food production.
+- **Cohesion Management**: Keep pirates fed with **Stew** and happy with **Moonshine** to prevent mutiny.
+- **Naval Combat**: Use specialized captains like **Teach** to maximize dice rolls during sea encounters.
+</Callout>
+
+<Section icon={Map} title="Getting Started in the Corsair Cove Demo">
+
+The **corsair cove demo** introduces players to a high-stakes world of piracy, base building, and tactical survival. Published by Hooded Horse, this title challenges you to transform a blighted rock into a formidable pirate nest. The experience begins with a shipwreck, leaving your crew stranded with nothing but the clothes on their backs. Your first task is to salvage the wreckage and establish a basic camp to shelter your weary sailors.
+
+**Video Highlights:**
+- **Initial Salvage**: How to gather planks from shipwrecks to jumpstart construction.
+- **Path Connections**: Understanding the "power line" logic for building connectivity.
+- **Early Production**: Setting up the Wood Cutter and Sawmill chain.
+- **Naval Intro**: A first look at the sloop construction and dice-based combat.
+
+<YouTubeEmbed videoId="GYOs4piWC8c" title="A New Base Building Pillage & Plunder Strategy Game! - Corsair Cove" />
+
+Success in the early game depends on your ability to manage limited space and resources. Unlike traditional city builders, this game emphasizes a "cluttered" aesthetic where every building must be linked to the main grid. If a building loses its connection, production halts immediately, and your pirates will quickly grow restless.
+
+<Callout type="tip" title="Connection Logic">
+Think of your paths as power lines. You do not need every building to touch the Pirate Camp directly; they only need to be part of the connected network to function.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Base Building and Infrastructure">
+
+Building a pirate haven requires a balance between industrial production and crew satisfaction. The **corsair cove demo** features a deep production hierarchy where raw materials are refined into advanced components. For instance, logs from the Wood Cutter must be processed at a Sawmill to create Planks, which are the primary currency for construction.
+
+<CardGrid cols={3}>
+  <Card title="Housing (Tents)">
+    - **Capacity**: Low
+    - **Requirement**: Basic Planks
+    - **Effect**: Increases population limit and reduces homelessness outrage.
+  </Card>
+  <Card title="Production (Sawmill)">
+    - **Input**: Raw Logs
+    - **Output**: Planks
+    - **Danger**: High fire hazard; keep away from residential zones if possible.
+  </Card>
+  <Card title="Logistics (Warehouse)">
+    - **Function**: Bulk Storage
+    - **Efficiency**: Essential for keeping production lines moving without clogs.
+    - **Tip**: Place near the Pier for easy ship repairs.
+  </Card>
+</CardGrid>
+
+As your settlement grows, you will need to expand into more specialized structures. The table below outlines the essential early-game buildings you will encounter.
+
+| Building | Function | Primary Input | Output |
+| :--- | :--- | :--- | :--- |
+| **Pirate Camp** | Central Hub / Storage | N/A | Basic Housing |
+| **Wood Cutter** | Raw Resource Extraction | Fertile Land | Logs |
+| **Sawmill** | Material Refining | Logs | Planks |
+| **Galley** | Food Distribution | Raw Food | Stew |
+| **Moonshine Still** | Alcohol Production | Water/Sugar | Grog |
+| **Quarry** | Stone Extraction | Rock Outcrops | Raw Stone |
+| **Stone Cutter** | Masonry Refining | Raw Stone | Stone Blocks |
+
+<Callout type="warning" title="Industrial Hazards">
+Sawmills and Flour Mills are significant fire hazards due to dust buildup. While the demo does not feature a complex fire system yet, proper spacing is recommended for future-proofing your layout.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Managing Pirate Cohesion and Morale">
+
+In the **corsair cove demo**, your crew is not just a workforce; they are a volatile group of criminals. The **Cohesion** meter tracks the overall stability of your society. If this drops to zero, you face a mutiny. Maintaining high cohesion requires fulfilling basic needs: housing, food, and alcohol.
+
+To manage your crew effectively, you must balance the needs of "Drifters" (unassigned labor) and "Pirates" (specialized crew). Events will frequently force you to make hard choices that impact your cohesion.
+
+| Event Type | Typical Choice | Cohesion Impact | Resource Cost |
+| :--- | :--- | :--- | :--- |
+| **Stranded Spies** | Execute them | Moderate Loss | -2 Pirates |
+| **Stranded Spies** | Welcome them | High Loss | None (Gain Workers) |
+| **Scabies Outbreak** | Use Liquor to dull pain | Neutral | High Beer Drain |
+| **New Refugees** | Accept Able-bodied | Small Gain | Food Upkeep |
+| **New Refugees** | Rob them | High Loss | +100 Gold |
+
+<Checklist
+  id="cohesion-checklist"
+  title="Daily Morale Maintenance:"
+  items={[
+    "Ensure total housing capacity exceeds current population by 10%",
+    "Verify Galley is producing Stew at a rate of +2 over consumption",
+    "Maintain a Tavern with active Moonshine supply for 'Debauchery' buffs",
+    "Clear any 'Outrage' icons immediately by checking path connections",
+    "Upgrade to a secondary Pirate Camp once your primary island is full"
+  ]}
+/>
+
+<Callout type="success" title="The Tavern Strategy">
+The Tavern is the most effective way to recover lost cohesion. Even if food is low, a steady supply of grog can keep a mutiny at bay for several days while you fix your production chains.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="Ship Construction and Naval Combat">
+
+Once your base is stable, the **corsair cove demo** shifts focus to the high seas. Building your first ship, the Land Lover (a basic sloop), is a major milestone. This requires a Pier and a dedicated crew of Swabbies. The game features a unique captain system where different leaders provide distinct advantages in combat.
+
+<Steps>
+  <Step num="1" title="Construct the Pier">
+    Place the Pier in a designated coastal slot and connect it to your main warehouse via a cliff path.
+  </Step>
+  <Step num="2" title="Assemble the Crew">
+    Convert Drifters into Swabbies. This requires an upfront gold cost and a steady supply of food.
+  </Step>
+  <Step num="3" title="Assign a Captain">
+    Choose a captain like **Teach** for aggressive playstyles or **Honorata** for exploration and treasure hunting.
+  </Step>
+  <Step num="4" title="Embark on Missions">
+    Select targets on the world map, such as Skull Rock or Barbos Bay, to plunder resources like Black Powder and Gold.
+  </Step>
+</Steps>
+
+Combat is resolved through a dice-based card system. Your captain's traits determine your dice pool, and the outcome of your rolls dictates the effectiveness of your actions, such as "Aim and Fire" or "Wasteful Barrage."
+
+| Combat Action | Dice Requirement | Effect | Supply Cost |
+| :--- | :--- | :--- | :--- |
+| **Aim and Fire** | Single Die | Deals 4-9 Damage | Low |
+| **Heavy Fire** | Double Dice | Double Damage to Health | Moderate |
+| **Take Cover** | Defensive Roll | Prevents 3-8 Damage | Low |
+| **Wasteful Barrage** | High Roll | Massive AOE Damage | Very High |
+
+<Callout type="info" title="Captain Teach">
+Captain Teach is the premier choice for the demo's combat missions. His "Easy as Murder" trait grants an extra dice roll in the next turn if you deal damage, allowing for devastating combos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Advanced Defense and Fortification">
+
+As your infamy grows, the Spanish Crown, led by the hunter Amara, will launch retaliatory strikes against your cove. Defensive structures are required to protect your infrastructure. The **Gun Tower** is your primary defense, but it requires a complex supply chain involving Stone Blocks and Black Powder.
+
+<CardGrid cols={2}>
+  <Card title="Stone Production Chain">
+    1. **Quarry**: Extract raw stone from cliffs.
+    2. **Stone Cutter**: Refine stone into Blocks.
+    3. **Transport**: Use porters to move blocks to the construction site.
+  </Card>
+  <Card title="Black Powder Logistics">
+    1. **Guano Gatherer**: Collect saltpeter from bird nesting sites.
+    2. **Harbor Storage**: Store powder away from residential tents to prevent accidents.
+    3. **Gun Tower**: Requires a constant supply of powder to fire at enemy ships.
+  </Card>
+</CardGrid>
+
+During an attack, the Gun Tower operates automatically as long as it is supplied. You must ensure your porters can reach the tower safely during a bombardment. If a tower runs out of Black Powder, it becomes a useless pile of rocks, leaving your Tavern and Galley vulnerable to destruction.
+
+<Callout type="tip" title="Defensive Placement">
+Place your Gun Towers on jutting outcrops. This maximizes their firing arc and keeps the "splash damage" from enemy cannons away from your vital food and wood production buildings.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Corsair Cove Demo FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I fix the 'Not Connected' error in the corsair cove demo?",
+    answer: "Ensure there is a continuous path (ladder or road) from the building to your Pirate Camp. Check for gaps in cliff paths or broken bridges that may have been damaged during a raid."
+  },
+  {
+    question: "What is the fastest way to gain more Pirates?",
+    answer: "Accept Drifters from events or 'fish them out' of the water after naval battles. Note that this increases your food and alcohol consumption significantly."
+  },
+  {
+    question: "Can I build more than one ship in the demo?",
+    answer: "The demo primarily focuses on a single-ship fleet (the Land Lover sloop). Future updates are expected to include frigates and galleons for larger fleet actions."
+  },
+  {
+    question: "What happens if my Cohesion reaches zero?",
+    answer: "A mutiny will trigger. You will have to resolve it through a special event, which often results in the loss of crew members or the destruction of buildings."
+  }
+]} />
+
+</Section>

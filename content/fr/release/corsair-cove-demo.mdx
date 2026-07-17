@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Hammer, Beer, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Démo de Corsair Cove : Guide Essentiel de Construction de Base et de Combat",
+  description: "Maîtrisez la démo de Corsair Cove avec notre guide sur la construction de base, la gestion des ressources et les stratégies de combat naval dans ce jeu de stratégie pirate de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a2b3c/fff?text=Corsair+Cove+Guide",
+  date: "2026-07-17",
+  author: "Équipe du Wiki Corsair Cove",
+  keywords: "corsair cove, démo, guide, construction de base, combat naval, stratégie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif Principal** : Établir un repaire de pirates autosuffisant tout en repoussant la Couronne espagnole.
+- **Mécanique Centrale** : Les bâtiments doivent être reliés au **Camp de Pirates** central via un système de chemins en grille.
+- **Priorité des Ressources** : Concentrez-vous sur le **Bois** et les **Planches** au début pour débloquer le logement et la production alimentaire.
+- **Gestion de la Cohésion** : Gardez les pirates nourris avec du **Ragoût** et satisfaits avec du **Moonshine** pour éviter la mutinerie.
+- **Combat Naval** : Utilisez des capitaines spécialisés comme **Teach** pour maximiser les lancers de dés lors des rencontres en mer.
+</Callout>
+
+<Section icon={Map} title="Bien débuter dans la démo de Corsair Cove">
+
+La **démo de corsair cove** introduit les joueurs dans un monde de piraterie à enjeux élevés, de construction de base et de survie tactique. Publié par Hooded Horse, ce titre vous met au défi de transformer un rocher désolé en un redoutable nid de pirates. L'expérience commence par un naufrage, laissant votre équipage bloqué avec seulement les vêtements qu'ils portent. Votre première tâche est de récupérer les débris et d'établir un camp de base pour abriter vos marins fatigués.
+
+**Points forts de la vidéo :**
+- **Récupération initiale** : Comment collecter des planches à partir des épaves pour lancer la construction.
+- **Connexions de chemins** : Comprendre la logique de "ligne électrique" pour la connectivité des bâtiments.
+- **Production précoce** : Mise en place de la chaîne du Bûcheron et de la Scierie.
+- **Intro navale** : Un premier regard sur la construction de sloops et le combat basé sur les dés.
+
+<YouTubeEmbed videoId="GYOs4piWC8c" title="A New Base Building Pillage & Plunder Strategy Game! - Corsair Cove" />
+
+Le succès en début de partie dépend de votre capacité à gérer un espace et des ressources limités. Contrairement aux jeux de construction de ville traditionnels, ce jeu privilégie une esthétique "encombrée" où chaque bâtiment doit être relié à la grille principale. Si un bâtiment perd sa connexion, la production s'arrête immédiatement et vos pirates deviendront rapidement agités.
+
+<Callout type="tip" title="Logique de Connexion">
+Considérez vos chemins comme des lignes électriques. Vous n'avez pas besoin que chaque bâtiment touche directement le Camp de Pirates ; ils doivent seulement faire partie du réseau connecté pour fonctionner.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Construction de base et infrastructure">
+
+Construire un repaire de pirates nécessite un équilibre entre la production industrielle et la satisfaction de l'équipage. La **démo de corsair cove** présente une hiérarchie de production profonde où les matières premières sont raffinées en composants avancés. Par exemple, les rondins du Bûcheron doivent être transformés dans une Scierie pour créer des Planches, qui sont la principale monnaie d'échange pour la construction.
+
+<CardGrid cols={3}>
+  <Card title="Logement (Tentes)">
+    - **Capacité** : Faible
+    - **Condition** : Planches de base
+    - **Effet** : Augmente la limite de population et réduit l'indignation liée au sans-abrisme.
+  </Card>
+  <Card title="Production (Scierie)">
+    - **Entrée** : Rondins bruts
+    - **Sortie** : Planches
+    - **Danger** : Risque d'incendie élevé ; à tenir éloigné des zones résidentielles si possible.
+  </Card>
+  <Card title="Logistique (Entrepôt)">
+    - **Fonction** : Stockage en vrac
+    - **Efficacité** : Essentiel pour éviter que les lignes de production ne s'engorgent.
+    - **Astuce** : Placez-le près du Quai pour faciliter les réparations de navires.
+  </Card>
+</CardGrid>
+
+À mesure que votre colonie s'agrandit, vous devrez vous étendre vers des structures plus spécialisées. Le tableau ci-dessous présente les bâtiments essentiels du début de partie que vous rencontrerez.
+
+| Bâtiment | Fonction | Entrée Principale | Sortie |
+| :--- | :--- | :--- | :--- |
+| **Camp de Pirates** | Hub Central / Stockage | N/A | Logement de base |
+| **Bûcheron** | Extraction de ressources | Terre fertile | Rondins |
+| **Scierie** | Raffinage de matériaux | Rondins | Planches |
+| **Cambuse** | Distribution de nourriture | Nourriture brute | Ragoût |
+| **Alambic à Moonshine**| Production d'alcool | Eau/Sucre | Grog |
+| **Carrière** | Extraction de pierre | Affleurements rocheux| Pierre brute |
+| **Tailleur de pierre** | Raffinage de maçonnerie | Pierre brute | Blocs de pierre |
+
+<Callout type="warning" title="Risques Industriels">
+Les scieries et les moulins à farine sont des risques d'incendie importants en raison de l'accumulation de poussière. Bien que la démo ne propose pas encore de système d'incendie complexe, un espacement approprié est recommandé pour pérenniser votre aménagement.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Gérer la cohésion et le moral des pirates">
+
+Dans la **démo de corsair cove**, votre équipage n'est pas seulement une main-d'œuvre ; c'est un groupe de criminels instables. La jauge de **Cohésion** suit la stabilité globale de votre société. Si elle tombe à zéro, vous faites face à une mutinerie. Maintenir une cohésion élevée nécessite de satisfaire les besoins de base : logement, nourriture et alcool.
+
+Pour gérer efficacement votre équipage, vous devez équilibrer les besoins des "Vagabonds" (main-d'œuvre non assignée) et des "Pirates" (équipage spécialisé). Des événements vous forceront fréquemment à faire des choix difficiles qui impacteront votre cohésion.
+
+| Type d'événement | Choix Typique | Impact Cohésion | Coût en Ressources |
+| :--- | :--- | :--- | :--- |
+| **Espions naufragés** | Les exécuter | Perte modérée | -2 Pirates |
+| **Espions naufragés** | Les accueillir | Perte élevée | Aucun (Gain d'ouvriers) |
+| **Épidémie de gale** | Utiliser l'alcool | Neutre | Consommation de bière |
+| **Nouveaux réfugiés** | Accepter les valides | Petit gain | Entretien alimentaire |
+| **Nouveaux réfugiés** | Les voler | Perte élevée | +100 Or |
+
+<Checklist
+  id="cohesion-checklist"
+  title="Entretien quotidien du moral :"
+  items={[
+    "S'assurer que la capacité totale de logement dépasse la population actuelle de 10%",
+    "Vérifier que la Cambuse produit du Ragoût à un taux de +2 par rapport à la consommation",
+    "Maintenir une Taverne avec un approvisionnement actif en Moonshine pour les buffs de 'Débauche'",
+    "Effacer immédiatement toute icône d'indignation en vérifiant les connexions de chemins",
+    "Passer à un second Camp de Pirates une fois que votre île principale est pleine"
+  ]}
+/>
+
+<Callout type="success" title="La Stratégie de la Taverne">
+La Taverne est le moyen le plus efficace de récupérer la cohésion perdue. Même si la nourriture vient à manquer, un approvisionnement régulier en grog peut contenir une mutinerie pendant plusieurs jours le temps de réparer vos chaînes de production.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="Construction de navires et combat naval">
+
+Une fois votre base stable, la **démo de corsair cove** se concentre sur la haute mer. Construire votre premier navire, le Land Lover (un sloop de base), est une étape majeure. Cela nécessite un Quai et un équipage dédié de Mousses. Le jeu propose un système de capitaine unique où différents chefs offrent des avantages distincts au combat.
+
+<Steps>
+  <Step num="1" title="Construire le Quai">
+    Placez le Quai dans un emplacement côtier désigné et connectez-le à votre entrepôt principal via un chemin de falaise.
+  </Step>
+  <Step num="2" title="Assembler l'équipage">
+    Convertissez les Vagabonds en Mousses. Cela nécessite un coût en or initial et un approvisionnement régulier en nourriture.
+  </Step>
+  <Step num="3" title="Assigner un capitaine">
+    Choisissez un capitaine comme **Teach** pour des styles de jeu agressifs ou **Honorata** pour l'exploration et la chasse au trésor.
+  </Step>
+  <Step num="4" title="S'embarquer dans des missions">
+    Sélectionnez des cibles sur la carte du monde, comme Skull Rock ou Barbos Bay, pour piller des ressources comme la Poudre Noire et l'Or.
+  </Step>
+</Steps>
+
+Le combat est résolu par un système de cartes basé sur les dés. Les traits de votre capitaine déterminent votre réserve de dés, et le résultat de vos lancers dicte l'efficacité de vos actions, telles que "Viser et Tirer" ou "Barrage Gaspilleur".
+
+| Action de Combat | Exigence de Dés | Effet | Coût en Fournitures |
+| :--- | :--- | :--- | :--- |
+| **Viser et Tirer** | Dé unique | Inflige 4-9 dégâts | Faible |
+| **Tir Nourri** | Double dés | Double dégâts à la santé | Modéré |
+| **Se mettre à l'abri**| Jet de défense | Prévient 3-8 dégâts | Faible |
+| **Barrage Gaspilleur**| Jet élevé | Dégâts de zone massifs | Très élevé |
+
+<Callout type="info" title="Capitaine Teach">
+Le Capitaine Teach est le choix de premier ordre pour les missions de combat de la démo. Son trait "Aussi simple qu'un meurtre" accorde un lancer de dés supplémentaire au tour suivant si vous infligez des dégâts, permettant des combos dévastateurs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Défense avancée et fortification">
+
+À mesure que votre infamie grandit, la Couronne espagnole, menée par la chasseuse Amara, lancera des raids de représailles contre votre crique. Des structures défensives sont nécessaires pour protéger votre infrastructure. La **Tour de Défense** est votre protection principale, mais elle nécessite une chaîne d'approvisionnement complexe impliquant des Blocs de Pierre et de la Poudre Noire.
+
+<CardGrid cols={2}>
+  <Card title="Chaîne de production de pierre">
+    1. **Carrière** : Extraire la pierre brute des falaises.
+    2. **Tailleur de pierre** : Raffiner la pierre en Blocs.
+    3. **Transport** : Utiliser des porteurs pour déplacer les blocs vers le site de construction.
+  </Card>
+  <Card title="Logistique de la poudre noire">
+    1. **Récolteur de Guano** : Collecter le salpêtre sur les sites de nidification des oiseaux.
+    2. **Stockage au Port** : Stocker la poudre loin des tentes résidentielles pour éviter les accidents.
+    3. **Tour de Défense** : Nécessite un approvisionnement constant en poudre pour tirer sur les navires ennemis.
+  </Card>
+</CardGrid>
+
+Lors d'une attaque, la Tour de Défense fonctionne automatiquement tant qu'elle est approvisionnée. Vous devez vous assurer que vos porteurs peuvent atteindre la tour en toute sécurité pendant un bombardement. Si une tour manque de Poudre Noire, elle devient un tas de cailloux inutile, laissant votre Taverne et votre Cambuse vulnérables à la destruction.
+
+<Callout type="tip" title="Placement Défensif">
+Placez vos Tours de Défense sur des promontoires saillants. Cela maximise leur arc de tir et éloigne les "dégâts collatéraux" des canons ennemis de vos bâtiments vitaux de production de nourriture et de bois.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ de la démo de Corsair Cove">
+
+<FAQ items={[
+  {
+    question: "Comment corriger l'erreur 'Non connecté' dans la démo de corsair cove ?",
+    answer: "Assurez-vous qu'il existe un chemin continu (échelle ou route) entre le bâtiment et votre Camp de Pirates. Vérifiez les interruptions dans les chemins de falaise ou les ponts brisés qui auraient pu être endommagés lors d'un raid."
+  },
+  {
+    question: "Quel est le moyen le plus rapide de gagner plus de Pirates ?",
+    answer: "Acceptez les Vagabonds lors des événements ou 'pêchez-les' hors de l'eau après les batailles navales. Notez que cela augmente considérablement votre consommation de nourriture et d'alcool."
+  },
+  {
+    question: "Puis-je construire plus d'un navire dans la démo ?",
+    answer: "La démo se concentre principalement sur une flotte à navire unique (le sloop Land Lover). Les futures mises à jour devraient inclure des frégates et des galions pour des actions de flotte plus importantes."
+  },
+  {
+    question: "Que se passe-t-il si ma Cohésion tombe à zéro ?",
+    answer: "Une mutinerie se déclenche. Vous devrez la résoudre via un événement spécial, qui entraîne souvent la perte de membres d'équipage ou la destruction de bâtiments."
+  }
+]} />
+
+</Section>

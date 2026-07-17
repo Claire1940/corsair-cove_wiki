@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Corsair Cove: Alkohol für Fletcher – Lieferketten- & Quest-Leitfaden",
+  description: "Meistern Sie die Quest 'Alkohol für Fletcher' in Corsair Cove. Erfahren Sie, wie Sie Ihre Brauereiproduktion optimieren, Fetcher zuweisen und Alkohol über vertikale Klippen liefern.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Booze+To+Fletcher+Guide",
+  date: "2026-07-17",
+  author: "Corsair Cove Wiki-Team",
+  keywords: "Corsair Cove, Fletcher Quest, Alkoholproduktion, Logistik, Fetcher, Brauerei, Rum"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptziel**: Die Lieferung von **Corsair Cove Alkohol an Fletcher** schaltet fortschrittliche Verteidigungsbaupläne und Elite-Fernkampf-Pirateneinheiten frei.
+- **Schlüsselvoraussetzung**: Errichten Sie eine stabile Produktionskette für Ale oder Rum und weisen Sie dedizierte Fetcher für den vertikalen Transport zu.
+- **Logistik-Fokus**: Halten Sie die Transportrouten kurz und „grün“, um Lieferverzögerungen auf den steilen Klippenpfaden zu vermeiden.
+- **Belohnungspotenzial**: Schaltet Fletchers Werkstatt, spezialisierte Wachtürme und hochwertige Marine-Kampfausrüstung frei.
+</Callout>
+
+<Section icon={Target} title="Die Questreihe: Alkohol für Fletcher">
+
+Der Aufbau eines blühenden Piratenhafens in Corsair Cove erfordert mehr als nur den Bau von Häusern und das Überfallen vorbeifahrender Handelsschiffe. Da sich Ihre Siedlung vertikal entlang der steilen Klippen der Insel ausdehnt, hat die Verteidigung Ihres angesammelten Reichtums oberste Priorität. Die Truppen der Krone werden regelmäßig Überfälle starten, um ihre verlorenen Güter zurückzufordern, was Verteidigungsanlagen für das Überleben unerlässlich macht. Um die besten Verteidigungen zu bauen, müssen Sie Fletcher rekrutieren, einen legendären Meisterschmied und Strategen, der in einem abgelegenen Lager auf den oberen Bergterrassen residiert.
+
+Fletcher ist ein eigensinniger Pirat im Ruhestand, der sich weigert, Ihrer Siedlung zu helfen, solange seine persönlichen Forderungen nicht erfüllt werden. Der Kern seines Rekrutierungsprozesses besteht darin, die Lieferquest **Corsair Cove Alkohol für Fletcher** abzuschließen. Er verlangt eine stetige Versorgung mit hochwertigem Alkohol, um seine Crew zufrieden zu stellen, bevor er seine fortschrittlichen Baupläne für Geschütztürme, Kanonen und spezialisierte Munition teilt. Eine mangelnde Versorgung stoppt nicht nur Ihren Verteidigungsfortschritt, sondern kann auch zu einem Rückgang des globalen Zusammenhalts (Cohesion) führen, wenn Ihre Siedlung anfällig für Angriffe der Krone bleibt.
+
+| Quest-Phase | Ziel | Benötigte Gegenstände | Belohnungen |
+| :--- | :--- | :--- | :--- |
+| Phase 1 | Fletchers Klippen-Außenposten lokalisieren | Keine | Kartenkoordinaten freigeschaltet |
+| Phase 2 | Lokale Versorgungslinie aufbauen | 10 Ale, 5 Zwieback | Fletchers Vertrauen (+5 Notoriety) |
+| Phase 3 | Dauerhafte Lieferung sichern | 20 Rum, 10 Eintopf | Bauplan für Fletchers Werkstatt |
+
+<Callout type="info" title="Verteidigungsplanung">
+Überfälle der Krone skalieren im Schwierigkeitsgrad basierend auf dem Gesamtreichtum und der Bevölkerung Ihrer Siedlung. Der frühe Abschluss von Fletchers Quest stellt sicher, dass Sie über die Verteidigungskapazitäten verfügen, die für das Überleben von Seeangriffen im mittleren Spielverlauf erforderlich sind.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Aufbau der Alkohol-Produktionskette">
+
+Um Fletchers anspruchsvollen Durst zu stillen, müssen Sie ein zuverlässiges Produktionsnetzwerk für Getränke aufbauen. In Corsair Cove ist Alkohol in verschiedene Stufen unterteilt, wobei Ale als Basisoption dient und Rum den bevorzugten High-Tier-Luxus darstellt. Die Herstellung dieser Getränke erfordert ein sorgfältiges Gleichgewicht zwischen Landwirtschaft, Wassergewinnung und Verarbeitung.
+
+Die Ale-Produktion ist der einfachste Ausgangspunkt. Sie benötigt Getreide und sauberes Wasser. Getreide muss auf flachem, fruchtbarem Boden angebaut werden, der in Küstennähe oft knapp ist. Sie müssen Getreidefarmen auf den unteren Terrassen errichten und diese mit Wassersammlern verbinden. Nach der Ernte müssen diese Rohstoffe zu einer Brauerei geleitet werden, wo Produktionsarbeiter sie zu Ale verarbeiten.
+
+Die Rum-Produktion ist komplexer, wird aber von Fletcher bevorzugt. Sie erfordert Zucker und sauberes Wasser. Da Zuckerrohr auf der Startinsel nicht natürlich wächst, müssen Sie Zucker entweder über Ihr Dock importieren oder mit Ihrer Flotte erfolgreiche Überfälle auf nahegelegene tropische Inseln starten. Sobald der Zucker gesichert ist, leiten Sie ihn an eine Brennerei weiter, um Rum herzustellen.
+
+| Getränk | Rohstoffe | Produktionsgebäude | Ausstoßrate | Crew-Zufriedenheit |
+| :--- | :--- | :--- | :--- | :--- |
+| Ale | Getreide, Sauberes Wasser | Brauerei | Hoch | Basis-Crew |
+| Rum | Zucker, Sauberes Wasser | Brennerei | Mittel | Spezialisten-Crew |
+| Wein | Importierte Trauben | Fortgeschrittene Kellerei | Niedrig | Elite-Crew |
+
+<Callout type="tip" title="Produktions-Tipp">
+Bauen Sie Ihre Wassersammler immer auf höherem Gelände. Durch Schwerkraft gespeiste Verbindungen benötigen keine zusätzliche Energie, was die Betriebskosten Ihrer Brauereien und Brennereien senkt.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Logistik optimieren: Fetcher und Routeneffizienz">
+
+Sobald Ihre Brauereien und Brennereien in Betrieb sind, besteht die nächste Herausforderung darin, den Alkohol zu Fletchers abgelegenem Klippenlager zu transportieren. Hier kommen Ihr Logistiknetzwerk und die Fetcher ins Spiel. Fetcher sind zugewiesene Piraten, die für den Transport von Waren zwischen Produktionsgebäuden, Verteilungszentren und Wohnlagern verantwortlich sind.
+
+Da Corsair Cove extremes vertikales Gelände aufweist, kann die Wegfindung schnell zu einem Engpass werden. Wenn Ihre Fetcher gewundene Bergpfade hinauflaufen müssen, um den Alkohol zu liefern, wird die Transitzeit zu lang, was zu einer "roten" Route führt. Rote Routen deuten auf schwere logistische Ineffizienz hin, die Lieferverzögerungen verursacht und zu einem Rückgang von Fletchers Zufriedenheit führen kann. Um dies zu verhindern, müssen Sie eine fortschrittliche vertikale Infrastruktur nutzen.
+
+<CardGrid cols={3}>
+  <Card title="Brücken">
+    - **Niedrige Ressourcenkosten**
+    - Überbrücken schmale Abgründe
+    - Ideal zur Verbindung benachbarter Terrassen
+  </Card>
+  <Card title="Lastenaufzüge">
+    - **Hohe Kapazität**
+    - Bewegen Waren vertikal
+    - Perfekt für schwere Ressourcen vom Hafen zu den Klippen
+  </Card>
+  <Card title="Seilrutschen">
+    - **Extrem schneller Transit**
+    - Einseitige Schnelllieferung
+    - Bestens geeignet für Fertigwaren wie Alkohol direkt in die Lager
+  </Card>
+</CardGrid>
+
+| Verbindungstyp | Baukosten | Höhenbegrenzung | Transportgeschwindigkeit | Beste Anwendungsfälle |
+| :--- | :--- | :--- | :--- | :--- |
+| Einfache Brücke | 10 Bauholz, 5 Stein | Niedrig | Moderat | Überqueren schmaler Schluchten |
+| Lastenaufzug | 20 Bauholz, 10 Eisen | Hoch | Langsam | Schwere Massengüter |
+| Express-Seilrutsche | 15 Bauholz, 5 Fasern | Hoch | Sehr schnell | Hochwertige Leichtgüter |
+
+<Callout type="warning" title="Logistik-Warnung">
+Verlassen Sie sich niemals auf einfache Fußwege für vertikale Langstreckenlieferungen. Fetcher verschwenden wertvolle Zeit mit Laufen, was dazu führt, dass Produktionsgebäude verstopfen und abgelegene Lager unter Ressourcenmangel leiden.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Schritt-für-Schritt-Lieferanleitung">
+
+Um die Lieferung erfolgreich abzuschließen und Fletchers Dienste zu sichern, folgen Sie diesem optimierten Fortschrittspfad.
+
+<Steps>
+  <Step num="1" title="Fletchers Außenposten finden">
+    Erkunden Sie den nördlichen Kamm Ihrer Insel, um Fletchers Lager zu finden. Sobald es entdeckt wurde, bauen Sie eine Straßenverbindung von Ihrer Hauptsiedlung zum Fuß seiner Klippe, um die Platzierung der Infrastruktur vorzubereiten.
+  </Step>
+  <Step num="2" title="Das Wasser- und Getreidenetzwerk errichten">
+    Platzieren Sie zwei Getreidefarmen auf einer fruchtbaren Terrasse und unterstützen Sie diese mit mindestens drei Wassersammlern. Stellen Sie sicher, dass diese Gebäude mit einem lokalen Lagerhaus verbunden sind, um die Rohstoffe zu speichern.
+  </Step>
+  <Step num="3" title="Die Brauerei bauen und versorgen">
+    Errichten Sie eine Brauerei in der Nähe Ihres Lagerhauses. Weisen Sie der Brauerei Produktionsarbeiter zu und überwachen Sie das Ressourcen-Panel, um sicherzustellen, dass der Zufluss von Getreide und Wasser dem Verbrauch der Brauerei entspricht.
+  </Step>
+  <Step num="4" title="Eine vertikale Seilrutschen-Verbindung herstellen">
+    Schalten Sie Seilrutschen über das Menü „Piratenprinzipien“ frei. Platzieren Sie eine Sendestation für die Seilrutsche neben Ihrer Brauerei und die Empfangsstation direkt im Betriebsradius von Fletchers Lager.
+  </Step>
+  <Step num="5" title="Dedizierte Fetcher zuweisen">
+    Weisen Sie der Seilrutschenstation mindestens zwei Fetcher zu. Diese werden das produzierte Ale oder Rum automatisch auf die Seilrutsche laden, wodurch der Alkohol in Sekunden direkt zu Fletcher geliefert und die Quest abgeschlossen wird.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Quest abgeschlossen">
+Sobald Fletchers Durst gestillt ist, wird der Bauplan für seine Werkstatt freigeschaltet. Platzieren Sie Fletchers Werkstatt in der Nähe Ihres Hafens, um mit der Herstellung fortschrittlicher Kanonen und Verteidigungsmunition zu beginnen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Siedlungsstabilität und Zusammenhaltsziele">
+
+Die Erweiterung Ihres Territoriums, um Fletchers Lager zu erreichen, wird die Wirtschaft Ihrer Siedlung belasten. Jedes neue Lager erweitert zwar Ihr bebaubares Gebiet, bringt aber auch neue Bewohner mit sich, die Wohnraum, Nahrung und Unterhaltung benötigen. Wenn diese Bedürfnisse ignoriert werden, sinkt Ihr globaler Zusammenhalt (Cohesion), was zum Scheitern des Spiels führen kann. Nutzen Sie diese Checkliste, um sicherzustellen, dass Ihre Siedlung während der Quest stabil bleibt.
+
+<Checklist
+  id="stability-goals"
+  title="Wichtige Meilensteine der Siedlung:"
+  items={[
+    "Bauen Sie ausreichend Wohnraum für alle Drifter und zugewiesenen Arbeiter, bevor Sie Lager erweitern",
+    "Halten Sie eine positive Nahrungsmittelbilanz durch Fischhütten und Kartoffelfelder aufrecht",
+    "Errichten Sie lokale Verteilungszentren, um Versorgungsengpässe zu vermeiden",
+    "Halten Sie den globalen Zusammenhalt über fünfzig Prozent, indem Sie unerfüllte Bedürfnisse schnell lösen",
+    "Verbessern Sie die Verteidigungstürme in Hafennähe, um Ihre Lagerhäuser zu schützen"
+  ]}
+/>
+
+<Callout type="tip" title="Zusammenhalts-Tipp">
+Vermeiden Sie schnelles Bevölkerungswachstum. Rekrutieren Sie neue Piraten nur dann, wenn Ihre Nahrungs- und Getränkeproduktionsketten einen stabilen Überschuss aufweisen, da leere Mägen die Moral der Piraten schnell zerstören.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Warum zeigt meine Alkohollieferroute eine rote Linie?",
+    answer: "Eine rote Linie zeigt an, dass die physische Distanz zwischen Ihrer Brauerei und Fletchers Lager zu groß ist, als dass Fetcher sie effizient zu Fuß bewältigen könnten. Um dies zu beheben, bauen Sie eine Seilrutsche oder einen Lastenaufzug für eine direkte vertikale Verbindung."
+  },
+  {
+    question: "Kann ich die Quest nur mit einfachem Ale abschließen?",
+    answer: "Ja, Sie können die Anfangsphasen der Quest 'Corsair Cove Alkohol für Fletcher' mit Ale abschließen. Um jedoch seine hochwertigsten Verteidigungsbaupläne freizuschalten, werden schließlich Lieferungen von Premium-Rum erforderlich sein."
+  },
+  {
+    question: "Was passiert, wenn ich Fletcher nicht mit Alkohol versorge?",
+    answer: "Wenn Fletchers Getränkevorrat versiegt, sinkt seine Zufriedenheit, was dazu führt, dass er die Produktion in Fletchers Werkstatt einstellt. Dies stoppt Ihren Verteidigungsfortschritt und macht Ihre Siedlung anfällig für Überfälle der Krone."
+  },
+  {
+    question: "Woher bekomme ich den für Rum benötigten Zucker?",
+    answer: "Zucker kann auf Ihrer Startinsel nicht angebaut werden. Sie müssen ihn entweder an Ihrem Dock eintauschen oder am Pier eine Flotte aufbauen und Überfälle auf südliche tropische Inseln starten, um deren Zuckerplantagen zu plündern."
+  }
+]} />
+
+<Callout type="info" title="Letzte Erinnerung">
+Behalten Sie Ihr Ressourcen-Panel genau im Auge. Ein plötzlicher Abfall der Wasserversorgung kann Ihre gesamte Getränkekette zum Erliegen bringen, was sofort zu Versorgungsengpässen in allen Piratenlagern führt.
+</Callout>
+
+</Section>

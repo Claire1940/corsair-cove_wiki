@@ -1,0 +1,164 @@
+import { Map, Swords, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Where to Build Cannon Towers: Defensive Layout Guide",
+  description: "Master the art of base defense in Corsair Cove. Learn optimal locations to build cannon towers and protect your pirate settlement from invaders.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Corsair+Cove+Defense",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Corsair Cove where to build cannon towers** depends on your access to coastline and high-ground vantage points.
+- **Strategic placement** is essential to cover vulnerable docks and storage areas from enemy naval attacks.
+- **Resource management** must be balanced with defensive infrastructure to maintain pirate happiness and productivity.
+- **Early-game defense** should prioritize protecting your main camp and essential resource production chains.
+- **Active defense** tactics, such as "All Hands on Deck," can mitigate damage when towers are being constructed.
+</Callout>
+
+<Section icon={Map} title="Optimal Tower Placement Strategy">
+
+Establishing a robust defense in Corsair Cove requires a clear understanding of your island’s geography. Building cannon towers is not just about firepower; it is about maximizing the range of your coastal coverage.
+
+**Video Highlights:**
+- Understanding the connection between pirate camps and resource chains.
+- Managing verticality when building structures on steep cliff faces.
+- The importance of strategic pier placement for ship security.
+
+<YouTubeEmbed videoId="ah4FKq7Nicg" title="This can't possibly be a safe way to construct a city | Corsair Cove (Demo)" />
+
+For effective defense, focus your construction on the following zones:
+
+| Zone Type | Defensive Priority | Recommended Structure |
+| :--- | :--- | :--- |
+| Coastal Docks | High | Cannon Tower |
+| Resource Warehouse | Medium | Watchtower |
+| Residential Cliffs | Low | Basic Barricade |
+| Main Pirate Camp | Critical | Multi-Cannon Battery |
+
+<Callout type="tip" title="Pro Tip">
+Always ensure your cannon towers are connected to your main resource warehouse network. If the pathing is broken, your pirates cannot supply the ammunition required for active defense.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Defensive Layout Comparison">
+
+Choosing the right layout depends on your current stage in the game. Use this guide to compare defensive strategies based on your available resources.
+
+<CardGrid cols={3}>
+  <Card title="Coastal Perimeter">
+    - **Best for early game**
+    - Protects the shoreline
+    - Low resource cost
+  </Card>
+  <Card title="Cliffside Battery">
+    - **High-ground advantage**
+    - Extended range
+    - Requires complex paths
+  </Card>
+  <Card title="Warehouse Hub">
+    - **Protects stockpile**
+    - High durability
+    - Centralized defense
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Critical Warning">
+Avoid overbuilding on steep surfaces without proper ladder connections. If your pirates cannot navigate the terrain, your cannon towers will remain unmanned during a raid.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Step-by-Step Construction Guide">
+
+Follow these steps to effectively set up your defense systems without disrupting your economy.
+
+<Steps>
+  <Step num="1" title="Clear the Shoreline">
+    Remove debris and unused shipwrecks to create flat space for your foundation and pier construction.
+  </Step>
+  <Step num="2" title="Connect the Network">
+    Ensure your builders have a clear path from the main camp to the construction site using ladders or cliff paths.
+  </Step>
+  <Step num="3" title="Install Cannon Towers">
+    Place towers at the edge of your coastal influence area to maximize coverage against incoming vessels.
+  </Step>
+  <Step num="4" title="Establish Supply Chains">
+    Link the towers to your sawmill and warehouse to ensure a steady supply of resources for repairs.
+  </Step>
+</Steps>
+
+| Step Stage | Key Requirement | Expected Result |
+| :--- | :--- | :--- |
+| Site Prep | 20 Planks | Clear building zone |
+| Foundation | 40 Planks | Structural base |
+| Arming | 10 Iron/Steel | Active defense |
+| Maintenance | 5 Wood/Tick | Operational status |
+
+</Section>
+
+<Section icon={Sparkles} title="Maintenance and Upkeep">
+
+Maintaining your defensive towers is as important as building them. A neglected tower is a liability rather than an asset.
+
+<Callout type="success" title="Efficiency Boost">
+Maintain a "Happiness" level above 50% to ensure your pirates work efficiently on repairing damaged defenses after an attack.
+</Callout>
+
+Use the following table to track the upkeep costs of your defensive structures:
+
+| Structure | Upkeep Cost | Priority |
+| :--- | :--- | :--- |
+| Cannon Tower | 2 Wood/Cycle | High |
+| Watchtower | 1 Wood/Cycle | Low |
+| Defensive Wall | 3 Stone/Cycle | Medium |
+| Pier Beacon | 1 Wood/Cycle | High |
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where exactly should I build cannon towers in Corsair Cove?",
+    answer: "You should build cannon towers along the coastal perimeter, specifically near your piers and primary resource warehouses, to intercept enemy ships before they reach your main camp."
+  },
+  {
+    question: "Can I build defensive structures on the cliffs?",
+    answer: "Yes, cliffside construction is possible and provides a range advantage, but it requires careful planning of ladder connections to ensure your pirates can reach them."
+  },
+  {
+    question: "What should I do if my towers are not firing?",
+    answer: "Check your pathing connections. If your towers are not linked to your warehouse or camp, your pirates cannot deliver the necessary ammunition to keep them operational."
+  },
+  {
+    question: "How do I defend against an island attack?",
+    answer: "Use the 'All Hands on Deck' command to mobilize your pirates quickly and prioritize repairs on your cannon towers while the enemy is attacking."
+  }
+]} />
+
+</Section>
+
+<Section icon={Target} title="Final Defensive Checklist">
+
+<Checklist
+  id="defense-checklist"
+  title="Island Defense Checklist:"
+  items={[
+    "Verify all towers are connected to the warehouse",
+    "Ensure at least two paths exist to every defensive structure",
+    "Keep a stockpile of wood for immediate repairs",
+    "Maintain high happiness to ensure rapid response times"
+  ]}
+/>
+
+</Section>

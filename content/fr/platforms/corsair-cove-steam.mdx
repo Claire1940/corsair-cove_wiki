@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Steam : Guide de démarrage pas à pas et conseils de progression",
+  description: "Maîtrisez Corsair Cove sur Steam grâce à notre guide de démarrage d'expert. Apprenez à gérer les chaînes de production, le combat naval, la cohésion et l'amélioration des navires.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Steam+Guide",
+  date: "2026-07-17",
+  author: "Équipe du Wiki de Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Corsair Cove Steam** propose une expérience approfondie de city-builder de pirates semblable à Anno, avec des chaînes de production complexes et une logistique en temps réel.
+- **La gestion de la cohésion** est votre principale statistique de survie, car si ce système de moral tombe à zéro, la partie se termine immédiatement.
+- **Le combat naval** combine une navigation stratégique sur la carte du monde et des mécaniques tactiques de cartes et de lancers de dés au tour par tour.
+- **L'optimisation de la logistique** repose en grande partie sur des réseaux routiers compacts, des entrepôts dédiés et une répartition spécialisée de la main-d'œuvre.
+</Callout>
+
+<Section icon={Map} title="Créer votre repaire : Les bases du gameplay de Corsair Cove Steam">
+
+Naviguer dans les eaux dangereuses de **corsair cove steam** apporte une touche inédite sur le thème des pirates au genre classique du city-builder. Publié par Hooded Horse, ce jeu vous met au défi de bâtir un repaire de pirates prospère à partir d'une simple épave. Vous incarnez un équipage de bagnards évadés fuyant la colère du chasseur espagnol, Amara. Pour survivre, vous devez établir un abri immédiat, gérer les ressources et construire une flotte capable de défendre votre nouveau foyer.
+
+**Points forts de la vidéo :**
+- Établissez des réseaux routiers immédiatement depuis l'épave pour récupérer les planches de départ.
+- Maintenez la satisfaction de la population en construisant des tentes le long des sentiers de falaise.
+- Faites évoluer les unités de vagabonds de base en bâtisseurs, transporteurs et ouvriers spécialisés.
+- Déverrouillez la carte du monde pour rechercher des naufragés, piller des navires marchands et piller des ports de la Couronne.
+
+<YouTubeEmbed videoId="k6CzPuh-zgY" title="Créer une VILLE DE PIRATES dans Corsair Cove VERSION FINALE - Nouveau Citybuilder type Anno Lets Play" />
+
+Lorsque vous débarquez pour la première fois sur Skull Rock, votre priorité absolue est la récupération. L'épave contient les planches vitales nécessaires pour lancer votre économie. Grâce à l'outil de construction de routes flexible, vous pouvez tracer des chemins sur des falaises abruptes et automatiser le placement d'échelles en bois. Cette verticalité est une mécanique centrale du jeu, vous permettant d'exploiter chaque niveau de la géographie de votre île.
+
+Votre population est initialement composée de vagabonds. Les vagabonds sont des travailleurs polyvalents qui peuvent être affectés à des rôles spécialisés. Ceux-ci incluent les bâtisseurs, les ouvriers, les transporteurs et les membres d'équipage. Gérer cette main-d'œuvre de manière dynamique est essentiel pour maintenir l'équilibre de votre économie alors que vous passez d'un minuscule camp à une immense cité pirate.
+
+<Callout type="tip" title="Placement stratégique des routes">
+Reliez toujours directement vos routes aux gisements de ressources dès le début. Cela garantit que vos transporteurs pourront acheminer les planches et les bûches récupérées vers l'entrepôt sans retards de trajet inutiles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Chaînes de production et gestion des ressources">
+
+Pour faire vivre une population de pirates en pleine croissance, vous devez établir des chaînes de production efficaces. L'économie est divisée en biens de survie de base et en matériaux industriels avancés. Les biens de base permettent de nourrir vos pirates et de les garder heureux, tandis que les matériaux avancés sont nécessaires pour la construction navale et la défense côtière.
+
+Votre première chaîne de production majeure est la transformation du bois. Vous aurez besoin d'un Bûcheron pour récolter des bûches, qui seront ensuite transformées par une Scierie en planches. Les planches sont le principal matériau de construction de presque toutes les structures de votre repaire. Après le bois, la production de nourriture doit être établie. Cela nécessite un Feu de camp pour cuisiner les ingrédients bruts en ragoût, et une Cambuse pour distribuer la nourriture à votre équipage.
+
+| Produit | Ingrédient | Bâtiment clé | Niveau d'ouvrier |
+|---|---|---|---|
+| **Planches** | Bûches | Scierie | Ouvriers |
+| **Ragoût** | Nourriture brute | Feu de camp | Transporteurs |
+| **Bière** | Levure, Eau | Brasserie | Ouvriers |
+| **Toile** | Fibres, Clous en bois | Tisserand | Ouvriers |
+| **Voiles** | Toile | Voilier | Ouvriers |
+
+À mesure que votre ville grandit, vos pirates réclameront des divertissements. Cela introduit la chaîne de production d'alcool. Vous devez construire une Brasserie pour produire de la bière et une Taverne pour la servir. Garder vos pirates bien nourris et suffisamment ivres est le seul moyen de maintenir des niveaux de satisfaction élevés.
+
+Les chaînes de production avancées impliquent la fabrication de voiles et de cordages pour votre flotte. Cela nécessite un Coupe-feuilles pour récolter les fibres, un Atelier de menuiserie pour fabriquer des clous en bois, un Tisserand pour transformer les fibres et les clous en toile, et enfin un Voilier pour produire des voiles.
+
+| Ressource avancée | Ingrédients requis | Chaîne de transformation | Objectif principal |
+|---|---|---|---|
+| **Voiles** | Toile | Du Coupe-feuilles au Tisserand puis au Voilier | Améliorer et construire des navires |
+| **Cordages** | Fibres | Cordier | Progression navale et gréement |
+| **Blocs de pierre** | Pierre brute | De la Carrière au Tailleur de pierre | Construire des tours de défense |
+
+<Callout type="warning" title="Surveillez vos réserves de nourriture">
+N'élargissez pas votre main-d'œuvre trop rapidement. Un afflux soudain de vagabonds épuisera rapidement vos réserves de ragoût, provoquant une chute de la satisfaction et déclenchant une révolte précoce.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cohésion, logement et stratégies de défense">
+
+Votre repaire de pirates est constamment menacé de l'intérieur comme de l'extérieur. La cohésion représente le moral collectif de votre équipage. Si la cohésion tombe à zéro, votre équipage se mutinera, entraînant un écran de fin de partie immédiat. Des événements narratifs aléatoires mettront à l'épreuve votre leadership. For example, capturer des soldats ennemis vous oblige à choisir entre les exécuter, ce qui entraîne une légère perte de cohésion, ou les recruter, ce qui vous fait gagner des travailleurs mais nuit gravement à la confiance globale.
+
+Le logement est directement lié à la satisfaction. Les pirates exigent un abri décent, que vous fournissez en construisant des tentes. Les tentes peuvent être regroupées le long des falaises pour gagner de la place.
+
+De plus, vous devez vous préparer aux menaces extérieures. La chasseuse espagnole Amara localisera périodiquement votre île et lancera des bombardements navals dévastateurs. Pour survivre à ces attaques, vous devez passer d'une économie pure à un État militarisé en construisant des Tours de défense.
+
+<CardGrid cols={3}>
+  <Card title="La cohésion d'abord">
+    Priorisez les choix narratifs qui maintiennent un moral élevé. Ne recrutez de nouveaux membres d'équipage que lorsque vous disposez d'un excédent de nourriture et de divertissements pour les garder heureux.
+  </Card>
+  <Card title="Logements compacts">
+    Regroupez les tentes à proximité des Cambuses et des Tavernes. Cela réduit le temps que les pirates passent à marcher pour satisfaire leurs besoins, maximisant ainsi leurs heures de travail.
+  </Card>
+  <Card title="Configuration défensive">
+    Accumulez de la pierre brute et transformez-la rapidement en blocs de pierre. Construisez votre première Tour de défense près de l'entrée du port avant le deuxième raid programmé d'Amara.
+  </Card>
+</CardGrid>
+
+| Bâtiment | Coût de construction | Intrant de fonctionnement | Avantage principal |
+|---|---|---|---|
+| **Camp de pirates** | **20 Planches** | Aucun | Élargit la zone de construction et la main-d'œuvre |
+| **Tentes** | **5 Planches** | Aucun | Augmente la capacité maximale de la population |
+| **Cambuse** | **15 Planches** | Ragoût | Distribue de la nourriture pour maintenir la satisfaction |
+| **Tour de défense** | **50 Blocs de pierre** | Poudre à canon | Défend automatiquement le port contre les raids |
+
+<Callout type="success" title="Bonus de victoire défensive">
+Repousser avec succès un raid naval grâce à une Tour de défense bien approvisionnée offre un boost massif de cohésion et laisse derrière lui de précieuses épaves à récupérer.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Construction navale, capitaines et guide du combat naval">
+
+Pour véritablement maîtriser les mers, vous devez construire une flotte. La construction navale nécessite un Ponton peu profond, qui ne peut être placé que dans des zones côtières prédéfinies. Une fois votre ponton construit, vous pouvez établir un chantier naval pour construire votre premier navire, le modeste Land Lover.
+
+À mesure que vous progressez dans les arbres technologiques, vous débloquerez des plans de navires avancés. Ces navires varient en vitesse, en capacité d'équipage et en capacités de combat.
+
+| Plan de navire | Capacité d'équipage | Dégâts d'abordage | Évaluation de vitesse | Attributs spéciaux |
+|---|---|---|---|---|
+| **Land Lover** | 15 | Faibles | Lent | Navire de départ basique |
+| **Moonlighter** | 20 | Moyens | Modérée | Capacité de cargaison améliorée |
+| **Tide Runner** | 25 | Moyens | Rapide | Esquive et vitesse élevées |
+| **Destroyer** | 40 | Élevés | Modérée | Blindage de coque lourd |
+
+Chaque navire nécessite un capitaine et un équipage. Vous pouvez choisir parmi plusieurs capitaines uniques, comme Teach (Barbe Noire), spécialisé dans l'exploration et les dégâts des canons. Assigner un équipage complet de vagabonds à votre navire augmente vos chances de réussite lors des voyages sur la carte du monde.
+
+Le combat naval dans le jeu est une affaire tactique au tour par tour combinant cartes et lancers de dés. Lorsque vous engagez un navire ennemi ou pillez un port, vous devez gérer votre équipage, vos provisions et les points de vie de votre coque.
+
+| Carte d'action de combat | Exigence de dés | Effet principal | Stratégie tactique |
+|---|---|---|---|---|
+| **Distance de sécurité** | Lancer élevé | Prévient les dégâts entrants | À utiliser lorsque l'ennemi prépare un barrage lourd |
+| **Dans la brèche** | Lancer équilibré | Inflige de lourds dégâts à l'équipage | Parfait pour préparer un abordage ennemi |
+| **Feu nourri** | Lancer élevé | Inflige d'immenses dégâts de coque | Idéal contre les escortes de marchands blindés |
+| **Aubaine** | N'importe quel lancer | Génère du butin et des provisions supplémentaires | À jouer lorsque l'ennemi est en posture défensive |
+
+<Steps>
+  <Step num="1" title="Construire un Ponton peu profond">
+    Trouvez un emplacement côtier prédéfini et dépensez 30 planches pour construire votre premier ponton et chantier naval.
+  </Step>
+  <Step num="2" title="Nommer un capitaine et un équipage">
+    Sélectionnez un capitaine correspondant à vos objectifs de voyage et assignez jusqu'à 15 vagabonds en tant que membres d'équipage actifs.
+  </Step>
+  <Step num="3" title="Naviguer sur la carte du monde">
+    Envoyez votre navire explorer le brouillard de guerre, secourir des naufragés ou intercepter des navires marchands vulnérables.
+  </Step>
+  <Step num="4" title="S'engager dans un combat tactique">
+    Lancez vos dés pour correspondre à vos cartes de combat, en équilibrant les manœuvres défensives et les actions d'abordage agressives.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Récompenses de raid">
+Piller avec succès des navires marchands ou mener des raids contre les ports de la Couronne rapporte des ressources avancées de grande valeur, notamment de la poudre noire, des pièces et des blocs de pierre brute.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Les Quatre Vents : Arbres de progression et exploits">
+
+La progression est régie par le système des « Quatre Vents ». Cet immense arbre de progression est divisé en quatre voies distinctes : Navigation, Empire, Notoriété et Richesse. Vous gagnez des points de progression en accomplissant des exploits spécifiques appelés Faits d'armes.
+
+Les Faits d'armes vont de tâches simples comme rassembler un total de 100 pirates à des défis complexes comme maintenir simultanément trois routes de transport efficaces.
+
+| Voie de progression | Déverrouillages clés | Style de jeu ciblé |
+|---|---|---|
+| **Navigation** | Navire Tide Runner, efficacité du Voilier | Exploration, vitesse et domination navale |
+| **Empire** | Tyroliennes, carrières de pierre, camps plus grands | Expansion rapide, infrastructures et logistique |
+| **Notoriété** | Tours de défense, canons avancés, cartes de combat | Puissance défensive, raids et prouesses au combat |
+| **Richesse** | Comptoirs commerciaux, tripots, génération de pièces | Revenus passifs, commerce de marché et produits de luxe |
+
+En choisissant soigneusement les exploits à poursuivre, vous pouvez personnaliser votre repaire de pirates pour qu'il corresponde à votre style de jeu préféré. Par exemple, vous concentrer sur la voie de l'Empire vous permet de débloquer des systèmes de transport avancés comme des tyroliennes et des ascenseurs de falaise, ce qui réduit considérablement le temps que vos transporteurs passent à déplacer les ressources le long des falaises abruptes de l'île.
+
+<Checklist
+  id="early-game-milestones"
+  title="Jalons essentiels du début de partie :"
+  items={[
+    "Automatiser une ligne de production de base pour les planches et le bois",
+    "Construire un deuxième Camp de pirates pour étendre votre territoire",
+    "Établir une carrière et un tailleur de pierre pour produire des blocs de pierre",
+    "Construire une Tour de défense pour défendre avec succès le repaire contre le deuxième raid d'Amara",
+    "Améliorer votre chantier naval pour construire un navire Tide Runner"
+  ]}
+/>
+
+<Callout type="tip" title="Optimisation des tyroliennes">
+Débloquez la technologie de la Tyrolienne dans l'arbre de l'Empire le plus tôt possible. Placer des tyroliennes entre les gisements de ressources en haut des falaises et votre entrepôt central doublera l'efficacité de votre logistique.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions sur Corsair Cove Steam">
+
+<FAQ items={[
+  {
+    question: "Comment puis-je augmenter et maintenir la cohésion dans Corsair Cove ?",
+    answer: "La cohésion est maintenue en veillant à ce que vos pirates soient satisfaits grâce à des logements adéquats, de la nourriture et de l'alcool. De plus, lors des événements narratifs, évitez de prendre des décisions très impopulaires, comme exécuter des membres d'équipage, à moins que cela ne soit absolument nécessaire."
+  },
+  {
+    question: "Quel est le meilleur moyen d'optimiser le transport des ressources ?",
+    answer: "Gardez vos bâtiments de production à proximité de leurs gisements de ressources respectifs et construisez des entrepôts à côté. Assignez de nombreux transporteurs et améliorez votre infrastructure avec des ascenseurs de falaise et des tyroliennes dès qu'ils sont débloqués dans l'arbre de progression."
+  },
+  {
+    question: "Comment puis-je défendre mon repaire contre les raids navals d'Amara ?",
+    answer: "Vous devez construire une Tour de défense près de l'entrée de votre port. Les Tours de défense nécessitent des blocs de pierre pour être construites et un approvisionnement régulier en poudre à canon pour tirer. Assurez-vous que votre entrepôt livre activement de la poudre à canon à la tour avant le début du raid."
+  },
+  {
+    question: "Où dois-je construire mon deuxième camp de pirates ?",
+    answer: "Recherchez des zones riches en ressources sur la carte du monde présentant des gisements clés comme du minerai de fer, du minerai de cuivre ou de l'eau douce. Construire votre deuxième camp près de ces gisements vous permet de revendiquer le territoire et de commencer à extraire des matériaux avancés."
+  }
+]} />
+
+</Section>

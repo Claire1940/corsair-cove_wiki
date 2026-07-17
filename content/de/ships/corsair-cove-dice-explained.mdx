@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Würfel erklärt: Kampfmechanik & RNG-Strategie-Guide",
+  description: "Meistern Sie das Würfel- und Kartensystem von Corsair Cove. Erfahren Sie, wie RNG den Kampfschaden beeinflusst, wie Sie Vorräte verwalten und Strategien zur Risikominimierung im Jahr 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dice+and+Combat+Guide",
+  date: "2026-07-17",
+  author: "Corsair Cove Wiki-Team",
+  keywords: "Corsair Cove, Würfel erklärt, Kampfmechanik, Strategie, RNG, Piraten-City-Builder"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Corsair Cove Würfel erklärt**: Würfelwürfe bestimmen den endgültigen Wert innerhalb des Schadensbereichs einer Karte und verbinden Strategie mit RNG.
+- **Vertikale Logistik**: Das Bauen nach oben an Klippen ist aufgrund begrenzten flachen Landes zwingend erforderlich; nutzen Sie Winden und Aufzüge für mehr Effizienz.
+- **Crew-Zusammenhalt**: Die Verwaltung der Piratenzufriedenheit (Nahrung, Grog) ist lebenswichtig, da ein Zusammenhalt von Null zu einem sofortigen Game Over führt.
+- **Kampfressourcen**: Jede gespielte Karte kostet Vorräte; das Gleichgewicht zwischen wirkungsvollen Spielzügen und Ressourcenschonung ist der Schlüssel zum Sieg.
+- **Effizienz-Feedback**: Nutzen Sie das farbcodierte Pfadsystem (Grün/Gelb/Rot), um Engpässe auf der Insel zu identifizieren und zu beheben.
+</Callout>
+
+<Section icon={Map} title="Vertikale Siedlungslogistik in Corsair Cove">
+
+In der Landschaft der City-Builder des Jahres 2026 sticht Corsair Cove hervor, indem es die Spieler zwingt, die traditionelle horizontale Expansion aufzugeben. Im Gegensatz zu Standardtiteln, bei denen man sich über eine flache Karte ausbreitet, müssen Sie hier die Vertikalität hoch aufragender Klippen meistern. Diese architektonische Herausforderung ist das Fundament Ihres Piratenhafens und erfordert ein komplexes Netzwerk aus Erdpfaden, Klippenwegen und fortschrittlichen Maschinen, um den Ressourcenfluss zwischen der Küste und den Gipfeln aufrechtzuerhalten.
+
+**Video-Highlights:**
+- **Fokus auf Vertikalität**: Erfahren Sie, warum das Bauen an Klippen auf und ab wichtiger ist als die Expansion nach außen.
+- **Logistiknetzwerk**: Übersicht über Seile, Leitern und Winden, die zur Verbindung des zentralen Piraten-Hubs verwendet werden.
+- **Dynamische Vorschauen**: Wie das Spiel die Spieler in Echtzeit bei der Visualisierung von Gebäudeverbindungen unterstützt.
+- **Produktionsketten**: Einblicke in den Ressourcenabbau und die Notwendigkeit, jedes Bauwerk zu verbinden.
+
+<YouTubeEmbed videoId="cvDMCebZxvU" title="Corsair Cove ist KEIN normaler City-Builder, und hier ist der Grund..." />
+
+Der Erfolg auf Ihrer Insel hängt stark davon ab, wie Sie die Höhe verwalten. Da flaches Land Mangelware ist, wird Ihre Siedlung schließlich einem komplexen Geflecht aus miteinander verbundenen Schichten gleichen. Das Spiel bietet visuelles Feedback in Echtzeit, um Ihnen zu helfen, diese Komplexität zu navigieren und sicherzustellen, dass Ihre Piratenarbeiter die von Ihnen platzierten Gebäude tatsächlich erreichen können.
+
+| Logistik-Werkzeug | Hauptfunktion | Vertikale Reichweite | Freischaltphase |
+| :--- | :--- | :--- | :--- |
+| **Erdpfade** | Grundlegende Bewegung auf Bodenebene | Keine | Start |
+| **Klippenwege** | Horizontale Bewegung entlang von Klippenwänden | Niedrig | Frühes Spiel |
+| **Seile & Leitern** | Einfaches vertikales Klettern für Arbeiter | Mittel | Frühes Spiel |
+| **Winden** | Manuelles Hochziehen von Ressourcen | Mittel | Mittleres Spiel |
+| **Seilaufzüge** | Vertikaler Hochgeschwindigkeitstransport | Hoch | Spätes Spiel |
+
+<Callout type="tip" title="Effizienz-Tipp">
+Gruppieren Sie Gebäude innerhalb derselben Produktionskette immer nah beieinander. Vertikalität fügt Distanz hinzu, daher kann ein Gebäude direkt über einem anderen logistisch gesehen „näher“ sein, wenn es durch einen effizienten Aufzug verbunden ist.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Corsair Cove Würfel erklärt: Kampf-RNG meistern">
+
+Die am häufigsten gestellte Frage neuer Kapitäne betrifft die Mechanik **Corsair Cove Würfel erklärt** innerhalb des Begegnungssystems. Der Kampf ist kein Echtzeit-Scharmützel, sondern ein kalkulierter Card-Battler, bei dem jede Aktion durch einen Würfelwurf beeinflusst wird. Wenn Sie in eine mehrstufige Seeschlacht verwickelt sind, hängt Ihr Erfolg von Ihrer Fähigkeit ab, Ihren Vorrat an Ressourcen zu verwalten, während Sie die richtigen Karten zum richtigen Zeitpunkt spielen.
+
+Jede Karte in Ihrer Hand hat einen festgelegten Schadens- oder Verteidigungsbereich. Wenn eine Karte gespielt wird, löst das Spiel einen Würfelwurf aus, um zu bestimmen, wo das tatsächliche Ergebnis innerhalb dieses Bereichs liegt. Ein „hoher“ Wurf erreicht die Obergrenze des Potenzials der Karte, während ein „niedriger“ Wurf zu einer minimalen Auswirkung führt. Dies schafft eine Umgebung mit hohem Einsatz, in der selbst die bestgelegten Pläne ein Quäntchen Glück erfordern.
+
+| Kartentyp | Haupteffekt | Vorratskosten | RNG-Einfluss |
+| :--- | :--- | :--- | :--- |
+| **Angriff** | Fügt dem Schiff oder der Crew Schaden zu | Mittel bis Hoch | Hoch (Breiter Schadensbereich) |
+| **Verteidigung** | Mildert eingehenden gegnerischen Schaden | Niedrig bis Mittel | Moderat (Fester Block + Wurf) |
+| **Opfer** | Tauscht Schiffshaltbarkeit gegen Vorräte | Null | Niedrig (Fester Vorratsgewinn) |
+| **Taktik** | Bufft den nächsten Wurf oder debufft den Gegner | Mittel | N/A (Nutzenorientiert) |
+
+<Steps>
+  <Step num="1" title="Gegnerische Absicht analysieren">
+    Der KI-Gegner offenbart seinen beabsichtigten Spielzug zu Beginn des Zuges. Prüfen Sie, ob er die Gesundheit Ihres Schiffes oder Ihre Crew angreift.
+  </Step>
+  <Step num="2" title="Vorräte verwalten">
+    Bewerten Sie Ihren aktuellen Vorratsbestand. Das frühe Ausspielen hochrangiger Karten kann Sie in späteren Phasen des Kampfes schutzlos zurücklassen.
+  </Step>
+  <Step num="3" title="Den Wurf ausführen">
+    Wählen Sie Ihre Karte und beobachten Sie den Würfelwurf. Denken Sie daran, dass der Schadensbereich deutlich angezeigt wird, sodass Sie immer das „Worst-Case-Szenario“ kennen.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Risikomanagement">
+Verlassen Sie sich nicht darauf, den Maximalwert eines Schadensbereichs zu treffen, wenn ein minimaler Wurf zur Zerstörung Ihres Schiffes führt. Spielen Sie immer defensiv, wenn Ihre Gesundheit niedrig ist.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Piraten-Crew-Management und Zusammenhalt">
+
+Ihre Belegschaft in Corsair Cove ist keine Gruppe disziplinierter Bürger; es sind unberechenbare Halsabschneider. Die Verwaltung Ihrer Crew ist ein ständiger Balanceakt zwischen Gier und Überleben. Wenn Ihre Piraten unzufrieden werden oder wenn Sie zu viele Entscheidungen treffen, die Gold gegenüber ihrem Wohlergehen bevorzugen, sinkt Ihre Anzeige für den **Zusammenhalt**. Wenn diese Anzeige Null erreicht, meutert Ihre Crew, was zu einem sofortigen Game Over führt.
+
+Piraten haben je nach Spezialisierung unterschiedliche Bedürfnisse. Während einfache Arbeiter nur Nahrung und Grog benötigen, verlangen hochrangige Spezialisten, die Ihre Schiffe verstärken, nach weitaus teureren Luxusgütern.
+
+<CardGrid cols={3}>
+  <Card title="Einfache Arbeiter">
+    - **Bedürfnisse**: Nahrung, Grog, einfache Unterbringung
+    - **Rolle**: Ressourcenabbau und einfache Logistik
+    - **Volatilität**: Niedrig
+  </Card>
+  <Card title="Draufgänger">
+    - **Bedürfnisse**: Hochwertiger Grog, Unterhaltung
+    - **Rolle**: Schiffsverteidigung und Entermanöver
+    - **Volatilität**: Mittel
+  </Card>
+  <Card title="Meisterkanoniere">
+    - **Bedürfnisse**: Luxusgüter, Privatquartiere
+    - **Rolle**: Signifikante Steigerung der Schadensbereiche des Schiffes
+    - **Volatilität**: Hoch
+  </Card>
+</CardGrid>
+
+| Metrik | Auswirkung niedriger Stufen | Erholungsmethode |
+| :--- | :--- | :--- |
+| **Zufriedenheit** | Reduzierte Arbeitsgeschwindigkeit, Verlust von Zusammenhalt | Grog und abwechslungsreiche Nahrung bereitstellen |
+| **Zusammenhalt** | Erhöhtes Meutereirisiko, Game Over | Taten vollbringen, Schlachten gewinnen |
+| **Vorräte** | Unfähigkeit, Karten im Kampf zu spielen | Ressourcenveredelung, Erkundung |
+
+<Callout type="success" title="Strategischer Rat">
+Konzentrieren Sie sich zu Beginn des Spiels auf eine kleine, glückliche Crew, anstatt zu schnell zu expandieren. Eine große, unzufriedene Crew ist der schnellste Weg in eine wirtschaftliche Abwärtsspirale.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Wirtschaftliche Stabilität und Ressourcenketten">
+
+Die Wirtschaft in Corsair Cove basiert auf Produktionsketten, die perfekt ausbalanciert sein müssen. Da Produktionsgebäude nur über sehr begrenzte interne Lagerkapazitäten verfügen, kann jeder Engpass in Ihrem Logistiknetzwerk die gesamte Kette zum Stillstand bringen. Sie sind dafür verantwortlich, den Warenfluss zu lenken und zu entscheiden, welche Lagerhäuser bestimmte Fertigprodukte erhalten und woher Rohstoffe bezogen werden.
+
+Das Spiel verwendet ein farbcodiertes Effizienzsystem, um Ihnen zu helfen, diese Flüsse zu visualisieren. Durch die Überwachung Ihrer Pfade und Gebäude können Sie schnell erkennen, wo Ihre Piraten Schwierigkeiten haben, Waren effektiv zu bewegen.
+
+**Effizienzindikatoren:**
+- **Grün**: Optimaler Fluss; Ressourcen bewegen sich ohne Verzögerung.
+- **Gelb**: Kleinere Engpässe; erwägen Sie die Aufrüstung von Pfaden oder das Hinzufügen von Winden.
+- **Rot**: Kritischer Fehler; die Produktion ist aufgrund voller Lager oder fehlender Inputs gestoppt.
+
+<Checklist
+  id="economy-checklist"
+  title="Ziele für die Inseleffizienz:"
+  items={[
+    "Alle Produktionsgebäude mit dem zentralen Hub verbinden",
+    "Alle stark frequentierten Erdpfade zu Klippenwegen aufrüsten",
+    "Sicherstellen, dass jedes Lagerhaus einen speziellen Ressourcenfilter hat",
+    "Einen Grog-Überschuss von 20 % für Notfall-Zufriedenheitsboosts aufrechterhalten",
+    "Winden an jedem größeren vertikalen Übergangspunkt installieren"
+  ]}
+/>
+
+<Callout type="info" title="Lagerwarnung">
+Wenn ein Lagerhaus voll ist, hören die Arbeiter auf, Rohstoffe zu liefern. Überprüfen Sie regelmäßig Ihre Exporteinstellungen, um sicherzustellen, dass überschüssige Waren bewegt oder verkauft werden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Erkundung und Schiffsanpassung">
+
+Sobald Ihre Insel stabil ist, müssen Sie in See stechen. Durch Erkundung erwerben Sie seltene Ressourcen, rekrutieren spezialisierte Piraten und treiben die Geschichte voran. Die Effektivität Ihres Schiffes wird durch seine Gesundheit, seine Crew-Kapazität und den spezifischen Kapitän bestimmt, den Sie für die Führung einsetzen.
+
+Verschiedene Schiffe und Kapitäne eignen sich besser für unterschiedliche Begegnungstypen. Einige glänzen beim Transport großer Mengen an Beute, während andere speziell darauf ausgelegt sind, die RNG-lastigen Kampfbegegnungen zu überstehen, in denen die Mechanik **Corsair Cove Würfel erklärt** am stärksten zum Tragen kommt.
+
+| Schiffstyp | Bester Anwendungsfall | Hauptstärke | Schwäche |
+| :--- | :--- | :--- | :--- |
+| **Schaluppe** | Frühe Erkundung | Hohe Mobilität, niedrige Vorratskosten | Wenig Gesundheit |
+| **Brigantine** | Ressourcentransport | Großer Laderaum | Langsam im Kampf |
+| **Galeone** | Schwerer Kampf | Viel Gesundheit, mehrere Kartenslots | Teuer im Unterhalt |
+
+<Steps>
+  <Step num="1" title="Wählen Sie Ihren Kapitän">
+    Wählen Sie einen Anführer, dessen Boni zu Ihrem Ziel passen (z. B. Kampf-Buffs oder Handelsrabatte).
+  </Step>
+  <Step num="2" title="Weisen Sie die Crew zu">
+    Balancieren Sie Ihre Crew mit einer Mischung aus einfachen Arbeitern und hochrangigen Spezialisten, um die Schiffswerte zu maximieren.
+  </Step>
+  <Step num="3" title="Die Reise verproviantieren">
+    Laden Sie genügend Vorräte ein, um Ihre besten Karten während der Begegnungen spielen zu können. Wenn Ihnen mitten auf der Reise die Vorräte ausgehen, ist das oft fatal.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Profi-Erkundungstipp">
+Spähen Sie eine Begegnung immer aus, bevor Sie sich festlegen. Einige „einfache“ Ressourcengriffe können sich in mehrstufige Schlachten verwandeln, auf die Sie möglicherweise nicht vorbereitet sind.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie beeinflusst das System 'Corsair Cove Würfel erklärt' meine Strategie?",
+    answer: "Das Würfelsystem bedeutet, dass Sie sich nicht auf eine einzige 'perfekte' Karte verlassen können. Sie müssen ein Deck aufbauen, das über seinen gesamten Schadensbereich hinweg konstante Werte bietet, und immer genügend Vorräte bereithalten, um eine Ersatzkarte zu spielen, falls Ihr erster Wurf niedrig ausfällt."
+  },
+  {
+    question: "Was passiert, wenn mein Zusammenhalt Null erreicht?",
+    answer: "Das Spiel endet sofort. Ihre Crew meutert, übernimmt die Kontrolle über die Insel und Sie sind gezwungen, neu zu starten oder einen früheren Spielstand zu laden. Die Verwaltung des Zusammenhalts ist genauso wichtig wie die Verwaltung Ihres Goldes."
+  },
+  {
+    question: "Kann ich nur auf flachem Boden bauen?",
+    answer: "Nein. Flaches Land ist in Corsair Cove extrem begrenzt. Um voranzukommen, sind Sie gezwungen, vertikal an Klippen zu bauen. Wenn Sie Winden und Aufzüge nicht meistern, wird Ihre Wirtschaft schließlich scheitern."
+  },
+  {
+    question: "Wie behebe ich einen roten Effizienzpfad?",
+    answer: "Rote Pfade weisen auf einen massiven Engpass hin. Meistens bedeutet dies, dass die Entfernung für die Arbeiter zu groß ist oder es an vertikalem Transport mangelt. Versuchen Sie, eine Winde oder einen Aufzug hinzuzufügen, um die Lücke zwischen den Schichten zu schließen."
+  }
+]} />
+
+</Section>

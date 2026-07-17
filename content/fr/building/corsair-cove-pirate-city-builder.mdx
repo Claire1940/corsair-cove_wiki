@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Pirate City Builder : Guide Essentiel de Progression et de Combat",
+  description: "Maîtrisez la construction verticale, les chaînes de ressources et le combat naval dans le city builder de pirates Corsair Cove avec notre guide de progression complet.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Corsair+Cove+Progression+Guide",
+  date: "2026-07-17",
+  author: "L'équipe Wiki de Corsair Cove",
+  keywords: "Corsair Cove, pirate city builder, progression, combat, guide, construction verticale"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif principal du gameplay** : Établir un refuge pirate prospère en utilisant les mécaniques uniques du **city builder de pirates Corsair Cove**.
+- **Planification de l'aménagement vertical** : Construisez sur les flancs de falaises et utilisez des routes manuelles pour minimiser les temps de trajet.
+- **Gestion de la cohésion** : Gardez les pirates satisfaits avec des logements, du ragoût et de la bière pour éviter les mutineries dangereuses.
+- **Préparation au combat naval** : Construisez une flotte puissante, assignez des capitaines compétents comme Teach et défendez les frontières régionales.
+</Callout>
+
+<Section icon={Map} title="Maîtriser le City Builder de Pirates Corsair Cove">
+
+Lorsque vous commencez votre aventure dans le **city builder de pirates Corsair Cove**, la gestion d'un refuge sans foi ni loi nécessite un œil attentif pour la logistique, la défense et la construction verticale. Publié par Hooded Horse, ce titre ambitieux mélange les chaînes de production complexes des city builders classiques avec un combat naval tactique au tour par tour. Vous guiderez un équipage de pirates naufragés alors qu'ils échappent à la marine espagnole, établissent des pipelines de ressources et étendent leur territoire sur des îles luxuriantes et verticales. Le succès repose sur l'équilibre entre les exigences physiques de votre colonie et le moral volatil de votre équipage.
+
+Pour vous aider à visualiser le flux de progression en début de partie et voir ces mécaniques en action, consultez l'aperçu du gameplay ci-dessous avant de plonger dans notre analyse stratégique.
+
+**Points forts de la vidéo :**
+- **Construction verticale** : Bâtir des abris et des installations de production directement sur les parois des falaises.
+- **Logistique et tracé** : Gérer les temps de trajet pour éviter les goulots d'étranglement de production.
+- **Chaînes de ressources** : Établir des plantations, des scieries et des circuits de distribution de nourriture.
+- **Combat tactique** : Engager des batailles navales au tour par tour en utilisant les mécaniques de ravitaillement et de santé.
+
+<YouTubeEmbed videoId="r80QL9wX0Js" title="Corsair Cove | NOUVEAU CITY BUILDER DE PIRATES - Un nouveau builder ambitieux avec combat et BIEN PLUS ENCORE !" />
+
+<Callout type="info" title="Modes de Jeu">
+La version 1.0 du 31 juillet 2026 propose à la fois un **Mode Histoire** narratif et un **Mode Inexploré** (bac à sable), vous permettant de personnaliser votre expérience de construction d'empire pirate.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Construction Verticale et Stratégies d'Aménagement Routier">
+
+La verticalité est la mécanique de définition de ce city builder de pirates. Contrairement aux builders traditionnels sur cartes plates, vous devez construire des routes, des échelles et des ponts qui escaladent d'immenses falaises. Vos colons tenteront automatiquement de générer des chemins, mais laisser le jeu gérer la logistique peut mener à des itinéraires sinueux et très inefficaces qui paralyseront votre économie. Des temps de trajet élevés retardent directement la production, car les travailleurs doivent transporter physiquement les marchandises entre les extracteurs, les installations de transformation et les entrepôts.
+
+Pour maximiser l'efficacité, prenez le contrôle direct de votre infrastructure. Utilisez la planification manuelle des routes pour construire des sentiers serrés et organisés qui minimisent les distances de marche.
+
+<Steps>
+  <Step num="1" title="Établissez le plan de votre aménagement">
+    Planifiez l'emplacement de vos tentes résidentielles, entrepôts et bâtiments de production avant de dépenser la moindre ressource.
+  </Step>
+  <Step num="2" title="Contournez le tracé automatique">
+    Maintenez la touche **Control** enfoncée lors de la pose de routes, d'échelles et de ponts. Cela empêche le jeu de créer des auto-connexions désordonnées et inefficaces.
+  </Step>
+  <Step num="3" title="Minimisez les temps de trajet">
+    Positionnez vos entrepôts directement entre les extracteurs de ressources brutes et les usines de transformation pour éliminer les marches inutiles.
+  </Step>
+  <Step num="4" title="Passez à la logistique verticale">
+    Dès que vous débloquez les technologies avancées, remplacez les longs trajets d'échelles par des **Tyroliennes** à haute capacité et des **Ascenseurs** à contrepoids pour déplacer instantanément les marchandises lourdes.
+  </Step>
+</Steps>
+
+| Structure | Coût | Fonction | Note d'efficacité |
+| :--- | :--- | :--- | :--- |
+| **Échelle** | Planches minimales | Relie les parois verticales pour les déplacements à pied | 3/5 |
+| **Pont de singe** | Planches | Enjambe les vides entre les falaises avec une courbure naturelle | 4/5 |
+| **Tyrolienne** | Planches, Corde | Transporte rapidement les marchandises en descente | 4,5/5 |
+| **Ascenseur** | Bois, Lests | Déplace les marchandises lourdes verticalement grâce au poids de l'eau | 5/5 |
+
+<Callout type="tip" title="Conseil Logistique">
+Si vous devez réorganiser votre colonie, n'hésitez pas à démolir les structures existantes. La démolition de bâtiments permet un **remboursement à 100 % des matériaux**, vous permettant d'optimiser continuellement l'aménagement de votre base pour une efficacité maximale.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestion des Ressources et Mécaniques de Cohésion">
+
+Votre équipage de pirates est loin d'être discipliné. Si leurs besoins fondamentaux sont négligés, leur **cohésion** chutera, menant finalement à une mutinerie dévastatrice. Gérer la cohésion nécessite d'établir des réseaux stables de distribution de nourriture et de boisson parallèlement à votre fabrication industrielle. Les matières premières comme le bois dur doivent être transformées en planches, tandis que la nourriture doit être cuite sur un feu de camp et distribuée via une cuisine (galley).
+
+À mesure que votre colonie grandit, vous ferez également face à des événements aléatoires rappelant les city builders de survie. Épargner des ennemis capturés peut renforcer votre main-d'œuvre, mais cela peut temporairement nuire au moral et à la cohésion de votre équipage.
+
+| Bâtiment | Ressource d'entrée | Produit de sortie | Classe d'ouvrier principale | Note d'efficacité |
+| :--- | :--- | :--- | :--- | :--- |
+| **Plantation** | Aucune (Sol) | Bois dur | Vagabond | 4/5 |
+| **Scierie** | Bois dur | Planches | Pirate assigné | 5/5 |
+| **Feu de camp** | Ingrédients crus | Ragoût | Vagabond | 3,5/5 |
+| **Cuisine** | Ragoût | Nourriture distribuée | Porteur | 4,5/5 |
+| **Taverne** | Alcool / Bière | Moral / Boissons | Porteur | 5/5 |
+
+Au-delà de la survie de base, vous devez extraire des matériaux spécialisés le long des parois rocheuses et des hauts plateaux pour construire des défenses avancées et des améliorations de navires.
+
+| Ressource | Emplacement | Utilisation principale | Méthode d'extraction |
+| :--- | :--- | :--- | :--- |
+| **Guano** | Zones de nidification en falaise | Production de poudre à canon | Récolteur de falaise |
+| **Pierre** | Carrières de haute altitude | Tours de défense | Mine de pierre & Carrière |
+| **Chaux** | Rivages des plaines | Briques et mortier | Excavateur côtier |
+| **Minerai de plomb** | Veines montagneuses | Munitions et boulets | Mine de montagne profonde |
+
+<Callout type="warning" title="Alerte de Moral">
+Ne laissez jamais vos réserves de nourriture ou de boisson tomber à zéro. Un pirate affamé est un pirate en colère, et garder la Cuisine et la Taverne bien approvisionnées est votre principale défense contre la mutinerie.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Construire votre Flotte et Maîtriser le Combat Tactique">
+
+Pour assurer votre emprise sur les sept mers, vous devez construire un chantier naval sur un quai côtier et assembler une flotte. Les navires nécessitent un capitaine désigné et un équipage de pirates spécialisés. Les capitaines sont issus de figures historiques légendaires ou de personnages uniques du jeu, chacun offrant des bonus passifs distincts à la santé du navire, aux dégâts et aux actions de cartes tactiques.
+
+Le combat dans le jeu est un système de cartes tactique au tour par tour. Vous devez gérer les **provisions** et la **santé** de votre navire tout en lançant des dés pour exécuter des barrages offensifs, vous préparer à encaisser les tirs ennemis ou fouiller les épaves pour obtenir du butin bonus.
+
+<CardGrid cols={3}>
+  <Card title="Edward Teach (Barbe Noire)">
+    - **Capitaine de la Vieille Garde**
+    - +20 % de Santé du navire
+    - +20 % de Dégâts des canons
+    - Action spéciale : *Aussi simple qu'un meurtre*
+  </Card>
+  <Card title="Scarlet">
+    - **Capitaine Filoute**
+    - Augmente la vitesse du navire
+    - Idéal pour les missions furtives
+    - Action spéciale : *Ruse de guerre*
+  </Card>
+  <Card title="Honorata">
+    - **Capitaine Tacticienne**
+    - Réduit les coûts de ravitaillement
+    - Excellente pour les longs voyages
+    - Action spéciale : *Se préparer à l'impact*
+  </Card>
+</CardGrid>
+
+Choisir la bonne classe de navire pour la taille de votre équipage et vos objectifs est crucial pour survivre aux rencontres avec la marine espagnole.
+
+| Classe de navire | Taille de l'équipage | Rôle principal | Note de combat |
+| :--- | :--- | :--- | :--- |
+| **Goélette** | 10 membres | Exploration et reconnaissance | 2/5 |
+| **Canonnière spéciale** | 13 - 15 membres | Escarmouches tactiques | 3,5/5 |
+| **Galion** | 30+ membres | Navire amiral et siège | 5/5 |
+
+<Callout type="success" title="Conseil de Combat">
+Pendant les batailles, vous pouvez prolonger le combat pour récolter du butin supplémentaire. Cependant, veillez à ne pas épuiser entièrement vos provisions, sinon vous serez incapable d'effectuer des actions de combat de base.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expansion Territoriale et Défense de l'Île">
+
+Votre tête de pont initiale est très limitée en espace. Pour accéder à des ressources avancées comme la chaux, le minerai de plomb et l'eau douce, vous devez étendre votre territoire. Le jeu utilise un système régional similaire à *Timberborn*, où la construction d'un nouveau **Camp Pirate** projette une sphère d'influence sur un nouveau secteur. Chaque camp doit être relié à votre hub logistique central pour partager les ressources.
+
+Cependant, l'expansion augmente votre visibilité. La marine espagnole, dirigée par l'implacable chasseuse de pirates Amara, lancera périodiquement des bombardements contre votre côte. Vous devez construire des **Tours de défense** le long de vos frontières et les approvisionner en poudre à canon et en munitions pour riposter automatiquement et protéger votre port.
+
+<Checklist
+  id="expansion-milestones"
+  title="Liste de contrôle de l'expansion territoriale :"
+  items={[
+    "Sécuriser un approvisionnement stable en nourriture et en eau dans la zone de départ",
+    "Construire une jetée peu profonde et bâtir votre premier navire tactique",
+    "Éliminer les menaces locales et revendiquer les régions côtières voisines",
+    "Établir des camps pirates qui se chevauchent pour étendre votre rayon de construction",
+    "Déployer des tours de défense près des frontières régionales pour se défendre contre la marine espagnole"
+  ]}
+/>
+
+<Callout type="info" title="Note de Défense">
+Les tours de défense nécessitent un approvisionnement continu en poudre à canon (transformée à partir du guano) et en boulets (transformés à partir du minerai de plomb). Assurez-vous que vos tyroliennes verticales sont configurées pour livrer ces munitions directement à vos défenses côtières.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ de Corsair Cove">
+
+Naviguer sur les falaises verticales et les eaux hostiles de ce jeu peut être incroyablement difficile pour les nouveaux capitaines. Vous trouverez ci-dessous les réponses aux questions les plus courantes concernant la survie en début de partie, l'optimisation de l'aménagement et le combat.
+
+<FAQ items={[
+  {
+    question: "Comment puis-je empêcher une mutinerie dans Corsair Cove ?",
+    answer: "Les mutineries se produisent lorsque la cohésion de votre équipage tombe à zéro. Pour éviter cela, assurez-vous d'avoir suffisamment de logements (tentes), un approvisionnement continu en nourriture (ragoût distribué via la Cuisine) et beaucoup de boissons (alcool servi à la Taverne)."
+  },
+  {
+    question: "Pourquoi mes bâtiments de production fonctionnent-ils si lentement ?",
+    answer: "Une production lente est presque toujours causée par des temps de trajet élevés. Si vos travailleurs passent trop de temps à monter et descendre des échelles pour livrer des ressources aux entrepôts, votre efficacité chute. Utilisez les outils de route manuels (touche Ctrl) et la logistique verticale comme les ascenseurs pour résoudre ce problème."
+  },
+  {
+    question: "Puis-je déplacer les bâtiments après les avoir construits ?",
+    answer: "Bien qu'il n'y ait pas de bouton 'déplacer' direct, démolir un bâtiment dans Corsair Cove permet un remboursement complet de ses matériaux de construction. Vous pouvez facilement détruire et reconstruire votre colonie au fur et à mesure que vos besoins d'aménagement évoluent."
+  },
+  {
+    question: "Comment fonctionne le combat naval au tour par tour ?",
+    answer: "Le combat naval est un système tactique basé sur des cartes et des dés où vous gérez les provisions et la santé de votre navire. Vous lancez des dés pour exécuter des actions offensives comme des barrages lourds ou des manœuvres défensives, avec pour objectif ultime de réduire la santé du navire ennemi à zéro."
+  }
+]} />
+
+<Callout type="tip" title="Conseil Final">
+Gardez toujours un œil ouvert pour les secrets cachés. Les développeurs ont placé des œufs de Pâques (Easter eggs), tels que des cochons cachés, dans divers bâtiments et crevasses de falaises sur la carte.
+</Callout>
+
+</Section>

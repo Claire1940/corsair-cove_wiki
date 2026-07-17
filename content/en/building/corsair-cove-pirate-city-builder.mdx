@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Pirate City Builder: Essential Progression & Combat Guide",
+  description: "Master the vertical construction, resource chains, and naval combat in Corsair Cove pirate city builder with our comprehensive progression guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Corsair+Cove+Progression+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary gameplay focus**: Establish a thriving pirate haven using the unique mechanics of the **corsair cove pirate city builder**.
+- **Vertical layout planning**: Build on cliff sides and use manual roads to keep transit times minimal.
+- **Cohesion management**: Keep pirates happy with housing, stew, and beer to prevent dangerous mutinies.
+- **Naval combat readiness**: Build a strong fleet, assign skilled captains like Teach, and defend regional borders.
+</Callout>
+
+<Section icon={Map} title="Mastering the Corsair Cove Pirate City Builder">
+
+When embarking on your journey in the **corsair cove pirate city builder**, managing a lawless haven requires a keen eye for logistics, defense, and vertical construction. Published by Hooded Horse, this ambitious title blends the complex production chains of classic city builders with tactical turn-based naval combat. You will guide a stranded crew of shipwrecked pirates as they evade the Spanish Navy, establish resource pipelines, and expand their territory across lush, vertical islands. Success relies on balancing the physical demands of your settlement with the volatile morale of your crew.
+
+To help you visualize the flow of early-game progression and see these mechanics in action, review the gameplay overview below before diving into our strategic breakdown.
+
+**Video Highlights:**
+- **Vertical Construction**: Building shelters and production facilities directly onto cliff faces.
+- **Logistics & Pathing**: Managing transit times to prevent production bottlenecks.
+- **Resource Chains**: Establishing plantations, sawmills, and food distribution pipelines.
+- **Tactical Combat**: Engaging in turn-based naval battles using supply and health mechanics.
+
+<YouTubeEmbed videoId="r80QL9wX0Js" title="Corsair Cove | NEW PIRATE CITY BUILDER - An Ambitious New Builder with Combat and MUCH MORE!" />
+
+<Callout type="info" title="Game Modes">
+The 1.0 release on July 31, 2026, features both a narrative-driven **Story Mode** and an **Uncharted Mode** (sandbox), allowing you to tailor your pirate empire-building experience.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Vertical Construction and Road Layout Strategies">
+
+Verticality is the defining mechanic of this pirate city builder. Unlike traditional flat-map builders, you must construct roads, ladders, and bridges that scale massive cliffsides. Your settlers will automatically attempt to generate paths, but letting the game handle logistics can lead to highly inefficient, winding routes that cripple your economy. High transit times directly delay production, as workers must physically carry goods between extractors, processing facilities, and warehouses.
+
+To maximize efficiency, take direct control of your infrastructure. Use manual road planning to build tight, organized pathways that minimize walking distances.
+
+<Steps>
+  <Step num="1" title="Blueprint Your Layout">
+    Plan where your residential tents, warehouses, and production buildings will sit before spending any resources.
+  </Step>
+  <Step num="2" title="Override Automatic Pathing">
+    Hold the **Control** key while laying down roads, ladders, and bridges. This prevents the game from creating messy, inefficient auto-connections.
+  </Step>
+  <Step num="3" title="Minimize Transit Times">
+    Position your warehouses directly between raw resource extractors and processing factories to eliminate unnecessary walking.
+  </Step>
+  <Step num="4" title="Upgrade to Vertical Logistics">
+    As soon as you unlock advanced tech, replace long ladder routes with high-capacity **Zip Lines** and counterweighted **Elevators** to move heavy goods instantly.
+  </Step>
+</Steps>
+
+| Structure | Cost | Function | Efficiency Rating |
+| :--- | :--- | :--- | :--- |
+| **Ladder** | Minimal Planks | Connects vertical cliff faces for foot travel | 3/5 |
+| **Rope Bridge** | Planks | Spans gaps between cliffs with natural sag | 4/5 |
+| **Zip Line** | Planks, Rope | Rapidly transports goods downhill | 4.5/5 |
+| **Elevator** | Wood, Ballasts | Moves heavy goods vertically using water weights | 5/5 |
+
+<Callout type="tip" title="Logistics Tip">
+If you need to reorganize your settlement, do not hesitate to demolish existing structures. Demolishing buildings provides a **100% material refund**, allowing you to continuously optimize your base layout for peak efficiency.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Resource Management and Cohesion Mechanics">
+
+Your pirate crew is far from disciplined. If their basic needs are neglected, their **cohesion** will plummet, eventually leading to a devastating mutiny. Managing cohesion requires establishing stable food and drink distribution networks alongside your industrial manufacturing. Raw materials like hardwood must be processed into planks, while food must be cooked at a campfire and distributed through a galley.
+
+As your settlement grows, you will also face random events reminiscent of survival city builders. Sparing captured enemies can bolster your workforce, but it may temporarily damage your crew's morale and cohesion.
+
+| Building | Input Resource | Output Product | Primary Worker Class | Efficiency Rating |
+| :--- | :--- | :--- | :--- | :--- |
+| **Plantation** | None (Soil) | Hardwood | Drifter | 4/5 |
+| **Sawmill** | Hardwood | Planks | Assigned Pirate | 5/5 |
+| **Campfire** | Raw Ingredients | Stew | Drifter | 3.5/5 |
+| **Galley** | Stew | Distributed Food | Fetcher | 4.5/5 |
+| **Tavern** | Booze / Beer | Morale / Drinks | Fetcher | 5/5 |
+
+Beyond basic survival, you must mine specialized materials along cliff faces and high plateaus to build advanced defenses and ship upgrades.
+
+| Resource | Location | Primary Use | Extraction Method |
+| :--- | :--- | :--- | :--- |
+| **Guano** | Cliffside Nesting Areas | Gunpowder Production | Cliffside Harvester |
+| **Stone** | High-Altitude Quarries | Defensive Gun Towers | Stone Mine & Quarry |
+| **Lime** | Lowland Shorelines | Bricks and Mortar | Coastal Excavator |
+| **Lead Ore** | Mountainous Veins | Munitions and Shot | Deep Mountain Mine |
+
+<Callout type="warning" title="Morale Warning">
+Never let your food or drink supplies drop to zero. A hungry pirate is an angry pirate, and keeping the Galley and Tavern fully stocked is your primary defense against mutiny.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Building Your Fleet and Mastering Tactical Combat">
+
+To secure your hold on the seven seas, you must construct a shipyard at a coastal pier and assemble a fleet. Ships require a designated captain and a crew of specialized pirates, such as swabies, pickaroons, and crow eyes. Captains are drawn from legendary historical figures or unique in-game characters, each offering distinct passive buffs to ship health, damage, and tactical card actions.
+
+Combat in the game is a tactical, turn-based card system. You must manage your ship's **supplies** and **health** while rolling dice to execute offensive barrages, brace for incoming fire, or scavenge wreckages for bonus plunder.
+
+<CardGrid cols={3}>
+  <Card title="Edward Teach (Blackbeard)">
+    - **Old Guard Captain**
+    - +20% Ship Health
+    - +20% Gun Damage
+    - Special Action: *Easy as Murder*
+  </Card>
+  <Card title="Scarlet">
+    - **Trickster Captain**
+    - Boosts ship speed
+    - Ideal for stealth runs
+    - Special Action: *Ruse of War*
+  </Card>
+  <Card title="Honorata">
+    - **Tactician Captain**
+    - Reduces supply costs
+    - Excellent for long voyages
+    - Special Action: *Brace for Impact*
+  </Card>
+</CardGrid>
+
+Choosing the right ship class for your crew size and objectives is critical for surviving encounters with the Spanish Navy.
+
+| Ship Class | Crew Size | Primary Role | Combat Rating |
+| :--- | :--- | :--- | :--- |
+| **Schooner** | 10 Crew | Exploration and Scouting | 2/5 |
+| **Special Gunboat** | 13 - 15 Crew | Tactical Skirmishes | 3.5/5 |
+| **Galleon** | 30+ Crew | Fleet Flagship and Siege | 5/5 |
+
+<Callout type="success" title="Combat Tip">
+During battles, you can prolong the fight to harvest extra plunder. However, be careful not to deplete your supplies entirely, or you will be unable to perform basic combat actions.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Territorial Expansion and Island Defense">
+
+Your starting beachhead is highly limited in space. To access advanced resources like lime, lead ore, and fresh water, you must expand your territory. The game uses a regional system similar to *Timberborn*, where building a new **Pirate Camp** projects a sphere of influence over a new sector. Each camp must be connected back to your central logistics hub to share resources.
+
+However, expansion increases your visibility. The Spanish Navy, led by the relentless pirate hunter Amara, will periodically launch bombardments against your coast. You must construct defensive **Gun Towers** along your borders and supply them with gunpowder and ammunition to automatically return fire and protect your harbor.
+
+<Checklist
+  id="expansion-milestones"
+  title="Territorial Expansion Checklist:"
+  items={[
+    "Secure a stable food and water supply in the starting zone",
+    "Construct a Shallow Pier and build your first tactical ship",
+    "Clear local threats and claim nearby coastal regions",
+    "Establish overlapping Pirate Camps to expand your build radius",
+    "Deploy Gun Towers near regional borders to defend against the Spanish Navy"
+  ]}
+/>
+
+<Callout type="info" title="Defense Note">
+Gun Towers require a continuous supply of gunpowder (processed from guano) and shot (processed from lead ore). Ensure your vertical zip lines are configured to deliver these munitions directly to your coastal defenses.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Corsair Cove FAQ">
+
+Navigating the vertical cliffs and hostile waters of this game can be incredibly challenging for new captains. Below are answers to the most common questions regarding early-game survival, layout optimization, and combat.
+
+<FAQ items={[
+  {
+    question: "How do I prevent a mutiny in Corsair Cove?",
+    answer: "Mutinies occur when your crew's cohesion drops to zero. To prevent this, ensure you have sufficient housing (tents), a continuous supply of food (stew distributed via the Galley), and plenty of drinks (booze served at the Tavern)."
+  },
+  {
+    question: "Why are my production buildings working so slowly?",
+    answer: "Slow production is almost always caused by high transit times. If your workers spend too much time walking up and down ladders to deliver resources to warehouses, your efficiency drops. Use manual road tools (Ctrl key) and vertical logistics like elevators to solve this."
+  },
+  {
+    question: "Can I move buildings after constructing them?",
+    answer: "While there is no direct 'move' button, demolishing a building in Corsair Cove provides a full refund of its construction materials. You can easily tear down and rebuild your settlement as your layout needs evolve."
+  },
+  {
+    question: "How does the turn-based naval combat work?",
+    answer: "Naval combat is a tactical, card-and-dice-based system where you manage your ship's supplies and health. You roll dice to execute offensive actions like heavy barrages or defensive maneuvers like bracing, with the ultimate goal of reducing the enemy ship's health to zero."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Always keep an eye out for hidden secrets. The developers have placed Easter eggs, such as hidden pigs, throughout various buildings and cliff crevices on the map.
+</Callout>
+
+</Section>

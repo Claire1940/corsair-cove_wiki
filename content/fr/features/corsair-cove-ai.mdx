@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Ship, Users, Construction } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "IA de Corsair Cove : Maîtrisez les mécaniques de construction de ville pirate",
+  description: "Explorez l'IA de Corsair Cove et les mécaniques de construction de ville. Apprenez à gérer les unités de pirates, à optimiser les chaînes de production et à survivre aux expéditions navales en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+AI+Guide",
+  date: "2026-07-17",
+  author: "L'équipe du Wiki de Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **IA de Corsair Cove** : Gérez efficacement le comportement des Fetchers (transporteurs) et des Hands (ouvriers) pour automatiser la logistique de votre île pirate.
+- **Construction verticale** : Concentrez-vous sur la construction le long des falaises plutôt que sur l'expansion horizontale afin de maximiser l'espace limité de l'île.
+- **Gestion de la cohésion** : Maintenez la satisfaction des pirates à un niveau élevé pour éviter que votre équipage ne se dissolve et que vous ne perdiez la partie.
+- **Expéditions navales** : Utilisez les bonus uniques des capitaines et gérez vos ressources lors des lancers de dés pour obtenir du butin rare.
+- **Surcharge de production** : Utilisez la fonction « Tout le monde sur le pont » (All Hands on Deck) pour booster la production, au prix d'un doublement des besoins en main-d'œuvre.
+</Callout>
+
+<Section icon={Anchor} title="Introduction à l'IA de Corsair Cove et au Gameplay">
+
+**L'IA de Corsair Cove** apporte un vent de fraîcheur au genre du city-builder en vous plaçant à la tête d'une civilisation de pirates en pleine expansion. Développé par Limbic Entertainment et édité par Hooded Horse, ce titre met l'accent sur la verticalité, la gestion des ressources et les comportements uniques de vos unités de pirates. Contrairement aux jeux de construction traditionnels basés sur une grille, ce jeu vous met au défi de naviguer sur des falaises abruptes et d'optimiser la logique automatisée de vos travailleurs pour survivre à l'environnement impitoyable des Caraïbes.
+
+**Points clés de la vidéo :**
+- **Verticalité** : Le gameplay de base s'articule autour de la construction sur les falaises à l'aide de ponts et de connecteurs.
+- **Types d'unités** : Comprendre la différence entre les Hands (ouvriers) et les Fetchers (logistique).
+- **Progression de départ** : Mettre en place des chaînes de production de base pour la nourriture et le bois afin de stabiliser la colonie.
+- **Construction navale** : Construire votre premier navire pour débloquer l'aspect aventure du jeu.
+
+<YouTubeEmbed videoId="AC_pY12kx7U" title="[Aperçu] Corsair Cove - Le City Builder sur... les Pirates ?!?" />
+
+<Callout type="tip" title="Placement stratégique">
+Placez toujours vos cabanes de bûcheron et vos scieries à proximité les unes des autres. Même si les fetchers de l'**IA de Corsair Cove** sont efficaces, réduire la distance de trajet augmente considérablement votre production de planches par minute.
+</Callout>
+
+| Type de bâtiment | Fonction principale | Coût en ressources | Personnel requis |
+| :--- | :--- | :--- | :--- |
+| **Camp de pirates** | Centre névralgique / Stockage | Aucun (Départ) | Aucun |
+| **Tentes** | Logement pour 25 pirates | Planches de base | Aucun |
+| **Bûcheron** | Génère du bois dur | Gratuit | 1-2 Hands |
+| **Scierie** | Transforme le bois en planches | Bois dur | 2 Hands |
+| **Cambuse** | Sert de la nourriture à l'équipage | Planches / Nourriture | 1 Hand |
+
+</Section>
+
+<Section icon={Construction} title="Construction de ville verticale et infrastructures">
+
+Dans Corsair Cove, les « grilles d'autrefois » ont disparu. La carte est définie par des falaises, des cascades et de fortes variations d'altitude. Cela impose un changement de mentalité : vous construisez vers le haut, et pas seulement vers l'extérieur. Les infrastructures sont reliées par des ponts et des connecteurs spécialisés qui permettent à vos pirates de naviguer entre les différents niveaux de l'île.
+
+<CardGrid cols={3}>
+  <Card title="Mécaniques de ponts">
+    - Relie les bâtiments à travers les ravins.
+    - Présente des limites de longueur maximale.
+    - Essentiel pour atteindre les niveaux de falaise supérieurs.
+  </Card>
+  <Card title="Connecteurs verticaux">
+    - Permet de se déplacer entre les différentes altitudes.
+    - Économise de l'espace au sol pour l'industrie vitale.
+    - Peut être amélioré plus tard avec des tyroliennes.
+  </Card>
+  <Card title="Optimisation de l'espace">
+    - Le niveau du sol est réservé à l'industrie lourde.
+    - Les niveaux supérieurs sont idéaux pour les habitations.
+    - Évite les goulots d'étranglement logistiques.
+  </Card>
+</CardGrid>
+
+L'**IA de Corsair Cove** gère la recherche de chemin (pathfinding) de vos pirates, mais des réseaux de ponts mal conçus peuvent entraîner de longs trajets. Si un fetcher doit traverser trois falaises différentes pour livrer du rhum de contrebande à la taverne, votre efficacité s'effondrera.
+
+| Infrastructure | Avantage | Limite |
+| :--- | :--- | :--- |
+| **Pont standard** | Connexion horizontale de base | Portée limitée / fragile |
+| **Mât vertical** | Point de départ pour les tyroliennes | Nécessite une altitude élevée |
+| **Tyrolienne** | Transport en descente le plus rapide | Fonctionne uniquement dans un sens |
+| **Chemin pavé** | Augmente la vitesse de marche | Nécessite le déblocage du tailleur de pierre |
+
+<Callout type="warning" title="Avertissement logistique">
+Ne prolongez pas trop vos ponts au début. Si un bâtiment est trop éloigné du camp de pirates, les fetchers risquent d'avoir du mal à l'approvisionner, ce qui entraînera des arrêts de production.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Gestion des unités de pirates et des chaînes de production">
+
+Votre population se compose de deux rôles principaux : les **Hands** (les bras) et les **Fetchers** (les transporteurs). Les Hands sont la force de travail — ils s'activent à l'intérieur des bâtiments comme la scierie ou l'alambic à rhum. Les Fetchers sont le cerveau de l'opération, déplaçant les ressources entre les sites de production et le stockage. Comprendre la logique de l'**IA de Corsair Cove** pour ces unités est la clé d'une économie prospère.
+
+<Steps>
+  <Step num="1" title="Établir la production de bois">
+    Placez une cabane de bûcheron pour générer du bois dur. Poursuivez avec une scierie pour transformer ce bois dur en planches, nécessaires pour presque tous les bâtiments de début de partie.
+  </Step>
+  <Step num="2" title="Sécuriser l'approvisionnement en nourriture">
+    Construisez un feu de camp pour préparer les ingrédients bruts et une cambuse pour servir la nourriture. Sans une source de nourriture stable, le bonheur de vos pirates chutera, réduisant leur efficacité au travail.
+  </Step>
+  <Step num="3" title="Lancer la production de rhum de contrebande">
+    Construisez un alambic à rhum. Le rhum est la principale monnaie du bonheur des pirates et est indispensable pour recruter des membres d'équipage à la taverne.
+  </Step>
+  <Step num="4" title="Activer la surcharge">
+    Activez l'option « Tout le monde sur le pont » (All Hands on Deck) pour les bâtiments critiques. Cela offre un boost de production de 50 % mais double le nombre de Hands requis, ce qui peut mettre votre main-d'œuvre à rude épreuve.
+  </Step>
+</Steps>
+
+| Ressource | Source | Cas d'utilisation | Priorité de l'IA |
+| :--- | :--- | :--- | :--- |
+| **Bois dur** | Bûcheron | Matière première pour les planches | Moyenne |
+| **Planches** | Scierie | Construction / Construction navale | Élevée |
+| **Nourriture** | Feu de camp / Cambuse | Subsistance / Bonheur | Critique |
+| **Rhum de contrebande** | Alambic à rhum | Recrutement / Taverne | Élevée |
+| **Pierre** | Carrière | Construction avancée | Faible (Début de partie) |
+
+<Callout type="success" title="Conseil d'efficacité">
+Faites un clic droit sur l'itinéraire d'un fetcher pour prioriser ou désactiver manuellement certains transferts de ressources. Cela vous permet d'alimenter de force un bâtiment qui prend du retard.
+</Callout>
+
+</Section>
+
+<Section icon={Ship} title="Expéditions navales et sélection du capitaine">
+
+Une fois votre île stabilisée, vous devez prendre la mer. La construction navale se fait au ponton peu profond (Shallow Pier). Cela ouvre la phase « Aventure » du jeu, où vous participez à des événements tels que des opérations de contrebande, des raids marchands et des combats navals. Le succès de ces missions dépend des statistiques de votre navire et du capitaine choisi pour les mener.
+
+Le système d'expédition utilise une mécanique de cartes influencée par des lancers de dés. Vous devez gérer trois ressources vitales au cours de chaque voyage :
+1. **Équipage (Crew)** : Votre population réelle. Les perdre signifie moins de travailleurs de retour sur l'île.
+2. **Santé (Health)** : L'intégrité structurelle de votre navire. À zéro, le navire est perdu.
+3. **Provisions (Supplies)** : Consommées lors des événements. Vous pouvez échanger de la santé ou des membres d'équipage pour obtenir plus de provisions en cas d'urgence.
+
+| Capitaine | Bonus principal | Idéal pour |
+| :--- | :--- | :--- |
+| **Barbe Noire** | Notoriété accrue / Combat | Pillage de navires marchands |
+| **Kanja** | Vitesse / Génération de richesse | Contrebande et routes commerciales |
+| **Edward Teach** | Synergies de construction d'empire | Expansion de l'île à long terme |
+| **Capitaine générique** | Statistiques équilibrées | Exploration de début de partie |
+
+<Callout type="info" title="Logique d'expédition">
+Lors d'événements comme une mission de contrebande, l'**IA de Corsair Cove** calcule l'avantage en fonction de vos cartes. Recherchez toujours des cartes qui « empêchent la perte d'avantage » afin de préserver vos précieuses provisions pour l'étape finale de l'événement.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression, exploits et cohésion">
+
+Progresser dans Corsair Cove ne consiste pas seulement à construire plus de maisons ; il s'agit de réaliser des « Exploits » (Deeds). Les exploits fournissent des points de déblocage que vous pouvez dépenser dans l'arbre technologique pour accéder à de meilleurs navires, à des bâtiments avancés comme le tripot (Gambling Den) et à des améliorations d'infrastructure comme les tyroliennes.
+
+**La Cohésion** est une ressource unique qui représente le tissu social de votre communauté de pirates.
+- **Cohésion élevée** : Offre une marge de manœuvre lors des revers et des catastrophes.
+- **Cohésion nulle** : Votre groupe de pirates se dissout, entraînant un Game Over immédiat.
+- **Compromis** : Vous serez souvent confronté à des choix — piller un groupe de pirates pour de l'or (augmente la cohésion) ou les recruter (diminue la cohésion mais augmente la population).
+
+<Checklist
+  id="early-game-milestones"
+  title="Objectifs de progression en début de partie :"
+  items={[
+    "Construire des logements pour au moins 50 pirates afin de stabiliser la main-d'œuvre.",
+    "Établir un ratio de 2 pour 1 entre bûcherons et scieries pour une production optimale de planches.",
+    "Construire un ponton peu profond (Shallow Pier) et lancer votre premier navire de classe « Land Lover ».",
+    "Terminer une mission de contrebande pour débloquer le premier niveau de l'arbre de notoriété.",
+    "Maintenir la cohésion au-dessus de 50 % en servant du rhum à la taverne."
+  ]}
+/>
+
+<Callout type="warning" title="Focus stratégique">
+Il est préférable de se concentrer sur un seul arbre technologique (ex. Notoriété) dès le début plutôt que de disperser vos points. Débloquer un navire de niveau 2 comme le « Moonlight Prowler » change considérablement votre rapport de force sur l'océan.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ de l'IA de Corsair Cove">
+
+<FAQ items={[
+  {
+    question: "Comment l'IA de Corsair Cove gère-t-elle l'attribution des travailleurs ?",
+    answer: "L'IA pioche automatiquement dans la réserve de « Sans-emploi » pour attribuer les rôles de « Hands » ou de « Fetchers ». Si vous manquez de pirates, la production s'arrêtera jusqu'à ce que vous en recrutiez en mer ou construisiez plus de logements."
+  },
+  {
+    question: "Quelle est la manière la plus efficace d'utiliser « Tout le monde sur le pont » (All Hands on Deck) ?",
+    answer: "Utilisez-le avec parcimonie sur les bâtiments qui constituent des goulots d'étranglement, comme la scierie ou l'alambic à rhum. Comme cela demande deux fois plus de main-d'œuvre pour seulement 50 % de rendement en plus, c'est mathématiquement inefficace mais idéal pour des poussées de ressources à court terme."
+  },
+  {
+    question: "Puis-je automatiser les expéditions navales ?",
+    answer: "Bien que le voyage soit automatisé, les événements (contrebande, combat) nécessitent de jouer des cartes manuellement et de gérer vos ressources. C'est à vous de décider quand dépenser des provisions et quand risquer la santé du navire."
+  },
+  {
+    question: "Que se passe-t-il si ma cohésion tombe à zéro ?",
+    answer: "La partie se termine immédiatement. La cohésion représente la volonté des pirates de rester unis. Vous pouvez la booster grâce à des raids réussis, des événements de taverne et en répondant aux besoins de votre équipage."
+  }
+]} />
+
+</Section>

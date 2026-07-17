@@ -1,0 +1,196 @@
+import { Shield, Sparkles, Cpu, Download, HelpCircle, ListTodo } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Corsair Cove Systemanforderungen: PC-Spezifikations-Leitfaden",
+  description: "Überprüfe die offiziellen minimalen und empfohlenen PC-Anforderungen für Corsair Cove. Optimiere deine Grafikeinstellungen, teste die Demo und bereite dich auf den Launch vor.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0f172a/f8fafc?text=System+Requirements+Guide",
+  date: "2026-07-17",
+  author: "Corsair Cove Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Systemanforderungen**: Corsair Cove erfordert ein 64-Bit-Windows-10-Betriebssystem, DirectX 12 und 30 GB Speicherplatz.
+- **Minimale GPU**: Verwende eine NVIDIA GTX 1660 Super (6 GB) oder AMD RX 5600 XT (6 GB) für das grundlegende Spiel.
+- **SSD-Empfehlung**: Es wird dringend empfohlen, das Spiel auf einer Solid-State-Drive (SSD) zu installieren, um ein reibungsloses vertikales Laden zu gewährleisten.
+- **Veröffentlichungsdatum**: Die Vollversion erscheint am 31. Juli 2026 auf Steam, Epic Games und im PC Game Pass.
+</Callout>
+
+<Section icon={Cpu} title="Übersicht der Corsair Cove Systemanforderungen">
+
+Um einen weitläufigen Piratenhafen an steilen Klippen und auf tropischen Inseln zu errichten, muss dein PC die offiziellen **Systemanforderungen für Corsair Cove** erfüllen. Dieser von Limbic Entertainment entwickelte und von Hooded Horse veröffentlichte vertikale City-Builder bietet eine detaillierte Ozeanphysik, dynamisches Wetter und komplexe Logistiknetzwerke. Da das Spiel Tausende von beweglichen Teilen rendert, darunter Seilrutschen, Brücken und einzelne Crewmitglieder, ist ein leistungsfähiger Prozessor und eine gute Grafikkarte unerlässlich, um eine stabile Framerate aufrechtzuerhalten.
+
+Die folgenden Tabellen zeigen die Hardwarekonfigurationen, die für die Ausführung des Spiels erforderlich sind. Egal, ob du eine grundlegende Spielbarkeit oder eine High-Fidelity-Performance anstrebst, vergleiche deine Hardwarekomponenten vor dem offiziellen Start am 31. Juli 2026 mit diesen Spezifikationen.
+
+### Minimale Systemanforderungen
+
+Diese Komponenten sind erforderlich, um das Spiel bei niedrigeren Auflösungen mit mäßigen grafischen Details auszuführen. Diese Konfiguration eignet sich für Siedlungen im frühen Spielverlauf, kann jedoch bei der Vergrößerung deines Piratenhafens zu Leistungseinbrüchen führen.
+
+| Komponente | Minimale Spezifikation |
+| :--- | :--- |
+| **Betriebssystem** | Windows 10 (64-Bit) |
+| **CPU** | Intel Core i7-7700 / AMD Ryzen 5 1600 |
+| **Arbeitsspeicher** | 8 GB RAM |
+| **GPU** | NVIDIA GeForce GTX 1660 Super (6 GB) / AMD Radeon RX 5600 XT (6 GB) |
+| **DirectX** | Version 12 |
+| **Speicherplatz** | 30 GB verfügbarer Speicherplatz |
+
+### Empfohlene Systemanforderungen
+
+Für eine flüssige Performance bei einer Auflösung von 1080p mit hohen Grafikvoreinstellungen empfehlen die Entwickler das folgende Setup. Diese Hardware stellt sicher, dass komplexe Produktionsketten im späten Spielverlauf und große Flottenschlachten reibungslos ablaufen.
+
+| Komponente | Empfohlene Spezifikation |
+| :--- | :--- |
+| **Betriebssystem** | Windows 10 (64-Bit) |
+| **CPU** | Intel Core i5-9600K / AMD Ryzen 5 3600 |
+| **Arbeitsspeicher** | 16 GB RAM |
+| **GPU** | NVIDIA GeForce RTX 2070 (8 GB) / AMD Radeon RX 6600 XT (8 GB) |
+| **DirectX** | Version 12 |
+| **Speicherplatz** | 30 GB verfügbarer Speicherplatz (SSD dringend empfohlen) |
+
+<Callout type="warning" title="DirectX 12 Voraussetzung">
+Corsair Cove verlässt sich stark auf die DirectX 12-API-Funktionen, um seine vertikalen Rendering-Pipelines zu verwalten. Ältere Grafikkarten, die DX12 nicht unterstützen, können das Spiel nicht starten oder weisen schwerwiegende Grafikfehler auf.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Vertikaler Städtebau und Hardware-Performance">
+
+Corsair Cove ist kein traditioneller, flacher City-Builder. Das Spiel ermöglicht es Spielern, Klippenwände hinaufzubauen, Inseln über riesige Brücken zu verbinden und Ressourcen vertikal mit Aufzügen und Seilrutschen zu transportieren. Diese Vertikalität bringt einzigartige Verarbeitungsherausforderungen mit sich, die sich sowohl auf deine CPU als auch auf deine GPU auswirken.
+
+Mit wachsender Bevölkerung bewegen Hunderte von Driftern, Buildern und Fetchern Waren durch deine Logistiknetzwerke. Die CPU muss Echtzeit-Wegfindungsrouten über mehrere vertikale Ebenen hinweg berechnen. Wenn deine Logistiklinien aufgrund langer, ineffizienter Routen rot werden, erhöht sich die CPU-Last erheblich.
+
+Damit dein System auch bei massiven Erweiterungen kühl bleibt, solltest du bestimmte Grafikeinstellungen anpassen, die sich auf die Systemleistung auswirken.
+
+| Einstellung | Empfohlener Wert | Auswirkung auf die Leistung |
+| :--- | :--- | :--- |
+| **Schattenqualität** | Mittel | Reduziert den GPU-Overhead in dichten Klippenvierteln |
+| **Crowd-Dichte** | Mittel | Senkt die CPU-Auslastung bei hoher Piratenaktivität |
+| **Wasserdetails** | Hoch | Bewahrt die Ästhetik des Ozeans bei minimalen GPU-Kosten |
+| **Pfadvisualisierung** | Aus | Standardmäßig deaktiviert, um die CPU-Wegfindung zu entlasten |
+
+<Callout type="tip" title="Optimiere deine Logistik">
+Deine Produktionsrouten kurz und grün zu halten, verbessert nicht nur deine Wirtschaft, sondern reduziert auch die CPU-Zyklen, die für Wegfindungsberechnungen aufgewendet werden müssen. Nutze lokale Piratenlager und Verteilungszentren, damit deine Hardware reibungslos läuft.
+</Callout>
+
+</Section>
+
+<Section icon={Download} title="Leistungstest über die kostenlose Demo">
+
+Wenn du vor dem Kauf testen möchtest, wie gut dein Computer mit dem Spiel zurechtkommt, ist derzeit eine kostenlose Testversion verfügbar. Die Entwickler haben während des Steam Next Fest eine öffentliche Demo veröffentlicht, mit der Spieler ihre erste Siedlung gründen und den frühen Spielfortschritt erleben können.
+
+Befolge diese Schritte, um die Demo herunterzuladen, deine Einstellungen zu konfigurieren und die Leistung deines PCs zu bewerten.
+
+<Steps>
+  <Step num="1" title="Lade die Demo auf Steam herunter">
+    Navigiere zum Steam-Shop und suche nach der offiziellen Demo-Seite. Klicke auf die Schaltfläche Installieren, um die Spieldateien herunterzuladen. Die Demo benötigt dieselben 30 GB Speicherplatz wie die Vollversion.
+  </Step>
+  <Step num="2" title="Anfängliche Grafikvoreinstellungen konfigurieren">
+    Starte das Spiel und navigiere zum Optionsmenü. Stelle deine Auflösung so ein, dass sie der nativen Anzeige deines Monitors entspricht, und wähle die mittlere Grafikvoreinstellung als Ausgangsbasis für den Test.
+  </Step>
+  <Step num="3" title="Erweitere deine Siedlung und überwache die FPS">
+    Spiele die ersten Tutorial-Ziele durch. Baue Unterkünfte, weise Arbeiter zu und errichte deine ersten Produktionslinien. Beobachte deine Framerate, sobald deine Bevölkerung 50 Piraten überschreitet, um potenzielle Engpässe zu identifizieren.
+  </Step>
+  <Step num="4" title="Stabilitätspatches anwenden">
+    Stelle sicher, dass dein Spiel auf die neueste Version aktualisiert ist. Die Entwickler haben am 10. Juni 2026 das Demo-Update #1 veröffentlicht, das zufällige Abstürze auf älteren Systemen behoben und Blockaden im Tutorial-Fortschritt beseitigt hat.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Erfolgreiche Demo-Optimierung">
+Der Patch vom 10. Juni 2026 hat die Stabilität für Mittelklasse-Systeme erheblich verbessert. Wenn du während des ersten Starts beim Steam Next Fest Leistungsprobleme hattest, sollte das Herunterladen der aktualisierten Demo deutlich bessere Ergebnisse liefern.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Plattformverfügbarkeit und Storefront-Anforderungen">
+
+Wenn Corsair Cove am 31. Juli 2026 erscheint, wird es auf mehreren PC-Plattformen verfügbar sein. Die Standard-Digitaledition kostet 29,99 USD. Da das Spiel eine reine Einzelspieler-Erfahrung ist, bleibt die Leistung auf allen Vertriebsplattformen identisch.
+
+Jeder Store hat jedoch einzigartige Client-Anforderungen und Funktionen, die du vor dem Kauf berücksichtigen solltest.
+
+| Plattform | Veröffentlichungsdatum | Game Pass Tag 1 | Cloud-Speicherstände |
+| :--- | :--- | :--- | :--- |
+| **Steam** | 31. Juli 2026 | Nein | Unterstützt |
+| **Epic Games Store** | 31. Juli 2026 | Nein | Unterstützt |
+| **Microsoft Store** | 31. Juli 2026 | Ja | Unterstützt |
+
+<CardGrid cols={3}>
+  <Card title="Steam-Edition">
+    - **Volle Steam-Workshop-Unterstützung** nach dem Launch geplant.
+    - Integrierte Community-Guides und Achievement-Tracking.
+    - Einfacher Zugriff auf Beta-Zweige und experimentelle Patches.
+  </Card>
+  <Card title="Epic Games Store">
+    - Bietet standardmäßige Achievement-Integration.
+    - Nahtlose Launcher-Leistung auf Systemen mit geringen Spezifikationen.
+    - Ideal für Spieler, die ihre Bibliothek an einem Ort verwalten möchten.
+  </Card>
+  <Card title="PC Game Pass">
+    - **Ab Tag eins verfügbar** am 31. Juli 2026.
+    - Inbegriffen in aktiven Abonnements.
+    - Erfordert den Xbox-App-Client unter Windows 10.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Xbox-App-Optimierung">
+Wenn du über den PC Game Pass spielen möchtest, stelle sicher, dass deine Xbox-App und die Windows-Gaming-Dienste auf die neuesten Versionen aktualisiert sind. Veraltete Systemdateien können gelegentlich Installationsfehler verursachen oder die Synchronisierung von Cloud-Speicherständen verhindern.
+</Callout>
+
+</Section>
+
+<Section icon={ListTodo} title="PC-Vorbereitung und Start-Checkliste">
+
+Um einen reibungslosen Start am 31. Juli 2026 zu gewährleisten, nimm dir etwas Zeit, um dein Betriebssystem und deine Hardware vorzubereiten. Eine Systembereinigung und die Aktualisierung deiner Treiber können häufige Stabilitätsprobleme am ersten Tag verhindern.
+
+Nutze diese Checkliste, um deinen PC für das ultimative vertikale Bauabenteuer vorzubereiten.
+
+<Checklist
+  id="pc-launch-prep"
+  title="Checkliste zur Vorbereitung auf den Launch-Tag:"
+  items={[
+    "Überprüfe, ob deine Grafikkartentreiber auf die neuesten Versionen vom Juli 2026 aktualisiert sind.",
+    "Gib mindestens 35 GB Speicherplatz auf deiner bevorzugten Solid-State-Drive (SSD) frei.",
+    "Bestätige, dass dein Betriebssystem mit Windows 10 64-Bit oder höher läuft.",
+    "Schließe vor dem Start Hintergrundanwendungen wie Webbrowser und ressourcenintensive Mediaplayer.",
+    "Teste deine Hardware-Leistung mit der kostenlosen Steam-Demo, um deine optimalen Einstellungen zu finden."
+  ]}
+/>
+
+<Callout type="tip" title="Die Wahl des Laufwerks ist wichtig">
+Obwohl das Spiel auf einer herkömmlichen Festplatte (HDD) laufen kann, lädt die vertikale Rendering-Engine Assets dynamisch, während du zwischen dem Meeresboden und den höchsten Berggipfeln zoomst. Die Installation auf einer SSD verhindert Textur-Pop-ins praktisch vollständig und verkürzt die Ladezeiten.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Häufig gestellte Fragen zu den Corsair Cove Systemanforderungen">
+
+<FAQ items={[
+  {
+    question: "Kann ich Corsair Cove auf einem Laptop spielen?",
+    answer: "Ja, vorausgesetzt, dein Laptop erfüllt die Mindestanforderungen. Stelle sicher, dass dein Gerät über eine dedizierte Grafikkarte wie die GTX 1660 Super oder eine gleichwertige verfügt, da integrierte mobile Grafikchips mit dem vertikalen 3D-Rendering des Spiels überfordert sein werden."
+  },
+  {
+    question: "Ist für den 31. Juli 2026 ein offizieller Konsolen-Release geplant?",
+    answer: "Nein, der Entwickler hat für den Starttermin am 31. Juli nur eine Windows-PC-Version bestätigt. Derzeit sind auf den offiziellen Shop-Seiten keine Konsolenversionen gelistet."
+  },
+  {
+    question: "Wie schlägt sich das Spiel bei späten Erweiterungen im Spielverlauf?",
+    answer: "In größeren Siedlungen mit Hunderten von aktiven Piraten und komplexen Produktionsketten wird die CPU-Wegfindung zum primären Leistungsfaktor. Das Senken der Einstellungen für die Crowd-Dichte und das effiziente Organisieren deiner Logistiknetzwerke helfen dabei, eine stabile Framerate aufrechtzuerhalten."
+  },
+  {
+    question: "Benötige ich eine aktive Internetverbindung zum Spielen?",
+    answer: "Nein, Corsair Cove ist ein Einzelspieler-Strategiespiel. Du benötigst eine Internetverbindung nur, um das Spiel herunterzuladen, Updates anzuwenden und Cloud-Speicherstände über deinen Storefront-Client zu synchronisieren."
+  }
+]} />
+
+<Callout type="success" title="Setze bald die Segel">
+Mit einem vollständig optimierten und vorbereiteten PC bist du bereit, die Klippen zu erobern und den ultimativen Piratenhafen zu errichten. Wir sehen uns auf den Weltmeeren am 31. Juli 2026!
+</Callout>
+
+</Section>

@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Users, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Manowar: Leitfaden für hochrangige Schiffe & Seetaktiken",
+  description: "Meistern Sie die Corsair Cove Manowar-Klasse mit unserem Leitfaden zu Schiffswerten, Seetaktiken und Produktionsketten für die Veröffentlichung am 31. Juli 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a365d/f8fafc?text=Manowar+Naval+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Corsair Cove Manowar**: Das ultimative Ziel für Spieler, die die absolute Seeherrschaft gegen die Krone anstreben.
+- **Seekampf**: Ein rundenbasiertes System, das **Würfelpools**, **Vorräte** und spezialisierte **Kampfkarten** nutzt.
+- **Schiffsentwicklung**: Verbessern Sie Ihr Schiff vom anfänglichen **Landlubber** (Landratte) bis zum extrem widerstandsfähigen Zerstörer **Steel Edge** (Stahlkante).
+- **Produktionsbedarf**: Schwere Kriegsschiffe erfordern komplexe Produktionsketten für **Schwarzpulver**, **Kanonen** und **Eisen**.
+- **Kapitänssynergie**: Weisen Sie legendäre Kapitäne wie **Teach** bestimmten Schiffsklassen zu, um maximalen Schaden zu verursachen.
+</Callout>
+
+<Section icon={Map} title="Veröffentlichung von Corsair Cove und Marine-Übersicht">
+
+Da das Veröffentlichungsdatum am 31. Juli 2026 immer näher rückt, bereiten sich die Spieler darauf vor, von einfachen Siedlungen an den Klippen zur Führung einer Flotte von **Corsair Cove Manowar**-Schiffen überzugehen. Entwickelt von Limbic Entertainment, integriert dieser vertikale Städtebauer komplexe Logistik mit anspruchsvollen Seegefechten. Ihre Reise beginnt mit Schiffbrüchigen, aber das Endspiel konzentriert sich auf den Aufbau einer Flotte, die in der Lage ist, die Blockade der Krone herauszufordern.
+
+Das Marinesystem ist tief mit der Wirtschaft Ihrer Siedlung verflochten. Sie können ein Linienschiff (Manowar) nicht einfach kaufen; Sie müssen die Infrastruktur aufbauen, um es zu unterstützen. Dazu gehören spezialisierte Piers, Eisengießereien und Schwarzpulvermühlen. Jedes Schiff in Ihrer Flotte erfüllt einen Zweck, vom lokalen Ressourcentransport über Langstreckenexpeditionen bis hin zu schweren Kampfbegegnungen.
+
+| Feature | Detail | Voraussetzung |
+| :--- | :--- | :--- |
+| **Veröffentlichungsdatum** | 31. Juli 2026 | PC (Steam, Epic, Microsoft) |
+| **Schiffsbau** | Pier-Konstruktion | Hartholz, Münzen, Eisen |
+| **Kampfstil** | Rundenbasierte Strategie | Würfelpools / Vorräte |
+| **Max. Besatzung** | Variiert je nach Schiffsstufe | Unterkünfte / Nahrung / Getränke |
+
+<Callout type="tip" title="Tipp zum Start">
+Überstürzen Sie den Bau hochrangiger Schiffe nicht sofort. Stellen Sie sicher, dass Ihr **Zusammenhalt** (Cohesion) stabil ist und Ihre **Nahrungs-/Getränkeproduktion** den gestiegenen Besatzungsbedarf größerer Schiffe bewältigen kann.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="Schiffsklassen und Linienschiff-Werte">
+
+In der aktuellen Version des Spiels ist die Schiffsentwicklung in Stufen (Tiers) unterteilt. Während die **Landlubber** (Landratte) als Ihr erstes Erkundungsschiff dient, stellt die **Steel Edge** (Stahlkante) den Übergang zu echter Seemacht dar und wird von der Community oft als Vorläufer der **Corsair Cove Manowar**-Klasse bezeichnet. Diese Schiffe verfügen über größere Gesundheitspools und vielfältigere Wertverteilungen, sodass sie auch Welt-Events mit dem Schwierigkeitsgrad „Schwer“ bewältigen können.
+
+Das Verständnis der Werte Ihres Schiffes ist entscheidend. Jedes Schiff verfügt über fünf Hauptattribute, die den Erfolg bei Weltkarten-Events bestimmen. Wenn die Werte Ihres Schiffes nicht mit den Empfehlungen des Events übereinstimmen, sind Ihre Würfelpools erheblich im Nachteil, was zu höheren Besatzungsverlusten oder zur völligen Zerstörung des Schiffes führen kann.
+
+| Schiffstyp | Stufe | Gesundheit | Besatzungskapazität | Vorratslimit | Beste Verwendung |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Landlubber** | 1 | 24 | 15 | 20 | Frühe Erkundung |
+| **Iron Fist** | 1+ | 45 | 15 | 20 | Ressourcen-Überfälle |
+| **Steel Edge** | 2 | 88 | 15 | 22 | Schwerer Kampf |
+| **Manowar** | 3 | 150+ | 25+ | 35+ | Kronfestungen |
+
+<Callout type="warning" title="Vorrats-Warnung">
+Große Schiffe wie die Manowar verbrauchen im Kampf schnell Vorräte. Füllen Sie Ihre Vorratskisten am Pier immer auf, bevor Sie sich auf mehrstufige Expeditionen begeben.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Starter: Landlubber">
+    - **Kosten**: Kostenlos (Start-Pier)
+    - **Vorteile**: Geringer Unterhalt, schneller Bau
+    - **Nachteile**: Sehr geringe Gesundheit, schwache Werte
+  </Card>
+  <Card title="Elite: Steel Edge">
+    - **Kosten**: 50 Hartholz / 50 Münzen
+    - **Vorteile**: Hohe Haltbarkeit, ideal für Überfälle
+    - **Nachteile**: Erfordert Eisenproduktion
+  </Card>
+  <Card title="Ziel: Manowar">
+    - **Kosten**: Fortgeschrittene Materialien
+    - **Vorteile**: Dominiert den Seekampf
+    - **Nachteile**: Enormer Bedarf an Besatzungszufriedenheit
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Seekampf und Würfelmechanik">
+
+Der Kampf gegen die Krone erfordert die Beherrschung des rundenbasierten Kampfsystems. Wenn ein **Corsair Cove Manowar**-Schiff in ein Gefecht verwickelt wird, wechselt das Spiel zu einer strategischen Benutzeroberfläche, auf der Karten Ihre taktischen Optionen darstellen. In jeder Runde offenbart der Feind seine Absichten, sodass Sie die Möglichkeit haben, zu kontern oder Ihre eigenen Ziele zu verfolgen.
+
+Der Kampfverlauf wird durch Würfelpools bestimmt. Die Werte Ihres Schiffes bilden die Basisanzahl der Würfel, während die Fähigkeiten Ihres Kapitäns und aktive Kampfkarten dem Wurf „Bonuswürfel“ hinzufügen können. Beim Erfolg geht es nicht nur darum, hohe Augenzahlen zu würfeln; es geht darum, Ihre **Vorräte** so zu verwalten, dass Ihnen in der Endphase eines Kampfes nicht die Aktionen ausgehen.
+
+<Steps>
+  <Step num="1" title="Event-Ziele analysieren">
+    Prüfen Sie, ob das Ziel darin besteht, den Feind zu versenken, die Distanz zu verringern oder Ressourcen zu bergen. Gleichen Sie die Werte Ihres Schiffes mit den Empfehlungen des Symbols ab.
+  </Step>
+  <Step num="2" title="Kampfkarten auswählen">
+    Verwenden Sie **Kampfkarten** wie „Schweres Feuer“ (kostet 2 Vorräte), um der gegnerischen Gesundheit Schaden zuzufügen, oder „In die Bresche“, um die gegnerische Besatzung ins Visier zu nehmen.
+  </Step>
+  <Step num="3" title="Konteraktionen ausführen">
+    Wenn der Feind ein „Dauerfeuer“ einsetzt, nutzen Sie defensive Karten wie „Rückzug“, um Schaden abzuwehren und Bonuswürfel für die nächste Runde zu erhalten.
+  </Step>
+  <Step num="4" title="Vorratsrückgewinnung verwalten">
+    Wenn die Vorräte unter 5 fallen, wechseln Sie zu **Unterstützungskarten**. Diese verursachen oft keinen Schaden, ermöglichen es Ihrer Besatzung jedoch, lebenswichtige Munition aufzustocken.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Kampferfolg">
+Das Gewinnen eines Kampfes bringt wertvolle Beute wie **Silber**, **Wein** und **Walspeck**, die unerlässlich sind, um die Bedürfnisse der Elite-Piratenstufen in Ihrer Siedlung zu befriedigen.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Kapitänseigenschaften und Besatzungsverwaltung">
+
+Kein **Corsair Cove Manowar**-Schiff ist ohne einen legendären Kapitän vollständig. Kapitäne sind nicht nur Zierde; sie bieten passive Vorteile und einzigartige Karten, die das Blatt in einem verlorenen Kampf wenden können. Beispielsweise ist **Teach (Blackbeard)** auf aggressive Manöver spezialisiert und gewährt zusätzliche Würfel, wann immer er der gegnerischen Gesundheit Schaden zufügt.
+
+Die Verwaltung der Besatzung auf diesen gewaltigen Schiffen erfordert ebenfalls eine stabile Siedlung. Größere Schiffe benötigen **Spezialmatrosen** wie Kanoniere und Navigatoren. Diese Spezialisten haben höhere Ansprüche als Ihre einfachen Landstreicher (Drifters) und verlangen nach Gütern wie **Ferngläsern**, **Medizin** und **Schicker Kleidung**.
+
+| Kapitän | Spezialisierung | Einzigartiger Vorteil | Kampfstrategie |
+| :--- | :--- | :--- | :--- |
+| **Teach** | Aggression | +20% Kanonenschaden | Angriffe auf die Gesundheit verketten |
+| **Honorata** | Erkundung | Höherer Event-Erfolg | Fokus auf Tempelexpeditionen |
+| **Scarlet** | Geschwindigkeit | Ausweichbonus | Konter nutzen, um Würfelpools aufzubauen |
+| **Kanja** | Wohlstand | +15% Beutezuwachs | Bestens geeignet für ressourcenreiche Überfälle |
+
+<Callout type="info" title="Besatzungs-Tipp">
+Nutzen Sie **Gefangenenschiff**-Events, um schnell neue Besatzungsmitglieder zu rekrutieren. Dies ist oft effizienter, als bei der Erweiterung Ihrer Flotte auf natürliches Bevölkerungswachstum zu warten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Produktionsketten für schwere Kriegsschiffe">
+
+Der Bau und Unterhalt eines **Corsair Cove Manowar**-Schiffs erfordert die komplexesten Produktionsketten im Spiel. Im Gegensatz zu Gebäuden im frühen Spiel, die nur Holz und Stein benötigen, verlangen Kriegsschiffe eine stetige Versorgung mit raffinierten Metallen und militärischem Sprengstoff. Wenn Ihr Logistiknetzwerk einen „roten“ Distanzengpass aufweist, gerät Ihre Werft ins Stocken, was Ihre Bucht verwundbar macht.
+
+Die folgende Tabelle zeigt die primären Ressourcen auf, die benötigt werden, um Ihre Flotte einsatzbereit zu halten und Ihre Siedlung durch Verteidigungstürme zu schützen.
+
+| Ressource | Herstellungsgebäude | Ausgangsmaterialien | Endverwendung |
+| :--- | :--- | :--- | :--- |
+| **Eisenplatten** | Eisengießerei | Eisenerz + Holzkohle | Rumpfverstärkung |
+| **Kanonen** | Kanonenschmiede | Eisen + Kupfer | Schiffs- & Turmbewaffnung |
+| **Schwarzpulver** | Pulvermühle | Schwefel + Holzkohle | Munition für Geschütze |
+| **Hartholzbretter** | Sägewerk | Altes Holz | Schiffskonstruktionen ab Stufe 2 |
+| **Arbeitskleidung & Stiefel** | Schneider / Schuster | Fasern + Leder | Einfacher Besatzungsunterhalt |
+
+<Callout type="warning" title="Logistik-Warnung">
+Platzieren Sie Ihre **Kanonenschmiede** und **Pulvermühle** immer in der Nähe eines **Verteilerzentrums** (Distribution Hub). Diese Güter sind schwer, und lange Transportwege verlangsamen Ihre Schiffsreparaturgeschwindigkeit erheblich.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Kompass-Prinzipien und Fortschritt">
+
+Um das Linienschiff (Manowar) und andere fortschrittliche Marinetechnologien freizuschalten, müssen Sie Prinzipienpunkte in den **Kompass** investieren. Der Kompass ist in vier Pfade unterteilt: **Berüchtigt**, **Imperium**, **Seafaring** (Seefahrt) und **Wohlstand**. Obwohl ein ausgewogener Ansatz möglich ist, sollten Spieler, die sich auf das **Corsair Cove Manowar**-Schiff konzentrieren, die Zweige **Seafaring** und **Berüchtigt** priorisieren.
+
+<Checklist
+  id="naval-progression"
+  title="Ziele für die Seeherrschaft:"
+  items={[
+    "Schalten Sie den Schiffsbau der Stufe 2 im Zweig „Seafaring“ frei",
+    "Errichten Sie eine Eisengießerei mit einer stabilen Holzkohleversorgung",
+    "Rekrutieren Sie einen kampffokussierten Kapitän wie Teach oder Scarlet",
+    "Schließen Sie die Hauptquestreihe „Schatten der Krone“ ab",
+    "Werten Sie den Pier auf, um Schiffe der schweren Klasse zu unterstützen"
+  ]}
+/>
+
+<Callout type="success" title="Expertenrat">
+Eine frühzeitige Investition in das Prinzip **Wohlstand** kann helfen, Ihre Marineexpansion zu finanzieren. Schiffe hoher Stufen sind teuer im Unterhalt, und eine starke Wirtschaft verhindert den Verlust von **Zusammenhalt** (Cohesion) während langer Seereisen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie schalte ich das Corsair Cove Manowar-Schiff frei?",
+    answer: "Sie müssen den Zweig „Seafaring“ des Kompasses durchlaufen und genügend Prinzipienpunkte durch Taten und Nebenquests sammeln. Außerdem benötigen Sie einen Pier der Stufe 3 und fortschrittliche Ressourcen wie Eisenplatten und Kanonen."
+  },
+  {
+    question: "Was passiert, wenn mein Schiff während eines Events sinkt?",
+    answer: "Wenn die Gesundheit oder die Besatzung Ihres Schiffes auf Null sinkt, ist das Schiff verloren. Sie verlieren das Schiff, seine aktuelle Ladung und möglicherweise den zugewiesenen Kapitän für eine bestimmte Dauer. Ziehen Sie sich immer zurück, wenn Ihre Vorräte zu gering sind, um den Kampf zu beenden."
+  },
+  {
+    question: "Kann ich mehrere Schiffe in einem einzigen Kampfgefecht einsetzen?",
+    answer: "Derzeit konzentriert sich Corsair Cove bei Welt-Events auf 1v1-Seegefechte. Sie können jedoch eine Flotte aus mehreren Schiffen unterhalten, um mehrere Expeditionen gleichzeitig auf der Weltkarte durchzuführen."
+  },
+  {
+    question: "Warum ist meine Schiffsreparaturgeschwindigkeit so langsam?",
+    answer: "Überprüfen Sie Ihre Logistiklinien. Wenn die Route zwischen Ihrem Lagerhaus (in dem Eisen/Holz gelagert wird) und dem Pier „rot“ ist, verbringen Ihre Arbeiter zu viel Zeit mit Laufen. Nutzen Sie Seilrutschen oder Brücken, um den Weg zu verkürzen."
+  }
+]} />
+
+</Section>

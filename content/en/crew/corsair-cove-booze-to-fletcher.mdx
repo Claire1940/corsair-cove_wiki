@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Corsair Cove Booze to Fletcher: Supply Chain & Quest Guide",
+  description: "Master the corsair cove booze to fletcher quest. Learn how to optimize your brewery production, assign Fetchers, and deliver alcohol across vertical cliffs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Booze+To+Fletcher+Guide",
+  date: "2026-07-17",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Delivering **corsair cove booze to fletcher** unlocks advanced defensive blueprints and elite ranged pirate units.
+- **Key Requirement**: Establish a stable production chain for Ale or Rum and assign dedicated Fetchers to handle vertical transport.
+- **Logistics Focus**: Keep transport routes short and green to prevent delivery delays across steep cliffside paths.
+- **Reward Potential**: Unlocks the Fletcher's Workshop, specialized guard towers, and high-tier naval combat equipment.
+</Callout>
+
+<Section icon={Target} title="The Corsair Cove Booze to Fletcher Questline">
+
+Establishing a thriving pirate haven in Corsair Cove requires more than just building houses and raiding passing merchant ships. As your settlement expands vertically along the island's steep cliffs, defending your accumulated wealth becomes a top priority. Crown forces will launch periodic raids to reclaim their lost goods, making defensive fortifications essential for survival. To build the best defenses, you must recruit Fletcher, a legendary master weaponsmith and defensive strategist who resides in a secluded camp on the upper mountain terraces.
+
+Fletcher is a stubborn, retired pirate who refuses to help your settlement unless his personal demands are met. The core of his recruitment process involves completing the **corsair cove booze to fletcher** delivery quest. He demands a steady supply of high-quality alcohol to keep his crew satisfied before he will share his advanced blueprints for gun towers, cannons, and specialized ammunition. Failing to supply him not only stalls your defensive progression but can also lead to a drop in global Cohesion if your settlement remains vulnerable to Crown attacks.
+
+| Quest Stage | Objective | Required Items | Rewards |
+| Stage 1 | Locate Fletcher's cliffside outpost | None | Map coordinates unlocked |
+| Stage 2 | Establish local supply line | 10 Ale, 5 Hard Tack | Fletcher's Trust (+5 Notoriety) |
+| Stage 3 | Secure permanent delivery | 20 Rum, 10 Stew | Fletcher's Workshop blueprint |
+
+<Callout type="info" title="Defensive Planning">
+Crown raids scale in difficulty based on your settlement's total wealth and population. Completing Fletcher's quest early ensures you have the defensive capabilities required to survive mid-game naval assaults.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Setting Up the Booze Production Chain">
+
+To satisfy Fletcher's demanding thirst, you must establish a reliable beverage production network. In Corsair Cove, alcohol is divided into different tiers, with Ale serving as the basic option and Rum representing the preferred high-tier luxury. Producing these beverages requires a careful balance of farming, water gathering, and processing.
+
+Ale production is the easiest starting point. It requires Grain and Clean Water. Grain must be cultivated on flat, fertile soil, which is often scarce near the shoreline. You will need to build Grain Farms on the lower terraces and connect them to Water Collectors. Once harvested, these raw materials must be routed to a Brewery, where Production Workers will process them into Ale. 
+
+Rum production is more complex but highly favored by Fletcher. It requires Sugar and Clean Water. Because sugar cane does not grow naturally on the starting island, you must either import sugar through your Dock or launch successful raids on nearby tropical islands using your fleet. Once sugar is secured, route it to a Distillery to produce Rum.
+
+| Beverage | Raw Materials | Production Building | Output Rate | Crew Satisfaction |
+| Ale | Grain, Clean Water | Brewery | High | Basic Crew |
+| Rum | Sugar, Clean Water | Distillery | Medium | Specialist Crew |
+| Wine | Imported Grapes | Advanced Winery | Low | Elite Crew |
+
+<Callout type="tip" title="Production Tip">
+Always build your Water Collectors on higher ground. Gravity-fed connections do not require additional energy, reducing the overall operational cost of your Breweries and Distilleries.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Optimizing Logistics: Fetchers and Route Efficiency">
+
+Once your Breweries and Distilleries are operational, the next challenge is transporting the booze to Fletcher's remote cliffside camp. This is where your logistics network and Fetchers come into play. Fetchers are assigned pirates responsible for moving goods between production buildings, distribution hubs, and residential camps.
+
+Because Corsair Cove features extreme vertical terrain, pathfinding can quickly become a major bottleneck. If your Fetchers have to walk up winding mountain paths to deliver the alcohol, the transit time will be too long, resulting in a red-distance route. Red routes indicate severe logistical inefficiency, which causes delivery delays and can lead to a drop in Fletcher's satisfaction. To prevent this, you must utilize advanced vertical infrastructure.
+
+<CardGrid cols={3}>
+  <Card title="Bridges">
+    - **Low resource cost**
+    - Spans narrow chasms
+    - Ideal for connecting adjacent terraces
+  </Card>
+  <Card title="Cargo Elevators">
+    - **High bulk capacity**
+    - Moves goods vertically
+    - Perfect for moving heavy resources from harbor to cliffs
+  </Card>
+  <Card title="Ziplines">
+    - **Extremely fast transit**
+    - One-way rapid delivery
+    - Best for sending finished goods like booze directly to camps
+  </Card>
+</CardGrid>
+
+| Connection Type | Construction Cost | Height Limit | Transport Speed | Best Use Cases |
+| Basic Bridge | 10 Timber, 5 Stone | Low | Moderate | Crossing narrow ravines |
+| Cargo Elevator | 20 Timber, 10 Iron | High | Slow | Heavy bulk goods |
+| Zipline Express | 15 Timber, 5 Fiber | High | Very Fast | High-value light goods |
+
+<Callout type="warning" title="Logistics Warning">
+Never rely on basic walking paths for long-distance vertical deliveries. Fetchers will waste valuable time walking, causing production buildings to clog up and remote camps to starve of resources.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Delivery Guide">
+
+To successfully complete the delivery and secure Fletcher's services, follow this optimized progression route.
+
+<Steps>
+  <Step num="1" title="Locate Fletcher's Outpost">
+    Explore the northern ridge of your island to locate Fletcher's camp. Once discovered, build a road connection from your main settlement toward the base of his cliff to prepare for infrastructure placement.
+  </Step>
+  <Step num="2" title="Construct the Water and Grain Network">
+    Place two Grain Farms on a fertile terrace and support them with at least three Water Collectors. Ensure these buildings are connected to a localized warehouse to store the raw materials.
+  </Step>
+  <Step num="3" title="Build and Supply the Brewery">
+    Construct a Brewery near your warehouse. Assign Production Workers to the Brewery and monitor the resource panel to ensure the inflow of Grain and Water matches the Brewery's consumption rate.
+  </Step>
+  <Step num="4" title="Establish a Vertical Zipline Connection">
+    Unlock Ziplines through your Pirate Principles menu. Place a Zipline sender station next to your Brewery and the receiver station directly inside Fletcher's camp operating radius.
+  </Step>
+  <Step num="5" title="Assign Dedicated Fetchers">
+    Assign at least two Fetchers to the Zipline station. They will automatically load the produced Ale or Rum onto the Zipline, delivering the booze directly to Fletcher in seconds and completing the quest.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Quest Completed">
+Once Fletcher's thirst is satisfied, his workshop blueprint will unlock. Place the Fletcher's Workshop near your harbor to begin crafting advanced cannons and defensive ammunition.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Settlement Stability and Cohesion Goals">
+
+Expanding your territory to reach Fletcher's camp will place a strain on your settlement's overall economy. Every new camp you establish expands your buildable area, but it also introduces new residents who require housing, food, and entertainment. If these needs are ignored, your global Cohesion meter will drop, which can lead to game failure. Use this checklist to ensure your settlement remains stable during the quest.
+
+<Checklist
+  id="stability-goals"
+  title="Essential Settlement Milestones:"
+  items={[
+    "Build sufficient housing for all Drifters and assigned workers before expanding camps",
+    "Maintain a positive food production balance using Fish Huts and Potato Fields",
+    "Establish localized distribution hubs to prevent supply bottlenecks",
+    "Keep global Cohesion above fifty percent by resolving unmet needs quickly",
+    "Upgrade defensive towers near the harbor to protect your storage facilities"
+  ]}
+/>
+
+<Callout type="tip" title="Cohesion Tip">
+Avoid rapid population growth. Only recruit new pirates when your food and beverage production chains have a stable surplus, as empty bellies quickly destroy pirate morale.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why is my booze delivery route showing a red line?",
+    answer: "A red line indicates that the physical distance between your Brewery and Fletcher's camp is too long for Fetchers to walk efficiently. To fix this, construct a Zipline or a Cargo Elevator to create a direct vertical connection."
+  },
+  {
+    question: "Can I complete the quest using only basic Ale?",
+    answer: "Yes, you can complete the initial stages of the corsair cove booze to fletcher quest using Ale. However, unlocking his highest-tier defensive blueprints will eventually require deliveries of premium Rum."
+  },
+  {
+    question: "What happens if I fail to supply Fletcher with booze?",
+    answer: "If Fletcher's beverage supply runs dry, his satisfaction will drop, causing him to halt production at the Fletcher's Workshop. This stops your defensive progression and leaves your settlement vulnerable to Crown raids."
+  },
+  {
+    question: "Where do I get the sugar required for making Rum?",
+    answer: "Sugar cannot be grown on your starting island. You must either trade for it at your Dock or build a fleet at the Pier and launch raids on southern tropical islands to plunder their sugar plantations."
+  }
+]} />
+
+<Callout type="info" title="Final Reminder">
+Keep a close eye on your resource panel. A sudden drop in water supply can stall your entire beverage chain, leading to immediate supply shortages across all pirate camps.
+</Callout>
+
+</Section>
