@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Corsair Cove Wiki - Release Date, Demo & Beginner Guide",
+      "description": "Corsair Cove Wiki covers the July 31 release, free demo, beginner tips, buildings, production chains, crew needs, ships, naval combat, quests, and updates.",
+      "keywords": "Corsair Cove, release date, demo, guide, buildings, ships, combat, production chains",
+      "ogTitle": "Corsair Cove Wiki - Release Date, Demo & Beginner Guide",
+      "ogDescription": "Corsair Cove Wiki covers the July 31 release, free demo, beginner tips, buildings, production chains, crew needs, ships, naval combat, quests, and updates.",
+      "twitterTitle": "Corsair Cove Wiki - Release Date, Demo & Beginner Guide",
+      "twitterDescription": "Corsair Cove Wiki covers the July 31 release, free demo, buildings, production chains, crew, ships, naval combat, and updates."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Artikel folgen bald"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Vertical Pirate City Builder",
+    "title": "Corsair Cove Wiki",
+    "description": "Build a sprawling pirate haven across cliffs and islands, manage complex production chains, satisfy your crew, raise a fleet, explore the seas, and fight the Crown.",
+    "getFreeCodesCTA": "Play Free Demo",
+    "playOnSteamCTA": "Wishlist on Steam",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "Jul 31, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "Free",
+        "label": "Demo Available"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "50+",
+        "label": "Goods Available"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "4",
+        "label": "Progression Paths"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "title": "Ready to Build Your Pirate Haven?",
+    "description": "Join the Corsair Cove community on Discord for guides, updates, and discussions!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Wishlist on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
-    "resources": "Ressourcen",
+    "title": "Corsair Cove Wiki",
+    "description": "Your complete resource hub for Corsair Cove buildings, production chains, crew, fleet, naval combat, and exploration guides.",
+    "resources": "Resources",
     "community": "Community",
-    "legal": "Rechtliches",
+    "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
-    "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
-    "terms": "Nutzungsbedingungen",
-    "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Corsair Cove Wiki. Not affiliated with the developers of Corsair Cove.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

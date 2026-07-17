@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "description": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "keywords": "Lucid Blocks, вики Lucid Blocks, крафт, биомы, достижения, выживание, Steam",
-      "ogTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "ogDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "twitterTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "twitterDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
+      "title": "Corsair Cove Wiki - Release Date, Demo & Beginner Guide",
+      "description": "Corsair Cove Wiki covers the July 31 release, free demo, beginner tips, buildings, production chains, crew needs, ships, naval combat, quests, and updates.",
+      "keywords": "Corsair Cove, release date, demo, guide, buildings, ships, combat, production chains",
+      "ogTitle": "Corsair Cove Wiki - Release Date, Demo & Beginner Guide",
+      "ogDescription": "Corsair Cove Wiki covers the July 31 release, free demo, beginner tips, buildings, production chains, crew needs, ships, naval combat, quests, and updates.",
+      "twitterTitle": "Corsair Cove Wiki - Release Date, Demo & Beginner Guide",
+      "twitterDescription": "Corsair Cove Wiki covers the July 31 release, free demo, buildings, production chains, crew, ships, naval combat, and updates."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Vertical Pirate City Builder",
+    "title": "Corsair Cove Wiki",
+    "description": "Build a sprawling pirate haven across cliffs and islands, manage complex production chains, satisfy your crew, raise a fleet, explore the seas, and fight the Crown.",
+    "getFreeCodesCTA": "Play Free Demo",
+    "playOnSteamCTA": "Wishlist on Steam",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "Jul 31, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "Free",
+        "label": "Demo Available"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "50+",
+        "label": "Goods Available"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "4",
+        "label": "Progression Paths"
       }
     }
   },
@@ -181,27 +181,27 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "title": "Ready to Build Your Pirate Haven?",
+    "description": "Join the Corsair Cove community on Discord for guides, updates, and discussions!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Wishlist on Steam"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
-    "resources": "Ресурсы",
-    "community": "Сообщество",
-    "legal": "Юридическая информация",
+    "title": "Corsair Cove Wiki",
+    "description": "Your complete resource hub for Corsair Cove buildings, production chains, crew, fleet, naval combat, and exploration guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
-    "about": "О проекте",
-    "privacy": "Политика конфиденциальности",
-    "terms": "Условия использования",
-    "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
+    "steamCommunity": "Steam Community",
+    "steamStore": "Steam Store",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Corsair Cove Wiki. Not affiliated with the developers of Corsair Cove.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {
