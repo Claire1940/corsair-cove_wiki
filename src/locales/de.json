@@ -1,1 +1,757 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Corsair Cove Wiki – Release-Termin, Demo & Einsteiger-Guide",
+      "description": "Das Corsair Cove Wiki behandelt die Veröffentlichung am 31. Juli, die kostenlose Demo, Einsteiger-Tipps, Gebäude, Produktionsketten, Crew-Bedürfnisse, Schiffe, Seekampf, Quests und Updates.",
+      "keywords": "Corsair Cove, Release-Termin, Demo, Guide, Gebäude, Schiffe, Kampf, Produktionsketten",
+      "ogTitle": "Corsair Cove Wiki – Release-Termin, Demo & Einsteiger-Guide",
+      "ogDescription": "Das Corsair Cove Wiki behandelt die Veröffentlichung am 31. Juli, die kostenlose Demo, Einsteiger-Tipps, Gebäude, Produktionsketten, Crew-Bedürfnisse, Schiffe, Seekampf, Quests und Updates.",
+      "twitterTitle": "Corsair Cove Wiki – Release-Termin, Demo & Einsteiger-Guide",
+      "twitterDescription": "Das Corsair Cove Wiki behandelt die Veröffentlichung am 31. Juli, die kostenlose Demo, Gebäude, Produktionsketten, Crew, Schiffe, Seekampf und Updates."
+    }
+  },
+  "nav": {
+    "release": "Release",
+    "platforms": "Plattformen",
+    "features": "Features",
+    "guide": "Guide",
+    "building": "Gebäude",
+    "crew": "Crew",
+    "ships": "Schiffe"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Auf Steam spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die Seite, die du suchst, existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Ähnliche Artikel",
+    "readMore": "Mehr lesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
+  },
+  "hero": {
+    "badge": "Vertikales Piraten-Aufbauspiel",
+    "title": "Corsair Cove Wiki",
+    "description": "Errichte einen weitläufigen Piratenhafen auf Klippen und Inseln, verwalte komplexe Produktionsketten, stelle deine Crew zufrieden, hebe eine Flotte aus, erforsche die Meere und kämpfe gegen die Krone.",
+    "getFreeCodesCTA": "Kostenlose Demo spielen",
+    "playOnSteamCTA": "Auf Steam auf die Wunschliste",
+    "stats": {
+      "stat1": {
+        "value": "31. Juli 2026",
+        "label": "Veröffentlichungsdatum"
+      },
+      "stat2": {
+        "value": "Kostenlos",
+        "label": "Demo verfügbar"
+      },
+      "stat3": {
+        "value": "50+",
+        "label": "Verfügbare Waren"
+      },
+      "stat4": {
+        "value": "4",
+        "label": "Fortschrittspfade"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Corsair Cove Gameplay",
+    "description": "Errichte in diesem Einzelspieler-Piraten-City-Builder einen vertikalen Piratenhafen auf Klippen und Inseln, verwalte mehr als 50 Produktionsgüter, stelle eine Flotte auf und bekämpfe die Krone."
+  },
+  "tools": {
+    "title": "Corsair Cove",
+    "titleHighlight": "Guides",
+    "subtitle": "Alles, was du zum Bauen, Handeln, Segeln und Kämpfen in Corsair Cove brauchst",
+    "cards": [
+      {
+        "icon": "ClipboardCheck",
+        "title": "Corsair Cove Veröffentlichungsdatum",
+        "description": "Veröffentlichungsdatum, Preis, Stores und PC-Anforderungen"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Corsair Cove Demo-Guide",
+        "description": "Erste Siedlung, Piraten-Jobs und stabile Produktion"
+      },
+      {
+        "icon": "Startseite",
+        "title": "Corsair Cove: Bestes Layout",
+        "description": "Klippen-Layouts, Brücken, Seilrutschen und Hubs"
+      },
+      {
+        "icon": "Package",
+        "title": "Corsair Cove Produktionsketten",
+        "description": "50+ Waren, Logistik und Behebung von Engpässen"
+      },
+      {
+        "icon": "Shield",
+        "title": "Corsair Cove Schiffe & Kampf",
+        "description": "Schiffswerte, Kapitäne und rundenbasierte Kämpfe"
+      },
+      {
+        "icon": "Benutzer",
+        "title": "Corsair Cove Crew & Zusammenhalt",
+        "description": "Piratenrollen, Bedürfnisse, Lager und Überleben"
+      },
+      {
+        "icon": "Stern",
+        "title": "Corsair Cove Kompass-Quests",
+        "description": "Prinzipien, Taten, Überfälle und legendäre Begegnungen"
+      },
+      {
+        "icon": "Uhr",
+        "title": "Corsair Cove Updates",
+        "description": "Neuigkeiten zur Veröffentlichung, Demo-Patches und Charaktergeschichten"
+      }
+    ]
+  },
+  "modules": {
+    "corsairCoveReleaseDate": {
+      "title": "Corsair Cove Veröffentlichungsdatum, Preis und PC-Anforderungen",
+      "displayType": "Spezifikationen",
+      "intro": "Corsair Cove ist ein Einzelspieler-Piraten-Städteaufbauspiel, das von Limbic Entertainment entwickelt und von Hooded Horse veröffentlicht wird. Das Spiel erscheint am 31. Juli 2026 für Windows-PC auf Steam, im Epic Games Store, im Microsoft Store und im PC Game Pass.",
+      "items": [
+        {
+          "category": "Veröffentlichungsdatum",
+          "value": "31. Juli 2026",
+          "details": "Corsair Cove ist vor seiner PC-Veröffentlichung als „Bald verfügbar“ gelistet."
+        },
+        {
+          "category": "Plattform",
+          "value": "Windows-PC",
+          "details": "Corsair Cove erscheint für PC, wobei auf den offiziellen Shop-Seiten keine Konsolenversion aufgeführt ist."
+        },
+        {
+          "category": "PC-Stores",
+          "value": "Steam, Epic Games Store, Microsoft Store",
+          "details": "Corsair Cove kann vor der Veröffentlichung auf allen unterstützten Plattformen auf die Wunschliste gesetzt werden."
+        },
+        {
+          "category": "PC Game Pass",
+          "value": "Ab Tag eins verfügbar",
+          "details": "Der Zugang zu Corsair Cove über den PC Game Pass beginnt mit der Veröffentlichung des Spiels am 31. Juli 2026."
+        },
+        {
+          "category": "Preis",
+          "value": "29,99 USD",
+          "details": "Standardmäßige digitale PC-Edition von Corsair Cove."
+        },
+        {
+          "category": "Sprachen",
+          "value": "12 unterstützte Sprachen",
+          "details": "Corsair Cove unterstützt Englisch, Französisch, Italienisch, Deutsch, Spanisch, Koreanisch, Polnisch, Russisch, vereinfachtes Chinesisch, traditionelles Chinesisch, Japanisch und brasilianisches Portugiesisch, mit vollständiger Sprachausgabe in Englisch, Französisch und Deutsch."
+        },
+        {
+          "category": "Mindestsystemanforderungen",
+          "value": "Windows 10 64-Bit, 8 GB RAM, DirectX 12, 30 GB Speicherplatz",
+          "details": "Intel Core i7-7700 oder AMD Ryzen 5 1600; NVIDIA GeForce GTX 1660 Super 6 GB oder AMD Radeon RX 5600 XT 6 GB. SSD für Corsair Cove empfohlen."
+        },
+        {
+          "category": "Empfohlene Systemanforderungen",
+          "value": "Windows 10 64-Bit, 16 GB RAM, DirectX 12, 30 GB Speicherplatz",
+          "details": "Intel Core i5-9600K oder AMD Ryzen 5 3600; NVIDIA GeForce RTX 2070 8 GB oder AMD Radeon RX 6600 XT 8 GB. SSD für Corsair Cove empfohlen."
+        }
+      ]
+    },
+    "corsairCoveBeginnerGuide": {
+      "title": "Corsair Cove Demo Einsteiger-Guide",
+      "displayType": "Schritte",
+      "intro": "Lade die kostenlose Corsair Cove Demo herunter, errichte eine verbundene Siedlung, weise Piraten korrekt zu und baue ein stabiles erstes Produktionsnetzwerk auf, bevor du expandierst.",
+      "steps": [
+        {
+          "title": "Installiere die kostenlose Demo",
+          "description": "Öffne die Corsair Cove Demo-Seite auf Steam und wähle „Demo installieren“. Die Demo ist für Einzelspieler, unterstützt Steam Cloud und nutzt dieselben Mindestsystemanforderungen wie das Hauptspiel.",
+          "tip": "Installiere die Corsair Cove Demo nach Möglichkeit auf einer SSD."
+        },
+        {
+          "title": "Lies die Island View",
+          "description": "Nutze die Island View als deinen Hauptverwaltungsbildschirm in Corsair Cove. Verfolge Main Quests, Side Quests, Deeds, Siedlungsbenachrichtigungen, verfügbares Coin, die Zufriedenheit im Pirate Camp, Cohesion und die aktuelle Spielgeschwindigkeit.",
+          "tip": "Pausiere Corsair Cove, während du eine neue Quest liest oder einen großen Bauschritt planst."
+        },
+        {
+          "title": "Erstelle die erste verbundene Siedlung",
+          "description": "Nutze den Construction-Tab, um Gebäude zu platzieren und sie mit der Siedlung zu verbinden. Automatische Verbindungen erscheinen, wenn die Platzierung dies zulässt; manuelle Verbindungen sind erforderlich, wenn ein Gebäude nicht automatisch verknüpft wird.",
+          "tip": "Ein Gebäude kann nur betrieben werden, wenn es verbunden ist. Grüne Verbindungspfeile markieren nützliche Hubs in Corsair Cove."
+        },
+        {
+          "title": "Verwalte Drifters und zugewiesene Piraten",
+          "description": "Drifters sind arbeitslose Piraten ohne Unterhaltskosten, die Gebäude errichten und dennoch Wohnraum benötigen. Zugewiesene Piraten arbeiten in spezifischen Jobs, benötigen Wohnraum und verursachen Unterhaltskosten.",
+          "tip": "Weise nicht sofort jeden Piraten zu. Halte genug Drifters frei, um Bauarbeiten in Corsair Cove abzuschließen."
+        },
+        {
+          "title": "Stabilisiere Wohnraum, Nahrung und Getränke",
+          "description": "Stelle Wohnraum bereit und achte auf die Bedürfnisse der Piraten, die in jedem Camp leben. Nutze die Resources- und Pirate Camp-Übersichten, um Produktion, Verbrauch und Camp-Zufriedenheit in Echtzeit zu vergleichen.",
+          "tip": "Ein zu schnelles Bevölkerungswachstum kann es erschweren, die Cohesion und die Grundversorgung in Corsair Cove aufrechtzuerhalten."
+        },
+        {
+          "title": "Baue kurze Produktionsrouten",
+          "description": "Verbinde Ressourcenknoten mit Produktionsgebäuden und Fertigwaren mit Verteilungshubs. Wähle ein Ressourcengebäude aus, um seine Logistiklinien zu prüfen: Grün ist kurz und gesund, Gelb ist suboptimal und Rot ist lang genug, um Produktionsprobleme zu verursachen.",
+          "tip": "Versetze Gebäude oder füge eine bessere Verbindung hinzu, bevor eine rote Route zu einem siedlungsweiten Engpass in Corsair Cove wird."
+        },
+        {
+          "title": "Expandiere mit einem neuen Pirate Camp",
+          "description": "Platziere ein weiteres Pirate Camp, wenn entfernte Ressourcen außerhalb des aktuellen Betriebsbereichs liegen. Jedes Camp erweitert den bebaubaren Radius, muss aber den Bedarf an Wohnraum, Nahrung, Getränken und Logistik seiner eigenen Bewohner decken.",
+          "tip": "Erstelle kein abgelegenes Camp in Corsair Cove, bevor eine zuverlässige Versorgungsroute es erreichen kann."
+        },
+        {
+          "title": "Fortschritt freischalten und ein Schiff vorbereiten",
+          "description": "Schließe Taten und Quests ab, um Principle Points für Notoriety, Empire, Seafaring und Wealth zu verdienen. Baue ein Schiff am Pier, weise einen Kapitän zu, vergleiche Schiffswerte mit Event-Anforderungen und nimm genügend Supplies mit, bevor du Segel setzt.",
+          "tip": "Pausiere Gebäude mit niedriger Priorität, um Arbeiter in Corsair Cove freizumachen, und überprüfe, ob ein stillstehendes Gebäude nicht versehentlich pausiert wurde."
+        }
+      ],
+      "quickTips": [
+        "Jedes aktive Gebäude in Corsair Cove muss mit der Siedlung verbunden bleiben.",
+        "Halte eine Drifter-Reserve für Bauarbeiten bereit, anstatt jeden Piraten sofort zuzuweisen.",
+        "Behalte die Ressourcenübersicht im Auge, um ein negatives Verhältnis von Produktion zu Verbrauch zu erkennen, bevor die Vorräte leer sind.",
+        "Pausiere das Spiel, während du große Bauschritte planst oder eine neue Quest liest."
+      ]
+    },
+    "corsairCoveBestLayout": {
+      "title": "Die besten Layout-Muster für Klippen und vertikales Bauen in Corsair Cove",
+      "displayType": "Karten",
+      "intro": "Nutze kompakte Hubs, gestufte Produktionsterrassen, Brücken, Ziplines und gut versorgte Pirate Camps, um die Wege im steilen Gelände von Corsair Cove zu verkürzen.",
+      "cards": [
+        {
+          "name": "Verbundener Hafenkern",
+          "bestFor": "Start-Siedlung und grundlegende Dienste",
+          "pattern": "Erstelle eine kurze Verbindungshauptachse um den Start-Hafen und platziere daneben erste Unterkünfte, das erste Pirate Camp, Kerndienste und den Zugang zur Warenverteilung.",
+          "benefit": "Hält die ersten Arbeitskräfte und lebensnotwendigen Güter auf kurzen Wegen, während Klippenränder für spätere Erweiterungen in Corsair Cove frei bleiben."
+        },
+        {
+          "name": "Klippen-Produktionsterrasse",
+          "bestFor": "Kompakte mehrstufige Produktion",
+          "pattern": "Platziere die Ressourcenextraktion nahe dem Vorkommen, Verarbeitungsgebäude auf dem nächsten nutzbaren Vorsprung und einen Verteilungsknotenpunkt auf der Ebene, die am einfachsten mit den Unterkünften und dem Hafen verbunden ist.",
+          "benefit": "Verwandelt vertikales Gelände in ein gestuftes Produktionsviertel, ohne jeden Arbeiter und jeden Gegenstand über die gesamte Insel zu schicken."
+        },
+        {
+          "name": "Brücken- und Hub-Kreuzung",
+          "bestFor": "Abgründe überqueren und mehrere Viertel verbinden",
+          "pattern": "Nutze Brücken, um gegenüberliegende Vorsprünge zu verbinden, und platziere Verbindungsknotenpunkte dort, wo mehrere Routen aufeinandertreffen. Leite mehrere nahegelegene Gebäude über dieselbe gut positionierte Kreuzung.",
+          "benefit": "Reduziert doppelte Wege und verleiht der Siedlung in Corsair Cove eine klare zentrale Route zwischen Produktion, Wohnen und Verteilung."
+        },
+        {
+          "name": "Vertikaler Zipline-Express",
+          "bestFor": "Schnelle Bewegung zwischen hohen und niedrigen Vierteln",
+          "pattern": "Schalte Ziplines über Pirate Principles frei und platziere sie auf Routen mit großem Höhenunterschied, insbesondere zwischen oberen Ressourcengebieten und unteren Produktions- oder Hafenvierteln.",
+          "benefit": "Verkürzt steile vertikale Wege, die in Corsair Cove ansonsten lange, gewundene Verbindungen erfordern würden."
+        },
+        {
+          "name": "Entferntes Ressourcenlager",
+          "bestFor": "Iron, copper, lumber, fiber und ferne Vorkommen",
+          "pattern": "Errichte ein Pirate Camp in der Nähe eines wertvollen Ressourcenclusters, halte Extraktion und die erste Produktionsstufe innerhalb seines Aktionsradius und verbinde den Außenposten über eine zuverlässige Route.",
+          "benefit": "Erweitert den Baubereich und verhindert gleichzeitig, dass Arbeiter für jede Aufgabe die gesamte Insel überqueren müssen."
+        },
+        {
+          "name": "Dock-Importkreislauf",
+          "bestFor": "Geplünderte Waren und temporäre Engpässe",
+          "pattern": "Verbinde das Dock direkt mit der nahen Verteilung und den Produktionsgebäuden, die importierte oder geplünderte Ressourcen verbrauchen.",
+          "benefit": "Das Dock fungiert als Ressourcenquelle, wodurch Getreide, Münzen, Waltran, Silber und Wein mit minimalen Transportwegen nach Corsair Cove gelangen."
+        }
+      ]
+    },
+    "corsairCoveProductionChains": {
+      "title": "Corsair Cove-Produktionsketten, Waren und Engpassbehebungen",
+      "displayType": "Fluss",
+      "intro": "Verwalte mehr als 50 Waren über lokale Ressourcenknoten, Produktionsgebäude, Logistikzentren, Piratenlager, Schiffe und Raubzüge auf anderen Inseln in Corsair Cove.",
+      "chains": [
+        {
+          "label": "Lokales Ressourcennetzwerk",
+          "flow": [
+            "Ressourcenknoten (Eisen, Kupfer, Holz, Fasern, Stein)",
+            "Produktionsgebäude",
+            "Verteilerzentren",
+            "Bedarf von Siedlung und Schiffen"
+          ],
+          "management": "Platziere den Abbau direkt neben dem Ressourcenknoten, halte den ersten Verarbeitungsschritt in der Nähe und vermeide es, Rohstoffe über rote Transportwege zu schicken."
+        },
+        {
+          "label": "Steinzweig",
+          "flow": [
+            "Steinressource",
+            "Stein und Steinblöcke oder Holzkohle",
+            "Bau- und damit verbundener Produktionsbedarf"
+          ],
+          "management": "Stein versorgt mehr als einen Produktionszweig in Corsair Cove, vergleiche also beide Erträge mit dem Verbrauch, bevor du die gesamte Lieferung einem einzigen Ziel zuteilst."
+        },
+        {
+          "label": "Nahrungs- und Getränkeversorgung",
+          "flow": [
+            "Lokale und insel-externe Ressourcen",
+            "Lebensmittel- und Getränkeproduktion",
+            "Verteilerzentren",
+            "Piratenunterkünfte und Piratenlager"
+          ],
+          "management": "Halte die Grundversorgung in der Nähe von bewohnten Lagern. Jedes neue Piratenlager fügt ein weiteres Gebiet hinzu, dessen Bewohner eine zuverlässige Versorgung mit Essen und Trinken benötigen."
+        },
+        {
+          "label": "Kleidung und Luxusgüter",
+          "flow": [
+            "Materialversorgung",
+            "Kleidungs- und Luxusproduktion",
+            "Verteilerzentren",
+            "Bedürfnisse höher qualifizierter Piraten"
+          ],
+          "management": "Fortgeschrittene Piraten verlangen bessere Waren als die einfache Besatzung. Erweitere diese Ketten erst, wenn Nahrung, Getränke, Unterkünfte und Cohesion in Corsair Cove stabil sind."
+        },
+        {
+          "label": "Schiffs- und Kampfausrüstung",
+          "flow": [
+            "Rohstoffe und veredelte Materialien",
+            "Ausrüstungsproduktion (Kanonen, Pulver, Säbel, Medizin)",
+            "Pier, Schiffe, Spezialisten und Verteidigungsanlagen"
+          ],
+          "management": "Mächtige Schiffe und Spezialisten-Crews benötigen fortschrittliche Ausrüstung. Halte die Militärproduktion mit dem Pier verbunden und sichere die Munitionsversorgung für Verteidigungsanlagen."
+        },
+        {
+          "label": "Versorgung von außerhalb der Insel",
+          "flow": [
+            "Raids und Events auf der Weltkarte",
+            "Geplünderte oder importierte Ressourcen (Getreide, Münzen, Silber, Wein)",
+            "Dock",
+            "Relevante Produktion oder direkter Verbrauch"
+          ],
+          "management": "Diese Ressourcen werden erlangt, indem man über die Heimatinsel hinaussegelt. Binde das Dock in die entsprechende Kette ein und betrachte die Expeditionsplanung als Teil der Wirtschaft von Corsair Cove."
+        },
+        {
+          "label": "Engpassdiagnose-Schleife",
+          "flow": [
+            "Prüfe Produktion im Vergleich zum Verbrauch",
+            "Untersuche grüne, gelbe und rote Routenlinien",
+            "Verkürze die Route oder verbessere die Verbindung",
+            "Pausiere Gebäude mit niedriger Priorität, um Arbeiter freizusetzen",
+            "Überprüfe die Versorgung in jedem Piratenlager erneut"
+          ],
+          "management": "Grüne Routen sind intakt und kurz, gelbe Routen sind suboptimal und rote Routen sind lang genug, um Produktionsprobleme in Corsair Cove zu verursachen. Stelle sicher, dass stillstehende Gebäude verbunden und nicht pausiert sind."
+        }
+      ]
+    },
+    "corsairCoveShipsAndCombat": {
+      "title": "Schiffe, Kapitäne und Seekampf in Corsair Cove",
+      "displayType": "Flotte",
+      "intro": "Schiffe werden am Pier gebaut und zu Ereignissen auf der Weltkarte von Corsair Cove geschickt. Ein Kapitän bringt einzigartige Eigenschaften und Event-Fähigkeiten mit, daher ist die beste Flotte diejenige, die genau auf die jeweilige Begegnung abgestimmt ist.",
+      "ships": [
+        {
+          "name": "Landlubber",
+          "class": "Starterschiff",
+          "ratings": "Gesundheit 24, Crew 15, Vorräte 20",
+          "use": "Ein Basis-Schiff aus Corsair Cove für frühe Events, dessen empfohlene Werte den angezeigten Bewertungen entsprechen."
+        },
+        {
+          "name": "Steel Edge",
+          "class": "Zerstörer",
+          "ratings": "Gesundheit 88, Crew 15, Vorräte 22",
+          "use": "Ein verbessertes Design mit einem größeren Rumpf, mehr Haltbarkeit und besseren Werten für Endgame-Begegnungen in Corsair Cove."
+        }
+      ],
+      "combatSteps": [
+        {
+          "title": "Lies das Ziel",
+          "detail": "Ein Corsair Cove Event kann von dir verlangen, die gegnerische Health auf null zu reduzieren, die Distanz zwischen Schiffen zu verringern oder eine erforderliche Menge an Waren zu sammeln."
+        },
+        {
+          "title": "Überprüfe die gegnerische Aktion",
+          "detail": "Der Gegner enthüllt in jeder Runde seine geplante Aktion. Entscheide, ob du dieser Aktion entgegenwirken oder das Event-Ziel vorantreiben möchtest."
+        },
+        {
+          "title": "Gib Supplies für eine Aktion aus",
+          "detail": "Die meisten Battle-Karten kosten Supplies. Wenn die Supplies knapp werden, wechsle zu Support-Karten, um sie wieder aufzufüllen, bevor du zu Battle-Aktionen zurückkehrst."
+        },
+        {
+          "title": "Würfle die Würfelpools",
+          "detail": "Im Kampf von Corsair Cove werfen beide Seiten ihre aktiven Würfel. Ein höheres Ergebnis verbessert das Resultat, aber Angriffe auf unterschiedliche Bereiche können beide in derselben Runde aufgelöst werden."
+        },
+        {
+          "title": "Kontere denselben Bereich",
+          "detail": "Eine gegnerische Aktion wird nur dann vollständig aufgehoben, wenn deine Aktion denselben Zielbereich kontert und dein Würfelergebnis höher ist."
+        },
+        {
+          "title": "Schütze Health und Crew",
+          "detail": "Die Begegnung in Corsair Cove ist verloren, wenn entweder Ship Health oder Crew null erreicht. Kampfwerte bestimmen, wie effektiv jede Karte ist."
+        }
+      ],
+      "prepTips": [
+        "Vergleiche jede empfohlene Event-Metrik mit den individuellen Werten des Schiffs, nicht nur mit dem Gesamtlevel.",
+        "Stelle Ship Health, Crew und Supplies wieder her, bevor du ein risikoreiches Corsair Cove Event beginnst.",
+        "Wechsle zu einem Kapitän, dessen Merkmale und Event-Fähigkeit das Ziel direkt unterstützen.",
+        "Halte Inselfestungen und Geschütztürme mit Cannonballs und Black Powder versorgt."
+      ]
+    },
+    "corsairCoveCrewAndCohesion": {
+      "title": "Corsair Cove Crew-Jobs, Bedürfnisse und Cohesion",
+      "displayType": "Crew",
+      "intro": "Sorge in Corsair Cove für Unterkünfte für Workers, versorge Seeleute und stelle jedes Pirate Camp zufrieden. Unerfüllte Bedürfnisse können Piraten vertreiben, während eine Cohesion von null den Run beendet.",
+      "roles": [
+        {
+          "role": "Drifters",
+          "need": "Nur Unterkunft",
+          "detail": "Arbeitslose Reserve-Crew, die zum Bau von Gebäuden benötigt wird. Halte eine Reserve bereit, anstatt jeden Piraten sofort zuzuweisen."
+        },
+        {
+          "role": "Builders",
+          "need": "Unterkunft und Unterhalt",
+          "detail": "Errichte und erweitere die Siedlung. Pausiere Gebäude mit niedrigerer Priorität, wenn Arbeitskraft an anderer Stelle benötigt wird."
+        },
+        {
+          "role": "Fetchers",
+          "need": "Unterkunft und Unterhalt",
+          "detail": "Bewege Waren durch das Logistiknetzwerk. Kurze grüne Verbindungen sind besser als gelbe oder rote Langstreckenrouten."
+        },
+        {
+          "role": "Produktions-Workers",
+          "need": "Unterkunft und Tier-Waren",
+          "detail": "Betreibe Ressourcengebäude und Produktionsketten auf verschiedenen Fertigkeitsstufen. Beobachte Produktion und Verbrauch in Echtzeit, bevor du einen weiteren Arbeitsplatz hinzufügst."
+        },
+        {
+          "role": "Einfache Schiffspiraten",
+          "need": "Eintopf, Ale und Rum",
+          "detail": "Bemannen frühe Schiffe und See-Ereignisse. Brot und Alkohol unterstützen das frühe Wachstum, aber eine fortgeschrittene Crew verlangt bald nach feineren Waren."
+        },
+        {
+          "role": "Spezialisierte Seeleute",
+          "need": "Fernrohre, Medizin und Säbel",
+          "detail": "Bombardiers, Navigators, Marauders und Renegades für anspruchsvollere Flottenrollen. Baut vollständige Ausrüstungsketten auf, bevor ihr Spezialisten in großer Zahl rekrutiert."
+        },
+        {
+          "role": "Elite-Seeleute",
+          "need": "Tabak, Pistolen und Augenklappen",
+          "detail": "Veteranen-Corsairs und Nachkommen der ersten Buccaneers. Elite-Bedarfsketten erfordern sowohl Inselproduktion als auch Waren aus Welt-Ereignissen."
+        }
+      ],
+      "cohesionTips": [
+        "Baut Unterkünfte, bevor ihr neue Arbeiter zuweist oder spezialisierte Crews erweitert.",
+        "Nutzt das Ressourcen-Panel, um eine negative Bilanz von Produktion und Verbrauch auszugleichen, bevor die Lager leer sind.",
+        "Versorgt jedes Piratenlager vor Ort mit Nahrung und Getränken, anstatt euch nur auf das Hauptlager zu verlassen.",
+        "Das Bevölkerungswachstum verlangsamt sich, wenn der Corsair Cove-Zusammenhalt niedrig ist; Piraten verlassen die Siedlung, wenn Bedürfnisse ignoriert werden."
+      ]
+    },
+    "corsairCoveCompassQuests": {
+      "title": "Corsair Cove-Kompass-Quests und Welt-Ereignisse",
+      "displayType": "Fortschritt",
+      "intro": "Verdient Prinzipienpunkte durch Taten und Nebenquests, gestaltet die vier Kompass-Pfade und schickt speziell gebaute Schiffe auf Raubzüge, Schatzsuchen, zu Forts, Flotten und legendären Begegnungen in Corsair Cove.",
+      "principles": [
+        {
+          "name": "Ruchlosigkeit",
+          "focus": "Piratenruf und gefürchteter Einfluss",
+          "detail": "Gebt Prinzipienpunkte im Zweig „Ruchlosigkeit“ aus, um dessen Missionen und zweigspezifische Vorteile in Corsair Cove freizuschalten."
+        },
+        {
+          "name": "Imperium",
+          "focus": "Siedlungswachstum und Entwicklung der Piratengesellschaft",
+          "detail": "Gebt Prinzipienpunkte im Zweig „Imperium“ aus, um einen größeren, leistungsfähigeren Zufluchtsort freizuschalten."
+        },
+        {
+          "name": "Seefahrt",
+          "focus": "Schiffe, Reisen und Seetüchtigkeit",
+          "detail": "Gebt Prinzipienpunkte im Zweig „Seefahrt“ aus, um stärkere Flottenoptionen und umfassendere Ereignismöglichkeiten freizuschalten."
+        },
+        {
+          "name": "Wohlstand",
+          "focus": "Produktion, Ressourcen und Wirtschaftsleistung",
+          "detail": "Gebt Prinzipienpunkte im Zweig „Wohlstand“ aus, um eine ressourcenreiche Produktionswirtschaft in Corsair Cove freizuschalten."
+        }
+      ],
+      "events": [
+        {
+          "name": "Schmuggler-Transport",
+          "objective": "Helft Schmugglern, ihre Waren über die Sieben Weltmeere zu transportieren.",
+          "detail": "Nutze ein Schiff und einen Kapitän, deren Event-Wertungen den Empfehlungen des Symbols entsprechen."
+        },
+        {
+          "name": "Antike Tempel-Expedition",
+          "objective": "Durchsuche gefährliche Tempelanlagen nach Schätzen.",
+          "detail": "Bringe genug Crew und Vorräte mit, um eine mehrstufige Expedition in Corsair Cove zu überleben."
+        },
+        {
+          "name": "Raubzug",
+          "objective": "Plündere nahegelegene Inseln für Waren, die die Siedlung benötigt.",
+          "detail": "Vergleiche alle empfohlenen Wertungen und wähle einen Kapitän aus, der für den Event-Typ geeignet ist."
+        },
+        {
+          "name": "Feindliches Fort",
+          "objective": "Greife eine Festung der Krone oder ein befestigtes Ziel an.",
+          "detail": "Nutze ein verbessertes Schiff mit voller Gesundheit, Crew und vollen Vorräten."
+        },
+        {
+          "name": "Feindliche Flotte",
+          "objective": "Kämpfe in rundenbasierten Seeschlachten gegen Schiffe der Krone.",
+          "detail": "Bereite Karten für Gesundheitsschaden, Crew-Schaden, defensive Konter und Vorratserholung vor."
+        },
+        {
+          "name": "Legendäre Kreatur",
+          "objective": "Stelle dich monströsen Walen, Kraken und übernatürlichen Meeresbedrohungen.",
+          "detail": "Nutze stärkere Schiffe, geeignete Kapitäne und große Reserven für risikoreiche Ziele in Corsair Cove."
+        }
+      ]
+    },
+    "corsairCoveUpdates": {
+      "title": "Updates und Neuigkeiten zu Corsair Cove",
+      "displayType": "Timeline",
+      "intro": "Verfolge Veröffentlichungsankündigungen, Demo-Patches, Event-Auftritte und die Charakterreihe „Legends Before the Storm“ auf den offiziellen Kanälen von Corsair Cove.",
+      "entries": [
+        {
+          "date": "14. Juli 2026",
+          "type": "Charaktergeschichte",
+          "title": "Legends Before the Storm: Rambullion, der Tavernenwirt",
+          "summary": "Der ehemalige Pirat Tadhg MacMhuircheartaigh überlebt den Untergang eines alten Piratenhafens, indem er sich als Rambullion tarnt – ein aufmerksamer Tavernenwirt, der auf eine Gelegenheit wartet, den Traum wiederzubeleben."
+        },
+        {
+          "date": "7. Juli 2026",
+          "type": "Charaktergeschichte",
+          "title": "Legends Before the Storm: Teach, der Grobian",
+          "summary": "Edward Teach, besser bekannt als Blackbeard, wird als der Letzte der alten Garde dargestellt: ein brutaler Überlebender, der sich dem Fluchtplan der Gefangenen anschließt."
+        },
+        {
+          "date": "30. Juni 2026",
+          "type": "Charaktergeschichte",
+          "title": "Legends Before the Storm: Kanja, der Spieler",
+          "summary": "Kanja Shan steigt vom wohlhabenden Gewürzhändler zum Piraten-Sponsor auf, verliert sein Vermögen und seine Flotte und wird gefangen genommen, während er seinen nächsten Schachzug plant."
+        },
+        {
+          "date": "23. Juni 2026",
+          "type": "Charaktergeschichte",
+          "title": "Legenden vor dem Sturm: Scarlet, die Furchtlose",
+          "summary": "Scarlet Drake strebt eher nach Ruhm als nach Geld, wächst von einer irischen Waisen zu einer wagemutigen Kapitänin heran und sucht nach einem Weg, den verfluchten Reaper zu besiegen."
+        },
+        {
+          "date": "16. Juni 2026",
+          "type": "Charaktergeschichte",
+          "title": "Legenden vor dem Sturm: Honorata, die Abenteurerin",
+          "summary": "Honorata Van Horn lehnt ihre Zukunft in einer Händlerfamilie ab, lernt Navigation und Führung, stiehlt ein Schiff der Kompanie und jagt die mythischen Kreaturen der Sieben Weltmeere."
+        },
+        {
+          "date": "15. Juni 2026",
+          "type": "Demo-Event",
+          "title": "Spiele die Corsair Cove-Demo während des Steam Next Fest 2026",
+          "summary": "Die offizielle Ankündigung lud Spieler dazu ein, während des Steam Next Fest einen Piratenhafen zu errichten, Produktionsketten zu verwalten, eine Flotte aufzustellen und gegen die Krone zu kämpfen."
+        },
+        {
+          "date": "10. Juni 2026",
+          "type": "Demo-Patch",
+          "title": "Demo-Update #1: Absturzbehebungen und Tutorial-Fix",
+          "summary": "Der erste Hotfix für die Corsair Cove-Demo behob zufällige Abstürze, einen Absturz bei den Qualitätseinstellungen, ein Tutorial-Ziel, das bei unter 10 Crew-Mitgliedern stagnieren konnte, und ein Problem mit dem Pausenzustand nach der Rückkehr eines Schiffes."
+        },
+        {
+          "date": "28. Mai 2026",
+          "type": "Release-Ankündigung",
+          "title": "Corsair Cove erscheint am 31. Juli 2026",
+          "summary": "Limbic Entertainment und Hooded Horse bestätigten das Veröffentlichungsdatum am 31. Juli 2026 und stellten die kostenlose Demo zusammen mit dem Release-Trailer bereit."
+        },
+        {
+          "date": "17. April 2026",
+          "type": "Spielenthüllung",
+          "title": "Hooded Horse und Limbic Entertainment setzen gemeinsam Segel",
+          "summary": "Die Enthüllung stellte den freien vertikalen Bau, mehr als 50 Ressourcen, Brücken, Ziplines, Crew-Bedürfnisse, Schiffsbau und die vier Compass-Fortschrittspfade vor."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte",
+    "titleHighlight": "Fragen",
+    "subtitle": "Alles, was du über Corsair Cove wissen musst",
+    "questions": [
+      {
+        "question": "Wann erscheint Corsair Cove?",
+        "answer": "Corsair Cove erscheint am 31. Juli 2026 für Windows-PC auf Steam, im Epic Games Store, im Microsoft Store und im PC Game Pass."
+      },
+      {
+        "question": "Gibt es eine kostenlose Demo zu Corsair Cove?",
+        "answer": "Ja. Die Corsair Cove-Demo ist auf Steam kostenlos und ermöglicht es dir, eine verbundene Siedlung aufzubauen, Piraten zuzuweisen und vor dem vollständigen Launch ein Produktionsnetzwerk zu starten."
+      },
+      {
+        "question": "Wo kann ich Corsair Cove spielen?",
+        "answer": "Corsair Cove ist auf Steam, im Epic Games Store und im Microsoft Store für Windows-PC erhältlich, mit PC Game Pass-Zugriff direkt ab Tag eins."
+      },
+      {
+        "question": "Wie viel kostet Corsair Cove?",
+        "answer": "Die digitale Standard-PC-Edition von Corsair Cove kostet 29,99 USD."
+      },
+      {
+        "question": "Was ist der Kompass in Corsair Cove?",
+        "answer": "Der Kompass ist das Fortschrittssystem von Corsair Cove. Du verdienst Prinzipienpunkte durch Taten und Nebenquests und gibst sie für Ruchlosigkeit, Imperium, Seefahrt und Wohlstand aus, um Missionen, Gebäude, Produktionsketten und Schiffe freizuschalten."
+      },
+      {
+        "question": "Ist Corsair Cove ein Singleplayer-Spiel?",
+        "answer": "Ja. Corsair Cove ist ein Singleplayer-Piraten-Aufbauspiel ohne Multiplayer oder Koop."
+      },
+      {
+        "question": "Was sind die PC-Systemanforderungen für Corsair Cove?",
+        "answer": "Corsair Cove erfordert einen DirectX 12-fähigen Windows 10 64-Bit-PC mit mindestens 8 GB RAM und eine NVIDIA GTX 1660 Super oder AMD RX 5600 XT, wobei eine SSD empfohlen wird."
+      },
+      {
+        "question": "Wie viele Waren gibt es in Corsair Cove?",
+        "answer": "Corsair Cove enthält mehr als 50 Waren aus den Bereichen Nahrung, Getränke, Kleidung, Ausrüstung, Waffen, Baumaterialien und Event-Ressourcen."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, deinen Piratenhafen aufzubauen?",
+    "description": "Tritt der Corsair Cove-Community auf Discord bei, um Guides, Updates und Diskussionen zu erhalten!",
+    "joinCommunity": "Discord beitreten",
+    "joinGame": "Auf Steam auf die Wunschliste setzen"
+  },
+  "footer": {
+    "title": "Corsair Cove Wiki",
+    "description": "Dein kompletter Ressourcen-Hub für Gebäude, Produktionsketten, Crew, Flotte, Seekampf und Erkundungs-Guides in Corsair Cove.",
+    "resources": "Ressourcen",
+    "community": "Community",
+    "legal": "Rechtliches",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steam-Community",
+    "steamStore": "Steam-Shop",
+    "about": "Über",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Corsair Cove Wiki. Nicht mit den Entwicklern von Corsair Cove verbunden.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
+  },
+  "pages": {
+    "release": {
+      "title": "Corsair Cove Release",
+      "description": "Corsair Cove Veröffentlichungsdatum, Release-Preis, Denuvo-Status und die kostenlose Demo – alles über den PC-Launch am 31. Juli 2026 und die Dauer der Demo.",
+      "metaTitle": "Corsair Cove Release-Datum, Preis & Demo",
+      "metaDescription": "Corsair Cove erscheint am 31. Juli 2026. Finde den offiziellen Preis, Denuvo-Status, die kostenlos spielbare Demo und die Demo-Länge für den Piraten-Städtebauer.",
+      "categoryLabel": "RELEASE-INFOS",
+      "whatIs": "Was ist der Corsair Cove Release?",
+      "whatIsDescription": "Details zum Corsair Cove Release-Datum am 31. Juli 2026, dem Verkaufspreis in den Stores, Denuvo DRM und der jetzt verfügbaren kostenlosen Demo.",
+      "why": "Warum die Release-Infos prüfen?",
+      "whySteps": {
+        "step1Title": "Das Launch-Datum vormerken",
+        "step1Description": "Die Vollversion von Corsair Cove erscheint am 31. Juli 2026 für PC",
+        "step2Title": "Kostenlose Demo ausprobieren",
+        "step2Description": "Spiele jetzt die Demo, um den Piraten-Städtebauer vor dem Kauf zu testen",
+        "step3Title": "Den Preis kennen",
+        "step3Description": "Vergleiche Launch-Kosten, Game Pass-Verfügbarkeit und Denuvo-Status"
+      },
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Release-Guides"
+    },
+    "platforms": {
+      "title": "Corsair Cove Plattformen",
+      "description": "Jede Corsair Cove Plattform – Steam, Xbox, PS5, Switch, PC Game Pass, Steam Deck-Kompatibilität und offizielle PC-Systemanforderungen.",
+      "metaTitle": "Corsair Cove Plattformen & Systemanforderungen",
+      "metaDescription": "Finde Corsair Cove auf Steam, Xbox, PS5, Switch und PC Game Pass. Überprüfe die Steam Deck-Kompatibilität und die offiziellen PC-Systemanforderungen.",
+      "categoryLabel": "PLATTFORMEN",
+      "whatIs": "Auf welchen Plattformen ist Corsair Cove verfügbar?",
+      "whatIsDescription": "Die verfügbaren Plattformen von Corsair Cove, einschließlich Steam, Xbox, PS5, Switch und PC Game Pass, plus Steam Deck-Unterstützung und PC-Hardwareanforderungen.",
+      "why": "Warum die Plattformunterstützung prüfen?",
+      "whySteps": {
+        "step1Title": "Wähle deine Plattform",
+        "step1Description": "Vergleiche PC-, Konsolen- und Handheld-Optionen für Corsair Cove",
+        "step2Title": "Systemanforderungen überprüfen",
+        "step2Description": "Vergewissere dich, dass dein PC oder Steam Deck die offiziellen Spezifikationen erfüllt",
+        "step3Title": "Nutze den Game Pass",
+        "step3Description": "Spiele am Veröffentlichungstag über den PC Game Pass, ohne das Spiel zu kaufen"
+      },
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Plattform-Leitfäden"
+    },
+    "features": {
+      "title": "Corsair Cove Features",
+      "description": "Die Kernfeatures von Corsair Cove – Multiplayer-Unterstützung, Controller-Kompatibilität, KI-gesteuerte Systeme und prozedural generierte Inselkarten.",
+      "metaTitle": "Corsair Cove Features – Multiplayer, Controller & KI",
+      "metaDescription": "Entdecke die Features von Corsair Cove, einschließlich Multiplayer, Controller-Unterstützung, KI-Systemen und prozeduraler Generierung im Piraten-Städtebauspiel.",
+      "categoryLabel": "SPIEL-FEATURES",
+      "whatIs": "Was sind die Features von Corsair Cove?",
+      "whatIsDescription": "Die wichtigsten Features von Corsair Cove, einschließlich Multiplayer-Modi, Controller-Unterstützung, KI-gesteuertem Gameplay und prozedural generierten Inselkarten.",
+      "why": "Warum sollte man die Features kennen?",
+      "whySteps": {
+        "step1Title": "Spiele mit Freunden",
+        "step1Description": "Prüfe die Multiplayer-Unterstützung, bevor du eine Crew koordinierst",
+        "step2Title": "Benutze einen Controller",
+        "step2Description": "Bestätige die Controller-Kompatibilität für das Spielen auf der Couch oder im Handheld-Modus",
+        "step3Title": "Lies über prozedurale Karten",
+        "step3Description": "Verstehe, wie generierte Inseln jeden Spieldurchgang beeinflussen"
+      },
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Feature-Leitfäden"
+    },
+    "guide": {
+      "title": "Corsair Cove Guide",
+      "description": "Corsair Cove Einsteiger-Guide, Tipps und Tricks, vollständige Komplettlösung, Grundlagen und Fortschritts-Leitfaden für neue Piratenkapitäne.",
+      "metaTitle": "Corsair Cove Guide – Einsteiger-Tipps & Komplettlösung",
+      "metaDescription": "Vollständiger Corsair Cove Guide mit Einsteiger-Tipps, Komplettlösung, Grundlagen und Fortschrittspfaden für das vertikale Piraten-Städtebauspiel.",
+      "categoryLabel": "SPIEL-GUIDES",
+      "whatIs": "Was beinhaltet der Corsair Cove Guide?",
+      "whatIsDescription": "Corsair Cove Guides über Grundlagen für Einsteiger, Tipps und Tricks, die Haupt-Komplettlösung, Spielweise und langfristige Fortschrittsstrategien.",
+      "why": "Warum sollte man den Guide lesen?",
+      "whySteps": {
+        "step1Title": "Lerne die Grundlagen",
+        "step1Description": "Verbindungen, Ressourcen und Crew-Bedürfnisse frühzeitig meistern",
+        "step2Title": "Dem Walkthrough folgen",
+        "step2Description": "Die ersten Spielstunden meistern, ohne steckenzubleiben",
+        "step3Title": "Fortschritt planen",
+        "step3Description": "Die passenden Compass-Pfade für den eigenen Spielstil wählen"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Guides"
+    },
+    "building": {
+      "title": "Bauen in Corsair Cove",
+      "description": "Corsair Cove Bau-Guide — Layouts für Piratenstädte, Standorte für Kanonentürme, Angriffspunkte, starke Builds und Ressourcentransport zwischen Lagern.",
+      "metaTitle": "Bauen in Corsair Cove – Layouts & Verteidigungs-Guide",
+      "metaDescription": "Meistere das Bauen in Corsair Cove mit Layouts für Piratenstädte, der Platzierung von Kanonentürmen, Angriffspunkten, starken Builds und dem Ressourcentransport von Lager zu Lager.",
+      "categoryLabel": "BAUEN",
+      "whatIs": "Was ist das Bauen in Corsair Cove?",
+      "whatIsDescription": "Bau-Guides für Corsair Cove über den Bau von Piratenstädten, die Verteidigung mit Kanonentürmen und Angriffspunkten, starke Layouts und Ressourcenlogistik zwischen Lagern.",
+      "why": "Warum den Bau planen?",
+      "whySteps": {
+        "step1Title": "Verteidigung klug platzieren",
+        "step1Description": "Kanonentürme an den richtigen Angriffspunkten errichten, um Überfälle abzuwehren",
+        "step2Title": "Starke Layouts entwerfen",
+        "step2Description": "Vertikale Klippen und effiziente Wegeführung für einen guten Bau nutzen",
+        "step3Title": "Ressourcen transportieren",
+        "step3Description": "Waren ohne lange, anfällige Versorgungslinien zwischen Lagern bewegen"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Bau-Guides"
+    },
+    "crew": {
+      "title": "Corsair Cove Crew",
+      "description": "Corsair Cove Crew-Guide — wie man mehr Drifters bekommt, Drifters und Piraten zwischen Lagern verschiebt, Fetchers erstellt und zuweist, Zusammenhalt und Alkohol-Lieferungen.",
+      "metaTitle": "Corsair Cove Crew – Drifters, Fetchers & Zusammenhalt",
+      "metaDescription": "Corsair Cove Crew verwalten: Mehr Drifters bekommen, Piraten zwischen Lagern verschieben, Fetchers zuweisen, den Zusammenhalt erhöhen und Alkohol an Fletcher liefern.",
+      "categoryLabel": "CREW",
+      "whatIs": "Was ist die Corsair Cove Crew?",
+      "whatIsDescription": "Corsair Cove Crew-Guides über Drifters, Fetchers, Builders und Workers — wie man sie rekrutiert, sie zwischen Lagern verschiebt und den Zusammenhalt hochhält.",
+      "why": "Warum die Crew verwalten?",
+      "whySteps": {
+        "step1Title": "Drifters rekrutieren",
+        "step1Description": "Erweitere deine Bevölkerung, um mehr Jobs und Erträge freizuschalten",
+        "step2Title": "Fetchers zuweisen",
+        "step2Description": "Erstelle und platziere Fetchers, damit die Produktionsketten in Schwung bleiben",
+        "step3Title": "Zusammenhalt schützen",
+        "step3Description": "Bringe Bedürfnisse, Alkohol und Lagerplatzierung ins Gleichgewicht, um den Zusammenhalt zu wahren"
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Crew-Guides"
+    },
+    "ships": {
+      "title": "Corsair Cove Schiffe",
+      "description": "Corsair Cove Schiffs-Guide – die Manowar, Schiffswechsel, Bergung verlorener Schiffe, Schiffs-Upgrades und das Würfel-Kampfsystem erklärt.",
+      "metaTitle": "Corsair Cove Schiffe – Manowar, Upgrades & Würfel",
+      "metaDescription": "Meistere Corsair Cove Schiffe: Schalte die Manowar frei, wechsle Schiffe, berge verlorene Schiffe, plane Upgrades und verstehe das Würfel-Kampfsystem.",
+      "categoryLabel": "SCHIFFE",
+      "whatIs": "Was sind Corsair Cove Schiffe?",
+      "whatIsDescription": "Corsair Cove Schiffs-Guides rund um die Manowar, Schiffswechsel und -bergung, Upgrade-Pfade sowie die Funktionsweise des würfelbasierten Seekampfs.",
+      "why": "Warum die Flotte aufrüsten?",
+      "whySteps": {
+        "step1Title": "Die Manowar freischalten",
+        "step1Description": "Arbeite auf den stärksten Rumpf für Seekämpfe im späteren Spielverlauf hin",
+        "step2Title": "Schiffe wechseln & bergen",
+        "step2Description": "Tausche Schiffe aus und rette ein verloren gegangenes Schiff, ohne Fortschritt zu verlieren",
+        "step3Title": "Meistere die Würfel",
+        "step3Description": "Verstehe Würfelpools, um rundenbasierte Seekämpfe zu gewinnen"
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Schiffs-Guides"
+    }
+  }
+}
