@@ -52,696 +52,492 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Corsair Cove Gameplay",
+    "description": "Build a vertical pirate haven across cliffs and islands, manage more than 50 production goods, raise a fleet, and fight the Crown in this single-player pirate city builder."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Corsair Cove",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need to build, trade, sail, and fight in Corsair Cove",
     "cards": [
       {
+        "icon": "ClipboardCheck",
+        "title": "Corsair Cove Release Date",
+        "description": "Launch date, price, stores, and PC requirements"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "title": "Corsair Cove Demo Guide",
+        "description": "First settlement, pirate jobs, and stable production"
       },
       {
         "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "title": "Corsair Cove Best Layout",
+        "description": "Cliff layouts, bridges, ziplines, and hubs"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "icon": "Package",
+        "title": "Corsair Cove Production Chains",
+        "description": "50+ goods, logistics, and bottleneck fixes"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Corsair Cove Ships & Combat",
+        "description": "Ship stats, captains, and turn-based battles"
+      },
+      {
+        "icon": "Users",
+        "title": "Corsair Cove Crew & Cohesion",
+        "description": "Pirate roles, needs, camps, and survival"
+      },
+      {
+        "icon": "Star",
+        "title": "Corsair Cove Compass Quests",
+        "description": "Principles, deeds, raids, and legendary encounters"
+      },
+      {
+        "icon": "Clock",
+        "title": "Corsair Cove Updates",
+        "description": "Release news, demo patches, and character stories"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+    "corsairCoveReleaseDate": {
+      "title": "Corsair Cove Release Date, Price, and PC Requirements",
+      "displayType": "spec",
+      "intro": "Corsair Cove is a single-player pirate city builder developed by Limbic Entertainment and published by Hooded Horse. The game launches for Windows PC on July 31, 2026 across Steam, the Epic Games Store, the Microsoft Store, and PC Game Pass.",
+      "items": [
+        {
+          "category": "Release date",
+          "value": "July 31, 2026",
+          "details": "Corsair Cove is listed as Coming Soon ahead of its PC launch."
+        },
+        {
+          "category": "Platform",
+          "value": "Windows PC",
+          "details": "Corsair Cove launches on PC with no console version listed on the official store pages."
+        },
+        {
+          "category": "PC stores",
+          "value": "Steam, Epic Games Store, Microsoft Store",
+          "details": "Corsair Cove can be wishlisted before launch on every supported storefront."
+        },
+        {
+          "category": "PC Game Pass",
+          "value": "Available day one",
+          "details": "PC Game Pass access to Corsair Cove begins when the game launches on July 31, 2026."
+        },
+        {
+          "category": "Price",
+          "value": "$29.99 USD",
+          "details": "Standard digital PC edition of Corsair Cove."
+        },
+        {
+          "category": "Languages",
+          "value": "12 supported languages",
+          "details": "Corsair Cove supports English, French, Italian, German, Spanish, Korean, Polish, Russian, Simplified Chinese, Traditional Chinese, Japanese, and Portuguese-Brazil, with full audio in English, French, and German."
+        },
+        {
+          "category": "Minimum PC requirements",
+          "value": "Windows 10 64-bit, 8 GB RAM, DirectX 12, 30 GB storage",
+          "details": "Intel Core i7-7700 or AMD Ryzen 5 1600; NVIDIA GeForce GTX 1660 Super 6 GB or AMD Radeon RX 5600 XT 6 GB. SSD recommended for Corsair Cove."
+        },
+        {
+          "category": "Recommended PC requirements",
+          "value": "Windows 10 64-bit, 16 GB RAM, DirectX 12, 30 GB storage",
+          "details": "Intel Core i5-9600K or AMD Ryzen 5 3600; NVIDIA GeForce RTX 2070 8 GB or AMD Radeon RX 6600 XT 8 GB. SSD recommended for Corsair Cove."
+        }
+      ]
+    },
+    "corsairCoveBeginnerGuide": {
+      "title": "Corsair Cove Demo Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "Download the free Corsair Cove demo, establish a connected settlement, assign pirates correctly, and build a stable first production network before expanding.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Install the Free Demo",
+          "description": "Open the Corsair Cove Demo page on Steam and select Install Demo. The demo is single-player, supports Steam Cloud, and uses the same minimum PC requirements as the full game.",
+          "tip": "Install the Corsair Cove demo on an SSD when possible."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Read the Island View",
+          "description": "Use the Island View as your main management screen in Corsair Cove. Track Main Quests, Side Quests, Deeds, settlement notifications, available Coin, Pirate Camp satisfaction, Cohesion, and the current game speed.",
+          "tip": "Pause Corsair Cove while reading a new quest or planning a large construction step."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Create the First Connected Settlement",
+          "description": "Use the Construction tab to place buildings and connect them to the settlement. Automatic connections appear when placement allows them; manual connections are required when a building does not link automatically.",
+          "tip": "A building cannot operate unless it is connected. Green connection arrows mark useful hubs in Corsair Cove."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Manage Drifters and Assigned Pirates",
+          "description": "Drifters are unemployed pirates with no upkeep who construct buildings and still need housing. Assigned Pirates work specific jobs, require housing, and add upkeep costs.",
+          "tip": "Do not assign every pirate immediately. Keep enough Drifters free to finish construction in Corsair Cove."
+        },
+        {
+          "title": "Stabilize Housing, Food, and Drink",
+          "description": "Provide housing and watch the needs of pirates living inside each camp. Use the Resources and Pirate Camp overviews to compare production, consumption, and camp satisfaction in real time.",
+          "tip": "Growing population too quickly can make Corsair Cove Cohesion and basic supplies harder to maintain."
+        },
+        {
+          "title": "Build Short Production Routes",
+          "description": "Connect resource nodes to production buildings and finished goods to distribution hubs. Select a resource building to inspect its logistics lines: green is short and healthy, yellow is suboptimal, and red is long enough to create production problems.",
+          "tip": "Move buildings or add a better connection before a red route becomes a settlement-wide bottleneck in Corsair Cove."
+        },
+        {
+          "title": "Expand with a New Pirate Camp",
+          "description": "Place another Pirate Camp when distant resources fall outside the current operating area. Each camp expands the buildable radius but must support the housing, food, drink, and logistics needs of its own residents.",
+          "tip": "Do not create a remote camp in Corsair Cove until a reliable supply route can reach it."
+        },
+        {
+          "title": "Unlock Progress and Prepare a Ship",
+          "description": "Complete Deeds and quests to earn Principle Points for Notoriety, Empire, Seafaring, and Wealth. Build a ship at the Pier, assign a captain, compare ship stats with event requirements, and carry enough Supplies before sailing.",
+          "tip": "Pause low-priority buildings to free workers in Corsair Cove, and check that a stalled building is not accidentally paused."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Every working building in Corsair Cove must stay connected to the settlement.",
+        "Keep a Drifter reserve available for construction instead of assigning every pirate at once.",
+        "Watch the Resources overview to catch negative production-versus-consumption before stockpiles empty.",
+        "Pause the game while planning large construction steps or reading a new quest."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+    "corsairCoveBestLayout": {
+      "title": "Best Corsair Cove Layout Patterns for Cliffs and Vertical Building",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+      "intro": "Use compact hubs, layered production terraces, bridges, ziplines, and carefully supplied Pirate Camps to reduce travel across the steep terrain of Corsair Cove.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Connected Harbor Core",
+          "bestFor": "Opening settlement and essential services",
+          "pattern": "Create one short connection spine around the starting harbor, then place early housing, the first Pirate Camp, core services, and distribution access beside it.",
+          "benefit": "Keeps the first workforce and essential goods on short routes while leaving cliff edges available for later expansion in Corsair Cove."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Cliffside Production Terrace",
+          "bestFor": "Compact multi-stage production",
+          "pattern": "Place resource extraction near its node, processing buildings on the nearest usable ledge, and a distribution hub on the level that connects most easily to housing and the harbor.",
+          "benefit": "Turns vertical terrain into a layered production district without sending every worker and item across the full island."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "Bridge and Hub Crossroads",
+          "bestFor": "Crossing chasms and joining several districts",
+          "pattern": "Use bridges to connect opposite ledges and place connection hubs where multiple routes meet. Route several nearby buildings through the same well-positioned junction.",
+          "benefit": "Reduces duplicate paths and gives the Corsair Cove settlement a clear central route between production, housing, and distribution."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "name": "Zipline Vertical Express",
+          "bestFor": "Fast movement between high and low districts",
+          "pattern": "Unlock ziplines through Pirate Principles and place them on routes with a large height difference, especially between upper resource areas and lower production or harbor districts.",
+          "benefit": "Shortens steep vertical travel that would otherwise require long winding connections in Corsair Cove."
+        },
+        {
+          "name": "Remote Resource Camp",
+          "bestFor": "Iron, copper, lumber, fiber, and distant deposits",
+          "pattern": "Build a Pirate Camp near a valuable resource cluster, keep extraction and first-stage production inside its operating radius, and connect the outpost through one dependable route.",
+          "benefit": "Expands construction range while preventing workers from crossing the entire island for every task."
+        },
+        {
+          "name": "Dock Import Loop",
+          "bestFor": "Raided goods and temporary shortages",
+          "pattern": "Connect the dock directly to nearby distribution and the production buildings that consume imported or looted resources.",
+          "benefit": "The dock acts as a resource source, letting grain, coin, whale blubber, silver, and wine enter Corsair Cove with minimal extra travel."
+        }
+      ]
+    },
+    "corsairCoveProductionChains": {
+      "title": "Corsair Cove Production Chains, Goods, and Bottleneck Fixes",
+      "displayType": "flow",
+      "intro": "Manage more than 50 goods across local resource nodes, production buildings, distribution hubs, Pirate Camps, ships, and off-island raids in Corsair Cove.",
+      "chains": [
+        {
+          "label": "Local Resource Network",
+          "flow": [
+            "Resource nodes (iron, copper, lumber, fiber, stone)",
+            "Production buildings",
+            "Distribution hubs",
+            "Settlement and ship demand"
+          ],
+          "management": "Place extraction beside the node, keep the first processing step nearby, and avoid sending raw materials through red-distance routes."
+        },
+        {
+          "label": "Stone Branch",
+          "flow": [
+            "Stone resource",
+            "Stone and Stone Blocks or Charcoal",
+            "Construction and connected production demand"
+          ],
+          "management": "Stone feeds more than one production branch in Corsair Cove, so compare both outputs against consumption before assigning all supply to one destination."
+        },
+        {
+          "label": "Food and Drink Supply",
+          "flow": [
+            "Local and off-island inputs",
+            "Food and beverage production",
+            "Distribution hubs",
+            "Pirate housing and Pirate Camps"
+          ],
+          "management": "Keep basic provisions close to populated camps. Every new Pirate Camp adds another area whose residents need reliable food and drink."
+        },
+        {
+          "label": "Clothing and Luxury Goods",
+          "flow": [
+            "Material supply",
+            "Clothing and luxury production",
+            "Distribution hubs",
+            "Higher-skill pirate needs"
+          ],
+          "management": "Advanced pirates demand better goods than basic crews. Expand these chains only after food, drink, housing, and Cohesion are stable in Corsair Cove."
+        },
+        {
+          "label": "Ship and Combat Equipment",
+          "flow": [
+            "Raw and refined materials",
+            "Equipment production (cannons, powder, sabers, medicine)",
+            "Pier, ships, specialists, and defenses"
+          ],
+          "management": "Powerful ships and specialist crews require advanced equipment. Keep military production connected to the Pier and maintain ammunition for defensive fortifications."
+        },
+        {
+          "label": "Off-Island Supply",
+          "flow": [
+            "World Map raids and events",
+            "Looted or imported resources (grain, coin, silver, wine)",
+            "Dock",
+            "Relevant production or direct consumption"
+          ],
+          "management": "These resources are obtained by sailing beyond the home island. Connect the dock into the relevant chain and treat expedition planning as part of the Corsair Cove economy."
+        },
+        {
+          "label": "Bottleneck Diagnostic Loop",
+          "flow": [
+            "Check production versus consumption",
+            "Inspect green, yellow, and red route lines",
+            "Shorten the route or improve the connection",
+            "Pause low-priority buildings to free workers",
+            "Recheck supply at every Pirate Camp"
+          ],
+          "management": "Green routes are healthy and short, yellow routes are suboptimal, and red routes are long enough to cause production issues in Corsair Cove. Confirm stalled buildings are connected and not paused."
+        }
+      ]
+    },
+    "corsairCoveShipsAndCombat": {
+      "title": "Corsair Cove Ships, Captains, and Naval Combat",
+      "displayType": "fleet",
+      "intro": "Ships are built at the Pier and sent to events on the World Map of Corsair Cove. A captain adds unique traits and event abilities, so the best fleet is the one matched to the exact encounter.",
+      "ships": [
+        {
+          "name": "Landlubber",
+          "class": "Starter ship",
+          "ratings": "Health 24, Crew 15, Supplies 20",
+          "use": "A baseline Corsair Cove vessel for early events whose recommended metrics fit its displayed ratings."
+        },
+        {
+          "name": "Steel Edge",
+          "class": "Destroyer",
+          "ratings": "Health 88, Crew 15, Supplies 22",
+          "use": "An improved design with a larger frame, more durability, and stronger ratings for tougher encounters in Corsair Cove."
         }
       ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
+      "combatSteps": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "title": "Read the objective",
+          "detail": "A Corsair Cove event may ask you to reduce enemy Health to zero, close the distance between ships, or collect a required amount of goods."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "title": "Check the enemy action",
+          "detail": "The opponent reveals its planned action each turn. Choose whether to counter that action or advance the event objective."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "title": "Spend Supplies on an action",
+          "detail": "Most Battle cards cost Supplies. When Supplies are low, switch to Support cards to restore them before returning to Battle actions."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "title": "Roll the dice pools",
+          "detail": "Both sides roll their active dice in Corsair Cove combat. A higher result improves the outcome, but attacks aimed at different areas can both resolve in the same turn."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "title": "Counter the same area",
+          "detail": "An enemy action is fully negated only when your action counters the same target area and your dice result is higher."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "title": "Protect Health and Crew",
+          "detail": "The Corsair Cove encounter is lost if either Ship Health or Crew reaches zero. Combat stats determine how effective each card is."
         }
       ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
+      "prepTips": [
+        "Compare every recommended event metric with the ship's individual ratings, not only the overall level.",
+        "Restore Ship Health, Crew, and Supplies before entering a high-risk Corsair Cove event.",
+        "Switch to a captain whose traits and event ability directly support the objective.",
+        "Keep island fortresses and gun towers supplied with Cannonballs and Black Powder."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
+    "corsairCoveCrewAndCohesion": {
+      "title": "Corsair Cove Crew Jobs, Needs, and Cohesion",
+      "displayType": "crew",
+      "intro": "Keep workers housed, sailors supplied, and every Pirate Camp satisfied in Corsair Cove. Unmet needs can drive pirates away, while zero Cohesion ends the run.",
+      "roles": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "role": "Drifters",
+          "need": "Housing only",
+          "detail": "Unemployed reserve crew required to construct buildings. Keep a reserve available instead of assigning every pirate at once."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "role": "Builders",
+          "need": "Housing and upkeep",
+          "detail": "Construct and expand the settlement. Pause lower-priority buildings when labor is needed elsewhere."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "role": "Fetchers",
+          "need": "Housing and upkeep",
+          "detail": "Move goods through the logistics network. Short green connections are healthier than yellow or red long-distance routes."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "role": "Production Workers",
+          "need": "Housing and tier goods",
+          "detail": "Operate resource buildings and production chains at different skill levels. Watch real-time production and consumption before adding another workplace."
+        },
+        {
+          "role": "Basic Ship Pirates",
+          "need": "Stew, Ale, and Rum",
+          "detail": "Crew early ships and sea events. Bread and booze support early growth, but advanced crew soon demand finer goods."
+        },
+        {
+          "role": "Specialist Sailors",
+          "need": "Spyglasses, Medicine, and Sabers",
+          "detail": "Bombardiers, Navigators, Marauders, and Renegades for more demanding fleet roles. Build complete equipment chains before recruiting specialists in numbers."
+        },
+        {
+          "role": "Elite Sailors",
+          "need": "Tobacco, Pistols, and Eye-patches",
+          "detail": "Veteran Corsairs and descendants of the first Buccaneers. Elite demand chains require both island production and world-event goods."
         }
       ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
+      "cohesionTips": [
+        "Build Housing before assigning new workers or expanding specialist crews.",
+        "Use the Resources panel to fix negative production-versus-consumption before stockpiles empty.",
+        "Supply every Pirate Camp locally with food and drink instead of relying on the main camp alone.",
+        "Slow population growth when Corsair Cove Cohesion is low; pirates abandon the settlement when needs are ignored."
       ]
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
+    "corsairCoveCompassQuests": {
+      "title": "Corsair Cove Compass Quests and World Events",
+      "displayType": "progression",
+      "intro": "Earn Principle Points through Deeds and Side Quests, shape the four Compass paths, and send purpose-built ships into raids, treasure hunts, forts, fleets, and legendary encounters in Corsair Cove.",
+      "principles": [
         {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "name": "Notoriety",
+          "focus": "Pirate reputation and feared influence",
+          "detail": "Spend Principle Points on the Notoriety branch to unlock its missions and branch-specific benefits in Corsair Cove."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "name": "Empire",
+          "focus": "Settlement growth and pirate-society development",
+          "detail": "Spend Principle Points on the Empire branch to unlock a larger, more capable haven."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "name": "Seafaring",
+          "focus": "Ships, voyages, and sea-going capability",
+          "detail": "Spend Principle Points on the Seafaring branch to unlock stronger fleet options and broader event capability."
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "name": "Wealth",
+          "focus": "Production, resources, and economic output",
+          "detail": "Spend Principle Points on the Wealth branch to unlock a resource-rich production economy in Corsair Cove."
         }
       ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
+      "events": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "name": "Smuggler Transport",
+          "objective": "Help smugglers move their wares across the Seven Seas.",
+          "detail": "Use a ship and captain whose event ratings meet the icon's recommendations."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "name": "Ancient Temple Expedition",
+          "objective": "Search dangerous temple sites for treasure.",
+          "detail": "Bring enough Crew and Supplies to survive a multi-step expedition in Corsair Cove."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "name": "Raid",
+          "objective": "Pillage nearby islands for goods the settlement needs.",
+          "detail": "Compare all recommended ratings and select a captain suited to the event type."
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "name": "Enemy Fort",
+          "objective": "Attack a Crown stronghold or fortified target.",
+          "detail": "Use an upgraded ship with full Health, Crew, and Supplies."
         },
         {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
+          "name": "Enemy Fleet",
+          "objective": "Fight Crown ships in turn-based naval combat.",
+          "detail": "Prepare Health damage, Crew damage, defensive counters, and Supply recovery cards."
         },
         {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "name": "Legendary Creature",
+          "objective": "Confront monstrous whales, Krakens, and otherworldly sea threats.",
+          "detail": "Use stronger ships, suitable captains, and deep reserves for high-risk Corsair Cove objectives."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+    "corsairCoveUpdates": {
+      "title": "Corsair Cove Updates and News",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "intro": "Follow release announcements, demo patches, event appearances, and the Legends Before the Storm character series from official Corsair Cove channels.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "date": "Jul 14, 2026",
+          "type": "Character Story",
+          "title": "Legends Before the Storm: Rambullion, the Tavernkeep",
+          "summary": "The former pirate Tadhg MacMhuircheartaigh survives the fall of an old pirate haven by hiding as Rambullion, an observant tavernkeep waiting for a chance to revive the dream."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "date": "Jul 7, 2026",
+          "type": "Character Story",
+          "title": "Legends Before the Storm: Teach, the Brute",
+          "summary": "Edward Teach, better known as Blackbeard, is presented as the last of the old guard: a brutal survivor who joins the prisoners' escape plan."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "date": "Jun 30, 2026",
+          "type": "Character Story",
+          "title": "Legends Before the Storm: Kanja, the Gambler",
+          "summary": "Kanja Shan rises from wealthy spice merchant to pirate sponsor, loses his fortune and fleet, and is captured while planning his next play."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "date": "Jun 23, 2026",
+          "type": "Character Story",
+          "title": "Legends Before the Storm: Scarlet, the Fearless",
+          "summary": "Scarlet Drake pursues fame rather than coin, grows from an Irish orphan into a daring captain, and seeks a way to defeat the cursed Reaper."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "date": "Jun 16, 2026",
+          "type": "Character Story",
+          "title": "Legends Before the Storm: Honorata, the Adventurer",
+          "summary": "Honorata Van Horn rejects her merchant-family future, learns navigation and command, steals a company ship, and hunts the Seven Seas' mythical creatures."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "date": "Jun 15, 2026",
+          "type": "Demo Event",
+          "title": "Play Corsair Cove Demo During Steam Next Fest 2026",
+          "summary": "The official announcement invited players to build a pirate haven, manage crafting chains, raise a fleet, and fight the Crown during Steam Next Fest."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "date": "Jun 10, 2026",
+          "type": "Demo Patch",
+          "title": "Demo Update #1: Crash Fixes and Tutorial Fix",
+          "summary": "The first Corsair Cove demo hotfix addressed random crashes, a quality-settings crash, a tutorial goal that could stall below 10 Crew, and a pause-state issue after a ship returned."
+        },
+        {
+          "date": "May 28, 2026",
+          "type": "Release Announcement",
+          "title": "Corsair Cove Releases July 31, 2026",
+          "summary": "Limbic Entertainment and Hooded Horse confirmed the July 31, 2026 launch date and made the free demo available alongside the release-date trailer."
+        },
+        {
+          "date": "Apr 17, 2026",
+          "type": "Game Reveal",
+          "title": "Hooded Horse and Limbic Entertainment Set Sail Together",
+          "summary": "The reveal introduced free-form vertical construction, more than 50 resources, bridges, ziplines, crew needs, shipbuilding, and the four Compass progression paths."
         }
       ]
     }
@@ -749,31 +545,39 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Corsair Cove",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "When does Corsair Cove release?",
+        "answer": "Corsair Cove launches for Windows PC on July 31, 2026 across Steam, the Epic Games Store, the Microsoft Store, and PC Game Pass."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is there a free Corsair Cove demo?",
+        "answer": "Yes. The Corsair Cove demo is free on Steam and lets you build a connected settlement, assign pirates, and start a production network before the full launch."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Where can I play Corsair Cove?",
+        "answer": "Corsair Cove is available on Steam, the Epic Games Store, and the Microsoft Store for Windows PC, with PC Game Pass access on day one."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How much does Corsair Cove cost?",
+        "answer": "The standard digital PC edition of Corsair Cove is $29.99 USD."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What is the Compass in Corsair Cove?",
+        "answer": "The Compass is the Corsair Cove progression system. You earn Principle Points from Deeds and Side Quests and spend them across Notoriety, Empire, Seafaring, and Wealth to unlock missions, buildings, chains, and ships."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Is Corsair Cove single-player?",
+        "answer": "Yes. Corsair Cove is a single-player pirate city builder with no multiplayer or co-op."
+      },
+      {
+        "question": "What are the Corsair Cove PC requirements?",
+        "answer": "Corsair Cove needs a DirectX 12-capable Windows 10 64-bit PC with 8 GB RAM minimum and an NVIDIA GTX 1660 Super or AMD RX 5600 XT, with an SSD recommended."
+      },
+      {
+        "question": "How many goods are in Corsair Cove?",
+        "answer": "Corsair Cove includes more than 50 goods across food, drink, clothing, equipment, weapons, construction materials, and event resources."
       }
     ]
   },
@@ -802,124 +606,144 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Corsair Cove Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced production and combat strategies for Corsair Cove.",
+      "metaTitle": "Corsair Cove Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Corsair Cove guides covering beginner tips, buildings, production chains, crew, ships, naval combat, and exploration for the vertical pirate city builder.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive Corsair Cove guides covering gameplay mechanics, settlement building, production chains, and the Compass progression system.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand connections, production chains, and crew needs in Corsair Cove",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to build a stable pirate haven",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for fleet combat and exploration"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "buildings": {
+      "title": "Corsair Cove Buildings",
+      "description": "Master vertical building, connections, bridges, ziplines, and layout patterns for cliffs and limited land in Corsair Cove.",
+      "metaTitle": "Corsair Cove Buildings - Layout & Vertical Building Guide",
+      "metaDescription": "Master Corsair Cove buildings with layout patterns, cliffside terraces, bridges, ziplines, and distribution hubs for efficient vertical construction.",
+      "categoryLabel": "BUILDINGS & LAYOUT",
+      "whatIs": "What are Buildings?",
+      "whatIsDescription": "Guides to Corsair Cove housing, services, production buildings, defenses, and vertical construction across cliffs and islands.",
+      "why": "Why plan layouts?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Reduce Travel",
+        "step1Description": "Keep frequently exchanged goods on short, healthy routes",
+        "step2Title": "Use Vertical Terrain",
+        "step2Description": "Build on cliff faces and hilltops with bridges and ziplines",
+        "step3Title": "Connect Everything",
+        "step3Description": "Ensure every building stays linked to the settlement"
       },
       "featured": "Featured & Essential",
       "all": "All Building Guides"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "production": {
+      "title": "Corsair Cove Production",
+      "description": "Master production chains, logistics, distribution hubs, and bottleneck fixes across more than 50 goods in Corsair Cove.",
+      "metaTitle": "Corsair Cove Production - Chains, Goods & Logistics",
+      "metaDescription": "Master Corsair Cove production chains with raw resources, processing, distribution hubs, route diagnostics, and bottleneck fixes across 50+ goods.",
+      "categoryLabel": "PRODUCTION & ECONOMY",
+      "whatIs": "What is Production?",
+      "whatIsDescription": "Guides to Corsair Cove resource nodes, production buildings, finished goods, distribution routes, and off-island supply chains.",
+      "why": "Why manage chains?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Balance Supply",
+        "step1Description": "Match production against consumption in real time",
+        "step2Title": "Fix Bottlenecks",
+        "step2Description": "Read green, yellow, and red route lines to shorten paths",
+        "step3Title": "Expand Steadily",
+        "step3Description": "Grow chains only after basics and Cohesion are stable"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Production Guides"
+    },
+    "crew": {
+      "title": "Corsair Cove Crew",
+      "description": "Manage pirate jobs, needs, Pirate Camps, satisfaction, and Cohesion to keep your Corsair Cove haven thriving.",
+      "metaTitle": "Corsair Cove Crew - Jobs, Needs & Cohesion Guide",
+      "metaDescription": "Manage Corsair Cove crew roles, needs, Pirate Camps, and Cohesion. Learn how to house, supply, and satisfy every pirate tier.",
+      "categoryLabel": "CREW & COHESION",
+      "whatIs": "What is Crew?",
+      "whatIsDescription": "Guides to Corsair Cove Drifters, Builders, Fetchers, production workers, and specialist and elite sailors plus their needs and camps.",
+      "why": "Why manage crew?",
+      "whySteps": {
+        "step1Title": "House Everyone",
+        "step1Description": "Build Housing before assigning new workers",
+        "step2Title": "Supply Camps Locally",
+        "step2Description": "Deliver food and drink inside each camp radius",
+        "step3Title": "Protect Cohesion",
+        "step3Description": "Keep the global survival meter above zero"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Crew Guides"
+    },
+    "fleet": {
+      "title": "Corsair Cove Fleet",
+      "description": "Compare ships, captains, supplies, and fleet preparation for Corsair Cove voyages and naval combat.",
+      "metaTitle": "Corsair Cove Fleet - Ships, Captains & Naval Combat",
+      "metaDescription": "Compare Corsair Cove ships, captain traits, combat actions, and fleet preparation for raids, forts, fleets, and legendary encounters.",
+      "categoryLabel": "FLEET & COMBAT",
+      "whatIs": "What is the Fleet?",
+      "whatIsDescription": "Guides to Corsair Cove ship types, construction costs, captains, turn-based naval combat, dice pools, and event preparation.",
+      "why": "Why build a fleet?",
+      "whySteps": {
+        "step1Title": "Match the Event",
+        "step1Description": "Compare ship ratings with each event recommendation",
+        "step2Title": "Pick the Captain",
+        "step2Description": "Choose traits and abilities that fit the objective",
+        "step3Title": "Win Naval Combat",
+        "step3Description": "Counter enemy actions and protect Health and Crew"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Fleet Guides"
+    },
+    "combat": {
+      "title": "Corsair Cove Combat",
+      "description": "Master turn-based naval combat, Battle and Support cards, dice pools, and island defense in Corsair Cove.",
+      "metaTitle": "Corsair Cove Combat - Naval Battles & Island Defense",
+      "metaDescription": "Master Corsair Cove turn-based naval combat with Battle and Support cards, dice pools, exact-area counters, and island fortifications.",
+      "categoryLabel": "NAVAL COMBAT",
+      "whatIs": "What is Combat?",
+      "whatIsDescription": "Guides to Corsair Cove combat objectives, enemy actions, Supply costs, dice resolution, and defensive tower and fortress setups.",
+      "why": "Why study combat?",
+      "whySteps": {
+        "step1Title": "Read Objectives",
+        "step1Description": "Understand whether to damage, close distance, or collect",
+        "step2Title": "Manage Supplies",
+        "step2Description": "Balance Battle cards with Support recovery",
+        "step3Title": "Defend the Island",
+        "step3Description": "Keep forts and gun towers supplied with ammunition"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Combat Guides"
+    },
+    "exploration": {
+      "title": "Corsair Cove Exploration",
+      "description": "Explore the World Map, raids, treasure expeditions, ancient temples, enemy forts, and legendary creatures in Corsair Cove.",
+      "metaTitle": "Corsair Cove Exploration - World Map & World Events",
+      "metaDescription": "Explore Corsair Cove World Map events including raids, smugglers, temples, forts, fleets, prisoner ships, and legendary creatures.",
+      "categoryLabel": "EXPLORATION",
+      "whatIs": "What is Exploration?",
+      "whatIsDescription": "Guides to Corsair Cove World Map events, expedition preparation, rewards, and the Compass progression paths that unlock new content.",
+      "why": "Why explore?",
+      "whySteps": {
+        "step1Title": "Earn Rewards",
+        "step1Description": "Collect captains, crew, Cohesion, resources, and loot",
+        "step2Title": "Prepare Ships",
+        "step2Description": "Fill Health, Crew, and Supplies before departure",
+        "step3Title": "Advance the Story",
+        "step3Description": "Push the Crown conflict and Principle questlines forward"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Exploration Guides"
     }
   }
 }
