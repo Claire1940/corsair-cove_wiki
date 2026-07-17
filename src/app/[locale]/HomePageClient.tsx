@@ -158,13 +158,13 @@ export default function HomePageClient({
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "Corsair Cove - Announcement Trailer",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Official Corsair Cove announcement trailer showcasing the vertical pirate city builder gameplay.",
+        uploadDate: "2026-04-17",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/GsKcFE9oMFA",
+        url: "https://www.youtube.com/watch?v=GsKcFE9oMFA",
       },
     ],
   };
@@ -279,8 +279,8 @@ export default function HomePageClient({
         <div className="scroll-reveal container mx-auto max-w-5xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="GsKcFE9oMFA"
+              title="Corsair Cove - Announcement Trailer"
             />
           </div>
         </div>
