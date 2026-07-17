@@ -10,14 +10,7 @@
       "twitterDescription": "Corsair Cove Wiki covers the July 31 release, free demo, buildings, production chains, crew, ships, naval combat, and updates."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
