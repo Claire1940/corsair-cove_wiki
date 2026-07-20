@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Users, Settings, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Navires de Corsair Cove : Flotte de palier 2 et guide d'amélioration",
+  description: "Maîtrisez les vagues dans Corsair Cove grâce à notre guide des navires de palier 2, de la gestion de l'équipage et des chaînes de production navale pour la saison 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/ffffff?text=Corsair+Cove+Ships+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki de Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **navires de Corsair Cove** nécessitent des améliorations spécifiques de palier 2 impliquant des **cordes et des planches** pour progresser dans la campagne principale.
+- Le **Tide Runner** est le premier navire de classe Chasseur de palier 2, privilégiant la **maniabilité et la vitesse** pour les missions d'exploration.
+- La **gestion de l'équipage** est cruciale ; les **Scallywags** ont besoin de **pain**, tandis que les **Pickaroons** exigent du **rhum** pour maintenir une cohésion élevée.
+- Les **chaînes de production** pour le soutien naval comprennent des cueilleurs de manioc, des plantations de canne à sucre et des distilleries reliées par des **tyroliennes**.
+- Des **capitaines spécialisés** comme Teach et Charlie offrent des bonus uniques respectivement aux **dégâts des canons** et à la **santé**.
+</Callout>
+
+<Section icon={Anchor} title="Expansion navale de palier 2 dans Corsair Cove">
+
+L'expansion de votre flotte est la pierre angulaire de votre progression dans Corsair Cove. Une fois votre colonie initiale établie et vos premières missions de contrebande terminées, l'accent est mis sur la technologie navale de palier 2. Ces navires ne sont pas seulement plus grands ; ce sont des outils spécialisés conçus pour faire face aux dangers croissants des Océans Voilés (Shrouded Oceans) et de l'Archipel Antique (Ancient Archipelago).
+
+**Points forts de la vidéo :**
+- Débloquer les classes de navires **Tide Runner** et **Steel Edge**.
+- Gérer la transition des **Swabbies** vers les **Scallywags** de haut palier.
+- Établir les lignes de production de **pain et de rhum** pour le bonheur de l'équipage.
+- Utiliser les systèmes de **tyroliennes et de monte-charges** pour la logistique des ressources.
+
+<YouTubeEmbed videoId="K6umR2QOCt4" title="Tier 2 Pirate SHIPS & World EXPLORATION in Corsair Cove" />
+
+La transition vers le palier 2 nécessite un investissement important dans le stockage mondial. Vous devez vous assurer que votre entrepôt central est approvisionné en cordes et en planches, car ce sont les matériaux principaux pour les charpentiers navals. Améliorer votre navire vers le Tide Runner, par exemple, marque votre premier grand bond en avant en matière d'agilité, vous permettant de contourner les patrouilles de la couronne et de mener à bien des missions de reconnaissance à enjeux élevés.
+
+<Callout type="tip" title="Composition stratégique de la flotte">
+Maintenez toujours un équilibre entre les navires de classe **Chasseur** (Hunter) pour la vitesse et les navires de classe **Destructeur** (Destroyer) pour la puissance de feu brute. Compter sur un seul type de navire vous rendra vulnérable lors de combats spécialisés ou de missions d'exploration.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Améliorations de navires et ressources requises">
+
+Améliorer vos **navires de Corsair Cove** est un processus en plusieurs étapes qui implique à la fois des coûts en matériaux et du temps. Le chemin d'amélioration de palier 2 introduit le besoin de **Cordes** (Ropes), une ressource produite par le Fabricant de cordes à partir des fibres des coupeurs de feuilles. Sans un approvisionnement régulier en cordes, votre flotte restera bloquée au palier 1.
+
+| Modèle de navire | Classe | Matériau principal | Matériau secondaire | Avantage clé |
+| :--- | :--- | :--- | :--- | :--- |
+| **Tide Runner** | Chasseur | 15 Cordes | 10 Planches | Haute maniabilité |
+| **Steel Edge** | Destructeur | 25 Cordes | 20 Planches | Dégâts de canon massifs |
+| **Iron Fist** | Lourd | 30 Cordes | 25 Planches | Santé de coque maximale |
+| **Shark Tooth** | Pillard | 20 Cordes | 15 Planches | Abordage équilibré |
+
+Pour faciliter ces améliorations, vos camps de production doivent être interconnectés. Si votre Fabricant de cordes est situé dans un camp secondaire, assurez-vous que les itinéraires de transport vers le chantier naval principal sont optimisés. L'utilisation d'ascenseurs et de sentiers est essentielle pour maintenir un flux constant de planches et de cordes pendant la phase de construction.
+
+<Callout type="warning" title="Goulots d'étranglement des ressources">
+La consommation de **Planches** augmente de façon exponentielle à mesure que votre ville grandit. Avant de lancer l'amélioration d'un navire de palier 2, suspendez les constructions non essentielles pour garantir que le charpentier naval ait un accès prioritaire aux réserves de bois.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Hiérarchie de l'équipage et mécanique du bonheur">
+
+Un navire ne vaut que ce que vaut son équipage. Dans Corsair Cove, le passage aux navires de palier 2 introduit une hiérarchie sociale complexe parmi vos pirates. Vous ne pouvez plus compter uniquement sur les Swabbies de base ; vous aurez besoin d'une main-d'œuvre spécialisée qui exige de meilleures conditions de vie et des provisions de haute qualité.
+
+<CardGrid cols={3}>
+  <Card title="Swabbies">
+    - **Main-d'œuvre de base**
+    - Besoins : Ragoût simple
+    - Rôle : Maintenance générale
+    - Entretien : Faible
+  </Card>
+  <Card title="Scallywags">
+    - **Marins qualifiés**
+    - Besoins : Ragoût + Pain
+    - Rôle : Navigation & Vitesse
+    - Entretien : Modéré
+  </Card>
+  <Card title="Pickaroons">
+    - **Spécialistes du combat**
+    - Besoins : Ragoût + Rhum
+    - Rôle : Dégâts de canon & Abordage
+    - Entretien : Élevé
+  </Card>
+</CardGrid>
+
+Maintenir la **Cohésion** de l'équipage est vital. Si vos réserves de Pain ou de Rhum s'épuisent, la cohésion chutera, entraînant une baisse des performances du navire ou même une mutinerie. Une cohésion à 100 % offre des bonus cachés aux taux de réussite des missions, ce qui justifie de investir dans les « Cabines Salées » (Salty Cabins) pour un meilleur logement.
+
+| Type d'équipage | Besoin en nourriture | Besoin en boisson | Type de logement | Bonus de statistiques |
+| :--- | :--- | :--- | :--- | :--- |
+| Swabbie | Ragoût | Eau | Tente | +5 Santé |
+| Scallywag | Pain | Eau | Cabine Salée | +10 Vitesse |
+| Pickaroon | Pain | Rhum | Cabine Salée | +15 Dégâts |
+
+<Callout type="info" title="Synergie de capitaine">
+Assignez le **Capitaine Teach** à des navires de classe Destructeur comme le Steel Edge. Ses traits passifs augmentent considérablement les dégâts des canons et la santé, ce qui le rend idéal pour les attaques de ports et la chasse aux Chiens Espagnols (Spanish Hounds).
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Étape par étape : Lancer votre premier navire de palier 2">
+
+Le processus de mise en service d'un navire de palier 2 nécessite une planification minutieuse de l'infrastructure de votre île. Suivez ces étapes pour garantir un lancement en douceur sans effondrer votre économie locale.
+
+<Steps>
+  <Step num="1" title="Établir la production de cordes">
+    Construisez un Fabricant de cordes à proximité de vos coupeurs de feuilles. Assurez-vous que la production est acheminée vers un entrepôt accessible par votre chantier naval principal. Vous aurez besoin d'au moins 15 à 20 cordes pour l'amélioration initiale.
+  </Step>
+  <Step num="2" title="Passer aux Cabines Salées">
+    Avant de recruter des Scallywags, améliorez vos tentes de base en Cabines Salées. Celles-ci nécessitent des cordes et des planches, mais offrent le confort nécessaire aux membres d'équipage de palier supérieur.
+  </Step>
+  <Step num="3" title="Lancer la chaîne du pain">
+    Construisez un Cueilleur de manioc sur une terre fertile, une mine de sel et un four. Utilisez une **Tyrolienne** pour transporter le pain frais directement à la cambuse afin de minimiser le temps de transport.
+  </Step>
+  <Step num="4" title="Commander le navire">
+    Sélectionnez votre navire à quai et choisissez l'amélioration de palier 2 (ex. Tide Runner). Assignez un capitaine ayant une grande maniabilité pour l'exploration ou des dégâts élevés pour le combat.
+  </Step>
+  <Step num="5" title="Assigner un équipage spécialisé">
+    Remplissez les emplacements d'équipage avec un mélange de Swabbies et de Scallywags. Assurez-vous que votre cambuse dispose d'un excédent de pain avant que le navire ne quitte le port afin d'éviter toute perte de cohésion en mer.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Conseil d'optimisation">
+Utilisez le **Monte-charge** (Area Lift) pour relier les zones de production en altitude (comme les fermes de manioc à flanc de falaise) à vos entrepôts côtiers. Cela réduit considérablement le temps de trajet de vos transporteurs.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Missions navales et récompenses d'exploration">
+
+Une fois vos **navires de Corsair Cove** prêts au combat, vous pouvez vous aventurer dans de nouvelles régions comme l'**Archipel Antique** (Ancient Archipelago). Ces missions sont classées en quatre types : Richesse, Combat, Exploration et Empire. Chaque type nécessite des statistiques de navire différentes pour maximiser le butin.
+
+- **Missions de Richesse** : Axées sur la capacité de chargement et les routes commerciales.
+- **Missions de Combat** : Nécessitent des dégâts de canon et des statistiques d'abordage élevés.
+- **Missions d'Exploration** : Privilégient la vitesse et la maniabilité pour naviguer dans le brouillard et les tempêtes.
+- **Missions d'Empire** : Visent à nouer des alliances avec les tribus locales et les boucaniers.
+
+| Lieu de la mission | Difficulté | Statistique requise | Récompense clé |
+| :--- | :--- | :--- | :--- |
+| Archipel Antique | Palier 2 | Maniabilité | 80 Drifters |
+| Grande Pyramide | Palier 2 | Dégâts de canon | Trésor antique |
+| Traque des Chiens Espagnols | Palier 2 | Abordage | Points principaux |
+| Port amical | Palier 1 | Vitesse | Réparations de navire |
+
+Pendant l'exploration, vous rencontrerez des « Événements de découverte ». Construire un **Nid-de-pie** (Crow's Nest) dans votre colonie offre un bonus de 20 pièces d'or pour chaque événement découvert, ce qui en fait une source de revenus passifs lucrative pour les explorateurs agressifs.
+
+<Callout type="info" title="L'Alliance des Tribus">
+Aider l'Alliance des Tribus dans l'Archipel Antique peut vous rapporter des **Points principaux d'Empire**. Ces points sont utilisés pour débloquer des bâtiments avancés comme le Repaire de jeu ou le Comptoir commercial.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle pour la gestion de la flotte">
+
+Avant d'envoyer votre flotte pour une expédition lointaine vers le Passage du Beau Vent (Fairwind Passage) ou la Grande Pyramide, consultez cette liste de contrôle pour vous assurer que vos navires reviennent en un seul morceau.
+
+<Checklist
+  id="fleet-readiness"
+  title="Exigences avant le voyage :"
+  items={[
+    "Santé de la coque réparée à 100 % à l'aide de planches",
+    "Cohésion supérieure à 90 % pour tous les membres d'équipage",
+    "Cambuse approvisionnée d'au moins 200 unités de pain",
+    "Traits du capitaine alignés avec le type de mission (ex. Vitesse pour la reconnaissance)",
+    "Comptoir commercial actif pour vendre le surplus de pierre contre de l'or"
+  ]}
+/>
+
+<Callout type="tip" title="Commerce des excédents">
+Si vous avez un excédent de blocs de pierre ou de ragoût, utilisez le **Comptoir commercial** pour les convertir en pièces d'or. Cet or est essentiel pour payer l'entretien de vos navires de palier 2 et recruter de nouveaux capitaines.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment débloquer les navires de palier 2 comme l'Iron Fist ?",
+    answer: "Vous devez investir vos points de boussole dans l'Expansion de la carrière. Cela débloque la branche des navires lourds, vous permettant de construire l'Iron Fist et d'autres navires à haute santé."
+  },
+  {
+    question: "Pourquoi la cohésion de mon navire baisse-t-elle alors que j'ai de la nourriture ?",
+    answer: "Les membres d'équipage de palier 2 comme les Scallywags et les Pickaroons ont besoin de plus qu'un simple ragoût. Les Scallywags ont besoin de pain, et les Pickaroons ont besoin de rhum. Si ces éléments manquent dans votre cambuse ou votre taverne, la cohésion chutera."
+  },
+  {
+    question: "Quel est le moyen le plus rapide de transporter du rhum jusqu'aux quais ?",
+    answer: "Établissez une tyrolienne reliant votre distillerie à la taverne côtière. Cela permet de contourner les sentiers sinueux de la falaise et de garantir que vos navires soient réapprovisionnés instantanément dès leur amarrage."
+  },
+  {
+    question: "Puis-je échanger des membres d'équipage entre les navires ?",
+    answer: "Oui, mais soyez prudent. Échanger fréquemment des membres d'équipage entraîne une légère perte de cohésion (-5 par échange). Il est préférable de recruter de nouveaux Drifters dans l'Archipel Antique pour équiper votre second navire."
+  }
+]} />
+
+</Section>

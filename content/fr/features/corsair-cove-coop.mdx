@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove : Guide de stratégie et de progression pour débutants",
+  description: "Maîtrisez les mécaniques de Corsair Cove grâce à notre guide d'expert sur la construction de villes, les chaînes de production et le combat naval en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Corsair+Cove+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki Corsair Cove",
+  keywords: "Corsair Cove, guide, stratégie, construction de ville, combat naval, débutant"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Corsair Cove** est un jeu de construction de ville vertical axé sur des chaînes de production complexes et le combat naval.
+- **La verticalité** est la clé ; construisez sur les parois des falaises et utilisez des tyroliennes pour optimiser l'efficacité de votre port de pirates.
+- **Les chaînes de production** nécessitent une gestion minutieuse des ressources, allant du simple ragoût aux composants de navires avancés.
+- **Le combat naval** se déroule au tour par tour et nécessite une utilisation stratégique des fournitures, de la gestion de l'équipage et des capacités du capitaine.
+- **La cohésion** est votre statistique la plus critique ; si elle tombe à zéro, votre communauté de pirates s'effondre.
+</Callout>
+
+<Section icon={Map} title="Maîtriser la construction verticale">
+
+Corsair Cove bouscule les normes traditionnelles de construction de ville en encourageant les joueurs à construire sur des surfaces verticales. Un tracé efficace est le pilier d'un repaire de pirates réussi.
+
+**Points forts de la vidéo :**
+- Paramètres d'accessibilité pour le mal des transports et la mise à l'échelle de l'interface utilisateur.
+- Importance de construire en hauteur et d'utiliser l'espace vertical efficacement.
+- Comment gérer les sites de construction et les connexions de ressources.
+
+<YouTubeEmbed videoId="RV8CaADPWog" title="Aperçu anticipé de la 1.0 ! | Corsair Cove" />
+
+Pour réussir, vous devez maîtriser la topographie de votre île. Contrairement aux cartes plates, vous devez utiliser chaque centimètre de la falaise pour loger votre population croissante.
+
+| Type de structure | Fonction | Conseil de placement |
+| :--- | :--- | :--- |
+| **Camp de pirates** | Hub central | Placer près des nœuds de ressources |
+| **Logement** | Soutien de la population | Utiliser les parois verticales des falaises |
+| **Scierie** | Production de planches | Nécessite la proximité du bois |
+| **Entrepôt** | Stockage des ressources | Centraliser pour la logistique |
+
+<Callout type="tip" title="Conseil d'expert">
+Utilisez des ascenseurs et des tyroliennes pour contourner les échelles lentes. Ces structures augmentent considérablement la vitesse de transport de vos collecteurs, évitant ainsi les goulots d'étranglement dans votre chaîne d'approvisionnement.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimisation de la chaîne de production">
+
+La survie dans la crique nécessite un flux constant de ressources. Vous devez équilibrer les besoins de votre population de pirates croissante avec les exigences de votre armada.
+
+| Niveau de ressource | Exemples | Source de production |
+| :--- | :--- | :--- |
+| **De base** | Bois, Pierre, Nourriture | Bûcheron, Feu de camp |
+| **Transformé** | Planches, Briques de pierre | Scierie, Carrière |
+| **Avancé** | Poudre noire, Voiles | Conserverie, Voilerie |
+| **Luxe** | Rhum, Tabac | Distillerie, Ferme |
+
+<Steps>
+  <Step num="1" title="Sécuriser les besoins de base">
+    Construisez des feux de camp et rassemblez de la nourriture immédiatement pour éviter la perte de cohésion.
+  </Step>
+  <Step num="2" title="Établir la logistique">
+    Connectez vos bâtiments de ressources au camp de pirates à l'aide de routes et de sentiers de falaise.
+  </Step>
+  <Step num="3" title="Augmenter la production">
+    Une fois stable, construisez des scieries et des entrepôts pour préparer la construction de navires.
+  </Step>
+  <Step num="4" title="S'étendre vers de nouvelles îles">
+    Utilisez des navires pour piller les îles voisines afin d'obtenir des ressources que vous ne pouvez pas produire sur place.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Alerte d'efficacité">
+Surveillez toujours votre production de ressources par rapport à la consommation. Si la capacité de votre entrepôt est pleine ou si vos lignes d'approvisionnement sont déconnectées, vos bâtiments deviendront inactifs, provoquant un effet de mécontentement en cascade.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat naval et exploration">
+
+Le combat naval dans Corsair Cove se déroule au tour par tour, vous obligeant à gérer les fournitures et la santé de l'équipage. Chaque décision dans les Sept Mers impacte votre héritage de pirate.
+
+<CardGrid cols={2}>
+  <Card title="Stats de combat">
+    - **Dégâts de canon** : Inflige des dégâts à la santé ennemie.
+    - **Dégâts d'abordage** : Attaque directement l'équipage ennemi.
+    - **Vitesse/Maniabilité** : Utilisée pour éviter les tirs entrants.
+    - **Armure** : Réduit les dégâts globaux subis.
+  </Card>
+  <Card title="Fournitures tactiques">
+    - Les fournitures agissent comme vos « points d'action ».
+    - En manquer limite vos options de combat.
+    - Le réapprovisionnement nécessite souvent de sacrifier de la santé ou de l'équipage.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Stratégie">
+Évaluez toujours les statistiques du navire ennemi avant d'engager le combat. Si votre navire est surpassé en puissance de feu, concentrez-vous sur les manœuvres d'abordage pour neutraliser leur équipage et minimiser les dégâts de votre propre navire.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maintenir la cohésion des pirates">
+
+La cohésion est le moteur de votre opération. Elle représente l'unité de votre équipage. Si cette barre tombe à zéro, la partie s'arrête.
+
+| Type d'événement | Effet sur la cohésion | Stratégie d'atténuation |
+| :--- | :--- | :--- |
+| **Manque de nourriture/alcool** | Épuisement constant | Construire plus de cuisines/tavernes |
+| **Querelles internes** | Chute soudaine | Dépenser des pièces pour régler les différends |
+| **Attaques de navires** | Chute massive | Entretenir des tours de défense |
+| **Raids réussis** | Gain modéré | Remplir les objectifs d'exploration |
+
+<Checklist
+  id="cohesion-milestones"
+  title="Objectifs de préservation de la cohésion :"
+  items={[
+    "Maintenir une satisfaction de logement de 100 %",
+    "Assurer un approvisionnement constant en ragoût et en rhum",
+    "Résoudre les querelles de pirates en utilisant le code des pirates",
+    "Défendre tous les points d'attaque de l'île"
+  ]}
+/>
+
+<Callout type="info" title="Note de gestion">
+Lorsque vos pirates ont faim ou sont négligés, ils deviennent « agités ». Donnez la priorité à ces événements immédiatement, car ne pas les traiter peut mener à un game over rapide.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Que se passe-t-il si ma cohésion tombe à zéro ?",
+    answer: "Si votre cohésion atteint zéro, votre communauté de pirates s'effondre et vous perdez immédiatement la partie."
+  },
+  {
+    question: "Comment obtenir plus de corde pour les améliorations de navires ?",
+    answer: "La corde est produite par la Corderie, qui se débloque après avoir établi un poste de traite et progressé dans vos objectifs de richesse."
+  },
+  {
+    question: "Les navires doivent-ils être à quai pour être utiles ?",
+    answer: "Oui, chaque navire nécessite un emplacement de quai. Vous ne pouvez pas exploiter une flotte plus grande que votre nombre de quais disponibles."
+  },
+  {
+    question: "Corsair Cove est-il un jeu multijoueur ?",
+    answer: "Non, Corsair Cove est un jeu de construction de ville en solo axé sur une progression narrative et une gestion stratégique."
+  }
+]} />
+
+</Section>

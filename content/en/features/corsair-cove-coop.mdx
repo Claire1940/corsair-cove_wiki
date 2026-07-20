@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove: Beginner Strategy & Progression Guide",
+  description: "Master the mechanics of Corsair Cove with our expert guide to city building, production chains, and naval combat in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Corsair+Cove+Guide",
+  date: "2026-07-21",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Corsair Cove** is a vertical city builder focusing on complex production chains and naval combat.
+- **Verticality** is key; build on cliff-faces and use ziplines to optimize your pirate harbor's efficiency.
+- **Production chains** require careful resource management, ranging from basic stew to advanced ship components.
+- **Naval combat** is turn-based and requires strategic use of supplies, crew management, and captain abilities.
+- **Cohesion** is your most critical stat; if it hits zero, your pirate community collapses.
+</Callout>
+
+<Section icon={Map} title="Mastering Vertical Construction">
+
+Corsair Cove challenges traditional city-building norms by encouraging players to build on vertical surfaces. Efficient pathing is the backbone of a successful pirate haven.
+
+**Video Highlights:**
+- Accessibility settings for motion sickness and UI scaling.
+- Importance of building up and using vertical space effectively.
+- How to manage construction sites and resource connections.
+
+<YouTubeEmbed videoId="RV8CaADPWog" title="Early Preview of 1.0! | Corsair Cove" />
+
+To succeed, you must master the layout of your island. Unlike flat maps, you need to utilize every inch of the cliff-side to house your growing population.
+
+| Structure Type | Function | Placement Tip |
+| :--- | :--- | :--- |
+| **Pirate Camp** | Central hub | Place near resource nodes |
+| **Housing** | Population support | Use vertical cliff-faces |
+| **Sawmill** | Plank production | Needs proximity to wood |
+| **Warehouse** | Resource storage | Centralize for logistics |
+
+<Callout type="tip" title="Pro Tip">
+Use elevators and ziplines to bypass slow ladders. These structures significantly increase the transportation speed of your fetchers, preventing resource bottlenecks in your supply chain.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Production Chain Optimization">
+
+Survival in the cove requires a constant stream of resources. You must balance the needs of your growing pirate population with the demands of your armada.
+
+| Resource Level | Examples | Production Source |
+| :--- | :--- | :--- |
+| **Basic** | Wood, Stone, Food | Woodcutter, Campfire |
+| **Processed** | Planks, Stone Bricks | Sawmill, Quarry |
+| **Advanced** | Black Powder, Sails | Cannery, Sail Maker |
+| **Luxury** | Rum, Tobacco | Distillery, Farm |
+
+<Steps>
+  <Step num="1" title="Secure Basic Needs">
+    Build campfires and gather food immediately to prevent cohesion loss.
+  </Step>
+  <Step num="2" title="Establish Logistics">
+    Connect your resource buildings to the Pirate Camp using roads and cliff paths.
+  </Step>
+  <Step num="3" title="Scale Up Production">
+    Once stable, build sawmills and warehouses to prepare for ship construction.
+  </Step>
+  <Step num="4" title="Expand to New Islands">
+    Use ships to raid nearby islands for resources you cannot produce at home.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Efficiency Alert">
+Always monitor your resource output versus drain. If your warehouse capacity is full or your supply lines are disconnected, your buildings will go inactive, causing a ripple effect of dissatisfaction.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Naval Combat and Exploration">
+
+Naval combat in Corsair Cove is turn-based, requiring you to manage supplies and crew health. Every decision in the Seven Seas impacts your pirate legacy.
+
+<CardGrid cols={2}>
+  <Card title="Combat Stats">
+    - **Gun Damage**: Deals damage to enemy health.
+    - **Boarding Damage**: Attacks enemy crew directly.
+    - **Speed/Maneuverability**: Used to avoid incoming fire.
+    - **Armor**: Reduces overall incoming damage.
+  </Card>
+  <Card title="Tactical Supplies">
+    - Supplies act as your "action points."
+    - Running out limits your combat options.
+    - Replenishing supplies often requires sacrificing health or crew.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Strategy">
+Always assess the enemy ship's stats before engaging. If your ship is outclassed in gunpower, focus on boarding maneuvers to neutralize their crew and minimize your own ship's damage.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maintaining Pirate Cohesion">
+
+Cohesion is the lifeblood of your operation. It represents the unity of your crew. If this bar drops to zero, the game ends.
+
+| Event Type | Effect on Cohesion | Mitigation Strategy |
+| :--- | :--- | :--- |
+| **Low Food/Booze** | Constant drain | Build more galleys/taverns |
+| **Internal Feuds** | Sudden drop | Spend coin to settle disputes |
+| **Ship Attacks** | Massive drop | Maintain defensive gun towers |
+| **Successful Raids** | Moderate gain | Complete exploration objectives |
+
+<Checklist
+  id="cohesion-milestones"
+  title="Cohesion Preservation Goals:"
+  items={[
+    "Maintain 100% housing satisfaction",
+    "Ensure consistent stew and rum supply",
+    "Resolve pirate feuds using the pirate code",
+    "Defend all island attack points"
+  ]}
+/>
+
+<Callout type="info" title="Management Note">
+When your pirates are hungry or unkempt, they will become "unrestful." Prioritize these events immediately, as failing to address them can lead to a quick game over.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What happens if my cohesion hits zero?",
+    answer: "If your cohesion reaches zero, your pirate community falls apart, and you lose the game immediately."
+  },
+  {
+    question: "How do I get more rope for ship upgrades?",
+    answer: "Rope is produced by the Rope Maker, which is unlocked after you establish a Trading Post and advance your wealth goals."
+  },
+  {
+    question: "Do ships need to be docked to be useful?",
+    answer: "Yes, every ship requires a pier slot. You cannot operate a fleet larger than your number of available piers."
+  },
+  {
+    question: "Is Corsair Cove a multiplayer game?",
+    answer: "No, Corsair Cove is a single-player city builder focused on story-driven progression and strategic management."
+  }
+]} />
+
+</Section>

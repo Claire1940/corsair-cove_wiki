@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Charpentière de marine de Corsair Cove : Guide de construction navale de Soraya",
+  description: "Découvrez comment débloquer et utiliser la charpentière marine Soraya à Corsair Cove pour la personnalisation, l'amélioration des navires et la progression en Navigation en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Shipwright",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Charpentière de marine de Corsair Cove** : Soraya la charpentière de marine est le PNJ clé pour améliorer et personnaliser les navires au port de Corsair Cove.
+- **Conditions de déblocage** : L'accès à ses services complets d'amélioration nécessite le **niveau 40 en Navigation** et l'accomplissement de la quête **The Corsair Cove**.
+- **Accès limité** : Si vous ne remplissez pas les conditions de niveau et de quête, Soraya ne peut être utilisée que pour détruire vos bateaux existants.
+- **Centre de personnalisation** : Elle donne accès au chantier naval où les joueurs peuvent modifier les coques, les gouvernails, les mâts, les voiles, les quilles et les garnitures.
+- **Mécanique clé** : Votre bateau doit être physiquement amarré au port de Corsair Cove pour lancer le processus de personnalisation.
+</Callout>
+
+<Section icon={Map} title="Débloquer la charpentière marine Soraya à Corsair Cove">
+
+La charpentière marine Soraya (ID de PNJ 15373) est un personnage non-joueur essentiel situé au port sud de Corsair Cove. En tant que principale **charpentière de marine de Corsair Cove**, elle joue un rôle central dans la progression de la compétence Navigation, permettant aux joueurs d'améliorer leurs navires, du simple radeau au sloop avancé. Cependant, les joueurs ne peuvent pas accéder immédiatement à l'ensemble de ses services à leur arrivée. 
+
+Pour utiliser ses capacités d'amélioration, vous devez atteindre des étapes spécifiques en termes de compétences et de quêtes. Sans ces prérequis, l'utilité de Soraya est grandement limitée, n'offrant que l'option de démanteler ou de détruire votre embarcation actuelle.
+
+| Condition | Type | Description |
+| --- | --- | --- |
+| **Niveau 40 en Navigation** | Compétence | Requis pour accoster au port et accéder aux options de personnalisation |
+| **The Corsair Cove** | Quête | Doit être accomplie pour débloquer toutes les interactions avec le PNJ dans la zone |
+| **Navire amarré** | Mécanique | Votre bateau doit être amarré au port de Corsair Cove |
+
+<Callout type="warning" title="Restriction d'accès">
+Tenter de parler à Soraya au sujet des améliorations avant d'atteindre le niveau 40 en Navigation ou d'avoir terminé la quête requise entraînera une boucle de dialogue où elle ne vous proposera que de détruire votre bateau actif. Assurez-vous que vos statistiques sont à jour avant de vous rendre à la crique.
+</Callout>
+
+L'accès à Corsair Cove lui-même peut se faire via le système de navires de location (charter) ou par le port situé au sud de Feldip Hills. Une fois la zone débloquée, Soraya se trouve près des quais, adjacente à la plateforme de construction navale.
+
+</Section>
+
+<Section icon={Swords} title="Personnaliser et améliorer votre navire">
+
+Une fois les conditions de déblocage remplies, interagir avec la **charpentière de marine de Corsair Cove** ouvre la boucle principale de construction navale. En sélectionnant l'option de dialogue **\"Customise-boat\"** (Personnaliser le bateau), les joueurs sont instantanément transportés vers l'interface localisée du chantier naval. Cette zone spécialisée vous permet de modifier les aspects structurels et cosmétiques de votre navire.
+
+Le système d'amélioration classe les navires en trois niveaux principaux. Chaque niveau nécessite un modèle de coque de base différent et offre des statistiques variables en termes de vitesse, de durabilité et de capacité d'équipage.
+
+<CardGrid cols={3}>
+  <Card title="Radeau">
+    - **Durabilité de base** : Faible
+    - **Navigabilité** : Eaux côtières uniquement
+    - **Voie d'amélioration** : Options de personnalisation limitées
+  </Card>
+  <Card title="Esquif">
+    - **Durabilité de base** : Modérée
+    - **Navigabilité** : Capable de naviguer en haute mer
+    - **Voie d'amélioration** : Améliorations standard du gouvernail et de la quille
+  </Card>
+  <Card title="Sloop">
+    - **Durabilité de base** : Élevée
+    - **Navigabilité** : Exploration des océans profonds
+    - **Voie d'amélioration** : Accès complet à toutes les pièces personnalisées
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Condition d'amarrage">
+Assurez-vous toujours que votre bateau est entièrement amarré au quai de Corsair Cove avant de parler à Soraya. Si votre navire est ancré au large ou amarré dans un autre port, l'option \"Customise-boat\" sera temporairement indisponible.
+</Callout>
+
+L'amélioration de votre navire nécessite à la fois les matières premières pour les composants souhaités et des frais minimes en pièces ou en ressources locales. La charpentière s'occupe du processus d'assemblage instantanément une fois les matériaux fournis.
+
+| Type de navire | Vitesse de base | Capacité d'équipage | Matériau principal |
+| --- | --- | --- | --- |
+| **Radeau** | Lente | 1 joueur | Bûches de bois |
+| **Esquif** | Moyenne | 1 à 2 joueurs | Planches de chêne |
+| **Sloop** | Rapide | 1 à 4 joueurs | Planches de teck / d'acajou |
+
+</Section>
+
+<Section icon={Shield} title="Composants et matériaux de base pour la construction navale">
+
+L'amélioration de votre navire n'est pas seulement cosmétique ; elle affecte directement vos performances lors des activités de Navigation. Soraya vous permet d'améliorer quatre composants structurels de base : les coques, les gouvernails, les mâts/voiles et les quilles. Les matériaux de niveau supérieur augmentent la résistance de votre navire aux dangers environnementaux et améliorent la vitesse de navigation.
+
+Les coques déterminent la santé globale de votre navire, tandis que les gouvernails et les quilles améliorent les taux de virage et la stabilité dans les eaux agitées. Les mâts et les voiles dictent votre accélération et votre vitesse maximale.
+
+| Composant | Niveaux disponibles | Matériaux clés requis |
+| --- | --- | --- |
+| **Coques** | Bois, Chêne, Teck, Acajou, Camphre, Bois de fer, Bois de rose | Planches, Clous, Goudron |
+| **Gouvernails** | Bronze, Fer, Acier, Mithril, Adamante, Rune, Dragon | Barres de métal, Planches de chêne |
+| **Quilles** | Bronze, Fer, Acier, Mithril, Adamante, Rune, Dragon | Plaques de métal lourd, Boulons |
+| **Mâts & Voiles** | Bois/Lin, Chêne/Lin, Teck/Toile, Acajou/Toile, Bois de rose/Coton | Bûches, Toile, Tissu de coton |
+
+<Callout type="info" title="Approvisionnement en matériaux">
+Les coques de haut niveau comme le bois de fer et le bois de rose nécessitent du bois rare qui doit être transformé à l'aide des compétences Coupe de bois (Woodcutting) et Construction avant de l'apporter à la charpentière.
+</Callout>
+
+L'amélioration de ces pièces de base nécessite une progression séquentielle. Par exemple, vous ne pouvez pas installer un gouvernail en rune directement sur un simple radeau ; la coque doit d'abord être améliorée en Sloop pour supporter le poids des composants métalliques de niveau supérieur.
+
+</Section>
+
+<Section icon={Sparkles} title="Personnalisation esthétique et ajouts spéciaux">
+
+Au-delà de l'intégrité structurelle, la **charpentière de marine de Corsair Cove** propose de nombreuses options de personnalisation cosmétique. Ces modifications permettent aux joueurs de personnaliser leurs navires avec des garnitures uniques, des motifs de voile et des ajouts fonctionnels qui mettent en valeur leurs accomplissements.
+
+Des garnitures peuvent être appliquées à l'extérieur de la coque, représentant diverses factions, guildes ou exploits océaniques. Les motifs de voile modifient la couleur et le design de vos voiles principales.
+
+| Type de garniture | Style visuel | Condition de déblocage |
+| --- | --- | --- |
+| **Requin / Encre** | Thèmes de prédateurs aquatiques | Réputation de la guilde de pêche ou butins |
+| **Saradomin / Guthix / Zamorak** | Alignements de factions divines | Récompenses de parchemins d'indices ou faveurs de temple |
+| **Marchand / Pêcheur** | Designs utilitaires professionnels | Contrats commerciaux de Navigation |
+| **Sablonneux / Récupérateur** | Thèmes côtiers et de récupération | Activités locales de Corsair Cove |
+
+En plus des garnitures cosmétiques, les joueurs peuvent installer des améliorations utilitaires spécialisées pour les aider dans le contenu de navigation de haut niveau :
+
+- **Brasero éternel** : Fournit une lumière constante dans les zones de brouillard épais, évitant ainsi les pénalités de navigation.
+- **Chasseur de tempête** : Améliore la stabilité lors d'événements météorologiques graves et de tempêtes tropicales.
+- **Croiseur des marais / Planeur de cristal** : Adaptations spécialisées pour naviguer dans des eaux régionales spécifiques.
+
+<Callout type="success" title="Synergie cosmétique">
+Appliquer des garnitures et des motifs de voile assortis n'octroie pas de bonus statistiques, mais augmente votre réputation auprès des autorités portuaires locales, débloquant parfois des tarifs de réparation réduits.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Processus de modification de bateau étape par étape">
+
+La modification de votre navire aux quais de Corsair Cove suit une boucle procédurale stricte. Suivez ces étapes pour vous assurer que vos matériaux sont traités correctement sans perdre votre progression.
+
+<Steps>
+  <Step num="1" title="Vérifier les conditions">
+    Confirmez que vous avez atteint le niveau 40 en Navigation et terminé la quête *The Corsair Cove*. Assurez-vous que votre navire est amarré au quai sud.
+  </Step>
+  <Step num="2" title="Rassembler les matériaux">
+    Retirez les planches, barres de métal et voiles nécessaires de votre banque. Gardez-les dans votre inventaire avant de parler au PNJ.
+  </Step>
+  <Step num="3" title="Lancer la personnalisation">
+    Parlez à la charpentière marine Soraya et sélectionnez l'option **\"Customise-boat\"**. Vous serez transféré vers l'interface du chantier naval.
+  </Step>
+  <Step num="4" title="Appliquer les améliorations">
+    Sélectionnez la catégorie de composant souhaitée (coque, gouvernail, mât ou quille) et confirmez l'amélioration. Les matériaux seront consommés automatiquement.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avertissement de déconstruction">
+Sélectionner l'option pour détruire votre bateau supprimera définitivement toutes les améliorations appliquées et ne vous rendra qu'une fraction des matières premières. N'utilisez cette option que si vous avez l'intention de reconstruire une classe de navire complètement différente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objectifs de progression en Navigation et FAQ">
+
+Pour maximiser votre efficacité lorsque vous travaillez avec la charpentière, gardez une liste claire de vos objectifs de construction navale à court et à long terme.
+
+<Checklist
+  id="shipwright-goals"
+  title="Étapes clés de la construction navale :"
+  items={[
+    "Atteindre le niveau 40 en Navigation pour débloquer les options d'amélioration de Soraya",
+    "Terminer la quête *The Corsair Cove* pour un accès complet au port",
+    "Passer d'un simple Radeau à un Esquif en utilisant des planches de chêne",
+    "Acquérir un gouvernail en acier et une quille en acier pour une stabilité de niveau intermédiaire",
+    "Collecter des voiles en coton rares pour améliorer l'accélération du navire"
+  ]}
+/>
+
+<Callout type="tip" title="Conseil d'optimisation">
+Gardez une pile de téléportations vers Corsair Cove (comme la téléportation de Feldip Hills ou des fonds pour les navires de location standard) dans votre inventaire pour minimiser le temps de trajet entre le stockage des matériaux en banque et vos visites chez la charpentière.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Où se trouve exactement la charpentière marine Soraya ?",
+    answer: "Soraya se situe aux quais sud de Corsair Cove, près de la plateforme des navires de location. Son ID de PNJ est 15373."
+  },
+  {
+    question: "Puis-je améliorer mon bateau sans le niveau 40 en Navigation ?",
+    answer: "Non. Sans le niveau 40 en Navigation et l'accomplissement de la quête *The Corsair Cove*, Soraya ne vous proposera que de détruire votre bateau existant."
+  },
+  {
+    question: "Qu'advient-il de mes améliorations si je choisis de détruire mon bateau ?",
+    answer: "Détruire votre bateau est permanent. Vous perdrez la configuration actuelle, et seule une petite partie des matériaux de base vous sera retournée."
+  },
+  {
+    question: "Comment puis-je accéder à l'écran de personnalisation du chantier naval ?",
+    answer: "Parlez à Soraya pendant que votre bateau est amarré à Corsair Cove et sélectionnez l'option de dialogue 'Customise-boat' pour être transporté vers le chantier naval."
+  }
+]} />
+
+</Section>

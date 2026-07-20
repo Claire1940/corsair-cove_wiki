@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Hammer, Ship } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Construction dans Corsair Cove : Aménagements de ville et production efficaces",
+  description: "Maîtrisez l'art de la construction urbaine verticale dans Corsair Cove. Apprenez à gérer des chaînes de production complexes, les besoins des pirates et la logistique à flanc de falaise pour votre forteresse.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Building+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Corsair Cove",
+  keywords: "corsair cove, construction, guide, production, verticalité"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Construction Verticale** : Maximisez l'espace en construisant sur les **parois rocheuses et les sommets des collines** sans les contraintes traditionnelles.
+- **Chaînes de Production** : Gérez plus de **50 marchandises différentes**, allant de la simple galette aux cache-œil perfectionnés.
+- **Maîtrise de la Logistique** : Utilisez des **tyroliennes, des ponts et des mécanismes** pour déplacer les ressources à travers les gouffres traîtres.
+- **Niveaux de Population** : Équilibrez les besoins des **Vagabonds, des Rapporteurs et des Marins d'élite** pour maintenir un moral élevé.
+- **Défense Stratégique** : Protégez votre crique avec des **fonderies de canons et des tours de défense** contre l'armada de la Couronne.
+</Callout>
+
+<Section icon={Hammer} title="Maîtriser la construction verticale dans Corsair Cove">
+
+Le défi principal de la **construction dans Corsair Cove** réside dans sa verticalité unique. Contrairement aux jeux de construction de ville traditionnels qui reposent sur des plaines plates, ce jeu vous oblige à vous adapter à des falaises abruptes et à des terres horizontales rares. Le succès nécessite un changement de perspective, en considérant chaque surface verticale comme une fondation potentielle pour votre empire pirate. Vous devez utiliser l'ingéniosité de l'ingénierie pirate pour percher des chemins et des quartiers d'habitation dans des endroits qui seraient inaccessibles dans d'autres jeux de stratégie.
+
+Construire sur les parois des falaises n'est pas seulement un choix stylistique ; c'est une nécessité pour la survie. Alors que les chasseurs de pirates de la Couronne se rapprochent, votre île doit se transformer d'un humble refuge en une forteresse redoutable. Cela implique de gérer chaque centimètre d'espace disponible, qu'il soit horizontal ou non.
+
+| Type de bâtiment | Terrain requis | Fonction principale | Efficacité spatiale |
+| :--- | :--- | :--- | :--- |
+| **Quartiers d'habitation** | Horizontal ou Vertical | Logement pour l'équipage pirate | Élevée |
+| **Tavernes** | Terrain plat horizontal | Moral de l'équipage et centre social | Moyenne |
+| **Fonderies de canons** | Terrain plat renforcé | Fabrication d'armement lourd | Faible |
+| **Jetées** | Ligne de flottaison côtière | Accostage des navires et commerce maritime | Élevée |
+| **Centres de tyroliennes** | Bordures de falaises | Transport vertical des ressources | Très élevée |
+
+<Callout type="tip" title="Optimisation Verticale">
+Priorisez toujours le placement des bâtiments de production près des gisements de ressources, même s'ils se trouvent sur des pentes raides. Utilisez les connecteurs verticaux dès le début pour éviter les longs trajets inefficaces pour vos travailleurs.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Établir votre premier campement pirate">
+
+En commençant avec rien d'autre que l'épave de votre navire et une poignée de survivants, vos premières étapes déterminent la viabilité à long terme de votre crique. La transition de survivant naufragé à seigneur pirate nécessite une approche structurée de l'infrastructure.
+
+<Steps>
+  <Step num="1" title="Assurer la survie de base">
+    Établissez immédiatement une source fiable de **Galettes et de Bière**. Sans ces nécessités de base, votre équipage initial abandonnera la cause avant même que la première taverne ne soit construite.
+  </Step>
+  <Step num="2" title="Exploiter les ressources locales">
+    Localisez les gisements proches de **fer, de cuivre, de bois et de fibre**. Ces matières premières sont l'épine dorsale de toute construction future et doivent être intégrées dans vos lignes d'approvisionnement initiales.
+  </Step>
+  <Step num="3" title="Connexion verticale">
+    Construisez votre premier ensemble de sentiers perchés de manière précaire pour atteindre des altitudes plus élevées. Cela débloque plus d'espace de construction et offre un avantage tactique pour repérer les menaces entrantes.
+  </Step>
+  <Step num="4" title="Établir un port sûr">
+    Construisez une jetée de base pour commencer à interagir avec l'archipel environnant. Cela permet de mener des raids en début de partie pour acquérir des ressources comme **des céréales et des pièces** qui ne peuvent pas être produites sur place.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Pénurie de ressources">
+Sachez que certaines ressources vitales ne se trouvent pas sur votre île de départ. Vous devez être prêt à prendre la mer et à piller les îles voisines pour trouver de l'argent, du vin et de la graisse de baleine.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chaînes de production complexes et marchandises">
+
+Le cœur économique de votre île est un vaste réseau de plus de 50 types de marchandises différents. À mesure que votre population augmente, ses exigences passent de simples articles de survie à des produits de luxe. La gestion de ces chaînes nécessite une planification minutieuse des centres de distribution et des usines de fabrication.
+
+| Niveau de ressource | Exemples de biens | Requis pour | Complexité |
+| :--- | :--- | :--- | :--- |
+| **Besoins de base** | Galettes, Bière, Restes | Vagabonds et Rapporteurs | Faible |
+| **Intermédiaire** | Soupe de tortue, Sabres, Rhum | Bâtisseurs et Travailleurs | Moyenne |
+| **Avancé** | Médecine, Longues-vues, Oiseau rôti | Navigateurs et Maraudeurs | Élevée |
+| **Luxe d'élite** | Tabac, Pistolets, Cache-œil | Corsaires vétérans | Très élevée |
+| **Matériel de guerre** | Poudre noire, Canons, Bottes | Armada et Fortifications | Élevée |
+
+Déplacer efficacement ces marchandises à travers les gouffres fait la différence entre une économie prospère et un campement moribond. Vous devez équilibrer la production de nourriture, de vêtements (des bottes aux tenues élégantes) et d'équipements pirates spécialisés comme les **jambes de bois**.
+
+<Callout type="info" title="Exigences des spécialistes">
+Les membres d'équipage de haut niveau comme les **Bombardiers et les Renégats** ne serviront pas sur vos navires si leurs besoins spécifiques en articles de luxe et en équipement avancé ne sont pas satisfaits.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Voies de progression et croissance de la société">
+
+Votre société pirate se développe selon quatre dimensions distinctes. Choisir la voie à prioriser définira votre style de jeu et les outils disponibles pour vos efforts de **construction dans Corsair Cove**.
+
+<CardGrid cols={2}>
+  <Card title="Notoriété & Empire">
+    Se concentre sur le déblocage de **bâtiments avancés** et de fortifications défensives. Cette voie est essentielle pour ceux qui cherchent à construire une forteresse massive et impénétrable capable de résister à toute la puissance de la Couronne.
+  </Card>
+  <Card title="Navigation & Richesse">
+    Donne la priorité à la **construction navale** et à la domination économique. Débloque des méthodes de transport plus rapides comme les tyroliennes et des navires plus puissants pour contrôler les routes commerciales de l'archipel.
+  </Card>
+  <Card title="La guilde des amuseurs">
+    Une progression spécialisée qui booste la **productivité** dans une zone spécifique. Idéal pour maximiser le rendement des zones industrielles denses sur les petites parois de falaises.
+  </Card>
+  <Card title="Logistique & Ingénierie">
+    Débloque des mécanismes à haute efficacité et des **systèmes de ponts complexes**. C'est la clé pour gérer une île tentaculaire où le temps de trajet devient un goulot d'étranglement majeur.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Choix stratégique">
+Poursuivre la voie de la **Richesse** tôt vous permet d'acheter des ressources que vous ne pouvez pas encore produire, ce qui peut donner un coup de fouet à votre base industrielle pendant la transition vers le milieu de partie.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guerre navale et défense de l'île">
+
+L'âge d'or de la piraterie est menacé, et votre île est le dernier bastion de la liberté. La construction n'est que la moitié de la bataille ; vous devez également défendre ce que vous avez créé. Cela implique à la fois une navigation proactive et des fortifications réactives sur l'île.
+
+**Structures défensives clés :**
+- **Tours de défense** : Des placements stratégiques qui font pleuvoir le feu des canons sur les navires ennemis.
+- **Fonderies de canons** : Essentielles pour un approvisionnement constant en artillerie lourde.
+- **Forteresses militaires** : La dernière ligne de défense lorsque votre flotte est en expédition.
+
+| Méthode de défense | Avantages | Inconvénients | Utilisation idéale |
+| :--- | :--- | :--- | :--- |
+| **Flotte navale** | Proactive, peut intercepter au loin | Entretien élevé, nécessite un équipage d'élite | Contrôle des routes commerciales |
+| **Tours de défense** | Dégâts élevés, faible entretien | Stationnaire, portée limitée | Protection de l'entrée du port |
+| **Fortifications** | Santé massive, peut contenir de nombreux canons | Coûteux à construire, consomme beaucoup de poudre | Scénarios de dernier rempart |
+| **Combat au tour par tour** | Contrôle tactique sur les résultats | Dépend de la vaillance du capitaine | Engagements de navire à navire |
+
+<Callout type="warning" title="Gestion des munitions">
+Vos tours défensives sont inutiles sans un approvisionnement constant en **poudre noire et boulets de canon**. Assurez-vous que votre chaîne logistique donne la priorité à ces livraisons en temps de guerre.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Jalons et objectifs de la forteresse">
+
+Pour vous assurer que votre société pirate reste la plus redoutable de l'archipel, suivez vos progrès par rapport à ces jalons essentiels.
+
+<Checklist
+  id="fortress-progression"
+  title="Objectifs de Seigneur Pirate :"
+  items={[
+    "Établir une ligne de production de galettes et de bière autosuffisante",
+    "Construire un réseau de tyroliennes reliant les plus hauts sommets",
+    "Débloquer le niveau de population Corsaire vétéran",
+    "Vaincre une flotte de chasseurs de pirates de la Couronne en combat au tour par tour",
+    "Fabriquer un stock complet de plus de 50 marchandises différentes",
+    "Construire un navire légendaire équipé de longues-vues et de médicaments"
+  ]}
+/>
+
+<Callout type="info" title="Mot de la fin">
+Rappelez-vous que l'issue des événements mondiaux et des raids est déterminée par la vaillance de votre équipage et les ressources que vous êtes prêt à sacrifier. Parfois, laisser des marins derrière vous pour former les locaux vaut la perte de productivité immédiate du camp.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quel est l'aspect le plus important de la construction dans Corsair Cove ?",
+    answer: "L'aspect le plus critique est la gestion verticale. Parce que les terres plates sont rares, vous devez utiliser des ponts, des tyroliennes et des sentiers de falaise pour relier efficacement les bâtiments de production aux centres de distribution."
+  },
+  {
+    question: "Comment empêcher mon équipage pirate d'abandonner l'île ?",
+    answer: "Les pirates ont besoin d'un approvisionnement constant en nourriture et en alcool. À mesure qu'ils montent en niveau pour devenir des spécialistes comme les Bombardiers ou les Navigateurs, ils exigeront des articles de luxe comme du tabac, des bijoux et même des prothèses spécifiques comme des jambes de bois."
+  },
+  {
+    question: "Puis-je produire toutes les ressources sur mon île de départ ?",
+    answer: "Non. Bien que vous puissiez cultiver de nombreux produits de base, certaines ressources vitales doivent être acquises par le pillage et l'exploration des îles voisines de l'archipel. Cela rend la construction d'une armada puissante essentielle."
+  },
+  {
+    question: "Comment fonctionne le combat dans Corsair Cove ?",
+    answer: "Le combat se déroule au tour par tour. Le vainqueur est déterminé par le choix du navire, l'équipement fourni (comme les canons et les sabres), la compétence de l'équipage et vos prouesses tactiques en tant que capitaine."
+  }
+]} />
+
+</Section>

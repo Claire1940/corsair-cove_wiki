@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Corsair Cove Shipwright: Soraya Shipbuilding Guide",
+  description: "Learn how to unlock and utilize Shipwright Soraya in Corsair Cove for boat customization, upgrades, and Sailing progression in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Shipwright",
+  date: "2026-07-21",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Corsair Cove Shipwright**: Shipwright Soraya is the key NPC for upgrading and customizing vessels at the Corsair Cove port.
+- **Unlock Requirements**: Accessing her full upgrade services requires **Level 40 Sailing** and completion of **The Corsair Cove** quest.
+- **Limited Access**: If you do not meet the level and quest requirements, Soraya can only be used to destroy your existing boats.
+- **Customization Hub**: She provides access to the Shipyard where players can modify hulls, helms, masts, sails, keels, and trims.
+- **Key Mechanic**: Your boat must be physically docked at the Corsair Cove port to initiate the customization process.
+</Callout>
+
+<Section icon={Map} title="Unlocking Shipwright Soraya in Corsair Cove">
+
+Shipwright Soraya (NPC ID 15373) is a vital non-player character located at the southern port of Corsair Cove. As the primary **corsair cove shipwright**, she plays a central role in the progression of the Sailing skill, allowing players to upgrade their vessels from basic rafts to advanced sloops. However, players cannot access her full suite of services immediately upon arrival. 
+
+To utilize her upgrading capabilities, you must meet specific skill and quest milestones. Without these prerequisites, Soraya's utility is severely limited, offering only the option to dismantle or destroy your current watercraft.
+
+| Requirement | Type | Description |
+| --- | --- | --- |
+| **Level 40 Sailing** | Skill | Required to dock at the port and access customization options |
+| **The Corsair Cove** | Quest | Must be completed to unlock full NPC interactions in the area |
+| **Docked Vessel** | Mechanic | Your boat must be docked at the Corsair Cove port |
+
+<Callout type="warning" title="Access Restriction">
+Attempting to speak with Soraya regarding upgrades before reaching Level 40 Sailing or completing the required quest will result in a dialogue loop where she only offers to destroy your active boat. Ensure your stats are updated before traveling to the cove.
+</Callout>
+
+Accessing Corsair Cove itself can be achieved via the charter ship system or through the port south of Feldip Hills. Once the area is unlocked, Soraya can be found standing near the docks, adjacent to the shipbuilding platform.
+
+</Section>
+
+<Section icon={Swords} title="Customizing and Upgrading Your Vessel">
+
+Once the unlock requirements are satisfied, interacting with the **corsair cove shipwright** opens up the core shipbuilding loop. By selecting the **"Customise-boat"** dialogue option, players are instantly transported to the localized Shipyard interface. This specialized area allows you to modify the structural and cosmetic aspects of your vessel.
+
+The upgrade system categorizes vessels into three primary tiers. Each tier requires a different base hull design and offers varying stats for speed, durability, and crew capacity.
+
+<CardGrid cols={3}>
+  <Card title="Raft">
+    - **Base Durability**: Low
+    - **Seaworthiness**: Coastal waters only
+    - **Upgrade Path**: Limited customization options
+  </Card>
+  <Card title="Skiff">
+    - **Base Durability**: Moderate
+    - **Seaworthiness**: Open sea capability
+    - **Upgrade Path**: Standard helm and keel upgrades
+  </Card>
+  <Card title="Sloop">
+    - **Base Durability**: High
+    - **Seaworthiness**: Deep ocean exploration
+    - **Upgrade Path**: Full access to all custom parts
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Docking Requirement">
+Always ensure your boat is fully docked at the Corsair Cove pier before speaking to Soraya. If your vessel is anchored offshore or docked at a different port, the "Customise-boat" option will be temporarily unavailable.
+</Callout>
+
+Upgrading your vessel requires both the raw materials for the desired components and a nominal fee in coins or local resources. The shipwright handles the assembly process instantly once the materials are provided.
+
+| Vessel Type | Base Speed | Crew Capacity | Primary Material |
+| --- | --- | --- | --- |
+| **Raft** | Slow | 1 Player | Wooden logs |
+| **Skiff** | Medium | 1-2 Players | Oak planks |
+| **Sloop** | Fast | 1-4 Players | Teak / Mahogany planks |
+
+</Section>
+
+<Section icon={Shield} title="Core Shipbuilding Components and Materials">
+
+Upgrading your ship is not merely cosmetic; it directly affects your performance during Sailing activities. Soraya allows you to upgrade four core structural components: Hulls, Helms, Masts/Sails, and Keels. Higher-tier materials increase your vessel's resistance to environmental hazards and improve navigation speeds.
+
+Hulls determine the overall health of your ship, while Helms and Keels improve turning rates and stability in rough waters. Masts and sails dictate your acceleration and top speed.
+
+| Component | Available Tiers | Key Materials Required |
+| --- | --- | --- |
+| **Hulls** | Wooden, Oak, Teak, Mahogany, Camphor, Ironwood, Rosewood | Planks, Nails, Tar |
+| **Helms** | Bronze, Iron, Steel, Mithril, Adamant, Rune, Dragon | Metal bars, Oak planks |
+| **Keels** | Bronze, Iron, Steel, Mithril, Adamant, Rune, Dragon | Heavy metal plates, Bolts |
+| **Masts & Sails** | Wooden/Linen, Oak/Linen, Teak/Canvas, Mahogany/Canvas, Rosewood/Cotton | Logs, Canvas, Cotton cloth |
+
+<Callout type="info" title="Material Sourcing">
+High-tier hulls like Ironwood and Rosewood require rare timber that must be processed using the Woodcutting and Construction skills before bringing them to the shipwright.
+</Callout>
+
+Upgrading these core parts requires a sequential progression. For example, you cannot install a Rune Helm directly onto a basic Raft; the hull must first be upgraded to a Sloop to support the weight of higher-tier metal components.
+
+</Section>
+
+<Section icon={Sparkles} title="Aesthetic Customization and Special Add-ons">
+
+Beyond structural integrity, the **corsair cove shipwright** offers extensive cosmetic customization options. These changes allow players to personalize their vessels with unique trims, sail patterns, and functional add-ons that showcase their achievements.
+
+Trims can be applied to the exterior of the hull, representing various factions, guilds, or oceanic achievements. Sail patterns change the color and design of your primary sails.
+
+| Trim Type | Visual Style | Unlock Condition |
+| --- | --- | --- |
+| **Shark / Inky** | Aquatic predator themes | Fishing guild reputation or drops |
+| **Saradomin / Guthix / Zamorak** | God faction alignments | Clue scroll rewards or temple favors |
+| **Merchant / Angler** | Professional utility designs | Commercial Sailing contracts |
+| **Sandy / Salvor** | Coastal and salvage themes | Corsair Cove local activities |
+
+In addition to cosmetic trims, players can install specialized utility upgrades to assist in high-level sailing content:
+
+- **Eternal Brazier**: Provides constant light in dark fog zones, preventing navigation penalties.
+- **Storm Chaser**: Improves stability during severe weather events and tropical storms.
+- **Swamp Cruiser / Crystal Glider**: Specialized adaptations for navigating specific regional waters.
+
+<Callout type="success" title="Cosmetic Synergy">
+Applying matching trims and sail patterns does not grant statistical bonuses, but it does increase your standing with local port authorities, occasionally unlocking discounted repair rates.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Boat Modification Process">
+
+Modifying your vessel at the Corsair Cove docks follows a strict procedural loop. Follow these steps to ensure your materials are processed correctly without losing progress.
+
+<Steps>
+  <Step num="1" title="Verify Requirements">
+    Confirm you have reached Level 40 Sailing and completed The Corsair Cove quest. Ensure your ship is docked at the southern pier.
+  </Step>
+  <Step num="2" title="Gather Materials">
+    Withdraw the necessary planks, metal bars, and sails from your bank. Keep them in your inventory before speaking to the NPC.
+  </Step>
+  <Step num="3" title="Initiate Customization">
+    Speak to Shipwright Soraya and select the **\"Customise-boat\"** option. You will be transitioned to the shipyard interface.
+  </Step>
+  <Step num="4" title="Apply Upgrades">
+    Select the desired component category (Hull, Helm, Mast, or Keel) and confirm the upgrade. The materials will be consumed automatically.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Deconstruction Warning">
+Selecting the option to destroy your boat will permanently delete all applied upgrades and return only a fraction of the raw materials. Use this option only if you intend to rebuild a completely different class of vessel.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sailing Progression Goals and FAQ">
+
+To maximize your efficiency when working with the shipwright, keep a clear checklist of your short-term and long-term shipbuilding goals.
+
+<Checklist
+  id="shipwright-goals"
+  title="Shipbuilding Milestones:"
+  items={[
+    "Reach Level 40 Sailing to unlock Soraya's upgrade options",
+    "Complete The Corsair Cove quest for full port access",
+    "Upgrade from a basic Raft to a Skiff using Oak planks",
+    "Acquire a Steel Helm and Steel Keel for mid-tier stability",
+    "Collect rare cotton sails to improve vessel acceleration"
+  ]}
+/>
+
+<Callout type="tip" title="Optimization Tip">
+Keep a stack of teleports to Corsair Cove (such as the Feldip Hills teleport or standard charter ship funds) in your inventory to minimize travel time between banking materials and visiting the shipwright.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Where exactly is Shipwright Soraya located?",
+    answer: "Soraya is located at the southern docks of Corsair Cove, near the charter ship platform. Her NPC ID is 15373."
+  },
+  {
+    question: "Can I upgrade my boat without Level 40 Sailing?",
+    answer: "No. Without Level 40 Sailing and the completion of The Corsair Cove quest, Soraya will only offer to destroy your existing boat."
+  },
+  {
+    question: "What happens to my upgrades if I choose to destroy my boat?",
+    answer: "Destroying your boat is permanent. You will lose the current configuration, and only a small portion of the base materials will be returned to you."
+  },
+  {
+    question: "How do I access the shipyard customization screen?",
+    answer: "Speak to Soraya while your boat is docked at Corsair Cove and select the 'Customise-boat' dialogue option to be transported to the shipyard."
+  }
+]} />
+
+</Section>

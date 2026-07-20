@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Autel de Corsair Cove : Guide de localisation et astuces pour la zone de ressources",
+  description: "Découvrez l'emplacement de l'autel de Corsair Cove et du PNJ Altarkiz. Apprenez à accéder à la zone de ressources, aux butins du donjon et aux itinéraires de voyage en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/ecf0f1?text=Corsair+Cove+Altar+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki de Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Mot-clé principal** : La recherche de l'**autel de Corsair Cove** fait souvent référence au PNJ **Altarkiz**, un nomade bédabin en pleine méditation.
+- **Condition d'accès** : Les joueurs doivent commencer la quête **The Corsair Curse** pour accéder à la crique via le capitaine Tock.
+- **Zone de ressources** : Nécessite de terminer **Dragon Slayer I** et de parler à Haris pour débloquer les ifs (Yew) et les érables (Maple).
+- **Points forts du combat** : Le donjon abrite des **guerrières ogresses** (Ogress Warriors) de niveau 82, d'excellentes sources de revenus en F2P.
+- **Utilité de prière** : Bien qu'aucun autel de prière physique n'existe dans la ville, la **banque de Corsair Cove** est le centre principal pour la gestion des ressources.
+</Callout>
+
+<Section icon={Map} title="Naviguer dans Corsair Cove et localiser Altarkiz">
+
+Comprendre la disposition de la zone de l'**autel de Corsair Cove** est essentiel pour les joueurs Free-to-Play et les membres. Situé sur la côte sud des collines de Feldip (Feldip Hills), ce port isolé sert de terrain d'entraînement vital. Bien que de nombreux joueurs recherchent un autel de prière traditionnel, la connexion la plus notable avec un « autel » est le PNJ **Altarkiz**, un nomade qui reste dans un état de concentration profonde et avec lequel on ne peut pas interagir de manière traditionnelle.
+
+| Fonctionnalité | Condition | Emplacement |
+| :--- | :--- | :--- |
+| **Accès initial** | Commencer The Corsair Curse | Port Sarim / Rimmington |
+| **PNJ Altarkiz** | Aucune | Partie sud de la ville |
+| **Accès à la banque** | Terminer The Corsair Curse | Centre de la crique |
+| **Zone de ressources** | Dragon Slayer I | Nord-ouest du port |
+
+<Callout type="tip" title="Conseil de voyage">
+Si vous n'avez pas commencé la quête, parlez au capitaine Tock au nord de Port Sarim. Après avoir commencé, il se déplace à l'extrémité ouest de Rimmington pour un accès plus facile.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Décoder le PNJ Altarkiz et les points d'intérêt de la ville">
+
+La confusion concernant un **autel de Corsair Cove** provient souvent d'**Altarkiz**. C'est un nomade bédabin qui a rejoint l'équipage du capitaine Tock à la recherche d'aventures. Sa présence enrichit l'histoire de la crique, qui a été conçue comme un précurseur de la ville ogre d'Oo'glog. Au-delà de ce PNJ, la ville dispose de plusieurs structures uniques qui sont utiles aux marins comme aux aventuriers.
+
+<CardGrid cols={3}>
+  <Card title="Cabane d'Arsen">
+    - Résidence à deux étages
+    - Maison d'Arsen le voleur
+    - Près de l'entrée du donjon
+  </Card>
+  <Card title="Cabane de Gnocci">
+    - Contient un projet de tunnel
+    - Fait apparaître un **cimeterre de bronze** (Bronze Scimitar)
+    - Contient un point d'apparition de boîte à outils (Tinderbox)
+  </Card>
+  <Card title="Cabane d'Ithoi">
+    - Ancienne résidence du navigateur
+    - Grande structure dans la crique
+    - Centrale pour l'histoire de la quête
+  </Card>
+</CardGrid>
+
+| Nom du PNJ | Rôle / Description | Type d'interaction |
+| :--- | :--- | :--- |
+| **Altarkiz** | Nomade bédabin | Méditatif (Pas de dialogue) |
+| **Capitaine Tock** | Chef d'équipage | Transport / Quête |
+| **Madame Caldarium** | Planificatrice de spa | Histoire / Précurseur d'Oo'glog |
+| **Haris** | Garde des ressources | Accès à la zone (Après Dragon Slayer) |
+
+<Callout type="info" title="Aperçu de l'histoire">
+Madame Caldarium est la mère de Balnea. Elle prévoit d'ouvrir un spa avec les ogresses, s'inspirant des célèbres spas de la ville ogre d'Oo'glog.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Le donjon de Corsair Cove et le combat contre les ogresses">
+
+Juste à l'ouest de la ville principale se trouve l'entrée du **donjon de Corsair Cove**. C'est la destination de choix pour l'entraînement au combat de niveau moyen en F2P. Le donjon est habité par des guerrières ogresses (Ogress Warriors) et des chamanes ogresses (Ogress Shamans), connues pour leurs tables de butin précieuses qui incluent des armures de haut niveau et des runes.
+
+**Points forts de la table de butin des ogresses :**
+| Objet | Rareté | Valeur / Utilisation |
+| :--- | :--- | :--- |
+| **Rune Full Helm** | Rare | Haute Alchimie / Combat |
+| **Limpwurt Root** | Commun | Herboristerie / Profit |
+| **Shaman Mask** | Rare | Cosmétique / Collection |
+| **Law/Nature Runes** | Peu commun | Utilité / Profit |
+
+<Steps>
+  <Step num="1" title="Préparation">
+    Apportez de la nourriture et un équipement à distance ou magique, car les ogresses peuvent être attaquées en toute sécurité depuis l'arrière des rochers dans le donjon.
+  </Step>
+  <Step num="2" title="Entrée">
+    Localisez le trou à l'ouest de la ville principale. Assurez-vous d'avoir terminé les étapes nécessaires de la quête pour éviter le dialogue sur la « malédiction ».
+  </Step>
+  <Step num="3" title="Positionnement">
+    Utilisez les stalagmites pour bloquer les attaques de mêlée des guerrières ogresses. Les chamanes utilisent la magie, une défense magique élevée est donc recommandée.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Zone de danger">
+Les chamanes ogresses peuvent frapper avec précision grâce à la magie. Si vous êtes de bas niveau, restez près des sorties ou utilisez la prière de protection contre la magie (Protect from Magic) si disponible.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="Moyens de transport et utilitaires de navigation">
+
+Dans la méta de 2026, Corsair Cove est devenue une plaque tournante importante pour la compétence de **Navigation** (Sailing). Les quais offrent divers services pour les marins, notamment des services de charpenterie navale et des tâches de prime. Les joueurs ayant 40 en Navigation peuvent accoster ici, à condition d'avoir levé la malédiction initiale du corsaire.
+
+| Méthode de transport | Condition | Destination |
+| :--- | :--- | :--- |
+| **Navires d'affrètement** | Fin de la quête | Ports du monde entier |
+| **Rochers d'Agilité** | 10 Agilité | Feldip Hills |
+| **Rochers de ressources** | 30 Agilité | Zone de ressources |
+| **Barque** | 51 Navigation / 50 Construction | Angler's Retreat |
+
+<Callout type="success" title="Réduction des tarifs">
+Terminer la quête **Cabin Fever** et porter un **anneau de Charos(a)** se cumuleront pour réduire les tarifs des navires d'affrètement de 50 % chacun.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Stratégie et efficacité de la zone de ressources">
+
+La zone de ressources de Corsair Cove est une zone fermée qui offre une expérience nettement plus rapide pour certaines compétences par rapport aux autres zones F2P. En utilisant la boîte de dépôt située juste à l'extérieur de la banque, les joueurs peuvent maintenir une grande efficacité.
+
+<Checklist
+  id="resource-goals"
+  title="Liste de contrôle pour la zone de ressources :"
+  items={[
+    "Terminer Dragon Slayer I pour parler à Haris",
+    "Atteindre le niveau 60 en Coupe de bois (Woodcutting) pour les ifs (Yew)",
+    "Débloquer le niveau 40 en Pêche (Fishing) pour les homards/espadons",
+    "Apporter une boîte à outils (Tinderbox) pour l'entraînement à la Pyromancie (Firemaking) sur place"
+  ]}
+/>
+
+| Type de ressource | Quantité | Niveau requis |
+| :--- | :--- | :--- |
+| **Ifs** | 3 | 60 Coupe de bois |
+| **Érables** | 4 | 45 Coupe de bois |
+| **Coins de pêche** | 3 | 40/50 Pêche |
+| **Rochers de charbon** | 5 | 30 Minage |
+
+<Callout type="tip" title="Astuce d'efficacité">
+L'utilisation des coins de pêche de la zone de ressources combinée à la boîte de dépôt de la crique est environ 6 secondes plus rapide par trajet que l'itinéraire traditionnel de Karamja à Port Sarim.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Où se trouve l'autel de Corsair Cove ?",
+    answer: "Il n'y a pas d'autel de prière fonctionnel à Corsair Cove. Le terme fait généralement référence au PNJ Altarkiz, qui se trouve en train de méditer dans la partie sud de la ville. Pour recharger vos points de prière, les joueurs doivent utiliser la banque et se rendre à l'autel le plus proche à Rimmington ou à la guilde des mythes (Myths' Guild)."
+  },
+  {
+    question: "Les joueurs F2P peuvent-ils accéder à la zone de ressources ?",
+    answer: "Oui, les joueurs F2P peuvent accéder à la zone de ressources après avoir terminé Dragon Slayer I et parlé à Haris. Elle contient des ifs et des coins de pêche au homard qui sont excellents pour l'entraînement F2P."
+  },
+  {
+    question: "Comment empêcher la « malédiction » d'affecter mon personnage ?",
+    answer: "La « malédiction » est un élément narratif de la quête The Corsair Curse. Une fois que vous progressez dans la quête et résolvez le mystère du navigateur, les restrictions d'accès à la banque sont levées."
+  },
+  {
+    question: "Quel est le meilleur moyen de se rendre rapidement à Corsair Cove ?",
+    answer: "Après la quête, le moyen le plus rapide est d'utiliser le système de navires d'affrètement ou le bateau de Rimmington. Si vous avez 10 en Agilité, vous pouvez également courir vers le sud depuis la zone de chasse des collines de Feldip et descendre les rochers."
+  }
+]} />
+
+</Section>

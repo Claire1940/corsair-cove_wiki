@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Beta: Walkthrough, Tipps & Baureihenfolge-Leitfaden",
+  description: "Meistern Sie das Early Game der Corsair Cove Beta. Lernen Sie optimale Baureihenfolgen, Ressourcenmanagement-Strategien, Tipps zum Crew-Zusammenhalt und Kampfvorbereitungen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Beta+Guide",
+  date: "2026-07-21",
+  author: "Corsair Cove Wiki-Team",
+  keywords: "Corsair Cove, Beta, Walkthrough, Tipps, Baureihenfolge, Überleben, Strategie"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Die **Corsair Cove Beta** führt einen anspruchsvollen maritimen Survival-City-Builder ein, bei dem Spieler gestrandete Piraten auf steilen Klippen verwalten.
+- **Vertikale Gerüstbauten** sind die zentrale Konstruktionsmechanik; Spieler müssen Pfade an Klippenwänden errichten, um Schlüsselbereiche zu verbinden.
+- Der **Crew-Zusammenhalt** dient als primäre Moral-Metrik und wird direkt von narrativen Entscheidungen, der Qualität der Unterkünfte und der Alkoholversorgung beeinflusst.
+- **Verteidigungsvorbereitungen** müssen vor der Fertigstellung des flachen Stegs abgeschlossen sein, da dies ein verheerendes feindliches Bombardement auslöst.
+- Die **Platzoptimierung** durch den Abriss der anfänglichen Schiffswracks ist entscheidend, um wertvolles flaches Gelände am Startstrand freizuschalten.
+</Callout>
+
+<Section icon={Map} title="Corsair Cove Beta: Gameplay-Übersicht & Erster Einblick">
+
+Die **Corsair Cove Beta** entführt die Spieler in einen brutalen, aber lohnenden maritimen Survival-City-Builder. Gestrandet auf einer trostlosen, felsigen Insel nach der Flucht von einem Gefängnisschiff, müssen Sie eine bunt zusammengewürfelte Crew von Überlebenden anführen, um einen blühenden Piratenhafen zu errichten. Im Gegensatz zu traditionellen City-Buildern auf flachen Karten betont dieses Spiel die vertikale Progression und zwingt Sie dazu, Gerüste, Brücken und Pfade entlang steiler Klippenwände zu bauen, um Ihre verstreuten Gebäude zu verbinden.
+
+Die Verwaltung Ihrer Siedlung erfordert ein Gleichgewicht zwischen den Bedürfnissen ungelernter Drifter und spezialisierter Piraten. Sie müssen Schiffswracks plündern, eine nachhaltige Lebensmittel- und Alkoholproduktion aufbauen und schwierige moralische Entscheidungen treffen, die den Zusammenhalt Ihrer Crew beeinflussen. Das Early Game ist ein Wettlauf gegen die Zeit, während Sie sich auf die unvermeidliche Ankunft von Amara vorbereiten, einer unerbittlichen Piratenjägerin, die entschlossen ist, Ihre Siedlung von der Karte zu tilgen.
+
+**Video-Highlights:**
+- **Anfängliche Flucht:** Das Spiel beginnt mit einem dramatischen Gefängnisausbruch, der Sie mit 28 Driftern auf einer felsigen Insel stranden lässt.
+- **Vertikales Bauen:** Demonstration des Baus von Holzpfaden und Gerüsten entlang von Klippenwänden, um Schiffswracks zu verbinden.
+- **Moral & Zusammenhalt:** Ein Blick auf das narrative Entscheidungssystem und wie sich Entschlüsse, wie die Aufnahme von Schiffbrüchigen, auf die Einheit der Crew auswirken.
+- **Taverne & Brauen:** Einrichtung einer Schwarzbrennerei und einer Taverne, um den ständigen Bedarf der Piraten an Alkohol zu decken.
+- **Die Ankunft der Jägerin:** Ein Einblick in das dramatische Mid-Game-Event, bei dem Amaras Kriegsschiff die Siedlung bombardiert.
+
+<YouTubeEmbed videoId="FSn2pRIliz4" title="DIESER PIRATEN-CITY-BUILDER VERÄNDERT ALLES | Corsair Cove - Ep.01" />
+
+<Callout type="info" title="Beta-Status">
+Die Beta-Version zeigt den Kern des Survival-Loops, die grundlegenden Bausteine und den ersten Kampfauslöser. Funktionen wie fortgeschrittener Schiffskampf, größere Inselkarten und tiefe Technologiebäume sind für spätere Updates geplant.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kernmechaniken des Überlebens und Ressourcenmanagement">
+
+Um auf diesem feindseligen Felsen zu überleben, müssen Sie die einzigartige Ressourcenökonomie des Spiels meistern. Die Ressourcen sind unterteilt in grundlegende Baumaterialien, Nahrung und Moral-Booster. Da der Platz extrem begrenzt ist, muss jede Gebäudeplatzierung sorgfältig geplant werden, um fruchtbaren Boden nicht zu blockieren oder kritische Pfade abzuschneiden.
+
+Ihre Belegschaft ist in zwei verschiedene Klassen unterteilt: Drifter und Piraten. Drifter erledigen die schwere Arbeit, transportieren Ressourcen und verrichten allgemeine Arbeiten. Piraten fungieren als Ihre Baumeister und Spezialisten. Beide Gruppen satt und zufrieden zu halten, ist entscheidend, um die Produktivität aufrechtzuerhalten und interne Konflikte zu vermeiden.
+
+| Ressource | Primäre Quelle | Hauptnutzen | Priorität |
+|--- |--- |--- |--- |
+| Holz | Schiffswracks, Holzsammler | Bau von Gerüsten, Pfaden und einfachen Unterkünften | Kritisch |
+| Lebensmittelrationen | Schweinefarm, Sammeln | Verhindert Verhungern, erhält die Arbeitseffizienz der Drifter | Hoch |
+| Selbstgebrannter | Schwarzbrennerei, Taverne | Steigert die Crew-Moral, befriedigt Piratenbedürfnisse | Mittel |
+| Stahl | Geplünderte Wracks, Eisenvorkommen | Fortgeschrittener Bau, Waffen und Schiffsteile | Hoch |
+
+<CardGrid cols={3}>
+  <Card title="Drifter-Management">
+    - **Ungelernte Arbeit:** Drifter übernehmen Transport, Bergung und grundlegende Ressourcenextraktion.
+    - **Nahrungsbedarf:** Sie benötigen konsistente Lebensmittelrationen, um ihre Effizienz zu erhalten.
+    - **Verwundbarkeit:** Sehr anfällig für Hunger, was die Gesamtproduktivität der Siedlung schnell senkt.
+  </Card>
+  <Card title="Klippengerüste">
+    - **Vertikale Erhöhung:** Bauen Sie Pfade entlang der Klippenwände, um höhere Plateaus zu erreichen.
+    - **Platzeffizienz:** Spart kostbares flaches Strandland für Landwirtschaft und schwere Produktion.
+    - **Strukturelle Verbindungen:** Alle Gebäude müssen physisch mit dem zentralen Piratenlager verbunden sein.
+  </Card>
+  <Card title="Crew-Zusammenhalt">
+    - **Moralsystem:** Repräsentiert die Einheit und den Geist Ihrer Piratencrew.
+    - **Narrative Auswirkungen:** Wird direkt durch Entscheidungsereignisse beeinflusst, wie den Umgang mit Schiffbrüchigen.
+    - **Konsequenzen:** Niedriger Zusammenhalt führt zu Schlägereien, Arbeitsstopps und schließlich zur Meuterei.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Platzbeschränkungen">
+Vermeiden Sie es, nicht-landwirtschaftliche Gebäude auf grünem, fruchtbarem Boden zu platzieren. Fruchtbares Land ist auf der Startinsel selten und muss für Nahrungsproduktionsstrukturen wie Schweinefarmen im späteren Spielverlauf reserviert werden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Schritt-für-Schritt-Anleitung zur frühen Baureihenfolge">
+
+Der Erfolg in den frühen Phasen der Beta erfordert eine hochoptimierte Baureihenfolge. Die Verschwendung von Ressourcen für unwichtige Strukturen zu Beginn kann Ihre Wirtschaft zum Erliegen bringen und Ihre Crew hungernd und wehrlos zurücklassen. Folgen Sie dieser schrittweisen Progression, um ein stabiles Fundament zu schaffen.
+
+<Steps>
+  <Step num="1" title="Erste Verbindungen herstellen">
+    Sobald Sie die Kontrolle haben, pausieren Sie das Spiel. Bauen Sie einen Holzpfad von Ihrem Schiffswrack zum Hauptstrandbereich. Dies ermöglicht es Ihren 28 Start-Driftern, mit dem Transport von Ressourcen zum Zentrallager zu beginnen.
+  </Step>
+  <Step num="2" title="Einfache Unterkünfte bauen">
+    Ihre Überlebenden brauchen einen Schlafplatz. Bauen Sie drei Zelte in der Nähe des Piratenlagers. Durch eine enge Gruppierung sparen Sie flaches Gelände und gewährleisten einen einfachen Zugang zum Zentrum.
+  </Step>
+  <Step num="3" title="Holzgewinnung sichern">
+    Platzieren Sie einen Holzsammler in der Nähe der großen Schiffswracks entlang der Küste. Stellen Sie sicher, dass der Radius des Sammlers ertragreiche Schrotthaufen abdeckt. Verbinden Sie das Gebäude sofort mit Ihrem Hauptwegenetz.
+  </Step>
+  <Step num="4" title="Lebensmittel- und Alkoholproduktion aufbauen">
+    Bauen Sie eine einfache Nahrungsquelle, um Hunger zu verhindern. Folgen Sie dem sofort mit einer Schwarzbrennerei und einer Taverne. Weisen Sie einen Tavernenwirt zu, um mit der Verteilung von Alkohol zu beginnen, was die Bedürfnisse Ihrer Piraten befriedigt und den Zusammenhalt stärkt.
+  </Step>
+  <Step num="5" title="Platz schaffen und den Steg bauen">
+    Sobald Ihr ursprüngliches Schiffswrack vollständig von Ressourcen geleert ist, reißen Sie es ab, um wertvollen Strandplatz freizugeben. Nutzen Sie die zurückgewonnene Fläche für den Bau des flachen Stegs, der erforderlich ist, um Ihr erstes Schiff zu bauen.
+  </Step>
+</Steps>
+
+| Struktur | Holzkosten | Spezialkosten | Primäre Funktion |
+|--- |--- |--- |--- |
+| Pfad | Niedrig | Keine | Verbindet Klippenabschnitte und beschleunigt die Bewegung |
+| Zelt | Mittel | Keine | Beherbergt obdachlose Drifter, um Moralverlust zu verhindern |
+| Holzsammler | Mittel | Keine | Gewinnt Holz aus Wracks und stehendem Holz |
+| Schwarzbrennerei | Hoch | Lebensmittelrationen | Produziert moralsteigernden Alkohol aus Grundstoffen |
+| Flacher Steg | Sehr Hoch | Stahlplanken | Ermöglicht Schiffsbau und löst den Mid-Game-Boss aus |
+
+<Callout type="tip" title="Pfadkonstruktion">
+Nutzen Sie die Pausenfunktion, wenn Sie komplexe Pfade an den Klippen planen. Dies ermöglicht es Ihnen, mit verschiedenen Gerüstwinkeln zu experimentieren, ohne kostbare aktive Arbeitszeit zu verschwenden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Umgang mit Crew-Entscheidungen und narrativen Ereignissen">
+
+Während Ihre Siedlung wächst, werden Sie auf zufällige narrative Ereignisse stoßen, die Ihre Führungsqualitäten testen. Diese Ereignisse stellen Sie vor schwierige Entscheidungen, bei denen Sie kurzfristige Ressourcengewinne gegen den langfristigen Zusammenhalt der Crew abwägen müssen. Den psychologischen Zustand Ihrer Piraten zu ignorieren, kann ebenso fatal sein wie ein Nahrungsmangel.
+
+In der frühen Beta werden Sie beispielsweise auf das Ereignis "Kronen-Schiffbrüchige" stoßen. Sie müssen entscheiden, ob Sie diese Überlebenden in Ihr Lager aufnehmen oder sie abweisen. Die Aufnahme erhöht Ihre Belegschaft, belastet aber Ihre begrenzten Nahrungsvorräte. Eine Ablehnung schont Ihre Ressourcen, schadet aber dem Ansehen und dem Zusammenhalt Ihrer Crew erheblich.
+
+| Ereignisname | Entscheidungsoption | Unmittelbare Kosten | Einfluss auf Zusammenhalt | Langfristiges Ergebnis |
+|--- |--- |--- |--- |--- |
+| Kronen-Schiffbrüchige | Verräter aufnehmen | Hoher Nahrungsverbrauch | Moderater Anstieg | Größere Belegschaft, höherer Nahrungsbedarf |
+| Kronen-Schiffbrüchige | Verräter abweisen | Keine | Starker Rückgang | Ressourcenstabilität, häufige Schlägereien |
+| Nahrungsmangel | Rationen kürzen | Moralstrafe | Starker Rückgang | Langsameres Arbeitstempo, potenzielles Verhungern |
+| Bergungsstreit | Reichtum teilen | Wenig Holz/Stahl | Kleiner Anstieg | Hohe Produktivität, geringerer Gebäudebestand |
+
+<Callout type="success" title="Vorteile eines hohen Zusammenhalts">
+Ein hoher Crew-Zusammenhalt gewährt passive Boni auf die Bewegungsgeschwindigkeit und die Effizienz beim Ressourcentransport. Halten Sie Ihre Taverne stets mit Alkohol bestückt, um einen positiven Trend beim Zusammenhalt beizubehalten.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampfvorbereitung und Übergang zum Mid-Game">
+
+Der Höhepunkt der aktuellen Beta ist die Ankunft von Amara, einer furchterregenden Piratenjägerin. Dieses Ereignis ist nicht zufällig; es wird direkt durch die Fertigstellung des flachen Stegs ausgelöst. Wenn Sie den Steg bauen, ohne Ihre Verteidigung vorzubereiten, wird Amaras Kriegsschiff Ihre Siedlung mühelos in Trümmer legen, wichtige Gebäude zerstören und Ihren Kapitän gefangen nehmen.
+
+Bevor Sie den Bau des Stegs abschließen, müssen Sie Ihre Wirtschaft auf Verteidigung umstellen. Dazu gehört das Sammeln von Stahl, das Ausbilden von Verteidigern und das Positionieren von Verteidigungsstrukturen zum Schutz Ihrer Kerninfrastruktur. Nutzen Sie die folgende Checkliste, um sicherzustellen, dass Ihre Siedlung bereit für den Angriff ist.
+
+<Checklist
+  id="combat-prep"
+  title="Checkliste vor Fertigstellung des Stegs:"
+  items={[
+    "Sammeln Sie mindestens 50 Einheiten überschüssige Lebensmittelrationen an",
+    "Stellen Sie sicher, dass alle Drifter in funktionalen Zelten untergebracht sind",
+    "Bauen Sie mindestens einen Geschützturm, der den Hafenbereich abdeckt",
+    "Reißen Sie das Start-Schiffswrack vollständig ab, um Schusslinien freizumachen",
+    "Bestücken Sie die Taverne mit einem Überschuss an Selbstgebranntem, um die Moral während des Angriffs zu puffern"
+  ]}
+/>
+
+<Callout type="warning" title="Der Steg-Auslöser">
+Überstürzen Sie den Bau des flachen Stegs nicht. Lassen Sie den Bauplan pausiert oder nicht zugewiesen, bis Sie Ihre Lebensmittelversorgung gesichert und eine angemessene Verteidigung aufgebaut haben. Das Bombardement beginnt unmittelbar nach seiner Fertigstellung.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Corsair Cove Beta FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie vergrößere ich den Bauplatz in der Corsair Cove Beta?",
+    answer: "Sie können den Bauplatz vergrößern, indem Sie Holzgerüste und Pfade entlang der Klippenwände bauen, um höhere Plateaus zu erreichen. Stellen Sie außerdem sicher, dass Sie Ihr Start-Schiffswrack vollständig ausschlachten und abreißen, um wertvolles flaches Gelände am Strand freizumachen."
+  },
+  {
+    question: "Was ist der Unterschied zwischen Driftern und Piraten?",
+    answer: "Drifter sind Ihre allgemeinen, ungelernten Arbeiter, die den Transport, das Ernten und den grundlegenden Ressourcentransport übernehmen. Piraten sind spezialisierte Einheiten, die Bauarbeiten ausführen, fortgeschrittene Gebäude wie die Taverne bedienen und die Siedlung im Kampf verteidigen."
+  },
+  {
+    question: "Wie verhindere ich, dass Amara meine Basis zerstört?",
+    answer: "Amaras Angriff wird durch die Fertigstellung des flachen Stegs ausgelöst. Um das Bombardement zu überleben, verzögern Sie den Bau des Stegs, bis Sie Verteidigungstürme errichtet, einen Nahrungsmittelüberschuss gesichert und den Zusammenhalt Ihrer Crew maximiert haben."
+  },
+  {
+    question: "Kann ich Gebäude nach der Platzierung verschieben?",
+    answer: "Gebäude können nicht direkt verschoben werden. Sie können jedoch bestehende Strukturen abreißen, um einen Teil der Bauressourcen zurückzugewinnen, und sie dann an einem optimaleren Ort neu bauen."
+  }
+]} />
+
+<Callout type="info" title="Community-Feedback">
+Die Entwickler suchen während der Beta-Phase aktiv nach Feedback zu den Baumechaniken und dem Kampfschwierigkeitsgrad. Erwägen Sie, Ihre Layout-Designs und Überlebenszeiten in den offiziellen Community-Foren zu teilen.
+</Callout>
+
+</Section>

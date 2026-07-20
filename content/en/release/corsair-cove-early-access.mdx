@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "corsair cove early access: Step-by-Step Beginner Guide",
+  description: "Prepare for the corsair cove early access and July 31, 2026 release with our guide on system specs, vertical layouts, production chains, and crew needs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/f59e0b?text=Early+Access+Guide",
+  date: "2026-07-21",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- Prepare for the **corsair cove early access** launch on July 31, 2026, by testing your system against official specifications.
+- Master **vertical building** on steep cliffs using bridges, elevators, and ziplines to connect distant resource nodes.
+- Shorten your **production chains** to keep logistics paths green and prevent resource transport bottlenecks.
+- Maintain **crew satisfaction** and housing to preserve global Cohesion and prevent pirates from abandoning your haven.
+</Callout>
+
+<Section icon={Sparkles} title="corsair cove early access and Release Details">
+
+As players prepare for the **corsair cove early access** phase and official launch, understanding the technical and platform requirements is essential to ensure a smooth start. Developed by Limbic Entertainment and published by Hooded Horse, this vertical pirate city builder is scheduled to launch on July 31, 2026. The game introduces a unique blend of vertical construction, complex production logistics, crew management, and turn-based naval combat.
+
+To help you prepare for the launch, we have organized the core release details and platform availability below.
+
+| Category | Details |
+|---|---|
+| Release Date | July 31, 2026 |
+| Platforms | Windows PC |
+| Stores | Steam, Epic Games Store, Microsoft Store |
+| Game Pass | Available Day One on PC Game Pass |
+| Base Price | $29.99 USD |
+| Supported Languages | 12 languages (Full audio in English, German, French) |
+
+Before purchasing or downloading the free demo, ensure your PC meets the official system requirements. The game utilizes DirectX 12 and requires a stable system configuration to render the detailed vertical environments and bustling pirate camps.
+
+| Requirement | Minimum Spec | Recommended Spec |
+|---|---|---|
+| OS | Windows 10 64-bit | Windows 10 64-bit |
+| CPU | Intel Core i7-7700 / AMD Ryzen 5 1600 | Intel Core i5-9600K / AMD Ryzen 5 3600 |
+| Memory | 8 GB RAM | 16 GB RAM |
+| GPU | GTX 1660 Super 6GB / RX 5600 XT 6GB | RTX 2070 8GB / RX 6600 XT 8GB |
+| Storage | 30 GB available space (SSD recommended) | 30 GB available space (SSD recommended) |
+
+<Callout type="info" title="Day One Game Pass Access">
+Subscribers to PC Game Pass can access the full game immediately upon release on July 31, 2026, without any additional purchase.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Demo Walkthrough">
+
+The free Steam demo offers an excellent opportunity to familiarize yourself with the core mechanics of the game. Your journey begins with a small group of shipwreck survivors on a deserted island. Your primary objective is to establish a self-sustaining settlement while keeping your crew housed and fed.
+
+Follow this step-by-step progression route to secure your first harbor during the demo phase.
+
+<Steps>
+  <Step num="1" title="Install the Free Demo">
+    Navigate to the Steam Store and download the official demo. Install the game on an SSD to ensure optimal loading times and smooth performance during large-scale construction.
+  </Step>
+  <Step num="2" title="Analyze the Island View">
+    Use the Island View interface to track your active quests, available Coin, and global Cohesion. Always pause the game when planning complex layout expansions or reviewing new quest objectives.
+  </Step>
+  <Step num="3" title="Establish the Harbor Core">
+    Place your initial buildings near the harbor shoreline. Use the construction tab to draw manual connections where automatic links fail. Every working building must be connected to the central settlement to function.
+  </Step>
+  <Step num="4" title="Manage Your Labor Pool">
+    Differentiate between Drifters and Assigned Pirates. Drifters do not require upkeep and act as your primary construction force. Avoid assigning all survivors to production jobs immediately to ensure you have builders available.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Labor Management Tip">
+Keep at least 15% of your population as Drifters. If your construction projects are stalling, pause low-priority production buildings to free up workers.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Best Layout Patterns for Cliff Construction">
+
+Building a pirate haven in this game requires a deep understanding of vertical space. Unlike traditional city builders, flat land is highly limited. You must build on steep cliffs, hillsides, and rocky terraces. Every structure must remain connected to the central harbor spine, making transport efficiency your greatest challenge.
+
+Implementing specialized layout patterns will help you minimize travel times and prevent traffic congestion across different elevation levels.
+
+<CardGrid cols={3}>
+  <Card title="Connected Harbor Core">
+    - **Best For**: Starting settlement and essential services.
+    - **Pattern**: Establish early housing, the first Pirate Camp, and distribution hubs directly along the shoreline.
+    - **Benefit**: Keeps your initial workforce close to logistics hubs while saving cliff space for advanced structures.
+  </Card>
+  <Card title="Cliffside Production Terrace">
+    - **Best For**: Multi-stage resource processing.
+    - **Pattern**: Place raw extraction units near nodes, processing plants on middle ledges, and distribution hubs on the main transit level.
+    - **Benefit**: Localizes production steps, preventing workers from carrying raw materials across the entire island.
+  </Card>
+  <Card title="Zipline Vertical Express">
+    - **Best For**: High-altitude resource extraction.
+    - **Pattern**: Connect upper mountain mines directly to lower harbor warehouses using vertical ziplines.
+    - **Benefit**: Bypasses winding cliff paths entirely, drastically reducing transit times for heavy loads.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Logistics Optimization">
+Always place distribution hubs at major crossroads. When multiple pathways converge on a single bridge or elevator, a centralized hub prevents delivery delays.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Production Chains and Logistics Networks">
+
+A thriving pirate economy relies on managing more than 50 distinct goods. Raw materials extracted from natural nodes must be refined, stored, and distributed to satisfy crew needs, prepare ships, and maintain island defenses. 
+
+The logistics system uses color-coded route lines to indicate efficiency. Select any production building to inspect its transport lines: green indicates a short, healthy route; yellow represents a suboptimal path; and red warns of a severe bottleneck that will stall production.
+
+| Chain Type | Raw Input | Refined Product | Final Output | Primary Purpose |
+|---|---|---|---|---|
+| Construction | Wood, Stone | Lumber, Stone Blocks | Charcoal, Tools | Building expansion and path maintenance |
+| Provisions | Fish, Grain, Water | Hard Tack, Stew | Ale, Rum | Crew upkeep and Pirate Camp satisfaction |
+| Armament | Sulfur, Iron, Copper | Black Powder, Cannons | Sabers, Pistols | Ship preparation and harbor defense |
+| Luxuries | Tobacco, Silver, Gems | Jewelry, Fancy Attire | Eye-patches | Elite crew demands and high-tier upkeep |
+
+<Callout type="warning" title="Logistics Bottlenecks">
+If a production line shows a red connection, do not build more extraction sites. Instead, relocate the processing building closer to the resource node or insert a distribution hub to shorten the route.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Crew Roles, Needs, and Cohesion Mechanics">
+
+Your workforce is divided into distinct classes, ranging from unemployed Drifters to highly specialized elite sailors. Managing their individual housing, food, and luxury needs is critical to maintaining global Cohesion. Cohesion is your overall survival meter; if it drops to zero, your crew mutinies and the game ends.
+
+| Crew Class | Primary Function | Housing Needs | Upkeep Demand |
+|---|---|---|---|
+| Drifters | Construction and labor reserve | Basic shelter | None (unemployed) |
+| Fetchers | Logistics and resource transport | Pirate Camp | Basic food and beer |
+| Specialists | Navigation, gunnery, and defense | Advanced quarters | Spyglasses, medicine, and sabers |
+| Elite Sailors | High-tier raiding and combat | Luxury mansions | Tobacco, pistols, and eye-patches |
+
+To prevent your crew from abandoning the settlement, use the following checklist to monitor camp stability.
+
+<Checklist
+  id="crew-stability-checklist"
+  title="Anti-Abandonment Checklist:"
+  items={[
+    "Build adequate housing before recruiting new workers or specialists.",
+    "Ensure every Pirate Camp is supplied locally with food and beverages.",
+    "Monitor real-time food consumption using the Resources panel.",
+    "Limit rapid population growth when global Cohesion is low.",
+    "Establish reliable equipment supply chains before recruiting elite sailors."
+  ]}
+/>
+
+<Callout type="info" title="Cohesion Management">
+Sailing beyond your home island to complete world events can award significant Cohesion boosts. Balance local economic pressure with active maritime expeditions.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+To help you navigate the early stages of your pirate empire, we have compiled answers to the most common questions regarding the game's mechanics and release.
+
+<FAQ items={[
+  {
+    question: "When is the official release date for the game?",
+    answer: "The game officially launches on July 31, 2026, for Windows PC via Steam, Epic Games Store, and the Microsoft Store."
+  },
+  {
+    question: "Is there a free demo available before the corsair cove early access phase?",
+    answer: "Yes, a free single-player demo is currently available on Steam, allowing players to experience the opening settlement objectives and vertical layout mechanics."
+  },
+  {
+    question: "What happens if a building is not connected to the settlement?",
+    answer: "Unconnected buildings cannot operate, receive raw materials, or deliver finished goods. Ensure all structures are linked manually or automatically to your central harbor spine."
+  },
+  {
+    question: "How do I unlock ziplines and advanced ship designs?",
+    answer: "You must complete Deeds and quests to earn Principle Points. Spend these points in the Notoriety, Empire, Seafaring, or Wealth branches of the Compass progression system to unlock advanced technologies."
+  }
+]} />
+
+<Callout type="success" title="Community Support">
+Join the official Discord or Reddit community to share your layout designs, trade production strategies, and get real-time advice from veteran captains.
+</Callout>
+
+</Section>

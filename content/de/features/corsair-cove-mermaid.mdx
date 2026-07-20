@@ -1,0 +1,235 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Users, Compass, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Corsair Cove Meerjungfrau: Legendäre Kreaturen & Erkundungsleitfaden",
+  description: "Meistere die Mythen um die Corsair Cove Meerjungfrau und legendäre Begegnungen. Erfahre mehr über Release-Termine, vertikales Bauen, Produktionsketten und Seekämpfe.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Legendary+Exploration+Guide",
+  date: "2026-07-21",
+  author: "Corsair Cove Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Corsair Cove Meerjungfrau**: Begegne legendären Seekreaturen und Mythen bei Expeditionen mit hohem Risiko auf der Weltkarte.
+- **Release-Termin**: Die Vollversion erscheint offiziell am **31. Juli 2026** für Windows PC.
+- **Vertikales Bauen**: Nutze Klippenterrassen, Seilrutschen und Brücken, um deinen begrenzten Platz auf der Insel optimal zu nutzen.
+- **Zusammenhalt der Crew**: Sorge für Nahrung, Getränke und Unterkünfte, um zu verhindern, dass deine Piraten die Bucht verlassen.
+- **Seekampf**: Meistere das rundenbasierte Würfelpool-System, um die Flotten der Krone zu besiegen und seltene Beute zu sichern.
+</Callout>
+
+<Section icon={Anchor} title="Release-Termin, Plattformen und PC-Anforderungen">
+
+Die Reise zum legendären Piratenlord beginnt mit dem Verständnis der logistischen Rahmenbedingungen des Spiels. Entwickelt von Limbic Entertainment und veröffentlicht von Hooded Horse, bietet dieser vertikale City-Builder eine einzigartige Abwechslung im Genre. Egal, ob du die schwer fassbare **Corsair Cove Meerjungfrau** jagst oder deinen Hafen gegen die Krone verteidigst, du musst sicherstellen, dass dein System für den Start am 31. Juli bereit ist.
+
+| Kategorie | Details | Status |
+| :--- | :--- | :--- |
+| **Release-Termin** | 31. Juli 2026 | Bestätigt |
+| **Plattformen** | Windows PC | Hauptplattform |
+| **Stores** | Steam, Epic, Microsoft Store | Verfügbar |
+| **Game Pass** | Ab Tag 1 verfügbar | Bestätigt |
+| **Basispreis** | 29,99 USD | Standard Edition |
+
+<Callout type="info" title="Verfügbarkeit zum Launch">
+Das Spiel wird ab dem ersten Tag im PC Game Pass verfügbar sein. Wenn du dir bezüglich des Kaufs unsicher bist, steht auf Steam derzeit eine kostenlose Demo bereit, mit der du deine Hardware testen und die grundlegenden Mechaniken erlernen kannst.
+</Callout>
+
+### Systemanforderungen
+
+Um die üppigen tropischen Umgebungen und komplexen vertikalen Strukturen darzustellen, muss dein PC bestimmte DirectX-12-Anforderungen erfüllen. Ein SSD-Speicher wird dringend empfohlen, um die nahtlosen Übergänge zwischen der Siedlungsansicht und der riesigen Weltkarte zu bewältigen.
+
+| Spezifikation | Mindestanforderung | Empfohlene Anforderung |
+| :--- | :--- | :--- |
+| **Betriebssystem** | Windows 10 64-Bit | Windows 10/11 64-Bit |
+| **Prozessor** | Intel i7-7700 / Ryzen 5 1600 | Intel i5-9600K / Ryzen 5 3600 |
+| **Arbeitsspeicher** | 8 GB | 16 GB |
+| **Grafikkarte** | GTX 1660 Super / RX 5600 XT | RTX 2070 / RX 6600 XT |
+| **Speicher** | 30 GB SSD | 30 GB SSD |
+
+</Section>
+
+<Section icon={Target} title="Einsteiger-Guide: Deine erste Stunde in der Bucht">
+
+Der Aufbau deines Piratenzufluchtsorts kann überwältigend sein. Du beginnst mit einer kleinen Gruppe von Überlebenden und begrenzten Ressourcen. Das Ziel ist es, eine selbsttragende Wirtschaft aufzubauen und dich gleichzeitig auf die spätere Ankunft der Krone vorzubereiten. Ein strukturierter Fortschrittspfad sorgt dafür, dass dir im frühen Spiel nicht die lebenswichtigen Vorräte wie Zwieback oder Bier ausgehen.
+
+<Steps>
+  <Step num="1" title="Lade die kostenlose Demo herunter">
+    Besuche vor dem Release am 31. Juli den Steam-Store, um die kostenlose Demo zu installieren. So kannst du das erste Tutorial abschließen und dich mit den vertikalen Bauwerkzeugen und der Benutzeroberfläche vertraut machen.
+  </Step>
+  <Step num="2" title="Errichte den Hafenkern">
+    Platziere dein erstes Piratenlager in der Nähe des Startstegs. Verbinde sofort die wichtigsten Dienstleistungsgebäude. Ein Gebäude, das nicht mit dem Hauptnetzwerk der Siedlung verbunden ist, funktioniert nicht, was durch ein rotes Warnsymbol angezeigt wird.
+  </Step>
+  <Step num="3" title="Gleichgewicht zwischen Driftern und Arbeitern">
+    Drifter sind deine Bauarbeiter. Wenn du jeden Piraten einer Produktionsaufgabe zuweist, hast du niemanden mehr übrig, um neue Gebäude zu errichten. Halte immer eine Reserve von 3–5 Driftern für Erweiterungen bereit.
+  </Step>
+  <Step num="4" title="Sichere Nahrung und Getränke">
+    Baue frühzeitig eine Fischerhütte und ein Gasthaus. Die Zufriedenheit der Piraten hängt stark von diesen beiden Ressourcen ab. Ohne sie sinkt der Zusammenhalt, was schließlich zu einem Game-Over führt.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Logistik-Warnung">
+Überprüfe regelmäßig deine Logistiklinien. Grüne Linien weisen auf einen effizienten Transport über kurze Distanzen hin. Rote Linien bedeuten, dass deine Träger (Fetcher) zu weite Wege zurücklegen, was letztendlich deine gesamte Produktionskette ausbremsen wird.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Vertikales Bauen und die besten Layout-Muster">
+
+Im Gegensatz zu traditionellen City-Buildern ist der Platz in diesem Spiel ein vertikales Rätsel. Du musst an Klippenwänden, auf Felsvorsprüngen und über Schluchten hinweg bauen. Das „beste Layout“ dreht sich nicht nur um Ästhetik; es geht darum, die Laufwege deiner Träger (Fetcher) zu verkürzen und sicherzustellen, dass jedes Lager Zugang zum Vertriebsnetz hat.
+
+<CardGrid cols={3}>
+  <Card title="Verbundener Hafenkern">
+    - **Ideal für**: Dienstleistungen im frühen Spiel
+    - **Fokus**: Kurze Verbindungsachsen
+    - **Vorteil**: Schnelle Ressourcensammlung
+  </Card>
+  <Card title="Klippenterrassen">
+    - **Ideal für**: Produktion im mittleren Spiel
+    - **Fokus**: Gestaffelte Felsvorsprünge
+    - **Vorteil**: Maximiert ungenutztes Terrain
+  </Card>
+  <Card title="Seilrutschen-Express">
+    - **Ideal für**: Logistik im späten Spiel
+    - **Fokus**: Transport von oben nach unten
+    - **Vorteil**: Umgeht steiles Gelände
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Strategische Platzierung">
+Platziere deine Vertriebszentren immer an Kreuzungen. Durch die Zentralisierung der Warenannahmestelle können Träger Ressourcen schneller abgeben und zur Arbeit zurückkehren, was den Durchsatz deiner Verarbeitungsgebäude erheblich steigert.
+</Callout>
+
+| Gebäudetyp | Funktion | Verbindungsanforderung |
+| :--- | :--- | :--- |
+| **Piratenlager** | Bietet Wohnraum und Baubereich | Manuell/Automatisch |
+| **Brücke** | Überquert Schluchten zwischen Vorsprüngen | Manuell |
+| **Seilrutsche** | Schneller vertikaler Transport | Manuell |
+| **Aufzug** | Vertikaler Transport für schwere Fracht | Manuell |
+| **Verbindungsknoten** | Erweitert das Siedlungsnetzwerk | Automatisch |
+
+</Section>
+
+<Section icon={Sparkles} title="Produktionsketten und Wirtschaftsmanagement">
+
+Mit über 50 zu verwaltenden Waren ist die Wirtschaft das schlagende Herz deiner Siedlung. Die Produktion ist unterteilt in lokale Ressourcengewinnung, Veredelung und die Herstellung von Luxusgütern. Fortgeschrittene Seeleute, wie Spezialisten und die Elite-Klasse, weigern sich zu arbeiten, wenn ihre Anforderungen an Gegenstände wie Fernrohre oder Tabak nicht erfüllt werden.
+
+| Ressourcenkategorie | Rohstoffe | Fertigwaren |
+| :--- | :--- | :--- |
+| **Grundlegendes Überleben** | Fisch, Getreide, Wasser | Zwieback, Bier, Eintopf |
+| **Bauwesen** | Holz, Stein, Eisen | Planken, Steinblöcke, Nägel |
+| **Militär** | Schwefel, Eisen, Holz | Schwarzpulver, Kanonen, Säbel |
+| **Luxus** | Tabak, Silber, Seide | Zigarren, Schmuck, Edle Kleidung |
+
+<Callout type="success" title="Effizienzbonus">
+Schalte das Prinzip „Wohlstand“ im Kompass-Menü frei, um Zugang zur Gilde der Unterhaltungsindustrie zu erhalten. Dieses Gebäude steigert die Produktivität aller nahegelegenen Produktionsstätten, sodass du mit weniger Arbeitern mehr produzieren kannst.
+</Callout>
+
+### Engpässe identifizieren
+Nutze das Ressourcen-Fenster, um Produktion und Verbrauch zu überwachen. Wenn die Trendlinie rot ist, verbrauchst du mehr, als du produzierst. Dies wird häufig verursacht durch:
+1. Mangel an Rohstoffen an der Quelle.
+2. Überlastung der Träger durch zu lange Transportwege.
+3. Das Zielgebäude (wie eine Taverne) ist voll.
+
+</Section>
+
+<Section icon={Swords} title="Schiffe, Kapitäne und Seekampf">
+
+Um erfolgreich zu sein, musst du irgendwann die Sicherheit der Bucht verlassen. Schiffe werden am Anleger gebaut und benötigen einen Kapitän, eine vollständige Crew und ausreichend Vorräte. Das Kampfsystem ist rundenbasiert und basiert auf Würfelpools und strategischem Kartenspiel, um die Krone auszumanövrieren.
+
+| Schiffsname | Stufe | Beste Verwendung | Schlüsselwert |
+| :--- | :--- | :--- | :--- |
+| **Landratte** | Stufe 1 | Frühe Erkundung | Ausgewogen |
+| **Eiserne Faust** | Stufe 2 | Kampf & Plünderung | Hoher Kanonenschaden |
+| **Stahlschneide** | Stufe 2 | Schwerer Kampf | Hohe Haltbarkeit |
+| **Flinke Flosse** | Stufe 2 | Geschwindigkeit & Schmuggel | Hohe Seefahrt |
+
+<Callout type="warning" title="Gefechtsbereitschaft">
+Sende ein Schiff niemals in ein Ereignis mit „Hohem Risiko“, ohne die empfohlenen Werte zu überprüfen. Wenn das Ereignis einen Seefahrtswert von 10 erfordert und dein Schiff nur 4 hat, wirst du das Schiff höchstwahrscheinlich verlieren, unabhängig von deinen Würfelergebnissen.
+</Callout>
+
+### Die Rolle des Kapitäns
+Kapitäne wie **Teach** oder **Honorata** bieten einzigartige Vorteile. Zum Beispiel erhöht Teachs Vorteil „Hass ist Macht“ den Kanonenschaden um 20 %, was ihn ideal für aggressive Raubzüge macht. Passe die Eigenschaften deines Kapitäns immer an das Ziel der Reise an.
+
+</Section>
+
+<Section icon={Users} title="Crew-Rollen, Bedürfnisse und Zusammenhalt">
+
+Deine Bevölkerung ist kein Monolith. Sie setzt sich aus verschiedenen Rollen zusammen, von denen jede spezifische Anforderungen hat. Die Verwaltung dieser Bedürfnisse ist entscheidend für die Aufrechterhaltung des **Zusammenhalts** (Cohesion), einer globalen Anzeige, die über das Überleben deiner Siedlung entscheidet. Wenn der Zusammenhalt auf Null sinkt, endet der Traum vom Piratenleben.
+
+<Checklist
+  id="crew-stability"
+  title="Checkliste gegen das Verlassen der Bucht:"
+  items={[
+    "Baue ausreichend Wohnraum, bevor du neue Piraten rekrutierst",
+    "Stelle sicher, dass jedes Piratenlager eine lokale Versorgung mit Bier und Rum hat",
+    "Rüste Arbeiter der Stufe 2 mit spezialisierter Kleidung (Arbeitskleidung/Stiefel) aus",
+    "Halte eine Reserve an Medizin bereit, um Seuchenausbrüche zu verhindern",
+    "Nutze Ereignisse auf der Weltkarte, um den Zusammenhalt nach schwierigen Entscheidungen zu stärken"
+  ]}
+/>
+
+<Callout type="tip" title="Spezialisten-Verwaltung">
+Spezialisierte Seeleute wie Kanoniere und Navigatoren benötigen fortschrittliche Ausrüstung. Rekrutiere sie erst, wenn du eine stabile Produktionskette für Fernrohre und Säbel hast, andernfalls droht ein rascher Abfall der Zufriedenheit.
+</Callout>
+
+| Rolle | Wohnraum | Primäres Bedürfnis | Management-Tipp |
+| :--- | :--- | :--- | :--- |
+| **Drifter** | Erforderlich | Einfache Nahrung | Halte eine Reserve für den Bau bereit |
+| **Arbeiter** | Erforderlich | Nahrung & Bier | Platziere sie in der Nähe von Produktionsstätten |
+| **Spezialisten** | Erforderlich | Ausrüstung | Unverzichtbar für Schiffe der Stufe 2 |
+| **Elite** | Erforderlich | Luxusgüter | Hohe Unterhaltskosten, hohe Leistung |
+
+</Section>
+
+<Section icon={Compass} title="Erkundung und der Mythos der Corsair Cove Meerjungfrau">
+
+Die Weltkarte bietet mehr als nur feindliche Forts und Handelsrouten. Während du die Sieben Weltmeere erkundest, wirst du auf legendäre Ereignisse stoßen. Die **Corsair Cove Meerjungfrau** gehört zur Ereigniskategorie „Legendäre Kreaturen“, zusammen mit dem Kraken und großen Walen. Diese Begegnungen sind der ultimative Test für die Fähigkeiten deiner Flotte.
+
+<CardGrid cols={2}>
+  <Card title="Expeditionen zu alten Tempeln">
+    Suche nach verlorenem Piratengold und Artefakten. Diese mehrstufigen Ereignisse erfordern eine große Crew und reichlich Vorräte, um die Fallen und Rätsel in den Ruinen zu überleben.
+  </Card>
+  <Card title="Jagd auf legendäre Kreaturen">
+    Stelle dich der **Corsair Cove Meerjungfrau** oder dem Kraken. Diese Kämpfe bieten die höchsten Belohnungen, einschließlich einzigartiger Kapitäne und enormer Steigerungen des Zusammenhalts, erfordern jedoch Schiffe der Stufe 2 oder 3.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Das Kompass-System">
+Der Fortschritt ist an die vier Kompass-Prinzipien gebunden: Berüchtigtsein, Imperium, Seefahrt und Wohlstand. Das Ausgeben von Punkten im Seefahrtszweig ist der direkteste Weg, um die Schiffsupgrades freizuschalten, die für das Überleben von Begegnungen mit legendären Kreaturen erforderlich sind.
+</Callout>
+
+### Quest-Typen
+- **Hauptquests**: Treiben die Geschichte des Kampfes gegen die Krone voran.
+- **Nebenquests**: Bieten optionale Prinzipienpunkte und Ressourcen.
+- **Taten (Deeds)**: Errungenschaftsähnliche Ziele, die dauerhafte Siedlungsboni gewähren.
+- **Prinzipien-Questreihen**: Spezialisierte Missionen, die für jeden der vier Kompasspfade einzigartig sind.
+
+</Section>
+
+<Section icon={Activity} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wann ist der offizielle Release-Termin für das Spiel?",
+    answer: "Das Spiel soll am 31. Juli 2026 für Windows PC über Steam, den Epic Games Store und den Microsoft Store erscheinen."
+  },
+  {
+    question: "Wie begegne ich der Corsair Cove Meerjungfrau?",
+    answer: "Legendäre Kreaturen wie die Meerjungfrau erscheinen als spezielle Symbole mit hohem Risiko auf der Weltkarte. In der Regel musst du im Seefahrtszweig des Kompasses fortschreiten, um diese Begegnungen zu finden und zu überleben."
+  },
+  {
+    question: "Was passiert, wenn mein Zusammenhalt auf Null sinkt?",
+    answer: "Der Zusammenhalt (Cohesion) ist deine globale Überlebensanzeige. Wenn er aufgrund von schlechtem Management, Hungersnot oder ständigen Verlusten auf Null sinkt, endet das Spiel."
+  },
+  {
+    question: "Gibt es eine Möglichkeit, das vertikale Reisen zu beschleunigen?",
+    answer: "Ja. Im Laufe des Spiels kannst du Seilrutschen und Aufzüge freischalten. Diese Strukturen ermöglichen es Piraten und Waren, sich vertikal viel schneller zu bewegen als über herkömmliche Pfade oder Brücken."
+  }
+]} />
+
+</Section>

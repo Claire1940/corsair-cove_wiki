@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove City Builder: Setup Guide & Layout Tips",
+  description: "Master the vertical layouts of Corsair Cove. Learn how to manage supply chains, pirate crew demands, and turn-based naval combat in this guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+City+Builder",
+  date: "2026-07-21",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Establish a self-sustaining pirate haven using the unique vertical mechanics of the **corsair cove city builder** to resist the Crown.
+- **Logistics Focus**: Optimize transport networks using bridges, ziplines, and vertical pathways to connect cliffside production buildings.
+- **Crew Demands**: Satisfy distinct tier requirements, from basic hard tack for drifters to premium tobacco and pistols for elite corsairs.
+- **Naval Defense**: Build a powerful fleet and fortify shorelines with gun towers supplied with black powder and cannonballs.
+- **Progression Path**: Balance development across Notoriety, Empire, Seafaring, and Wealth to unlock advanced buildings and ships.
+</Callout>
+
+<Section icon={Map} title="Building Your Haven: Corsair Cove City Builder Basics">
+
+Establishing a thriving pirate capital requires a deep understanding of vertical geography and resource distribution. Unlike traditional flat-map construction games, the unique terrain of Skull Rock Island forces you to think upward, utilizing sheer cliffsides and precarious ledges to build a secure stronghold. 
+
+Starting on a deserted island with nothing but the wreckage of your ship, your first priority is to secure a stable foothold. This means balancing immediate survival needs with long-term infrastructure planning. The surrounding waters are filled with both opportunities and dangers, from harvestable shipwrecks to roaming shark populations that threaten early coastal operations.
+
+**Video Highlights:**
+- **Coastal Hazards**: Sharks patrol the waters near Rock Pillar Bay, requiring careful placement of early docks and fishing platforms.
+- **Shipwreck Salvage**: Multiple wreck sites scattered around the island offer crucial early-game resources to jumpstart your economy.
+- **Vertical Opportunities**: Abundant cliffs and high plateaus allow for massive vertical expansion, keeping key structures safe from coastal raids.
+
+<YouTubeEmbed videoId="5f9PhNpem0w" title="Corsair Cove - Skull Rock Island | Pirate City Builder" />
+
+To get your settlement off the ground, focus on gathering basic raw materials and establishing reliable transit routes between the coast and the high cliffs.
+
+| Resource | Source | Initial Use |
+| :--- | :--- | :--- |
+| Lumber | Cliffside Forests | Constructing basic pathways, shelters, and early production buildings |
+| Fiber | Wild Vegetation | Crafting ropes for basic vertical bridges and early sailing vessels |
+| Shipwreck Scrap | Coastal Wrecks | Salvaging metal for early tool production and basic weapons |
+| Fish | Coastal Waters | Providing basic sustenance for your initial shipwrecked crew |
+
+<Callout type="tip" title="Settle Near the Cliffs">
+Place your initial distribution hubs near cliff bases. This positioning allows you to quickly establish vertical pathways and ziplines to reach rich timber and mineral deposits on higher ground without wasting valuable land.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Vertical City Layout and Supply Chains">
+
+Managing complex production chains across extreme heights is the core challenge of this pirate economy. With over 50 different types of goods to manufacture and distribute, layout efficiency is the deciding factor between a prosperous port and a stagnant camp. 
+
+Because flat land is scarce, production buildings must be placed on cliff-faces and hilltops. This verticality requires an intricate network of bridges, ziplines, and mechanical contraptions to move goods efficiently from extraction sites to processing facilities and distribution hubs.
+
+<CardGrid cols={3}>
+  <Card title="Vertical Lift Strategy">
+    - **Focus**: Heavy use of ziplines and vertical pathways.
+    - **Pros**: Fastest transport between extreme heights.
+    - **Cons**: High initial construction cost.
+  </Card>
+  <Card title="Terraced Hub Layout">
+    - **Focus**: Building flat hubs on intermediate terraces.
+    - **Pros**: Balanced distribution and easy defense.
+    - **Cons**: Requires precise spatial planning.
+  </Card>
+  <Card title="Sprawling Bridge Network">
+    - **Focus**: Connecting distant cliffs via massive bridges.
+    - **Pros**: Opens up vast resource deposits early.
+    - **Cons**: Vulnerable to long travel delays.
+  </Card>
+</CardGrid>
+
+To maintain a steady flow of goods, raw materials must be systematically processed into intermediate components before they can be crafted into high-value finished products.
+
+| Raw Material | Intermediate Good | Finished Product | Primary Consumer |
+| :--- | :--- | :--- | :--- |
+| Copper & Iron | Metal Sheets | Cannons | Armadas & Forts |
+| Sand & Wood | Glass | Spyglasses | Navigators & Captains |
+| Herbs & Alcohol | Tinctures | Medicine | High-tier Crew |
+| Grain & Meat | Flour & Spices | Turtle Soup | Elite Corsairs |
+
+<Callout type="warning" title="Avoid Logistics Bottlenecks">
+Long pathways without intermediate storage hubs will quickly starve your production lines. Ensure every major cliff level has a dedicated distribution center to store local goods and reduce travel times.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Managing Your Pirate Crew and Population Needs">
+
+A pirate capital is only as strong as the crew that operates it. Your population is divided into distinct tiers, ranging from basic laborers to elite specialized sailors. Each group has specific demands that must be met to keep them in high spirits and prevent them from abandoning your cause.
+
+While basic workers are content with simple stews and ale, advanced specialists and elite corsairs demand luxury items such as tobacco, pistols, eye-patches, and fine attire. If these needs are ignored for too long, productivity will plummet, and your crew may leave you stranded.
+
+| Crew Tier | Key Roles | Basic Demands | Luxury Demands |
+| :--- | :--- | :--- | :--- |
+| Drifter | General Labor | Hard tack, Ale | None |
+| Worker | Production | Stew, Slops | Rum, Boots |
+| Specialist | Navigators, Gunners | Roast bird, Sabers | Medicine, Spyglasses |
+| Elite Sailor | Veteran Corsairs | Turtle soup, Pistols | Tobacco, Jewelry |
+
+To successfully grow your population and upgrade your crew, follow this structured progression workflow.
+
+<Steps>
+  <Step num="1" title="Attract Drifters">
+    Construct basic living quarters and provide hard tack to attract shipwrecked survivors and low-tier drifters to your island.
+  </Step>
+  <Step num="2" title="Train Specialists">
+    Build specialized training halls and supply them with sabers and spyglasses to convert basic workers into navigators and bombardiers.
+  </Step>
+  <Step num="3" title="Sustain Elite Corsairs">
+    Establish high-tier supply lines for luxury goods like turtle soup, fine attire, and tobacco to keep veteran crews loyal and motivated.
+  </Step>
+</Steps>
+
+<Callout type="success" title="High Spirits Bonus">
+Keeping your crew's happiness above 80% increases overall movement speed and production efficiency across all vertical pathways by 15%, significantly boosting your economy.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Naval Warfare, Fortifications, and Expeditions">
+
+The seas beyond your safe harbor are teeming with both wealth and danger. To protect your island from the Crown's pirate hunters, you must construct defensive fortifications and assemble a formidable armada. 
+
+Turn-based naval combat requires tactical planning, where your choice of ship, captain, and crew composition determines the outcome. When your fleet is away on expeditions, your island relies on coastal defense networks to repel incoming enemy vessels.
+
+| Fortification | Strategic Role | Construction Cost | Ammunition Needed |
+| :--- | :--- | :--- | :--- |
+| Lookout Tower | Early warning, light defense | Wood, Fiber | None |
+| Gun Battery | Heavy coastal defense | Stone, Iron | Cannonballs, Black Powder |
+| Mortar Pit | Long-range bombardment | Iron, Copper | Heavy Shells, Black Powder |
+
+Before launching expeditions to raid nearby islands or tackle mythical sea beasts, ensure your fleet is fully prepared.
+
+<Checklist
+  id="armada-prep"
+  title="Armada Deployment Goals:"
+  items={[
+    "Build at least three heavy galleons with reinforced wooden hulls",
+    "Equip all bombardiers with high-quality spyglasses and sabers",
+    "Stockpile 100+ barrels of black powder in coastal warehouses",
+    "Assign a veteran captain specializing in turn-based tactics"
+  ]}
+/>
+
+<Callout type="warning" title="Defend Your Harbor">
+Do not send your entire fleet out on expeditions simultaneously. Keep at least two defensive ships stationed near your gun batteries to intercept sudden Crown patrol raids.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Development Paths and Progression">
+
+As your pirate society grows, you can customize your progression across four distinct development dimensions. Choosing which path to prioritize allows you to tailor your society to your preferred playstyle.
+
+Whether you focus on building a massive trading empire or a militarized fortress, balancing these progression paths is key to unlocking advanced technologies and resisting the Crown.
+
+| Dimension | Focus Area | Essential Unlock | Strategic Benefit |
+| :--- | :--- | :--- | :--- |
+| Notoriety | Pirate Reputation | Entertainers' Guildhall | Boosts local worker productivity |
+| Empire | Island Expansion | Advanced Ziplines | Speeds up vertical cargo transport |
+| Seafaring | Maritime Dominance | Heavy Galleon Hull | Unlocks high-tier naval combat options |
+| Wealth | Trade & Economy | Minting Press | Generates passive coin from gold ore |
+
+<Callout type="info" title="Balanced Progression">
+While focusing entirely on Wealth can secure resources quickly, neglecting Notoriety will prevent you from recruiting the elite specialists needed to crew advanced warships.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do you optimize vertical transport in the corsair cove city builder?",
+    answer: "To optimize vertical transport, build dedicated distribution hubs at the base and summit of major cliffs. Connect these hubs using high-capacity ziplines for downward transport and mechanical lifts or terraced pathways for upward movement."
+  },
+  {
+    question: "What happens if pirate crew needs are ignored?",
+    answer: "If you fail to provide essential goods like food, alcohol, and specialized luxury items, your crew's happiness will drop. Eventually, workers and specialists will abandon their posts, shutting down production chains and leaving you stranded."
+  },
+  {
+    question: "How does naval combat work in Corsair Cove?",
+    answer: "Naval combat is turn-based and relies on your choice of ship, crew specialists, and captain. Success depends on positioning, utilizing wind directions, and managing your supply of black powder and cannonballs during battle."
+  },
+  {
+    question: "Can you fully automate supply chains?",
+    answer: "Yes, once you unlock advanced logistics technologies under the Empire progression path, you can set up automated distribution routes using complex systems of bridges, ziplines, and path priorities."
+  }
+]} />
+
+</Section>

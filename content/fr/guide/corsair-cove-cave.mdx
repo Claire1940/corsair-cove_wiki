@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Grotte de Corsair Cove : Guide stratégique de construction et d'aménagement de base",
+  description: "Maîtrisez les mécaniques de la grotte de Corsair Cove. Apprenez à bâtir un repaire de pirates prospère, gérez vos lignes de production et améliorez votre flotte dans ce guide de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Cave+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki de Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Grotte de Corsair Cove** : Le centre névralgique de votre héritage pirate, servant de base d'opérations protégée.
+- **Progression de la base** : Passez d'un simple bidonville à un havre de pirates fortifié en haute altitude.
+- **Gestion de l'équipage** : Maintenir le bonheur est crucial pour éviter les mutineries et assurer une production efficace.
+- **Expansion navale** : Utilisez les ressources collectées pour construire des navires puissants et explorer les sept mers dangereuses.
+- **Lignes de production** : La collecte automatisée des ressources est la clé pour faire évoluer votre repaire au milieu du jeu.
+</Callout>
+
+<Section icon={Map} title="Établir votre repaire dans la grotte de Corsair Cove">
+
+L'aventure dans ce monde sur le thème des pirates commence avec rien d'autre que les vêtements sur votre dos. Votre premier objectif est de sécuriser un emplacement offrant à la fois protection et espace d'expansion. La **grotte de Corsair Cove** sert de fondation littérale et métaphorique à votre empire. Contrairement aux colonies en plein champ, la grotte offre des barrières défensives naturelles, vous permettant de construire verticalement et d'atteindre des hauteurs que d'autres joueurs n'oseraient pas affronter.
+
+**Points forts de la vidéo :**
+- **Bidonville initial** : Commencer petit avec des tentes de base et des structures en bois.
+- **Verticalité** : Construire dans les parois de la grotte pour maximiser l'espace et la défense.
+- **Construction d'un héritage** : La transition d'un survivant à un légendaire chef pirate.
+- **Interaction avec les navires** : Comment votre repaire se connecte directement à la mer pour un déploiement facile.
+
+<YouTubeEmbed videoId="dmhFVDlLeFA" title="Corsair Cove - Bande-annonce officielle" />
+
+La gestion de votre repaire nécessite un équilibre entre design esthétique et efficacité fonctionnelle. Au fur et à mesure de votre progression, vous remplacerez votre établissement de fortune par des bâtiments renforcés en pierre et des ateliers avancés. L'environnement de la grotte impose un aménagement unique où le stockage doit être situé près des quais, tandis que les quartiers d'habitation doivent être surélevés pour un meilleur moral.
+
+| Caractéristique du repaire | Fonction principale | Avantage stratégique |
+| :--- | :--- | :--- |
+| **Canopée naturelle** | Protection météo | Empêche les dégâts des tempêtes sur les structures en bois |
+| **Plateformes surélevées** | Poste d'observation défensif | Augmente la portée des archers et des canons |
+| **Grotte profonde** | Stockage des ressources | Garde le butin de grande valeur caché des pillards |
+| **Accès aux marées** | Déploiement des navires | Permet une sortie rapide lors d'urgences navales |
+
+<Callout type="info" title="Emplacement stratégique">
+Donnez toujours la priorité à la construction de vos installations de production près de l'entrée de la grotte. Cela réduit le temps de trajet de votre équipage lors du déchargement des ressources des navires nouvellement amarrés.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Infrastructure et paliers de construction">
+
+Construire votre héritage dans la **grotte de Corsair Cove** ne consiste pas seulement à placer des murs ; c'est une question de progression technologique. Le jeu propose un système de construction par paliers qui détermine la durabilité et l'utilité de vos structures. Au début, vous dépendrez de bois flotté et de ferraille, mais les repaires de haut niveau utilisent de la maçonnerie renforcée et des supports blindés en fer.
+
+<CardGrid cols={3}>
+  <Card title="Palier 1 : Charognard">
+    - **Matériau** : Bois flotté, chaume
+    - **Durabilité** : Très faible
+    - **Coût** : Ferraille minimale
+  </Card>
+  <Card title="Palier 2 : Boucanier">
+    - **Matériau** : Bois d'œuvre, pierre
+    - **Durabilité** : Modérée
+    - **Coût** : Bois raffiné
+  </Card>
+  <Card title="Palier 3 : Seigneur pirate">
+    - **Matériau** : Maçonnerie, fer
+    - **Durabilité** : Élevée
+    - **Coût** : Métaux lourds
+  </Card>
+</CardGrid>
+
+À mesure que vous améliorez vos installations, vous débloquez des salles spécialisées offrant des bonus passifs. Par exemple, une taverne augmente le taux de récupération de votre équipage, tandis qu'une salle des cartes révèle des trésors cachés sur les sept mers. Chaque bâtiment dans la grotte doit être relié par des passerelles ou des tyroliennes pour garantir que vos pirates puissent se déplacer rapidement entre les stations.
+
+| Nom de la structure | Exigence | Production/Bonus |
+| :--- | :--- | :--- |
+| **Cabane de fortune** | 50 Bois | +2 Capacité d'équipage |
+| **Distillerie de rhum** | 100 Bois, 20 Fer | +15% Bonheur de l'équipage |
+| **Forge** | 200 Pierre, 50 Fer | Débloque l'armement de palier 2 |
+| **Chantier naval** | 500 Bois, 100 Fer | Permet la construction navale |
+| **Tour de guet** | 300 Pierre | Détecte les raids entrants |
+
+<Callout type="tip" title="Expansion verticale">
+N'ayez pas peur de construire en hauteur. Le jeu permet une verticalité importante. Les structures plus hautes sont plus difficiles à atteindre pour les pillards ennemis et offrent une meilleure vue sur l'horizon.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gestion de l'équipage et lignes de production">
+
+Un havre de pirates n'est aussi fort que l'équipage qui l'habite. Pour diriger un navire efficacement, vous devez gérer vos lignes de production avec soin. Cela implique d'assigner des tâches spécifiques à vos pirates en fonction de leurs compétences. Certains sont meilleurs pour la recherche de nourriture, tandis que d'autres excellent dans le raffinage des matières premières en composants de haute qualité.
+
+<Steps>
+  <Step num="1" title="Recrutement">
+    Visitez la taverne locale ou sauvez des marins échoués pour accroître votre main-d'œuvre initiale.
+  </Step>
+  <Step num="2" title="Assignation des tâches">
+    Utilisez le menu de gestion pour assigner les membres de l'équipage à la forge, à la ferme ou au chantier naval.
+  </Step>
+  <Step num="3" title="Maintien du bonheur">
+    Assurez un approvisionnement constant en rhum et en nourriture. Un équipage mécontent travaillera plus lentement ou finira par se mutiner.
+  </Step>
+  <Step num="4" title="Automatisation">
+    Améliorez les bâtiments de production au palier 3 pour automatiser le processus de collecte et de stockage.
+  </Step>
+</Steps>
+
+L'efficacité dans la **grotte de Corsair Cove** se mesure à votre rendement horaire en ressources. En mettant en place des lignes de production interconnectées, vous pouvez vous assurer que le bois collecté aux quais est immédiatement envoyé à la scierie, puis au chantier naval sans intervention manuelle.
+
+| Rôle de l'équipage | Tâche principale | Attribut clé |
+| :--- | :--- | :--- |
+| **Ouvrier** | Transport/Construction | Force |
+| **Artisan** | Artisanat/Raffinage | Dextérité |
+| **Cuisinier** | Production alimentaire | Intelligence |
+| **Quartier-maître** | Gestion | Leadership |
+
+<Callout type="warning" title="Risque de mutinerie">
+Si les niveaux de bonheur tombent en dessous de 20 %, votre équipage pourrait prendre le contrôle de la grotte. Gardez vos stocks pleins de rations de haute qualité pour éviter ce désastre.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Expansion navale et construction navale">
+
+Une fois que votre repaire dans la **grotte de Corsair Cove** est sécurisé et que vos lignes de production fonctionnent à plein régime, il est temps de regarder vers l'horizon. Construire des navires puissants est le seul moyen d'étendre votre influence et de piller de grands trésors. Les navires vont des petits sloops agiles aux galions massifs capables de dominer les sept mers.
+
+| Type de navire | Coût en ressources | Vitesse | Puissance de feu |
+| :--- | :--- | :--- | :--- |
+| **Sloop** | 200 Bois, 50 Tissu | Élevée | Faible |
+| **Brigantin** | 600 Bois, 150 Tissu | Moyenne | Moyenne |
+| **Galion** | 1500 Bois, 400 Fer | Faible | Extrême |
+| **Man-O-War** | 3000 Bois, 1000 Fer | Très faible | Niveau divin |
+
+Chaque navire peut être personnalisé avec différents renforts de coque, types de voiles et configurations de canons. Pour les joueurs basés dans une grotte, le Sloop est souvent le meilleur choix pour l'exploration initiale, car sa petite taille lui permet de naviguer facilement dans les entrées rocheuses étroites de la crique.
+
+<Callout type="success" title="Synergie de la flotte">
+Maintenir un mélange d'éclaireurs rapides et d'attaquants lourds vous permet de répondre à diverses menaces. Utilisez les Sloops pour le repérage et les Galions pour les tâches lourdes lors du pillage de forts côtiers.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Routes de récolte de ressources">
+
+Maintenir un repaire de haut niveau nécessite une quantité massive de ressources. Bien que la **grotte de Corsair Cove** fournisse quelques matériaux de base, la majeure partie de votre richesse proviendra des îles environnantes. Établir des routes de récolte efficaces est essentiel pour la survie à long terme.
+
+**Ressources essentielles :**
+- **Minerai de fer** : Trouvé dans les crevasses profondes des îles voisines.
+- **Bois dur** : Récolté à partir d'arbres anciens dans la jungle tropicale.
+- **Soie/Tissu** : Pillé sur des navires marchands ou fabriqué dans des ateliers spécialisés.
+- **Or** : Gagné par le commerce, le pillage ou l'accomplissement de missions à haut risque.
+
+| Ressource | Meilleure source | Cas d'utilisation |
+| :--- | :--- | :--- |
+| **Bois d'œuvre** | Forêts du Nord | Construction de base/Carburant |
+| **Fer** | Mines volcaniques | Armement/Blindage de coque |
+| **Épices** | Routes commerciales du Sud | Commerce de grande valeur/Bonheur |
+| **Poudre à canon** | Laboratoire d'alchimie | Munitions de canon |
+
+<Callout type="tip" title="Routes commerciales">
+Identifiez rapidement les ports commerciaux neutres. Vendre l'excédent de bois contre de l'or est souvent plus rapide que de cultiver l'or directement par le combat.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Maîtriser l'héritage de Corsair Cove">
+
+Pour devenir une légende, vous devez oser tout réclamer. Les dernières étapes du jeu impliquent de défendre votre **grotte de Corsair Cove** contre d'autres seigneurs pirates et les autorités navales. Cela nécessite un repaire entièrement amélioré, un équipage loyal et une flotte qui inspire la peur dans le cœur de vos ennemis.
+
+<Checklist
+  id="pirate-legacy-goals"
+  title="Objectifs ultimes de pirate :"
+  items={[
+    "Atteindre l'infrastructure de palier 3 dans votre repaire de grotte",
+    "Construire au moins un navire de classe Galion",
+    "Maintenir 90 %+ de bonheur de l'équipage pendant 30 jours consécutifs",
+    "Établir trois lignes de production automatisées",
+    "Défendre avec succès la grotte contre un raid de palier 5"
+  ]}
+/>
+
+<Callout type="info" title="Mot de la fin">
+Le rêve commence avec un bidonville, mais l'héritage se construit par la gestion et le leadership. Équilibrez votre expansion avec la défense pour vous assurer que votre repaire résiste à l'épreuve du temps.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Comment trouver le meilleur emplacement pour la grotte de Corsair Cove ?",
+    answer: "Cherchez des grottes avec des corniches en haute altitude et une entrée d'eau étroite. Cela offre la meilleure défense naturelle contre les grands navires ennemis tout en vous permettant de construire verticalement."
+  },
+  {
+    question: "Quel est le moyen le plus rapide d'améliorer les lignes de production ?",
+    answer: "Concentrez-vous sur le recrutement de membres d'équipage ayant une intelligence élevée et assignez-les au banc de recherche. Cela débloque la technologie d'automatisation avancée plus rapidement que le travail manuel."
+  },
+  {
+    question: "Puis-je déplacer mon repaire vers une autre grotte plus tard ?",
+    answer: "Bien que vous puissiez établir de nouveaux avant-postes, votre repaire principal dans la grotte de Corsair Cove est difficile à déplacer. Il vaut mieux étendre votre portée par des avant-postes plutôt que d'abandonner votre base principale."
+  },
+  {
+    question: "Que se passe-t-il si mon navire est détruit en mer ?",
+    answer: "Vous perdrez les ressources à bord, mais si vous avez un chantier naval dans votre grotte, vous pouvez reconstruire rapidement en utilisant les matériaux stockés. Gardez toujours un surplus de bois et de fer pour les urgences."
+  }
+]} />
+
+</Section>

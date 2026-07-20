@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Users, Settings, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Ships: Tier 2 Fleet & Upgrade Guide",
+  description: "Master the waves in Corsair Cove with our guide to Tier 2 ships, crew management, and naval production chains for the 2026 season.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/ffffff?text=Corsair+Cove+Ships+Guide",
+  date: "2026-07-21",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Corsair Cove ships** require specific Tier 2 upgrades involving **ropes and planks** to advance the main campaign.
+- **Tide Runner** is the premier Tier 2 Hunter ship, prioritizing **maneuverability and speed** for exploration missions.
+- **Crew management** is critical; Scallywags require **Bread**, while Pickaroons demand **Rum** to maintain high cohesion.
+- **Production chains** for naval support include Cassava pickers, Sugar cane farms, and Distilleries connected via **ziplines**.
+- **Specialized Captains** like Teach and Charlie provide unique buffs to **gun damage and health** respectively.
+</Callout>
+
+<Section icon={Anchor} title="Tier 2 Naval Expansion in Corsair Cove">
+
+Expanding your fleet is the cornerstone of progression in Corsair Cove. Once you have established your initial settlement and completed basic smuggling runs, the focus shifts toward Tier 2 naval technology. These vessels are not just larger; they are specialized tools designed to handle the increasing dangers of the Shrouded Oceans and the Ancient Archipelago.
+
+**Video Highlights:**
+- Unlocking the **Tide Runner** and **Steel Edge** ship classes.
+- Managing the transition from Swabbies to high-tier Scallywags.
+- Establishing the **Bread and Rum** production lines for crew happiness.
+- Utilizing the **Zipline and Area Lift** systems for resource logistics.
+
+<YouTubeEmbed videoId="K6umR2QOCt4" title="Tier 2 Pirate SHIPS & World EXPLORATION in Corsair Cove" />
+
+The transition to Tier 2 requires a significant investment in global storage. You must ensure your central warehouse is stocked with ropes and planks, as these are the primary materials for shipwrights. Upgrading your vessel to the Tide Runner, for instance, marks your first major leap in agility, allowing you to bypass crown patrols and complete high-stakes survey missions.
+
+<Callout type="tip" title="Strategic Fleet Composition">
+Always maintain a balance between **Hunter** class ships for speed and **Destroyer** class ships for raw firepower. Relying on a single ship type will leave you vulnerable during specialized combat or exploration missions.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Ship Upgrades and Resource Requirements">
+
+Upgrading your **corsair cove ships** is a multi-stage process that involves both material costs and time. The Tier 2 upgrade path introduces the need for **Ropes**, a resource produced by the Rope Maker using fibers from leaf cutters. Without a steady supply of ropes, your fleet will remain grounded in Tier 1.
+
+| Ship Model | Class | Primary Material | Secondary Material | Key Advantage |
+| :--- | :--- | :--- | :--- | :--- |
+| **Tide Runner** | Hunter | 15 Ropes | 10 Planks | High Maneuverability |
+| **Steel Edge** | Destroyer | 25 Ropes | 20 Planks | Massive Gun Damage |
+| **Iron Fist** | Heavy | 30 Ropes | 25 Planks | Maximum Hull Health |
+| **Shark Tooth** | Reaver | 20 Ropes | 15 Planks | Balanced Boarding |
+
+To facilitate these upgrades, your production camps must be interconnected. If your Rope Maker is located in a secondary camp, ensure that the transport routes to the main shipyard are optimized. The use of elevators and pathways is essential to keep the flow of planks and ropes consistent during the construction phase.
+
+<Callout type="warning" title="Resource Bottlenecks">
+The consumption of **Planks** increases exponentially as your city grows. Before starting a Tier 2 ship upgrade, pause non-essential construction to ensure the shipwright has priority access to the lumber supply.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Crew Hierarchy and Happiness Mechanics">
+
+A ship is only as good as its crew. In Corsair Cove, moving to Tier 2 ships introduces a complex social hierarchy among your pirates. You can no longer rely solely on basic Swabbies; you will need specialized labor that demands better living conditions and high-quality provisions.
+
+<CardGrid cols={3}>
+  <Card title="Swabbies">
+    - **Basic Labor**
+    - Needs: Simple Stew
+    - Role: General maintenance
+    - Upkeep: Low
+  </Card>
+  <Card title="Scallywags">
+    - **Skilled Sailors**
+    - Needs: Stew + Bread
+    - Role: Navigation & Speed
+    - Upkeep: Moderate
+  </Card>
+  <Card title="Pickaroons">
+    - **Combat Specialists**
+    - Needs: Stew + Rum
+    - Role: Gun Damage & Boarding
+    - Upkeep: High
+  </Card>
+</CardGrid>
+
+Maintaining crew **Cohesion** is vital. If your supplies of Bread or Rum run out, cohesion will drop, leading to reduced ship performance or even mutiny. Cohesion at 100% provides hidden bonuses to mission success rates, making it worthwhile to invest in the "Salty Cabins" for better housing.
+
+| Crew Type | Food Requirement | Drink Requirement | Housing Type | Stat Bonus |
+| :--- | :--- | :--- | :--- | :--- |
+| Swabbie | Stew | Water | Tent | +5 Health |
+| Scallywag | Bread | Water | Salty Cabin | +10 Speed |
+| Pickaroon | Bread | Rum | Salty Cabin | +15 Damage |
+
+<Callout type="info" title="Captain Synergy">
+Assign **Captain Teach** to Destroyer-class ships like the Steel Edge. His passive traits significantly boost gun damage and health, making him ideal for port attacks and hunting Spanish Hounds.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Step-by-Step: Launching Your First Tier 2 Vessel">
+
+The process of commissioning a Tier 2 ship requires careful planning of your island's infrastructure. Follow these steps to ensure a smooth launch without crashing your local economy.
+
+<Steps>
+  <Step num="1" title="Establish Rope Production">
+    Build a Rope Maker near your leaf cutters. Ensure the output is linked to a warehouse that is accessible by your main shipyard. You will need at least 15-20 ropes for the initial upgrade.
+  </Step>
+  <Step num="2" title="Upgrade to Salty Cabins">
+    Before recruiting Scallywags, upgrade your basic tents to Salty Cabins. These require ropes and planks but provide the necessary comfort for higher-tier crew members.
+  </Step>
+  <Step num="3" title="Initialize the Bread Chain">
+    Construct a Cassava Picker on fertile land, a Salt Mine, and an Oven. Use a **Zipline** to transport fresh bread directly to the Galley to minimize transport time.
+  </Step>
+  <Step num="4" title="Commission the Ship">
+    Select your docked vessel and choose the Tier 2 upgrade (e.g., Tide Runner). Assign a Captain with high maneuverability for exploration or high damage for combat.
+  </Step>
+  <Step num="5" title="Assign specialized Crew">
+    Fill the crew slots with a mix of Swabbies and Scallywags. Ensure your Galley has a surplus of Bread before the ship leaves port to prevent cohesion loss at sea.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Optimization Tip">
+Use the **Area Lift** to connect high-elevation production zones (like cliff-side Cassava farms) to your coastal warehouses. This drastically reduces the "walking time" of your carriers.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Naval Missions and Exploration Rewards">
+
+Once your **corsair cove ships** are battle-ready, you can venture into new regions like the **Ancient Archipelago**. These missions are categorized into four types: Wealth, Fighter, Explorer, and Empire. Each type requires different ship stats to maximize the loot.
+
+- **Wealth Missions**: Focus on cargo capacity and trade routes.
+- **Fighter Missions**: Require high gun damage and boarding stats.
+- **Explorer Missions**: Prioritize speed and maneuverability to navigate fogs and storms.
+- **Empire Missions**: Aim to build alliances with local tribes and buccaneers.
+
+| Mission Location | Difficulty | Required Stat | Key Reward |
+| :--- | :--- | :--- | :--- |
+| Ancient Archipelago | Tier 2 | Maneuverability | 80 Drifters |
+| Great Pyramid | Tier 2 | Gun Damage | Ancient Treasure |
+| Spanish Hound Prowl | Tier 2 | Boarding | Principal Points |
+| Friendly Port | Tier 1 | Speed | Ship Repairs |
+
+During exploration, you will encounter "Discovery Events." Building a **Crow's Nest** in your settlement provides a 20-gold bonus for every event discovered, making it a lucrative passive income stream for aggressive explorers.
+
+<Callout type="info" title="The Tribe Alliance">
+Helping the Tribe Alliance in the Ancient Archipelago can grant you **Empire Principal Points**. These points are used to unlock advanced buildings like the Gambling Den or the Trading Post.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fleet Management Checklist">
+
+Before sending your fleet on a long-distance expedition to the Fairwind Passage or the Great Pyramid, consult this checklist to ensure your ships return in one piece.
+
+<Checklist
+  id="fleet-readiness"
+  title="Pre-Voyage Requirements:"
+  items={[
+    "Hull health repaired to 100% using planks",
+    "Cohesion at 90+ for all crew members",
+    "Galley stocked with at least 200 units of Bread",
+    "Captain traits aligned with mission type (e.g., Speed for Surveying)",
+    "Trading Post active to sell surplus stone for gold"
+  ]}
+/>
+
+<Callout type="tip" title="Trading Surplus">
+If you have a surplus of Stone Blocks or Stew, use the **Trading Post** to convert them into Gold Coins. This gold is essential for paying the upkeep of your Tier 2 ships and hiring new captains.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I unlock the Tier 2 ships like the Iron Fist?",
+    answer: "You must invest your Compass points into the Quarry Expansion. This opens up the heavy ship branch, allowing you to build the Iron Fist and other high-health vessels."
+  },
+  {
+    question: "Why is my ship cohesion dropping even though I have food?",
+    answer: "Tier 2 crew members like Scallywags and Pickaroons require more than just Stew. Scallywags need Bread, and Pickaroons need Rum. If these are missing from your Galley or Tavern, cohesion will drop."
+  },
+  {
+    question: "What is the fastest way to transport Rum to the docks?",
+    answer: "Establish a Zipline from your Distillery to the coastal Tavern. This bypasses the winding cliff paths and ensures your ships are resupplied instantly upon docking."
+  },
+  {
+    question: "Can I swap crew members between ships?",
+    answer: "Yes, but be careful. Swapping crew frequently causes a minor loss in cohesion (-5 per swap). It is better to hire new Drifters from the Ancient Archipelago to staff your second ship."
+  }
+]} />
+
+</Section>

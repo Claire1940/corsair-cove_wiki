@@ -2,6 +2,10 @@
   "de": {
     "building": [
       {
+        "slug": "corsair-cove-building",
+        "file": "corsair-cove-building"
+      },
+      {
         "slug": "corsair-cove-good-build",
         "file": "corsair-cove-good-build"
       },
@@ -32,6 +36,10 @@
         "file": "corsair-cove-cohesion-guide"
       },
       {
+        "slug": "corsair-cove-crew",
+        "file": "corsair-cove-crew"
+      },
+      {
         "slug": "corsair-cove-how-to-create-and-assign-fetchers",
         "file": "corsair-cove-how-to-create-and-assign-fetchers"
       },
@@ -46,6 +54,10 @@
       {
         "slug": "corsair-cove-how-to-move-pirates-to-different-camp",
         "file": "corsair-cove-how-to-move-pirates-to-different-camp"
+      },
+      {
+        "slug": "corsair-cove-shipwright",
+        "file": "corsair-cove-shipwright"
       }
     ],
     "features": [
@@ -54,8 +66,24 @@
         "file": "corsair-cove-ai"
       },
       {
+        "slug": "corsair-cove-altar",
+        "file": "corsair-cove-altar"
+      },
+      {
+        "slug": "corsair-cove-city-builder",
+        "file": "corsair-cove-city-builder"
+      },
+      {
         "slug": "corsair-cove-controller-support",
         "file": "corsair-cove-controller-support"
+      },
+      {
+        "slug": "corsair-cove-coop",
+        "file": "corsair-cove-coop"
+      },
+      {
+        "slug": "corsair-cove-mermaid",
+        "file": "corsair-cove-mermaid"
       },
       {
         "slug": "corsair-cove-multiplayer",
@@ -64,6 +92,10 @@
       {
         "slug": "corsair-cove-procedurally-generated",
         "file": "corsair-cove-procedurally-generated"
+      },
+      {
+        "slug": "corsair-cove-zipline",
+        "file": "corsair-cove-zipline"
       }
     ],
     "guide": [
@@ -72,16 +104,44 @@
         "file": "corsair-cove-beginner-guide"
       },
       {
+        "slug": "corsair-cove-cave",
+        "file": "corsair-cove-cave"
+      },
+      {
+        "slug": "corsair-cove-discord",
+        "file": "corsair-cove-discord"
+      },
+      {
         "slug": "corsair-cove-how-to-play",
         "file": "corsair-cove-how-to-play"
+      },
+      {
+        "slug": "corsair-cove-new-game",
+        "file": "corsair-cove-new-game"
       },
       {
         "slug": "corsair-cove-progression-guide",
         "file": "corsair-cove-progression-guide"
       },
       {
+        "slug": "corsair-cove-reddit",
+        "file": "corsair-cove-reddit"
+      },
+      {
+        "slug": "corsair-cove-soundtrack",
+        "file": "corsair-cove-soundtrack"
+      },
+      {
         "slug": "corsair-cove-tips-and-tricks",
         "file": "corsair-cove-tips-and-tricks"
+      },
+      {
+        "slug": "corsair-cove-voice-actor",
+        "file": "corsair-cove-voice-actor"
+      },
+      {
+        "slug": "corsair-cove-vs-windrose",
+        "file": "corsair-cove-vs-windrose"
       },
       {
         "slug": "corsair-cove-walkthrough",
@@ -89,6 +149,26 @@
       }
     ],
     "platforms": [
+      {
+        "slug": "corsair-cove-console",
+        "file": "corsair-cove-console"
+      },
+      {
+        "slug": "corsair-cove-epic-games",
+        "file": "corsair-cove-epic-games"
+      },
+      {
+        "slug": "corsair-cove-geforce-now",
+        "file": "corsair-cove-geforce-now"
+      },
+      {
+        "slug": "corsair-cove-gog",
+        "file": "corsair-cove-gog"
+      },
+      {
+        "slug": "corsair-cove-on-android",
+        "file": "corsair-cove-on-android"
+      },
       {
         "slug": "corsair-cove-ps5",
         "file": "corsair-cove-ps5"
@@ -120,6 +200,10 @@
     ],
     "release": [
       {
+        "slug": "corsair-cove-beta",
+        "file": "corsair-cove-beta"
+      },
+      {
         "slug": "corsair-cove-demo-length",
         "file": "corsair-cove-demo-length"
       },
@@ -132,18 +216,30 @@
         "file": "corsair-cove-denuvo"
       },
       {
+        "slug": "corsair-cove-early-access",
+        "file": "corsair-cove-early-access"
+      },
+      {
         "slug": "corsair-cove-price",
         "file": "corsair-cove-price"
       },
       {
         "slug": "corsair-cove-release-date",
         "file": "corsair-cove-release-date"
+      },
+      {
+        "slug": "corsair-cove-review",
+        "file": "corsair-cove-review"
       }
     ],
     "ships": [
       {
         "slug": "corsair-cove-dice-explained",
         "file": "corsair-cove-dice-explained"
+      },
+      {
+        "slug": "corsair-cove-harpoon",
+        "file": "corsair-cove-harpoon"
       },
       {
         "slug": "corsair-cove-how-to-change-ship",
@@ -154,18 +250,34 @@
         "file": "corsair-cove-manowar"
       },
       {
+        "slug": "corsair-cove-rowboat",
+        "file": "corsair-cove-rowboat"
+      },
+      {
+        "slug": "corsair-cove-sailing",
+        "file": "corsair-cove-sailing"
+      },
+      {
         "slug": "corsair-cove-ship-lost",
         "file": "corsair-cove-ship-lost"
       },
       {
         "slug": "corsair-cove-ship-upgrades",
         "file": "corsair-cove-ship-upgrades"
+      },
+      {
+        "slug": "corsair-cove-ships",
+        "file": "corsair-cove-ships"
       }
     ]
   },
   "en": {
     "building": [
       {
+        "slug": "corsair-cove-building",
+        "file": "corsair-cove-building"
+      },
+      {
         "slug": "corsair-cove-good-build",
         "file": "corsair-cove-good-build"
       },
@@ -196,6 +308,10 @@
         "file": "corsair-cove-cohesion-guide"
       },
       {
+        "slug": "corsair-cove-crew",
+        "file": "corsair-cove-crew"
+      },
+      {
         "slug": "corsair-cove-how-to-create-and-assign-fetchers",
         "file": "corsair-cove-how-to-create-and-assign-fetchers"
       },
@@ -210,6 +326,10 @@
       {
         "slug": "corsair-cove-how-to-move-pirates-to-different-camp",
         "file": "corsair-cove-how-to-move-pirates-to-different-camp"
+      },
+      {
+        "slug": "corsair-cove-shipwright",
+        "file": "corsair-cove-shipwright"
       }
     ],
     "features": [
@@ -218,8 +338,24 @@
         "file": "corsair-cove-ai"
       },
       {
+        "slug": "corsair-cove-altar",
+        "file": "corsair-cove-altar"
+      },
+      {
+        "slug": "corsair-cove-city-builder",
+        "file": "corsair-cove-city-builder"
+      },
+      {
         "slug": "corsair-cove-controller-support",
         "file": "corsair-cove-controller-support"
+      },
+      {
+        "slug": "corsair-cove-coop",
+        "file": "corsair-cove-coop"
+      },
+      {
+        "slug": "corsair-cove-mermaid",
+        "file": "corsair-cove-mermaid"
       },
       {
         "slug": "corsair-cove-multiplayer",
@@ -228,6 +364,10 @@
       {
         "slug": "corsair-cove-procedurally-generated",
         "file": "corsair-cove-procedurally-generated"
+      },
+      {
+        "slug": "corsair-cove-zipline",
+        "file": "corsair-cove-zipline"
       }
     ],
     "guide": [
@@ -236,16 +376,44 @@
         "file": "corsair-cove-beginner-guide"
       },
       {
+        "slug": "corsair-cove-cave",
+        "file": "corsair-cove-cave"
+      },
+      {
+        "slug": "corsair-cove-discord",
+        "file": "corsair-cove-discord"
+      },
+      {
         "slug": "corsair-cove-how-to-play",
         "file": "corsair-cove-how-to-play"
+      },
+      {
+        "slug": "corsair-cove-new-game",
+        "file": "corsair-cove-new-game"
       },
       {
         "slug": "corsair-cove-progression-guide",
         "file": "corsair-cove-progression-guide"
       },
       {
+        "slug": "corsair-cove-reddit",
+        "file": "corsair-cove-reddit"
+      },
+      {
+        "slug": "corsair-cove-soundtrack",
+        "file": "corsair-cove-soundtrack"
+      },
+      {
         "slug": "corsair-cove-tips-and-tricks",
         "file": "corsair-cove-tips-and-tricks"
+      },
+      {
+        "slug": "corsair-cove-voice-actor",
+        "file": "corsair-cove-voice-actor"
+      },
+      {
+        "slug": "corsair-cove-vs-windrose",
+        "file": "corsair-cove-vs-windrose"
       },
       {
         "slug": "corsair-cove-walkthrough",
@@ -253,6 +421,26 @@
       }
     ],
     "platforms": [
+      {
+        "slug": "corsair-cove-console",
+        "file": "corsair-cove-console"
+      },
+      {
+        "slug": "corsair-cove-epic-games",
+        "file": "corsair-cove-epic-games"
+      },
+      {
+        "slug": "corsair-cove-geforce-now",
+        "file": "corsair-cove-geforce-now"
+      },
+      {
+        "slug": "corsair-cove-gog",
+        "file": "corsair-cove-gog"
+      },
+      {
+        "slug": "corsair-cove-on-android",
+        "file": "corsair-cove-on-android"
+      },
       {
         "slug": "corsair-cove-ps5",
         "file": "corsair-cove-ps5"
@@ -284,6 +472,10 @@
     ],
     "release": [
       {
+        "slug": "corsair-cove-beta",
+        "file": "corsair-cove-beta"
+      },
+      {
         "slug": "corsair-cove-demo-length",
         "file": "corsair-cove-demo-length"
       },
@@ -296,18 +488,30 @@
         "file": "corsair-cove-denuvo"
       },
       {
+        "slug": "corsair-cove-early-access",
+        "file": "corsair-cove-early-access"
+      },
+      {
         "slug": "corsair-cove-price",
         "file": "corsair-cove-price"
       },
       {
         "slug": "corsair-cove-release-date",
         "file": "corsair-cove-release-date"
+      },
+      {
+        "slug": "corsair-cove-review",
+        "file": "corsair-cove-review"
       }
     ],
     "ships": [
       {
         "slug": "corsair-cove-dice-explained",
         "file": "corsair-cove-dice-explained"
+      },
+      {
+        "slug": "corsair-cove-harpoon",
+        "file": "corsair-cove-harpoon"
       },
       {
         "slug": "corsair-cove-how-to-change-ship",
@@ -318,18 +522,34 @@
         "file": "corsair-cove-manowar"
       },
       {
+        "slug": "corsair-cove-rowboat",
+        "file": "corsair-cove-rowboat"
+      },
+      {
+        "slug": "corsair-cove-sailing",
+        "file": "corsair-cove-sailing"
+      },
+      {
         "slug": "corsair-cove-ship-lost",
         "file": "corsair-cove-ship-lost"
       },
       {
         "slug": "corsair-cove-ship-upgrades",
         "file": "corsair-cove-ship-upgrades"
+      },
+      {
+        "slug": "corsair-cove-ships",
+        "file": "corsair-cove-ships"
       }
     ]
   },
   "fr": {
     "building": [
       {
+        "slug": "corsair-cove-building",
+        "file": "corsair-cove-building"
+      },
+      {
         "slug": "corsair-cove-good-build",
         "file": "corsair-cove-good-build"
       },
@@ -360,6 +580,10 @@
         "file": "corsair-cove-cohesion-guide"
       },
       {
+        "slug": "corsair-cove-crew",
+        "file": "corsair-cove-crew"
+      },
+      {
         "slug": "corsair-cove-how-to-create-and-assign-fetchers",
         "file": "corsair-cove-how-to-create-and-assign-fetchers"
       },
@@ -374,6 +598,10 @@
       {
         "slug": "corsair-cove-how-to-move-pirates-to-different-camp",
         "file": "corsair-cove-how-to-move-pirates-to-different-camp"
+      },
+      {
+        "slug": "corsair-cove-shipwright",
+        "file": "corsair-cove-shipwright"
       }
     ],
     "features": [
@@ -382,8 +610,24 @@
         "file": "corsair-cove-ai"
       },
       {
+        "slug": "corsair-cove-altar",
+        "file": "corsair-cove-altar"
+      },
+      {
+        "slug": "corsair-cove-city-builder",
+        "file": "corsair-cove-city-builder"
+      },
+      {
         "slug": "corsair-cove-controller-support",
         "file": "corsair-cove-controller-support"
+      },
+      {
+        "slug": "corsair-cove-coop",
+        "file": "corsair-cove-coop"
+      },
+      {
+        "slug": "corsair-cove-mermaid",
+        "file": "corsair-cove-mermaid"
       },
       {
         "slug": "corsair-cove-multiplayer",
@@ -392,6 +636,10 @@
       {
         "slug": "corsair-cove-procedurally-generated",
         "file": "corsair-cove-procedurally-generated"
+      },
+      {
+        "slug": "corsair-cove-zipline",
+        "file": "corsair-cove-zipline"
       }
     ],
     "guide": [
@@ -400,16 +648,44 @@
         "file": "corsair-cove-beginner-guide"
       },
       {
+        "slug": "corsair-cove-cave",
+        "file": "corsair-cove-cave"
+      },
+      {
+        "slug": "corsair-cove-discord",
+        "file": "corsair-cove-discord"
+      },
+      {
         "slug": "corsair-cove-how-to-play",
         "file": "corsair-cove-how-to-play"
+      },
+      {
+        "slug": "corsair-cove-new-game",
+        "file": "corsair-cove-new-game"
       },
       {
         "slug": "corsair-cove-progression-guide",
         "file": "corsair-cove-progression-guide"
       },
       {
+        "slug": "corsair-cove-reddit",
+        "file": "corsair-cove-reddit"
+      },
+      {
+        "slug": "corsair-cove-soundtrack",
+        "file": "corsair-cove-soundtrack"
+      },
+      {
         "slug": "corsair-cove-tips-and-tricks",
         "file": "corsair-cove-tips-and-tricks"
+      },
+      {
+        "slug": "corsair-cove-voice-actor",
+        "file": "corsair-cove-voice-actor"
+      },
+      {
+        "slug": "corsair-cove-vs-windrose",
+        "file": "corsair-cove-vs-windrose"
       },
       {
         "slug": "corsair-cove-walkthrough",
@@ -417,6 +693,26 @@
       }
     ],
     "platforms": [
+      {
+        "slug": "corsair-cove-console",
+        "file": "corsair-cove-console"
+      },
+      {
+        "slug": "corsair-cove-epic-games",
+        "file": "corsair-cove-epic-games"
+      },
+      {
+        "slug": "corsair-cove-geforce-now",
+        "file": "corsair-cove-geforce-now"
+      },
+      {
+        "slug": "corsair-cove-gog",
+        "file": "corsair-cove-gog"
+      },
+      {
+        "slug": "corsair-cove-on-android",
+        "file": "corsair-cove-on-android"
+      },
       {
         "slug": "corsair-cove-ps5",
         "file": "corsair-cove-ps5"
@@ -448,6 +744,10 @@
     ],
     "release": [
       {
+        "slug": "corsair-cove-beta",
+        "file": "corsair-cove-beta"
+      },
+      {
         "slug": "corsair-cove-demo-length",
         "file": "corsair-cove-demo-length"
       },
@@ -460,18 +760,30 @@
         "file": "corsair-cove-denuvo"
       },
       {
+        "slug": "corsair-cove-early-access",
+        "file": "corsair-cove-early-access"
+      },
+      {
         "slug": "corsair-cove-price",
         "file": "corsair-cove-price"
       },
       {
         "slug": "corsair-cove-release-date",
         "file": "corsair-cove-release-date"
+      },
+      {
+        "slug": "corsair-cove-review",
+        "file": "corsair-cove-review"
       }
     ],
     "ships": [
       {
         "slug": "corsair-cove-dice-explained",
         "file": "corsair-cove-dice-explained"
+      },
+      {
+        "slug": "corsair-cove-harpoon",
+        "file": "corsair-cove-harpoon"
       },
       {
         "slug": "corsair-cove-how-to-change-ship",
@@ -482,18 +794,34 @@
         "file": "corsair-cove-manowar"
       },
       {
+        "slug": "corsair-cove-rowboat",
+        "file": "corsair-cove-rowboat"
+      },
+      {
+        "slug": "corsair-cove-sailing",
+        "file": "corsair-cove-sailing"
+      },
+      {
         "slug": "corsair-cove-ship-lost",
         "file": "corsair-cove-ship-lost"
       },
       {
         "slug": "corsair-cove-ship-upgrades",
         "file": "corsair-cove-ship-upgrades"
+      },
+      {
+        "slug": "corsair-cove-ships",
+        "file": "corsair-cove-ships"
       }
     ]
   },
   "ja": {
     "building": [
       {
+        "slug": "corsair-cove-building",
+        "file": "corsair-cove-building"
+      },
+      {
         "slug": "corsair-cove-good-build",
         "file": "corsair-cove-good-build"
       },
@@ -524,6 +852,10 @@
         "file": "corsair-cove-cohesion-guide"
       },
       {
+        "slug": "corsair-cove-crew",
+        "file": "corsair-cove-crew"
+      },
+      {
         "slug": "corsair-cove-how-to-create-and-assign-fetchers",
         "file": "corsair-cove-how-to-create-and-assign-fetchers"
       },
@@ -538,6 +870,10 @@
       {
         "slug": "corsair-cove-how-to-move-pirates-to-different-camp",
         "file": "corsair-cove-how-to-move-pirates-to-different-camp"
+      },
+      {
+        "slug": "corsair-cove-shipwright",
+        "file": "corsair-cove-shipwright"
       }
     ],
     "features": [
@@ -546,8 +882,24 @@
         "file": "corsair-cove-ai"
       },
       {
+        "slug": "corsair-cove-altar",
+        "file": "corsair-cove-altar"
+      },
+      {
+        "slug": "corsair-cove-city-builder",
+        "file": "corsair-cove-city-builder"
+      },
+      {
         "slug": "corsair-cove-controller-support",
         "file": "corsair-cove-controller-support"
+      },
+      {
+        "slug": "corsair-cove-coop",
+        "file": "corsair-cove-coop"
+      },
+      {
+        "slug": "corsair-cove-mermaid",
+        "file": "corsair-cove-mermaid"
       },
       {
         "slug": "corsair-cove-multiplayer",
@@ -556,6 +908,10 @@
       {
         "slug": "corsair-cove-procedurally-generated",
         "file": "corsair-cove-procedurally-generated"
+      },
+      {
+        "slug": "corsair-cove-zipline",
+        "file": "corsair-cove-zipline"
       }
     ],
     "guide": [
@@ -564,16 +920,44 @@
         "file": "corsair-cove-beginner-guide"
       },
       {
+        "slug": "corsair-cove-cave",
+        "file": "corsair-cove-cave"
+      },
+      {
+        "slug": "corsair-cove-discord",
+        "file": "corsair-cove-discord"
+      },
+      {
         "slug": "corsair-cove-how-to-play",
         "file": "corsair-cove-how-to-play"
+      },
+      {
+        "slug": "corsair-cove-new-game",
+        "file": "corsair-cove-new-game"
       },
       {
         "slug": "corsair-cove-progression-guide",
         "file": "corsair-cove-progression-guide"
       },
       {
+        "slug": "corsair-cove-reddit",
+        "file": "corsair-cove-reddit"
+      },
+      {
+        "slug": "corsair-cove-soundtrack",
+        "file": "corsair-cove-soundtrack"
+      },
+      {
         "slug": "corsair-cove-tips-and-tricks",
         "file": "corsair-cove-tips-and-tricks"
+      },
+      {
+        "slug": "corsair-cove-voice-actor",
+        "file": "corsair-cove-voice-actor"
+      },
+      {
+        "slug": "corsair-cove-vs-windrose",
+        "file": "corsair-cove-vs-windrose"
       },
       {
         "slug": "corsair-cove-walkthrough",
@@ -581,6 +965,26 @@
       }
     ],
     "platforms": [
+      {
+        "slug": "corsair-cove-console",
+        "file": "corsair-cove-console"
+      },
+      {
+        "slug": "corsair-cove-epic-games",
+        "file": "corsair-cove-epic-games"
+      },
+      {
+        "slug": "corsair-cove-geforce-now",
+        "file": "corsair-cove-geforce-now"
+      },
+      {
+        "slug": "corsair-cove-gog",
+        "file": "corsair-cove-gog"
+      },
+      {
+        "slug": "corsair-cove-on-android",
+        "file": "corsair-cove-on-android"
+      },
       {
         "slug": "corsair-cove-ps5",
         "file": "corsair-cove-ps5"
@@ -612,6 +1016,10 @@
     ],
     "release": [
       {
+        "slug": "corsair-cove-beta",
+        "file": "corsair-cove-beta"
+      },
+      {
         "slug": "corsair-cove-demo-length",
         "file": "corsair-cove-demo-length"
       },
@@ -624,18 +1032,30 @@
         "file": "corsair-cove-denuvo"
       },
       {
+        "slug": "corsair-cove-early-access",
+        "file": "corsair-cove-early-access"
+      },
+      {
         "slug": "corsair-cove-price",
         "file": "corsair-cove-price"
       },
       {
         "slug": "corsair-cove-release-date",
         "file": "corsair-cove-release-date"
+      },
+      {
+        "slug": "corsair-cove-review",
+        "file": "corsair-cove-review"
       }
     ],
     "ships": [
       {
         "slug": "corsair-cove-dice-explained",
         "file": "corsair-cove-dice-explained"
+      },
+      {
+        "slug": "corsair-cove-harpoon",
+        "file": "corsair-cove-harpoon"
       },
       {
         "slug": "corsair-cove-how-to-change-ship",
@@ -646,12 +1066,24 @@
         "file": "corsair-cove-manowar"
       },
       {
+        "slug": "corsair-cove-rowboat",
+        "file": "corsair-cove-rowboat"
+      },
+      {
+        "slug": "corsair-cove-sailing",
+        "file": "corsair-cove-sailing"
+      },
+      {
         "slug": "corsair-cove-ship-lost",
         "file": "corsair-cove-ship-lost"
       },
       {
         "slug": "corsair-cove-ship-upgrades",
         "file": "corsair-cove-ship-upgrades"
+      },
+      {
+        "slug": "corsair-cove-ships",
+        "file": "corsair-cove-ships"
       }
     ]
   }

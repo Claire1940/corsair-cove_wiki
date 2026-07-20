@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Schiffsbauerin von Corsair Cove: Soraya Schiffsbau-Leitfaden",
+  description: "Erfahren Sie, wie Sie die Schiffsbauerin Soraya in Corsair Cove freischalten und nutzen, um Boote anzupassen, zu verbessern und Ihren Segelfortschritt im Jahr 2026 voranzutreiben.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Shipwright",
+  date: "2026-07-21",
+  author: "Corsair Cove Wiki-Team",
+  keywords: "Schiffsbauer, Soraya, Corsair Cove, Segeln, Schiffs-Upgrades, Schiffsbau"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Schiffsbauerin von Corsair Cove**: Schiffsbauerin Soraya ist der zentrale NPC für Upgrades und Anpassungen von Schiffen im Hafen von Corsair Cove.
+- **Freischaltbedingungen**: Der Zugriff auf ihre vollen Upgrade-Dienste erfordert **Segeln Stufe 40** und den Abschluss der Quest **The Corsair Cove**.
+- **Eingeschränkter Zugriff**: Wenn Sie die Stufen- und Questanforderungen nicht erfüllen, kann Soraya nur dazu genutzt werden, Ihre bestehenden Boote zu zerstören.
+- **Anpassungszentrum**: Sie bietet Zugang zur Werft, wo Spieler Rümpfe, Steuer, Masten, Segel, Kiele und Verzierungen modifizieren können.
+- **Schlüsselmechanik**: Ihr Boot muss physisch im Hafen von Corsair Cove angedockt sein, um den Anpassungsprozess zu starten.
+</Callout>
+
+<Section icon={Map} title="Freischaltung der Schiffsbauerin Soraya in Corsair Cove">
+
+Schiffsbauerin Soraya (NPC-ID 15373) ist ein wichtiger Nicht-Spieler-Charakter im südlichen Hafen von Corsair Cove. Als primäre **Schiffsbauerin von Corsair Cove** spielt sie eine zentrale Rolle beim Fortschritt der Fertigkeit Segeln, da sie es Spielern ermöglicht, ihre Schiffe von einfachen Flößen zu fortgeschrittenen Slups aufzurüsten. Spieler können jedoch nicht sofort nach ihrer Ankunft auf ihr volles Dienstleistungsangebot zugreifen.
+
+Um ihre Upgrade-Fähigkeiten nutzen zu können, müssen Sie bestimmte Meilensteine bei Fertigkeiten und Quests erreichen. Ohne diese Voraussetzungen ist Sorayas Nutzen stark eingeschränkt und bietet lediglich die Option, Ihr aktuelles Wasserfahrzeug zu zerlegen oder zu zerstören.
+
+| Anforderung | Typ | Beschreibung |
+| --- | --- | --- |
+| **Segeln Stufe 40** | Fertigkeit | Erforderlich, um im Hafen anzulegen und auf Anpassungsoptionen zuzugreifen |
+| **The Corsair Cove** | Quest | Muss abgeschlossen sein, um alle NPC-Interaktionen in diesem Gebiet freizuschalten |
+| **Angedocktes Schiff** | Mechanik | Ihr Boot muss im Hafen von Corsair Cove angedockt sein |
+
+<Callout type="warning" title="Zugriffsbeschränkung">
+Der Versuch, mit Soraya über Upgrades zu sprechen, bevor Sie Segeln Stufe 40 erreicht oder die erforderliche Quest abgeschlossen haben, führt zu einer Dialogschleife, in der sie nur anbietet, Ihr aktives Boot zu zerstören. Stellen Sie sicher, dass Ihre Werte aktuell sind, bevor Sie zur Bucht reisen.
+</Callout>
+
+Der Zugang zu Corsair Cove selbst kann über das Charterschiff-System oder über den Hafen südlich der Feldip Hills erfolgen. Sobald das Gebiet freigeschaltet ist, findet man Soraya in der Nähe der Docks, direkt neben der Schiffsbauplattform.
+
+</Section>
+
+<Section icon={Swords} title="Anpassung und Upgrade Ihres Schiffes">
+
+Sobald die Freischaltbedingungen erfüllt sind, öffnet die Interaktion mit der **Schiffsbauerin von Corsair Cove** den Kern-Schiffsbau-Zyklus. Durch Auswahl der Dialogoption **"Customise-boat"** werden Spieler sofort in das lokalisierte Werft-Interface transportiert. In diesem speziellen Bereich können Sie die strukturellen und kosmetischen Aspekte Ihres Schiffes modifizieren.
+
+Das Upgrade-System unterteilt Schiffe in drei primäre Stufen. Jede Stufe erfordert ein anderes Basis-Rumpfdesign und bietet unterschiedliche Werte für Geschwindigkeit, Haltbarkeit und Besatzungskapazität.
+
+<CardGrid cols={3}>
+  <Card title="Floß (Raft)">
+    - **Basis-Haltbarkeit**: Niedrig
+    - **Seetüchtigkeit**: Nur Küstengewässer
+    - **Upgrade-Pfad**: Begrenzte Anpassungsmöglichkeiten
+  </Card>
+  <Card title="Skiff">
+    - **Basis-Haltbarkeit**: Moderat
+    - **Seetüchtigkeit**: Hochseetauglich
+    - **Upgrade-Pfad**: Standard-Steuer- und Kiel-Upgrades
+  </Card>
+  <Card title="Slup (Sloop)">
+    - **Basis-Haltbarkeit**: Hoch
+    - **Seetüchtigkeit**: Tiefsee-Erkundung
+    - **Upgrade-Pfad**: Voller Zugriff auf alle Spezialteile
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Anlegepflicht">
+Stellen Sie immer sicher, dass Ihr Boot vollständig am Kai von Corsair Cove angedockt ist, bevor Sie mit Soraya sprechen. Wenn Ihr Schiff vor der Küste ankert oder in einem anderen Hafen angedockt ist, ist die Option „Customise-boat“ vorübergehend nicht verfügbar.
+</Callout>
+
+Das Upgrade Ihres Schiffes erfordert sowohl die Rohmaterialien für die gewünschten Komponenten als auch eine geringe Gebühr in Münzen oder lokalen Ressourcen. Die Schiffsbauerin übernimmt den Zusammenbau sofort, sobald die Materialien bereitgestellt wurden.
+
+| Schiffstyp | Basis-Geschwindigkeit | Besatzungskapazität | Primärmaterial |
+| --- | --- | --- | --- |
+| **Floß** | Langsam | 1 Spieler | Holzscheite |
+| **Skiff** | Mittel | 1-2 Spieler | Eichenplanken |
+| **Slup** | Schnell | 1-4 Spieler | Teak- / Mahagoniplanken |
+
+</Section>
+
+<Section icon={Shield} title="Kernkomponenten und Materialien für den Schiffsbau">
+
+Das Upgrade Ihres Schiffes ist nicht nur kosmetisch; es wirkt sich direkt auf Ihre Leistung bei Segelaktivitäten aus. Soraya ermöglicht es Ihnen, vier strukturelle Kernkomponenten zu verbessern: Rümpfe, Steuer, Masten/Segel und Kiele. Höherwertige Materialien erhöhen die Widerstandsfähigkeit Ihres Schiffes gegen Umweltgefahren und verbessern die Navigationsgeschwindigkeit.
+
+Rümpfe bestimmen die allgemeine Gesundheit Ihres Schiffes, während Steuer und Kiele die Wendigkeit und Stabilität in unruhigen Gewässern verbessern. Masten und Segel bestimmen Ihre Beschleunigung und Höchstgeschwindigkeit.
+
+| Komponente | Verfügbare Stufen | Benötigte Schlüsselmaterialien |
+| --- | --- | --- |
+| **Rümpfe** | Holz, Eiche, Teak, Mahagoni, Kampfer, Eisenholz, Rosenholz | Planken, Nägel, Teer |
+| **Steuer** | Bronze, Eisen, Stahl, Mithril, Adamant, Runen, Drachen | Metallbarren, Eichenplanken |
+| **Kiele** | Bronze, Eisen, Stahl, Mithril, Adamant, Runen, Drachen | Schwere Metallplatten, Bolzen |
+| **Masten & Segel** | Holz/Leinen, Eiche/Leinen, Teak/Segeltuch, Mahagoni/Segeltuch, Rosenholz/Baumwolle | Scheite, Segeltuch, Baumwollstoff |
+
+<Callout type="info" title="Materialbeschaffung">
+Hochwertige Rümpfe wie Eisenholz und Rosenholz erfordern seltene Hölzer, die mit den Fertigkeiten Holzfällerei und Baukunst verarbeitet werden müssen, bevor sie zur Schiffsbauerin gebracht werden können.
+</Callout>
+
+Das Upgrade dieser Kernteile erfordert eine sequentielle Abfolge. Beispielsweise können Sie ein Runen-Steuer nicht direkt an einem einfachen Floß installieren; der Rumpf muss zuerst zu einer Slup aufgerüstet werden, um das Gewicht der höherwertigen Metallkomponenten tragen zu können.
+
+</Section>
+
+<Section icon={Sparkles} title="Ästhetische Anpassung und spezielle Add-ons">
+
+Über die strukturelle Integrität hinaus bietet die **Schiffsbauerin von Corsair Cove** umfangreiche kosmetische Anpassungsmöglichkeiten. Diese Änderungen ermöglichen es Spielern, ihre Schiffe mit einzigartigen Verzierungen, Segelmustern und funktionalen Add-ons zu personalisieren, die ihre Erfolge widerspiegeln.
+
+Verzierungen (Trims) können an der Außenseite des Rumpfes angebracht werden und repräsentieren verschiedene Fraktionen, Gilden oder ozeanische Erfolge. Segelmuster ändern die Farbe und das Design Ihrer Hauptsegel.
+
+| Verzierungstyp | Visueller Stil | Freischaltbedingung |
+| --- | --- | --- |
+| **Hai / Tintig** | Aquatische Raubtiermotive | Ruf in der Fischergilde oder Drops |
+| **Saradomin / Guthix / Zamorak** | Ausrichtung auf Götterfraktionen | Belohnungen aus Hinweisschriftrollen oder Tempelgunst |
+| **Händler / Angler** | Professionelle Gebrauchsdesigns | Kommerzielle Segelverträge |
+| **Sandig / Berger** | Küsten- und Bergungsthemen | Lokale Aktivitäten in Corsair Cove |
+
+Zusätzlich zu kosmetischen Verzierungen können Spieler spezialisierte Utility-Upgrades installieren, um bei hochstufigen Segelinhalten zu helfen:
+
+- **Ewige Opferschale**: Bietet konstantes Licht in dunklen Nebelzonen und verhindert Navigationsstrafen.
+- **Sturmjäger**: Verbessert die Stabilität bei schweren Wetterereignissen und tropischen Stürmen.
+- **Sumpfkreuzer / Kristallgleiter**: Spezielle Anpassungen für die Navigation in bestimmten regionalen Gewässern.
+
+<Callout type="success" title="Kosmetische Synergie">
+Das Anbringen passender Verzierungen und Segelmuster gewährt zwar keine statistischen Boni, erhöht aber Ihr Ansehen bei den lokalen Hafenbehörden, was gelegentlich ermäßigte Reparaturraten freischaltet.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung zur Bootsmodifikation">
+
+Die Modifikation Ihres Schiffes an den Docks von Corsair Cove folgt einem strengen Verfahren. Befolgen Sie diese Schritte, um sicherzustellen, dass Ihre Materialien korrekt verarbeitet werden, ohne den Fortschritt zu verlieren.
+
+<Steps>
+  <Step num="1" title="Anforderungen überprüfen">
+    Bestätigen Sie, dass Sie Segeln Stufe 40 erreicht und die Quest „The Corsair Cove“ abgeschlossen haben. Stellen Sie sicher, dass Ihr Schiff am südlichen Kai angedockt ist.
+  </Step>
+  <Step num="2" title="Materialien sammeln">
+    Nehmen Sie die erforderlichen Planken, Metallbarren und Segel von Ihrer Bank. Behalten Sie diese in Ihrem Inventar, bevor Sie mit dem NPC sprechen.
+  </Step>
+  <Step num="3" title="Anpassung einleiten">
+    Sprechen Sie mit Schiffsbauerin Soraya und wählen Sie die Option **"Customise-boat"**. Sie werden zum Werft-Interface weitergeleitet.
+  </Step>
+  <Step num="4" title="Upgrades anwenden">
+    Wählen Sie die gewünschte Komponentenkategorie (Rumpf, Steuer, Mast oder Kiel) und bestätigen Sie das Upgrade. Die Materialien werden automatisch verbraucht.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Warnung vor Dekonstruktion">
+Wenn Sie die Option zum Zerstören Ihres Bootes wählen, werden alle angewendeten Upgrades dauerhaft gelöscht und Sie erhalten nur einen Bruchteil der Rohmaterialien zurück. Nutzen Sie diese Option nur, wenn Sie beabsichtigen, eine völlig andere Schiffsklasse neu zu bauen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Segelfortschrittsziele und FAQ">
+
+Um Ihre Effizienz bei der Arbeit mit der Schiffsbauerin zu maximieren, führen Sie eine klare Checkliste Ihrer kurz- und langfristigen Schiffsbauziele.
+
+<Checklist
+  id="shipwright-goals"
+  title="Meilensteine im Schiffsbau:"
+  items={[
+    "Erreichen Sie Segeln Stufe 40, um Sorayas Upgrade-Optionen freizuschalten",
+    "Schließen Sie die Quest „The Corsair Cove“ für den vollen Hafenzugang ab",
+    "Rüsten Sie von einem einfachen Floß auf ein Skiff mit Eichenplanken auf",
+    "Erwerben Sie ein Stahl-Steuer und einen Stahl-Kiel für Stabilität in der mittleren Stufe",
+    "Sammeln Sie seltene Baumwollsegel, um die Beschleunigung des Schiffes zu verbessern"
+  ]}
+/>
+
+<Callout type="tip" title="Optimierungstipp">
+Halten Sie einen Stapel Teleporte nach Corsair Cove (z. B. Feldip Hills-Teleport oder Mittel für das Standard-Charterschiff) in Ihrem Inventar bereit, um die Reisezeit zwischen der Bank und dem Besuch der Schiffsbauerin zu minimieren.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wo genau befindet sich Schiffsbauerin Soraya?",
+    answer: "Soraya befindet sich an den südlichen Docks von Corsair Cove, in der Nähe der Charterschiff-Plattform. Ihre NPC-ID ist 15373."
+  },
+  {
+    question: "Kann ich mein Boot auch ohne Segeln Stufe 40 aufrüsten?",
+    answer: "Nein. Ohne Segeln Stufe 40 und den Abschluss der Quest „The Corsair Cove“ wird Soraya Ihnen nur anbieten, Ihr bestehendes Boot zu zerstören."
+  },
+  {
+    question: "Was passiert mit meinen Upgrades, wenn ich mein Boot zerstöre?",
+    answer: "Das Zerstören Ihres Bootes ist dauerhaft. Sie verlieren die aktuelle Konfiguration und nur ein kleiner Teil der Basismaterialien wird Ihnen zurückgegeben."
+  },
+  {
+    question: "Wie greife ich auf den Anpassungsbildschirm der Werft zu?",
+    answer: "Sprechen Sie mit Soraya, während Ihr Boot in Corsair Cove angedockt ist, und wählen Sie die Dialogoption 'Customise-boat', um zur Werft transportiert zu werden."
+  }
+]} />
+
+</Section>

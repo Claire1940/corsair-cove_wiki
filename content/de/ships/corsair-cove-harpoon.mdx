@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Harpune: Leitfaden für effizientes Angeln & Ressourcen",
+  description: "Meistern Sie die Harpunen-Angelplätze in Corsair Cove im Jahr 2026. Erfahren Sie, wie Sie das Ressourcengebiet freischalten, Schwertfische und Thunfische fangen und Ihre F2P-Angelrouten optimieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Harpoon+Guide",
+  date: "2026-07-21",
+  author: "corsair cove Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Corsair Cove Harpune**: Das Ressourcengebiet verfügt über 3 spezielle Plätze für Harpunen und Hummerkörbe auf einem privaten Steg.
+- **Freischaltungsbedingung**: Sie müssen das Quest **Der Drachentöter I** (Dragon Slayer I) abgeschlossen haben und mit Haris am Tor sprechen, um Zugang zu erhalten.
+- **Beste Strategie**: Nutzen Sie das Charterschiff-System für schnelleres Bankwesen oder laufen Sie nach Rimmington, wenn Sie kosteneffizient spielen möchten.
+- **Kritische Gefahr**: Hochstufige Ogress-Schamanen und -Krieger sind aggressiv; bleiben Sie in der Nähe des Stegs, um Kämpfe zu vermeiden.
+</Callout>
+
+<Section icon={Map} title="Freischaltung des Ressourcengebiets von Corsair Cove">
+
+Die **Corsair Cove Harpunen**-Angelplätze befinden sich in einer umzäunten, ressourcenreichen Zone in der nordwestlichen Ecke von Corsair Cove. Dieser Bereich wurde speziell entwickelt, um hochstufigen Free-to-Play (F2P) Spielern eine tragfähige Alternative zu den überfüllten Docks von Musa Point auf Karamja zu bieten. Im Gegensatz zu den öffentlichen Docks erfordert dieser Bereich jedoch einen erheblichen Fortschritt für den Zugang.
+
+Um das umzäunte Gebiet zu betreten, müssen die Spieler das legendäre Quest **Der Drachentöter I** abgeschlossen haben. Sobald das Quest beendet ist, müssen Sie den NPC namens **Haris** finden, der am Eingang Wache hält. Wenn Sie nach Ihrem Sieg über Elvarg mit ihm sprechen, gewährt er Ihnen dauerhaften Zugang zu den oberirdischen und unterirdischen Teilen der Bucht.
+
+| Voraussetzung | Typ | Beschreibung |
+| --- | --- | --- |
+| **Der Drachentöter I** | Quest | Muss vollständig abgeschlossen sein |
+| **Haris** | NPC | Sprechen Sie mit ihm am Tor zur Freischaltung |
+| **Der Fluch des Korsaren** | Quest | Erforderlich, um Corsair Cove ursprünglich zu bereisen |
+| **Fischen Stufe 35** | Fertigkeit | Erforderlich für Harpune (Thunfisch) |
+| **Fischen Stufe 50** | Fertigkeit | Erforderlich für Harpune (Schwertfisch) |
+
+<Callout type="tip" title="Profi-Tipp">
+Wenn Sie sich bereits im Corsair Cove Dungeon befinden, können Sie das Ressourcengebiet auch durch ein Tor im nördlichen Abschnitt der Höhle betreten, vorausgesetzt, Sie haben zuvor oberirdisch mit Haris gesprochen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Angelmechanik und Effizienz">
+
+Der Hauptanziehungspunkt für viele Spieler ist der Steg am westlichen Rand des Ressourcengebiets. Hier stehen **3 Harpunen-/Käfig-Angelplätze** zur Verfügung. An diesen Plätzen können Spieler rohen Thunfisch und rohen Schwertfisch mit einer Harpune fangen oder rohen Hummer mit einem Hummerkorb.
+
+In der aktuellen Meta von 2026 werden diese Plätze gegenüber Karamja bevorzugt, da der Steg deutlich ruhiger ist, was bedeutet, dass sich die Angelplätze aufgrund der geringeren Spielerdichte seltener bewegen. Dies führt zu mehr "AFK"-Zeit (Away From Keyboard), was es zu einer exzellenten Wahl für Spieler macht, die Multitasking betreiben oder eine entspannte Erfahrung suchen.
+
+| Fischart | Stufe | EP pro Fang | Benötigtes Werkzeug |
+| --- | --- | --- | --- |
+| **Roher Thunfisch** | 35 | 80 | Harpune |
+| **Roher Schwertfisch** | 50 | 100 | Harpune |
+| **Roher Hummer** | 40 | 90 | Hummerkorb |
+
+<CardGrid cols={3}>
+  <Card title="Harpunen-Strategie">
+    - **Schnellste EP** für mittlere Stufen
+    - Liefert Thunfisch und Schwertfisch
+    - Erfordert eine Harpune
+  </Card>
+  <Card title="Hummer-Strategie">
+    - **Beständigster** Gewinn
+    - Hummer lassen sich teurer verkaufen als Thunfisch
+    - Erfordert einen Hummerkorb
+  </Card>
+  <Card title="Bank-Route">
+    - Charterschiffe nach Port Sarim nutzen
+    - Zu Fuß nach Rimmington gehen
+    - Mythen-Gilde nutzen (nur P2P)
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Inventar-Management">
+Denken Sie immer daran, Ihre Harpune mitzubringen! Im Gegensatz zu einigen modernen Werkzeugen muss die Standard-OSRS-Harpune in Ihrem Inventar sein oder ausgerüstet sein (wenn Sie die entsprechende Angriffsstufe haben), um an diesen Plätzen zu funktionieren.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Vergleichende Analyse: Corsair Cove vs. Karamja">
+
+Jahrelang war Musa Point auf Karamja der einzige Ort für F2P-Spieler, um eine Harpune für Schwertfische zu benutzen. Die Einführung des Ressourcengebiets von Corsair Cove hat die Landschaft des F2P-Fischens verändert. Unten finden Sie einen Vergleich der beiden beliebtesten Angelzentren Stand 2026.
+
+| Merkmal | Corsair Cove | Musa Point (Karamja) |
+| --- | --- | --- |
+| **Zugänglichkeit** | Erfordert Der Drachentöter I | Offen für alle |
+| **Spielerdichte** | Niedrig bis Mittel | Sehr hoch |
+| **Bank-Entfernung** | Moderat (Charter/Fußweg) | Moderat (Styles/Port Sarim) |
+| **Aggressive Mobs** | Ja (Ogresses in der Nähe) | Nein |
+| **Zusätzliche Ressourcen** | Ahorn, Eibe, Mithril | Keine |
+
+Während Karamja für neue Spieler leichter zu erreichen ist, bieten die **Corsair Cove Harpunen**-Plätze eine viel bessere Erfahrung für Veteranen. Das Vorhandensein von Ahornbäumen (die einzigen in F2P) und Eiben in der Nähe bedeutet, dass Sie zwischen Fischen und Holzfällerei wechseln können, ohne das umzäunte Gebiet zu verlassen.
+
+<Callout type="success" title="Effizienzsteigerung">
+Spieler, die die Plätze in Corsair Cove nutzen, berichten von einer Steigerung der Fänge pro Stunde um 10-15 %, einfach weil die Angelplätze nicht so schnell durch massive Spielergruppen erschöpft werden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navigieren durch die Gefahren des Ressourcengebiets">
+
+Während der Steg selbst eine sichere Zone ist, wird der Weg zu den **Corsair Cove Harpunen**-Plätzen und den umliegenden Ressourcen von mächtigen Ogresses bewacht. Ogress-Krieger und Ogress-Schamanen durchstreifen den nördlichen Teil des Ressourcengebiets und den darunter liegenden Dungeon.
+
+Wenn Sie ein Spieler mit niedriger Stufe sind, der "Der Drachentöter I" schnell abgeschlossen hat, seien Sie extrem vorsichtig, wenn Sie vom Tor zum Steg gehen. Die Ogresses sind aggressiv und können sowohl mit Nahkampf als auch mit Magie hart treffen.
+
+| Gegner | Stufe | Kampfstil | Aggressiv? |
+| --- | --- | --- | --- |
+| **Ogress-Krieger** | 82 | Nahkampf | Ja |
+| **Ogress-Schamane** | 82 | Magie | Ja |
+| **Kapitän Tock** | N/A | NPC (Freundlich) | Nein |
+
+<Callout type="info" title="Sicherheit geht vor">
+Der Angelsteg liegt weit genug südlich, dass die Ogresses Sie nicht angreifen, während Sie fischen. Die Gefahr besteht nur während des Transits vom Tor oder dem Dungeoneingang zum Ufer.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Schritt-für-Schritt-Zugangsleitfaden">
+
+Wenn Sie bereit sind, Ihre Reise zur Bucht zu beginnen, folgen Sie diesen Schritten, um sicherzustellen, dass Sie keine Voraussetzungen übersehen.
+
+<Steps>
+  <Step num="1" title="Schließen Sie 'Der Fluch des Korsaren' ab">
+    Bevor Sie das Gebiet überhaupt besuchen können, müssen Sie dieses kurze Quest abschließen, um das Vertrauen der Einheimischen zu gewinnen und Zugang zum Boot von Rimmington zu erhalten.
+  </Step>
+  <Step num="2" title="Erschlagen Sie den Drachen">
+    Schließen Sie **Der Drachentöter I** ab. Dies ist die entscheidende Hürde für das Ressourcengebiet. Sie müssen als Champion der Champions-Gilde anerkannt sein.
+  </Step>
+  <Step num="3" title="Finden Sie Haris">
+    Reisen Sie mit dem Boot von Rimmington oder einem Charterschiff nach Corsair Cove. Gehen Sie nach Westen zum umzäunten Bereich und sprechen Sie mit Haris.
+  </Step>
+  <Step num="4" title="Ausrüstung vorbereiten">
+    Bringen Sie Ihre Harpune, Ihren Hummerkorb und einige Goldmünzen für das Charterschiff mit, wenn Sie Ihren Fang schnell banken möchten.
+  </Step>
+</Steps>
+
+| Reisemethode | Kosten | Zielort |
+| --- | --- | --- |
+| **Schiffsjunge Colin** | Kostenlos (mit Quest) | Rimmington nach Cove |
+| **Charterschiff** | Variable GP | Port Sarim/Catherby nach Cove |
+| **Zu Fuß gehen** | Kostenlos | Cove nach Rimmington |
+
+<Callout type="tip" title="Bank-Strategie">
+Wenn Sie eine ausreichend hohe Magiestufe haben, ist das Teleportieren nach Falador und der anschließende Fußweg nach Rimmington, um das Boot zurückzunehmen, eine nachhaltige Methode, um Ihre Schwertfische zu banken, ohne zu viel für Chartergebühren auszugeben.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für den Abschluss">
+
+Bevor Sie sich für eine lange Angelsitzung an den **Corsair Cove Harpunen**-Plätzen niederlassen, stellen Sie sicher, dass Sie alles bereit haben, um Ihre Erträge zu maximieren.
+
+<Checklist
+  id="fishing-prep"
+  title="Corsair Cove Angel-Essentials:"
+  items={[
+    "Quest 'Der Drachentöter I' abgeschlossen",
+    "Harpune und Hummerkorb im Inventar",
+    "Gewichtsreduzierende Kleidung (falls P2P)",
+    "Kleiner Stapel GP für Charterschiffe",
+    "Teleport-Runen für Notfälle oder Bankgänge",
+    "Nahrung (bei niedrigem Kampflevel, um den Fußweg zu überleben)"
+  ]}
+/>
+
+<Callout type="info" title="Bergbau und Holzfällerei">
+Vergessen Sie nicht, dass dieses Gebiet auch 5 Kohle-Felsen, 2 Mithril-Felsen, 4 Ahornbäume und 3 Eiben enthält. Es ist ein Paradies für Multi-Skill-Training für F2P-Spieler.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Kann ich in Corsair Cove ohne 'Der Drachentöter I' fischen?",
+    answer: "Nein. Während Sie Corsair Cove selbst besuchen können, befinden sich die spezifischen Harpunen- und Hummerplätze innerhalb des umzäunten Ressourcengebiets, das zwingend den Abschluss von 'Der Drachentöter I' erfordert."
+  },
+  {
+    question: "Ist der Harpunen-Platz in Corsair Cove besser als Karamja?",
+    answer: "Im Allgemeinen ja. Er ist weniger überfüllt, was bedeutet, dass sich die Angelplätze seltener bewegen. Allerdings hat er höhere Anforderungen zur Freischaltung und aggressive NPCs in der Nähe."
+  },
+  {
+    question: "Wie banke ich meine Fische in Corsair Cove?",
+    answer: "Die gängigsten Methoden sind die Nutzung des Charterschiffs nach Port Sarim oder der Fußweg nach Osten zu den Docks, um das kostenlose Boot zurück nach Rimmington zu nehmen und dann zur Bank in Falador oder Draynor zu laufen."
+  },
+  {
+    question: "Gibt es Voraussetzungen für die Ahornbäume dort?",
+    answer: "Die Ahornbäume befinden sich im selben umzäunten Bereich, daher erfordern sie 'Der Drachentöter I' und Holzfällerei Stufe 45. Sie sind derzeit die einzigen Ahornbäume, die für Free-to-Play-Spieler verfügbar sind."
+  }
+]} />
+
+</Section>

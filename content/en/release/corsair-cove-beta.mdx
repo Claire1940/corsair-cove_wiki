@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Beta: Walkthrough, Tips & Build Order Guide",
+  description: "Master the early game of the Corsair Cove beta. Learn optimal build orders, resource management strategies, crew cohesion tips, and combat prep.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Beta+Guide",
+  date: "2026-07-21",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Corsair Cove beta** introduces a challenging maritime survival city-builder where players manage stranded pirates on steep cliffs.
+- **Vertical scaffolding** is the core construction mechanic, requiring players to build pathways on cliffside walls to link key areas.
+- **Crew cohesion** acts as the primary morale metric, directly influenced by narrative choices, shelter quality, and alcohol supply.
+- **Defensive preparations** must be completed before finishing the shallow pier, as doing so triggers a devastating enemy bombardment.
+- **Optimizing space** by demolishing initial shipwrecks is essential for unlocking valuable flat ground on the starting beach.
+</Callout>
+
+<Section icon={Map} title="Corsair Cove Beta: Gameplay Overview & First Look">
+
+The **corsair cove beta** introduces players to a brutal yet rewarding maritime survival city-builder. Stranded on a desolate, rocky island after escaping a prison ship, you must guide a ragtag crew of survivors to build a thriving pirate haven. Unlike traditional flat-map city builders, this game emphasizes vertical progression, forcing you to construct scaffolding, bridges, and pathways along steep cliff faces to connect your scattered structures.
+
+Managing your settlement requires balancing the needs of unskilled drifters and specialized pirates. You must salvage shipwrecks, establish sustainable food and alcohol production, and make difficult moral choices that affect your crew's cohesion. The early game is a race against time as you prepare for the inevitable arrival of Amara, a relentless pirate hunter determined to wipe your settlement off the map.
+
+**Video Highlights:**
+- **Initial Escape:** The game begins with a dramatic prison break, leaving you stranded on a rocky island with 28 drifters.
+- **Vertical Building:** Demonstration of building wooden pathways and scaffolding along cliff walls to connect shipwrecks.
+- **Morale & Cohesion:** A look at the narrative choice system and how decisions like accepting castaways impact crew unity.
+- **Tavern & Brewing:** Setting up a moonshine still and tavern to satisfy the pirates' constant demand for alcohol.
+- **The Hunter's Arrival:** A showcase of the dramatic mid-game event where Amara's warship bombards the settlement.
+
+<YouTubeEmbed videoId="FSn2pRIliz4" title="THIS PYRATE CITY BUILDER CHANGES EVERYTHING | Corsair Cove - Ep.01" />
+
+<Callout type="info" title="Beta Status">
+The beta version showcases the core survival loop, basic building blocks, and the initial combat trigger. Features such as advanced ship combat, larger island maps, and deep tech trees are planned for subsequent updates.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Survival Mechanics and Resource Management">
+
+To survive on this hostile rock, you must master the game's unique resource economy. Resources are split between basic building materials, sustenance, and morale boosters. Because space is extremely limited, every building placement must be planned carefully to avoid blocking fertile soil or cutting off critical pathways.
+
+Your workforce is divided into two distinct classes: Drifters and Pirates. Drifters do the heavy lifting, hauling resources and performing general labor. Pirates act as your builders and specialists. Keeping both groups fed and happy is crucial to maintaining productivity and preventing internal conflicts.
+
+| Resource | Primary Source | Main Utility | Priority |
+|--- |--- |--- |--- |
+| Wood | Shipwrecks, Wood Gatherer | Building scaffolding, pathways, and basic shelters | Critical |
+| Food Rations | Pig farm, foraging | Preventing starvation, maintaining drifter work efficiency | High |
+| Moonshine | Moonshine Still, Tavern | Boosting crew morale, satisfying pirate needs | Medium |
+| Steel | Salvaged wrecks, Iron deposits | Advanced construction, weapons, and ship parts | High |
+
+<CardGrid cols={3}>
+  <Card title="Drifter Management">
+    - **Unskilled Labor:** Drifters perform hauling, salvaging, and basic resource extraction.
+    - **Sustenance Needs:** They require consistent food rations to maintain efficiency.
+    - **Vulnerability:** Highly susceptible to starvation, which rapidly lowers overall settlement productivity.
+  </Card>
+  <Card title="Cliffside Scaffolding">
+    - **Vertical Elevation:** Build pathways along cliff walls to reach higher plateaus.
+    - **Space Efficiency:** Saves precious flat beach land for farming and heavy production.
+    - **Structural Connections:** All buildings must be physically connected to the central pirate camp.
+  </Card>
+  <Card title="Crew Cohesion">
+    - **Morale System:** Represents the unity and spirit of your pirate crew.
+    - **Narrative Impact:** Directly affected by choice events, such as handling castaways or rationing.
+    - **Consequences:** Low cohesion leads to brawls, work stoppages, and eventually mutiny.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Space Constraints">
+Avoid placing non-agricultural buildings on green, fertile soil. Fertile land is rare on the starting island and must be reserved for food production structures like pig farms later in the game.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Step-by-Step Early Build Order Walkthrough">
+
+Succeeding in the early stages of the beta requires a highly optimized build order. Wasting resources on non-essential structures early on can stall your economy, leaving your crew starving and defenseless. Follow this step-by-step progression to establish a stable foothold.
+
+<Steps>
+  <Step num="1" title="Establish Initial Connections">
+    As soon as you gain control, pause the game. Build a wooden pathway from your shipwrecked vessel to the main beach area. This allows your 28 starting drifters to begin moving resources to the central camp.
+  </Step>
+  <Step num="2" title="Construct Basic Shelters">
+    Your survivors need a place to sleep. Build three tents near the pirate camp. Grouping them closely together conserves flat ground and ensures easy access to the central hub.
+  </Step>
+  <Step num="3" title="Secure Wood Extraction">
+    Place a Wood Gatherer near the large shipwrecks scattered along the shoreline. Ensure the gatherer's radius covers high-yield salvage piles. Connect the structure to your main pathway network immediately.
+  </Step>
+  <Step num="4" title="Establish Food and Alcohol Production">
+    Build a basic food source to prevent starvation. Follow this immediately with a Moonshine Still and a Tavern. Assign a tavern keeper to start distributing alcohol, which satisfies your pirates' needs and boosts cohesion.
+  </Step>
+  <Step num="5" title="Clear Space and Build the Pier">
+    Once your initial shipwreck is completely emptied of resources, demolish it to free up valuable beach space. Use the reclaimed area to construct the Shallow Pier, which is required to build your first ship.
+  </Step>
+</Steps>
+
+| Structure | Wood Cost | Special Cost | Primary Function |
+|--- |--- |--- |--- |
+| Pathway | Low | None | Connects cliff sections and speeds up movement |
+| Tent | Medium | None | Houses homeless drifters to prevent morale loss |
+| Wood Gatherer | Medium | None | Extracts wood from wreckage and standing timber |
+| Moonshine Still | High | Wood Rations | Produces morale-boosting alcohol from basic inputs |
+| Shallow Pier | Very High | Steel Planks | Enables ship construction and triggers the mid-game boss |
+
+<Callout type="tip" title="Path Construction">
+Use the pause feature when planning complex cliffside pathways. This allows you to experiment with different scaffolding angles without wasting precious active working hours.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Managing Crew Decisions and Narrative Events">
+
+As your settlement grows, you will encounter random narrative events that test your leadership. These events present difficult choices, forcing you to balance immediate resource gains against long-term crew cohesion. Ignoring the psychological state of your pirates can be just as fatal as a food shortage.
+
+For example, early in the beta, you will encounter the "Crown Castaways" event. You must decide whether to welcome these survivors into your camp or reject them. Welcoming them increases your workforce but strains your limited food supply. Rejecting them preserves your resources but severely damages your crew's moral standing and cohesion.
+
+| Event Name | Choice Option | Immediate Cost | Cohesion Impact | Long-Term Result |
+|--- |--- |--- |--- |--- |
+| Crown Castaways | Accept Traitors | High Food Consumption | Moderate Increase | Larger workforce, higher food demand |
+| Crown Castaways | Reject Traitors | None | High Decrease | Resource stability, frequent brawls |
+| Food Shortage | Cut Rations | Morale Penalty | Sharp Decrease | Slower work speeds, potential starvation |
+| Salvage Dispute | Share Wealth | Minor Wood/Steel | Small Increase | High productivity, lower building stock |
+
+<Callout type="success" title="High Cohesion Benefits">
+Maintaining high crew cohesion grants passive bonuses to movement speed and resource hauling efficiency. Keep your tavern stocked with alcohol to maintain a positive cohesion trend.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Preparation and Mid-Game Transition">
+
+The climax of the current beta is the arrival of Amara, a formidable pirate hunter. This event is not random; it is triggered directly by the completion of the Shallow Pier. If you construct the pier without preparing your defenses, Amara's warship will easily shell your settlement into ruins, destroying key buildings and capturing your captain.
+
+Before finalizing construction on the pier, you must transition your economy toward defense. This involves gathering steel, training defenders, and positioning defensive structures to protect your core infrastructure. Use the checklist below to ensure your settlement is ready for the assault.
+
+<Checklist
+  id="combat-prep"
+  title="Pre-Pier Completion Checklist:"
+  items={[
+    "Accumulate at least 50 units of surplus food rations",
+    "Ensure all drifters are housed in functional tents",
+    "Construct at least one Gun Tower covering the harbor area",
+    "Completely demolish the starting shipwreck to clear firing lines",
+    "Stock the Tavern with a surplus of moonshine to buffer morale during the attack"
+  ]}
+/>
+
+<Callout type="warning" title="The Pier Trigger">
+Do not rush the construction of the Shallow Pier. Keep the blueprint paused or unassigned until you have secured your food supply and built adequate defenses. The bombardment begins immediately upon its completion.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Corsair Cove Beta FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I increase building space in the Corsair Cove beta?",
+    answer: "You can increase building space by constructing wooden scaffolding and pathways along cliff walls to access higher plateaus. Additionally, make sure to completely salvage and demolish your starting shipwreck to clear up valuable flat ground on the beach."
+  },
+  {
+    question: "What is the difference between Drifters and Pirates?",
+    answer: "Drifters are your general, unskilled laborers who handle hauling, harvesting, and basic resource transportation. Pirates are specialized units who perform construction, operate advanced buildings like the Tavern, and defend the settlement during combat."
+  },
+  {
+    question: "How do I prevent Amara from destroying my base?",
+    answer: "Amara's attack is triggered by completing the Shallow Pier. To survive the bombardment, delay building the pier until you have constructed defensive Gun Towers, secured a food surplus, and maximized your crew's cohesion."
+  },
+  {
+    question: "Can I relocate buildings once they are placed?",
+    answer: "Buildings cannot be directly moved. However, you can demolish existing structures to reclaim a portion of the construction resources and then rebuild them in a more optimal location."
+  }
+]} />
+
+<Callout type="info" title="Community Feedback">
+The developers are actively seeking feedback on the building mechanics and combat difficulty during the beta phase. Consider sharing your layout designs and survival times on the official community forums.
+</Callout>
+
+</Section>

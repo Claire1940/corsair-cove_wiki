@@ -1,0 +1,196 @@
+import { Map, Anchor, Swords, Trophy, Target, Shield, Sparkles, Navigation } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Segeln in Corsair Cove: Hafenaufgaben & Leveling-Guide 2026",
+  description: "Meistern Sie das Segeln in Corsair Cove mit unserem Guide zu Hafenaufgaben, Kopfgeldmissionen und Schiffbauer-Diensten. Erfahren Sie alles über Stufenanforderungen und EP-Raten für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Sailing+Guide",
+  date: "2026-07-21",
+  author: "Wiki-Team von Corsair Cove"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Segeln in Corsair Cove**: Erfordert Segeln auf Stufe 40 und den Abschluss des Abenteuers „Der Fluch der Korsaren“ (The Corsair Curse), um effektiv anlegen zu können.
+- **Hafenaufgaben**: Schließen Sie Kopfgeld- und Kurierlauf-Missionen am Schwarzen Brett ab, um erhebliche Segel-EP und Belohnungen zu erhalten.
+- **Ressourcen-Zugang**: Das Ressourcengebiet bietet erstklassige Angel- und Holzfäller-Möglichkeiten, die nach dem Abenteuer „Drachentöter I“ (Dragon Slayer I) zugänglich sind.
+- **Kampfmöglichkeiten**: Kämpfen Sie im Verlies gegen Oger-Kriegerinnen (Ogress Warriors) der Stufe 82 für wertvolle Runen-Beute und Schamanen-Masken.
+- **Strategischer Nutzen**: Nutzen Sie den Schiffbauer und Charterschiffe, um die Verhüllten oder Unruhigen Ozeane (Shrouded / Unquiet Oceans) effizient zu befahren.
+</Callout>
+
+<Section icon={Anchor} title="Die Grundlagen des Segelns in Corsair Cove">
+
+Corsair Cove ist ein zentraler maritimer Knotenpunkt an der Südküste der Feldip-Hügel (Feldip Hills). Für Spieler, die das **Segeln in Corsair Cove** meistern möchten, ist es unerlässlich, die Geschichte der Stadt und ihren Wandel von einem Piratenhafen zu einem legitimen Hafen zu verstehen. Historisch von Kapitän Tock (Captain Tock) und seiner Crew besiedelt, hat sich die Bucht zu einem strategischen Ort für Seeleute entwickelt, die die südlichen Regionen von Gielinor befahren. Das Gebiet ist durch unpassierbare Klippen isoliert, sodass Seereisen oder bestimmte Gewandtheits-Abkürzungen die primären Zugangsmethoden darstellen.
+
+**Video-Highlights:**
+- **Entwicklung des Piratenhafens**: Der Wandel von einer einfachen Barackenstadt zu einem florierenden maritimen Versteck.
+- **Ein Vermächtnis aufbauen**: Wie Spieler Ressourcen verwalten und ihren eigenen Piratenhafen in der Bucht regieren.
+- **Erkundungsmechaniken**: Der Bau mächtiger Schiffe, um die sieben Weltmeere zu erkunden und sich gefährlichen Herausforderungen für Belohnungen zu stellen.
+
+<YouTubeEmbed videoId="vuCmsXxUTTc" title="Ankündigungstrailer - Corsair Cove" />
+
+Während Sie Ihre Präsenz aufbauen, bietet die Bucht eine einzigartige Mischung aus Management und Erkundung. Die Schiffbauer-Dienste an den Docks sind besonders nützlich für diejenigen, die Boote bergen oder in die tieferen Ozeane vordringen möchten.
+
+<Callout type="tip" title="Einblick des Navigators">
+Stellen Sie immer sicher, dass Sie das Abenteuer „Der Fluch der Korsaren“ begonnen haben, bevor Sie versuchen, die gesamte Palette der Hafeneinrichtungen zu nutzen, da viele NPCs und die örtliche Bank gesperrt bleiben, bis Ihr Ruf etabliert ist.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigation und Zugangsvoraussetzungen">
+
+Das Erreichen von Corsair Cove erfordert eine Kombination aus Abenteuerfortschritt und Fertigkeitsmeilensteinen. Obwohl die Bucht für Free-to-Play-Spieler zugänglich ist, sind die effizientesten Routen für das **Segeln in Corsair Cove** denjenigen vorbehalten, die ihren Wert durch die lokalen Abenteuerreihen bewiesen haben. Das Navigieren im Gebiet der Feldip-Hügel kann tückisch sein, aber es gibt mehrere Transportoptionen, um die Lücke zwischen dem Festland und diesem isolierten Hafen zu schließen.
+
+| Methode | Voraussetzung | Ziel |
+| :--- | :--- | :--- |
+| **Kapitän Tock** | Nördlich von Port Sarim | Erster Transport zur Bucht |
+| **Kapitän Tock** | Rimmington (Westen) | Transport nach Abenteuerstart |
+| **Gewandtheits-Abkürzung** | Stufe 10 Gewandtheit | Klippen der Feldip-Hügel |
+| **Ressourcen-Abkürzung** | Stufe 30 Gewandtheit | Zugang zum Ressourcengebiet |
+| **Segel-Anlegestelle** | Stufe 40 Segeln | Hauptdocks von Corsair Cove |
+| **Charterschiffe** | Abenteuer abgeschlossen | Globale Häfen in Gielinor |
+
+Das System der Charterschiffe ist hier besonders robust. Durch den Abschluss des Abenteuers „Das Kabinenfieber“ (Cabin Fever) oder die Verwendung eines Rings von Charos(a) können Spieler die Kosten für diese Reisen erheblich senken. Dies macht die Bucht zu einem kostengünstigen Knotenpunkt für Spieler auf mittlerer Stufe.
+
+<Callout type="warning" title="Eingeschränkter Zugang">
+Spieler mit Stufe 30 Gewandtheit müssen außerdem das Abenteuer „Drachentöter I“ abgeschlossen und mit Haris gesprochen haben, bevor sie die Klippen nahe dem Ressourcengebiet nutzen können. Wenn diese sekundären Anforderungen nicht erfüllt werden, bleibt der Pfad blockiert.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hafenaufgaben und Kopfgeldmissionen beim Segeln">
+
+Das Herzstück des **Segelns in Corsair Cove** im Jahr 2026 dreht sich um das Schwarze Brett. Dieses Brett bietet eine rotierende Auswahl von acht Hafenaufgaben, aufgeteilt in Kopfgeld- und Kurierlauf-Missionen. Diese Aufgaben sind die Haupteinnahmequelle für Segel-Erfahrungspunkte und regionalen Ruf.
+
+**Kopfgeldmissionen**
+Kopfgelderfordernisse verlangen von den Spielern, bestimmte Meereslebewesen oder Bedrohungen an der Küste zu jagen. Diese Missionen bieten hohe EP-Erträge und einzigartige Gegenstandsbeute, die gehandelt oder für weitere Schiffsupgrades verwendet werden kann.
+
+| Stufe | EP-Belohnung | Zielmonster | Benötigter Gegenstand | Seltenheit |
+| :--- | :--- | :--- | :--- | :--- |
+| **40** | 3.465 | Fischadler (Osprey) | Fischadler-Schnabel | 1/10 |
+| **40** | 8.800 | Hammerhai (Hammerhead Shark) | Haifisch-Kiefer | 1/3 |
+
+**Kurierlauf-Missionen**
+Für diejenigen, die Logistik dem Kampf vorziehen, beinhalten Kurierlauf-Aufgaben den Transport von Fracht zu weit entfernten Häfen wie Port Khazard oder dem Pandemonium. Diese Missionen sind unerlässlich, um die Wirtschaft der Bucht zu stabilisieren.
+
+| Stufe | EP-Belohnung | Frachttyp | Zielort | Menge |
+| :--- | :--- | :--- | :--- | :--- |
+| **40** | 468 | Krummsäbel | Port Khazard | 3 Kisten |
+| **40** | 655 | Gewürze | Das Pandemonium | 3 Kisten |
+
+<Callout type="success" title="Garantierte Aufgaben">
+Das Fischadler-Kopfgeld erscheint garantiert auf dem Schwarzen Brett und bietet eine zuverlässige EP-Quelle für Spieler, die gerade erst Segeln auf Stufe 40 erreicht haben.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Schiffbauer-Dienste und Ressourcenmanagement">
+
+Die Docks von Corsair Cove bieten einen umfassenden Schiffbauer-Service, der für jeden ernsthaften Segler eine lebenswichtige Einrichtung darstellt. Dieser Ort dient als Bergungspunkt für Boote, die in den Verhüllten oder Unruhigen Ozeanen verloren gingen. Neben der Schiffswartung liefert das Ressourcengebiet die Rohstoffe, die für Schiffsreparaturen und -erweiterungen erforderlich sind.
+
+<CardGrid cols={3}>
+  <Card title="Schiffbauer-Dienste">
+    - **Bootsbergung**: Verlorene Schiffe aus gefährlichen Gewässern bergen.
+    - **Reparaturen**: Die Rumpfintegrität nach Begegnungen auf dem Ozean wiederherstellen.
+    - **Verbesserungen**: Schiffsstatistiken für längere Reisen verbessern.
+  </Card>
+  <Card title="Ressourcengebiet">
+    - **Eiben (Yew Trees)**: 3 Vorkommen für hochstufiges Holzfällen.
+    - **Ahornbäume (Maple Trees)**: 4 Vorkommen für das Training auf mittlerer Stufe.
+    - **Angelplätze**: Korb-/Harpunenplätze für Hummer und Schwertfisch.
+  </Card>
+  <Card title="Zugang zum Verlies">
+    - **Oger-Kriegerinnen**: Kampftraining der Stufe 82.
+    - **Erzadern**: 5 Kohle, 2 Mithril, 1 Adamantiterz.
+    - **Seltene Beute**: Runen-Vollhelme und Schamanen-Masken.
+  </Card>
+</CardGrid>
+
+Die Synergie zwischen dem Ressourcengebiet und der Bank ist ein Highlight des **Segelns in Corsair Cove**. Die Nutzung der Einzahlungsbox außerhalb der Bank kann im Vergleich zu den traditionellen Angelrouten auf Karamja etwa 6 Sekunden pro Runde sparen, erfordert jedoch mehr Laufenergie.
+
+<Callout type="info" title="Optimierungttipp">
+Ein Ruderboot kann bei der Zuflucht der Angler (Angler's Retreat) mit Stufe 51 Segeln und Stufe 50 Baukunst gebaut werden. Dies ermöglicht einen schnellen Transit zwischen der Zuflucht und Corsair Cove, wodurch herkömmliche Reisezeiten umgangen werden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fortschritts-Roadmap">
+
+Um das maritime Potenzial dieser Region voll auszuschöpfen, folgen Sie diesem strukturierten Fortschrittspfad. Dadurch stellen Sie sicher, dass Sie alle Abkürzungen freischalten und Ihre EP-Gewinne pro Stunde maximieren.
+
+<Steps>
+  <Step num="1" title="Abenteuer-Fundament">
+    Beginnen und schließen Sie das Abenteuer **Der Fluch der Korsaren** ab. Dies schaltet die Bank, das Schwarze Brett und die Möglichkeit frei, Ihr Schiff am Hauptsteg anzulegen. Ohne dies ist Ihr Segelnutzen stark eingeschränkt.
+  </Step>
+  <Step num="2" title="Integration von Fertigkeiten">
+    Erreichen Sie Segeln auf Stufe 40, um Hafenaufgaben anzunehmen. Streben Sie gleichzeitig Gewandtheit auf Stufe 30 an und schließen Sie „Drachentöter I“ ab, um über Haris Zugang zum Ressourcengebiet zu erhalten.
+  </Step>
+  <Step num="3" title="Aufgabenoptimierung">
+    Konzentrieren Sie sich auf Kopfgelder für den **Hammerhai**. Die Belohnung von 8.800 EP ist eine der höchsten für diese Stufenklasse. Kombinieren Sie dies mit Kurierläufen nach Port Khazard für ein ausgewogenes Verhältnis von EP und Gewinn.
+  </Step>
+  <Step num="4" title="Fortgeschrittene Baukunst">
+    Sobald Sie Segeln auf Stufe 51 erreicht haben, bauen Sie das Ruderboot bei der Zuflucht der Angler. Dies schafft eine dauerhafte Hochgeschwindigkeitsverbindung, die für das Farmen von Ressourcen und das Wechseln von Aufgaben im späten Spiel unerlässlich ist.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Kampfsynergie">
+Während Sie auf das Zurücksetzen des Schwarzen Bretts warten, verbringen Sie Zeit im Verlies von Corsair Cove. Die Oger-Schamaninnen bieten hervorragende Magie- und Fernkampf-EP, und ihre Beute kann Ihre Segelvorräte finanzieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Segel-Meilensteine in Corsair Cove">
+
+Das Verfolgen Ihres Fortschritts ist entscheidend für den langfristigen Erfolg. Nutzen Sie diese Checkliste, um sicherzustellen, dass Sie alle kritischen Aspekte des maritimen Ökosystems von Corsair Cove abgedeckt haben.
+
+<Checklist
+  id="sailing-milestones"
+  title="Wichtige Hafenziele:"
+  items={[
+    "Das Abenteuer „Der Fluch der Korsaren“ abschließen",
+    "Stufe 40 Segeln für Hafenaufgaben erreichen",
+    "Das Ressourcengebiet über Haris freischalten",
+    "Einen Hammerhai-Kiefer als Kopfgeldbeute erhalten",
+    "Das Ruderboot bei der Zuflucht der Angler bauen",
+    "Eine Schamanen-Maske aus dem Verlies erbeuten"
+  ]}
+/>
+
+| Meilenstein | Stufenanforderung | Belohnung/Vorteil |
+| :--- | :--- | :--- |
+| **Erstes Anlegen** | Stufe 40 Segeln | Zugang zur Stadt vom Meer aus |
+| **Kopfgeldjagd** | Stufe 40 Segeln | Viele EP (bis zu 8.800 pro Aufgabe) |
+| **Kurier-Logistik** | Stufe 40 Segeln | Regionaler Handelsruf |
+| **Ruderboot-Verbindung** | Stufe 51 Segeln | Schneller Transit zur Zuflucht der Angler |
+| **Ressourcenabbau** | Stufe 30 Gewandtheit | Zugang zu Adamantit und Mithril |
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie beginne ich mit den Hafenaufgaben für das Segeln in Corsair Cove?",
+    answer: "Sie müssen zuerst das Abenteuer „Der Fluch der Korsaren“ abschließen und Segeln auf Stufe 40 erreichen. Sobald diese Voraussetzungen erfüllt sind, gehen Sie zum Schwarzen Brett in der Nähe der Docks, um aus den acht verfügbaren Aufgaben auszuwählen."
+  },
+  {
+    question: "Ist das Ressourcengebiet von Corsair Cove besser zum Angeln geeignet als Karamja?",
+    answer: "Ja, was die Geschwindigkeit betrifft. Die Einzahlungsbox außerhalb der Bank ermöglicht Runden, die etwa 6 Sekunden schneller sind als die Route von Karamja nach Port Sarim, obwohl sie mehr Laufenergie verbraucht."
+  },
+  {
+    question: "Können Free-to-Play-Spieler auf alle Segelfunktionen in Corsair Cove zugreifen?",
+    answer: "Während die Bucht selbst für F2P-Spieler zugänglich ist, sind viele der fortgeschrittenen Hafenaufgaben für das Segeln und die Schiffbauer-Dienste auf Mitglieder beschränkt oder erfordern bestimmte reine Mitglieder-Abenteuer wie „Das Kabinenfieber“, um Kostenreduzierungen zu erhalten."
+  },
+  {
+    question: "Wie gelangt man am schnellsten nach Corsair Cove?",
+    answer: "Die schnellste Methode ist die Nutzung der Gewandtheits-Abkürzung (Stufe 10) von den Feldip-Hügeln aus oder, sobald freigeschaltet, das direkte Anlegen mit Stufe 40 Segeln. Alternativ bieten Charterschiffe einen direkten Transport von den wichtigsten Häfen in ganz Gielinor an."
+  }
+]} />
+
+</Section>

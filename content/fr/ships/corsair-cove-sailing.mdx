@@ -1,0 +1,197 @@
+import { Map, Anchor, Swords, Trophy, Target, Shield, Sparkles, Navigation } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Navigation à Corsair Cove : Guide 2026 des tâches portuaires et de progression",
+  description: "Maîtrisez la navigation à Corsair Cove avec notre guide sur les tâches portuaires, les missions de prime et les services de charpentier naval. Apprenez les niveaux requis et les taux d'XP pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Sailing+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Corsair Cove",
+  keywords: "navigation, corsair cove, tâches portuaires, guide, progression"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Navigation à Corsair Cove** : Nécessite le niveau 40 en Navigation et l'achèvement de la quête « La malédiction du corsaire » pour accoster efficacement.
+- **Tâches Portuaires** : Participez à des missions de Prime et de Coursier sur le tableau d'affichage pour obtenir d'importants gains d'XP en Navigation et des récompenses.
+- **Accès aux Ressources** : La zone de ressources propose de la pêche et de la coupe de bois de haut niveau, accessible après la quête « Dragon Slayer I ».
+- **Opportunités de Combat** : Combattez des guerrières ogresses de niveau 82 dans le donjon pour obtenir des butins de runes précieux et des masques de chaman.
+- **Utilité Stratégique** : Utilisez le charpentier naval et les navires de transport pour naviguer efficacement dans les océans Voilés ou Agités.
+</Callout>
+
+<Section icon={Anchor} title="Les fondements de la navigation à Corsair Cove">
+
+Corsair Cove (la Crique du Corsaire) représente un carrefour maritime pivot situé sur la rive sud des collines de Feldip. Pour les joueurs cherchant à maîtriser la **navigation à Corsair Cove**, il est essentiel de comprendre l'histoire de la ville et sa transition d'un repaire de pirates à un port légitime. Historiquement établie par le capitaine Tock et son équipage, la crique est devenue un lieu stratégique pour les marins naviguant dans les confins sud de Gielinor. La zone est isolée par des falaises infranchissables, faisant du voyage en mer ou des raccourcis d'Agilité spécifiques les principales méthodes d'entrée.
+
+**Points forts de la vidéo :**
+- **Évolution du repaire de pirates** : Transition d'un simple bidonville à une cachette maritime prospère.
+- **Construction d'un héritage** : Comment les joueurs gèrent les ressources et dirigent leur propre refuge de pirates au sein de la crique.
+- **Mécaniques d'exploration** : Construire des navires puissants pour explorer les sept mers et faire face à des récompenses dangereuses.
+
+<YouTubeEmbed videoId="vuCmsXxUTTc" title="Bande-annonce d'annonce - Corsair Cove" />
+
+À mesure que vous établissez votre présence, la crique offre un mélange unique de gestion et d'exploration. Les services de charpentier naval situés sur les quais sont particulièrement utiles pour ceux qui cherchent à récupérer des bateaux ou à s'aventurer dans les océans profonds.
+
+<Callout type="tip" title="Conseil du Navigateur">
+Assurez-vous toujours d'avoir commencé la quête « La malédiction du corsaire » avant de tenter d'utiliser l'ensemble des installations portuaires, car de nombreux PNJ et la banque locale restent restreints tant que votre réputation n'est pas établie.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigation et conditions d'accès">
+
+Atteindre Corsair Cove nécessite une combinaison de progression de quête et de jalons de compétences. Bien que la crique soit accessible aux joueurs free-to-play, les routes de **navigation à Corsair Cove** les plus efficaces sont réservées à ceux qui ont prouvé leur valeur via les quêtes locales. Naviguer dans la zone des collines de Feldip peut être périlleux, mais plusieurs options de transport existent pour combler le fossé entre le continent et ce port isolé.
+
+| Méthode | Condition | Destination |
+| :--- | :--- | :--- |
+| **Capitaine Tock** | Nord de Port Sarim | Transport initial vers la Crique |
+| **Capitaine Tock** | Rimmington (Ouest) | Transport après début de quête |
+| **Raccourci d'Agilité** | 10 Agilité | Rochers des collines de Feldip |
+| **Raccourci de ressources** | 30 Agilité | Accès à la zone de ressources |
+| **Accostage (Navigation)** | 40 Navigation | Quais principaux de Corsair Cove |
+| **Navires de transport** | Quête terminée | Ports mondiaux de Gielinor |
+
+Le système de navires de transport est particulièrement robuste ici. En terminant la quête « Cabin Fever » ou en utilisant un Anneau de Charos(a), les joueurs peuvent réduire considérablement les coûts de ces voyages. Cela fait de la crique un hub rentable pour les joueurs de niveau intermédiaire.
+
+<Callout type="warning" title="Accès restreint">
+Les joueurs ayant 30 en Agilité doivent également terminer « Dragon Slayer I » et parler à Haris avant de pouvoir utiliser les rochers près de la zone de ressources. Le non-respect de ces conditions secondaires bloquera le chemin.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tâches portuaires et missions de prime">
+
+Le cœur de l'expérience de **navigation à Corsair Cove** en 2026 tourne autour du tableau d'affichage. Ce tableau propose une sélection tournante de huit tâches portuaires, réparties entre missions de Prime et de Coursier. Ces tâches sont la source principale d'expérience en Navigation et de réputation régionale.
+
+**Missions de Prime**
+Les tâches de prime exigent que les joueurs chassent une faune marine spécifique ou des menaces côtières. Ces missions offrent des rendements d'XP élevés et des objets uniques qui peuvent être échangés ou utilisés pour de futures améliorations de navire.
+
+| Niveau | Récompense d'XP | Monstre cible | Objet requis | Rareté |
+| :--- | :--- | :--- | :--- | :--- |
+| **40** | 3 465 | Balbuzard | Bec de balbuzard | 1/10 |
+| **40** | 8 800 | Requin-marteau | Mâchoire de requin | 1/3 |
+
+**Missions de Coursier**
+Pour ceux qui préfèrent la logistique au combat, les tâches de coursier consistent à transporter des marchandises vers des ports lointains comme Port Khazard ou Le Pandemonium. Ces missions sont essentielles pour stabiliser l'économie de la crique.
+
+| Niveau | Récompense d'XP | Type de cargaison | Destination | Quantité |
+| :--- | :--- | :--- | :--- | :--- |
+| **40** | 468 | Cimeterres | Port Khazard | 3 Caisses |
+| **40** | 655 | Épices | Le Pandemonium | 3 Caisses |
+
+<Callout type="success" title="Tâches Garanties">
+La prime du Balbuzard est garantie d'apparaître sur le tableau d'affichage, offrant une source fiable d'XP pour les joueurs venant d'atteindre le niveau 40 en Navigation.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Services de charpentier naval et gestion des ressources">
+
+Les quais de Corsair Cove disposent d'un service complet de charpentier naval, un aménagement vital pour tout marin sérieux. Cet emplacement sert de point de récupération pour les bateaux perdus dans les océans Voilés ou Agités. Au-delà de l'entretien des navires, la zone de ressources fournit les matières premières nécessaires aux réparations et à l'expansion des navires.
+
+<CardGrid cols={3}>
+  <Card title="Services de charpentier">
+    - **Récupération de bateau** : Récupérez les vaisseaux perdus dans les eaux dangereuses.
+    - **Réparations** : Restaurez l'intégrité de la coque après des rencontres océaniques.
+    - **Améliorations** : Améliorez les statistiques du navire pour de longs voyages.
+  </Card>
+  <Card title="Zone de ressources">
+    - **Ifs (Yew)** : 3 nœuds pour la coupe de bois de haut niveau.
+    - **Érables** : 4 nœuds pour l'entraînement de niveau moyen.
+    - **Points de pêche** : Spots de casier/harpon pour homards et espadons.
+  </Card>
+  <Card title="Accès au donjon">
+    - **Guerrières ogresses** : Entraînement au combat niveau 82.
+    - **Nœuds de minage** : 5 Charbon, 2 Mithril, 1 Adamantite.
+    - **Butins rares** : Casques complets runiques et masques de chaman.
+  </Card>
+</CardGrid>
+
+La synergie entre la zone de ressources et la banque est un point fort de la **navigation à Corsair Cove**. L'utilisation de la boîte de dépôt à l'extérieur de la banque peut faire gagner environ 6 secondes par trajet par rapport aux routes de pêche traditionnelles de Karamja, bien qu'elle consomme plus d'énergie de course.
+
+<Callout type="info" title="Astuce d'optimisation">
+Une barque peut être construite à Angler's Retreat avec 51 en Navigation et 50 en Construction. Cela permet un transit rapide entre le refuge et Corsair Cove, contournant les temps de trajet traditionnels.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Feuille de route de progression">
+
+Pour maîtriser pleinement le potentiel maritime de cette région, suivez ce chemin de progression structuré. Cela vous assure de débloquer tous les raccourcis et de maximiser vos gains d'XP par heure.
+
+<Steps>
+  <Step num="1" title="Fondation de Quête">
+    Commencez et terminez **La malédiction du corsaire**. Cela débloque la banque, le tableau d'affichage et la capacité d'accoster votre navire au quai principal. Sans cela, votre utilité en Navigation est sévèrement limitée.
+  </Step>
+  <Step num="2" title="Intégration des Compétences">
+    Atteignez le niveau 40 en Navigation pour commencer à accepter des tâches portuaires. Simultanément, visez 30 en Agilité et terminez « Dragon Slayer I » pour accéder à la zone de ressources via Haris.
+  </Step>
+  <Step num="3" title="Optimisation des Tâches">
+    Concentrez-vous sur les primes de **Requin-marteau**. La récompense de 8 800 XP est l'une des plus élevées pour cette tranche de niveau. Combinez cela avec des courses de coursier vers Port Khazard pour un ratio XP/Profit équilibré.
+  </Step>
+  <Step num="4" title="Construction Avancée">
+    Une fois que vous atteignez 51 en Navigation, construisez la barque à Angler's Retreat. Cela crée un lien permanent à haute vitesse essentiel pour l'exploitation des ressources en fin de jeu et le cycle des tâches.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Synergie de Combat">
+En attendant la réinitialisation du tableau d'affichage, passez du temps dans le donjon de Corsair Cove. Les chamans ogresses offrent une excellente XP en magie et à distance, et leurs butins peuvent financer vos fournitures de Navigation.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Jalons de navigation à Corsair Cove">
+
+Suivre votre progression est vital pour un succès à long terme. Utilisez cette liste de contrôle pour vous assurer d'avoir couvert tous les aspects critiques de l'écosystème maritime de Corsair Cove.
+
+<Checklist
+  id="sailing-milestones"
+  title="Objectifs Portuaires Essentiels :"
+  items={[
+    "Terminer la quête La malédiction du corsaire",
+    "Atteindre le niveau 40 en Navigation pour les tâches portuaires",
+    "Débloquer la zone de ressources via Haris",
+    "Obtenir une mâchoire de requin-marteau en butin de prime",
+    "Construire la barque d'Angler's Retreat",
+    "Obtenir un masque de chaman dans le donjon"
+  ]}
+/>
+
+| Jalon | Niveau requis | Récompense/Bénéfice |
+| :--- | :--- | :--- |
+| **Accostage initial** | 40 Navigation | Accès à la ville par la mer |
+| **Chasse aux primes** | 40 Navigation | XP élevée (jusqu'à 8 800 par tâche) |
+| **Logistique de coursier** | 40 Navigation | Réputation commerciale régionale |
+| **Lien par barque** | 51 Navigation | Transit rapide vers Angler's Retreat |
+| **Minage de ressources** | 30 Agilité | Accès à l'Adamantite et au Mithril |
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment commencer les tâches portuaires de navigation à Corsair Cove ?",
+    answer: "Vous devez d'abord terminer la quête « La malédiction du corsaire » et atteindre le niveau 40 en Navigation. Une fois ces conditions remplies, rendez-vous au tableau d'affichage situé près des quais pour choisir parmi les huit tâches disponibles."
+  },
+  {
+    question: "La zone de ressources de Corsair Cove est-elle meilleure que Karamja pour la pêche ?",
+    answer: "Oui, en termes de rapidité. La boîte de dépôt à l'extérieur de la banque permet des trajets environ 6 secondes plus rapides que la route Karamja-Port Sarim, bien qu'elle consomme plus d'énergie de course."
+  },
+  {
+    question: "Les joueurs free-to-play peuvent-ils accéder à toutes les fonctionnalités de Navigation à Corsair Cove ?",
+    answer: "Bien que la crique elle-même soit accessible aux joueurs F2P, de nombreuses tâches portuaires avancées et les services de charpentier naval sont réservés aux membres ou nécessitent des quêtes spécifiques aux membres comme « Cabin Fever » pour des réductions de coût."
+  },
+  {
+    question: "Quel est le moyen le plus rapide de se rendre à Corsair Cove ?",
+    answer: "La méthode la plus rapide est d'utiliser le raccourci d'Agilité (niveau 10) depuis les collines de Feldip ou, une fois débloqué, d'accoster directement avec 40 en Navigation. Alternativement, les navires de transport offrent un trajet direct depuis les principaux ports de Gielinor."
+  }
+]} />
+
+</Section>

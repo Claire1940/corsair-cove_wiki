@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove GOG: Setup Guide & Performance Review",
+  description: "Get started with Corsair Cove on GOG. Learn setup steps, performance optimization tips, and pirate haven management strategies for the 2026 release.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Corsair+Cove+GOG+Guide",
+  date: "2026-07-21",
+  author: "corsair cove Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Corsair Cove GOG** offers a completely DRM-free experience for building and managing your pirate haven.
+- **Offline installation** is fully supported, allowing you to run the game without any launcher or internet connection.
+- **Resource management** is the core gameplay pillar, requiring you to establish efficient production lines and maintain crew happiness.
+- **Performance optimization** is essential when expanding your settlement to prevent late-game frame drops.
+- **Cloud saving** can be configured manually or synced automatically using the GOG Galaxy client.
+</Callout>
+
+<Section icon={Map} title="DRM-Free Pirate Management Overview">
+
+The release of **corsair cove gog** brings the popular pirate settlement management game to players who prefer DRM-free gaming. In this title, players find themselves stranded on a wild island with nothing but the clothes on their backs. The primary objective is to build, manage, and rule a thriving pirate haven, transforming a shabby settlement into a formidable hideout. The GOG version ensures that you own the installer files directly, allowing for offline backup and installation on multiple personal devices without checking in with online servers.
+
+Managing a pirate crew requires a delicate balance of resource distribution, production line optimization, and defensive planning. As your settlement grows, you can extend your reach across the wild island, construct mighty ships, and explore the seven seas. The GOG edition includes all standard features of the game, optimized for modern operating systems with specific launcher-free configurations.
+
+**Video Highlights:**
+- Discover the fundamentals of building a pirate haven from scratch.
+- Learn how to manage crew happiness and set up basic production lines.
+- Explore the mechanics of expanding your territory to the Wild Island.
+- View the visual style and gameplay loop of this indie pirate management simulator.
+
+<YouTubeEmbed videoId="rCaneyQJ6Tc" title="Corsair Cove | BEST Indie Games Trailers" />
+
+<Callout type="tip" title="Crew Satisfaction">
+Keep a close eye on your crew's rum and food supplies. A dissatisfied crew will slow down production lines and may eventually mutiny, halting your progression entirely.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="System Requirements & Corsair Cove GOG Installation">
+
+Before launching your pirate empire, ensure your system meets the hardware requirements. Since the game features complex simulation systems for production lines and individual crew behaviors, CPU performance is critical during the late game when your settlement grows larger.
+
+| Requirement | Minimum Specification | Recommended Specification |
+| --- | --- | --- |
+| OS | Windows 10 (64-bit) | Windows 10/11 (64-bit) |
+| CPU | Intel Core i3-6100 / AMD FX-8350 | Intel Core i5-8400 / AMD Ryzen 5 2600 |
+| Memory | 8 GB RAM | 16 GB RAM |
+| GPU | GTX 760 / Radeon R9 280X | GTX 1060 / RX 580 |
+| DirectX | Version 11 | Version 12 |
+| Storage | 4 GB available space | 4 GB SSD available space |
+
+To set up the game using GOG files, follow these steps to ensure a clean installation.
+
+<Steps>
+  <Step num="1" title="Download Installer Files">
+    Log into your GOG account via a web browser or the GOG Galaxy client. Navigate to your library, locate the game, and download the offline standalone installer files. Save all parts to the same directory on your local drive.
+  </Step>
+  <Step num="2" title="Run the Setup Executable">
+    Double-click the main installer executable file. Choose your preferred installation directory. It is recommended to install the game on a Solid State Drive (SSD) to reduce loading times when transitioning between the settlement map and the world map.
+  </Step>
+  <Step num="3" title="Apply Optional Patches">
+    Check the GOG library page for any hotfixes or day-one patches. If available, download and run these installers after the main game setup has completed to ensure compatibility with the latest build.
+  </Step>
+  <Step num="4" title="Configure Launch Settings">
+    Navigate to the installation folder and right-click the game executable. Select properties and check the box to run the program as administrator. This prevents potential write-permission issues when saving your game state.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Save File Security">
+Standalone installers do not automatically sync saves to the cloud unless you run the game through the GOG Galaxy client. Regularly back up your save directory located in your local AppData folder to prevent data loss.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Core Settlement Mechanics & Production Chains">
+
+Building a successful pirate hideout requires establishing efficient supply chains. Raw materials must be harvested, processed, and distributed to keep your crew operational and your defense systems armed. The table below outlines the primary production chains you need to establish during the early to mid-game phases.
+
+| Raw Material | Processing Building | Final Product | Primary Use |
+| --- | --- | --- | --- |
+| Timber | Sawmill | Planks | Construction of buildings and ships |
+| Sugar Cane | Distillery | Rum | Crew happiness and trading |
+| Iron Ore | Smelter | Iron Bars | Weapon crafting and ship components |
+| Hemp | Weaver | Sails | Ship movement speed and upgrades |
+
+When planning your settlement, layout efficiency is key. Grouping related production buildings close to their respective storage yards minimizes transport times for your workers. Use the following layout strategies to optimize your base design.
+
+<CardGrid cols={3}>
+  <Card title="Compact Industrial Zone">
+    - **High efficiency** due to minimal walking distances.
+    - Easy to defend with concentrated guard towers.
+    - High fire hazard risk if a blaze breaks out.
+  </Card>
+  <Card title="Decentralized Hubs">
+    - **Reduced fire risk** and better adaptation to terrain.
+    - Requires well-placed warehouses to avoid transport delays.
+    - Harder to defend during enemy pirate raids.
+  </Card>
+  <Card title="Defensive Citadel Layout">
+    - **Maximum protection** for high-value resource stockpiles.
+    - Incorporates choke points to funnel attackers.
+    - Limits physical space for agricultural production.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Resource Bottlenecks">
+Timber is the most common bottleneck in the early game. Build at least two lumberjack huts for every sawmill to ensure a steady supply of raw wood for construction projects.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Performance Optimization & Troubleshooting">
+
+While the game is optimized for a wide range of hardware, large settlements with hundreds of crew members can experience performance degradation. Adjusting specific graphical and simulation settings can help maintain a stable frame rate.
+
+| Setting | Recommended Value | Performance Impact | Details |
+| --- | --- | --- | --- |
+| Shadow Quality | Medium | High | Lowering this reduces CPU overhead significantly. |
+| Crowd Detail | Low/Medium | High | Reduces the rendering complexity of crew members. |
+| V-Sync | On | Low | Prevents screen tearing on standard monitors. |
+| Simulation Speed | Normal | Variable | Fast-forwarding increases CPU usage during pathfinding calculations. |
+
+If you encounter issues launching the game from the GOG installer, consult the troubleshooting steps below.
+
+| Issue | Potential Cause | Resolution |
+| --- | --- | --- |
+| Game crashes on startup | Missing DirectX runtime files | Run the DirectX web installer from Microsoft. |
+| Saves not loading | Permission restrictions | Run the game executable as an administrator. |
+| Black screen on launch | Unsupported resolution settings | Edit the configuration file in AppData to match your monitor. |
+| Stuttering during gameplay | Background application conflicts | Disable third-party overlays and close unnecessary background apps. |
+
+<Callout type="success" title="Driver Updates">
+Ensure your graphics card drivers are updated to the latest version released in 2026. Both NVIDIA and AMD periodically release driver updates that improve stability for indie simulation engines.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Milestones">
+
+To successfully establish your dominance over the seven seas, aim to complete these core progression milestones. Achieving these goals unlocks advanced technologies, larger ship blueprints, and new trading partners.
+
+<Checklist
+  id="corsair-cove-milestones"
+  title="Pirate Haven Milestones:"
+  items={[
+    "Construct your first basic shelter and campfire to secure crew survival.",
+    "Build a distillery to produce rum and secure basic crew loyalty.",
+    "Establish an iron mine and smelter to begin manufacturing weapons.",
+    "Launch your first sloop to explore the surrounding islands.",
+    "Defend your settlement against the first wave of royal navy attackers."
+  ]}
+/>
+
+<Callout type="tip" title="Exploration Tip">
+Do not rush to build large ships immediately. Small sloops are cheaper to maintain and faster to build, making them ideal for scouting resource-rich islands in the early game.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does the Corsair Cove GOG version require an active internet connection?",
+    answer: "No. The GOG version is completely DRM-free, meaning you can install and play the game entirely offline without any internet connection or launcher requirements."
+  },
+  {
+    question: "How do I manually back up my save files?",
+    answer: "Navigate to your local AppData folder (usually located at C:/Users/Username/AppData/Local/CorsairCove/Saves) and copy the entire folder to a secure backup location."
+  },
+  {
+    question: "Can I play multiplayer with Steam users using the GOG version?",
+    answer: "Yes, crossplay between GOG and Steam is supported via direct IP connection or the in-game lobby system, provided both players are running the same game version."
+  },
+  {
+    question: "Are mods supported on the GOG release?",
+    answer: "Yes, mods can be installed manually by placing the mod files into the designated 'Mods' directory within the game's installation folder."
+  }
+]} />
+
+<Callout type="info" title="Community Help">
+If you encounter unique bugs or require further assistance with your setup, check the official GOG community forums for user-submitted patches and configuration guides.
+</Callout>
+
+</Section>

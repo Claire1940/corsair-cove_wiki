@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove City Builder : Guide d'installation et conseils d'aménagement",
+  description: "Maîtrisez les aménagements verticaux de Corsair Cove. Apprenez à gérer les chaînes d'approvisionnement, les exigences de l'équipage pirate et le combat naval au tour par tour dans ce guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+City+Builder",
+  date: "2026-07-21",
+  author: "Équipe Wiki de Corsair Cove",
+  keywords: "corsair cove, city builder, guide, aménagement, pirate, combat naval"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif Principal** : Établir un refuge pirate autosuffisant en utilisant les mécaniques verticales uniques du **corsair cove city builder** pour résister à la Couronne.
+- **Focus Logistique** : Optimiser les réseaux de transport en utilisant des ponts, des tyroliennes et des sentiers verticaux pour relier les bâtiments de production à flanc de falaise.
+- **Exigences de l'Équipage** : Satisfaire les besoins de différents niveaux, du simple biscuit de mer pour les vagabonds au tabac et pistolets de qualité supérieure pour les corsaires d'élite.
+- **Défense Navale** : Construire une flotte puissante et fortifier les côtes avec des tours de défense approvisionnées en poudre noire et boulets de canon.
+- **Voie de Progression** : Équilibrer le développement entre Notoriété, Empire, Navigation et Richesse pour débloquer des bâtiments et des navires avancés.
+</Callout>
+
+<Section icon={Map} title="Construire votre refuge : Les bases de Corsair Cove City Builder">
+
+L'établissement d'une capitale pirate prospère nécessite une compréhension approfondie de la géographie verticale et de la distribution des ressources. Contrairement aux jeux de construction traditionnels sur cartes plates, le terrain unique de l'île de Skull Rock vous oblige à penser en hauteur, en utilisant des falaises escarpées et des corniches précaires pour bâtir une forteresse sécurisée.
+
+En commençant sur une île déserte avec rien d'autre que les débris de votre navire, votre première priorité est de sécuriser une base stable. Cela signifie équilibrer les besoins de survie immédiats avec la planification des infrastructures à long terme. Les eaux environnantes regorgent à la fois d'opportunités et de dangers, des épaves récoltables aux populations de requins errants qui menacent les premières opérations côtières.
+
+**Points forts de la vidéo :**
+- **Dangers côtiers** : Des requins patrouillent dans les eaux près de Rock Pillar Bay, nécessitant un placement soigneux des premiers quais et plates-formes de pêche.
+- **Récupération d'épaves** : Plusieurs sites d'épaves dispersés autour de l'île offrent des ressources cruciales en début de partie pour lancer votre économie.
+- **Opportunités verticales** : D'abondantes falaises et de hauts plateaux permettent une expansion verticale massive, gardant les structures clés à l'abri des raids côtiers.
+
+<YouTubeEmbed videoId="5f9PhNpem0w" title="Corsair Cove - Skull Rock Island | Pirate City Builder" />
+
+Pour lancer votre colonie, concentrez-vous sur la collecte de matières premières de base et l'établissement de routes de transit fiables entre la côte et les hautes falaises.
+
+| Ressource | Source | Utilisation initiale |
+| :--- | :--- | :--- |
+| Bois | Forêts de falaise | Construction de sentiers de base, d'abris et de premiers bâtiments de production |
+| Fibre | Végétation sauvage | Fabrication de cordes pour les ponts verticaux de base et les premiers voiliers |
+| Débris d'épave | Épaves côtières | Récupération de métal pour la production d'outils précoces et d'armes de base |
+| Poisson | Eaux côtières | Fournir une subsistance de base à votre équipage initial de naufragés |
+
+<Callout type="tip" title="S'installer près des falaises">
+Placez vos premiers centres de distribution près de la base des falaises. Ce positionnement vous permet d'établir rapidement des sentiers verticaux et des tyroliennes pour atteindre les riches gisements de bois et de minéraux sur les hauteurs sans gaspiller de terres précieuses.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Aménagement urbain vertical et chaînes d'approvisionnement">
+
+Gérer des chaînes de production complexes à des hauteurs extrêmes est le défi principal de cette économie pirate. Avec plus de 50 types de biens différents à fabriquer et à distribuer, l'efficacité de l'aménagement est le facteur décisif entre un port prospère et un campement stagnant.
+
+Parce que les terrains plats sont rares, les bâtiments de production doivent être placés sur les parois des falaises et les sommets des collines. Cette verticalité nécessite un réseau complexe de ponts, de tyroliennes et de mécanismes pour déplacer efficacement les marchandises des sites d'extraction vers les installations de transformation et les centres de distribution.
+
+<CardGrid cols={3}>
+  <Card title="Stratégie de levage vertical">
+    - **Focus** : Utilisation intensive de tyroliennes et de sentiers verticaux.
+    - **Avantages** : Transport le plus rapide entre des hauteurs extrêmes.
+    - **Inconvénients** : Coût de construction initial élevé.
+  </Card>
+  <Card title="Aménagement de moyeu en terrasses">
+    - **Focus** : Construction de centres plats sur des terrasses intermédiaires.
+    - **Avantages** : Distribution équilibrée et défense facile.
+    - **Inconvénients** : Nécessite une planification spatiale précise.
+  </Card>
+  <Card title="Réseau de ponts étendu">
+    - **Focus** : Relier des falaises lointaines via des ponts massifs.
+    - **Avantages** : Ouvre l'accès à de vastes gisements de ressources tôt.
+    - **Inconvénients** : Vulnérable aux longs délais de transport.
+  </Card>
+</CardGrid>
+
+Pour maintenir un flux constant de marchandises, les matières premières doivent être systématiquement transformées en composants intermédiaires avant de pouvoir être transformées en produits finis de haute valeur.
+
+| Matière première | Bien intermédiaire | Produit fini | Consommateur principal |
+| :--- | :--- | :--- | :--- |
+| Cuivre et Fer | Feuilles de métal | Canons | Armadas et Forts |
+| Sable et Bois | Verre | Longues-vues | Navigateurs et Capitaines |
+| Herbes et Alcool | Teintures | Médicaments | Équipage de haut niveau |
+| Grain et Viande | Farine et Épices | Soupe de tortue | Corsaires d'élite |
+
+<Callout type="warning" title="Évitez les goulots d'étranglement logistiques">
+Les longs sentiers sans centres de stockage intermédiaires affameront rapidement vos lignes de production. Assurez-vous que chaque niveau de falaise majeur dispose d'un centre de distribution dédié pour stocker les marchandises locales et réduire les temps de trajet.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gérer votre équipage pirate et les besoins de la population">
+
+Une capitale pirate n'est aussi forte que l'équipage qui l'anime. Votre population est divisée en niveaux distincts, allant des simples manœuvres aux marins spécialisés d'élite. Chaque groupe a des exigences spécifiques qui doivent être satisfaites pour garder leur moral élevé et les empêcher d'abandonner votre cause.
+
+Alors que les ouvriers de base se contentent de ragoûts simples et de bière, les spécialistes avancés et les corsaires d'élite exigent des articles de luxe tels que du tabac, des pistolets, des cache-œil et des vêtements raffinés. Si ces besoins sont ignorés trop longtemps, la productivité chutera et votre équipage pourrait vous laisser en plan.
+
+| Niveau d'équipage | Rôles clés | Demandes de base | Demandes de luxe |
+| :--- | :--- | :--- | :--- |
+| Vagabond | Travail général | Biscuit de mer, Bière | Aucun |
+| Ouvrier | Production | Ragoût, Tambouille | Rhum, Bottes |
+| Spécialiste | Navigateurs, Canonniers | Oiseau rôti, Sabres | Médicaments, Longues-vues |
+| Marin d'élite | Corsaires vétérans | Soupe de tortue, Pistolets | Tabac, Bijoux |
+
+Pour réussir à faire croître votre population et à améliorer votre équipage, suivez ce flux de progression structuré.
+
+<Steps>
+  <Step num="1" title="Attirer les Vagabonds">
+    Construisez des quartiers d'habitation de base et fournissez du biscuit de mer pour attirer les survivants de naufrages et les vagabonds de bas niveau sur votre île.
+  </Step>
+  <Step num="2" title="Former les Spécialistes">
+    Construisez des salles d'entraînement spécialisées et fournissez-leur des sabres et des longues-vues pour convertir les ouvriers de base en navigateurs et bombardiers.
+  </Step>
+  <Step num="3" title="Soutenir les Corsaires d'élite">
+    Établissez des lignes d'approvisionnement de haut niveau pour les produits de luxe comme la soupe de tortue, les vêtements fins et le tabac afin de garder les équipages vétérans loyaux et motivés.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bonus de moral élevé">
+Garder le bonheur de votre équipage au-dessus de 80 % augmente la vitesse de déplacement globale et l'efficacité de la production sur tous les sentiers verticaux de 15 %, stimulant ainsi considérablement votre économie.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guerre navale, fortifications et expéditions">
+
+Les mers au-delà de votre port sûr regorgent à la fois de richesses et de dangers. Pour protéger votre île des chasseurs de pirates de la Couronne, vous devez construire des fortifications défensives et assembler une armada redoutable.
+
+Le combat naval au tour par tour nécessite une planification tactique, où votre choix de navire, de capitaine et la composition de l'équipage déterminent l'issue. Lorsque votre flotte est en expédition, votre île compte sur les réseaux de défense côtière pour repousser les navires ennemis entrants.
+
+| Fortification | Rôle stratégique | Coût de construction | Munitions nécessaires |
+| :--- | :--- | :--- | :--- |
+| Tour de guet | Alerte précoce, défense légère | Bois, Fibre | Aucune |
+| Batterie de canons | Défense côtière lourde | Pierre, Fer | Boulets, Poudre noire |
+| Fosse à mortier | Bombardement longue portée | Fer, Cuivre | Obus lourds, Poudre noire |
+
+Avant de lancer des expéditions pour piller les îles voisines ou affronter des créatures marines mythiques, assurez-vous que votre flotte est pleinement préparée.
+
+<Checklist
+  id="armada-prep"
+  title="Objectifs de déploiement de l'armada :"
+  items={[
+    "Construire au moins trois galions lourds avec des coques en bois renforcé",
+    "Équiper tous les bombardiers de longues-vues et de sabres de haute qualité",
+    "Stocker plus de 100 barils de poudre noire dans les entrepôts côtiers",
+    "Assigner un capitaine vétéran spécialisé dans les tactiques au tour par tour"
+  ]}
+/>
+
+<Callout type="warning" title="Défendez votre port">
+N'envoyez pas toute votre flotte en expédition simultanément. Gardez au moins deux navires défensifs stationnés près de vos batteries de canons pour intercepter les raids soudains des patrouilles de la Couronne.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Voies de développement et progression">
+
+À mesure que votre société pirate grandit, vous pouvez personnaliser votre progression à travers quatre dimensions de développement distinctes. Choisir quelle voie prioriser vous permet d'adapter votre société à votre style de jeu préféré.
+
+Que vous vous concentriez sur la construction d'un empire commercial massif ou d'une forteresse militarisée, l'équilibre de ces voies de progression est essentiel pour débloquer des technologies avancées et résister à la Couronne.
+
+| Dimension | Zone de concentration | Déblocage essentiel | Avantage stratégique |
+| :--- | :--- | :--- | :--- |
+| Notoriété | Réputation pirate | Guilde des amuseurs | Booste la productivité des ouvriers locaux |
+| Empire | Expansion de l'île | Tyroliennes avancées | Accélère le transport de fret vertical |
+| Navigation | Dominance maritime | Coque de galion lourd | Débloque des options de combat naval de haut niveau |
+| Richesse | Commerce et Économie | Presse à monnaie | Génère des pièces passives à partir du minerai d'or |
+
+<Callout type="info" title="Progression équilibrée">
+Bien que se concentrer entièrement sur la Richesse puisse sécuriser des ressources rapidement, négliger la Notoriété vous empêchera de recruter les spécialistes d'élite nécessaires pour armer les navires de guerre avancés.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Comment optimiser le transport vertical dans Corsair Cove City Builder ?",
+    answer: "Pour optimiser le transport vertical, construisez des centres de distribution dédiés à la base et au sommet des falaises majeures. Reliez ces centres à l'aide de tyroliennes à haute capacité pour le transport descendant et de monte-charges mécaniques ou de sentiers en terrasses pour le mouvement ascendant."
+  },
+  {
+    question: "Que se passe-t-il si les besoins de l'équipage pirate sont ignorés ?",
+    answer: "Si vous ne fournissez pas les biens essentiels comme la nourriture, l'alcool et les articles de luxe spécialisés, le bonheur de votre équipage chutera. Finalement, les ouvriers et les spécialistes abandonneront leurs postes, arrêtant les chaînes de production et vous laissant en difficulté."
+  },
+  {
+    question: "Comment fonctionne le combat naval dans Corsair Cove ?",
+    answer: "Le combat naval se déroule au tour par tour et repose sur votre choix de navire, les spécialistes de l'équipage et le capitaine. Le succès dépend du positionnement, de l'utilisation de la direction du vent et de la gestion de votre approvisionnement en poudre noire et en boulets pendant la bataille."
+  },
+  {
+    question: "Peut-on automatiser entièrement les chaînes d'approvisionnement ?",
+    answer: "Oui, une fois que vous avez débloqué les technologies logistiques avancées dans la voie de progression Empire, vous pouvez mettre en place des itinéraires de distribution automatisés en utilisant des systèmes complexes de ponts, de tyroliennes et de priorités de sentiers."
+  }
+]} />
+
+</Section>

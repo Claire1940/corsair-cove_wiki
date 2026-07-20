@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Barque de Corsair Cove : Guide de raccourci et prérequis de construction",
+  description: "Découvrez comment débloquer et construire la barque de Corsair Cove pour accéder au Repaire des Pêcheurs (Anglers' Retreat). Inclut les listes de matériaux, les niveaux requis et des conseils de navigation.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Rowboat+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki de Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **La barque de Corsair Cove** sert de raccourci permanent essentiel entre le continent et l'île isolée du Repaire des Pêcheurs (Anglers' Retreat).
+- **L'accès initial** nécessite le niveau 51 en Navigation (Sailing) et de naviguer à travers la dangereuse Mer Mythique (Mythic Sea) au sud de la Guilde des Mythes (Myths' Guild).
+- **La construction** de la barque du côté de l'île est obligatoire avant que le raccourci ne devienne fonctionnel depuis Corsair Cove.
+- **Des outils essentiels** comme le marteau et la scie sont requis pour tous les aménagements de l'île, y compris le rouet et la marmite.
+- **La sécurité d'abord** : un bateau équipé d'une station d'inoculation est fortement recommandé pour survivre aux eaux fétides entourant le point d'amarrage.
+</Callout>
+
+<Section icon={Map} title="Localiser le raccourci de la barque de Corsair Cove">
+
+La **barque de Corsair Cove** est un aménagement de transport spécialisé introduit avec l'extension de la Mer Mythique fin 2025. Située au sud-ouest des pontons principaux de Corsair Cove, cette modeste embarcation offre un lien direct vers le Repaire des Pêcheurs (Anglers' Retreat), une île autrement réservée aux navigateurs de haut niveau. Comprendre la géographie de cette région est crucial pour les joueurs cherchant à optimiser leurs itinéraires de voyage dans les océans du sud.
+
+Avant de pouvoir utiliser la barque depuis Corsair Cove, vous devez d'abord atteindre le Repaire des Pêcheurs via la Navigation traditionnelle. L'île est située au sud de la Guilde des Mythes et au nord de l'Île des Os (Isle of Bones). Les eaux y sont notoirement difficiles à naviguer en raison de l'état « fétide » de la mer, qui peut endommager les navires et les joueurs non préparés.
+
+| Caractéristique | Détails |
+| --- | --- |
+| **Emplacement sur le continent** | Sud-ouest des pontons de Corsair Cove |
+| **Destination sur l'île** | Repaire des Pêcheurs (Mer Mythique) |
+| **Niveau requis en Navigation** | Niveau 51 (non boostable) |
+| **Prérequis** | Construire l'aménagement de la barque sur l'île |
+| **Dangers** | Eaux fétides, niveau élevé de Navigation requis |
+
+<Callout type="warning" title="Avertissement de navigation">
+Bien qu'il soit techniquement possible de naviguer sur la bordure ouest des eaux fétides sans station d'inoculation, cela est extrêmement difficile. La plupart des joueurs doivent s'assurer que leur navire est correctement équipé avant de tenter l'amarrage initial au Repaire des Pêcheurs.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Construction et matériaux requis">
+
+Débloquer la **barque de Corsair Cove** n'est pas aussi simple que de cliquer sur une option. Cela nécessite un niveau spécifique en Construction et des matières premières. Le Repaire des Pêcheurs étant un endroit isolé, il est conseillé aux joueurs d'apporter tous les objets nécessaires en un seul voyage pour éviter de multiples traversées dangereuses de la Mer Mythique.
+
+Pour construire tous les aménagements de l'île, y compris la barque, vous aurez besoin d'un total de 21 emplacements d'inventaire. Cependant, cela peut être considérablement réduit en utilisant des équipements spécialisés tels que le marteau d'Imcando ou la scie d'Amy. Le tableau suivant présente les matériaux spécifiques requis pour les principales installations de l'île.
+
+| Installation | Niveau de Construction | Matériaux requis | Expérience obtenue |
+| --- | --- | --- | --- |
+| **Barque (Aménagement)** | 24 | 2 planches de chêne, 2 barres de fer, marteau, scie | 141 |
+| **Marmite** | 19 | 2 bûches, 2 barres de fer, boîte d'allumettes, marteau, scie | 23 |
+| **Rouet** | 24 | 2 planches de chêne, 2 barres de fer, pelote de laine, marteau, scie | 141 |
+
+<CardGrid cols={2}>
+  <Card title="Gestion de l'inventaire">
+    - **Sac à planches (Plank Sack)** : Fortement recommandé pour économiser de l'espace pour les planches de chêne.
+    - **Marteau d'Imcando** : Fonctionne à la fois comme marteau et comme outil de ceinture.
+    - **Scie d'Amy** : Permet d'économiser un emplacement par rapport à la scie standard.
+  </Card>
+  <Card title="Outils requis">
+    - **Marteau** : Requis pour la construction de toutes les installations.
+    - **Scie** : Requise pour la construction de toutes les installations.
+    - **Boîte d'allumettes** : Spécifiquement pour la marmite de l'île.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de pro">
+Si vous manquez d'espace dans votre inventaire, donnez la priorité à la barque. Une fois construite, vous pourrez utiliser le raccourci pour retourner sur le continent et vous réapprovisionner avant de terminer le rouet et la marmite.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide de construction étape par étape">
+
+La mise en place de votre liaison permanente via la **barque de Corsair Cove** suit une progression spécifique. Vous ne pouvez pas la construire depuis le continent ; l'aménagement « Barque » doit d'abord être construit sur l'île du Repaire des Pêcheurs. Suivez ces étapes pour garantir une installation réussie.
+
+<Steps>
+  <Step num="1" title="Préparez votre navire">
+    Assurez-vous que votre navire dispose d'une capacité de Navigation d'au moins niveau 51. Installez une station d'inoculation dans un port pour vous protéger contre les eaux fétides de la Mer Mythique.
+  </Step>
+  <Step num="2" title="Rassemblez les matériaux">
+    Rassemblez 4 planches de chêne, 4 barres de fer, 2 bûches et une pelote de laine. N'oubliez pas votre marteau, votre scie et votre boîte d'allumettes. Cela couvre tous les aménagements de l'île.
+  </Step>
+  <Step num="3" title="Voyage initial">
+    Partez de la Guilde des Mythes ou d'un port à proximité et naviguez vers le sud. Dirigez-vous vers le point d'amarrage situé sur la rive nord du Repaire des Pêcheurs.
+  </Step>
+  <Step num="4" title="Construisez la barque">
+    Repérez l'emplacement fantôme de la barque sur la rive sud-ouest de l'île. Interagissez avec lui en utilisant 2 planches de chêne et 2 barres de fer pour finaliser le raccourci.
+  </Step>
+  <Step num="5" title="Vérifiez le raccourci">
+    Utilisez la barque nouvellement construite pour retourner à Corsair Cove. La barque située au sud-ouest de la crique sera désormais pleinement opérationnelle pour un voyage aller-retour.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Déblocage réussi">
+Une fois l'étape 5 terminée, vous n'avez plus besoin du niveau 51 en Navigation ni d'un bateau spécialisé pour accéder au Repaire des Pêcheurs. Vous pouvez simplement vous rendre à pied aux pontons de Corsair Cove et prendre la barque.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Récompenses et caractéristiques de l'île">
+
+Pourquoi se donner la peine de construire la **barque de Corsair Cove** ? Le Repaire des Pêcheurs offre plusieurs ressources et récompenses uniques qui en font une destination précieuse pour les joueurs de niveau moyen à élevé. Des objets cosmétiques exclusifs aux parcelles de compétences rares, l'île sert de plaque tournante tranquille pour diverses activités.
+
+L'île dispose d'une parcelle d'arbres à bois dur, particulièrement utile pour les joueurs entraînant la Coupe de bois (Woodcutting) ou l'Agriculture (Farming). De plus, on y trouve six parcelles de lin et plusieurs objets interactifs uniques. Les récompenses les plus convoitées sont cependant cachées dans les coffres verrouillés de l'île.
+
+| Source de récompense | Prérequis | Contenu clé |
+| --- | --- | --- |
+| **Coffre verrouillé** | 52 Agilité, Clé fétide | Tenue de croiseur des marais, 20k pièces, 8 émeraudes brutes |
+| **Boîte verrouillée** | Petite clé (Crête d'Onyx) | Schéma de l'installation de bateau attrape-tempête (Gale Catcher) |
+| **Parcelle de bois dur** | Coupe de bois / Agriculture | Bûches d'acajou ou de teck (selon la graine) |
+| **Parcelles de lin** | Aucun | 6 parcelles pour récolter facilement du lin |
+
+<Checklist
+  id="island-completion"
+  title="Objectifs de complétion du Repaire des Pêcheurs :"
+  items={[
+    "Construire le raccourci en barque vers Corsair Cove",
+    "Construire la marmite et le rouet de l'île",
+    "Obtenir la tenue de croiseur des marais dans le coffre verrouillé",
+    "Débloquer le schéma du bateau attrape-tempête (Gale Catcher)",
+    "Planter un acajou dans la parcelle de bois dur"
+  ]}
+/>
+
+<Callout type="info" title="Informations clés">
+La clé fétide (Fetid Key) requise pour le coffre verrouillé s'obtient lors de l'épreuve du barracuda Jubbly Jive. La petite clé (Small Key) pour la boîte verrouillée nécessite de creuser près des roches précieuses sur la Crête d'Onyx.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navigation avancée et données techniques">
+
+Pour ceux qui s'intéressent aux aspects techniques de la **barque de Corsair Cove** et de sa destination, l'île du Repaire des Pêcheurs a fait l'objet de plusieurs mises à jour depuis sa sortie en novembre 2025. Les développeurs ont affiné l'interaction entre la compétence de Navigation et l'amarrage sur l'île afin de garantir une expérience de jeu plus fluide.
+
+Une mise à jour notable en janvier 2026 a résolu un bug visuel où des mauvaises herbes apparaissaient sur la parcelle d'arbres à bois dur même lorsqu'un bois de rose était en train de pousser. Ce souci du détail garantit que le Repaire des Pêcheurs reste une partie soignée de l'écosystème de la Mer Mythique.
+
+| Statistique | Valeur / Prérequis |
+| --- | --- |
+| **Date de sortie** | 19 novembre 2025 |
+| **Dernière mise à jour majeure** | 7 janvier 2026 |
+| **Réservé aux membres** | Oui |
+| **Niveau d'Agilité requis** | 52 (pour le coffre) |
+| **XP de Construction** | 305 au total (tous les aménagements) |
+
+<CardGrid cols={3}>
+  <Card title="Infos Coupe de bois">
+    - **Arbre normal** : Niveau 1 (25 XP)
+    - **Chêne** : Niveau 15 (37,5 XP)
+    - **Parcelle de bois dur** : XP variable
+  </Card>
+  <Card title="Mécaniques de Navigation">
+    - **Amarrage** : Niveau 51
+    - **Inoculation** : Requise pour la sécurité
+    - **Itinéraire** : Guilde des Mythes vers le Sud
+  </Card>
+  <Card title="Avantages des installations">
+    - **Marmite** : Préparation de nourriture sur place
+    - **Rouet** : Traitement du lin de l'île
+    - **Barque** : Raccourci permanent
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Conseil d'entretien">
+Portez toujours un marteau et une scie sur vous lors de votre première visite sur l'île. Il n'y a pas de banque au Repaire des Pêcheurs, ce qui signifie que tout matériau oublié nécessitera un voyage de retour vers le continent.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Dois-je avoir le niveau 51 en Navigation à chaque fois que j'utilise la barque de Corsair Cove ?",
+    answer: "Non. Le niveau 51 en Navigation n'est requis que pour le voyage initial vers l'île. Une fois que vous aurez construit l'aménagement de la barque au Repaire des Pêcheurs, vous pourrez utiliser le raccourci depuis Corsair Cove, quel que soit votre niveau de Navigation."
+  },
+  {
+    question: "Puis-je utiliser le bateau d'un autre joueur pour atteindre l'île ?",
+    answer: "Oui, vous pouvez être passager sur le bateau d'un autre joueur pour atteindre le Repaire des Pêcheurs, à condition que le bateau soit équipé d'une station d'inoculation pour traverser les eaux fétides en toute sécurité."
+  },
+  {
+    question: "Où puis-je obtenir les matériaux pour la barque ?",
+    answer: "Vous devriez acheter des planches de chêne et des barres de fer sur le continent (comme à la banque ouest de Varrock ou à Falador) avant de voyager, car il n'y a pas de magasins au Repaire des Pêcheurs."
+  },
+  {
+    question: "La tenue de croiseur des marais est-elle purement cosmétique ?",
+    answer: "Bien qu'elle offre une esthétique unique, la tenue de croiseur des marais est principalement une récompense pour les joueurs qui ont maîtrisé les défis de navigation et d'agilité de la Mer Mythique."
+  }
+]} />
+
+</Section>

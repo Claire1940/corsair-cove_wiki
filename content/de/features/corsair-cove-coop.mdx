@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove: Strategie- & Fortschrittsleitfaden für Anfänger",
+  description: "Meistere die Spielmechaniken von Corsair Cove mit unserem Experten-Leitfaden zu Städtebau, Produktionsketten und Seekampf im Jahr 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Corsair+Cove+Guide",
+  date: "2026-07-21",
+  author: "corsair cove Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Corsair Cove** ist ein vertikaler Städtebauer, der sich auf komplexe Produktionsketten und Seekampf konzentriert.
+- **Vertikalität** ist der Schlüssel; baue an Klippenwänden und nutze Seilrutschen, um die Effizienz deines Piratenhafens zu optimieren.
+- **Produktionsketten** erfordern ein sorgfältiges Ressourcenmanagement, das von einfachem Eintopf bis hin zu fortschrittlichen Schiffskomponenten reicht.
+- **Seekampf** ist rundenbasiert und erfordert den strategischen Einsatz von Vorräten, Besatzungsmanagement und Kapitänsfähigkeiten.
+- **Zusammenhalt** (Cohesion) ist dein wichtigster Wert; wenn er auf Null sinkt, bricht deine Piratengemeinschaft zusammen.
+</Callout>
+
+<Section icon={Map} title="Vertikales Bauen meistern">
+
+Corsair Cove stellt traditionelle Städtebau-Normen infrage, indem es Spieler dazu ermutigt, auf vertikalen Flächen zu bauen. Eine effiziente Wegfindung ist das Rückgrat eines erfolgreichen Piratenhafens.
+
+**Video-Highlights:**
+- Barrierefreiheitseinstellungen für Bewegungskrankheit und Benutzeroberflächen-Skalierung.
+- Bedeutung des Bauens in die Höhe und der effektiven Nutzung des vertikalen Raums.
+- Wie man Baustellen und Ressourcenverbindungen verwaltet.
+
+<YouTubeEmbed videoId="RV8CaADPWog" title="Frühe Vorschau auf 1.0! | Corsair Cove" />
+
+Um erfolgreich zu sein, musst du das Layout deiner Insel meistern. Im Gegensatz zu flachen Karten musst du jeden Zentimeter der Klippenseite nutzen, um deine wachsende Bevölkerung unterzubringen.
+
+| Gebäudetyp | Funktion | Platzierungstipp |
+| :--- | :--- | :--- |
+| **Piratenlager** | Zentraler Knotenpunkt | In der Nähe von Ressourcenknoten platzieren |
+| **Unterkünfte** | Unterstützung der Bevölkerung | Vertikale Klippenwände nutzen |
+| **Sägewerk** | Bretterproduktion | Benötigt Nähe zu Holz |
+| **Lagerhaus** | Ressourcenlagerung | Zentralisieren für die Logistik |
+
+<Callout type="tip" title="Profi-Tipp">
+Nutze Aufzüge und Seilrutschen, um langsame Leitern zu umgehen. Diese Strukturen erhöhen die Transportgeschwindigkeit deiner Sammler erheblich und verhindern Ressourcenengpässe in deiner Lieferkette.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimierung der Produktionskette">
+
+Das Überleben in der Bucht erfordert einen stetigen Strom an Ressourcen. Du musst die Bedürfnisse deiner wachsenden Piratenbevölkerung mit den Anforderungen deiner Armada in Einklang bringen.
+
+| Ressourcenstufe | Beispiele | Produktionsquelle |
+| :--- | :--- | :--- |
+| **Basis** | Holz, Stein, Nahrung | Holzfäller, Lagerfeuer |
+| **Verarbeitet** | Bretter, Ziegelsteine | Sägewerk, Steinbruch |
+| **Fortgeschritten** | Schwarzpulver, Segel | Konservenfabrik, Segelmacher |
+| **Luxus** | Rum, Tabak | Destillerie, Bauernhof |
+
+<Steps>
+  <Step num="1" title="Grundbedürfnisse sichern">
+    Baue sofort Lagerfeuer und sammle Nahrung, um einen Verlust des Zusammenhalts zu verhindern.
+  </Step>
+  <Step num="2" title="Logistik aufbauen">
+    Verbinde deine Ressourcengebäude über Straßen und Klippenpfade mit dem Piratenlager.
+  </Step>
+  <Step num="3" title="Produktion hochfahren">
+    Sobald die Lage stabil ist, baue Sägewerke und Lagerhäuser, um dich auf den Schiffsbau vorzubereiten.
+  </Step>
+  <Step num="4" title="Auf neue Inseln expandieren">
+    Nutze Schiffe, um nahegelegene Inseln nach Ressourcen zu plündern, die du zu Hause nicht herstellen kannst.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Effizienz-Warnung">
+Überwache stets deine Ressourcenproduktion im Vergleich zum Verbrauch. Wenn deine Lagerkapazität erschöpft ist oder deine Versorgungslinien unterbrochen sind, werden deine Gebäude inaktiv, was eine Kettenreaktion der Unzufriedenheit auslöst.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Seekampf und Erkundung">
+
+Der Seekampf in Corsair Cove is rundenbasiert und erfordert die Verwaltung von Vorräten und der Gesundheit der Besatzung. Jede Entscheidung auf den Sieben Weltmeeren beeinflusst dein Piraten-Vermächtnis.
+
+<CardGrid cols={2}>
+  <Card title="Kampfwerte">
+    - **Kanonenschaden**: Fügt der gegnerischen Gesundheit Schaden zu.
+    - **Enterschaden**: Greift die gegnerische Besatzung direkt an.
+    - **Geschwindigkeit/Manövrierfähigkeit**: Wird verwendet, um feindlichem Feuer auszuweichen.
+    - **Rüstung**: Reduziert den erlittenen Gesamtschaden.
+  </Card>
+  <Card title="Taktische Vorräte">
+    - Vorräte fungieren als deine „Aktionspunkte“.
+    - Das Ausgehen von Vorräten schränkt deine Kampfoptionen ein.
+    - Das Auffüllen von Vorräten erfordert oft das Opfern von Gesundheit oder Besatzung.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Strategie">
+Bewerte immer die Werte des gegnerischen Schiffs, bevor du den Kampf suchst. Wenn dein Schiff in Sachen Kanonenstärke unterlegen ist, konzentriere dich auf Entermanöver, um die feindliche Besatzung auszuschalten und den Schaden an deinem eigenen Schiff zu minimieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Piraten-Zusammenhalt aufrechterhalten">
+
+Der Zusammenhalt (Cohesion) ist das Lebenselixier deines Betriebs. Er repräsentiert die Einheit deiner Besatzung. Wenn diese Leiste auf Null sinkt, ist das Spiel vorbei.
+
+| Ereignistyp | Auswirkung auf Zusammenhalt | Gegenmaßnahme |
+| :--- | :--- | :--- |
+| **Wenig Nahrung/Alkohol** | Ständiger Abzug | Mehr Kombüsen/Tavernen bauen |
+| **Interne Fehden** | Plötzlicher Abfall | Münzen ausgeben, um Streitigkeiten beizulegen |
+| **Schiffsangriffe** | Massiver Abfall | Verteidigungskanonentürme unterhalten |
+| **Erfolgreiche Raubzüge** | Moderater Zuwachs | Erkundungsziele abschließen |
+
+<Checklist
+  id="cohesion-milestones"
+  title="Ziele zur Erhaltung des Zusammenhalts:"
+  items={[
+    "100 % Zufriedenheit mit den Unterkünften aufrechterhalten",
+    "Konsistente Versorgung mit Eintopf und Rum sicherstellen",
+    "Piratenfehden mithilfe des Piratenkodex lösen",
+    "Alle Angriffspunkte der Insel verteidigen"
+  ]}
+/>
+
+<Callout type="info" title="Verwaltungshinweis">
+Wenn deine Piraten hungrig oder ungepflegt sind, werden sie „unruhig“. Priorisiere diese Ereignisse sofort, da ein Ignorieren schnell zum Game Over führen kann.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Was passiert, wenn mein Zusammenhalt auf Null sinkt?",
+    answer: "Wenn dein Zusammenhalt Null erreicht, bricht deine Piratengemeinschaft zusammen und du verlierst das Spiel sofort."
+  },
+  {
+    question: "Wie bekomme ich mehr Seil für Schiffsverbesserungen?",
+    answer: "Seile werden vom Seilmacher hergestellt, der freigeschaltet wird, nachdem du einen Handelsposten errichtet und deine Wohlstandsziele vorangetrieben hast."
+  },
+  {
+    question: "Müssen Schiffe angedockt sein, um nützlich zu sein?",
+    answer: "Ja, jedes Schiff benötigt einen Anlegeplatz. Du kannst keine Flotte betreiben, die größer ist als die Anzahl deiner verfügbaren Anlegeplätze."
+  },
+  {
+    question: "Ist Corsair Cove ein Multiplayer-Spiel?",
+    answer: "Nein, Corsair Cove ist ein Einzelspieler-Städtebauer, der sich auf eine storybasierte Entwicklung und strategisches Management konzentriert."
+  }
+]} />
+
+</Section>

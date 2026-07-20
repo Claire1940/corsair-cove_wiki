@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove GOG : Guide de configuration et test de performance",
+  description: "Commencez votre aventure sur Corsair Cove sur GOG. Découvrez les étapes de configuration, les conseils d'optimisation des performances et les stratégies de gestion de votre repaire de pirates pour la sortie de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Corsair+Cove+GOG+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki de Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Corsair Cove GOG** offre une expérience totalement sans DRM pour construire et gérer votre repaire de pirates.
+- L'**installation hors ligne** est entièrement prise en charge, vous permettant de lancer le jeu sans aucun lanceur ni connexion Internet.
+- La **gestion des ressources** est le pilier central du gameplay, vous obligeant à établir des chaînes de production efficaces et à maintenir le bonheur de l'équipage.
+- L'**optimisation des performances** est essentielle lors de l'agrandissement de votre colonie afin d'éviter les chutes de framerate en fin de partie.
+- La **sauvegarde sur le cloud** peut être configurée manuellement ou synchronisée automatiquement à l'aide du client GOG Galaxy.
+</Callout>
+
+<Section icon={Map} title="Présentation de la gestion de pirates sans DRM">
+
+La sortie de **Corsair Cove GOG** apporte le célèbre jeu de gestion de colonie de pirates aux joueurs qui préfèrent le jeu sans DRM. Dans ce titre, les joueurs se retrouvent bloqués sur une île sauvage avec pour seuls biens les vêtements qu'ils portent. L'objectif principal est de construire, gérer et régner sur un repaire de pirates prospère, transformant un modeste campement en un repaire redoutable. La version GOG vous garantit la propriété directe des fichiers d'installation, permettant des sauvegardes hors ligne et l'installation sur plusieurs appareils personnels sans avoir à se connecter à des serveurs en ligne.
+
+Gérer un équipage de pirates exige un équilibre délicat entre la distribution des ressources, l'optimisation des chaînes de production et la planification défensive. À mesure que votre colonie s'agrandit, vous pouvez étendre votre influence sur l'île sauvage, construire de puissants navires et explorer les sept mers. L'édition GOG comprend toutes les fonctionnalités standard du jeu, optimisées pour les systèmes d'exploitation modernes avec des configurations spécifiques sans lanceur.
+
+**Points forts de la vidéo :**
+- Découvrez les bases de la construction d'un repaire de pirates à partir de zéro.
+- Apprenez à gérer le bonheur de l'équipage et à mettre en place des chaînes de production de base.
+- Explorez les mécaniques d'expansion de votre territoire vers l'Île Sauvage.
+- Découvrez le style visuel et la boucle de gameplay de ce simulateur de gestion de pirates indépendant.
+
+<YouTubeEmbed videoId="rCaneyQJ6Tc" title="Corsair Cove | Meilleurs trailers de jeux indépendants" />
+
+<Callout type="tip" title="Satisfaction de l'équipage">
+Gardez un œil attentif sur les réserves de rhum et de nourriture de votre équipage. Un équipage mécontent ralentira les chaînes de production et finira par se mutiner, stoppant complètement votre progression.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configuration requise et installation de Corsair Cove GOG">
+
+Avant de lancer votre empire pirate, assurez-vous que votre système répond aux exigences matérielles. Comme le jeu intègre des systèmes de simulation complexes pour les chaînes de production et les comportements individuels de l'équipage, les performances du processeur (CPU) sont critiques en fin de partie, lorsque votre colonie s'agrandit.
+
+| Configuration requise | Configuration minimale | Configuration recommandée |
+| --- | --- | --- |
+| Système d'exploitation | Windows 10 (64 bits) | Windows 10/11 (64 bits) |
+| Processeur | Intel Core i3-6100 / AMD FX-8350 | Intel Core i5-8400 / AMD Ryzen 5 2600 |
+| Mémoire | 8 Go de RAM | 16 Go de RAM |
+| Carte graphique | GTX 760 / Radeon R9 280X | GTX 1060 / RX 580 |
+| DirectX | Version 11 | Version 12 |
+| Stockage | 4 Go d'espace disponible | 4 Go d'espace SSD disponible |
+
+Pour installer le jeu à l'aide des fichiers GOG, suivez ces étapes pour garantir une installation propre.
+
+<Steps>
+  <Step num="1" title="Télécharger les fichiers d'installation">
+    Connectez-vous à votre compte GOG via un navigateur Web ou le client GOG Galaxy. Accédez à votre bibliothèque, localisez le jeu et téléchargez les fichiers d'installation hors ligne autonomes. Enregistrez toutes les parties dans le même répertoire sur votre disque local.
+  </Step>
+  <Step num="2" title="Exécuter le fichier d'installation">
+    Double-cliquez sur le fichier exécutable d'installation principal. Choisissez votre répertoire d'installation préféré. Il est recommandé d'installer le jeu sur un disque SSD pour réduire les temps de chargement lors des transitions entre la carte de la colonie et la carte du monde.
+  </Step>
+  <Step num="3" title="Appliquer les correctifs optionnels">
+    Consultez la page de la bibliothèque GOG pour d'éventuels correctifs ou patchs Day One. Si disponibles, téléchargez et exécutez ces installateurs une fois l'installation du jeu principal terminée pour garantir la compatibilité avec la dernière version.
+  </Step>
+  <Step num="4" title="Configurer les paramètres de lancement">
+    Accédez au dossier d'installation et faites un clic droit sur l'exécutable du jeu. Sélectionnez les propriétés et cochez la case pour exécuter le programme en tant qu'administrateur. Cela évite d'éventuels problèmes d'autorisation d'écriture lors de la sauvegarde de votre partie.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Sécurité des fichiers de sauvegarde">
+Les installateurs autonomes ne synchronisent pas automatiquement les sauvegardes sur le cloud, sauf si vous lancez le jeu via le client GOG Galaxy. Sauvegardez régulièrement votre répertoire de sauvegarde situé dans votre dossier AppData local pour éviter toute perte de données.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mécaniques de base de la colonie et chaînes de production">
+
+Construire un repaire de pirates prospère nécessite d'établir des chaînes d'approvisionnement efficaces. Les matières premières doivent être récoltées, transformées et distribuées pour maintenir votre équipage opérationnel et vos systèmes de défense armés. Le tableau ci-dessous présente les principales chaînes de production que vous devez établir au cours des phases de début et de milieu de partie.
+
+| Matière première | Bâtiment de transformation | Produit final | Utilisation principale |
+| --- | --- | --- | --- |
+| Bois de construction | Scierie | Planches | Construction de bâtiments et de navires |
+| Canne à sucre | Distillerie | Rhum | Bonheur de l'équipage et commerce |
+| Minerai de fer | Fonderie | Lingots de fer | Fabrication d'armes et composants de navires |
+| Chanvre | Tisserand | Voiles | Vitesse de déplacement du navire et améliorations |
+
+Lors de la planification de votre colonie, l'efficacité de l'agencement est essentielle. Regrouper les bâtiments de production associés à proximité de leurs zones de stockage respectives minimise les temps de transport pour vos travailleurs. Utilisez les stratégies d'agencement suivantes pour optimiser la conception de votre base.
+
+<CardGrid cols={3}>
+  <Card title="Zone industrielle compacte">
+    - **Haute efficacité** grâce à des distances de marche minimales.
+    - Facile à défendre avec des tours de garde concentrées.
+    - Risque élevé d'incendie si un feu se déclare.
+  </Card>
+  <Card title="Hubs décentralisés">
+    - **Risque d'incendie réduit** et meilleure adaptation au terrain.
+    - Nécessite des entrepôts bien placés pour éviter les retards de transport.
+    - Plus difficile à défendre lors des raids de pirates ennemis.
+  </Card>
+  <Card title="Agencement en citadelle défensive">
+    - **Protection maximale** pour les stocks de ressources de grande valeur.
+    - Intègre des points de passage étroits pour canaliser les attaquants.
+    - Limite l'espace physique pour la production agricole.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Goulots d'étranglement des ressources">
+Le bois de construction est le goulot d'étranglement le plus courant en début de partie. Construisez au moins deux cabanes de bûcheron pour chaque scierie afin de garantir un approvisionnement régulier en bois brut pour vos projets de construction.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimisation des performances et dépannage">
+
+Bien que le jeu soit optimisé pour une large gamme de configurations matérielles, les grandes colonies comptant des centaines de membres d'équipage peuvent subir des baisses de performances. L'ajustement de paramètres graphiques et de simulation spécifiques peut aider à maintenir un framerate stable.
+
+| Paramètre | Valeur recommandée | Impact sur les performances | Détails |
+| --- | --- | --- | --- |
+| Qualité des ombres | Moyenne | Élevé | Réduire ce paramètre diminue considérablement la charge du processeur. |
+| Détails de la foule | Bas/Moyen | Élevé | Réduit la complexité du rendu des membres de l'équipage. |
+| V-Sync (Synchro verticale) | Activé | Faible | Évite les déchirements d'écran sur les moniteurs standards. |
+| Vitesse de simulation | Normale | Variable | L'avance rapide augmente l'utilisation du processeur lors des calculs de recherche de chemin. |
+
+Si vous rencontrez des problèmes pour lancer le jeu depuis l'installateur GOG, consultez les étapes de dépannage ci-dessous.
+
+| Problème | Cause potentielle | Résolution |
+| --- | --- | --- |
+| Le jeu plante au démarrage | Fichiers d'exécution DirectX manquants | Exécutez l'installateur Web DirectX de Microsoft. |
+| Les sauvegardes ne se chargent pas | Restrictions d'autorisation | Lancez l'exécutable du jeu en tant qu'administrateur. |
+| Écran noir au lancement | Paramètres de résolution non pris en charge | Modifiez le fichier de configuration dans AppData pour correspondre à votre moniteur. |
+| Saccades pendant le jeu | Conflits d'applications en arrière-plan | Désactivez les superpositions tierces et fermez les applications en arrière-plan inutiles. |
+
+<Callout type="success" title="Mises à jour des pilotes">
+Assurez-vous que les pilotes de votre carte graphique sont mis à jour avec la dernière version publiée en 2026. NVIDIA et AMD publient régulièrement des mises à jour de pilotes qui améliorent la stabilité des moteurs de simulation indépendants.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Jalons de progression">
+
+Pour établir avec succès votre domination sur les sept mers, efforcez-vous d'atteindre ces jalons de progression essentiels. Atteindre ces objectifs débloque des technologies avancées, des plans de navires plus grands et de nouveaux partenaires commerciaux.
+
+<Checklist
+  id="corsair-cove-milestones"
+  title="Jalons du repaire de pirates :"
+  items={[
+    "Construisez votre premier abri de base et un feu de camp pour assurer la survie de l'équipage.",
+    "Construisez une distillerie pour produire du rhum et garantir la loyauté de base de l'équipage.",
+    "Établissez une mine de fer et une fonderie pour commencer à fabriquer des armes.",
+    "Lancez votre premier sloop pour explorer les îles environnantes.",
+    "Défendez votre colonie contre la première vague d'attaquants de la marine royale."
+  ]}
+/>
+
+<Callout type="tip" title="Conseil d'exploration">
+Ne vous précipitez pas pour construire de grands navires immédiatement. Les petits sloops sont moins chers à entretenir et plus rapides à construire, ce qui les rend idéaux pour explorer les îles riches en ressources en début de partie.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "La version GOG de Corsair Cove nécessite-t-elle une connexion Internet active ?",
+    answer: "Non. La version GOG est entièrement sans DRM, ce qui signifie que vous pouvez installer et jouer au jeu complètement hors ligne, sans aucune connexion Internet ni obligation de lanceur."
+  },
+  {
+    question: "Comment sauvegarder manuellement mes fichiers de sauvegarde ?",
+    answer: "Accédez à votre dossier AppData local (généralement situé à l'adresse C:/Utilisateurs/NomUtilisateur/AppData/Local/CorsairCove/Saves) et copiez l'intégralité du dossier dans un emplacement de sauvegarde sécurisé."
+  },
+  {
+    question: "Puis-je jouer en multijoueur avec des utilisateurs Steam en utilisant la version GOG ?",
+    answer: "Oui, le crossplay entre GOG et Steam est pris en charge via une connexion IP directe ou le système de salon en jeu, à condition que les deux joueurs utilisent la même version du jeu."
+  },
+  {
+    question: "Les mods sont-ils pris en charge sur la version GOG ?",
+    answer: "Oui, les mods peuvent être installés manuellement en plaçant les fichiers de mod dans le répertoire 'Mods' désigné au sein du dossier d'installation du jeu."
+  }
+]} />
+
+<Callout type="info" title="Aide de la communauté">
+Si vous rencontrez des bugs particuliers ou si vous avez besoin d'une aide supplémentaire pour votre configuration, consultez les forums officiels de la communauté GOG pour trouver des correctifs et des guides de configuration soumis par les utilisateurs.
+</Callout>
+
+</Section>

@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bêta de Corsair Cove : Guide de progression, astuces et ordre de construction",
+  description: "Maîtrisez le début de partie de la bêta de Corsair Cove. Apprenez les ordres de construction optimaux, les stratégies de gestion des ressources, la cohésion d'équipage et la préparation au combat.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Beta+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki de Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- La bêta de **Corsair Cove** introduit un jeu de gestion de ville et de survie maritime exigeant, où les joueurs dirigent des pirates bloqués sur des falaises escarpées.
+- L'**échafaudage vertical** est la mécanique de construction centrale, obligeant les joueurs à bâtir des passages sur les parois des falaises pour relier les zones clés.
+- La **cohésion de l'équipage** sert de mesure principale du moral, directement influencée par les choix narratifs, la qualité des abris et l'approvisionnement en alcool.
+- Les **préparatifs défensifs** doivent être terminés avant de finaliser la jetée peu profonde, car cela déclenche un bombardement ennemi dévastateur.
+- L'**optimisation de l'espace** en démolissant les épaves initiales est essentielle pour libérer du terrain plat précieux sur la plage de départ.
+</Callout>
+
+<Section icon={Map} title="Bêta de Corsair Cove : Aperçu du gameplay et premières impressions">
+
+La **bêta de corsair cove** plonge les joueurs dans un city-builder de survie maritime brutal mais gratifiant. Échoué sur une île rocheuse et désolée après vous être évadé d'un navire-prison, vous devez guider un équipage hétéroclite de survivants pour bâtir un havre pirate prospère. Contrairement aux jeux de construction de ville traditionnels sur carte plate, ce jeu met l'accent sur la progression verticale, vous obligeant à construire des échafaudages, des ponts et des voies de passage le long des falaises abruptes pour relier vos structures dispersées.
+
+La gestion de votre colonie nécessite d'équilibrer les besoins des dériveurs non qualifiés et des pirates spécialisés. Vous devez récupérer les épaves, établir une production durable de nourriture et d'alcool, et faire des choix moraux difficiles qui affectent la cohésion de votre équipage. Le début de partie est une course contre la montre alors que vous vous préparez à l'arrivée inévitable d'Amara, une chasseuse de pirates implacable déterminée à rayer votre colonie de la carte.
+
+**Points forts de la vidéo :**
+- **Évasion initiale :** Le jeu commence par une évasion spectaculaire de prison, vous laissant échoué sur une île rocheuse avec 28 dériveurs.
+- **Construction verticale :** Démonstration de la construction de passages en bois et d'échafaudages le long des falaises pour relier les épaves.
+- **Moral et cohésion :** Un aperçu du système de choix narratifs et de l'impact de décisions comme l'accueil de naufragés sur l'unité de l'équipage.
+- **Taverne et brassage :** Installation d'un alambic de contrebande et d'une taverne pour satisfaire la demande constante d'alcool des pirates.
+- **L'arrivée de la chasseuse :** Présentation de l'événement dramatique de milieu de partie où le navire de guerre d'Amara bombarde la colonie.
+
+<YouTubeEmbed videoId="FSn2pRIliz4" title="THIS PYRATE CITY BUILDER CHANGES EVERYTHING | Corsair Cove - Ep.01" />
+
+<Callout type="info" title="Statut de la bêta">
+La version bêta présente la boucle de survie principale, les éléments de construction de base et le premier déclencheur de combat. Des fonctionnalités telles que le combat naval avancé, des cartes d'îles plus grandes et des arbres technologiques profonds sont prévues pour les mises à jour ultérieures.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mécaniques de survie de base et gestion des ressources">
+
+Pour survivre sur ce rocher hostile, vous devez maîtriser l'économie de ressources unique du jeu. Les ressources sont réparties entre les matériaux de construction de base, la subsistance et les boosters de moral. L'espace étant extrêmement limité, chaque placement de bâtiment doit être planifié avec soin pour éviter de bloquer les sols fertiles ou de couper des voies de passage critiques.
+
+Votre main-d'œuvre est divisée en deux classes distinctes : les Dériveurs et les Pirates. Les Dériveurs s'occupent des travaux lourds, du transport des ressources et des tâches générales. Les Pirates agissent comme vos bâtisseurs et spécialistes. Garder les deux groupes nourris et satisfaits est crucial pour maintenir la productivité et prévenir les conflits internes.
+
+| Ressource | Source principale | Utilité principale | Priorité |
+|--- |--- |--- |--- |
+| Bois | Épaves, Collecteur de bois | Construction d'échafaudages, de passages et d'abris de base | Critique |
+| Rations de nourriture | Ferme porcine, cueillette | Prévention de la famine, maintien de l'efficacité de travail des dériveurs | Élevée |
+| Alcool de contrebande | Alambic, Taverne | Amélioration du moral de l'équipage, satisfaction des besoins des pirates | Moyenne |
+| Acier | Épaves récupérées, gisements de fer | Construction avancée, armes et pièces de navire | Élevée |
+
+<CardGrid cols={3}>
+  <Card title="Gestion des dériveurs">
+    - **Main-d'œuvre non qualifiée :** Les dériveurs s'occupent du transport, de la récupération et de l'extraction de base des ressources.
+    - **Besoins de subsistance :** Ils ont besoin de rations alimentaires régulières pour maintenir leur efficacité.
+    - **Vulnérabilité :** Très sensibles à la famine, ce qui fait rapidement chuter la productivité globale de la colonie.
+  </Card>
+  <Card title="Échafaudage de falaise">
+    - **Élévation verticale :** Construisez des passages le long des falaises pour atteindre les plateaux supérieurs.
+    - **Optimisation de l'espace :** Préserve les terres plates précieuses de la plage pour l'agriculture et la production lourde.
+    - **Connexions structurelles :** Tous les bâtiments doivent être physiquement connectés au camp pirate central.
+  </Card>
+  <Card title="Cohésion de l'équipage">
+    - **Système de moral :** Représente l'unité et l'esprit de votre équipage de pirates.
+    - **Impact narratif :** Directement affecté par les événements à choix, comme la gestion des naufragés ou le rationnement.
+    - **Conséquences :** Une faible cohésion entraîne des bagarres, des arrêts de travail et, à terme, des mutineries.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Contraintes d'espace">
+Évitez de placer des bâtiments non agricoles sur les sols verts et fertiles. Les terres fertiles sont rares sur l'île de départ et doivent être réservées aux structures de production alimentaire comme les fermes porcines plus tard dans le jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guide étape par étape de l'ordre de construction de départ">
+
+Réussir les premières étapes de la bêta nécessite un ordre de construction hautement optimisé. Gaspiller des ressources dans des structures non essentielles au début peut bloquer votre économie, laissant votre équipage affamé et sans défense. Suivez cette progression étape par étape pour établir une base solide.
+
+<Steps>
+  <Step num="1" title="Établir les connexions initiales">
+    Dès que vous prenez le contrôle, mettez le jeu en pause. Construisez un passage en bois depuis votre navire naufragé jusqu'à la plage principale. Cela permet à vos 28 dériveurs de départ de commencer à transporter les ressources vers le camp central.
+  </Step>
+  <Step num="2" title="Construire des abris de base">
+    Vos survivants ont besoin d'un endroit pour dormir. Construisez trois tentes près du camp pirate. Les regrouper permet de conserver le terrain plat et d'assurer un accès facile au hub central.
+  </Step>
+  <Step num="3" title="Sécuriser l'extraction de bois">
+    Placez un collecteur de bois près des grandes épaves dispersées le long du rivage. Assurez-vous que le rayon du collecteur couvre les tas de récupération à haut rendement. Connectez immédiatement la structure à votre réseau de passages principal.
+  </Step>
+  <Step num="4" title="Établir la production de nourriture et d'alcool">
+    Construisez une source de nourriture de base pour éviter la famine. Enchaînez immédiatement avec un alambic de contrebande et une taverne. Assignez un tavernier pour commencer à distribuer de l'alcool, ce qui satisfait les besoins de vos pirates et augmente la cohésion.
+  </Step>
+  <Step num="5" title="Libérer de l'espace et construire la jetée">
+    Une fois que votre épave initiale est complètement vidée de ses ressources, démolissez-la pour libérer de l'espace précieux sur la plage. Utilisez la zone récupérée pour construire la jetée peu profonde, nécessaire pour construire votre premier navire.
+  </Step>
+</Steps>
+
+| Structure | Coût en bois | Coût spécial | Fonction principale |
+|--- |--- |--- |--- |
+| Passage | Faible | Aucun | Relie les sections de falaise et accélère les déplacements |
+| Tente | Moyen | Aucun | Loge les dériveurs sans-abri pour éviter la perte de moral |
+| Collecteur de bois | Moyen | Aucun | Extrait le bois des épaves et des arbres sur pied |
+| Alambic de contrebande | Élevé | Rations de nourriture | Produit de l'alcool stimulant le moral à partir d'ingrédients de base |
+| Jetée peu profonde | Très élevé | Planches d'acier | Permet la construction de navires et déclenche le boss de milieu de partie |
+
+<Callout type="tip" title="Construction de chemins">
+Utilisez la fonction de pause lors de la planification de passages complexes à flanc de falaise. Cela vous permet d'expérimenter différents angles d'échafaudage sans gaspiller de précieuses heures de travail actif.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestion des décisions de l'équipage et événements narratifs">
+
+À mesure que votre colonie s'agrandit, vous ferez face à des événements narratifs aléatoires qui mettront à l'épreuve votre leadership. Ces événements présentent des choix difficiles, vous obligeant à équilibrer les gains de ressources immédiats et la cohésion à long terme de l'équipage. Ignorer l'état psychologique de vos pirates peut être tout aussi fatal qu'une pénurie de nourriture.
+
+Par exemple, au début de la bêta, vous rencontrerez l'événement « Naufragés de la Couronne ». Vous devez décider d'accueillir ces survivants dans votre camp ou de les rejeter. Les accueillir augmente votre main-d'œuvre mais pèse sur vos réserves de nourriture limitées. Les rejeter préserve vos ressources mais nuit gravement à l'éthique et à la cohésion de votre équipage.
+
+| Nom de l'événement | Option de choix | Coût immédiat | Impact sur la cohésion | Résultat à long terme |
+|--- |--- |--- |--- |--- |
+| Naufragés de la Couronne | Accepter les traîtres | Consommation de nourriture élevée | Augmentation modérée | Main-d'œuvre plus importante, demande alimentaire accrue |
+| Naufragés de la Couronne | Rejeter les traîtres | Aucun | Forte baisse | Stabilité des ressources, bagarres fréquentes |
+| Pénurie de nourriture | Réduire les rations | Pénalité de moral | Forte baisse | Vitesse de travail ralentie, risque de famine |
+| Dispute de récupération | Partager les richesses | Bois/Acier mineur | Légère augmentation | Productivité élevée, stock de construction plus faible |
+
+<Callout type="success" title="Avantages d'une cohésion élevée">
+Maintenir une cohésion d'équipage élevée accorde des bonus passifs à la vitesse de déplacement et à l'efficacité du transport des ressources. Gardez votre taverne approvisionnée en alcool pour maintenir une tendance de cohésion positive.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Préparation au combat et transition vers le milieu de partie">
+
+Le point culminant de la bêta actuelle est l'arrivée d'Amara, une redoutable chasseuse de pirates. Cet événement n'est pas aléatoire ; il est déclenché directement par l'achèvement de la jetée peu profonde. Si vous construisez la jetée sans préparer vos défenses, le navire de guerre d'Amara bombardera facilement votre colonie pour la réduire en ruines, détruisant les bâtiments clés et capturant votre capitaine.
+
+Avant de finaliser la construction de la jetée, vous devez orienter votre économie vers la défense. Cela implique de collecter de l'acier, d'entraîner des défenseurs et de positionner des structures défensives pour protéger vos infrastructures de base. Utilisez la liste de contrôle ci-dessous pour vous assurer que votre colonie est prête pour l'assaut.
+
+<Checklist
+  id="combat-prep"
+  title="Liste de contrôle avant l'achèvement de la jetée :"
+  items={[
+    "Accumuler au moins 50 unités de rations alimentaires excédentaires",
+    "S'assurer que tous les dériveurs sont logés dans des tentes fonctionnelles",
+    "Construire au moins une tour de canon couvrant la zone du port",
+    "Démolir complètement l'épave de départ pour dégager les lignes de tir",
+    "Approvisionner la taverne avec un surplus d'alcool de contrebande pour amortir le moral pendant l'attaque"
+  ]}
+/>
+
+<Callout type="warning" title="Le déclencheur de la jetée">
+Ne vous précipitez pas pour construire la jetée peu profonde. Laissez le plan en pause ou non assigné jusqu'à ce que vous ayez sécurisé votre approvisionnement alimentaire et construit des défenses adéquates. Le bombardement commence immédiatement après sa finalisation.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ de la bêta de Corsair Cove">
+
+<FAQ items={[
+  {
+    question: "Comment puis-je augmenter l'espace de construction dans la bêta de Corsair Cove ?",
+    answer: "Vous pouvez augmenter l'espace de construction en construisant des échafaudages en bois et des passages le long des falaises pour accéder aux plateaux supérieurs. De plus, veillez à récupérer et démolir complètement votre épave de départ pour libérer du terrain plat précieux sur la plage."
+  },
+  {
+    question: "Quelle est la différence entre les Dériveurs et les Pirates ?",
+    answer: "Les dériveurs sont vos travailleurs généraux non qualifiés qui s'occupent du transport, de la collecte et du transport de base des ressources. Les pirates sont des unités spécialisées qui s'occupent de la construction, gèrent les bâtiments avancés comme la taverne et défendent la colonie pendant les combats."
+  },
+  {
+    question: "Comment puis-je empêcher Amara de détruire ma base ?",
+    answer: "L'attaque d'Amara est déclenchée par l'achèvement de la jetée peu profonde. Pour survivre au bombardement, retardez la construction de la jetée jusqu'à ce que vous ayez construit des tours de canon défensives, sécurisé un excédent de nourriture et maximisé la cohésion de votre équipage."
+  },
+  {
+    question: "Puis-je déplacer des bâtiments une fois placés ?",
+    answer: "Les bâtiments ne peuvent pas être déplacés directement. Cependant, vous pouvez démolir les structures existantes pour récupérer une partie des ressources de construction, puis les reconstruire à un emplacement plus optimal."
+  }
+]} />
+
+<Callout type="info" title="Retours de la communauté">
+Les développeurs recherchent activement des retours sur les mécaniques de construction et la difficulty des combats pendant la phase bêta. Pensez à partager vos conceptions d'aménagement et vos temps de survie sur les forums officiels de la communauté.
+</Callout>
+
+</Section>

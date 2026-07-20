@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Compass, Anchor, Users, Ship } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corsair Cove Epic Games: Leitfaden für den Aufbau der ersten Siedlung",
+  description: "Errichte dein Piratenimperium in Corsair Cove. Lerne Gebäudelayouts, die Optimierung von Produktionsketten und Strategien zur Flottenerkundung kennen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Corsair+Cove+Setup+Guide",
+  date: "2026-07-21",
+  author: "corsair cove Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Hauptziel**: Aufbau einer nachhaltigen Wirtschaft in Corsair Cove Epic Games durch das Ausbalancieren von Nahrungsmittel- und Rumproduktion.
+- **Schlüsselmechanik**: Baue Produktionsketten auf, um die Moral der Besatzung hoch zu halten und Meutereien zu vermeiden.
+- **Beste Strategie**: Konzentriere dich auf die Expansion an der Küste, um Tiefseedocks für größere Erkundungsschiffe zu sichern.
+- **Kritischer Tipp**: Verbessere die Destillerie kontinuierlich, um die Zufriedenheit der Besatzung auf einem hohen Niveau zu halten.
+- **Beste Wahl**: Beginne mit einer Schaluppe für die schnelle Ressourcensuche im frühen Spiel.
+</Callout>
+
+<Section icon={Compass} title="Corsair Cove Epic Games: Erschaffe dein Piratenvermächtnis">
+
+Der Aufbau eines Piratenhafens erfordert strategische Planung und ein sorgfältiges Ressourcenmanagement. In Corsair Cove Epic Games stranden die Spieler zu Beginn auf einer abgelegenen Insel, ausgerüstet mit nichts als einfacher Kleidung und dem Traum, die Meere zu beherrschen. Die Verwandlung eines einfachen Barackenviertels in ein florierendes, befestigtes Versteck erfordert ein tiefes Verständnis von Bauwesen, Produktion und Führung. Die piratische Lebensweise wird ständig von offiziellen Seestreitkräften bedroht, weshalb die Verteidigung ebenso wichtig ist wie die wirtschaftliche Expansion.
+
+**Video-Highlights:**
+- Erfahre mehr über den Übergang von einem einfachen Barackenviertel zu einem riesigen Piratenhafen.
+- Entdecke, wie du die Zufriedenheit der Besatzung und die Produktionsketten verwaltest.
+- Erkunde die Mechaniken des Schiffbaus und der Navigation auf offener See.
+
+<YouTubeEmbed videoId="dmhFVDlLeFA" title="Corsair Cove - Offizieller Ankündigungstrailer" />
+
+<Callout type="tip" title="Frühe Strategie">
+Priorisiere das Roden von Land in der Nähe der Küstenlinie, um sicherzustellen, dass deine ersten Docks direkten Zugang zu tiefen Gewässern haben.
+</Callout>
+
+Der Ankündigungstrailer zeigt ein dynamisches Bausystem, bei dem Spieler Gebäude auf unterschiedlichem Terrain platzieren können. Von vertikalen Klippenbehausungen bis hin zu weitläufigen Küstenmärkten beeinflusst das Layout deiner Siedlung direkt die Verteidigung und Effizienz. Die effektive Nutzung des Raums ist der erste Schritt, um zu einer Legende der sieben Weltmeere zu werden. Spieler müssen ihre Hafenlayouts sorgfältig planen, um größere Schiffe aufzunehmen, während die Siedlung wächst.
+
+</Section>
+
+<Section icon={Map} title="Siedlungslayout und Ressourcenmanagement">
+
+Der Aufbau eines Piratenimperiums erfordert einen stetigen Fluss an Rohstoffen und Fertigwaren. Spieler müssen effiziente Produktionsketten einrichten, um rohes Holz und Eisen in fortschrittliche Schiffskomponenten und Waffen umzuwandeln. Die Platzierung von Lagerplätzen im Verhältnis zu den Produktionsstätten bestimmt die Gesamteffizienz deiner Siedlung. Die Minimierung der Transportzeiten zwischen den Erntepunkten und den Verarbeitungsbetrieben verhindert wirtschaftliche Engpässe.
+
+| Ressource | Quelle | Hauptnutzen | Priorität |
+| :--- | :--- | :--- | :--- |
+| **Holz** | Holzfällerlager | Einfacher Bau und Schiffsreparatur | Hoch |
+| **Rationen** | Fischhändler / Bauernhof | Besatzungsunterhalt und Moralerhalt | Kritisch |
+| **Eisen** | Tagebau | Waffenherstellung und fortschrittliche Upgrades | Mittel |
+| **Rum** | Destillerie | Die Besatzung glücklich und motiviert halten | Hoch |
+
+Jedes Gebäude erfordert regelmäßige Wartung und Arbeitskraft. Wenn Produktionsketten zusammenbrechen, stapeln sich die Rohstoffe, während fortschrittlichen Strukturen die Komponenten ausgehen. Das Ausbalancieren der Lieferkette ist entscheidend, um Engpässe in deiner Wirtschaft zu vermeiden. Das Aufwerten von Produktionsgebäuden erhöht deren Ausstoß, steigert aber auch deren Ressourcenverbrauch, was ein sorgfältiges Abwägen erfordert.
+
+| Gebäude | Kosten | Ertrag | Unterhalt |
+| :--- | :--- | :--- | :--- |
+| **Shantytown-Zentrum** | 100 Holz | Bevölkerungskapazität +10 | 10 Rationen |
+| **Fischhändler** | 50 Holz | 15 Rationen pro Zyklus | 2 Gold |
+| **Destillerie** | 150 Holz, 20 Eisen | 10 Rum pro Zyklus | 5 Rationen |
+| **Werft** | 300 Holz, 100 Eisen | Zugang zum Schiffsbau | 15 Gold |
+
+<Callout type="warning" title="Lieferengpässe">
+Vermeide es, Lagerplätze zu weit von den Produktionsgebäuden entfernt zu platzieren, da Transportzeiten Bauprojekte erheblich verzögern können.
+</Callout>
+
+Die Erweiterung deines Territoriums ermöglicht den Zugang zu seltenen Ressourcen wie Golderz und exotischen Gewürzen. Diese hochstufigen Gegenstände sind unerlässlich für den Handel mit neutralen Häfen und das Freischalten fortschrittlicher Technologien im späten Spiel. Der Schutz dieser Transportwege vor rivalisierenden Fraktionen ist für die Aufrechterhaltung einer stabilen Wirtschaft von entscheidender Bedeutung.
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Fortschrittsleitfaden">
+
+Der Aufstieg vom gestrandeten Seemann zum Piratenlord folgt einem strukturierten Entwicklungspfad. Befolge diese Schritte, um eine sichere und profitable Operationsbasis aufzubauen.
+
+<Steps>
+  <Step num="1" title="Grundbedürfnisse sichern">
+    Errichte sofort ein Holzfällerlager und einen Fischhändler. Eine stetige Versorgung mit Holz und Nahrung verhindert das Verhungern im frühen Spiel und ermöglicht es dir, einfache Unterkünfte für neue Besatzungsmitglieder zu bauen.
+  </Step>
+  <Step num="2" title="Die Destillerie errichten">
+    Sobald das Überleben gesichert ist, baust du eine Destillerie. Die Zufriedenheit der Besatzung ist eine Kernmechanik, und die regelmäßige Versorgung mit Rum ist der effektivste Weg, um Meutereien zu verhindern und die Produktivität zu steigern.
+  </Step>
+  <Step num="3" title="Die Werft bauen">
+    Sammle genügend Holz und Eisen, um eine Werft zu bauen. Dieses Gebäude schaltet die Fähigkeit frei, Erkundungsschiffe zu bauen, mit denen du nahegelegene Inseln erkunden und Ressourcen außerhalb deines Heimatterritoriums sammeln kannst.
+  </Step>
+  <Step num="4" title="Den Zufluchtsort befestigen">
+    Baue Küstenverteidigungen und Wachtürme. Wenn dein Reichtum wächst, werden rivalisierende Piratenfraktionen und offizielle Seestreitkräfte versuchen, deine Siedlung zu überfallen. Eine starke Verteidigung sichert deine hart verdienten Schätze.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Fortschritts-Tipp">
+Überstürze den Bau großer Schiffe nicht, bevor du dir eine stetige Versorgung mit Eisen und Holz für Reparaturen gesichert hast.
+</Callout>
+
+Konzentriere dich beim Durchlaufen dieser Schritte auf die Optimierung der Wege, die deine Arbeiter zurücklegen. Eine effiziente Wegfindung reduziert Ausfallzeiten und erhöht die Rate, mit der Ressourcen deine Schatzkammer erreichen. Behalte die Bedrohungsanzeige im Auge, um dich auf bevorstehende Überfälle vorzubereiten.
+
+</Section>
+
+<Section icon={Ship} title="Flottenbau und Meereserkundung">
+
+Ein Piratenhafen ist nur so stark wie seine Flotte. In Corsair Cove Epic Games können Spieler verschiedene Schiffsklassen bauen, um die sieben Weltmeere zu erkunden, Handelsrouten zu plündern und ihr Territorium zu verteidigen. Jede Schiffsklasse bietet im Kampf und Transport unterschiedliche Vor- und Nachteile.
+
+<CardGrid cols={3}>
+  <Card title="Schaluppe">
+    - **Hohe Geschwindigkeit und Manövrierfähigkeit**
+    - Geringe Baukosten
+    - Ideal für Erkundungen und schnelle Überfälle
+  </Card>
+  <Card title="Brigantine">
+    - **Ausgewogene Kampf- und Frachtwerte**
+    - Moderater Ressourcenbedarf
+    - Geeignet für Standard-Handelsrouten
+  </Card>
+  <Card title="Galeone">
+    - **Schwere Feuerkraft und enorme Frachtkapazität**
+    - Extrem hohe Kosten
+    - Perfekt für Belagerungsoperationen
+  </Card>
+</CardGrid>
+
+Die Wahl des richtigen Schiffes für die jeweilige Aufgabe ist entscheidend. Die Verwendung einer schweren Galeone für Erkundungsmissionen verschwendet wertvollen Treibstoff und Zeit, während das Entsenden einer Schaluppe in ein stark verteidigtes Kampfgebiet oft im Desaster endet.
+
+| Schiffsklasse | Feuerkraft | Geschwindigkeit | Frachtkapazität |
+| :--- | :--- | :--- | :--- |
+| **Schaluppe** | Niedrig | Schnell | Klein |
+| **Brigantine** | Mittel | Mittel | Mittel |
+| **Galeone** | Hoch | Langsam | Groß |
+
+<Callout type="success" title="Flottenzusammensetzung">
+Halte eine ausgewogene Flotte aus zwei Schaluppen für Erkundungen und mindestens einer Galeone für die schwere Verteidigung bereit, um unerwartete Begegnungen zu meistern.
+</Callout>
+
+Erkundungen bringen seltene Baupläne und Schatzkarten ein. Das Navigieren durch gefährliche Gewässer, Stürme und feindliche Gebiete erfordert eine erfahrene Besatzung und ein gut gewartetes Schiff. Das Verbessern deiner Segel und Rümpfe in der Werft erhöht die Überlebenschance deiner Flotte auf langen Reisen.
+
+</Section>
+
+<Section icon={Users} title="Besatzungsmanagement und Operationen">
+
+Deine Besatzung ist das Rückgrat deines Piratenimperiums. Sie zufrieden zu stellen, erfordert eine stetige Versorgung mit Nahrung, Rum und Gold. Die Zuweisung von Besatzungsmitgliedern zu optimalen Stationen erhöht die Produktivität und sorgt für einen reibungslosen Betrieb deiner Siedlung.
+
+| Rolle | Hauptbonus | Optimale Station | Basiskosten |
+| :--- | :--- | :--- | :--- |
+| **Quartiermeister** | Steigert die Produktionseffizienz | Destillerie / Zentrum | 20 Gold |
+| **Bootsmann** | Erhöht die Schiffsreparaturgeschwindigkeit | Werft / Flotte | 25 Gold |
+| **Kanonier** | Erhöht den Kampfschaden | Galeone / Verteidigung | 30 Gold |
+
+Die Vernachlässigung der Bedürfnisse der Besatzung führt zu geringerer Produktivität, Arbeitsniederlegungen und schließlich zu ausgewachsenen Meutereien. Überprüfe regelmäßig die Moralanzeige, um Probleme zu erkennen und zu lösen, bevor sie eskalieren. Die Bereitstellung von hochwertigem Wohnraum und regelmäßigem Landgang kann den Stress langer Reisen ausgleichen.
+
+<Callout type="warning" title="Moralmanagement">
+Halte immer eine Reserve an Rum und Gold in deiner Hauptschatzkammer bereit, um in Zeiten geringer Produktion oder gescheiterter Überfälle Löhne zu zahlen.
+</Callout>
+
+<Checklist
+  id="pirate-milestones"
+  title="Wichtige Meilensteine:"
+  items={[
+    "Baue ein funktionierendes Shantytown-Zentrum",
+    "Richte eine kontinuierliche Rum-Produktionskette ein",
+    "Baue und starte deine erste Schaluppe",
+    "Verteidige die Siedlung gegen den ersten Marineangriff",
+    "Häufe eine Schatzkammer von 1.000 Goldmünzen an"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ und fortgeschrittene Strategie">
+
+Das Meistern der Mechaniken von Corsair Cove Epic Games erfordert Geduld und strategische Weitsicht. Gehe diese häufigen Fragen und Antworten durch, um dein Gameplay zu optimieren.
+
+<FAQ items={[
+  {
+    question: "Wie verhindere ich Meutereien in Corsair Cove Epic Games?",
+    answer: "Meutereien werden verhindert, indem man die Moral der Besatzung hoch hält. Stelle sicher, dass du aktive Produktionsketten für Nahrung und Rum hast, und zahle Löhne pünktlich mit Gold, das du durch Handel oder Plünderungen verdient hast."
+  },
+  {
+    question: "Was ist das beste Schiff für die Erkundung im frühen Spiel?",
+    answer: "Die Schaluppe ist aufgrund ihrer hohen Geschwindigkeit, der geringen Baukosten und des minimalen Ressourcenbedarfs die beste Wahl für die frühe Erkundung."
+  },
+  {
+    question: "Wie kann ich meine Siedlung vor Marineangriffen schützen?",
+    answer: "Baue Wachtürme entlang der Küste und stationiere eine kampfbereite Galeone in der Nähe des Hafens, um herannahende feindliche Schiffe abzufangen."
+  },
+  {
+    question: "Wo sollte ich meine Lagerplätze platzieren?",
+    answer: "Platziere Lagerplätze zentral zwischen den Produktionsgebäuden und den Docks, um die Laufwege für Arbeiter, die Waren transportieren, zu minimieren."
+  }
+]} />
+
+<Callout type="info" title="Letzter Ratschlag">
+Aktualisiere dein Verteidigungslayout regelmäßig, während deine Siedlung expandiert, um neue tote Winkel entlang der Küste abzudecken.
+</Callout>
+
+Die Aufrechterhaltung eines erfolgreichen Piratenhafens erfordert ein ausgewogenes Verhältnis zwischen wirtschaftlichem Wachstum und militärischer Verteidigung. Indem du deine Produktionsketten effizient strukturierst und deine Besatzung gut versorgst, kannst du dein Territorium erfolgreich verteidigen und die Meere beherrschen.
+
+</Section>

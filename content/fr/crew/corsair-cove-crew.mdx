@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Équipage de Corsair Cove : Guide de gestion 2026 et routes de ressources",
+  description: "Maîtrisez les mécaniques de l'équipage de Corsair Cove en 2026. Apprenez l'emplacement des PNJ, les tâches portuaires de Navigation, les stratégies de farm d'Ogresses et les conseils de gestion des ressources.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Corsair+Cove+Crew+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki de Corsair Cove",
+  keywords: "corsair cove, équipage, navigation, ogresses, guide, ressources, osrs"
+}
+
+<Callout type="info" title="Guide Rapide">
+- La gestion de l'**équipage de Corsair Cove** implique d'équilibrer les relations avec les PNJ, l'extraction de ressources et les tâches de Navigation de haut niveau.
+- **Prérequis de quête** : Vous devez commencer *La Malédiction du Corsaire* pour obtenir un accès complet à la crique et à sa banque.
+- **Focus Combat** : Le farm des Guerrières et Chamans Ogresses est la principale méthode de gain d'or pour les joueurs F2P et les nouveaux membres.
+- **Intégration de la Navigation** : Le niveau 40 en Navigation est requis pour débloquer les contrats de prime et les tâches de coursier aux docks.
+- **Conseil d'efficacité** : Utilisez la boîte de dépôt de la zone de ressources pour maximiser l'XP horaire en Pêche et Coupe de bois.
+</Callout>
+
+<Section icon={Map} title="Introduction à la gestion de l'équipage de Corsair Cove">
+
+Corsair Cove est une ville portuaire pivot située sur la rive sud des Collines de Feldip. Bien qu'isolée par des falaises infranchissables, elle sert de hub central pour les joueurs cherchant à maîtriser la gestion maritime et la collecte de ressources. L'**équipage de Corsair Cove**, dirigé par l'énigmatique Capitaine Tock, offre un mélange unique de défis de combat et de progression industrielle. En 2026, naviguer dans cette zone nécessite une solide compréhension de l'histoire locale et des exigences techniques pour un gameplay efficace.
+
+**Points forts de la vidéo :**
+- Révélation officielle des systèmes de gestion du refuge pirate.
+- Guide visuel pour construire des bidonvilles et améliorer votre héritage.
+- Aperçu de la construction de navires et de l'exploration des sept mers.
+- Aperçu du bonheur de l'équipage et des mécaniques de ligne de production.
+
+<YouTubeEmbed videoId="dmhFVDlLeFA" title="Corsair Cove - Bande-annonce officielle" />
+
+<Callout type="tip" title="Condition d'accès">
+Si vous êtes un nouveau joueur, parlez au Capitaine Tock au nord de Port Sarim pour commencer votre voyage. Une fois la quête commencée, il se déplace à l'extrémité ouest de Rimmington pour un accès plus facile.
+</Callout>
+
+Gérer votre présence dans la Crique n'est pas seulement une question de combat ; il s'agit de bâtir un héritage. À mesure que vous progressez, vous transformerez un campement délabré en un repaire prospère. Cela implique la mise en place de lignes de production complexes et de s'assurer que votre équipage reste satisfait de ses conditions de vie et de ses récompenses.
+
+</Section>
+
+<Section icon={Users} title="Rôles clés des PNJ et dynamique de l'équipage">
+
+Le cœur de la Crique réside dans ses habitants. L'**équipage de Corsair Cove** est composé de marins retraités, de voleurs et d'entrepreneurs, chacun fournissant des services spécifiques essentiels à votre progression. Savoir où résident ces PNJ et ce qu'ils proposent peut considérablement réduire votre temps de trajet.
+
+| Nom du PNJ | Rôle principal | Emplacement | Utilité |
+| :--- | :--- | :--- | :--- |
+| **Capitaine Tock** | Chef d'équipage | Docks sud | Début de quête, Transport |
+| **Arsen le Voleur** | Savoir/Larcin | Cabane d'Arsen | Progression de quête, Savoir |
+| **Madame Caldarium** | Entrepreneuse Spa | Près des bains de roche | Précurseur du contenu d'Oo'glog |
+| **Mousse Colin** | Assistant | Rimmington/Crique | Transport après la quête |
+| **Haris** | Gardien des ressources | Zone de ressources | Accès aux ifs/érables |
+| **Francois** | Spécialiste tunnel | Cabane de Gnocci | Progression mission secrète |
+
+<Callout type="warning" title="Accès à la Banque">
+La banque de Corsair Cove est verrouillée jusqu'à ce que vous terminiez *La Malédiction du Corsaire*. Sans accès à la banque, le farm du donjon devient nettement moins efficace en raison des longs temps de trajet.
+</Callout>
+
+L'histoire de l'équipage est imprégnée de mystère. Initialement colonisée par l'équipage du Capitaine Tock, la zone a failli être sabotée par leur navigateur, qui a tenté d'empoisonner les marins pour les convaincre qu'ils étaient maudits. Résoudre ces conflits internes est la première étape pour établir votre autorité au sein de la Crique.
+
+</Section>
+
+<Section icon={Swords} title="Progression du donjon et stratégie de combat">
+
+Pour beaucoup, la raison principale d'interagir avec l'**équipage de Corsair Cove** est d'accéder au donjon de Corsair Cove. Cet endroit abrite des Guerrières Ogresses et des Chamans Ogresses, qui figurent parmi les monstres les plus rentables pour les joueurs de niveau intermédiaire.
+
+<CardGrid cols={3}>
+  <Card title="Guerrières Ogresses">
+    - **Niveau** : 82
+    - **Meilleurs loots** : Heaume runique complet, Bouclier de mithril
+    - **Stratégie** : L'utilisation de safe-spots avec le Combat à distance ou la Magie est fortement recommandée.
+  </Card>
+  <Card title="Chamans Ogresses">
+    - **Niveau** : 82
+    - **Meilleurs loots** : Masque de chaman, Grands os
+    - **Stratégie** : Prévoyez une défense magique élevée ou utilisez des prières de protection pour réduire les dégâts.
+  </Card>
+  <Card title="Zone de ressources">
+    - **Arbres** : 3 Ifs, 4 Érables
+    - **Pêche** : Spots de casier/harpon
+    - **Stratégie** : Utilisez la boîte de dépôt à proximité pour des allers-retours de 6 secondes.
+  </Card>
+</CardGrid>
+
+| Objet obtenu | Rareté | Valeur estimée | Utilité |
+| :--- | :--- | :--- | :--- |
+| **Heaume runique** | Peu commun | 20 000+ GP | Alchimie ou vente |
+| **Racine de Limpwurt** | Commun | 500+ GP | Ingrédient d'Herboristerie |
+| **Rune de mort** | Peu commun | 200+ GP | Entraînement Magie |
+| **Minerai d'adamantite** | Rare | 1 000+ GP | Ressource de Métallurgie |
+
+<Callout type="success" title="Conseil de Farm">
+Le donjon contient également un site de minage avec 5 rochers de charbon, 2 de mithril et 1 d'adamantite. C'est un excellent endroit pour compléter vos revenus de combat avec de l'XP de Minage passive.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="Tâches de Navigation et logistique maritime">
+
+Avec l'introduction de la Navigation en 2026, l'**équipage de Corsair Cove** a étendu ses opérations pour inclure des primes maritimes et des services de coursier. Les joueurs ayant au moins le niveau 40 en Navigation peuvent s'engager dans ces tâches pour gagner de l'XP importante et des récompenses uniques.
+
+**Tableau des tâches de prime :**
+| Niveau Navigation | Monstre | Objet requis | Rareté | Récompense XP |
+| :--- | :--- | :--- | :--- | :--- |
+| **40** | Balbuzard | Bec (5) | 1/10 | 3 465 |
+| **40** | Requin-marteau | Mâchoire (15) | 1/3 | 8 800 |
+
+**Tableau des tâches de coursier :**
+| Type de cargaison | Origine | Destination | Quantité | Récompense XP |
+| :--- | :--- | :--- | :--- | :--- |
+| **Cimeterres** | Corsair Cove | Port Khazard | 3 | 468 |
+| **Épices** | Corsair Cove | Le Pandemonium | 3 | 655 |
+
+<Steps>
+  <Step num="1" title="Construire la barque">
+    Rendez-vous à Angler's Retreat et utilisez le niveau 50 en Construction pour construire une barque. Cela nécessite le niveau 51 en Navigation pour s'amarrer correctement.
+  </Step>
+  <Step num="2" title="Consulter le tableau d'affichage">
+    Vérifiez le tableau d'affichage sur les docks, qui propose quotidiennement huit tâches portuaires en rotation.
+  </Step>
+  <Step num="3" title="Optimiser les itinéraires">
+    Combinez les tâches de coursier avec vos itinéraires de voyage standard vers Port Khazard pour maximiser l'efficacité.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Réductions sur les navires de location">
+Terminer *Fièvre de cabine* réduit les tarifs des navires de location de 50 %. Porter un *Anneau de Charos(a)* offre une réduction supplémentaire cumulable.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimisation des ressources et efficacité">
+
+Pour maîtriser véritablement la zone de l'**équipage de Corsair Cove**, vous devez optimiser votre collecte de ressources. La zone de ressources au nord-ouest du port est réservée à ceux qui ont terminé *Tueur de Dragon I* et parlé à Haris.
+
+<Checklist
+  id="resource-goals"
+  title="Objectifs de ressources quotidiens :"
+  items={[
+    "Collecter 100+ bûches d'if pour l'archerie ou le profit",
+    "Remplir deux inventaires de Homards/Espadons",
+    "Vérifier les apparitions d'Adamantite sur le site de minage",
+    "Terminer au moins deux tâches de prime de Navigation",
+    "Vérifier la cabane de Gnocci pour les apparitions d'objets (Cimeterre de bronze/Viande cuite)"
+  ]}
+/>
+
+| Activité | Prérequis | Meilleur outil | Taux d'XP |
+| :--- | :--- | :--- | :--- |
+| **Coupe d'If** | 60 Coupe de bois | Hache runique/dragon | Modéré |
+| **Coupe d'Érable** | 45 Coupe de bois | Hache runique | Élevé |
+| **Pêche au Homard** | 40 Pêche | Casier à homard | Constant |
+| **Pêche à l'Espadon** | 50 Pêche | Harpon | Profit élevé |
+
+<Callout type="warning" title="Gestion de l'énergie">
+L'utilisation de la boîte de dépôt de la zone de ressources est plus rapide que de voyager vers Karamja, mais elle consomme l'énergie de course plus rapidement en raison de l'absence d'écrans de chargement de bateau. Apportez des potions d'énergie si vous prévoyez de longues sessions.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ de Corsair Cove">
+
+Les questions suivantes traitent des demandes courantes concernant l'**équipage de Corsair Cove** et les mécaniques de la zone environnante.
+
+<FAQ items={[
+  {
+    question: "Comment rejoindre l'équipage de Corsair Cove de façon permanente ?",
+    answer: "Bien que vous ne puissiez pas techniquement rejoindre l'équipage en tant que membre, terminer la quête La Malédiction du Corsaire et atteindre le niveau 40 en Navigation vous permet d'opérer en tant qu'associé de haut rang avec un accès complet à leurs installations."
+  },
+  {
+    question: "Le donjon de Corsair Cove est-il sûr pour les joueurs F2P ?",
+    answer: "Oui, le donjon est accessible aux joueurs gratuits. Cependant, les Ogresses sont de niveau 82, donc les joueurs de bas niveau devraient utiliser des safe-spots à distance pour éviter de subir de lourds dégâts."
+  },
+  {
+    question: "Quel est le moyen le plus rapide de se rendre à Corsair Cove ?",
+    answer: "Le moyen le plus rapide est de passer par les rochers au sud de la zone de Chasse de Feldip (nécessite 10 en Agilité) ou d'utiliser le système de navires de location si vous en avez les moyens."
+  },
+  {
+    question: "Puis-je entraîner la Navigation entièrement à Corsair Cove ?",
+    answer: "Vous pouvez y accomplir de nombreuses tâches à partir du niveau 40, mais vous devrez éventuellement explorer les Océans Voilés ou Inquiets pour atteindre les niveaux les plus élevés de la compétence."
+  }
+]} />
+
+<Callout type="tip" title="Dernier conseil de pro">
+Vérifiez toujours le deuxième étage de la cabane de Gnocci pour une apparition cachée de boîte à amadou. Elle n'apparaît pas comme un point rouge sur la mini-carte mais est essentielle pour faire du feu rapidement si vous avez oublié la vôtre.
+</Callout>
+
+</Section>

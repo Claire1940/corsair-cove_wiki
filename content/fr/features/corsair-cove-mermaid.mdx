@@ -1,0 +1,235 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Users, Compass, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Sirène de Corsair Cove : Créatures légendaires & Guide d'exploration",
+  description: "Maîtrisez les mythes de la sirène de corsair cove et les rencontres légendaires. Découvrez la date de sortie, la construction verticale, les chaînes de production et le combat naval.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Legendary+Exploration+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki de Corsair Cove"
+}
+
+<Callout type="info" title="Guide rapide">
+- **sirène de corsair cove** : Rencontrez des créatures marines légendaires et découvrez des mythes lors d'expéditions à haut risque sur la carte du monde.
+- **Date de sortie** : La version complète sortira officiellement le **31 juillet 2026** sur PC Windows.
+- **Construction verticale** : Utilisez des terrasses à flanc de falaise, des tyroliennes et des ponts pour maximiser votre espace insulaire limité.
+- **Cohésion de l'équipage** : Assurez l'approvisionnement en nourriture, en boissons et en logements pour éviter que vos pirates n'abandonnent la crique.
+- **Combat naval** : Maîtrisez le système de réserve de dés au tour par tour pour vaincre les flottes de la Couronne et obtenir du butin rare.
+</Callout>
+
+<Section icon={Anchor} title="Date de sortie, plateformes et configurations PC requises">
+
+Le voyage pour devenir un seigneur pirate légendaire commence par la compréhension du cadre logistique du jeu. Développé par Limbic Entertainment et publié par Hooded Horse, ce city-builder vertical offre une approche unique du genre. Que vous soyez à la recherche de la mystérieuse **sirène de corsair cove** ou que vous défendiez votre port contre la Couronne, vous devez vous assurer que votre système est prêt pour le lancement le 31 juillet.
+
+| Catégorie | Détails | Statut |
+| :--- | :--- | :--- |
+| **Date de sortie** | 31 juillet 2026 | Confirmé |
+| **Plateformes** | PC Windows | Plateforme principale |
+| **Boutiques** | Steam, Epic, Microsoft Store | Disponible |
+| **Game Pass** | Disponible dès le premier jour | Confirmé |
+| **Prix de base** | 29,99 $ USD | Édition Standard |
+
+<Callout type="info" title="Disponibilité au lancement">
+Le jeu sera disponible sur le PC Game Pass dès sa sortie. Si vous hésitez à l'acheter, la démo gratuite est actuellement disponible sur Steam pour tester votre configuration et apprendre les mécaniques de base.
+</Callout>
+
+### Spécifications système
+
+Pour afficher les environnements tropicaux luxuriants et les structures verticales complexes, votre PC doit répondre à des exigences spécifiques liées à DirectX 12. Un stockage SSD est fortement recommandé pour gérer les transitions fluides entre la vue de la colonie et la vaste carte du monde.
+
+| Spécification | Configuration minimale | Configuration recommandée |
+| :--- | :--- | :--- |
+| **Système d'exploitation** | Windows 10 64 bits | Windows 10/11 64 bits |
+| **Processeur** | Intel i7-7700 / Ryzen 5 1600 | Intel i5-9600K / Ryzen 5 3600 |
+| **Mémoire RAM** | 8 Go | 16 Go |
+| **Carte graphique** | GTX 1660 Super / RX 5600 XT | RTX 2070 / RX 6600 XT |
+| **Stockage** | SSD de 30 Go | SSD de 30 Go |
+
+</Section>
+
+<Section icon={Target} title="Guide du débutant : votre première heure dans la crique">
+
+Créer votre repaire de pirates peut être déroutant au début. Vous commencez avec un petit groupe de survivants et des ressources limitées. L'objectif est d'établir une économie autosuffisante tout en vous préparant à l'arrivée inévitable de la Couronne. Suivre un chemin de progression structuré vous évitera de manquer de provisions essentielles comme le biscuit de mer ou la bière en début de partie.
+
+<Steps>
+  <Step num="1" title="Télécharger la démo gratuite">
+    Avant la sortie du 31 juillet, rendez-vous sur la boutique Steam pour installer la démo gratuite. Cela vous permettra de terminer le didacticiel initial et de vous familiariser avec les outils de construction verticale et l'interface utilisateur.
+  </Step>
+  <Step num="2" title="Établir le cœur du port">
+    Placez votre premier camp de pirates près du ponton de départ. Connectez immédiatement les bâtiments de services essentiels. Un bâtiment qui n'est pas relié à l'épine dorsale de la colonie ne fonctionnera pas, ce qui sera indiqué par une icône d'avertissement rouge.
+  </Step>
+  <Step num="3" title="Équilibrer les vagabonds et les travailleurs">
+    Les vagabonds constituent votre main-d'œuvre de construction. Si vous affectez chaque pirate à un poste de production, vous n'aurez plus personne pour construire de nouvelles structures. Gardez toujours une réserve de 3 à 5 vagabonds pour l'expansion.
+  </Step>
+  <Step num="4" title="Sécuriser la nourriture et les boissons">
+    Construisez rapidement une pêcherie et une brasserie (Alehouse). La satisfaction des pirates est fortement liée à ces deux ressources. Sans elles, la cohésion chutera, ce qui finira par mener à une situation de fin de partie.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avertissement logistique">
+Vérifiez fréquemment vos lignes logistiques. Les lignes vertes indiquent un transport efficace sur de courtes distances. Les lignes rouges signifient que vos transporteurs marchent trop loin, ce qui finira par créer un goulot d'étranglement dans toute votre chaîne de production.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Construction verticale et meilleurs schémas d'aménagement">
+
+Contrairement aux city-builders traditionnels, l'espace dans ce jeu est un casse-tête vertical. Vous devez construire sur des falaises, des corniches et à travers des gouffres. Le « meilleur aménagement » n'est pas seulement une question d'esthétique ; il s'agit de réduire le temps de trajet de vos transporteurs et de veiller à ce que chaque camp ait accès au réseau de distribution.
+
+<CardGrid cols={3}>
+  <Card title="Cœur du port connecté">
+    - **Idéal pour** : Les services de début de partie
+    - **Priorité** : Des axes de connexion courts
+    - **Avantage** : Collecte rapide des ressources
+  </Card>
+  <Card title="Terrasses à flanc de falaise">
+    - **Idéal pour** : La production de milieu de partie
+    - **Priorité** : Des corniches superposées
+    - **Avantage** : Maximise les terrains inutilisables
+  </Card>
+  <Card title="Tyrolienne Express">
+    - **Idéal pour** : La logistique de fin de partie
+    - **Priorité** : Le transport de haut en bas
+    - **Avantage** : Contourne les terrains escarpés
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Placement stratégique">
+Placez toujours vos centres de distribution aux carrefours. En centralisant le point de collecte des marchandises, vous permettez aux transporteurs de déposer les ressources et de retourner au travail plus rapidement, augmentant ainsi considérablement le rendement de vos bâtiments de transformation.
+</Callout>
+
+| Type de structure | Fonction | Exigence de connexion |
+| :--- | :--- | :--- |
+| **Camp de pirates** | Fournit des logements et un rayon de construction | Manuel/Automatique |
+| **Pont** | Traverse les gouffres entre les corniches | Manuel |
+| **Tyrolienne** | Transport vertical rapide | Manuel |
+| **Ascenseur** | Élévateur vertical pour cargaisons lourdes | Manuel |
+| **Centre de connexion** | Étend le réseau de la colonie | Automatique |
+
+</Section>
+
+<Section icon={Sparkles} title="Chaînes de production et gestion de l'économie">
+
+Avec plus de 50 marchandises à gérer, l'économie est le cœur battant de votre colonie. La production est divisée en extraction de ressources locales, raffinage et fabrication de produits de luxe. Les marins avancés, tels que les spécialistes et les élites, refuseront de travailler si leurs exigences en matière d'articles comme les longues-vues ou le tabac ne sont pas satisfaites.
+
+| Catégorie de ressources | Matières premières | Produits finis |
+| :--- | :--- | :--- |
+| **Survie de base** | Poisson, grain, eau | Biscuit de mer, bière, ragoût |
+| **Construction** | Bois, pierre, fer | Planches, blocs de pierre, clous |
+| **Militaire** | Soufre, fer, bois | Poudre noire, canons, sabres |
+| **Luxe** | Tabac, argent, soie | Cigares, bijoux, tenues élégantes |
+
+<Callout type="success" title="Bonus d'efficacité">
+Débloquez le principe de « Richesse » dans le menu de la Boussole pour accéder à la guilde des artistes. Ce bâtiment augmente la productivité de toutes les installations de production à proximité, vous permettant de produire plus avec moins de travailleurs.
+</Callout>
+
+### Identifier les goulots d'étranglement
+Utilisez le panneau des ressources pour surveiller la production par rapport à la consommation. Si la courbe de tendance est rouge, vous consommez plus que vous ne produisez. Cela est souvent causé par :
+1. Un manque de matières premières à la source.
+2. Des transporteurs dépassés par de longues distances de trajet.
+3. Le bâtiment de destination (comme une taverne) qui est plein.
+
+</Section>
+
+<Section icon={Swords} title="Navires, capitaines et combat naval">
+
+Pour prospérer, vous devez finir par quitter la sécurité de la crique. Les navires sont construits au ponton et nécessitent un capitaine, un équipage complet et des provisions adéquates. Le système de combat se déroule au tour par tour et repose sur des réserves de dés et un jeu de cartes stratégique pour déjouer la Couronne.
+
+| Nom du navire | Palier | Meilleure utilisation | Évaluation clé |
+| :--- | :--- | :--- | :--- |
+| **Terrien** | Palier 1 | Exploration de début de partie | Équilibré |
+| **Poing de fer** | Palier 2 | Combat & pillage | Dégâts de canon élevés |
+| **Tranchant d'acier** | Palier 2 | Combat lourd | Haute durabilité |
+| **Nageoire rapide** | Palier 2 | Vitesse & contrebande | Navigation élevée |
+
+<Callout type="warning" title="Préparation au combat">
+N'envoyez jamais un navire dans un événement à « haut risque » sans vérifier les évaluations recommandées. Si l'événement requiert une évaluation de navigation de 10 et que votre navire n'a que 4, vous perdrez probablement le bâtiment, quels que soient vos lancers de dés.
+</Callout>
+
+### Le rôle du capitaine
+Les capitaines comme **Teach** ou **Honorata** offrent des avantages uniques. Par exemple, l'atout « La haine est une force » de Teach augmente les dégâts des canons de 20 %, ce qui le rend idéal pour les raids agressifs. Associez toujours les traits de votre capitaine à l'objectif du voyage.
+
+</Section>
+
+<Section icon={Users} title="Rôles de l'équipage, besoins et cohésion">
+
+Votre population n'est pas un bloc monolithique. Elle est composée de différents rôles, chacun ayant des exigences spécifiques. Gérer ces besoins est essentiel pour maintenir la **cohésion**, une jauge globale qui détermine la survie de votre colonie. Si la cohésion tombe à zéro, le rêve pirate s'effondre.
+
+<Checklist
+  id="crew-stability"
+  title="Liste de contrôle anti-abandon :"
+  items={[
+    "Construisez des logements adéquats avant de recruter de nouveaux pirates",
+    "Assurez-vous que chaque camp de pirates dispose d'un approvisionnement local en bière et en rhum",
+    "Passez à des vêtements spécialisés (habits de marin/bottes) pour les travailleurs de palier 2",
+    "Maintenez une réserve de médicaments pour prévenir les épidémies de peste",
+    "Utilisez les événements de la carte du monde pour renforcer la cohésion après des décisions difficiles"
+  ]}
+/>
+
+<Callout type="tip" title="Gestion des spécialistes">
+Les marins spécialistes comme les bombardiers et les navigateurs ont besoin d'équipements avancés. Ne les recrutez pas tant que vous n'avez pas une chaîne de production stable pour les longues-vues et les sabres, sous peine de voir leur satisfaction chuter rapidement.
+</Callout>
+
+| Rôle | Logement | Besoin principal | Conseil de gestion |
+| :--- | :--- | :--- | :--- |
+| **Vagabonds** | Requis | Nourriture de base | Garder une réserve pour la construction |
+| **Travailleurs** | Requis | Nourriture & bière | Placer près des sites de production |
+| **Spécialistes** | Requis | Équipement | Essentiels pour les navires de palier 2 |
+| **Élite** | Requis | Produits de luxe | Entretien élevé, rendement élevé |
+
+</Section>
+
+<Section icon={Compass} title="L'exploration et le mythe de la sirène de corsair cove">
+
+La carte du monde est remplie de bien plus que de simples forts ennemis et de routes commerciales. En explorant les sept mers, vous ferez face à des événements légendaires. La **sirène de corsair cove** fait partie de la catégorie des événements « Créatures légendaires », aux côtés du Kraken et des grandes baleines. Ces rencontres sont le test ultime des capacités de votre flotte.
+
+<CardGrid cols={2}>
+  <Card title="Expéditions de temples anciens">
+    Partez à la recherche d'or pirate perdu et d'artéfacts. Ces événements en plusieurs étapes nécessitent un équipage nombreux et des provisions abondantes pour survivre aux pièges et aux énigmes des ruines.
+  </Card>
+  <Card title="Chasse aux créatures légendaires">
+    Affrontez la **sirène de corsair cove** ou le Kraken. Ces batailles offrent les meilleures récompenses, y compris des capitaines uniques et d'immenses gains de cohésion, mais nécessitent des navires de palier 2 ou 3.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Le système de boussole">
+La progression est liée aux quatre principes de la boussole : Notoriété, Empire, Navigation et Richesse. Dépenser des points dans la branche Navigation est le moyen le plus direct de débloquer les améliorations de navire nécessaires pour survivre aux rencontres avec les créatures légendaires.
+</Callout>
+
+### Types de quêtes
+- **Quêtes principales** : Suivez l'histoire de la lutte contre la Couronne.
+- **Quêtes secondaires** : Obtenez des points de principe facultatifs et des ressources.
+- **Hauts faits** : Objectifs de type succès qui récompensent la colonie par des bonus permanents.
+- **Suites de quêtes de principe** : Missions spécialisées uniques à chacun des quatre chemins de la boussole.
+
+</Section>
+
+<Section icon={Activity} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Quelle est la date de sortie officielle du jeu ?",
+    answer: "La sortie du jeu est prévue pour le 31 juillet 2026 sur PC Windows via Steam, Epic Games Store et le Microsoft Store."
+  },
+  {
+    question: "Comment puis-je rencontrer la sirène de corsair cove ?",
+    answer: "Les créatures légendaires comme la sirène apparaissent sous forme d'icônes spéciales à haut risque sur la carte du monde. Vous devez généralement progresser dans la branche Navigation de la boussole pour trouver ces rencontres et y survivre."
+  },
+  {
+    question: "Que se passe-t-il si ma cohésion tombe à zéro ?",
+    answer: "La cohésion est votre jauge globale de survie. Si elle atteint zéro en raison d'une mauvaise gestion, de la famine ou de pertes constantes, la partie se termine."
+  },
+  {
+    question: "Existe-t-il un moyen d'accélérer les déplacements verticaux ?",
+    answer: "Oui. Au fil de votre progression, vous pouvez débloquer des tyroliennes et des ascenseurs. Ces structures permettent aux pirates et aux marchandises de se déplacer verticalement beaucoup plus rapidement qu'en utilisant des chemins ou des ponts traditionnels."
+  }
+]} />
+
+</Section>

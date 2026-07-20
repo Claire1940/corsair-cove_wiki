@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Ship } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Test de Corsair Cove : Mécaniques de construction verticale de ville pirate",
+  description: "Un test approfondi de Corsair Cove explorant la logistique verticale, les chaînes de production complexes et le combat par cartes unique de ce city builder pirate de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/ecf0f1?text=Corsair+Cove+Review",
+  date: "2026-07-21",
+  author: "L'équipe Wiki de Corsair Cove",
+  keywords: "corsair cove, test, city builder, pirate, logistique verticale, combat de cartes"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Test de Corsair Cove** : Une nouvelle approche des city builders axée sur la **verticalité et la gestion de pirates**.
+- **Logistique Verticale** : Construire sur des falaises nécessite des **treuils, des cordes et des échelles** au lieu des routes standards.
+- **Cohésion de l'Équipage** : Gérer le bonheur des pirates est vital ; si la **cohésion tombe à zéro**, votre partie se termine immédiatement.
+- **Combat Stratégique** : Les batailles navales utilisent un **système de cartes et de dés** où la gestion des ressources rencontre le RNG.
+- **Profondeur de Production** : Plus de **50 types de marchandises** doivent être fabriqués pour soutenir une armada pirate d'élite.
+</Callout>
+
+<Section icon={Anchor} title="Verticalité et Repaire de Pirates : Test de Corsair Cove">
+
+L'âge d'or de la piraterie s'estompe, et dans ce **test de Corsair Cove**, nous explorons comment le jeu charge les joueurs de faire revivre cette ère grâce à une ingénierie ingénieuse. Contrairement aux city builders traditionnels qui s'étendent sur des plaines plates, ce titre vous oblige à penser verticalement. Vous êtes déposé sur une île accidentée où les terrains plats sont un luxe, nécessitant la construction d'une société pirate florissante directement sur les parois des falaises et les sommets des montagnes.
+
+**Points Forts de la Vidéo :**
+- **Logistique Verticale** : Apprenez comment les treuils et les cordes remplacent les réseaux routiers traditionnels.
+- **Aperçus Dynamiques** : Découvrez comment le jeu aide à placer des structures complexes sur un terrain accidenté.
+- **Flux de Ressources** : Comprenez l'importance de connecter chaque bâtiment au Hub Pirate central.
+- **Retour Visuel** : Découvrez comment les chemins codés par couleur aident à identifier les goulots d'étranglement économiques.
+
+<YouTubeEmbed videoId="cvDMCebZxvU" title="Corsair Cove n'est PAS un city builder normal, voici pourquoi..." />
+
+La boucle principale consiste à affecter des travailleurs pirates à l'extraction de matières premières, à les raffiner via des chaînes de production à plusieurs étapes, et finalement à construire une flotte pour défier la Couronne. La verticalité n'est pas seulement un gadget visuel ; elle crée un véritable casse-tête. Chaque structure doit être reliée à votre hub central, mais au lieu de simple asphalte, vous tissez une toile de sentiers de terre, de passerelles de falaise et d'ascenseurs entraînés par des cordes.
+
+| Outil Logistique | Fonction Principale | Portée Verticale | Niveau d'Efficacité |
+| :--- | :--- | :--- | :--- |
+| **Sentier de terre** | Mouvement horizontal de base | Faible | Standard |
+| **Passerelle de falaise** | Connecter des bâtiments en paliers | Moyenne | Modérée |
+| **Échelle de corde** | Ascension verticale rapide | Haute | Faible (Lente) |
+| **Système de treuil** | Transport rapide de ressources | Très Haute | **Excellent** |
+
+<Callout type="tip" title="Secret d'Efficacité">
+Utilisez le système de retour visuel intégré. Les chemins sont codés par couleur : **Vert** est optimal, **Jaune** indique un ralentissement, et **Rouge** identifie un goulot d'étranglement critique qui pourrait mener à une spirale de mort économique.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chaînes de Production Complexes et Gestion des Ressources">
+
+Une part importante de l'expérience du **test de Corsair Cove** tourne autour de la gestion de plus de 50 types de marchandises différents. Des nécessités de base comme le biscuit de mer et le grog aux articles de luxe comme les bijoux et les tenues élégantes, les chaînes de production sont vastes et interconnectées. L'efficacité dépend de la manière dont vous regroupez les bâtiments ; par exemple, garder une distillerie près d'une source de sucre est standard, mais le terrain vertical ajoute une couche où la gravité et la hauteur doivent être prises en compte dans le temps de transport.
+
+| Catégorie | Ressources Clés | Population Cible | Objectif |
+| :--- | :--- | :--- | :--- |
+| **Besoins de Base** | Biscuit de mer, Bière, Rhum | Vagabonds, Travailleurs | Survie et moral |
+| **Biens Spécialisés** | Longues-vues, Sabres | Maraudeurs, Navigateurs | Performance des navires |
+| **Luxe d'Élite** | Tabac, Pistolets, Bijoux | Corsaires Vétérans | Rétention d'équipage de haut niveau |
+| **Matériel de Guerre** | Boulets de canon, Poudre noire | Fortifications | Défense de l'île |
+
+Le jeu dispose d'un stockage interne limité pour les bâtiments de production. Si votre réseau logistique ne peut pas acheminer assez rapidement les produits finis vers un entrepôt ou un centre de distribution, toute la chaîne s'arrête. Cela crée une dynamique de "poussée et traction" où vous devez constamment ajuster quels entrepôts reçoivent des marchandises spécifiques pour éviter que des excédents locaux ne causent des pénuries mondiales.
+
+<CardGrid cols={3}>
+  <Card title="Approvisionnement">
+    - **Gisements Locaux** : Fer, cuivre et bois trouvés sur votre île de départ.
+    - **Pillage** : Acquérez du grain, du vin et de l'argent auprès des avant-postes de la Couronne.
+    - **Exploration** : Découvrez des trésors rares dans des eaux inexplorées.
+  </Card>
+  <Card title="Hubs de Distribution">
+    - **Hub Central** : Tous les bâtiments doivent ultimement s'y lier pour les améliorations.
+    - **Entrepôts** : Gérez le stockage local pour minimiser la distance de transport.
+    - **Jetées** : Essentielles pour déplacer les marchandises entre la mer et la terre.
+  </Card>
+  <Card title="Artisanat Avancé">
+    - **Fonderies** : Produisent des canons et des composants métalliques.
+    - **Tailleurs** : Confectionnent des vêtements pour les différents rangs de pirates.
+    - **Apothicaires** : Essentiels pour produire des médicaments pour les longs voyages.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Spirale de Mort Économique">
+Si votre production de grog échoue, le bonheur des pirates chute, entraînant une baisse d'efficacité, ce qui ralentit encore la production de grog. Maintenez toujours un surplus de 20 % de biens de base pour éviter ce piège.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="La Société Pirate : Cohésion et Niveaux d'Équipage">
+
+Gérer des pirates est fondamentalement différent de gérer des citoyens dans un jeu comme Anno. Dans ce **test de Corsair Cove**, nous constatons que les pirates sont volatils et exigeants. La mécanique de "Cohésion de l'Équipage" fait office de barre de santé principale. Des événements aléatoires vous présenteront des choix difficiles — souvent entre deux mauvais résultats — qui impactent cette cohésion. Si elle atteint zéro, l'équipage se mutine et votre partie s'arrête.
+
+<Steps>
+  <Step num="1" title="Attirer des Vagabonds">
+    Fournissez des logements de base et de la nourriture pour attirer des pirates de bas niveau dans votre crique.
+  </Step>
+  <Step num="2" title="Spécialiser les Travailleurs">
+    Améliorez les installations pour former les vagabonds à des rôles spécialisés comme bâtisseurs ou porteurs.
+  </Step>
+  <Step num="3" title="Recruter un Équipage d'Élite">
+    Construisez des tavernes et des logements de luxe pour attirer des bombardiers, des navigateurs et des renégats.
+  </Step>
+  <Step num="4" title="Assigner des Capitaines">
+    Choisissez des chefs pour vos navires en fonction de leurs bonus uniques et de leur tolérance au risque.
+  </Step>
+</Steps>
+
+Plus le rang du pirate est élevé, plus ses besoins sont exigeants. Alors qu'un vagabond se contente de ragoût et de bière, un Corsaire Vétéran exige du tabac, des cache-œil et des jambes de bois prothétiques. Équilibrer le coût de ces unités de haut niveau par rapport à la puissance de combat qu'elles fournissent est le défi stratégique central du milieu de partie.
+
+| Rang de Pirate | Demande Principale | Rôle de Combat | Impact sur la Cohésion |
+| :--- | :--- | :--- | :--- |
+| **Vagabond** | Biscuit de mer, Bière | Travail de base | Faible |
+| **Maraudeur** | Sabres, Médicaments | Abordages | Moyen |
+| **Navigateur** | Longues-vues, Cartes | Vitesse/Précision du navire | Élevé |
+| **Corsaire** | Tabac, Bijoux | Combattants d'élite | **Très Élevé** |
+
+<Callout type="info" title="Événements Aléatoires">
+Les événements ne sont pas que du texte d'ambiance. Choisir de "Thésauriser l'or avidement" pourrait gonfler votre trésorerie mais fera chuter la cohésion de l'équipage. Soupesez toujours le gain de ressources à court terme par rapport à la stabilité à long terme.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Naval : Cartes, Dés et Stratégie RNG">
+
+Le combat dans Corsair Cove s'éloigne des tactiques en temps réel, optant plutôt pour un système de cartes et de dés au tour par tour. Lorsque votre navire rencontre un ennemi, vous entrez dans une bataille en plusieurs étapes où la santé de votre navire et le nombre de membres d'équipage sont les statistiques vitales. À chaque tour, vous dépensez des fournitures limitées pour jouer des cartes de votre main.
+
+**Déroulement du Combat :**
+- **Phase de Pioche** : Recevez une main de cartes basée sur la compétence de votre capitaine.
+- **Allocation des Ressources** : Dépensez des "Fournitures" pour jouer des cartes offensives ou défensives.
+- **Le Lancer** : Chaque carte a une plage de dégâts ; un lancer de dés détermine l'impact réel.
+- **Tour de l'Ennemi** : L'IA joue ses cartes, qui sont visibles pour vous permettre de contre-attaquer.
+
+| Type de Carte | Effet | Coût en Fournitures | Niveau de Risque |
+| :--- | :--- | :--- | :--- |
+| **Bordée** | Plage de dégâts élevée | Élevé | Moyen |
+| **Se préparer** | Réduit les dégâts entrants | Faible | Faible |
+| **Sacrifice** | Échange de la santé contre des fournitures | Aucun | **Élevé** |
+| **Ration de Grog** | Boost le moral/la précision | Moyen | Faible |
+
+La tension vient des dés. Vous pouvez jouer une carte "Bordée" coûteuse, mais un mauvais lancer pourrait n'infliger que des dégâts minimes, vous laissant vulnérable. Cela fait de chaque bataille un pari calculé. Vous devez décider s'il faut jouer la sécurité et conserver les fournitures ou tout risquer sur un coup d'éclat.
+
+<Callout type="success" title="Conseil de Victoire">
+Priorisez toujours la survie de votre équipage plutôt que la protection de la santé du navire. Les navires peuvent être réparés avec du bois, mais les pirates spécialistes de haut niveau sont coûteux et longs à remplacer.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Objectifs de Progression et Exploration">
+
+La fin de partie de Corsair Cove implique d'étendre votre influence à travers l'archipel et de vaincre les chasseurs de pirates de la Couronne. La progression est suivie à travers quatre dimensions distinctes : **Notoriété, Empire, Navigation et Richesse**. Progresser dans ces catégories débloque de nouveaux bâtiments, des outils logistiques plus efficaces comme les tyroliennes, et des plans de navires puissants.
+
+<Checklist
+  id="corsair-cove-milestones"
+  title="Jalons de Progression Essentiels :"
+  items={[
+    "Établir une boucle de production stable de Grog et de Biscuit de mer",
+    "Construire votre premier système de treuil pour connecter les mines de falaise",
+    "Construire une Frégate et recruter un Capitaine Spécialiste",
+    "Vaincre une patrouille de la Couronne pour sécuriser les eaux de pillage proches",
+    "Atteindre la notoriété 'Infâme' pour débloquer la Guilde des Artistes"
+  ]}
+/>
+
+Le pillage est essentiel car certaines ressources, comme le vin ou le blanc de baleine, ne peuvent pas être produites sur votre île d'origine. Vous devez envoyer votre flotte participer à des événements mondiaux, allant de l'aide aux contrebandiers à l'attaque de forts ennemis. Ces missions testent le courage de votre équipage et le tempérament tactique du joueur.
+
+| Caractéristique | Corsair Cove | Anno 1800 | Série Tropico |
+| :--- | :--- | :--- | :--- |
+| **Axe de Construction** | **Vertical et Horizontal** | Horizontal | Horizontal |
+| **Style de Combat** | Cartes/Dés au tour par tour | Naval en temps réel | Minimal/Indirect |
+| **Population** | Pirates Volatils | Niveaux Structurés | Factions Politiques |
+| **Logistique** | Cordes, Treuils, Sentiers | Routes et Rails | Routes et Transporteurs |
+
+<Callout type="tip" title="Tyroliennes">
+Les tyroliennes sont débloquées dans l'arbre de progression Navigation. Elles sont le moyen le plus rapide de déplacer les marchandises vers le bas, réduisant considérablement le temps nécessaire aux matières premières pour atteindre les entrepôts côtiers.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusion : Corsair Cove vaut-il le coup ?">
+
+En conclusion de ce **test de Corsair Cove**, le jeu se distingue comme une entrée mécaniquement dense et visuellement époustouflante dans le genre city-builder. Sa plus grande force est la verticalité, qui transforme la tâche banale de poser des routes en un défi d'ingénierie complexe. Bien que le RNG en combat puisse frustrer les joueurs préférant un contrôle absolu, il s'intègre parfaitement au thème pirate chaotique.
+
+Si vous appréciez la gestion des ressources d'Anno mais souhaitez un terrain plus accidenté et difficile, et une société qui semble vraiment volatile, Corsair Cove est un excellent choix pour 2026. La combinaison de la logistique verticale, des chaînes de production profondes et de la menace constante de mutinerie crée une boucle de gameplay à la fois gratifiante et riche en enjeux.
+
+<FAQ items={[
+  {
+    question: "Que se passe-t-il si la cohésion de mon équipage atteint zéro ?",
+    answer: "Le jeu s'arrête immédiatement. Vos pirates se mutineront et vous perdrez le contrôle de votre crique. Donnez toujours la priorité aux besoins des pirates et soyez prudent avec les choix basés sur l'avidité lors des événements aléatoires."
+  },
+  {
+    question: "La construction verticale est-elle purement cosmétique ?",
+    answer: "Non, c'est une mécanique centrale. Vous devez utiliser des outils spécifiques comme des treuils, des échelles et des cordes pour déplacer les ressources entre les différents niveaux de hauteur, ce qui impacte directement l'efficacité de vos chaînes de production."
+  },
+  {
+    question: "Comment fonctionne le système de combat dans Corsair Cove ?",
+    answer: "Il utilise un système de cartes et de dés au tour par tour. Vous dépensez des fournitures pour jouer des cartes (dégâts, défense ou utilité), et un lancer de dés détermine l'efficacité dans une plage spécifique."
+  },
+  {
+    question: "Puis-je produire toutes les ressources sur mon île de départ ?",
+    answer: "Non. Bien que vous disposiez de ressources de base comme le bois et le fer, les biens plus avancés ou certains articles de luxe spécifiques comme le vin et le blanc de baleine doivent être acquis par le pillage ou l'exploration."
+  }
+]} />
+
+</Section>
